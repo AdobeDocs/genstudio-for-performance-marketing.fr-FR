@@ -3,7 +3,7 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours marketing numérique.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -28,9 +28,11 @@ Par défaut, les ressources que vous ajoutez à [!DNL Content] par le biais du p
 
 La liste **[!UICONTROL Location]** située au-dessus de la galerie sur le côté droit vous permet de choisir parmi les référentiels Adobe Experience Manager (AEM) [!DNL Assets Content Hub] connectés. Lorsque vous sélectionnez un référentiel AEM, la galerie affiche un inventaire des ressources de ce référentiel, ce qui vous permet d’exploiter les ressources approuvées de ces référentiels en tant qu’entrées pour la création de contenu. Les options de filtre changent pour refléter les catégories configurées dans [!DNL AEM Assets Content Hub].
 
+Voir [Connexion d’un référentiel d’AEM](connect-aem-repo.md) pour plus d’informations sur l’ajout de votre référentiel [!DNL AEM Assets Content Hub] à GenStudio for Performance Marketing.
+
 Le référentiel AEM est en lecture seule, ce qui signifie que vous ne pouvez pas enregistrer de brouillons, de nouvelles ressources ou de nouvelles métadonnées dans le référentiel AEM. Tous les brouillons et mises à jour finales pour les ressources, les expériences et les modèles sont enregistrés dans le référentiel `GenStudio assets` avec de nouvelles [métadonnées système](asset-details.md#system-metadata).
 
-Voir [Connexion d’un référentiel d’AEM](connect-aem-repo.md) pour plus d’informations sur l’ajout de votre référentiel [!DNL AEM Assets Content Hub] à GenStudio for Performance Marketing.
+{{note-aem-assets}}
 
 ## Gestion d’Assets
 
