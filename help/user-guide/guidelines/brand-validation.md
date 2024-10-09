@@ -3,9 +3,9 @@ title: Validation de marque dans Adobe GenStudio pour le marketing de performanc
 description: Découvrez le fonctionnement du système intégré de validation de marque dans GenStudio pour le marketing de performance.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: f9bfd6d7429f1f24947c398ec73b4b350a7e828f
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -65,19 +65,22 @@ Pour optimiser l’efficacité du contenu généré et maintenir une identité d
 
 **Pour améliorer l’alignement de la marque pour les variantes de contenu générées** :
 
-1. Cliquez sur l’icône **[!UICONTROL [!DNL Brand]de vérification de directives]** pour une variante individuelle.
+1. Cliquez sur l’icône **[!UICONTROL [!DNL Brand]de vérification de directives]** pour une variante individuelle. La vérification des directives [!DNL Brand] indique un pourcentage d&#39;alignement de la marque pour une variante.
 
    Consultez un résumé du nombre de directives sur la marque qui ont satisfait à la validation de la marque ou qui nécessitent davantage d’attention.
 
 1. Pour obtenir les détails des sections et des directives qui doivent être améliorées, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône _Validation de marque_ dans la barre de menu supérieure pour ouvrir le panneau _Validation de marque_.
 
-   Consultez toutes les sections et les directives sur la marque qui nécessitent votre attention. <!-- The section highlighted in the panel corresponds to the section highlighted in the generated variant in the Canvas. -->
+   Consultez toutes les sections et les directives sur la marque qui nécessitent votre attention.
 
    >[!NOTE]
    >
    > La directive _Brand voice_ notée dans le _panneau de validation de marque_ s’applique à la variante entière, et non à une section individuelle. Toute la variante de contenu est mise en surbrillance pour l’amélioration suggérée.
 
-1. Révisez manuellement les sections de variante pour obtenir l’alignement le plus solide sur votre marque.
+1. Cliquez sur chaque consigne qui nécessite une attention particulière, à l’aide des boutons **[!UICONTROL Suivant]** et **[!UICONTROL Précédent]** .
+
+1. Utilisez le raisonnement indiqué pour chaque consigne pour informer toute révision des sections de variante afin d’atteindre le meilleur alignement avec votre marque.
+
 
 1. Après avoir effectué les révisions nécessaires, cliquez sur **[!UICONTROL Vérifier à nouveau]** pour vérifier et valider vos modifications afin de vous assurer qu’elles sont plus étroitement alignées sur votre identité de marque.
 
