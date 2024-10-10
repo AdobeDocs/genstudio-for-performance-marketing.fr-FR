@@ -34,85 +34,44 @@ Pour savoir comment préparer et charger ces instructions, consultez la [présen
 La demande est élevée pour des expériences de qualité sur plusieurs canaux à un rythme plus rapide. GenStudio for Performance Marketing simplifie la chaîne d’approvisionnement de contenu dans un workflow bien organisé pour les marketeurs. GenStudio for Performance Marketing tire parti de la technologie d’Adobe à chaque étape du cycle de vie.
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
        <img alt="calendar" src="../assets/csc-workflow-planning.png" width="100">
-
     </td>
-
     <td>
-
         <p>Identifiez vos idées, définissez des directives et élaborez une stratégie autour du contenu pour impliquer votre audience.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="pinceau et canevas" src="../assets/csc-creation-production.png" width="100">
-
     </td>
-
     <td>
-
         <p>Produisez le contenu en fonction du plan. Collaborez en temps réel, recevez des commentaires, effectuez des modifications et approuvez du contenu.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="images, etc." src="../assets/csc-content-mgmt.png" width="100">
-
     </td>
-
     <td>
-
         <p>Stockez, partagez et recherchez des ressources créatives dans le référentiel centralisé. Réutiliser et revitaliser le contenu en fonction des performances.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="avion en papier" src="../assets/csc-delivery-activation.png" width="100">
-
     </td>
-
     <td>
-
         <p>Activez le contenu et publiez sur plusieurs canaux marketing.</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="chart" src="../assets/csc-reporting-insights.png" width="100">
-
     </td>
-
     <td>
-
         <p>collecter des données et obtenir des informations pour l’optimisation des performances des ressources ;</p>
-
     </td>
-
 </tr>
-
 </table>

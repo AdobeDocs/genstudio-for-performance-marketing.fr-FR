@@ -16,63 +16,34 @@ ht-degree: 0%
 # Adobe GenStudio Academy {#genstudio-academy}
 
 <table>
-
 <tr>
-
   <td>
-
     <a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5">
-
       <img alt="Inscrivez-vous à l’Académie des Adobes GenStudio" src="/help/assets/card-create-assets.png" />
-
     </a>
-
     <div>
-
       <a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5">
-
     Enregistrer
-
     </a>
-
     </div>
-
     <p>
-
     <em>New to Adobe GenStudio Academy ? Inscrivez-vous maintenant et commencez à apprendre !</em>
-
     <p>
-
   </td>
-
   <td>
-
     <a href="https://genstudioacademy.adobelearningmanager.com/">
-
     <img alt="Connexion à Adobe GenStudio Academy" src="/help/assets/card-manage-content.png" />
-
     </a>
-
     <div>
-
     <a href="https://genstudioacademy.adobelearningmanager.com/">
-
     Connexion
-
     </a>
-
     </div>
-
     <p>
-
     <em>Vous avez déjà un compte à l'Adobe GenStudio Academy ? Connectez-vous et commencez à apprendre !</em>
-
     </p>
-
   </td>
-
 </tr>
-
 </table>
 
 
