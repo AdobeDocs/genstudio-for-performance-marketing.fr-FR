@@ -4,12 +4,11 @@ description: Découvrez comment créer des expériences de métadonnées de marq
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de
 
    S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Cliquez sur **[!UICONTROL Sélectionner le contenu]** pour ajouter le contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu.
-   * Pour sélectionner des ressources (images) déjà publiées sur [!DNL Content], cliquez sur **[!UICONTROL Sélectionner dans le contenu]** et cliquez pour sélectionner les images de votre choix. Utilisez les filtres pour affiner davantage vos résultats de recherche.
+1. Ajoutez du contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu :
+   * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources (images) dans votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
 
-     Si vous souhaitez utiliser des ressources déjà présentes dans un référentiel Content Hub d’AEM connecté, sélectionnez l’emplacement approprié dans le menu déroulant _Emplacement_ et cliquez pour sélectionner les images de votre choix.
+     Pour utiliser des ressources d’un référentiel [!DNL AEM Assets Content Hub] connecté, sélectionnez un référentiel dans le menu déroulant _Location_. Filtrez et sélectionnez une ou plusieurs images.
 
-   * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox. Cliquez sur pour sélectionner les images de votre choix.
-   * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
+   * Vous pouvez également faire glisser et déposer des ressources dans la section **[!UICONTROL Sélectionner dans le contenu]** pour charger une ou plusieurs nouvelles ressources.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
 Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
@@ -88,7 +86,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour modifier ou sélectionner l’appel à l’action**, cliquez sur le bouton d’appel à l’action et sélectionnez l’une des options de texte de bouton disponibles. Dans _[!UICONTROL Lien]_, saisissez une URL pour le texte d’appel à l’action.
 * **Pour [modifier la taille et les proportions de la publicité](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, passez la souris sur une image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image.
+* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, passez la souris sur une image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image. Cliquez sur **[!UICONTROL Appliquer]**.
 * **Pour [supprimer une méta-publicité](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le titre de la publicité (par exemple, &quot;Meta 4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Commentaires sur la génération d’envoi
@@ -126,7 +124,7 @@ Voir [Révisions et approbations](/help/user-guide/approvals/overview.md) pour p
 
 Pour rendre les métadonnées générées disponibles pour une utilisation actuelle et future, publiez-les sur [!UICONTROL Contenu] et exportez-les pour les utiliser dans vos campagnes marketing.
 
-1. **Pour publier votre nouvelle expérience de métadonnées publicitaires**, cliquez sur **[!UICONTROL Publish]** dans la barre d’outils supérieure.
+1. **Pour publier votre nouvelle expérience de métadonnées publicitaires**, cliquez sur **[!UICONTROL Publish]** dans la barre d’outils supérieure ou dans le flux d’approbations.
 1. **Pour exporter vos nouvelles expériences de métadonnées publicitaires**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
    1. Sélectionnez le format (CSV et images ou HTML uniquement) et cliquez sur **[!UICONTROL Exporter]**.
 
