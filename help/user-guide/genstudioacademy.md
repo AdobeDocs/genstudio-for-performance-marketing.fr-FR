@@ -4,9 +4,9 @@ description: Améliorez vos compétences en matière de chaîne d’approvisionn
 recommendations: disable, exclude
 index: false
 hidefromtoc: true
-source-git-commit: 91ad365ba7096a770d57f2de5d5c65e24ec32e4e
+source-git-commit: ef6bf8c691748844a25957de284c4f8e7dbc5e25
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -70,69 +70,61 @@ ht-degree: 0%
 
 <table>
 
- <tr style= "border: 0;colspan: 3;">
+    <tr style="border: 0;">
 
-  <td colspan="3"> <strong style= "font-size: 2em;">Bientôt disponible</strong></td>
+        <td colspan="3">
 
- </tr> 
+            <strong style="font-size: 2em;">Bientôt disponible</strong>
 
- <tr style= "border: 0;colspan: 3;"> 
+        </td>
 
-   <td align="Center">
+    </tr>
 
-      <img src="../assets/tips-and-tricks.png">
+    <tr style="border: 0;">
 
-      <div>
+        <td align="center">
 
-      <strong>Conseils et astuces </strong>
+            <img src="../assets/tips-and-tricks.png" alt="Conseils et astuces">
 
-      </div>
+            <div>
 
-      <p>
+                <strong>Conseils et astuces</strong>
 
-      Conseils et astuces pour utiliser GenStudio for Performance Marketing de la manière la plus efficace possible.
+            </div>
 
-      </p>
+            <p>Conseils et astuces pour utiliser GenStudio for Performance Marketing de la manière la plus efficace possible.</p>
 
-   </td>
+        </td>
 
-   <td align="Center">
+        <td align="center">
 
-      <img src="../assets/social-learning.png">
+            <img src="../assets/social-learning.png" alt="Apprentissage social">
 
-      <div>
+            <div>
 
-      <strong>Apprentissage social</strong>
+                <strong>Apprentissage social</strong>
 
-      </div>
+            </div>
 
-      <p>
+            <p>Apprenez de vos pairs et partagez facilement vos connaissances dans l’ensemble de votre entreprise.</p>
 
-      Apprenez de vos pairs et partagez facilement vos connaissances dans l’ensemble de votre entreprise.
+        </td>
 
-      </p>
+        <td align="center">
 
-   </td>
+            <img src="../assets/expert-courses.png" alt="Cours d&apos;experts">
 
-   <td align="Center">
+            <div>
 
-      <img src="../assets/expert-courses.png">
+                <strong>Cours d'experts</strong>
 
-      <div>
+            </div>
 
-      <strong>Cours d'experts</strong>
+            <p>Cours avancés pour déverrouiller les compétences en IA de niveau expert en marketing.</p>
 
-      </div>
+        </td>
 
-      <p>
-
-      Cours avancés pour déverrouiller les compétences en IA de niveau expert en marketing.
-
-      </p>
-
-   </td>
-
- </tr>
+    </tr>
 
 </table>
 
@@ -142,13 +134,33 @@ ht-degree: 0%
 
     <tr></tr>
 
- <tr style= "border: 0;">
+    <tr style="border: 0;">
 
- <td><img src="../assets/put-your-learnings-into-practice.png"></td>
+        <td>
 
-  <td> <strong style= "font-size: 2em">Mettez vos leçons en pratique.</strong><p>Explorez GenStudio for Performance Marketing, une application d’intelligence artificielle générative qui permet aux équipes marketing de créer leurs propres publicités et emails afin de générer des campagnes marketing personnalisées et percutantes.<p><a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Emmenez-moi là-bas</span></a></td>
+            <img src="../assets/put-your-learnings-into-practice.png" alt="Mise en pratique de vos connaissances">
 
- </tr>
+        </td>
+
+        <td>
+
+            <strong style="font-size: 3em">Mettez vos leçons en pratique.</strong>
+
+            <p>Explorez GenStudio for Performance Marketing, une application d’IA-first générative qui permet aux équipes marketing de créer leurs propres publicités et emails afin de générer des campagnes marketing personnalisées et percutantes.</p>
+
+            <p>
+
+                <a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
+
+                    <span class="spectrum-Button-label has-no-wrap">Emmenez-moi là-bas</span>
+
+                </a>
+
+            </p>
+
+        </td>
+
+    </tr>
 
     <tr></tr>
 
