@@ -3,7 +3,7 @@ title: Concepts d’Adobe GenStudio for Performance Marketing
 description: Découvrez les concepts et la terminologie d’Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 4d2a7b72132e7bdba314c9f7c83eed327c579c46
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -34,44 +34,85 @@ Pour savoir comment préparer et charger ces instructions, consultez la [présen
 La demande est élevée pour des expériences de qualité sur plusieurs canaux à un rythme plus rapide. GenStudio for Performance Marketing simplifie la chaîne d’approvisionnement de contenu dans un workflow bien organisé pour les marketeurs. GenStudio for Performance Marketing tire parti de la technologie d’Adobe à chaque étape du cycle de vie.
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-       <img alt="calendar" src="../assets/csc-workflow-planning.png" width="100">
-    </td>
+
     <td>
+
+       <p><strong>Workflow et planification</strong></p>
+
+    </td>
+
+    <td>
+
         <p>Identifiez vos idées, définissez des directives et élaborez une stratégie autour du contenu pour impliquer votre audience.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="pinceau et canevas" src="../assets/csc-creation-production.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>Création et production</strong></p>
+
+    </td>
+
+    <td>
+
         <p>Produisez le contenu en fonction du plan. Collaborez en temps réel, recevez des commentaires, effectuez des modifications et approuvez du contenu.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="images, etc." src="../assets/csc-content-mgmt.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>Gestion de contenu</strong></p>
+
+    </td>
+
+    <td>
+
         <p>Stockez, partagez et recherchez des ressources créatives dans le référentiel centralisé. Réutiliser et revitaliser le contenu en fonction des performances.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="avion en papier" src="../assets/csc-delivery-activation.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>Diffusion et activation</strong></p>
+
+    </td>
+
+    <td>
+
         <p>Activez le contenu et publiez sur plusieurs canaux marketing.</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="chart" src="../assets/csc-reporting-insights.png" width="100">
-    </td>
+
     <td>
-        <p>collecter des données et obtenir des informations pour l’optimisation des performances des ressources ;</p>
+
+        <p><strong>Rapports et informations</strong></p>
+
     </td>
+
+    <td>
+
+        <p>collecter des données et obtenir des informations pour l’optimisation des performances des ressources ;</p>
+
+    </td>
+
 </tr>
+
 </table>
