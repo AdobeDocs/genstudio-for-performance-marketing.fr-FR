@@ -1,11 +1,11 @@
 ---
 title: Création d’une expérience d’affichage d’annonce
-description: Découvrez comment créer des expériences d’affichage d’annonce dans Adobe [!DNL GenStudio] pour les marketeurs de performances.
+description: Découvrez comment créer des expériences d’affichage d’annonce dans Adobe [!DNL GenStudio] pour le marketing sur les performances.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 9fc0ad86b99ca61a73b46fd8febfcf66b2975d75
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -33,14 +33,14 @@ Pour créer une expérience d’affichage d’annonce, utilisez un modèle dispo
 
 ## Ajouter des paramètres
 
-L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans la zone d’invite surcharge le processus de génération de contenu et est une étape préparatoire intégrale pour générer une expérience d’affichage publicitaire.
+L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir de l’invite surcharge le processus de génération de contenu et est une étape préparatoire intégrale pour générer une expérience d’affichage publicitaire.
 
 **Pour ajouter des paramètres et des ressources** :
 
-1. Cliquez sur l’icône _Paramètres_ pour développer la zone d’invite.
+1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir de l’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
-   S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour les marketeurs de performances](/help/user-guide/guidelines/add-guidelines.md).
+   S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Pour ajouter du contenu à utiliser dans l’expérience *et* afin d’influencer la génération du contenu :
    * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources (images) dans votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
@@ -50,7 +50,7 @@ L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ress
    * Vous pouvez également faire glisser et déposer des ressources dans la section **[!UICONTROL Sélectionner dans le contenu]** pour charger une ou plusieurs nouvelles ressources.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
-Lorsque vous avez terminé d’ajouter des paramètres, réduisez la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
+Lorsque vous avez terminé d’ajouter des paramètres, réduisez le tiroir de l’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
 ## Saisissez une invite
 

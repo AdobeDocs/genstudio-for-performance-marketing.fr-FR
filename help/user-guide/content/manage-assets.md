@@ -3,7 +3,7 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours marketing numérique.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Le référentiel AEM est en lecture seule, ce qui signifie que vous ne pouvez pa
 
 ## Gestion d’Assets
 
-Dans [!UICONTROL Contenu], les marketeurs de performances peuvent facilement stocker, récupérer et gérer leurs ressources numériques. En exploitant à la fois le référentiel `GenStudio assets` et les référentiels AEM, les utilisateurs peuvent s’assurer que leurs ressources sont bien organisées et accessibles pour diverses campagnes marketing. Cette approche multi-référentiel offre une flexibilité et un contrôle sur l’utilisation des ressources dans tous les environnements, en s’assurant que seules les ressources approuvées et à jour sont utilisées dans les efforts marketing.
+Dans [!UICONTROL Contenu], le marketing de performance peut facilement stocker, récupérer et gérer leurs ressources numériques. En exploitant à la fois le référentiel `GenStudio assets` et les référentiels AEM, les utilisateurs peuvent s’assurer que leurs ressources sont bien organisées et accessibles pour diverses campagnes marketing. Cette approche multi-référentiel offre une flexibilité et un contrôle sur l’utilisation des ressources dans tous les environnements, en s’assurant que seules les ressources approuvées et à jour sont utilisées dans les efforts marketing.
 
 ### Ajout de ressources
 
@@ -66,7 +66,7 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont par défaut stock�
 
 1. Pour afficher vos nouvelles ressources chargées, cliquez sur **[!UICONTROL Actualiser]** dans la notification _Nouvelles ressources disponibles_ située au bas de la zone de travail.
 
-<!-- 
+<!--
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Pour commencer à générer une nouvelle expérience de métadonnées publicitai
 
 ## Ajouter des paramètres
 
-L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans la zone d’invite améliore le processus de génération de contenu et est une étape essentielle dans la préparation de la génération d’une méta-publicité.
+L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir de l’invite améliore le processus de génération de contenu et est une étape essentielle dans la préparation de la génération d’une méta-publicité.
 
 **Pour ajouter des paramètres et des ressources** :
 
-1. Cliquez sur l’icône _Paramètres_ pour développer la zone d’invite.
+1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir de l’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
    S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
@@ -50,7 +50,7 @@ L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de
    * Vous pouvez également faire glisser et déposer des ressources dans la section **[!UICONTROL Sélectionner dans le contenu]** pour charger une ou plusieurs nouvelles ressources.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
-Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
+Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire le tiroir de l’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
 ## Saisissez une invite
 

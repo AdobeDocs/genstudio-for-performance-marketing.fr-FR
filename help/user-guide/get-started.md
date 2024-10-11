@@ -4,7 +4,7 @@ description: Découvrez comment configurer votre GenStudio for Performance Marke
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 8%
@@ -40,7 +40,7 @@ Trois types de rôles utilisateur GenStudio for Performance Marketing prennent e
 
 **Les éditeurs** disposent des autorisations de base nécessaires pour créer des ressources GenStudio for Performance Marketing [!DNL Brands], [!DNL Campaigns] et [!DNL Content]. Ils peuvent également modifier et supprimer les ressources qu’ils ont créées. GenStudio for Performance Marketing prend en charge la création rapide de centaines de fragments de contenu. Ces utilisateurs peuvent générer des sections de contenu ou des expériences complètes qui orchestrent des éléments distincts de contenu approuvé pour répondre aux besoins de campagnes marketing spécifiques.
 
-Les éditeurs interagissent avec les technologies GenStudio for Performance Marketing Generative AI via _l’invite_. La zone d’invite de la zone de travail fournit des outils pour placer des invites dans le contexte des instructions d’une campagne spécifique. Par conséquent, la qualité et le succès du contenu généré dépendent partiellement de la qualité des directives de marque que votre entreprise a chargées et de la spécificité de votre invite.
+Les éditeurs interagissent avec les technologies GenStudio for Performance Marketing Generative AI via _l’invite_. Le tiroir d’invite du canevas fournit des outils pour placer des invites dans le contexte des instructions d’une campagne spécifique. Par conséquent, la qualité et le succès du contenu généré dépendent partiellement de la qualité des directives de marque que votre entreprise a chargées et de la spécificité de votre invite.
 
 Voir [Écrire des invites efficaces](effective-prompts.md).
 

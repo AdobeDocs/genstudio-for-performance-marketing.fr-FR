@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Pour créer une expérience de courrier électronique, utilisez un modèle dispo
 
 ## Ajouter des paramètres
 
-L’ajout de [ instructions](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans la zone d’invite surcharge le processus de génération de contenu et est une étape préparatoire intégrale pour générer une expérience de courrier électronique.
+L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir de l’invite surcharge le processus de génération de contenu et est une étape préparatoire intégrale pour générer une expérience de courrier électronique.
 
 **Pour ajouter des paramètres et des ressources** :
 
-1. Cliquez sur l’icône _Paramètres_ pour développer la zone d’invite.
+1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir de l’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
    S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
@@ -54,7 +54,7 @@ L’ajout de [ instructions](/help/user-guide/guidelines/overview.md) et de ress
 >
 >Si votre modèle de courrier électronique comporte plusieurs sections, sélectionnez [!DNL Products] et contenu (ressources visuelles) pour chaque section d’email dans les _emails à plusieurs sections_. Les emails à plusieurs sections prennent en charge une ressource visuelle par section.
 
-Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
+Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire le tiroir de l’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
 ## Saisissez une invite
 

@@ -3,7 +3,7 @@ title: Écrire les invites efficaces
 description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -39,13 +39,13 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## Critères d’invite
 
-Dans GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), vous pouvez utiliser les **[!UICONTROL critères d’invite]** ([_Paramètres_](/help/user-guide/create/overview.md#parameters) et une invite) dans la zone d’invite pour ajouter des détails par le biais de la sélection afin d’améliorer l’interprétation de l’IA.
+Dans GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), vous pouvez utiliser les **[!UICONTROL critères d’invite]** ([_Paramètres_](/help/user-guide/create/overview.md#parameters) et une invite) dans le tiroir de l’invite pour ajouter des détails par le biais de la sélection afin d’améliorer l’interprétation de l’IA.
 
 Pour [emails](/help/user-guide/create/email-experiences.md), les critères d’invite peuvent inclure l’ajout de [guidelines](/help/user-guide/guidelines/overview.md) dans _Parameters_, le chargement d’une ressource à utiliser dans les variantes d’email et une invite descriptive. Pour une [méta-publicité](/help/user-guide/create/create-meta-ad.md), les critères d’invite peuvent inclure une ligne directrice de la marque dans _Paramètres_, la sélection ou le chargement d’une ressource existante, des paramètres liés aux images ou aux ressources tels que les proportions et une invite. La puissance réelle commence par [configurer les instructions](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Si des instructions sont ajoutées dans la zone d’invite _Paramètres_, il n’est pas nécessaire d’y inclure des références dans votre invite. GenStudio for Performance Marketing exploite ces [!DNL Brands], [!DNL Products] et [!DNL Personas] dans la génération du contenu.
+>Si des instructions sont ajoutées dans _Parameters_ dans le tiroir de l’invite, vous n’avez pas besoin d’y inclure de référence dans votre invite. GenStudio for Performance Marketing exploite ces [!DNL Brands], [!DNL Products] et [!DNL Personas] dans la génération du contenu.
 
 ### Instructions
 
