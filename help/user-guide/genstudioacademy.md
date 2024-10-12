@@ -4,9 +4,9 @@ description: Améliorez vos compétences en matière de chaîne d’approvisionn
 recommendations: disable, exclude
 index: false
 hidefromtoc: true
-source-git-commit: ef6bf8c691748844a25957de284c4f8e7dbc5e25
+source-git-commit: ff49e6f886dd334a70366ced1662a84c2a4d0cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -15,39 +15,48 @@ ht-degree: 0%
 
 <table>
 
- <tr style= "border: 0;">
+ <tr style="border: 0;">
 
-  <td> <strong style= "font-size: 2em">Élevez vos connaissances en IA générative.  </strong><p>Principal des compétences en IA générative pour transformer vos workflows de création et de marketing. <p><a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Enregistrer</span></a>          <a href="https://genstudioacademy.adobelearningmanager.com/" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Connexion</span></a></td>
+   <td><img src="../assets/elevate-your-generative-ai.png"></td>
 
-  <td><img src="../assets/elevate-your-generative-ai-knowledge.png"></td>
+   <td rowspan="2"><img src="../assets/elevate-your-generative-ai-knowledge.png"></td>
+
+ </tr>
+
+ <tr>
+
+   <td>[!BADGE Register]{type=Informative url="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5" tooltip="Créer un compte GenStudio Academy"}       [!BADGE Connectez-vous]{type=Informative url="https://genstudioacademy.adobelearningmanager.com/" tooltip="Connectez-vous à GenStudio Academy"}</td>
 
  </tr>
 
 </table>
 
-<table>
 
- <tr style= "border: 0;">
-
-  <td align="center">
-
-    <strong style= "font-size: 2em">IA générative Principal avec GenStudio Academy.</strong><p>Acquérir les compétences essentielles pour intégrer l’IA générative à vos workflows de création et de marketing, à tout moment, n’importe où et complètement gratuitement.
-
-  </td>
-
- </tr>
-
-</table>
+<img src="../assets/learn-generative-ai-with-genstudio.png">
 
 >[!BEGINSHADEBOX]
 
 <table>
 
- <tr style= "border: 0;">
+ <tr style="border: 0;">
 
   <td><img src="../assets/generative-ai-for-marketing-simplified.png"></td>
 
-  <td align="center"> <strong style= "font-size: 2em">IA générative pour le marketing. Simplifié.</strong><p> GenStudio Academy transforme des tâches d’IA générative complexes en cours faciles à suivre, tels que la transformation des directives de marque. Grâce à des guides et des vidéos téléchargeables, les apprenants peuvent maîtriser l’IA générative, concept par concept.<p><a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Explorer maintenant</span></a></td>
+  <td><img src="../assets/simplified.png"></td>
+
+ </tr>
+
+ <tr>
+
+   <td>
+
+   </td>
+
+   <td>
+
+   [!BADGE Explorer maintenant]{type=Informative url="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5" tooltip="Connectez-vous à l’Académie GenStudio"}
+
+   </td>
 
  </tr>
 
@@ -55,114 +64,37 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-<table>
+<img src="../assets/levels-of-learning.png">
 
- <tr style= "border: 0;">
+<img src="../assets/coming-soon.png">
 
-  <td align="center"> <strong style= "font-size: 2em">Niveaux d’apprentissage. Une opportunité sans limite déverrouillée.</strong><p>Grâce aux niveaux de maîtrise de GenStudio Academy, il est simple de trouver du contenu qui améliore vos compétences d’IA générative, que vous appreniez à utiliser les LLM, maîtrisiez la création rapide ou que vous voyiez des outils d’IA en action. GenStudio Academy a quelque chose pour tout le monde.</td>
-
-  <td><img src="../assets/levels-of-learning.png"></td>
-
- </tr>
-
-</table>
-
-
-<table>
-
-    <tr style="border: 0;">
-
-        <td colspan="3">
-
-            <strong style="font-size: 2em;">Bientôt disponible</strong>
-
-        </td>
-
-    </tr>
-
-    <tr style="border: 0;">
-
-        <td align="center">
-
-            <img src="../assets/tips-and-tricks.png" alt="Conseils et astuces">
-
-            <div>
-
-                <strong>Conseils et astuces</strong>
-
-            </div>
-
-            <p>Conseils et astuces pour utiliser GenStudio for Performance Marketing de la manière la plus efficace possible.</p>
-
-        </td>
-
-        <td align="center">
-
-            <img src="../assets/social-learning.png" alt="Apprentissage social">
-
-            <div>
-
-                <strong>Apprentissage social</strong>
-
-            </div>
-
-            <p>Apprenez de vos pairs et partagez facilement vos connaissances dans l’ensemble de votre entreprise.</p>
-
-        </td>
-
-        <td align="center">
-
-            <img src="../assets/expert-courses.png" alt="Cours d&apos;experts">
-
-            <div>
-
-                <strong>Cours d'experts</strong>
-
-            </div>
-
-            <p>Cours avancés pour déverrouiller les compétences en IA de niveau expert en marketing.</p>
-
-        </td>
-
-    </tr>
-
-</table>
 
 >[!BEGINSHADEBOX]
 
+
 <table>
 
-    <tr></tr>
+ <tr style="border: 0;">
 
-    <tr style="border: 0;">
+  <td><img src="../assets/put-your-learnings-into-practice.png"></td>
 
-        <td>
+  <td><img src="../assets/put-your-learnings-into-practice-text.png"></td>
 
-            <img src="../assets/put-your-learnings-into-practice.png" alt="Mise en pratique de vos connaissances">
+ </tr>
 
-        </td>
+ <tr>
 
-        <td>
+   <td>
 
-            <strong style="font-size: 3em">Mettez vos leçons en pratique.</strong>
+   </td>
 
-            <p>Explorez GenStudio for Performance Marketing, une application d’IA-first générative qui permet aux équipes marketing de créer leurs propres publicités et emails afin de générer des campagnes marketing personnalisées et percutantes.</p>
+   <td>
 
-            <p>
+   [!BADGE Me prendre là]{type=Informative url="https://business.adobe.com/products/genstudio-for-performance-marketing.html" tooltip="En savoir plus sur business.adobe.com"}
 
-                <a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
+   </td>
 
-                    <span class="spectrum-Button-label has-no-wrap">Emmenez-moi là-bas</span>
-
-                </a>
-
-            </p>
-
-        </td>
-
-    </tr>
-
-    <tr></tr>
+ </tr>
 
 </table>
 
