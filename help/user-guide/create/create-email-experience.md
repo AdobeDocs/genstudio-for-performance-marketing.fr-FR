@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ress
 
 >[!NOTE]
 >
->Si votre modèle de courrier électronique comporte plusieurs sections, sélectionnez [!DNL Products] et contenu (ressources visuelles) pour chaque section d’email dans les _emails à plusieurs sections_. Les emails à plusieurs sections prennent en charge une ressource visuelle par section.
+>Si votre modèle de courrier électronique comporte plusieurs sections, sélectionnez [!DNL Products] et contenu (ressources visuelles) pour chaque section d’email dans les _emails à plusieurs sections_. Les emails à plusieurs sections prennent en charge une ressource visuelle par section. Vous pouvez uniquement ajouter des ressources visuelles aux e-mails à plusieurs sections provenant de [!DNL Content]. Vous ne pouvez pas faire glisser et charger des ressources à partir de votre source locale.
 
 Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire le tiroir de l’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 

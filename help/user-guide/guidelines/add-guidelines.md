@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 1%
@@ -185,7 +185,7 @@ Consultez [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
 1. Sélectionnez le bouton **[!UICONTROL Ajouter une persona]** et choisissez **Télécharger des PDF**.
 1. Cliquez sur **[!UICONTROL Continuer]**.
-1. Dans la fenêtre contextuelle _Ajouter votre persona, joignez ou faites glisser votre document persona.
+1. Dans la fenêtre contextuelle _Ajouter votre persona_, joignez ou faites glisser votre document persona.
 
    Vous pouvez attacher jusqu’à cinq fichiers PDF d’un maximum de 500 MG combinés.
 
