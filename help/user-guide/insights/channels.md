@@ -3,9 +3,9 @@ title: Présentation des canaux
 description: Consultez un aperçu de l’engagement des clients, des performances, du budget et des dépenses pour les campagnes marketing dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 2e1ef218bbdccc3c48cf402a7fb3916a570369e5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Le tableau suivant fournit des définitions et des informations sur les mesures 
 | **[!UICONTROL Impressions]** | Comptage de chaque chargement de contenu dans le canal, indépendamment de l’interaction ou de l’affichage. | Un nombre d’impressions élevé peut indiquer une large visibilité, mais pour obtenir de vraies informations sur les performances, prenez en compte d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs interagissent avec un élément cliquable, tel qu’un lien ou un bouton d’appel à l’action, dans la campagne publicitaire. | Un nombre de clics élevé indique un fort intérêt et un engagement envers le contenu, ce qui peut être efficace et atteindre la bonne audience. |
 | **[!UICONTROL CTR ]**<br>_Taux de clics_ | Pourcentage (%) d&#39;impressions ayant généré des clics de campagne dans un canal.<br>**Calcul** : (`clicks` divisé par `impressions`) x 100 = % | Un taux de clics élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et cible effectivement les intérêts du public. |
-| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût ($) pour chaque millier d’impressions publicitaires pour la campagne publicitaire. <br>**Calcul** : (montant total `spent` divisé par `impressions`) x 1000 = $ | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clics élevé. |
+| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût ($) pour chaque millier d’impressions publicitaires pour la campagne publicitaire. <br>**Calcul** : (montant total `spent` divisé par `impressions`) x 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clics élevé. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen ($) associé à chaque clic dans une campagne publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` = $ | Des coûts moyens inférieurs peuvent indiquer des dépenses publicitaires rentables, en particulier par rapport à une augmentation des conversions. |
 | **[!UICONTROL Lecture de vidéo]** | Pourcentage (%) des visiteurs qui ont visionné une vidéo jusqu’à la fin. | Un nombre élevé de lectures de vidéo peut indiquer que la vidéo attire l’attention et peut signifier que la miniature, le titre ou le placement est effectivement en train de se dessiner dans les visionneuses. Les taux élevés d’achèvement de la lecture suggèrent que votre contenu vidéo est convaincant et pertinent. |
 | **[!UICONTROL Budget]** | Total des fonds ($) alloués à une campagne publicitaire pour atteindre les objectifs de la campagne. | Un budget élevé signifie plus de ressources pour une plus large portée et potentiellement un plus grand impact. |

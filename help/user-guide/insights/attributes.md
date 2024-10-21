@@ -2,9 +2,9 @@
 title: Présentation des attributs
 description: Découvrez comment évaluer les performances d’attributs spécifiques dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Les mesures de statistiques peuvent vous aider à évaluer les attributs qui ins
 
 ### Détails des mesures
 
-Le tableau suivant fournit des définitions et des informations sur les mesures de marketing numérique clés dans la vue [!UICONTROL Attributs]. Chaque mesure comprend une brève définition en ce qui concerne une ressource, le mode de calcul de la mesure et une ou plusieurs informations permettant de comprendre son importance et son impact sur une campagne publicitaire.
+Le tableau suivant fournit des définitions et des informations sur les mesures de marketing numérique clés dans la vue de tableau [!UICONTROL Attributs]. Chaque mesure comprend une brève définition en ce qui concerne une ressource, le mode de calcul de la mesure et une ou plusieurs informations permettant de comprendre son importance et son impact sur une campagne publicitaire.
 
 | Mesure | Définition | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
@@ -120,5 +120,6 @@ Le tableau suivant fournit des définitions et des informations sur les mesures 
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs interagissent avec une image ou une vidéo avec cet attribut. | Un nombre de clics élevé indique un fort intérêt et un engagement envers le contenu, ce qui peut être efficace et atteindre la bonne audience. |
 | **[!UICONTROL CTR ]**<br>_Taux de clics_ | Pourcentage (%) d&#39;impressions ayant généré des clics sur les images ou les vidéos avec cet attribut.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clics élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et cible effectivement les intérêts du public. |
 | **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût ($) pour chaque millier d’impressions publicitaires d’une image ou d’une vidéo avec cet attribut.<br>**Calcul** : somme `spent` divisée par portée, puis multipliée par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clics élevé. |
+| **[!UICONTROL CPA ]**<br>_Coût par action_ | Coût moyen ($) dépensé pour réaliser une action client spécifique, comme un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d’actions client terminées | Permet d’identifier les attributs qui génèrent des actions précieuses de la part des clients. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen ($) associé à chaque clic sur les images ou les vidéos avec cet attribut.<br>**Calcul** : montant total `spent` divisé par `clicks` | Des coûts moyens inférieurs peuvent indiquer des dépenses publicitaires rentables, en particulier par rapport à une augmentation des conversions. |
 | **[!UICONTROL Dépenser]** | Montant ($) dépensé dans le budget en ce qui concerne les attributs sur une période donnée. | Un montant élevé de dépenses sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à une diminution rapide des ressources. Effectuez le suivi du montant des dépenses par rapport aux mesures de performances clés pour mieux surveiller le retour sur investissement global. |
