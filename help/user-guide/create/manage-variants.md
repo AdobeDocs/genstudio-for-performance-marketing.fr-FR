@@ -2,9 +2,9 @@
 title: Gestion des variantes
 description: Personnalisez et améliorez les variantes et les ressources générées en fonction de vos besoins en marketing numérique.
 feature: Content, Assets, Experiences
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,16 @@ GenStudio for Performance Marketing dispose de la fonctionnalité intégrée pou
 
 Par exemple, vous pouvez générer à nouveau la section du titre d’une variante de métadonnées publicitaires pour voir à quoi elle ressemble avec une ressource d’arrière-plan spécifique à l’aide des options _[!UICONTROL Suggested edits]_—_[!UICONTROL Rep]_, _[!UICONTROL Shorten]_ ou _[!UICONTROL Lengthen]_—et saisir une nouvelle invite.
 
+![Recréer les sections](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
+
 **Pour générer à nouveau des sections de variante individuelles** :
 
 1. Après avoir généré un ensemble de variantes, cliquez une seule fois sur un texte modifiable dans une variante.
-1. (_Facultatif_) Entrez une nouvelle invite pour modifier la cible d’action du contenu régénéré.
 1. Sélectionnez une option _[!UICONTROL Suggestions de modification]_—_[!UICONTROL Réphrase]_, _[!UICONTROL Shorten]_ ou _[!UICONTROL Lengthen]_.
-1. Cliquez sur **[!UICONTROL Générer]**.
-1. Si vous souhaitez régénérer les résultats, cliquez sur l’icône de régénération située en regard de _Results_.
+   * Choisissez une option disponible et cliquez sur **[!UICONTROL Remplacer]**.
+1. (_Facultatif_) Sélectionnez _[!UICONTROL Générer avec l’invite] et saisissez une nouvelle invite pour modifier le focus du contenu régénéré.
+   * Cliquez sur **[!UICONTROL Générer]**.
+1. Si vous souhaitez régénérer les résultats pour afficher d’autres options, cliquez sur l’icône de régénération située en regard de _Résultats_.
 1. Dans les _Résultats_ qui s’affichent, sélectionnez l’option souhaitée et cliquez sur **[!UICONTROL Remplacer]**.
 
    La variante est mise à jour avec le texte révisé.
@@ -151,6 +154,8 @@ Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md#impr
 ## Commentaires sur la génération
 
 Vous pouvez envoyer des commentaires sur la qualité des ressources générées alignées sur la marque afin d’améliorer le processus de génération du contenu. Indiquer si les résultats sont de grande ou de mauvaise qualité contribue à améliorer la qualité globale du contenu et la sécurité des utilisateurs de GenStudio for Performance Marketing.
+
+![Envoyer un commentaire sur la génération de contenu](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
 
 Les commentaires de génération s&#39;appliquent à une variante individuelle, et non à l&#39;ensemble de variantes collectées.
 

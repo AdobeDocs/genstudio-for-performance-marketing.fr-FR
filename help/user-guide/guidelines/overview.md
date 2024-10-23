@@ -3,7 +3,7 @@ title: Présentation de [!DNL Brands], [!DNL Products] et [!DNL Personas]
 description: Ajoutez  [!DNL Brands], [!DNL Products], and [!DNL Personas]  à GenStudio pour le marketing de performance afin de créer un profil de marque complet qui inclut tous les aspects de la représentation d’une marque.
 feature: Guidelines, Brands Service, Personas Service, Products Service
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

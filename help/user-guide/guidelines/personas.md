@@ -3,9 +3,9 @@ title: GenStudio pour le Marketing des performances [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas] est une représentation fidèle de vos segments de clients, qui capture leurs intérêts, leurs points de douleur, leurs préférences et leurs caractéristiques comportementales.
 feature: Personas Service, Guidelines
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 [!DNL Personas] fournit une représentation authentique de vos segments de clients, incluant leurs informations, leurs intérêts, leurs points de douleur, leurs préférences et leurs caractéristiques comportementales.
 
 GenStudio for Performance Marketing tire parti de la puissance des directives ([[!DNL Brands],  [!DNL Products] et  [!DNL Personas]](overview.md)) et de la technologie d’IA générative de l’Adobe pour traiter le contenu marketing personnalisé pour vos clients cibles. &#x200B;
-
-![[!DNL Personas] directives dans GenStudio pour le marketing de performances](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **Pour afficher ou modifier une persona** :
 
@@ -29,6 +27,8 @@ Voir [Ajout de directives](add-guidelines.md) pour savoir comment ajouter ou mod
 ## [!DNL Personas] conseils
 
 Les directives de personnage individuelles donnent à GenStudio for Performance Marketing une image claire de votre [!DNL Personas].
+
+![Directives relatives à la personnalisation](/help/assets/personas.png){width="600" zoomable="yes"}
 
 Ces instructions détaillent chaque catégorie de consignes et les exemples connexes. Les exemples sont des exemples d’entrées qui façonnent la sortie du contenu généré. Utilisez-les pour indiquer vos propres instructions [!DNL Personas].
 

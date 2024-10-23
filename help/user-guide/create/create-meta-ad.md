@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ress
 1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir de l’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
+   ![Choisir persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Ajoutez du contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu :
    * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources (images) dans votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
+
+     ![Choisir le contenu visuel](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      Pour utiliser des ressources d’un référentiel [!DNL AEM Assets Content Hub] connecté, sélectionnez un référentiel dans le menu déroulant _Location_. Filtrez et sélectionnez une ou plusieurs images.
 
@@ -102,6 +106,8 @@ Pour optimiser les publicités générées et garantir une stricte conformité a
 1. Cliquez sur l’icône [**[!UICONTROL [!DNL Brand] de vérification de directives]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) pour une variante et affichez un résumé de son fonctionnement lors de la vérification de votre marque.
 1. Pour obtenir les détails des sections et des directives qui doivent être améliorées, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
+   ![Panneau de validation de marque](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+
 1. Passez d’une publicité à l’autre pour voir comment améliorer le contenu généré afin d’être plus aligné sur la marque.
 1. [Révision manuelle des publicités](#revise-generated-meta-ads) pour vous assurer que vos publicités sont étroitement alignées sur votre marque.
 
@@ -114,6 +120,9 @@ Utilisez le panneau Approbations, accessible dans la barre de menus supérieure 
 **Pour obtenir des révisions et des validations** :
 
 1. [Lancer une demande d’approbation](/help/user-guide/approvals/request-review.md) pour demander une [approbation des expériences de métadonnées préliminaires](/help/user-guide/approvals/approve-content.md).
+
+   ![Envoyer des brouillons pour révision et approbation](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
+
 1. [Supprimez ou ajoutez des réviseurs](/help/user-guide/approvals/review-and-edit.md#manage-approvals) pendant le processus de révision.
 1. [Accédez au contenu à réviser](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) et consultez les demandes de révision.
 1. Modifiez les brouillons par commentaires de révision et [publiez vos expériences de métadonnées publicitaires](#publish-and-export-experience).

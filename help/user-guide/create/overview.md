@@ -3,9 +3,9 @@ title: Présentation de GenStudio pour le marketing de performances [!DNL Create
 description: Générez rapidement du contenu hautement performant sur marque avec une IA générative dans Adobe GenStudio pour le marketing de performances [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: 8f77f877eb09f91160cb149d5df55e1030989370
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 1%
 # GenStudio pour le marketing de performances [!DNL Create]
 
 GenStudio for Performance Marketing [!DNL Create] tire parti de la puissance d’Adobe GenAI pour permettre aux marketeurs et aux équipes distribuées de créer des expériences hautement performantes sur marque.
+
+![Créer un tableau de bord](/help/assets/create.png){width="600" zoomable="yes"}
 
 Avec [!DNL Create], vous pouvez générer du contenu pour les canaux suivants :
 
@@ -25,43 +27,74 @@ Outre la puissance de [guidelines](/help/user-guide/guidelines/overview.md)—[!
 ## Scénarios d’utilisation d’[!DNL Create] 
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Créer du contenu" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> Créez une expérience de courrier électronique </strong>
+
          </a>
+
       </div>
+
    </td>
-   <!-- <td align="center" valign="top" width="100">
-      <a href="/help/user-guide/content/overview.md">
-      <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
-      </a>
-      <div>
-         <a href="/help/user-guide/content/overview.md">
-         <strong>Re-use existing content</strong>
-         </a>
-      </div>
-   </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../create/generate-variants.md">
-      <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
+
+      <a href="/help/user-guide/create/create-meta-ad.md">
+
+      <img alt="Création d’une expérience de métadonnées publicitaires" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
-         <a href="../create/generate-variants.md">
-         <strong>Generate variants of approved content</strong>
+
+         <a href="/help/user-guide/create/create-meta-ad.md">
+
+         <strong>Création d’une expérience de métadonnées publicitaires</strong>
+
          </a>
+
       </div>
-   </td> -->
+
+   </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="/help/user-guide/create/create-display-ad.md">
+
+      <img alt="Création d’une expérience d’affichage d’annonce" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
+      </a>
+
+      <div>
+
+         <a href="/help/user-guide/create/create-display-ad.md">
+
+         <strong> Créez une expérience d’affichage d’annonce </strong>
+
+         </a>
+
+      </div>
+
+   </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing permet aux marketeurs de **créer du contenu marketing**. Dans ce cas d’utilisation, utilisez des [directives](/help/user-guide/guidelines/overview.md) définies et des images d’inspiration pour informer la création de contenu aligné sur la marque.
-<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content.
-* **Generate variants of approved content** - In this use case, [generate variations of content that is approved by stakeholders](generate-variants.md) and published to [!DNL Content]. -->
 
 ## Fonctionnalités [!DNL Create]
 

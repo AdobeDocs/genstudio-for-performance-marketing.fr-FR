@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ress
 1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir de l’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
+   ![Choisir persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Ajoutez du contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu :
    * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources (images) dans votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
+
+     ![Choisir le contenu visuel](/help/assets/content-select-email.png){width="500" zoomable="yes"}
 
      Pour utiliser des ressources d’un référentiel [!DNL AEM Assets Content Hub] connecté, sélectionnez un référentiel dans le menu déroulant _Location_. Filtrez et sélectionnez une ou plusieurs images.
 
@@ -51,8 +55,8 @@ L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ress
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
 >[!NOTE]
->
 >Si votre modèle de courrier électronique comporte plusieurs sections, sélectionnez [!DNL Products] et contenu (ressources visuelles) pour chaque section d’email dans les _emails à plusieurs sections_. Les emails à plusieurs sections prennent en charge une ressource visuelle par section. Vous pouvez uniquement ajouter des ressources visuelles aux e-mails à plusieurs sections provenant de [!DNL Content]. Vous ne pouvez pas faire glisser et charger des ressources à partir de votre source locale.
+>![Ajouter du contenu et des paramètres pour chaque section d&#39;email](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire le tiroir de l’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
@@ -98,9 +102,15 @@ Pour optimiser les e-mails générés et garantir une stricte conformité avec l
 **Pour vérifier l’alignement de la marque** :
 
 1. Cliquez sur l’icône [**[!UICONTROL [!DNL Brand] de vérification de directives]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) pour une variante et affichez un résumé de son fonctionnement lors de la vérification de votre marque.
+
+   ![Vérification des directives de marque](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+
 1. Pour obtenir les détails des sections et des directives qui doivent être améliorées, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passez d’un courrier électronique à l’autre pour voir comment améliorer le contenu généré pour qu’il soit davantage aligné sur la marque.
+
+   ![Panneau de validation de marque](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
+
 1. [Révision manuelle des emails](#revise-generated-emails) pour vous assurer que vos emails sont étroitement alignés sur votre marque.
 
 Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md).

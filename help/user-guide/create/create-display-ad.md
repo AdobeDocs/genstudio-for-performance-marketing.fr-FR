@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Lorsque vous avez terminé d’ajouter des paramètres, réduisez le tiroir de l
 ## Saisissez une invite
 
 Une fois les instructions sélectionnées, créez une invite à l’aide du langage naturel afin de commencer à générer du contenu pour votre nouvelle expérience d’affichage publicitaire. Pour améliorer la qualité des expériences d’affichage et de description générées, il est essentiel de créer des invites détaillées et descriptives.
+
+![Entrez une invite](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l’écriture d’invites.
 
@@ -115,6 +117,11 @@ Voir [Révisions et approbations](/help/user-guide/approvals/overview.md).
 Pour rendre les publicités display générées disponibles pour une utilisation actuelle et future, publiez-les sur [!UICONTROL Contenu] et exportez-les pour les utiliser dans vos campagnes marketing.
 
 1. **Pour publier votre nouvelle expérience d’affichage publicitaire**, cliquez sur **[!UICONTROL Publish]** dans la barre d’outils supérieure ou dans le flux d’approbations.
+   1. Sélectionnez _[!UICONTROL [!DNL Campaigns]]_et ajoutez_[!UICONTROL  Plus de détails ]_si vous le souhaitez.
+   1. Cliquez sur **[!UICONTROL Publier]**.
+
+      ![Publish a display ad](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+
 1. **Pour exporter votre nouvelle expérience d’affichage publicitaire**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
    1. Sélectionnez le format JPG uniquement et cliquez sur **[!UICONTROL Exporter]**.
 

@@ -3,9 +3,9 @@ title: Validation de marque dans Adobe GenStudio pour le marketing de performanc
 description: Découvrez le fonctionnement du système intégré de validation de marque dans GenStudio pour le marketing de performance.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ GenStudio for Performance Marketing effectue la validation de la marque sur dive
 * Copie des directives pour différentes plateformes de canal
 * Considérations éthiques liées au genre, à l’ethnie, à la race, au statut d’invalidité et à l’âge dans les contenus générés par l’IA
 
-## Vérification des directives sur les marques
+## Vérification des directives [!DNL Brand]
 
-Un résumé des informations de validation de marque pour chaque variante de contenu généré est accessible via l’icône _Vérification des directives de marque_ en regard de chaque variante dans la zone de travail.
+Un résumé des informations de validation de marque pour chaque variante de contenu généré est accessible par le biais de l’icône _[!DNL Brand]de vérification des directives_ en regard de chaque variante dans la zone de travail.
 
-La _vérification des directives de marque_ affiche le pourcentage de conformité à votre [marque](brands.md). Le pourcentage est calculé sous la forme du nombre de [consignes](overview.md) ayant réussi la validation par rapport au nombre de consignes testées.
+La _[!DNL Brand]vérification des directives_ affiche le pourcentage de conformité à votre [marque](brands.md). Le pourcentage est calculé sous la forme du nombre de [consignes](overview.md) ayant réussi la validation par rapport au nombre de consignes testées.
+
+![[!DNL Brand] de vérification de ligne ](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
 
 Cliquez sur l’icône pour voir combien de directives sont conformes à votre marque et combien de directives doivent être révisées.
 
@@ -33,6 +35,8 @@ Voir [Améliorer l&#39;alignement de la marque](#improve-brand-alignment).
 ## Panneau de validation des marques
 
 Le panneau _Validation de marque_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre de menu supérieure _ou_ à partir de l’icône de _vérification des directives de marque_ pour une variante. Ce panneau fournit des informations détaillées sur la validation de la marque et indique les opportunités d’amélioration pour chaque section de variante.
+
+![[!DNL Brand] panneau de validation](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
 
 Le panneau _Validation de marque_ affiche des informations sur :
 

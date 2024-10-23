@@ -3,9 +3,9 @@ title: GenStudio pour le Marketing des performances [!DNL Products]
 description: GenStudio for Performance Marketing  [!DNL Products]  intègre tous les aspects de votre produit (imagerie, descriptions et propositions de valeur) afin de créer un contenu pertinent qui met en évidence les atouts du produit et maintient la cohérence de la messagerie du produit.
 feature: Products Service, Guidelines
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 [!DNL Products] dans GenStudio for Performance Marketing exploite une compréhension approfondie des spécifications, des avantages et des facteurs de différenciation des produits pour générer du contenu ayant un impact.
 
 [!DNL Products] englobe tous les éléments d’un produit spécifique, tels que les images, les descriptions et les propositions de valeur, afin de créer une représentation cohérente de la marque. L’utilisation de la technologie d’IA avancée de l’Adobe, de GenStudio pour les directives de marketing sur les performances ([[!DNL Brands], [!DNL Products] et [!DNL Personas]](/help/user-guide/guidelines/overview.md)), permet de générer ensemble un contenu attrayant qui présente les points forts de vos produits et assure la cohérence de tous les messages.
-
-![[!DNL Products] directives dans GenStudio pour le marketing de performances](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
 
 **Pour afficher ou modifier un produit** :
 
@@ -29,6 +27,8 @@ Voir [Ajout de directives](add-guidelines.md) pour savoir comment ajouter ou mod
 ## [!DNL Products] conseils
 
 Les directives de produit individuelles donnent à GenStudio for Performance Marketing une image claire de vos produits.
+
+![Directives produit](/help/assets/products.png){width="600" zoomable="yes"}
 
 Ces instructions détaillent chaque catégorie de consignes et les exemples connexes. Les exemples sont des exemples d’entrées qui façonnent la sortie du contenu généré. Utilisez-les pour informer vos instructions [!DNL Products].
 
