@@ -2,9 +2,9 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: c3e6e5f4213074b4093591ac06e8341c9d46c212
+source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '369'
 ht-degree: 5%
 
 ---
@@ -13,7 +13,25 @@ ht-degree: 5%
 
 Les informations de cette version détaillent les dernières mises à jour apportées à l’application GenStudio for Performance Marketing.
 
-## 2024.10.14 Disponibilité générale {#latest}
+## 2024.10.31  {#latest}
+
+### Nouvelles fonctionnalités
+
+* Le filtre de recherche **[!DNL Content]** prend désormais en charge la recherche par balise de couleur.  <!-- GS-5501 -->
+
+* Le canevas **[!DNL Create]** affiche désormais le nombre de caractères pour les fragments de courrier électronique. <!-- GS-5819 -->
+
+### Correctifs
+
+* Des libellés de lecteur d’écran manquants ont été ajoutés aux éléments mobiles et de bureau `view`. <!-- GS-5624 4729 -->
+
+* La hauteur de l’objet de l’email dans le canevas et les zones de texte du pré-en-tête sont désormais dynamiques. <!-- GS-6258 -->**[!DNL Create]**
+
+* Les problèmes de mise en page avec les bordures des emails ont été résolus. <!-- GS-6631 -->
+
+* La mise au point du clavier fonctionne désormais comme prévu sur le bouton **[!DNL Content]** **[!UICONTROL Supprimer]** . Auparavant, ce bouton n’était pas accessible ni utilisé par le clavier.  <!-- GS-4065 -->
+
+## 2024.10.14 Disponibilité générale
 
 Cette version présente Adobe GenStudio for Performance Marketing, une application basée sur l’IA générative qui accélère la planification, le développement et l’analyse des campagnes marketing. GenStudio for Performance Marketing permet aux équipes marketing de créer du contenu multicanal sur la marque pour les publicités, les emails et les campagnes, tout en fournissant des informations en temps réel afin d’optimiser les performances du contenu.
 
