@@ -4,9 +4,9 @@ description: Découvrez les expériences par e-mail dans Adobe GenStudio for Per
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,9 @@ Chaque champ et section d’expériences de courrier électronique est progressi
 1. Titres, corps de l’email (pour les emails à section unique) et appels à l’action
 1. Corps de l’email pour les sections suivantes (pour les emails à plusieurs sections)
 1. Le processus de validation de marque se produit et la [_vérification des directives de marque_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) est renseignée pour chaque variante.
+
+## Nombre de caractères
+
+Après avoir généré un ensemble de variantes d’emails, vous pouvez voir le nombre de caractères affiché pour chaque section d’email. Pointez ou cliquez dans une section générée, telle que la ligne d’objet ou le corps, puis consultez le nom et le nombre de caractères de la section.
+
+![Nombre de caractères](/help/assets/character-count.png){width="500" zoomable="yes"}
