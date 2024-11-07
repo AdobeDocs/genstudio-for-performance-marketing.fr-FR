@@ -2,10 +2,10 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
+source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 3%
 
 ---
 
@@ -13,11 +13,55 @@ ht-degree: 5%
 
 Les informations de cette version détaillent les dernières mises à jour apportées à l’application GenStudio for Performance Marketing.
 
-## 2024.10.31  {#latest}
+## 2024.11.07 {#latest}
+
+### Correctifs
+
+* Le compteur _Enregistrer en cours_ ne s’affiche plus lorsqu’un utilisateur clique sur **[!UICONTROL Télécharger une nouvelle image]**, puis annule l’opération avant la fin du téléchargement. <!-- GS-6780 -->
+
+* Les titres d’expérience sont désormais créés correctement lors de la régénération de l’expérience. <!-- GS-7006 -->
+
+* Les problèmes liés aux barres de défilement scintillantes pendant le chargement du brouillon ont été résolus. <!-- GS-5587 -->
+
+* Le lien `View documentation` de la fenêtre contextuelle [!DNL Content] _Ajouter votre modèle approuvé_ fonctionne désormais comme prévu. <!-- GS-6881 -->
+
+* La suppression d’une image du tiroir de l’invite lors d’une opération de redimensionnement n’entraîne plus d’erreur. <!-- GS-7115 7009 -->
+
+* Sélectionner **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Create] (...) fonctionne désormais comme prévu. <!-- GS-6871 -->
+
+* Les utilisateurs peuvent désormais contrôler tous les éléments interactifs de modèle de métadonnées publicitaires par clavier uniquement. <!-- GS-4066 -->
+
+* Ajout de l’extraction des dimensions de l’image à partir des champs d’image du modèle pour afficher les modèles d’annonce. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour l’ensemble du modèle. <!-- GS-6926 -->
+
+* Localisation de la chaîne `Zoom to fit to screen` dans le courrier électronique généré et les métadonnées publicitaires. <!-- GS-5063 -->
+
+* Le tiroir d’invite [!DNL Create] se ferme maintenant comme prévu lorsqu’un utilisateur clique à l’extérieur. <!-- GS-5254 -->
+
+* L’exportation des métadonnées publicitaires inclut désormais le libellé d’appel à l’action sélectionné, comme prévu. <!-- GS-6504 -->
+
+* Le score de marque est maintenant mis à jour et conservé comme prévu pour les expériences régénérées. <!-- GS-6535 -->
+
+* L’exportation HTML des métadonnées publicitaires et des publicités affichées n’inclut plus les éléments wrapper `div` et `chrome` . <!-- GS-7116 -->
+
+* Les problèmes de rendu des brouillons de courrier électronique lors de la publication sont désormais résolus. <!-- GS-6394 -->
+
+* Le bouton **[!UICONTROL Marque]** de la zone de travail est maintenant désactivé lorsqu’un score de marque n’est pas généré. <!-- GS-6429 -->
+
+* Le bouton bascule Facebook/Instagram sur la barre d’actions Canevas met désormais à jour les rendus d’expérience comme prévu lorsque le paramètre `ReadOnly` Canevas est activé. <!-- GS-7039 -->
+
+#### Régénération de l’image
+
+* Le redimensionnement de plusieurs variantes de métadonnées fonctionne désormais comme prévu. Auparavant, la zone de travail n’affichait pas de variantes régénérées, mais restait vide. <!-- GS-7010 -->
+
+* La régénération de fragments fonctionne désormais comme prévu pour les expériences redimensionnées. <!-- GS-6836 -->
+
+* La régénération des métadonnées après leur redimensionnement ne provoque plus d’erreur. Auparavant, le redimensionnement des images avant la régénération modifiait les métadonnées du canal de `meta` à `facebook`. <!-- GS-7042 -->
+
+## 2024.10.31
 
 ### Nouvelles fonctionnalités
 
-* Le filtre de recherche **[!DNL Content]** prend désormais en charge la recherche par balise de couleur.  <!-- GS-5501 -->
+* Le filtre de recherche **[!DNL Content]** prend désormais en charge la recherche par balise de couleur. <!-- GS-5501 -->
 
 * Le canevas **[!DNL Create]** affiche désormais le nombre de caractères pour les fragments de courrier électronique. <!-- GS-5819 -->
 
