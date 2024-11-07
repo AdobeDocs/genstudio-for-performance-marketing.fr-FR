@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ress
 1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir de l’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
-   S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
+   Si aucune marque, aucun personnage ou aucun produit n’est disponible dans ces menus, [ajoutez des instructions à votre GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Pour ajouter du contenu à utiliser dans l’expérience *et* afin d’influencer la génération du contenu :
    * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources (images) dans votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
@@ -65,7 +65,7 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 1. Saisissez une invite dans la zone d’invite _&quot;Description des expériences que vous souhaitez générer&quot;_.
 1. Cliquez sur **[!UICONTROL Générer]**.
 
-Par défaut, une variation (alimentée par l’invite, les directives et le contenu que vous avez ajouté) est générée et affichée dans la zone de travail.
+Par défaut, quatre variantes, alimentées par l’invite, les directives et le contenu que vous avez ajoutés, sont générées et affichées dans la zone de travail.
 
 ## Modification des publicités affichées générées
 
@@ -124,5 +124,7 @@ Pour rendre les publicités display générées disponibles pour une utilisation
 
 1. **Pour exporter votre nouvelle expérience d’affichage publicitaire**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
    1. Sélectionnez le format JPG uniquement et cliquez sur **[!UICONTROL Exporter]**.
+
+      L’HTML exporté doit être placé dans une propriété web prédéfinie, telle qu’un modèle ou un conteneur `div`. Sans ces dimensions définies, les images peuvent apparaître déformées lorsqu’elles sont visualisées indépendamment.
 
 Consultez [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content).
