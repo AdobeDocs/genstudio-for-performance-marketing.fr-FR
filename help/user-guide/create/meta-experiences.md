@@ -4,9 +4,9 @@ description: Découvrez les métadonnées d’expérience dans Adobe GenStudio f
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création de métadonnées à fort impact](/help/user-guide/create/create-meta-ad.md).
 
 [!DNL Create] permet aux créateurs de contenu d’utiliser les [directives](/help/user-guide/guidelines/overview.md), les ressources image et une [ invite bien conçue](/help/user-guide/effective-prompts.md) pour [créer rapidement des expériences de métadonnées](/help/user-guide/create/create-meta-ad.md).
+
+Lors de la génération de métadonnées, quatre variations sont créées et affichées dans la zone de travail.
 
 Les sections modifiables d’une expérience de courrier électronique incluent :
 
