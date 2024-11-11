@@ -1,10 +1,11 @@
 ---
 title: Présentation des attributs
 description: Découvrez comment évaluer les performances d’attributs spécifiques dans Adobe GenStudio for Performance Marketing.
-feature: Insights, Assets
-source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
+feature: Insights, Attributes
+exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
+source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -31,82 +32,15 @@ GenStudio for Performance Marketing détecte certaines fonctionnalités et appli
 
 ## Catégories
 
-GenStudio for Performance Marketing reconnaît certaines fonctionnalités d’images, de vidéos et de texte et applique une balise de fonction à la ressource. Une _catégorie_ est un ensemble de fonctionnalités qui partagent une caractéristique spécifique. `landscape` est un exemple de valeur d’ _orientation d’image_.
+GenStudio for Performance Marketing reconnaît certaines fonctionnalités d’images, de vidéos et de texte et applique une balise de fonction à la ressource. Une _catégorie_ est un ensemble de fonctionnalités qui partagent une caractéristique spécifique. Par exemple, la catégorie _orientation d’image_ a une valeur `landscape`, `portrait` ou `square`.
 
-Les attributs détectés et appliqués automatiquement ne peuvent pas être modifiés.
+Vous ne pouvez pas modifier les balises détectées et appliquées automatiquement.
 
-<!--
-Select any of the following to open a detailed list of feature categories:
+Voir [Catégories d’attributs](/help/user-guide/insights/attribute-category.md) pour obtenir des listes détaillées des fonctionnalités d’image, de vidéo et de texte.
 
-+++**Image features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Background Colors      | 14 colors |
-| Camera Position        | - `low angle`, `high angle`, `dutch angle`<br>- `overhead view`, `eye level`,`bird's eye view` |
-| Camera Proximity       | `close up`, `mid shot`, `long shot` |
-| Camera Setting         | - `fast shutter speed`, `long exposure`, `double exposure`<br>- `normal mode`, `flash`, `macro`, `wide-angle`<br>- `black and white`, `surreal`<br>- `bokeh blur`, `motion blur`, `tilt-shift blur` |
-| Foreground Colors      | 14 colors |
-| Image Type             | `photograph`, `sketch`, `painting`, `digital cartoon`, `infographics`, `graphic design`, `collage`, `screenshot` |
-| Lighting Condition     | golden hour, blue hour, midday, overcast, night, high-key, low-key, daylight, incandescent, fluorescent, colorful, studio |
-| Objects                | The items, entities, and elements that are visible, such as `lighthouse`, `orchid`, or `tunnel`. |
-| Orientation            | Examples: `landscape`, `portrait`, `square` |
-| Overall Tone           | `warm`, `cool`, `neutral` |
-| People Categories      | Examples: `person`, `social group`, `people`, `kid` |
-| Photography Styles     | `aerial photography`, `aerial photography`, `architectural photography`, `astrophotography`, `black and white photography`, `business photography`, `cityscape photography`, `commercial photography`, `composite photography`, `creative photography`, `editorial photography`, `event photography`, `family photography`, `fashion photography`, `fine art photography`, `food photography`, `holiday photography`, `indoor photography`, `landscape photography`, `lifestyle photography`, `macro photography`, `minimalist photography`, `night photography`, `outdoor photography`, `pet photography`, `portrait photography`, `product photography`, `real estate photography`, `seascape photography`, `sports photography`, `still-life photography`, `street photography`, `travel photography`, `underwater photography`, `wildlife photography` |
-| Scenes                 | Examples: `city`, `island`, `living room` |
-| Tags                   | Examples: `gaming`, `law`, `yoga` |
-| Visual Attention Spread| The level of viewer attention spread across an image: `high`, `low` |
-| Visual Content Density | The amount of information or detail in an image: `high`, `low` |
-
-+++
-
-+++**Video features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Audio Genre  | |
-| Audio Genre Category  | |
-| Audio Mood  | |
-| Audio Types| |
-| Objects  | |
-| Orientation  | |
-| People Categories  | |
-| Scenes  | |
-| Styles  | |
-| Tags   | |
-| Video Category  | |
-| Video Type  | |
-
-+++
-
-+++**Text features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Emojis Count  | |
-| HashTags Count  | |
-| Keywords  | |
-| Marketing Emotions  | |
-| Narratives  |  |
-| Persuasion Strategies  |  |
-| Readability  | |
-| Sentences Count  | |
-| Stop Words Ratio  | |
-| Text Quotes Count  | |
-| Tones  | |
-| Words Count  | |
-| Words Count Per Sentence  | |
-
-+++
-
--->
-
-## Mesures d’attribut
+## Performances des attributs
 
 Les mesures de statistiques peuvent vous aider à évaluer les attributs qui inspirent le plus d’engagement des clients.
-
-### Détails des mesures
 
 Le tableau suivant fournit des définitions et des informations sur les mesures de marketing numérique clés dans la vue de tableau [!UICONTROL Attributs]. Chaque mesure comprend une brève définition en ce qui concerne une ressource, le mode de calcul de la mesure et une ou plusieurs informations permettant de comprendre son importance et son impact sur une campagne publicitaire.
 
@@ -119,7 +53,7 @@ Le tableau suivant fournit des définitions et des informations sur les mesures 
 | **[!UICONTROL Impressions]** | Comptage de chaque chargement d’une image ou de vidéos avec cet attribut dans le canal, indépendamment de l’interaction ou de l’affichage. | Un nombre d’impressions élevé peut indiquer une large visibilité, mais pour obtenir de vraies informations sur les performances, prenez en compte d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs interagissent avec une image ou une vidéo avec cet attribut. | Un nombre de clics élevé indique un fort intérêt et un engagement envers le contenu, ce qui peut être efficace et atteindre la bonne audience. |
 | **[!UICONTROL CTR ]**<br>_Taux de clics_ | Pourcentage (%) d&#39;impressions ayant généré des clics sur les images ou les vidéos avec cet attribut.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clics élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et cible effectivement les intérêts du public. |
-| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût ($) pour chaque millier d’impressions publicitaires d’une image ou d’une vidéo avec cet attribut.<br>**Calcul** : somme `spent` divisée par portée, puis multipliée par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clics élevé. |
-| **[!UICONTROL CPA ]**<br>_Coût par action_ | Coût moyen ($) dépensé pour réaliser une action client spécifique, comme un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d’actions client terminées | Permet d’identifier les attributs qui génèrent des actions précieuses de la part des clients. |
-| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen ($) associé à chaque clic sur les images ou les vidéos avec cet attribut.<br>**Calcul** : montant total `spent` divisé par `clicks` | Des coûts moyens inférieurs peuvent indiquer des dépenses publicitaires rentables, en particulier par rapport à une augmentation des conversions. |
-| **[!UICONTROL Dépenser]** | Montant ($) dépensé dans le budget en ce qui concerne les attributs sur une période donnée. | Un montant élevé de dépenses sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à une diminution rapide des ressources. Effectuez le suivi du montant des dépenses par rapport aux mesures de performances clés pour mieux surveiller le retour sur investissement global. |
+| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions publicitaires d’une image ou d’une vidéo avec cet attribut.<br>**Calcul** : somme `spent` divisée par portée, puis multipliée par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clics élevé. |
+| **[!UICONTROL CPA ]**<br>_Coût par action_ | Coût moyen dépensé pour réaliser une action client spécifique, comme un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d’actions client terminées | Permet d’identifier les attributs qui génèrent des actions précieuses de la part des clients. |
+| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic sur les images ou les vidéos avec cet attribut.<br>**Calcul** : montant total `spent` divisé par `clicks` | Des coûts moyens inférieurs peuvent indiquer des dépenses publicitaires rentables, en particulier par rapport à une augmentation des conversions. |
+| **[!UICONTROL Dépenser]** | Montant dépensé dans le budget en ce qui concerne les attributs sur une période donnée. | Un montant élevé de dépenses sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à une diminution rapide des ressources. Effectuez le suivi du montant des dépenses par rapport aux mesures de performances clés pour mieux surveiller le retour sur investissement global. |

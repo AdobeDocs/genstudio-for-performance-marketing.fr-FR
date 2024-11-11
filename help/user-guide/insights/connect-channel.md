@@ -4,9 +4,9 @@ description: Connectez un compte de canal pour surveiller les performances de vo
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 7b3ecc1964df3d5a3fdc5c32b1e5c80f29133560
+source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing conserve les données du canal pendant 13 mo
 
 **Pour connecter un compte de métadonnées publicitaires dans GenStudio for Performance Marketing** :
 
-1. Dans _[!DNL Insights]_, cliquez sur **[!UICONTROL Connecter un compte de canal]**.
+1. Dans _[!DNL Insights]_, cliquez sur **[!UICONTROL Connecter un compte de canal]**dans la bannière ou cliquez sur le bouton **[!UICONTROL Ajouter des comptes]**(forme de personne avec signe plus) dans le coin supérieur droit.
 
    Vous pouvez être invité à vous connecter à Facebook. Facebook est la seule option disponible pour le moment.
 

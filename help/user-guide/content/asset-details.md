@@ -3,9 +3,9 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la recherche.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -66,9 +66,9 @@ Les métadonnées par défaut stockées et capturées pour une ressource incluen
 
 ### Balises générées
 
-Lorsque vous stockez une ressource approuvée dans [!DNL Content], GenStudio for Performance Marketing utilise les fonctionnalités d’IA et d’apprentissage automatique d’Adobe pour étudier la ressource et appliquer des balises en fonction des fonctionnalités de la ressource. Par exemple, une image d’un chat peut générer des balises d’attribut telles que `pet photography` ou `cat`, ainsi que des balises de couleur qui identifient les couleurs dominantes de l’image. Vous ne pouvez pas modifier de balises.
+Lorsque vous stockez une ressource approuvée dans [!DNL Content], GenStudio for Performance Marketing utilise les fonctionnalités d’IA et d’apprentissage automatique d’Adobe pour étudier la ressource et appliquer des balises en fonction des fonctionnalités de la ressource. Par exemple, une image d’un chat peut générer des balises d’attribut telles que `pet photography` ou `cat`, ainsi que des balises de couleur qui identifient les couleurs dominantes de l’image. Vous ne pouvez pas modifier les balises détectées et appliquées automatiquement.
 
-Voir [Attributs de statistiques](/help/user-guide/insights/attributes.md).
+Voir [!DNL Insights] [Catégories d’attributs](/help/user-guide/insights/attribute-category.md) pour obtenir des listes détaillées des fonctionnalités d’image, de vidéo et de texte.
 
 ### Métadonnées de contenu générées
 
