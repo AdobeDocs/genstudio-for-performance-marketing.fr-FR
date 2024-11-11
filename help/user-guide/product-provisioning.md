@@ -3,16 +3,17 @@ title: Configuration d’Adobe GenStudio for Performance Marketing
 description: Découvrez comment configurer le produit GenStudio for Performance Marketing.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 3e9a2a4f42ba79389691705c571bf6bbd0b990c5
+exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
+source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 # Configuration d’Adobe GenStudio for Performance Marketing
 
-La mise en service du produit est la configuration unique de l’instance GenStudio for Performance Marketing de votre entreprise. Un administrateur système Adobe effectue ces tâches de configuration initiales dans le [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Depuis l’Admin Console, un administrateur système Adobe peut accéder au profil de produits GenStudio et attribuer des licences de produits disponibles aux utilisateurs.
+Un administrateur système Adobe effectue les tâches initiales de mise en service dans le [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Depuis l’Admin Console, un administrateur système Adobe peut accéder au profil de produits GenStudio et attribuer des licences de produits disponibles aux utilisateurs.
 
 >[!NOTE]
 >

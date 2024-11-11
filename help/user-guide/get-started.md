@@ -4,9 +4,9 @@ description: Découvrez comment commencer à utiliser GenStudio for Performance 
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6454090c9fffb4b288b615680597b80e5b71a89c
+source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -49,16 +49,28 @@ Vous pouvez charger des documents de ligne guide ou les consulter lorsque vous s
 
 Un gestionnaire de système GenStudio peut préparer la structure d’IA générative sous-jacente du produit en saisissant ou en chargeant manuellement les exigences de marque spécifiques de votre entreprise. Bien que la configuration des consignes de marque d’une entreprise soit une action unique, vous pouvez réviser et améliorer ces consignes en fonction de la volatilité, de la croissance et de l’évolution des circonstances du marché de votre entreprise.
 
-### Étape 2 : téléchargement des modèles
+## Étape 2 : configuration d’un projet Adobe Admin Console pour GenStudio [!DNL Brands]
+
+Les administrateurs système doivent effectuer des tâches de configuration supplémentaires avant que les collaborateurs puissent modifier ou créer [!DNL Brands]. Les administrateurs système d’Adobe effectuent les tâches suivantes dans Adobe Admin Console :
+
+* Créez un groupe d’utilisateurs qui comprend tous les utilisateurs qui doivent être modifiés et créer des droits [!DNL Brands].
+
+* Créez un projet dans Adobe Admin Console.
+
+Voir [Attribution des autorisations de marque](configure-brand-permissions.md).
+
+### Étape 3 : téléchargement des modèles
 
 Les modèles accélèrent la création de contenu. Un modèle contient des fonctionnalités approuvées, telles que des en-têtes et des pieds de page, et est optimisé pour des canaux spécifiques. En règle générale, les gestionnaires système chargent et gèrent des modèles pour leur entreprise. Les éditeurs de contenu utilisent des modèles pour lancer le processus de création de contenu dans les limites établies de la marque organisationnelle.
 
-Voir [Utilisation de modèles](./content/use-templates.md) pour obtenir des instructions sur la personnalisation et le téléchargement de modèles.
+Voir [Utilisation de modèles](./content/use-templates.md).
 
-### Étape 3 : téléchargement des ressources approuvées
+### Étape 4 : téléchargement des ressources approuvées
 
-Les ressources approuvées dans [!DNL Content] sont disponibles pour tous les éditeurs GenStudio for Performance Marketing. Vous pouvez renseigner [!DNL Content] avec des ressources que les éditeurs de contenu peuvent utiliser pour créer des expériences ou des ressources. Voir [Chargement de ressources approuvées](./content/manage-assets.md) pour obtenir des conseils sur le chargement et la gestion des ressources.
+Les ressources approuvées dans [!DNL Content] sont disponibles pour tous les éditeurs GenStudio for Performance Marketing. Vous pouvez renseigner [!DNL Content] avec des ressources que les éditeurs de contenu peuvent utiliser pour créer des expériences ou des ressources.
 
-### Étape 4 : connexion à un compte Meta (Facebook)
+Voir [Téléchargement des ressources approuvées](./content/manage-assets.md).
+
+### Étape 5 : connexion à un compte Meta (Facebook)
 
 Configurez une connexion entre GenStudio for Performance Marketing et les comptes sociaux de votre entreprise pour recevoir les données de vos campagnes marketing, ressources et expériences actives. [[!DNL Insights]](./insights/overview.md) fournit des outils pour analyser les données dérivées du canal. Voir [Connexion à un compte Meta (Facebook)](./insights/connect-channel.md#meta-ads-connect).
