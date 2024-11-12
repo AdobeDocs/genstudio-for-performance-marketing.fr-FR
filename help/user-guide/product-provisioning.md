@@ -4,9 +4,9 @@ description: Découvrez comment configurer le produit GenStudio for Performance 
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Un administrateur système Adobe effectue les tâches initiales de mise en servi
 >[!NOTE]
 >
 >Seuls les administrateurs système d’Adobe peuvent mettre en oeuvre des tâches d’activation nécessitant un accès à Adobe Admin Console.
+
+>[!IMPORTANT]
+>
+>N’ajoutez pas de nouveaux profils de produit existants, ni ne les modifiez ou ne les supprimez. La modification des profils de produit par défaut peut perturber considérablement votre déploiement GenStudio for Performance Marketing.
 
 ## Étape 1 : accès au profil de produits dans Adobe Admin Console
 
