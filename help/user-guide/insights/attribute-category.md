@@ -3,9 +3,11 @@ title: Catégories d’attributs
 description: Découvrez les catégories d’attributs utilisées dans GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-source-git-commit: 3b5fc55595f766db0327b6aefb0e29c3896e00c0
+last-substanial-update: 2024-11-11T00:00:00Z
+exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
+source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '607'
 ht-degree: 2%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 2%
 
 Une catégorie d’attributs est un groupe de classifications qui organise les attributs connexes partageant une caractéristique commune. Ces catégories permettent de rationaliser la découverte, l’identification et la compréhension d’attributs spécifiques en fournissant un meilleur contexte et en facilitant leur application et leur utilisation.
 
-GenStudio for Performance Marketing utilise les fonctionnalités d’IA et d’apprentissage automatique d’Adobe pour étudier les images, les vidéos et le texte et appliquer les [!UICONTROL attributs de ressource] en fonction du degré de confiance. _Confiance_ fait référence à la probabilité que l’IA affecte à une prédiction ou une classification. Dans le contexte de l’apprentissage automatique, c’est une sorte de notation qui mesure à quel point l’IA est &quot;confiante&quot; que la classification est correcte. Plus le score de confiance est élevé, plus la certitude est grande. Par exemple, lors de l’analyse d’une image, l’IA peut identifier plusieurs fonctionnalités et attribuer un score à chacune d’elles indiquant à quel point la fonctionnalité est correcte. La liste des attributs d’une ressource n’est pas exhaustive. Assets qui contient un ensemble riche de fonctionnalités peut être limité à un seuil de confiance, comme les trois fonctionnalités les plus dominantes identifiées.
+GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités d’apprentissage automatique pour étudier les images, les vidéos et le texte et appliquer les [!UICONTROL attributs de ressource] en fonction d’une probabilité d’exactitude. La liste des attributs d’une ressource n’est pas exhaustive. Assets qui contient un ensemble riche de fonctionnalités peut être limité aux trois fonctionnalités les plus dominantes identifiées par l’IA.
 
 ## Fonctionnalités d’image
 
