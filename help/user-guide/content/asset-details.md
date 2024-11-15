@@ -3,9 +3,9 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la recherche.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
+source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,19 @@ Chaque ressource (y compris les expériences et les modèles) est associée à _
 ## Modifier dans Express
 
 Vous pouvez modifier des ressources d’image (JPG ou PNG) directement dans GenStudio for Performance Marketing à l’aide d’Adobe Express. Le canevas _[!UICONTROL Powered by Adobe Express]_ offre des fonctionnalités pratiques pour améliorer vos images sans quitter l’application GenStudio. Vous pouvez facilement supprimer des arrière-plans, appliquer des remplissages génératifs, ajuster les effets et recadrer des images.
+
+>[!BEGINSHADEBOX]
+
+Critères d&#39;amélioration des images avec la fonction [!DNL Edit in Adobe Express] :
+
+- Les types MIME pris en charge sont `image/png` et `image/jpeg`
+- Les dimensions d’image minimales sont de 50 x 50 pixels.
+- Les dimensions d’image maximales sont de 8 000 x 8 000 pixels.
+- La taille maximale est de 40 Mo (40 000 000 octets)
+
+>[!ENDSHADEBOX]
+
+**Pour modifier une ressource avec Express** :
 
 1. Dans _[!DNL Content]_, sélectionnez une ressource image. Cliquer sur une ressource ouvre une vue sélectionnée de la ressource.
 
@@ -91,7 +104,7 @@ Le tableau suivant décrit les métadonnées (détails de la ressource) que vous
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) ajouté à GenStudio for Performance Marketing pour utilisation |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) ajouté à GenStudio for Performance Marketing pour utilisation |
 | Canaux | Types de contenu dans GenStudio for Performance Marketing pour lesquels la ressource est utilisée, tels que les courriers électroniques et les métadonnées publicitaires |
-| Période | Période pour laquelle la ressource a été utilisée, par exemple trimestre, saison, année, etc. Exemple : `Winter 2023` |
+| Période | Période pour laquelle la ressource est utilisée, par exemple trimestre, saison, année, etc. Exemple : `Winter 2023` |
 | Région   | Régions pour lesquelles la ressource est utilisée. Exemples : `North America`, `APAC`, `Italy` |
 | Langue | Langues pour lesquelles la ressource est utilisée. Exemple : `Spanish` |
 | Mots-clés | Mots-clés utilisés pour une identification plus approfondie des caractéristiques et de l’objectif des ressources |
