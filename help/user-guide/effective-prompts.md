@@ -3,7 +3,7 @@ title: Écrire les invites efficaces
 description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 2%
@@ -107,3 +107,5 @@ Quelques bonnes pratiques simples pour concevoir des invites efficaces :
 - Examinez et ajustez régulièrement les consignes.
 - Itérer et affiner.
 - Apprenez par l&#39;expérimentation.
+
+{{in-academy}}

@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 1%
@@ -20,6 +20,8 @@ Voir la [présentation des directives](/help/user-guide/guidelines/overview.md).
 
 L’ajout de directives à GenStudio for Performance Marketing est une étape importante du processus de création. Les directives informent le processus de création de contenu, ainsi que les invites définies par l’utilisateur et la technologie d’IA générative d’Adobe, pour concevoir des ressources ayant un impact.
 
+{{in-academy}}
+
 ## Ajouter [!DNL Brands]
 
 Pour ajouter une marque, [téléchargez un guide de marque](#upload-a-brand) ou [créez manuellement une marque](#manually-add-brand) en sélectionnant des directives et en saisissant les détails de votre marque. [Publish une marque](#publish-brand) vers [!DNL Content] pour la rendre disponible pour une utilisation dans une génération future de contenu.
@@ -27,6 +29,7 @@ Pour ajouter une marque, [téléchargez un guide de marque](#upload-a-brand) ou 
 Dans la zone de navigation de gauche, cliquez sur **[!DNL Brands]**. Dans le panneau _[!DNL Brands]_, sélectionnez **Ajouter une marque**.
 
 >[!TIP]
+>
 >Chaque marque fonctionne indépendamment sans relations hiérarchiques. Pour créer des sous-marques sous une marque mère, incluez les informations de la marque mère pendant le processus de création.
 
 ### Télécharger une marque
