@@ -2,10 +2,11 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
+exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
+source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '817'
+ht-degree: 2%
 
 ---
 
@@ -13,9 +14,35 @@ ht-degree: 3%
 
 Les informations de cette version détaillent les dernières mises à jour apportées à l’application GenStudio for Performance Marketing.
 
-## 2024.11.07 {#latest}
+## 2024.11.14 {#latest}
 
-### Correctifs
+### Nouvelles fonctionnalités
+
+Ajout de la prise en charge des modèles multimédias enrichis, qui permet aux clients de réutiliser les ressources déjà publiées par le biais de leurs propres canaux de contenu géré. <!-- GS-6107 -->
+
+### Correctifs et améliorations
+
+* Lorsqu’ils sont redimensionnés dans un navigateur autre que celui utilisé pour générer le contenu initial, les brouillons se chargent désormais comme prévu. <!-- GS-7204 -->
+
+* Tous les caractères sont désormais correctement représentés dans l&#39;HTML exporté. <!-- GS-7246 -->
+
+* Les boutons de la fenêtre contextuelle [!DNL Content] _Expériences_ **** ne sont plus tronqués dans certaines langues. <!-- GS-6873 -->
+
+* Les publicités affichées créées avec des modèles dimensionnés à 50 x 50 sont désormais exportées dans la taille d’image attendue. Auparavant, les fichiers PNG exportés étaient exportés au double des dimensions attendues. <!-- GS-7192 -->
+
+* Les erreurs de modèle qui se produisaient lors du redimensionnement des publicités affichées sont désormais résolues. <!-- GS-7322 -->
+
+### Localisation
+
+Cette version comprend des améliorations de la localisation dans l’interface utilisateur, notamment :
+
+* Toutes les chaînes de la fenêtre contextuelle [!DNL Content] _Télécharger la ressource_ sont désormais correctement localisées. <!-- GS-6872 6770 -->
+* Toutes les info-bulles dans le champ [!DNL Content] _Vue Assets_ **[!UICONTROL Recherche]** sont localisées. <!-- GS-6879 -->
+* Lors du remplacement d&#39;une image existante dans une variante d&#39;email sur le canevas [!DNL Create], la vue _Sélectionner dans le contenu_ est désormais localisée. <!-- GS-6906 -->
+
+## 2024.11.07
+
+### Correctifs et améliorations
 
 * Le compteur _Enregistrer en cours_ ne s’affiche plus lorsqu’un utilisateur clique sur **[!UICONTROL Télécharger une nouvelle image]**, puis annule l’opération avant la fin du téléchargement. <!-- GS-6780 -->
 
@@ -31,7 +58,7 @@ Les informations de cette version détaillent les dernières mises à jour appor
 
 * Les utilisateurs peuvent désormais contrôler tous les éléments interactifs de modèle de métadonnées publicitaires par clavier uniquement. <!-- GS-4066 -->
 
-* Ajout de l’extraction des dimensions de l’image à partir des champs d’image du modèle pour afficher les modèles d’annonce. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour l’ensemble du modèle. <!-- GS-6926 -->
+* Ajout de l’extraction des dimensions de l’image des champs d’image du modèle dans les modèles d’affichage d’annonce. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour l’ensemble du modèle. <!-- GS-6926 -->
 
 * Localisation de la chaîne `Zoom to fit to screen` dans le courrier électronique généré et les métadonnées publicitaires. <!-- GS-5063 -->
 
@@ -65,7 +92,7 @@ Les informations de cette version détaillent les dernières mises à jour appor
 
 * Le canevas **[!DNL Create]** affiche désormais le nombre de caractères pour les fragments de courrier électronique. <!-- GS-5819 -->
 
-### Correctifs
+### Correctifs et améliorations
 
 * Des libellés de lecteur d’écran manquants ont été ajoutés aux éléments mobiles et de bureau `view`. <!-- GS-5624 4729 -->
 
@@ -101,4 +128,4 @@ Consultez les ressources utiles suivantes :
 
 * [Guide de l’utilisateur Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
 
-* [Adobe GenStudio Academy](genstudioacademy.md), plateforme d’apprentissage en ligne d’Adobe permettant d’utiliser des technologies d’IA générative dans le processus de création. [Inscrivez-vous à l’Académie GenStudio](http://adobe.ly/genstudioacademyregistration).
+* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), plateforme d’apprentissage en ligne d’Adobe permettant d’utiliser des technologies d’IA générative dans le processus de création.
