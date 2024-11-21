@@ -1,13 +1,13 @@
 ---
 title: Prise en main d’Adobe GenStudio for Performance Marketing
-description: Découvrez comment commencer à utiliser GenStudio for Performance Marketing pour générer du contenu marketing aligné sur la marque.
+description: Découvrez comment commencer avec GenStudio for Performance Marketing afin de générer un nouveau contenu marketing aligné sur votre marque.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
 source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
