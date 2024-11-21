@@ -2,10 +2,11 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
+last-substanial-update: 2024-11-14T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
+source-git-commit: 720b23061d7e56a9b1e712d7787158c6a1bb771c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
@@ -18,7 +19,7 @@ Les informations de cette version détaillent les dernières mises à jour appor
 
 ### Nouvelles fonctionnalités
 
-Ajout de la prise en charge des modèles multimédias enrichis, qui permet aux clients de réutiliser les ressources déjà publiées par le biais de leurs propres canaux de contenu géré. <!-- GS-6107 -->
+Ajout de la prise en charge des modèles multimédias enrichis, qui permet aux clients de réutiliser des ressources déjà publiées par le biais de leurs propres canaux de contenu géré. <!-- GS-6107 -->
 
 ### Correctifs et améliorations
 
@@ -28,7 +29,7 @@ Ajout de la prise en charge des modèles multimédias enrichis, qui permet aux c
 
 * Les boutons de la fenêtre contextuelle [!DNL Content] _Expériences_ **** ne sont plus tronqués dans certaines langues. <!-- GS-6873 -->
 
-* Les publicités affichées créées avec des modèles dimensionnés à 50 x 50 sont désormais exportées dans la taille d’image attendue. Auparavant, les fichiers PNG exportés étaient exportés au double des dimensions attendues. <!-- GS-7192 -->
+* Les publicités affichées créées avec des modèles dimensionnés à 50 x 50 sont désormais exportées dans la taille d’image attendue. Auparavant, les fichiers PNG étaient exportés au double des dimensions attendues. <!-- GS-7192 -->
 
 * Les erreurs de modèle qui se produisaient lors du redimensionnement des publicités affichées sont désormais résolues. <!-- GS-7322 -->
 
@@ -40,7 +41,9 @@ Cette version comprend des améliorations de la localisation dans l’interface 
 * Toutes les info-bulles dans le champ [!DNL Content] _Vue Assets_ **[!UICONTROL Recherche]** sont localisées. <!-- GS-6879 -->
 * Lors du remplacement d&#39;une image existante dans une variante d&#39;email sur le canevas [!DNL Create], la vue _Sélectionner dans le contenu_ est désormais localisée. <!-- GS-6906 -->
 
-## 2024.11.07
+## Notes de mise à jour antérieures
+
++++Notes de 2024.11.07
 
 ### Correctifs et améliorations
 
@@ -84,7 +87,9 @@ Cette version comprend des améliorations de la localisation dans l’interface 
 
 * La régénération des métadonnées après leur redimensionnement ne provoque plus d’erreur. Auparavant, le redimensionnement des images avant la régénération modifiait les métadonnées du canal de `meta` à `facebook`. <!-- GS-7042 -->
 
-## 2024.10.31
++++
+
++++Notes de 2024.10.31
 
 ### Nouvelles fonctionnalités
 
@@ -122,10 +127,4 @@ Les principales fonctionnalités du produit sont les suivantes :
 
 GenStudio for Performance Marketing s’intègre à d’autres produits Adobe Experience Cloud, y compris Adobe Express et Adobe AEM Assets.
 
-### Informations supplémentaires
-
-Consultez les ressources utiles suivantes :
-
-* [Guide de l’utilisateur Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
-
-* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), plateforme d’apprentissage en ligne d’Adobe permettant d’utiliser des technologies d’IA générative dans le processus de création.
++++
