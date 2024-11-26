@@ -3,9 +3,9 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la recherche.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
+source-git-commit: 7cb19de7f1fe61465046b0d27a528c2f5e1a4d5e
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,50 +26,15 @@ Chaque ressource (y compris les expériences et les modèles) est associée à _
    >
    >Si la section _[!UICONTROL Détails]_ n&#39;est pas visible, cliquez sur l&#39;icône **[!UICONTROL Informations]** (i).
 
-   Les détails de la ressource incluent les métadonnées appliquées au cours du processus de création ou de chargement. Les types de métadonnées de ressources incluent [les métadonnées système](#system-metadata) et [ les métadonnées définies par l’utilisateur](#user-defined-metadata).
+Les détails de la ressource incluent les métadonnées appliquées au cours du processus de création ou de chargement. Les types de métadonnées de ressources incluent [les métadonnées système](#system-metadata) et [ les métadonnées définies par l’utilisateur](#user-defined-metadata).
+
+La ressource d’image suivante contient des métadonnées système décrivant le type, la taille et d’autres caractéristiques du fichier, un mot-clé défini par l’utilisateur et plusieurs attributs et couleurs détectés par l’IA.
+
+![détails d’une ressource avec plusieurs balises](/help/assets/content-asset-details.png)
 
 >[!NOTE]
 >
 >Assets des référentiels AEM affiche différentes métadonnées. Voir [Configuration de la visibilité des ressources](connect-aem-repo.md#step-4-configure-asset-visibility) pour apprendre à configurer les [!DNL AEM Assets Content Hub] détails des ressources.
-
-## Modifier dans Express
-
-Vous pouvez modifier des ressources d’image (JPG ou PNG) directement dans GenStudio for Performance Marketing à l’aide d’Adobe Express. Le canevas _[!UICONTROL Powered by Adobe Express]_ offre des fonctionnalités pratiques pour améliorer vos images sans quitter l’application GenStudio. Vous pouvez facilement supprimer des arrière-plans, appliquer des remplissages génératifs, ajuster les effets et recadrer des images.
-
->[!BEGINSHADEBOX]
-
-Critères d&#39;amélioration des images avec la fonction [!DNL Edit in Adobe Express] :
-
-- Les types MIME pris en charge sont `image/png` et `image/jpeg`
-- Les dimensions d’image minimales sont de 50 x 50 pixels.
-- Les dimensions d’image maximales sont de 8 000 x 8 000 pixels.
-- La taille maximale est de 40 Mo (40 000 000 octets)
-
->[!ENDSHADEBOX]
-
-**Pour modifier une ressource avec Express** :
-
-1. Dans _[!DNL Content]_, sélectionnez une ressource image. Cliquer sur une ressource ouvre une vue sélectionnée de la ressource.
-
-1. Dans la vue de la ressource, cliquez sur l&#39;icône **[!UICONTROL Modifier en Adobe Express]** en haut à droite.
-
-1. Dans la zone de travail _[!UICONTROL Powered by Adobe Express]_, utilisez les commandes express du panneau de gauche pour améliorer votre image.
-
-1. Lorsque vous êtes satisfait de l’image mise à jour, cliquez sur **[!UICONTROL Enregistrer une copie]** dans le coin supérieur droit.
-
-1. Sélectionnez le format de fichier (JPG ou PNG) et cliquez sur **[!UICONTROL Enregistrer une copie]**.
-
-1. Dans la fenêtre contextuelle _[!UICONTROL Enregistrer une copie de la ressource]_, mettez à jour le **[!UICONTROL nom de la ressource]**.
-
-   - Sélectionnez **[!UICONTROL Même détails que la ressource d’origine]** pour transférer les détails de la ressource vers la nouvelle image.
-
-   - Développez la section **[!UICONTROL Plus de détails]** pour mettre à jour Campaign, les directives et d’autres métadonnées.
-
-   >[!TIP]
-   >
-   >Plus vous fournissez de détails, plus vous découvrez les puissantes fonctionnalités de GenStudio for Performance Marketing. Sélectionnez un ou plusieurs détails dans la liste ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
-
-1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
 ## Métadonnées système
 
@@ -107,7 +72,7 @@ Le tableau suivant décrit les métadonnées (détails de la ressource) que vous
 | Période | Période pour laquelle la ressource est utilisée, par exemple trimestre, saison, année, etc. Exemple : `Winter 2023` |
 | Région   | Régions pour lesquelles la ressource est utilisée. Exemples : `North America`, `APAC`, `Italy` |
 | Langue | Langues pour lesquelles la ressource est utilisée. Exemple : `Spanish` |
-| Mots-clés | Mots-clés utilisés pour une identification plus approfondie des caractéristiques et de l’objectif des ressources |
+| Mots-clés | Mots-clés définis par l’utilisateur utilisés pour identifier plus précisément les caractéristiques et l’objectif des ressources |
 
 <!-- ## History
 
