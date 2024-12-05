@@ -1,8 +1,8 @@
 ---
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 39%
+source-wordcount: '311'
+ht-degree: 38%
 
 ---
 # Documentation GenStudio for Performance Marketing
@@ -38,7 +38,7 @@ Pour plus d’informations, consultez le [Guide du contributeur et de la contrib
 Tous les articles de ce référentiel utilisent le markdown GitHub. Si vous ne connaissez pas Markdown, consultez :
 
 - les [Concepts de base de Markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- La [Cheatsheet imprimable sur Markdown](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [Aide-mémoire imprimable pour le markdown](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## Étiquettes
 

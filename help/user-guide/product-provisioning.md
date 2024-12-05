@@ -4,7 +4,7 @@ description: Découvrez comment configurer le produit GenStudio for Performance 
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Vous pouvez ajouter des utilisateurs individuellement ou importer des informatio
 
 * [Gérer plusieurs utilisateurs/chargement CSV en masse](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
 
-Une fois que vous avez intégré les utilisateurs à GenStudio for Performance Marketing de votre entreprise, un gestionnaire de système Genstudio peut [configurer les directives de marque et de média de votre entreprise](get-started.md).
+Une fois que vous avez intégré les utilisateurs à GenStudio for Performance Marketing de votre entreprise, un gestionnaire de système GenStudio peut [ configurer les directives de marque et de média de votre entreprise ](get-started.md).

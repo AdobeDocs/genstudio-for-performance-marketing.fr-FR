@@ -3,9 +3,9 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la recherche.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 7cb19de7f1fe61465046b0d27a528c2f5e1a4d5e
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Le tableau suivant décrit les métadonnées (détails de la ressource) que vous
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) ajouté à GenStudio for Performance Marketing pour utilisation |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) ajouté à GenStudio for Performance Marketing pour utilisation |
 | Canaux | Types de contenu dans GenStudio for Performance Marketing pour lesquels la ressource est utilisée, tels que les courriers électroniques et les métadonnées publicitaires |
-| Période | Période pour laquelle la ressource est utilisée, par exemple trimestre, saison, année, etc. Exemple : `Winter 2023` |
+| [!UICONTROL Période] | Période pour laquelle la ressource est utilisée, par exemple trimestre, saison, année, etc. Exemple : `Winter 2023` |
 | Région   | Régions pour lesquelles la ressource est utilisée. Exemples : `North America`, `APAC`, `Italy` |
 | Langue | Langues pour lesquelles la ressource est utilisée. Exemple : `Spanish` |
 | Mots-clés | Mots-clés définis par l’utilisateur utilisés pour identifier plus précisément les caractéristiques et l’objectif des ressources |
