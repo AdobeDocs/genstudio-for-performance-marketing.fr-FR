@@ -3,10 +3,10 @@ title: Écrire les invites efficaces
 description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: 79430c3279529c4871141489e409240852e1f4fc
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,9 +57,9 @@ Les instructions de GenStudio for Performance Marketing aident l’IA générati
 
 ### Etapes structurées
 
-Pour les emails à plusieurs sections, vous pouvez structurer les invites afin de fournir des instructions spécifiques aux sections afin de générer un contenu variable pour chaque section dans un [email](/help/user-guide/create/email-experiences.md). Les invites structurées doivent faire directement référence aux [noms de section dans le modèle d’email](/help/user-guide/content/email-template.md#multi-section-emails) afin que le contenu généré puisse être inséré dans les espaces réservés de contenu correspondant.
+Pour les emails à plusieurs sections, vous pouvez structurer les invites afin de fournir des instructions spécifiques aux sections afin de générer un contenu variable pour chaque section d’un email. Les invites structurées doivent faire directement référence aux [noms de section dans le modèle d’email](/help/user-guide/content/customize-template.md#sections-or-groups) afin que le contenu généré puisse être inséré dans les espaces réservés de contenu correspondant.
 
-Par exemple, vous pouvez demander à GenStudio for Performance Marketing de générer du contenu qui promeut un nouveau produit dans la première section d’un email et de générer du contenu qui détaille les avantages par rapport aux économies de coûts du produit dans la deuxième section d’email.
+Par exemple, vous pouvez demander à GenStudio for Performance Marketing de générer du contenu pour un email qui promeut un nouveau produit dans la première section et détaille les avantages liés aux économies de coûts dans la seconde section.
 
 L’invite structurée doit :
 
@@ -72,7 +72,7 @@ L’invite structurée doit :
   Par exemple, si votre modèle utilise `moduleA` ou `Group-3` comme nom de section, vous pouvez référencer ces noms de section dans l’invite.
 
 - Suivez les règles/structures recommandées. Si la structure de l’invite ne respecte pas le format fourni, l’invite s’applique aux sections d’email *all* et facilite tout de même la génération du contenu.
-- Utilisez les noms de section [ définis dans votre modèle de courrier électronique](/help/user-guide/content/email-template.md#code-an-email-template). Les références d’invite doivent correspondre aux noms de section codés dans votre modèle de courrier électronique.
+- Utilisez les noms de section tels que définis dans votre modèle de courrier électronique. Les références d’invite doivent correspondre aux noms de section codés dans votre modèle de courrier électronique.
 - Soyez insensible à la casse. Par exemple, vous pouvez utiliser `Pod` ou `pod` dans votre modèle de courrier électronique et une invite structurée.
 - Référencez d’abord l’invite utilisateur générique, puis les directives spécifiques à la section.
 - Utilisez un deux-points, un trait d’union, une virgule ou une autre démarcation (`,:;#$!~|@=-%&*^_`) comme séparation entre la référence de nom de section et la directive . Par exemple, vous pouvez utiliser ce qui suit comme directive d’invite spécifique à une section : `Pod1; Describe how to easily edit text and swap images.`
@@ -91,7 +91,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-Voir [Préparer un modèle de courrier électronique](/help/user-guide/content/email-template.md#code-an-email-template).
+Voir [Bonnes pratiques pour l’utilisation des modèles](/help/user-guide/content/best-practices-for-templates.md).
 
 ## Réessayer
 

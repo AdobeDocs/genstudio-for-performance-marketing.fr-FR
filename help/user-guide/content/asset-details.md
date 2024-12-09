@@ -3,10 +3,10 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la recherche.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +22,9 @@ Chaque ressource (y compris les expériences et les modèles) est associée à _
 
 1. Dans la vue de la ressource, passez en revue la section _[!UICONTROL Details]_ à droite.
 
-   >[!TIP]
-   >
-   >Si la section _[!UICONTROL Détails]_ n&#39;est pas visible, cliquez sur l&#39;icône **[!UICONTROL Informations]** (i).
+1. Si la section _[!UICONTROL Détails]_ n&#39;est pas visible, cliquez sur l&#39;icône **[!UICONTROL Informations]** (i).
 
-Les détails de la ressource incluent les métadonnées appliquées au cours du processus de création ou de chargement. Les types de métadonnées de ressources incluent [les métadonnées système](#system-metadata) et [ les métadonnées définies par l’utilisateur](#user-defined-metadata).
+Les détails de la ressource incluent des métadonnées appliquées au cours du processus de création ou de chargement. Les types de métadonnées de ressources incluent [les métadonnées système](#system-metadata) et [ les métadonnées définies par l’utilisateur](#user-defined-metadata).
 
 La ressource d’image suivante contient des métadonnées système décrivant le type, la taille et d’autres caractéristiques du fichier, un mot-clé défini par l’utilisateur et plusieurs attributs et couleurs détectés par l’IA.
 
@@ -38,9 +36,7 @@ La ressource d’image suivante contient des métadonnées système décrivant l
 
 ## Métadonnées système
 
-Certaines métadonnées de ressource sont automatiquement collectées lorsqu’une ressource est chargée. Vous ne pouvez pas modifier les métadonnées système par défaut.
-
-Les métadonnées par défaut stockées et capturées pour une ressource incluent le nom, les dimensions, la source, etc. du fichier.
+Certaines métadonnées de ressource sont automatiquement collectées lorsqu’une ressource est chargée, telles que le type de fichier, la taille, les dimensions, la source, etc. À l’exception du nom du fichier, vous ne pouvez pas modifier les métadonnées système par défaut.
 
 ### Balises générées
 

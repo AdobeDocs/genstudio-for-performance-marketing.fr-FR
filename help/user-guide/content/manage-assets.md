@@ -3,9 +3,9 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours marketing numérique.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3a32c26ff746989798842afa5798ffa397a19ef8
+source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ La galerie affiche un inventaire des ressources, expériences ou modèles approu
 
 Vous trouverez ci-dessous une recherche sur le terme `dog` dans la galerie [!UICONTROL Assets] :
 
-![Vue Assets avec recherche sur chien](../../assets/content-assets.png)
+![Vue Assets avec recherche sur chien](/help/assets/content-assets.png)
 
 ### Recherche de contenu
 
@@ -120,7 +120,7 @@ In the future, need guidance on template upload errors. For now, the UI just say
 
 1. Dans _[!DNL Content]_, sélectionnez une ressource image. Cliquer sur une ressource ouvre une vue sélectionnée de la ressource.
 
-1. Dans la vue de la ressource, cliquez sur l’icône **[!UICONTROL Supprimer]** (corbeille) en haut à droite.
+1. Dans la vue de ressource, cliquez sur **[!UICONTROL Supprimer]** (corbeille) en haut à droite.
 
 1. Dans la fenêtre contextuelle _Supprimer la ressource_, vérifiez la ressource et cliquez sur **[!UICONTROL Supprimer]**.
 
@@ -155,7 +155,7 @@ Critères d&#39;amélioration des images avec la fonction [!DNL Edit in Adobe Ex
 
    - Sélectionnez **[!UICONTROL Même détails que la ressource d’origine]** pour transférer les détails de la ressource vers la nouvelle image.
 
-   - Développez la section **[!UICONTROL Plus de détails]** pour mettre à jour Campaign, les directives et d’autres métadonnées.
+   - Développez la section **[!UICONTROL Plus de détails]** pour mettre à jour les instructions et d’autres métadonnées.
 
    >[!TIP]
    >

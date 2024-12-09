@@ -3,10 +3,10 @@ title: Présentation d’Adobe GenStudio for Performance Marketing [!DNL Content
 description: Découvrez comment rechercher, modifier, réutiliser et partager des ressources approuvées par la marque dans un portail intuitif.
 feature: Attributes, Content, Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,58 +17,111 @@ GenStudio for Performance Marketing [!DNL Content] fournit un emplacement centra
 ## Scénarios d’utilisation d’[!DNL Content] 
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="loupe" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search">
+
          <strong>Rechercher du contenu</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="images avec signe plus" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>Ajouter des ressources</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/customize-template.md">
-         <img alt="éclair sur la ressource" src="../../assets/icons/icon-template.png">
-      </a>
-      <p>
-         <a href="../content/customize-template.md">
-         <strong>Personnaliser un modèle</strong>
-         </a>
-      </p>
-   </td>
-   <td align="center" valign="top" width="100">
-      <a href="../content/use-templates.md">
-         <img alt="éclair sur une ressource avec le signe plus" src="../../assets/icons/icon-addTemplate.png">
-      </a>
-      <p>
-         <a href="../content/use-templates.md#upload-a-template">
-         <strong>Télécharger le modèle</strong>
-         </a>
-      </p>
-   </td>
-   <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="Modifier dans Adobe Express" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>Modifier des ressources dans Adobe Express</strong>
+
          </a>
+
       </p>
+
    </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../content/customize-template.md">
+
+         <img alt="éclair sur la ressource" src="../../assets/icons/icon-template.png">
+
+      </a>
+
+      <p>
+
+         <a href="../content/customize-template.md">
+
+         <strong>Personnaliser un modèle</strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../content/use-templates.md">
+
+         <img alt="éclair sur une ressource avec le signe plus" src="../../assets/icons/icon-addTemplate.png">
+
+      </a>
+
+      <p>
+
+         <a href="../content/use-templates.md#upload-a-template">
+
+         <strong>Télécharger le modèle</strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
 </tr>
+
 </table>
 
 ## Fonctionnalités [!DNL Content]
@@ -85,4 +138,4 @@ Lorsque vous enregistrez des ressources approuvées, [!DNL Content] conserve les
 
 ### Utilisation de modèles
 
-Les modèles accélèrent le processus de création afin que vous puissiez générer du contenu cohérent sur plusieurs canaux. Chargez votre modèle personnalisé pour l’utiliser comme point de départ dans le processus de création avec des mises en page et des éléments de conception préconfigurés.
+Les modèles accélèrent le processus de création afin que vous puissiez générer du contenu cohérent sur plusieurs canaux. Chargez votre modèle personnalisé pour l’utiliser comme point de départ dans le processus de création avec des mises en page et des éléments de conception préconfigurés. Découvrez les éléments et les procédures de base des modèles dans [Utilisation des modèles](use-templates.md). Découvrez comment créer des modèles avec la rubrique [Personnaliser un modèle](customize-template.md) .
