@@ -1,130 +1,132 @@
 ---
-title: Création d’une expérience d’affichage d’annonce
-description: Découvrez comment créer des expériences d’affichage d’annonce dans Adobe [!DNL GenStudio] pour le marketing sur les performances.
+title: Création d’une expérience d’affichage d’annonce publicitaire
+description: Découvrez comment créer des expériences d’affichage publicitaire dans Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
+exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
 
-# Création d’une expérience d’affichage d’annonce
+# Création d’une expérience d’affichage d’annonce publicitaire
 
-Ce tutoriel explique comment générer des [expériences d’affichage d’annonce](display-ad-experiences.md) avec GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel vous explique comment générer des expériences d’affichage d’annonces publicitaires de marque [display](display-ad-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
-Pour concevoir une expérience d’affichage et d’affichage attrayante, il est recommandé [d’ajouter des instructions à GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) et de consulter les [ principes de base de l’écriture d’invites](/help/user-guide/effective-prompts.md) avant de commencer.
+Pour concevoir une expérience d’affichage publicitaire attrayante, il est recommandé d’[ajouter des directives à GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) et de consulter les [principes de base de la rédaction d’invites](/help/user-guide/effective-prompts.md) avant de commencer.
 
 ## Choisir un modèle
 
-Pour créer une expérience d’affichage d’annonce, utilisez un modèle disponible afin de fournir la structure de votre contenu.
+Pour créer une expérience d’affichage et de publicité, utilisez un modèle disponible pour fournir le framework de votre contenu. Voir [Bonnes pratiques pour les modèles](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions d’annonces publicitaires prises en charge.
 
 **Pour choisir un modèle de publicité display** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Afficher les publicités]**dans le_&quot;Que souhaitez-vous créer aujourd’hui ?&quot;section _.
-1. Utilisez l’option de recherche, en regard de _Filtre_, pour trouver un modèle d’annonce d’affichage spécifique.
-1. Dans la vue _Select template_, cliquez sur un modèle d&#39;annonce d&#39;affichage.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Afficher les publicités]**dans le_ « Que voulez-vous créer aujourd’hui ? »_section.
+1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle d’annonce publicitaire d’affichage spécifique.
+1. Dans la vue _Sélectionner un modèle_, cliquez sur un modèle d’affichage publicitaire.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
-   La zone de travail, qui sert de centre central pour la création de contenu, s’affiche.
+   La zone de travail, qui sert de hub central pour la création de contenu, s’affiche.
 
 ## Ajouter des paramètres
 
-L’ajout de [lignes guides](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir de l’invite surcharge le processus de génération de contenu et est une étape préparatoire intégrale pour générer une expérience d’affichage publicitaire.
+L’ajout de [directives](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite surcharge le processus de génération de contenu et constitue une étape préparatoire intégrale pour générer une expérience d’affichage d’annonce.
 
 **Pour ajouter des paramètres et des ressources** :
 
-1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir de l’invite.
-1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
+1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir d’invite.
+1. Dans la section _Paramètres_, sélectionnez les instructions ([!DNL Brands], [!DNL Personas] et [!DNL Products]) pour informer la création de contenu.
 
-   Si aucune marque, aucun personnage ou aucun produit n’est disponible dans ces menus, [ajoutez des instructions à votre GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
+   Si aucune marque, personnage ou produit n’est disponible à partir de ces menus, [ajoutez des conseils à votre GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Pour ajouter du contenu à utiliser dans l’expérience *et* afin d’influencer la génération du contenu :
-   * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources (images) dans votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
+1. Pour ajouter du contenu à utiliser dans l’expérience *et* pour influencer la génération de contenu :
+   * Cliquez sur **[!UICONTROL Sélectionner à partir du contenu]** pour sélectionner des ressources (images) à partir de votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
 
-     Pour utiliser des ressources d’un référentiel [!DNL AEM Assets Content Hub] connecté, sélectionnez un référentiel dans le menu déroulant _Location_. Filtrez et sélectionnez une ou plusieurs images.
+     Pour utiliser des ressources à partir d’un référentiel de [!DNL AEM Assets Content Hub] connecté, choisissez un référentiel dans le menu déroulant _Emplacement_. Filtrez et sélectionnez une ou plusieurs images.
 
-   * Vous pouvez également faire glisser et déposer des ressources dans la section **[!UICONTROL Sélectionner dans le contenu]** pour charger une ou plusieurs nouvelles ressources.
+   * Vous pouvez également faire glisser et déposer des ressources dans la section **[!UICONTROL Sélectionner à partir du contenu]** pour charger une ou plusieurs nouvelles ressources.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
-Lorsque vous avez terminé d’ajouter des paramètres, réduisez le tiroir de l’invite en cliquant de nouveau sur l’icône _Paramètres_ .
+Lorsque vous avez terminé d&#39;ajouter des paramètres, réduisez le tiroir d&#39;invite en cliquant de nouveau sur l&#39;icône _Paramètres_.
 
-## Saisissez une invite
+## Saisir une invite
 
-Une fois les instructions sélectionnées, créez une invite à l’aide du langage naturel afin de commencer à générer du contenu pour votre nouvelle expérience d’affichage publicitaire. Pour améliorer la qualité des expériences d’affichage et de description générées, il est essentiel de créer des invites détaillées et descriptives.
+Une fois les instructions sélectionnées, créez une invite en langage naturel pour commencer à générer du contenu pour votre nouvelle expérience d’affichage et d’affichage. Pour améliorer la qualité de l’affichage et des expériences générés, il est essentiel de créer des invites détaillées et descriptives.
 
-![Entrez une invite](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
+![Saisissez une invite](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
-Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l’écriture d’invites.
+Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l&#39;écriture d&#39;invites.
 
 **Pour saisir une invite** :
 
-1. Saisissez une invite dans la zone d’invite _&quot;Description des expériences que vous souhaitez générer&quot;_.
+1. Saisissez une invite dans la zone d’invite _« Décrire les expériences que vous souhaitez générer »_.
 1. Cliquez sur **[!UICONTROL Générer]**.
 
-Par défaut, quatre variantes, alimentées par l’invite, les directives et le contenu que vous avez ajoutés, sont générées et affichées dans la zone de travail.
+Par défaut, quatre variantes (alimentées par l’invite, les instructions et le contenu que vous avez ajouté) sont générées et affichées dans la zone de travail.
 
-## Modification des publicités affichées générées
+## Révision des publicités display générées
 
-Avant de sélectionner les éléments à envoyer pour approbation ou publication sur [!DNL Content], vous pouvez modifier les sections d’affichage d’annonce et les champs de texte, ou supprimer une variante générée.
+Avant de sélectionner les éléments à envoyer pour approbation ou publication à [!DNL Content], vous pouvez modifier les sections d’affichage et les champs de texte, ou supprimer une variante générée.
 
 **Pour réviser les variantes générées** :
 
-* **Pour [modifier le nom de la version préliminaire de l’annonce d’affichage](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Version préliminaire sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
-* **Pour [modifier manuellement une publicité display](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’un des champs ou sections de la publicité display (par exemple, la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-la si nécessaire.
-* **Pour [modifier la taille et les proportions de la publicité](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
-* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, passez la souris sur l’image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image. Cliquez sur **[!UICONTROL Appliquer]**.
+* **Pour [modifier le nom du brouillon d’annonce publicitaire affiché](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
+* **Pour [modifier manuellement une publicité affichée](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’une des sections ou l’un des champs de la publicité affichée (comme l’objet, l’en-tête ou le corps du texte) et effectuez les modifications nécessaires.
+* **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options disponibles pour reformuler, raccourcir, allonger ou générer un nouveau texte.
+* **Pour [modifier la taille et les proportions de l’annonce](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (encadrez-le d’une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et de nouvelles proportions à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
+* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, pointez sur l’image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image. Cliquez sur **[!UICONTROL Appliquer]**.
 
 <!-- # Preview for device
 When revising and preparing email experiences, you can toggle between previews for desktop and mobile views to ensure coherence and visual appeal of draft variants.
 **To preview variants for desktop and mobile devices** toggle the device preview option—between **desktop** and **mobile**—in the right menu bar (computer and phone icons) to preview how variants appear. -->
 
-## Commentaires sur la génération d’envoi
+## Envoyer le retour d’informations de génération
 
-Pour [envoyer un commentaire](/help/user-guide/create/manage-variants.md#generation-feedback) sur la qualité de la sortie de génération, cliquez sur l’icône d’options (trois points) et sélectionnez **[!UICONTROL Bonne sortie]** ou **[!UICONTROL Mauvaise sortie]**.
+Pour [soumettre des commentaires](/help/user-guide/create/manage-variants.md#generation-feedback) sur la qualité de la sortie de génération, cliquez sur l&#39;icône d&#39;options (points de suspension) et sélectionnez **[!UICONTROL Bonne sortie]** ou **[!UICONTROL Mauvaise sortie]**.
 
-## Vérifier l&#39;alignement des marques
+## Vérifier l’alignement de la marque
 
-Pour optimiser les publicités générées et garantir une stricte conformité avec l’identité de la marque, tirez parti de la puissance du [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel), qui affiche des détails complets sur la validation de la marque et illumine les zones d’amélioration.
+Pour optimiser les publicités générées et garantir une stricte conformité à l’identité de marque, tirez parti de la puissance du [_panneau de validation des marques_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel), qui affiche des détails complets sur la validation de la marque et éclaire les domaines d’amélioration.
 
 **Pour vérifier l’alignement de la marque** :
 
-1. Cliquez sur l’icône Validation de marque dans la barre de menus supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel). Vous pouvez afficher les détails des fragments et des directives qui doivent être améliorés.
+1. Cliquez sur l’icône Validation de marque dans la barre de menus supérieure pour ouvrir le [_panneau Validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel). Vous pouvez afficher les détails des fragments et des directives à améliorer.
 
-1. Passez d’une publicité à l’autre pour voir comment améliorer le contenu généré afin d’être plus aligné sur la marque.
-1. [Révision manuelle des publicités](#revise-generated-display-ads) pour vous assurer que vos emails sont étroitement alignés sur votre marque.
+1. Parcourez chaque publicité pour voir comment améliorer le contenu généré afin qu’il corresponde davantage à la marque.
+1. [Révisez manuellement les publicités](#revise-generated-display-ads) pour vous assurer que vos e-mails sont étroitement alignés avec votre marque.
 
-Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
-## Obtention de révisions et d’approbations
+## Obtention des révisions et des approbations
 
-Utilisez le panneau Approbations, accessible dans la barre de menus supérieure du Canevas, pour obtenir des révisions, suivre les commentaires de révision et obtenir les approbations des parties prenantes.
+Utilisez le panneau Approbations, accessible dans la barre de menu supérieure de la zone de travail, pour obtenir des révisions, suivre les commentaires des révisions et obtenir les approbations des parties prenantes.
 
-**Pour obtenir des révisions et des validations** :
+**Pour obtenir des examens et des approbations** :
 
-1. [Lancer une demande d’approbation](/help/user-guide/approvals/request-review.md) pour demander une [approbation des expériences de messagerie préliminaires](/help/user-guide/approvals/approve-content.md).
-1. [Supprimez ou ajoutez des réviseurs](/help/user-guide/approvals/review-and-edit.md#manage-approvals) pendant le processus de révision.
-1. [Accédez au contenu à réviser](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) et consultez les demandes de révision.
-1. Modifiez les brouillons par commentaires de révision et [publiez vos expériences d’affichage et de publicité](#publish-and-export-experience).
+1. [Lancez une demande d’approbation](/help/user-guide/approvals/request-review.md) pour solliciter une [approbation des brouillons d’expériences d’e-mail](/help/user-guide/approvals/approve-content.md).
+1. [Supprimer ou ajouter des réviseurs et réviseuses](/help/user-guide/approvals/review-and-edit.md#manage-approvals) pendant le processus de révision.
+1. [Accédez au contenu à réviser](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) et affichez les demandes de révision.
+1. Modifiez les brouillons par commentaire de révision et [publiez vos expériences d’affichage publicitaire](#publish-and-export-experience).
 
 Voir [Révisions et approbations](/help/user-guide/approvals/overview.md).
 
-## Expérience Publish et export
+## Publish et expérience d’exportation
 
-Pour rendre les publicités display générées disponibles pour une utilisation actuelle et future, publiez-les sur [!UICONTROL Contenu] et exportez-les pour les utiliser dans vos campagnes marketing.
+Pour rendre les publicités display générées disponibles pour une utilisation actuelle et future, publiez-les dans [!UICONTROL Content] et exportez-les pour les utiliser dans vos campagnes marketing.
 
-1. **Pour publier votre nouvelle expérience d’affichage publicitaire**, cliquez sur **[!UICONTROL Publish]** dans la barre d’outils supérieure ou dans le flux d’approbations.
+1. **Pour publier votre nouvelle expérience(s) d’affichage publicitaire**, cliquez sur **[!UICONTROL Publish]** dans la barre d’outils supérieure ou dans le flux d’approbations.
    1. Sélectionnez _[!UICONTROL [!DNL Campaigns]]_et ajoutez_[!UICONTROL  Plus de détails ]_si vous le souhaitez.
    1. Cliquez sur **[!UICONTROL Publier]**.
 
-      ![Publish a display ad](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![Publish une publicité display](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **Pour exporter votre nouvelle expérience d’affichage publicitaire**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
-   1. Sélectionnez le format JPG uniquement et cliquez sur **[!UICONTROL Exporter]**.
+1. **Pour exporter vos nouvelles expériences d’affichage d’annonce(s)**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
+   1. Sélectionnez le format (HTML et images, PNG ou JPG), puis cliquez sur **[!UICONTROL Exporter]**.
 
-      L’HTML exporté doit être placé dans une propriété web prédéfinie, telle qu’un modèle ou un conteneur `div`. Sans ces dimensions définies, les images peuvent apparaître déformées lorsqu’elles sont visualisées indépendamment.
+      L’HTML exporté doit être placé dans une propriété web prédéfinie, comme un modèle ou un conteneur `div`. Sans ces dimensions définies, les images peuvent sembler déformées lorsqu’elles sont vues indépendamment.
 
 Consultez [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content).

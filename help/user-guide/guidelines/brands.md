@@ -1,66 +1,66 @@
 ---
-title: GenStudio for Performance Marketing [!DNL Brands]
-description: GenStudio for Performance Marketing [!DNL Brands] est une collection complète de ressources de marque (copie marketing, imagerie, expériences, etc.) permettant d’informer la création de contenu aligné sur la marque.
+title: GenStudio for Performance Marketing  [!DNL Brands]
+description: Les GenStudio for Performance Marketing [!DNL Brands] sont une collection complète de ressources de marque (copie marketing, images, expériences, etc.) visant à informer la création de contenu aligné sur la marque.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: 435c792d1991c2e34c500d072f23f1ed1ccdbcc9
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
 
-# GenStudio for Performance Marketing [!DNL Brands]
+# [!DNL Brands] GenStudio for Performance Marketing
 
-Une marque distingue une organisation, un produit, un service ou un concept des autres. Certains aspects d&#39;une marque sont objectifs, comme un logo, tandis que d&#39;autres sont subjectifs, comme le ton.
+Une marque distingue une organisation, un produit, un service ou un concept des autres. Certains aspects d&#39;une marque sont objectifs, comme un logo, tandis que d&#39;autres sont subjectifs, comme le ton de la voix.
 
-GenStudio for Performance Marketing utilise la richesse des informations sur la marque de votre marque, l’associe aux informations [!DNL Product] et [!DNL Persona] et crée une identité de marque complète. Cette identité de marque est utilisée pour informer la création de contenu sur marque à l’aide de la technologie d’IA générative de l’Adobe.
+GenStudio for Performance Marketing utilise la richesse des informations de marque de votre marque, les associe à des informations [!DNL Product] et [!DNL Persona], et crée une identité de marque complète. Cette identité de marque est utilisée pour informer la création de contenu sur la marque à l’aide de la technologie d’IA générative d’Adobe.
 
-## Gérer [!DNL Brands]
+## Gérer les [!DNL Brands]
 
-Après avoir ajouté des directives sur la marque à GenStudio for Performance Marketing, vous pouvez [gérer](/help/user-guide/guidelines/add-guidelines.md#manage-brands) et [les publier](/help/user-guide/guidelines/add-guidelines.md#publish-brand). La publication les rend disponibles pour que votre équipe puisse les utiliser dans la génération de ressources.
+Après avoir ajouté des directives de marque à GenStudio for Performance Marketing, vous pouvez les [gérer](/help/user-guide/guidelines/add-guidelines.md#manage-brands) et [publier](/help/user-guide/guidelines/add-guidelines.md#publish-brand). Leur publication les rend disponibles pour que votre équipe les utilise dans la génération de ressources.
 
-[!DNL Brands] peut être à l’état _Brouillon_ ou _Publié_. Le nouveau [!DNL brands] commence par _Brouillon_.
+[!DNL Brands] peut être à l’état _Dépublié_ ou _Publié_. Les nouveaux [!DNL brands] commencent comme _Dépubliés_.
 
-Vous devez publier un [!DNL brand] pour le rendre disponible pour la génération de ressources par votre équipe.
+Vous devez [publier une marque](/help/user-guide/guidelines/add-guidelines.md#publish-brand) pour la rendre disponible pour la génération de ressources par votre équipe.
 
-Les [!DNL brands] publiés peuvent être modifiés et les modifications sont immédiatement disponibles. Seul le [!DNL brands] publié peut être utilisé pour créer et valider du contenu.
+Les marques publiées peuvent être modifiées (les modifications sont immédiatement disponibles), dupliquées ou dépubliées. Seuls les [!DNL brands] publiés peuvent être utilisés pour créer et valider du contenu. Voir [Gérer les marques](/help/user-guide/guidelines/add-guidelines.md#manage-brands).
 
 Les [!DNL brands] supprimés sont archivés pendant 30 jours et peuvent être récupérés au cours de cette période.
 
-## [!DNL Brands] conseils
+## [!DNL Brands] des directives
 
-Les directives donnent à GenStudio for Performance Marketing une image claire de votre approche, de votre tonalité, de votre ressenti visuel, etc. spécifiques à votre marque.
+Les directives donnent à GenStudio for Performance Marketing une image claire de votre approche, de votre ton, de votre perception visuelle et plus encore, spécifiques à votre marque.
 
-![Consignes de marque](/help/assets/brands.png){width="600" zoomable="yes"}
+![Directives relatives à la marque](/help/assets/brands.png){width="600" zoomable="yes"}
 
-Les sections suivantes décrivent chaque catégorie de lignes guides, les exemples de lignes guides et les résultats potentiels. Les exemples de lignes guides sont des exemples d’entrées qui façonnent la sortie des résultats (exemples de résultats ci-dessous). Utilisez-les pour informer vos propres directives de marque.
+Les sections de directives suivantes détaillent chaque catégorie de directives, des exemples de directives et des résultats potentiels. Les exemples de consignes sont des exemples d’entrées qui façonnent la sortie des résultats (exemples de résultats ci-dessous). Utilisez-les pour éclairer vos propres consignes de marque.
 
-### Indications pour la marque et la voix
+### Instructions relatives à la voix de marque
 
-Le tableau suivant présente chaque catégorie d’exemples de directives et de directives vocales de marque.
+Le tableau suivant présente chaque catégorie de directives vocales de marque et des exemples de directives.
 
-| Catégorie de lignes guides | Description | Bonnes pratiques |
+| Catégorie d&#39;instructions | Description | Bonnes pratiques |
 | ------------------| :---------- | :---------- |
-| Ton de la voix | La personnalité de la marque telle qu&#39;elle s&#39;exprime par une communication écrite | Utilisez des mots descriptifs pour exprimer clairement l’émotion et le ton de la marque. <br>_Exemples_ : &quot;authentique&quot;, &quot;joueur&quot;<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les attributs vocaux clés de la marque.<br><br>Sélectionnez des mots/expressions cohérents sur tous les canaux de communication pour créer une identité de marque cohérente. |
-| Valeurs de marque | Principes qui déterminent la culture de marque, l’expérience client et les stratégies commerciales | Utilisez des mots descriptifs pour décrire la mission, la vision et les besoins de l’audience de la marque. <br>_Exemples_ : &quot;authenticité&quot;, &quot;inspirant&quot;, &quot;progressiste&quot;<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les valeurs/thèmes principaux de la marque. |
-| Directives éditoriales | Directives de communication définissant les bonnes pratiques pour la création de messages de marque | Utilisez des expressions positives (5 à 10 consignes) pour établir une base solide.<br>_Exemples_ : &quot;Utilisez un langage simple et accessible&quot; au lieu de &quot;Éviter d’utiliser du jargon&quot;<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemples_ : &quot;Conserver les phrases de moins de 20 mots&quot; au lieu de &quot;Soyez concis&quot;<br><br>Reflétez le style de votre marque, par exemple en utilisant des préférences de syntaxe spécifiques. <br>_Exemples_ : &quot;Utilisez un tiret cadratin au lieu d’un deux-points&quot;, &quot;Cas pratique de phrase&quot;<br><br>Concevez des directives précises qui maintiennent la cohérence entre les sorties. |
-| Restrictions éditoriales | Instructions de communication définissant les éléments à éviter dans les messages de marque | Utilisez le phrasé négatif direct (5 à 10 consignes) pour spécifier ce qui doit être évité. <br>_Exemple_ : &quot;Évitez d’utiliser...&quot;<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemple_ : &quot;Éviter les questions rhétoriques&quot; |
+| Ton de la voix | Personnalité de la marque exprimée par la communication écrite | Utilisez des mots descriptifs pour exprimer clairement l&#39;émotion et le ton de la marque. <br>_Exemples_ : « authentique », « ludique »<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les principaux attributs vocaux de la marque.<br><br>Sélectionnez des mots/expressions cohérents sur l’ensemble des canaux de communication afin de créer une identité de marque cohérente. |
+| Valeurs de marque | Principes qui sous-tendent la culture de marque, l’expérience client et les stratégies commerciales | Utilisez des mots descriptifs pour décrire la mission, la vision et les besoins du public de la marque. <br>_Exemples_ : « authenticité », « inspirant », « progressif »<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les valeurs/thèmes de base de la marque. |
+| Instructions éditoriales | Directives de communication définissant les bonnes pratiques pour l’élaboration des messages de marque | Utilisez des expressions positives (5 à 10 directives) pour établir une base solide.<br>_Exemples_ : « Utilisez un langage simple et accessible » au lieu de « Évitez d’utiliser du jargon »<br><br>Fournissez des conseils clairs et exploitables. <br>_Exemples_ : « Conserver les phrases de moins de 20 mots » au lieu de « Être concis »<br><br>Reflétez le style de votre marque, par exemple en utilisant des préférences de syntaxe spécifiques. <br>_Exemples_ : « Utilisez un tiret cadratin au lieu du signe deux-points », « Utilisez un cas de phrase »<br><br>Établissez des directives précises qui maintiennent la cohérence entre les sorties. |
+| Restrictions éditoriales | Directives de communication définissant les éléments à éviter dans les messages de marque | Utilisez des expressions négatives directes (directives 5 à 10) pour spécifier ce qui doit être évité. <br>_Exemple_ : « Évitez d’utiliser... »<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemple_ : « Évitez les questions rhétoriques » |
 
-### Directives relatives aux canaux
+### Instructions relatives aux canaux
 
-Chaque canal comporte certaines directives inhérentes qui influent sur la composition des ressources du canal.
+Chaque canal suit certaines instructions inhérentes qui influencent la composition des ressources de canal.
 
-Le tableau suivant présente chaque section de canal, les canaux pour lesquels elle est disponible, la description de la section, des exemples de lignes guides et des exemples de résultats.
+Le tableau suivant présente chaque section de canal, les canaux pour lesquels elle est disponible, la description de la section, des exemples de consignes et des exemples de résultats.
 
 | Sections | Canaux | Description | Bonnes pratiques |
 | ------------------| --------- | --------- | -------- |
-| Général | e-mail, publicités sociales | Une deuxième ligne d’objet ou un texte d’aperçu d’email | Définissez une tonalité/émotion globale cohérente dans l’ensemble de l’email (2 à 5 lignes directrices).<br>_Exemples_ : &quot;Conserver un ton convivial et accessible&quot;, &quot;Éviter une langue trop formelle&quot;<br><br> |
-| Objet | email | Titre fascinant et intéressant pour résumer le contenu d’un email | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur, etc. Ajoutez des lignes d’objet précédemment réussies dans la section _Exemples_ pour un résultat de meilleure qualité.<br>_Exemple_ : &quot;Aligner l&#39;objet avec le corps de l&#39;email&quot; |
-| Preheader | email | Une deuxième ligne d’objet ou un texte d’aperçu d’email | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur idéale, etc. Ajoutez des en-têtes précédemment réussis dans la section _Exemples_ pour une meilleure qualité de sortie.<br>_Exemple_ : &quot;Limite à 60-80 caractères&quot; |
-| Titre | e-mail, publicités sociales, publicités display | Un titre ou une expression pour attirer l’attention du lecteur | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur idéale, etc. Ajoutez des titres précédemment réussis dans la section _Exemples_ pour un résultat de meilleure qualité.<br>_Exemples_ : &quot;Utilisez des instructions pointues pour attirer l’attention&quot; |
-| Corps | e-mail, publicités sociales, publicités display | Contenu marketing qui comprend des messages, des liens et des images | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : &quot;Limite à 80-100 caractères&quot;, &quot;Éviter les acronymes excessifs&quot; |
-| CTA | e-mail, publicités sociales, publicités display | (Appel à l&#39;action) Instruction donnée au lecteur qui inspire une réponse. Généralement un ou deux mots, tels que `Get started` | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : &quot;N’utilisez pas de ponctuation de fin&quot; |
+| Général | e-mail, publicités sur les réseaux sociaux | Un second objet ou texte d’aperçu d’e-mail | Définissez le ton/l’émotion global(e) pour être cohérent(e) tout au long de l’e-mail (2-5 directives).<br>_Exemples_ : « Maintenir un ton amical et accessible », « Éviter un langage trop formel »<br><br> |
+| Objet | email | Un titre attrayant et intéressant pour résumer le contenu d’un e-mail | Fournissez des conseils spécifiques (2 à 5 directives) sur le ton, la longueur, etc. Ajoutez des lignes d’objet précédemment réussies dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemple_ : « Aligner l’objet sur le corps de l’e-mail » |
+| Pré-titre | email | Un second objet ou texte d’aperçu d’e-mail | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des pré-titres précédemment réussis dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemple_ : « Limité à 60-80 caractères » |
+| Titre | e-mail, publicités sur les réseaux sociaux, publicité display | Un titre ou une phrase qui attire l&#39;attention du lecteur | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des titres précédemment publiés avec succès dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention » |
+| Corps | e-mail, publicités sur les réseaux sociaux, publicité display | Contenu marketing comprenant des messages, des liens et des images | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Limiter à 80-100 caractères », « Éviter les acronymes excessifs » |
+| CTA | e-mail, publicités sur les réseaux sociaux, publicité display | (Appel à l’action) Instruction donnée au lecteur et qui inspire une réponse. Généralement un ou deux mots, comme `Get started` | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Ne pas utiliser la ponctuation de fin » |
 
 <!-- Not in M2.1 // ### Image guidelines
 
@@ -86,8 +86,8 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 ![Logo guidelines in GenStudio for Performance Marketing](/help/assets/logos.png){width="650" zoomable="yes"} -->
 
-## Validation de marque
+## Validation de la marque
 
-Dans GenStudio for Performance Marketing, la validation de la marque joue un rôle crucial, en conjonction avec la fonctionnalité d’IA générative de [!DNL Brands], [!DNL Products] et [!DNL Personas]. Cela garantit que tout votre contenu reste cohérent avec votre identité de marque.
+Dans GenStudio for Performance Marketing, la validation de la marque joue un rôle essentiel, en conjonction avec les fonctionnalités d’IA génératives de [!DNL Brands], [!DNL Products] et [!DNL Personas]. Cela permet de s’assurer que tout votre contenu reste cohérent avec l’identité de votre marque.
 
-Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).

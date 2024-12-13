@@ -1,26 +1,26 @@
 ---
-title: Gestion des variantes
-description: Personnalisez et améliorez les variantes et les ressources générées en fonction de vos besoins en marketing numérique.
+title: Gérer les variantes
+description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Content, Assets, Experiences
-source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
+exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
+# Gérer les variantes
 
-# Gestion des variantes
+Adobe GenStudio for Performance Marketing [!DNL Create] vous permet de personnaliser et d’améliorer les variantes générées ([e-mails](/help/user-guide/create/email-experiences.md), [méta-annonces](/help/user-guide/create/meta-experiences.md), etc.) pour les utiliser dans des initiatives de marketing numérique.
 
-Adobe GenStudio for Performance Marketing [!DNL Create] vous permet de personnaliser et d’améliorer les variantes générées : [emails](/help/user-guide/create/email-experiences.md), [Meta ads](/help/user-guide/create/meta-experiences.md), etc.) à utiliser dans les initiatives de marketing numérique.
-
-Lors de la [création d’expériences](/help/user-guide/create/overview.md), vous pouvez modifier le contenu et les ressources des variantes générées individuellement ou dans un lot. La possibilité de gérer des variantes au niveau micro vous permet de gérer explicitement chaque élément de contenu généré.
+Lors de la [création d’expériences](/help/user-guide/create/overview.md), vous pouvez modifier le contenu et les ressources des variantes générées individuellement ou par lots. La possibilité de gérer des variantes au niveau micro individuel vous permet de gérer explicitement chaque élément de contenu généré.
 
 ## Modifier le nom du brouillon
 
-Les variantes générées portent un nom par défaut affiché en haut de la zone de travail. Les noms de brouillon par défaut utilisent la convention suivante qui inclut le type de canal, la date et l’heure de génération.
+Les brouillons de variantes générés ont un nom par défaut affiché en haut de la zone de travail. Les noms des brouillons par défaut utilisent la convention suivante qui inclut le type de canal, la date et l’heure de la génération.
 
-*Exemple* : &quot;Métadonnées : Version préliminaire sans titre - 09.5.24, 9:56 du matin&quot;
+*Exemple* : « Méta : brouillon sans titre - 09.5.24, 9:56 »
 
 **Pour modifier le nom par défaut** :
 
@@ -30,114 +30,127 @@ Les variantes générées portent un nom par défaut affiché en haut de la zone
 
 ## Modification manuelle de texte
 
-Vous pouvez modifier les champs de texte dans les variantes générées. Affinez le texte de votre audience en expérimentant différentes expressions et différents verbiages. Vous pouvez, par exemple, réviser manuellement le texte des variantes afin de prévisualiser l’aspect d’un titre avec l’image choisie.
+Vous pouvez modifier les champs de texte dans les variantes générées. Affinez le texte pour votre audience en expérimentant différentes expressions et différents verbiages. Par exemple, vous pouvez réviser manuellement le texte dans les variantes pour prévisualiser l’aspect d’un titre avec une image choisie.
 
 **Pour modifier manuellement le texte dans les variantes générées** :
 
 1. Après avoir généré un ensemble de variantes, double-cliquez sur le texte modifiable dans une variante.
-1. Entrez un nouveau texte.
+1. Saisissez le nouveau texte.
 1. Cliquez sur le champ de texte pour l’enregistrer.
 
-## Recréer les sections
+## Générer à nouveau les sections
 
-GenStudio for Performance Marketing dispose de la fonctionnalité intégrée pour régénérer des sections uniques de variantes générées à l’aide de _[!UICONTROL Suggestions de modification]_ et de nouvelles invites.
+GenStudio for Performance Marketing dispose d’une fonctionnalité intégrée pour régénérer les sections des variantes générées. Vous pouvez reformuler, raccourcir ou allonger le texte, ou ajouter de nouvelles invites pour générer du nouveau contenu.
 
-Par exemple, vous pouvez générer à nouveau la section du titre d’une variante de métadonnées publicitaires pour voir à quoi elle ressemble avec une ressource d’arrière-plan spécifique à l’aide des options _[!UICONTROL Suggested edits]_—_[!UICONTROL Rep]_, _[!UICONTROL Shorten]_ ou _[!UICONTROL Lengthen]_—et saisir une nouvelle invite.
+Par exemple, vous pouvez générer à nouveau la section titre d’une méta-variante pour voir à quoi elle ressemble avec une ressource en arrière-plan spécifique. Vous pouvez _[!UICONTROL Reformuler]_, _[!UICONTROL Raccourcir]_ ou _[!UICONTROL Allonger]_ le contenu d’une section ou _[!UICONTROL Générer un nouveau texte]_ pour ajouter une nouvelle invite.
 
-![Recréer les sections](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
+![Générer à nouveau les sections](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
-**Pour générer à nouveau des sections de variante individuelles** :
+**Pour générer à nouveau des sections de variantes individuelles** :
 
 1. Après avoir généré un ensemble de variantes, cliquez une seule fois sur un texte modifiable dans une variante.
-1. Sélectionnez une option _[!UICONTROL Suggestions de modification]_—_[!UICONTROL Réphrase]_, _[!UICONTROL Shorten]_ ou _[!UICONTROL Lengthen]_.
-   * Choisissez une option disponible et cliquez sur **[!UICONTROL Remplacer]**.
-1. (_Facultatif_) Sélectionnez _[!UICONTROL Générer avec l’invite] et saisissez une nouvelle invite pour modifier le focus du contenu régénéré.
-   * Cliquez sur **[!UICONTROL Générer]**.
-1. Si vous souhaitez régénérer les résultats pour afficher d’autres options, cliquez sur l’icône de régénération située en regard de _Résultats_.
-1. Dans les _Résultats_ qui s’affichent, sélectionnez l’option souhaitée et cliquez sur **[!UICONTROL Remplacer]**.
+1. Pour modifier le texte existant, sélectionnez _[!UICONTROL Reformuler]_, _[!UICONTROL Raccourcir]_ ou _[!UICONTROL Allonger]_.
+1. Pour générer de nouvelles options de phrasé, sélectionnez _[!UICONTROL Générer un nouveau texte]_ et saisissez une nouvelle invite.
+   1. Cliquez sur **[!UICONTROL Générer]**.
+1. Lorsque vous régénérez le texte d’une section, cliquez sur l’icône de régénération pour afficher d’autres options de texte.
+1. Dans les résultats qui s’affichent, sélectionnez l’option souhaitée, puis cliquez sur **[!UICONTROL Remplacer]**.
 
    La variante est mise à jour avec le texte révisé.
 
-## Recadrage de ressources
+## Révision de l’appel à l’action
 
-Vous pouvez recadrer et repositionner manuellement les ressources image dans des variantes générées individuellement.
+Après avoir généré un ensemble de variantes, vous pouvez réviser le texte et le lien de l’appel à l’action (CTA).
+
+**Pour modifier le CTA dans une variante** :
+
+1. Après avoir généré un ensemble de variantes, cliquez sur le bouton affichant le texte CTA.
+1. Pour modifier le texte du bouton CTA, sélectionnez l’une des options disponibles dans la liste _Appels à l’action_.
+1. Pour modifier le lien dans le CTA, cliquez sur **[!UICONTROL Lien]**.
+   1. Saisissez ou collez un nouveau lien ou modifiez le lien existant dans la section _Modifier le lien_ et cliquez sur **[!UICONTROL Appliquer]**. Vous pouvez cliquer sur **[!UICONTROL Supprimer le lien]** pour supprimer le lien existant avant d’en saisir un nouveau.
+
+
+Le lien ajouté ou révisé est appliqué à toutes les CTA de l’ensemble des variantes.
+
+## Recadrer les ressources
+
+Vous pouvez recadrer et repositionner manuellement des ressources d’image dans des variantes générées individuelles.
 
 **Pour recadrer et repositionner des images dans des variantes** :
 
-1. Après avoir généré un ensemble de variantes, pointez sur une image dans une variante.
+1. Après avoir généré un ensemble de variantes, passez la souris sur une image dans une variante.
 1. Cliquez sur l’icône de recadrage qui s’affiche dans le coin gauche de l’image.
-1. Ajustez le cadre de sélection de l’image et faites-le glisser à l’emplacement souhaité.
-1. Cliquez sur **[!UICONTROL Appliquer]** pour appliquer le recadrage à une seule image ou sur **[!UICONTROL Appliquer à toutes les images]** pour appliquer à toutes les images des variantes.
+1. Ajustez le cadre de sélection de l’image et faites-la glisser jusqu’à la position souhaitée.
+1. Cliquez sur **[!UICONTROL Appliquer]** pour appliquer le recadrage à une seule image ou **[!UICONTROL Appliquer à toutes les images]** pour appliquer à toutes les images des variantes.
 
    L’image recadrée est enregistrée et visible pour les variantes.
 
-## Modifier le format
+## Modifier les proportions
 
-Vous pouvez rapidement modifier le rapport L/H des métadonnées publicitaires pour adapter le dimensionnement d’annonce souhaité.
+Vous pouvez rapidement modifier les proportions des Méta-annonces pour adapter le dimensionnement de l’annonce publicitaire à vos besoins.
 
 Les proportions disponibles sont les suivantes :
 
-* 1:1 carré (méta)
-* 4:5 vertical (Meta)
+* 1:1 carré (Méta)
+* Vertical 4:5 (Meta)
 * 9:16 vertical (Meta)
-* 250 x 980 (publicité display)
+* 250 x 980 (affichage publicitaire)
 
 >[!NOTE]
 >
->D’autres formats et tailles peuvent être disponibles en fonction des modèles disponibles.
+>D’autres proportions et tailles peuvent être disponibles en fonction des modèles disponibles.
 
-**Pour modifier le rapport L/H des métadonnées générées** :
+**Pour modifier les proportions des métadonnées publicitaires générées** :
 
-1. Après avoir généré un ensemble de variantes, sélectionnez l’icône de redimensionnement du format (flèche pointant vers le coin de la zone) sur le côté gauche du Canevas.
+1. Après avoir généré un ensemble de variantes, sélectionnez l’icône de redimensionnement des proportions (flèche pointant vers le coin de la zone) sur le côté gauche de la zone de travail.
 
-   Le rapport d’aspect actuellement utilisé pour vos publicités s’affiche dans la partie supérieure de la fenêtre _[!UICONTROL Redimensionner]_ .
+   Les proportions actuellement utilisées pour vos publicités s’affichent dans la partie supérieure de la fenêtre _[!UICONTROL Redimensionner]_.
 
-   Le nombre de variations affectées par cette révision est indiqué dans le coin supérieur droit de la fenêtre. _Exemple_ : &quot;4 variations sur 4&quot;
+   Le nombre de variations affectées par cette révision est indiqué dans le coin supérieur droit de la fenêtre. _Exemple_ : « 4 variations sur 4 »
 
-1. Sélectionnez les proportions disponibles.
+1. Sélectionnez un format disponible.
 
-   Seules les tailles de proportions qui ne sont actuellement pas représentées dans la zone de travail peuvent être sélectionnées.
+   Seules les tailles aux proportions qui ne sont pas actuellement représentées dans la zone de travail peuvent être sélectionnées.
 
 1. Cliquez sur **[!UICONTROL Dupliquer et redimensionner]**.
 
-   [!DNL Create] crée une copie de chaque variante en fonction du nouveau rapport d’aspect sélectionné. Toutes les variantes, y compris celles qui figurent dans les proportions initiales, sont présentes dans la zone de travail.
+   [!DNL Create] crée une copie de chaque variante en fonction des nouveaux proportions sélectionnées. Toutes les variantes, y compris celles du rapport d’aspect initial, sont présentes dans la zone de travail.
 
-   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect 1:1, puis que vous modifiez le rapport d’aspect en 4:5, les variantes totales _huit_ sont désormais disponibles sur la zone de travail.
+   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect de 1:1, puis que vous modifiez le rapport d’aspect en 4:5, _huit_ le total des variantes est désormais disponible sur la zone de travail.
 
-## Permutation d’une image
+## Permuter l’image
 
-Vous pouvez ajouter ou permuter des images dans des variantes générées directement à partir de la zone de travail.
+Vous pouvez ajouter ou permuter des images dans des variantes générées directement depuis la zone de travail.
 
 **Pour ajouter ou permuter des images dans une variante** :
 
-1. Après avoir généré un ensemble de variantes, cliquez sur une ressource d’image.
+1. Après avoir généré un ensemble de variantes, cliquez sur une ressource image.
 
-   Si la variante ne comporte actuellement pas de ressource image importée, cliquez sur la zone de ressource image.
+   Si la variante ne comporte pas de ressource image placée, cliquez sur la zone de la ressource image.
 
-1. Pour sélectionner une ressource image déjà publiée sur [!DNL Content] :
-   1. Cliquez sur **[!UICONTROL Sélectionner dans le contenu]**. Utilisez les filtres pour affiner davantage vos résultats de recherche.
+1. Pour sélectionner une ressource d’image déjà publiée sur [!DNL Content] :
+   1. Cliquez sur **[!UICONTROL Sélectionner à partir du contenu]**. Utilisez les filtres pour affiner davantage les résultats de la recherche.
    1. Cliquez sur **[!UICONTROL Utiliser]**
-1. Pour télécharger une ressource d’image :
-   1. Cliquez sur **[!UICONTROL Upload New Image]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez importer depuis Microsoft OneDrive ou Dropbox.
+1. Pour charger une ressource image :
+   1. Cliquez sur **[!UICONTROL Charger une nouvelle image]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En naviguant sur votre appareil, vous pouvez importer depuis Microsoft OneDrive ou Dropbox.
    1. Cliquez sur **[!UICONTROL Ajouter Assets]**.
 
-   Les images sont ajoutées ou échangées dans la variante applicable.
+   Les images sont ajoutées ou permutées dans la variante applicable.
 
-## Aperçu pour le périphérique
+## Aperçu pour l’appareil
 
-Lors de la révision et de la préparation des expériences par e-mail, vous pouvez basculer entre les aperçus pour les vues de bureau et mobiles afin d’assurer la cohérence et l’attrait visuel des variantes d’aperçus.
+Lors de la révision et de la préparation des expériences e-mail, vous pouvez basculer entre les aperçus pour les vues de bureau et mobile afin d’assurer la cohérence et l’attrait visuel des variantes de brouillon.
 
-**Pour prévisualiser les variantes d’un poste de travail ou d’un appareil mobile**, activez l’option d’aperçu de l’appareil (entre **bureau** et **mobile**) dans la barre de menu de droite (icônes d’ordinateur et de téléphone) pour prévisualiser l’affichage des variantes.
+**Pour prévisualiser des variantes pour les ordinateurs de bureau et les appareils mobiles** activez l’option d’aperçu d’appareil, entre **ordinateur** et **mobile**, dans la barre de menu de droite (icônes d’ordinateur et de téléphone) pour prévisualiser l’affichage des variantes.
 
-## Supprimer une variante
+## Supprimer la variante
 
-Vous pouvez supprimer les variantes générées que vous ne prévoyez pas d’enregistrer ou de réutiliser.
+Vous pouvez supprimer toutes les variantes générées que vous ne prévoyez pas d&#39;enregistrer ou de réutiliser.
 
-Supprimez les variantes inutiles de sorte que le canevas de travail affiche uniquement les variantes que vous affinez ou utilisez activement.
+Supprimez les variantes inutiles afin que la zone de travail n’affiche que les variantes que vous affinez ou utilisez activement.
 
 **Pour supprimer une variante générée** :
 
-1. Après avoir généré un ensemble de variantes, cliquez sur l’icône d’options (trois points) au-dessus d’une variante.
+1. Après avoir généré un ensemble de variantes, cliquez sur l’icône d’options (points de suspension) au-dessus d’une variante.
 
    La variante est mise en surbrillance et un menu contextuel s’affiche.
 
@@ -145,34 +158,34 @@ Supprimez les variantes inutiles de sorte que le canevas de travail affiche uniq
 
    La variante est supprimée.
 
-## Validation de marque par variante
+## Validation de la marque par variante
 
-Utilisez la _[!UICONTROL vérification des directives de marque]_ et le _[!UICONTROL panneau de validation de marque]_ pour maintenir l’identité de la marque et l’alignement des variantes.
+Utilisez la vérification _[!UICONTROL Instructions relatives aux marques]_ et le _[!UICONTROL Panneau de validation des marques]_ pour maintenir une identité de marque cohérente et l’alignement des variantes.
 
-Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment).
 
-## Commentaires sur la génération
+## Retour d’informations de génération
 
-Vous pouvez envoyer des commentaires sur la qualité des ressources générées alignées sur la marque afin d’améliorer le processus de génération du contenu. Indiquer si les résultats sont de grande ou de mauvaise qualité contribue à améliorer la qualité globale du contenu et la sécurité des utilisateurs de GenStudio for Performance Marketing.
+Vous pouvez envoyer des commentaires sur la qualité des ressources générées alignées sur la marque afin d’améliorer le processus de génération de contenu. Indiquer si les résultats sont de qualité élevée ou médiocre contribue à améliorer la qualité globale du contenu et la sécurité des utilisateurs et utilisatrices de GenStudio for Performance Marketing.
 
-![Envoyer un commentaire sur la génération de contenu](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
+![Envoyer des commentaires sur la génération de contenu](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
 
-Les commentaires de génération s&#39;appliquent à une variante individuelle, et non à l&#39;ensemble de variantes collectées.
+Le retour d’informations de génération s’applique à une variante individuelle, et non à l’ensemble des variantes collectées.
 
-**Pour envoyer des commentaires de génération** :
+**Pour envoyer des commentaires sur la génération** :
 
-1. Après avoir généré un ensemble de variantes, cliquez sur l’icône d’options (trois points) au-dessus d’une variante.
+1. Après avoir généré un ensemble de variantes, cliquez sur l’icône d’options (points de suspension) au-dessus d’une variante.
 
    La variante est mise en surbrillance et un menu contextuel s’affiche.
 
 1. Sélectionnez **[!UICONTROL Bonne sortie]** ou **[!UICONTROL Mauvaise sortie]**.
 
-   Une fenêtre contextuelle de commentaire s’affiche pour collecter des informations supplémentaires. Le contenu généré et les informations rapides sont inclus dans vos commentaires.
+   Une fenêtre contextuelle de commentaires s’affiche pour collecter des informations supplémentaires. Le contenu généré et les informations d’invite sont inclus dans vos commentaires.
 
-1. Ajoutez les informations suivantes dans la fenêtre contextuelle de retour :
+1. Ajoutez les informations suivantes dans la fenêtre contextuelle de commentaires :
    1. Sélectionnez l’option _[!UICONTROL Inclure également le contenu de référence et les données de calque]_ pour inclure ces informations de référence supplémentaires dans les commentaires collectés.
-   1. De _[!UICONTROL Qu&#39;est-ce qui a bien fonctionné ?]_ ou _[!UICONTROL Qu’est-ce qui s’est mal passé ?]_ , sélectionnez les options qui décrivent la qualité élevée ou médiocre de la génération du contenu.
-   1. Ajoutez toute autre information utile ou associée dans le champ _[!UICONTROL Notes]_ .
+   1. De la _[!UICONTROL Qu’est-ce qui a bien fonctionné ?]_ ou _[!UICONTROL Que s’est-il passé ?]_ la section , sélectionnez les options qui décrivent ce qui fait que la génération de contenu est de haute ou de mauvaise qualité.
+   1. Ajoutez d’autres informations utiles ou connexes dans le champ _[!UICONTROL Notes]_.
 1. Cliquez sur **[!UICONTROL Soumettre]**.
 
-   Une bannière s’affiche pour confirmer que vous avez envoyé des commentaires.
+   Une bannière s’affiche pour confirmer que vous avez soumis des commentaires.
