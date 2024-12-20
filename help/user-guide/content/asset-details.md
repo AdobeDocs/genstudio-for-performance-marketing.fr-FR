@@ -3,9 +3,9 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées riches pour le suivi de la capacité de recherche et des performances.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -56,11 +56,11 @@ Lorsque vous [chargez une ressource](/help/user-guide/content/manage-assets.md#a
 
 **Pour modifier les métadonnées définies par l’utilisateur** :
 
-1. Dans _[!DNL Content]_, sélectionnez une ressource, une expérience ou un modèle.
+1. Dans _[!DNL Content]_, sélectionnez une ressource, une expérience ou un modèle. Cliquer sur une ressource ouvre une vue ciblée de la ressource.
 
 1. Dans la vue de la ressource, passez en revue la section _[!UICONTROL Détails]_ à droite.
 
-1. Cliquez sur **[!UICONTROL Modifier les détails]** (crayon) pour modifier les métadonnées de la ressource.
+1. Cliquez sur **[!UICONTROL Modifier les détails]** (crayon) pour modifier les métadonnées d’une ressource, d’une expérience ou d’un modèle.
 
    Plus vous fournissez de détails, plus vous bénéficiez des fonctionnalités robustes de GenStudio for Performance Marketing. Sélectionnez un ou plusieurs détails dans la liste, ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
 
@@ -91,8 +91,8 @@ La section [!UICONTROL Contexte génératif] indique quelles informations ont é
 
 Ces informations peuvent inclure :
 
-- `Brand`, `Product` et paramètres `Persona`
-- `Subject line` et `Pre Header` pour les expériences d’e-mail
+- `Brand`, `Product` et `Persona` paramètres sélectionnés lors du processus de [!DNL Create]
+- `Subject line` et `Preheader` pour les expériences d’e-mail
 - `Headline` et `Body` pour les méta-annonces
 
 ## Historique

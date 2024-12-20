@@ -1,88 +1,141 @@
 ---
 title: Présentation d’Adobe GenStudio for Performance Marketing [!DNL Content]
-description: Découvrez comment rechercher, modifier, réutiliser et partager des ressources approuvées par la marque dans un portail intuitif.
+description: Découvrez comment rechercher, modifier, réutiliser et partager des ressources approuvées par la marque dans un portail intuitif unique.
 feature: Attributes, Content, Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
+source-git-commit: 28300ce758407b6d28a0311c6b95a38d5b29d065
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 1%
 
 ---
 
-# Adobe GenStudio for Performance Marketing [!DNL Content]
+# [!DNL Content] Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing [!DNL Content] fournit un emplacement central où stocker, rechercher et partager toutes les ressources, expériences et modèles approuvés par la marque. Vous pouvez modifier et remixer du contenu, en savoir plus sur l’utilisation et l’opinion du contenu, ainsi qu’actualiser et réutiliser des ressources existantes à l’aide d’une IA générative.
+GenStudio for Performance Marketing [!DNL Content] fournit un emplacement central pour stocker, rechercher et partager toutes les ressources, expériences et modèles approuvés par la marque. Vous pouvez modifier et remixer le contenu, obtenir des informations sur l’utilisation et le sentiment du contenu, ainsi qu’actualiser et réutiliser les ressources existantes à l’aide de l’IA générative.
 
 ## Scénarios d’utilisation d’[!DNL Content] 
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
-         <img alt="loupe" src="../../assets/icons/icon-search.png">
+
+         <img alt="agrandisseur" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
-         <a href="../content/manage-assets.md#search">
+
+         <a href="../content/manage-assets.md#search-content">
+
          <strong>Rechercher du contenu</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="images avec signe plus" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>Ajouter des ressources</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
-         <img alt="Modifier dans Adobe Express" src="../../assets/icons/icon-editExpress.png">
+
+         <img alt="Modifier dans l’Adobe Express" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
-         <strong>Modifier des ressources dans Adobe Express</strong>
+
+         <strong>Modification de ressources dans Adobe Express</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/customize-template.md">
-         <img alt="éclair sur la ressource" src="../../assets/icons/icon-template.png">
+
+         <img alt="boulon d&apos;allègement sur la ressource" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
+
          <a href="../content/customize-template.md">
+
          <strong>Personnaliser un modèle</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/use-templates.md">
-         <img alt="éclair sur une ressource avec le signe plus" src="../../assets/icons/icon-addTemplate.png">
+
+         <img alt="boulon d&apos;allégement sur la ressource avec signe plus" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
+
          <a href="../content/use-templates.md#upload-a-template">
+
          <strong>Télécharger le modèle</strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## Fonctionnalités [!DNL Content]
 
-GenStudio for Performance Marketing [!DNL Content] facilite la gestion des ressources approuvées et l’accélération du cycle de vie du contenu. Dans **[!UICONTROL [!DNL Content]]**, vous pouvez rechercher, trouver et réutiliser du contenu performant ou sélectionner une ressource ou une expérience pour lancer la création de nouvelles variantes pour une campagne permanente.
+GenStudio for Performance Marketing [!DNL Content] facilite la gestion des ressources approuvées et accélère le cycle de vie du contenu. Dans **[!UICONTROL [!DNL Content]]**, vous pouvez rechercher, rechercher et réutiliser du contenu performant ou sélectionner une ressource ou une expérience pour lancer la création de nouvelles variantes pour une campagne permanente.
 
 ### Charger les ressources
 
-Le panneau **[!UICONTROL Ajouter des ressources]** vous permet de faire glisser et de rechercher des ressources dans vos fichiers locaux. Vous pouvez éventuellement importer des ressources à partir d’une source externe, telle que OneDrive ou Dropbox. Un nom [!UICONTROL Campaign] ou Projet est le seul détail requis avant le téléchargement. En fournissant plus de détails tels que des mots-clés, vous pouvez permettre à tous les membres de votre équipe d’identifier et de récupérer rapidement le contenu approprié.
+Le panneau **[!UICONTROL Ajouter des ressources]** vous permet de glisser-déposer ou de rechercher des ressources dans vos fichiers locaux. Vous pouvez éventuellement importer des ressources à partir d’une source externe, telle que OneDrive ou Dropbox. Un [!UICONTROL nom de campagne] ou de projet est le seul détail obligatoire avant le chargement. Fournir plus de détails, tels que des mots-clés, permet à tous les membres de votre équipe d’identifier et de récupérer rapidement du contenu pertinent.
 
-### Recherche et recherche de contenu approuvé
+### Rechercher et rechercher du contenu approuvé
 
-Lorsque vous enregistrez des ressources approuvées, [!DNL Content] conserve les métadonnées enrichies, le contexte de génération et l’historique de contrôle. Les détails des ressources permettent de réduire rapidement les résultats de recherche à l’aide de chaînes de filtre et de recherche. L’IA de GenStudio for Performance Marketing identifie et stocke automatiquement certains détails, tels que la couleur. La recherche de `blue` dans le champ de recherche réduit la liste de contenu aux ressources balisées en bleu.
+Lorsque vous enregistrez des ressources approuvées, [!DNL Content] conserve la richesse des métadonnées, le contexte de génération et l’historique d’audit. Les détails des ressources permettent de limiter rapidement les résultats de recherche à l’aide de chaînes de filtrage et de recherche. L’IA de GenStudio for Performance Marketing identifie et stocke automatiquement certains détails, tels que la couleur. La recherche de `blue` dans le champ de recherche permet de limiter la liste de contenu aux ressources balisées en bleu.
 
 ### Utilisation de modèles
 
-Les modèles accélèrent le processus de création afin que vous puissiez générer du contenu cohérent sur plusieurs canaux. Chargez votre modèle personnalisé pour l’utiliser comme point de départ dans le processus de création avec des mises en page et des éléments de conception préconfigurés. Découvrez les éléments et les procédures de base des modèles dans [Utilisation des modèles](use-templates.md). Découvrez comment créer des modèles avec la rubrique [Personnaliser un modèle](customize-template.md) .
+Les modèles accélèrent le processus de création afin que vous puissiez générer du contenu cohérent sur plusieurs canaux. Chargez votre modèle personnalisé pour l’utiliser comme point de départ dans le processus de création avec des dispositions et des éléments de conception préconfigurés. Découvrez les éléments et procédures de base des modèles dans [Utilisation de modèles](use-templates.md). Explorez en détail la création de modèles avec la rubrique [ Personnaliser un modèle ](customize-template.md).

@@ -3,9 +3,9 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque en vue de leur utilisation et réutilisation dans votre parcours de marketing numérique.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1302'
 ht-degree: 2%
 
 ---
@@ -14,10 +14,9 @@ ht-degree: 2%
 
 Adobe GenStudio for Performance Marketing [!DNL Content] simplifie et améliore la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours de marketing numérique.
 
-## Galerie de contenu
+## galerie [!DNL Content]
 
 La galerie affiche un inventaire des ressources, expériences ou modèles approuvés en fonction de la vue sélectionnée. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtrer]**, qui vous permet de sélectionner une catégorie pour filtrer le contenu affiché dans la galerie. Dans la vue _[!UICONTROL Assets]_, cliquez sur l’icône de recherche (loupe) pour utiliser un mot-clé afin de rechercher une ressource.
-
 
 Vous trouverez ci-dessous une recherche sur le terme `dog` dans la galerie [!UICONTROL Assets] :
 
@@ -27,9 +26,10 @@ Vous trouverez ci-dessous une recherche sur le terme `dog` dans la galerie [!UIC
 
 L’interface de filtrage et de recherche est rapide et réactive, et fournit une expérience de recherche productive. Chaque vue de [!DNL Content] fournit des options de filtre permettant d’affiner votre recherche de la ressource, de l’expérience ou du modèle idéal. Pour les ressources et les expériences, vous pouvez sélectionner une campagne et des directives spécifiques, telles que le contenu créé pour un produit spécifique.
 
-Il existe des filtres basés sur [mots-clés](asset-details.md#user-defined-metadata) et [catégories d’attributs](/help/user-guide/insights/attribute-category.md) pour limiter les résultats de recherche. Par exemple, vous pouvez rechercher une ressource d’un type de fichier ou d’un objet spécifique afin de vous aider à créer une expérience pour votre campagne.
+Il existe des filtres basés sur [mots-clés](asset-details.md#user-defined-metadata) et [catégories d’attributs](/help/user-guide/insights/attribute-category.md) pour limiter les résultats de recherche. Par exemple, vous pouvez rechercher une ressource d’un type de fichier ou d’un objet spécifique afin de vous aider à créer une expérience pour votre campagne. Vous pouvez également filtrer le contenu en fonction de votre nom d’utilisateur ou du nom d’un membre de l’équipe :
 
-Lors de la recherche d’_Expériences_, vous pouvez utiliser le filtre **[!UICONTROL Créé par]** pour limiter la liste aux expériences que vous ou une personne spécifique avez créées.
+- Le filtre **[!UICONTROL Chargé par]** limite la liste _[!UICONTROL Assets]_ pour n’afficher que les ressources que vous ou une personne spécifique avez chargées.
+- Le filtre **[!UICONTROL Créé par]** limite la liste _[!UICONTROL Expériences]_ pour n’afficher que les expériences créées par vous ou par une personne spécifique.
 
 **Pour rechercher du contenu à réutiliser** :
 
@@ -79,10 +79,9 @@ Le tableau suivant répertorie les tâches de gestion disponibles pour les resso
 | [Créer une expérience](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Modifier dans l’Adobe Express ](#edit-in-express) | ✓ |             |           |
 | [Exporter pour activation](#export-for-activation) |        | ✓ |           |
+| [Actualiser](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Télécharger](#download-assets) | ✓ |             | ✓ |
 | [Supprimer](#delete-assets) | ✓ | ✓ | ✓ |
-
-<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### Ajouter des ressources
 
@@ -116,7 +115,7 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont stockées par déf
 
 **Pour télécharger une ressource** :
 
-1. Dans _[!DNL Content]_, sélectionnez une ressource image. Cliquer sur une ressource ouvre une vue ciblée de la ressource.
+1. Dans _[!DNL Content]_, sélectionnez une ressource ou un modèle. Cliquer sur une ressource ouvre une vue ciblée de la ressource.
 
 1. Dans la vue des ressources, cliquez sur l’icône **[!UICONTROL Télécharger]** (flèche pointant vers le bas) dans le coin supérieur droit.
 
@@ -126,7 +125,7 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont stockées par déf
 
 **Pour supprimer une ressource** :
 
-1. Dans _[!DNL Content]_, sélectionnez une ressource image. Cliquer sur une ressource ouvre une vue ciblée de la ressource.
+1. Dans _[!DNL Content]_, sélectionnez une ressource, une expérience ou un modèle. Cliquer sur une ressource ouvre une vue ciblée de la ressource.
 
 1. Dans l’affichage des ressources, cliquez sur **[!UICONTROL Supprimer]** (corbeille) en haut à droite.
 

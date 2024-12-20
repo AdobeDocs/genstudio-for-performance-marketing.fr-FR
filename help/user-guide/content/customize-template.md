@@ -1,82 +1,82 @@
 ---
-title: Personnalisation d’un modèle
+title: Personnaliser un modèle
 description: Découvrez comment personnaliser et optimiser votre modèle pour Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: f95848546abc2decbb5ac52491307977820ce503
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Personnalisation d’un modèle
 
-Vous pouvez personnaliser un modèle à utiliser dans GenStudio for Performance Marketing en insérant des espaces réservés de contenu, ou champs, que l’IA générative utilise pour insérer du contenu.
+Vous pouvez personnaliser un modèle à utiliser dans GenStudio for Performance Marketing en insérant des espaces réservés de contenu, ou des champs, que l’IA générative utilise pour insérer du contenu.
 
-Les sections suivantes expliquent comment adapter vos modèles d’HTML pour GenStudio for Performance Marketing à l’aide du langage de modèle _Handlebars_. La syntaxe [!DNL Handlebars] utilise du texte normal avec des accolades doubles comme espaces réservés au contenu. Voir [Qu’est-ce que  [!DNL Handlebars] ?](https://handlebarsjs.com/guide/#what-is-handlebars) dans le _guide de langue Handlebars_ pour apprendre à préparer votre modèle.
+Les sections suivantes expliquent comment adapter vos modèles d’HTML à GenStudio for Performance Marketing à l’aide du langage de modèle _Handlebars_. La syntaxe [!DNL Handlebars] utilise du texte normal avec des accolades doubles comme espaces réservés de contenu. Voir [Qu’est-ce que  [!DNL Handlebars] ?](https://handlebarsjs.com/guide/#what-is-handlebars) dans le guide de langue _Handlebars_ pour savoir comment préparer votre modèle.
 
 
-Une fois votre modèle prêt, vous pouvez [le charger vers GenStudio for Performance Marketing](use-templates.md#upload-a-template) et commencer à générer des emails personnalisés basés sur votre modèle personnalisé.
+Une fois votre modèle prêt, vous pouvez [le charger dans GenStudio for Performance Marketing](use-templates.md#upload-a-template) et commencer à générer des e-mails personnalisés en fonction de votre modèle personnalisé.
 
 >[!TIP]
 >
->Suivez les [consignes d’accessibilité](accessibility-for-templates.md) et les [bonnes pratiques](/help/user-guide/content/best-practices-for-templates.md) afin que vous puissiez toucher davantage de votre audience et offrir une expérience optimale.
+>Suivez les [directives d’accessibilité](accessibility-for-templates.md) et [bonnes pratiques](/help/user-guide/content/best-practices-for-templates.md) afin de toucher davantage d’audiences et d’offrir une expérience optimale.
 
 ## Espaces réservés de contenu
 
-GenStudio for Performance Marketing reconnaît certains [éléments](use-templates.md#template-elements) dans un modèle, mais seulement si vous les identifiez avec un nom de champ reconnu.
+GenStudio for Performance Marketing reconnaît certains [éléments](use-templates.md#template-elements) dans un modèle, mais uniquement si vous les identifiez avec un nom de champ reconnu.
 
-Dans l’en-tête ou le corps d’un modèle, vous pouvez utiliser la syntaxe [!DNL Handlebars] comme espace réservé de contenu dans lequel vous avez besoin de GenStudio for Performance Marketing pour remplir le modèle avec du contenu réel. GenStudio for Performance Marketing reconnaît et interprète les espaces réservés de contenu en fonction du [nom _champ_ reconnu](#recognized-field-names).
+Dans l’en-tête ou le corps d’un modèle, vous pouvez utiliser la syntaxe [!DNL Handlebars] comme espace réservé du contenu dans lequel vous avez besoin de GenStudio for Performance Marketing pour remplir le modèle avec du contenu réel. GenStudio for Performance Marketing reconnaît et interprète les espaces réservés de contenu en fonction du [nom _champ_ reconnu](#recognized-field-names).
 
-Par exemple, vous pouvez utiliser `{{ headline }}` avec la syntaxe [!DNL Handlebars] pour indiquer où le titre de l&#39;email doit être placé :
+Par exemple, vous pouvez utiliser `{{ headline }}` avec la syntaxe [!DNL Handlebars] pour indiquer où le titre de l’e-mail doit être placé :
 
 ```handlebars
 <div>{{headline}}</div>
 ```
 
-### Noms de champ reconnus
+### Noms de champs reconnus
 
-Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Performance Marketing pour la population dans les modèles. Ajoutez ces noms de champ en utilisant la syntaxe [!DNL Handlebars] à votre modèle pour lequel vous avez besoin de GenStudio for Performance Marketing pour générer du contenu.
+Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Performance Marketing pour le remplissage en modèles. Ajoutez ces noms de champ en utilisant la syntaxe [!DNL Handlebars] à votre modèle dans lequel vous avez besoin de GenStudio for Performance Marketing pour générer du contenu.
 
 | champ | Rôle | Modèle de canal |
 | ------------------ | ---------------------- | -------------------------------- |
-| `{{pre_header}}` | En-tête pre | email |
-| `{{headline}}` | Titre | email <br>Métadonnées <br> Afficher la publicité |
-| `{{body}}` | Copie de contenu | email <br>Métadonnées <br> Afficher la publicité |
-| `{{cta}}` | Appel à l’action | email <br>Métadonnées <br> Afficher la publicité |
-| `{{on_image_text}}` | Sur le texte de l’image | Métadonnées |
-| `{{image}}` | Image : sélectionnez dans Contenu. | email <br>Métadonnées <br> Afficher la publicité |
-| `{{brand_logo}}` | Logo de la marque sélectionnée <br>Voir [Nom du champ de logo de la marque](#brand-logo-field-name) pour une utilisation recommandée. | email<br>Métadonnées |
+| `{{pre_header}}` | Pré-en-tête | email |
+| `{{headline}}` | Titre | e-mail <br>Méta-annonce <br>Afficher l’annonce |
+| `{{body}}` | Copie du corps | e-mail <br>Méta-annonce <br>Afficher l’annonce |
+| `{{cta}}` | Appel à l’action | e-mail <br>Méta-annonce <br>Afficher l’annonce |
+| `{{on_image_text}}` | Texte sur l’image | Méta-annonce |
+| `{{image}}` | Image : sélectionnez à partir du contenu. | e-mail <br>Méta-annonce <br>Afficher l’annonce |
+| `{{brand_logo}}` | Logo de la marque sélectionnée <br>voir [nom du champ du logo de la marque](#brand-logo-field-name) pour une utilisation recommandée. | email<br>Meta ad |
 
 GenStudio for Performance Marketing renseigne automatiquement certains champs dans les modèles suivants :
 
-- **Modèle d’email** ne vous oblige pas à identifier le champ `subject`
+- **Modèle d’e-mail** ne nécessite pas que vous identifiiez le champ `subject`
 - **Modèle de métadonnées publicitaires** ne nécessite pas que vous identifiiez les champs `headline`, `body` et `CTA`
-- **Le modèle Afficher les publicités** ne nécessite pas que vous identifiiez le champ `CTA`
+- **Modèle Afficher les publicités** ne nécessite pas que vous identifiiez le champ `CTA`
 
 >[!WARNING]
 >
->Pour les annonces Instagram, le titre généré n’apparaît pas dans l’expérience finale.
+>Pour les publicités Instagram, le titre généré n’apparaît pas dans l’expérience finale.
 
-La limite est de 20 champs lors du téléchargement d’un modèle vers GenStudio for Performance Marketing. Comme le champ `subject` est généré automatiquement dans un email, il est compté comme un champ. Un modèle d&#39;email peut donc contenir 19 champs.
+Le nombre de champs est limité à 20 lors du chargement d’un modèle vers GenStudio for Performance Marketing. Le champ `subject` étant généré automatiquement dans un e-mail, il est comptabilisé comme un seul champ. Cela signifie que 19 champs sont autorisés dans un modèle d’e-mail.
 
 >[!TIP]
 >
->Vous pouvez vérifier votre modèle à l’aide de l’ [aperçu de modèle](#template-preview) dans GenStudio for Performance Marketing.
+>Vous pouvez vérifier votre modèle à l’aide de l’aperçu du [modèle](#template-preview) dans GenStudio for Performance Marketing.
 
 #### Nom du champ du logo de la marque
 
-Actuellement, vous ne pouvez pas sélectionner le logo de la marque pour le téléchargement du modèle. Les exemples suivants montrent deux méthodes qui rendent de manière conditionnelle le logo de la marque. Chaque méthode vérifie la source, fournit une image par défaut ou alternative si le logo de la marque n’est pas disponible et applique un style :
+Actuellement, vous ne pouvez pas sélectionner le logo de la marque pour le chargement du modèle. Les exemples suivants présentent deux méthodes qui effectuent le rendu conditionnel du logo de la marque. Chaque méthode vérifie la source, fournit une image par défaut ou alternative au cas où le logo de la marque ne serait pas disponible, et applique un style :
 
-**Exemple 1** : utilisation de la condition [!DNL Handlebars] d’assistance intégrée directement dans l’attribut d’HTML `img src` :
+**Exemple 1** : utilisation de [!DNL Handlebars] condition d’assistance intégrée directement dans l’attribut de `img src` d’HTML :
 
 ```html
 <img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
 ```
 
-**Exemple 2** : utilisation de l’instruction de condition intégrée [!DNL Handlebars] pour encapsuler la balise d’HTML `img` :
+**Exemple 2** : utilisation de [!DNL Handlebars]’instruction de condition intégrée pour encapsuler la balise de `img` d’HTML :
 
 ```handlebars
 {{#if brand_logo}}
@@ -86,9 +86,9 @@ Actuellement, vous ne pouvez pas sélectionner le logo de la marque pour le tél
 {{/if}}
 ```
 
-#### Noms de champ manuels
+#### Noms de champs manuels
 
-Tous les autres noms de champ sont traités comme des champs renseignés manuellement.
+Tous les autres noms de champ sont traités comme des champs remplis manuellement.
 
 Pour créer une section modifiable, ajoutez des crochets doubles autour du nom de la section :
 
@@ -98,16 +98,16 @@ Pour créer une section modifiable, ajoutez des crochets doubles autour du nom d
 
 ### Sections ou groupes
 
-Les _sections_ informent GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
+_Sections_ indiquez à GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
 
 Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Utilisez un nom de champ (`headline`, `body`, `image` ou `cta`) après le trait de soulignement (`_`). Par exemple, le titre et le corps suivants appartiennent à la section `pod1` :
 
 - `pod1_headline`
 - `pod1_body`
 
-Chaque section ne peut utiliser qu’un seul type de champ. Dans l’exemple ci-dessus, la section `pod1` ne peut utiliser qu’un seul champ `pod1_headline`. En raison de cette règle, les sections ne peuvent pas être imbriquées.
+Chaque section ne peut utiliser qu’un seul de chaque type de champ. Dans l’exemple ci-dessus, la section `pod1` ne peut utiliser qu’un seul champ de `pod1_headline`. Pour cette raison, les sections ne peuvent pas être imbriquées.
 
-Un modèle de courrier électronique peut comporter trois sections au maximum. Par exemple, la liste suivante comporte trois sections titre et corps :
+Un modèle d’e-mail peut inclure jusqu’à trois sections. Par exemple, la liste suivante comporte trois sections de titre et de corps :
 
 - `pre-header`
 - `pod1_headline`
@@ -120,21 +120,21 @@ Un modèle de courrier électronique peut comporter trois sections au maximum. P
 
 GenStudio for Performance Marketing comprend que `pod1_headline` est plus étroitement lié à `pod1_body` qu’à `pod2_body`.
 
-Voir [ invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour savoir comment créer une invite qui génère un contenu variable pour chaque section d’un email.
+Consultez [Invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour savoir comment concevoir une invite qui génère un contenu variable pour chaque section d’un e-mail.
 
 ## Aperçu du modèle
 
-Lorsque vous [ chargez un modèle](use-templates.md#upload-a-template), GenStudio for Performance Marketing recherche les champs reconnus dans le fichier d’HTML. Utilisez l’aperçu pour passer en revue vos [éléments de modèle](use-templates.md#template-elements) et confirmer que vous les avez correctement identifiés avec les [ noms de champ reconnus](#recognized-field-names).
+Lorsque vous [téléchargez un modèle](use-templates.md#upload-a-template), GenStudio for Performance Marketing recherche les champs reconnus dans le fichier d’HTML. Utilisez l’aperçu pour passer en revue vos [éléments de modèle](use-templates.md#template-elements) et confirmer que vous les avez correctement identifiés avec les [noms de champ reconnus](#recognized-field-names).
 
-Exemple d&#39;aperçu pour un modèle de courrier électronique :
+Exemple de prévisualisation pour un modèle d’e-mail :
 
-![Champs d’aperçu détectés](/help/assets/template-detected-fields.png){width="650"}
+![Champs de prévisualisation détectés](/help/assets/template-detected-fields.png){width="650"}
 
-### Aperçu du contrôle
+### Prévisualisation du contrôle
 
-Vous pouvez contrôler la visibilité du contenu spécial à l’aide des assistants intégrés (expressions spéciales dans le langage de modèle [!DNL Handlebars] qui effectuent certaines actions). Par exemple, vous pouvez ajouter une instruction conditionnelle qui ajoute des paramètres de suivi aux liens dans le modèle exporté tout en prévisualisant les liens propres.
+Vous pouvez contrôler la visibilité du contenu spécial à l’aide des assistants intégrés (expressions spéciales du langage de modèle [!DNL Handlebars] qui effectuent certaines actions). Par exemple, vous pouvez ajouter une instruction conditionnelle qui ajoute des paramètres de suivi aux liens du modèle exporté tout en préservant les liens d’aperçu.
 
-La valeur `_genStudio.browser` est définie lors du rendu d’un modèle et la valeur `genStudio.export` est définie lors de l’exportation d’un modèle. Vous pouvez décider d’inclure certains contenus en haut d’un email à l’aide d’un wrapper conditionnel, par exemple, lorsque le modèle est utilisé pour l’exportation :
+La valeur `_genStudio.browser` est définie lors du rendu d’un modèle et la valeur `genStudio.export` est définie lors de l’exportation d’un modèle. Vous pouvez décider d’inclure certains contenus en haut d’un e-mail à l’aide d’un wrapper conditionnel, par exemple lorsque le modèle est utilisé pour l’exportation :
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -142,7 +142,7 @@ La valeur `_genStudio.browser` est définie lors du rendu d’un modèle et la v
 {{/if}}
 ```
 
-Un autre exemple peut être d’empêcher l’utilisation des codes de suivi lors de la prévisualisation d’un modèle dans GenStudio for Performance Marketing. L’exemple suivant montre comment ajouter des paramètres de suivi aux liens dans le modèle exporté, tout en conservant les liens d’aperçu propres :
+Un autre exemple peut être d’empêcher l’utilisation des codes de suivi lors de la prévisualisation d’un modèle dans GenStudio for Performance Marketing. L’exemple suivant montre comment ajouter des paramètres de tracking aux liens dans le modèle exporté, tout en préservant les liens d’aperçu :
 
 ```handlebars
 <a class="button" {{#if _genStudio.browser }}
@@ -153,19 +153,23 @@ Un autre exemple peut être d’empêcher l’utilisation des codes de suivi lor
 
 ## Contenu statique
 
-Les modèles de courrier électronique et de métadonnées sont souvent liés à des images et à des fichiers CSS hébergés en dehors de GenStudio for Performance Marketing. Lorsque GenStudio for Performance Marketing génère des miniatures pour ces modèles ou les expériences qui en découlent, il se peut qu’il ignore ces ressources externes si elles ne comportent pas les en-têtes CORS (Cross-Origin Resource Sharing) corrects.
+Les modèles E-mail et Métadonnées sont souvent associés à des images et des fichiers CSS hébergés en dehors de GenStudio for Performance Marketing. Lorsque GenStudio for Performance Marketing génère des miniatures pour ces modèles ou les expériences qui en sont dérivées, il est possible qu’il ignore ces ressources externes si elles ne disposent pas des en-têtes CORS (Cross-Origin Resource Sharing) appropriés.
 
-Pour vous assurer que ces ressources sont disponibles pendant le processus de génération de miniatures, envisagez deux options :
+Pour vous assurer que ces ressources sont disponibles pendant le processus de génération de miniatures, considérez deux options :
 
-1. **Utiliser les en-têtes CORS** : le serveur hôte doit envoyer des réponses avec un en-tête `Access-Control-Allow-Origin` défini sur la valeur `https://experience.adobe.com` pour les environnements de production. Cette méthode permet à GenStudio for Performance Marketing d’accéder aux ressources et de les inclure.
+1. **Utiliser des en-têtes CORS** : le serveur hôte doit envoyer des réponses avec un en-tête `Access-Control-Allow-Origin` défini sur `https://experience.adobe.com` valeur pour les environnements de production. Cette méthode permet à GenStudio for Performance Marketing d’accéder aux ressources et de les inclure.
 
 1. **Utiliser des URL de données** : incorporez les ressources externes directement dans le modèle à l’aide des URL de données. Cette méthode contourne les restrictions CORS et garantit que les ressources sont disponibles pendant la génération des miniatures.
 
+>[!TIP]
+>
+>Utilisez [actualiser](/help/user-guide/content/use-templates.md#refresh-template) pour mettre à jour l’aperçu du modèle avec le contenu statique le plus récent.
+
 ## Exemples de modèles
 
-+++Exemple : modèle d&#39;email avec une section
++++Exemple : modèle d’e-mail avec une section
 
-Voici un exemple de base d&#39;un modèle d&#39;HTML pour un email contenant une section. L’en-tête contient une feuille CSS simple et intégrée pour la mise en forme. Le corps contient un `pre-header`, un `headline` et un `image` [espace réservé](#content-placeholders) à utiliser par GenStudio for Performance Marketing pour injecter du contenu pendant le processus de génération de courrier électronique.
+Voici un exemple de base de modèle d’HTML pour un e-mail contenant une section. L’en-tête contient un CSS simple et intégré pour le style. Le corps contient un `pre-header`, un `headline` et `image` [espace réservé](#content-placeholders) que GenStudio for Performance Marketing peut utiliser pour injecter du contenu pendant le processus de génération d’e-mail.
 
 ```handlebars {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
@@ -195,9 +199,9 @@ Voici un exemple de base d&#39;un modèle d&#39;HTML pour un email contenant une
 
 +++
 
-+++Exemple : modèle d&#39;email avec plusieurs sections
++++Exemple : modèle d’e-mail avec plusieurs sections
 
-L’exemple ci-dessous présente le même modèle d’HTML que celui illustré ci-dessus, mais avec deux sections supplémentaires. L’en-tête contient des CSS intégrés pour le style d’un groupe. Le corps utilise deux groupes avec des [espaces réservés de contenu](#content-placeholders) à l’aide d’un préfixe.
+Vous trouverez ci-dessous le même modèle d’HTML dans l’exemple ci-dessus, mais avec deux sections supplémentaires. L’en-tête contient un CSS intégré pour la mise en forme d’un groupe. Le corps utilise deux groupes avec des [espaces réservés de contenu](#content-placeholders) utilisant un préfixe.
 
 ```handlebars {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
@@ -251,9 +255,9 @@ L’exemple ci-dessous présente le même modèle d’HTML que celui illustré c
 
 +++
 
-+++Exemple : modèle de métadonnées publicitaires
++++Exemple : modèle de méta-annonce
 
-Voici un exemple de base d’un modèle de métadonnées publicitaires. L’en-tête contient des CSS intégrés pour la mise en forme. Le corps utilise des [espaces réservés de contenu](#content-placeholders) à l’aide d’un préfixe.
+Voici un exemple de base de modèle de métadonnées. L’en-tête contient le CSS intégré pour la mise en forme. Le corps utilise des [espaces réservés de contenu](#content-placeholders) précédés d’un préfixe.
 
 ```handlebars {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
