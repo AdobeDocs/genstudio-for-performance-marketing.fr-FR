@@ -17,111 +17,58 @@ GenStudio for Performance Marketing [!DNL Content] fournit un emplacement centra
 ## Scénarios d’utilisation d’[!DNL Content] 
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/manage-assets.md#search">
-
          <img alt="agrandisseur" src="../../assets/icons/icon-search.png">
-
       </a>
-
       <p>
-
          <a href="../content/manage-assets.md#search-content">
-
          <strong>Rechercher du contenu</strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/manage-assets.md">
-
          <img alt="images avec signe plus" src="../../assets/icons/icon-addContent.png">
-
       </a>
-
       <p>
-
          <a href="../content/manage-assets.md">
-
          <strong>Ajouter des ressources</strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/asset-details.md#edit-in-express">
-
          <img alt="Modifier dans l’Adobe Express" src="../../assets/icons/icon-editExpress.png">
-
       </a>
-
       <p>
-
          <a href="../content/asset-details.md#edit-in-express">
-
          <strong>Modification de ressources dans Adobe Express</strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/customize-template.md">
-
          <img alt="boulon d&apos;allègement sur la ressource" src="../../assets/icons/icon-template.png">
-
       </a>
-
       <p>
-
          <a href="../content/customize-template.md">
-
          <strong>Personnaliser un modèle</strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/use-templates.md">
-
          <img alt="boulon d&apos;allégement sur la ressource avec signe plus" src="../../assets/icons/icon-addTemplate.png">
-
       </a>
-
       <p>
-
          <a href="../content/use-templates.md#upload-a-template">
-
          <strong>Télécharger le modèle</strong>
-
          </a>
-
       </p>
-
    </td>
-
 </tr>
-
 </table>
 
 ## Fonctionnalités [!DNL Content]
