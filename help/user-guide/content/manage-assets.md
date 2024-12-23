@@ -3,10 +3,10 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque en vue de leur utilisation et réutilisation dans votre parcours de marketing numérique.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,8 @@ Voir [Connexion à un référentiel AEM](connect-aem-repo.md) pour obtenir des c
 Le référentiel AEM est en lecture seule, ce qui signifie que vous pouvez accéder au contenu, mais que vous ne pouvez pas enregistrer de brouillons, de nouvelles ressources ou de nouvelles métadonnées dans le référentiel AEM. Toutes les mises à jour préliminaires et finales des ressources, expériences et modèles sont enregistrées dans le référentiel `GenStudio assets` avec de nouvelles [métadonnées système](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
+
+Un référentiel AEM peut appliquer certaines exigences de licence, telles que l’expiration des ressources. Ces ressources peuvent ne pas être disponibles pour une utilisation dans les workflows [!DNL Create]. Les ressources arrivées à expiration peuvent devoir être renouvelées ou remplacées pour assurer la continuité de vos projets. Consultez votre administrateur [!DNL AEM Assets Content Hub] pour obtenir de l’aide sur ces ressources.
 
 ## Gestion d’Assets
 
