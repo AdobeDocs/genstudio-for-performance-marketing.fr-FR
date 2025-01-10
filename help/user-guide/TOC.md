@@ -4,62 +4,62 @@ breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer rapidement des ressources pour votre marque, générer des variations et optimiser les expériences.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 39d49df4b48d6acbdab7250eb89db72d7d983203
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '161'
+ht-degree: 27%
 
 ---
 
 
-# Guide Adobe GenStudio for Performance Marketing {#user-guide}
+# Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
-+ [Guide de GenStudio for Performance Marketing](home.md)
++ Guide de [GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
-+ [Prise en main](get-started.md)
++ [Commencer](get-started.md)
 + Présentation {#intro}
    + [Concepts](concepts.md)
    + [Approvisionnement du produit](product-provisioning.md)
-   + [Configurer [!DNL Brand] les autorisations](configure-brand-permissions.md)
+   + [Configurer [!DNL Brand] autorisations](configure-brand-permissions.md)
    + [Rôles utilisateur](user-roles.md)
-   + [Sondages efficaces](effective-prompts.md)
-+ Instructions {#guidelines}
+   + [Invites actives](effective-prompts.md)
++ Directives {#guidelines}
    + [Présentation des directives](guidelines/overview.md)
    + [Marques](guidelines/brands.md)
    + [Personas](guidelines/personas.md)
    + [Produits](guidelines/products.md)
-   + [Ajouter des instructions](guidelines/add-guidelines.md)
-   + [Validation de marque](guidelines/brand-validation.md)
+   + [Ajouter des directives](guidelines/add-guidelines.md)
+   + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
    + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
-   + [ Courrier électronique d’expériences](create/email-experiences.md)
-   + [Métadonnées d’expérience](create/meta-experiences.md)
-   + [ Afficher des expériences publicitaires ](create/display-ad-experiences.md)
+   + [Expériences email](create/email-experiences.md)
+   + [Méta-expériences](create/meta-experiences.md)
+   + [Afficher les expériences publicitaires](create/display-ad-experiences.md)
    + [Gérer les variantes](create/manage-variants.md)
-   + [Créer une expérience de courrier électronique](create/create-email-experience.md)
-   + [Créer une expérience de métadonnées publicitaires](create/create-meta-ad.md)
-   + [Créer une expérience d’affichage d’annonce](create/create-display-ad.md)
-+ Révisions et approbations {#approve}
-   + [Révision et approbations ](approvals/overview.md)
-   + [Demande d’examen et d’approbation de contenu](approvals/request-review.md)
-   + [Réviser et modifier du contenu](approvals/review-and-edit.md)
+   + [Créer une expérience d’e-mail](create/create-email-experience.md)
+   + [Créer une expérience de méta-annonce](create/create-meta-ad.md)
+   + [Créer une expérience d’affichage publicitaire](create/create-display-ad.md)
++ {#approve} des révisions et approbations
+   + [Présentation de la révision et des approbations](approvals/overview.md)
+   + [Demander la révision et l’approbation du contenu](approvals/request-review.md)
+   + [Vérifier et modifier le contenu](approvals/review-and-edit.md)
    + [Approuver le contenu](approvals/approve-content.md)
    + [Contenu approuvé par Publish](approvals/publish-content.md)
-+ Contenu {#content}
++ {#content} de contenu
    + [Présentation du contenu](content/overview.md)
-   + [ Gestion des ressources et des expériences](content/manage-assets.md)
-   + [Connecter un référentiel AEM](content/connect-aem-repo.md)
+   + [Gestion des ressources et des expériences](content/manage-assets.md)
+   + [Connexion à un référentiel AEM](content/connect-aem-repo.md)
    + [Détails de la ressource](content/asset-details.md)
    + Modèles {#templates}
-      + [Utilisation de modèles](content/use-templates.md)
+      + [Utiliser des modèles](content/use-templates.md)
       + [Personnaliser un modèle](content/customize-template.md)
-      + [ Créer des modèles accessibles](content/accessibility-for-templates.md)
-      + [ Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
-+ Campagnes {#campaigns}
+      + [Créer des modèles accessibles](content/accessibility-for-templates.md)
+      + [Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
++ {#campaigns} des campagnes
    + [Présentation des campagnes](campaigns/overview.md)
-+ Activation {#activation}
++ {#activation} d’activation
    + [Présentation de l’activation](activation/overview.md)
-+ Statistiques {#insights}
++ {#insights} Insights
    + [Vue d’ensemble d’Insights](insights/overview.md)
    + [Connecter le compte de canal](insights/connect-channel.md)
    + [Canaux](insights/channels.md)
@@ -67,4 +67,5 @@ ht-degree: 0%
    + [Assets](insights/assets.md)
    + [Attributs](insights/attributes.md)
    + [Catégories d’attributs](insights/attribute-category.md)
-+ [Académie GenStudio - Masqué](genstudioacademy.md)
+   + [Gestion des données](insights/data-management.md)
++ [GenStudio Academy - Caché](genstudioacademy.md)
