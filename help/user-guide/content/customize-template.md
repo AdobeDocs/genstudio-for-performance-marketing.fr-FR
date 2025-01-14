@@ -4,9 +4,9 @@ description: Découvrez comment personnaliser et optimiser votre modèle pour Ad
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un c
 
 Chaque section ne peut utiliser qu’un seul de chaque type de champ. Dans l’exemple ci-dessus, la section `pod1` ne peut utiliser qu’un seul champ de `pod1_headline`. Pour cette raison, les sections ne peuvent pas être imbriquées.
 
-Un modèle d’e-mail peut inclure jusqu’à trois sections. Par exemple, la liste suivante comporte trois sections de titre et de corps :
+Chaque type de modèle, tel qu’un e-mail ou une méta-annonce, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
+
+Par exemple, un modèle d’e-mail peut inclure jusqu’à trois sections. Par conséquent, vous pouvez avoir trois sections de titre et de corps :
 
 - `pre-header`
 - `pod1_headline`
