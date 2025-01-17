@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Avant de commencer à générer une expérience de métadonnées, il est importa
 
 ## Choisir un modèle
 
-Pour commencer à générer une nouvelle expérience de métadonnées, utilisez un modèle disponible afin de fournir le framework de votre contenu.
+Pour commencer à générer une nouvelle expérience de métadonnées, utilisez un modèle disponible afin de fournir le framework de votre contenu. Consultez [Bonnes pratiques pour les modèles](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les proportions de métadonnées prises en charge.
 
 **Pour choisir un modèle de méta-annonce** :
 
@@ -58,7 +58,7 @@ Lorsque vous avez terminé d&#39;ajouter des paramètres, vous pouvez réduire l
 
 ## Saisir une invite
 
-Une fois les instructions sélectionnées, créez une invite en langage naturel pour commencer à générer du contenu pour votre nouvelle expérience de métadonnées. Les invites détaillées génèrent une sortie de meilleure qualité que les invites vagues ou indescriptives.
+Une fois les instructions sélectionnées, créez une invite en langage naturel pour commencer à générer du contenu pour votre nouvelle expérience de métadonnées. Les invites détaillées génèrent une sortie de meilleure qualité que les invites vagues ou ambiguës.
 
 Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l&#39;écriture d&#39;invites.
 
@@ -88,7 +88,8 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour [modifier le nom du brouillon de méta-annonce](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement une méta-annonce](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez sur l’une des sections d’annonce (comme l’objet,
 en-tête ou copie du corps) et modifiez-les si nécessaire.
-* **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton affichant l’appel à l’action et sélectionnez l’une des options de texte de bouton disponibles.<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
+* **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton d’appel à l’action et sélectionnez les options de texte du bouton disponibles. Dans _Lien_, saisissez une URL pour le texte de l’appel à l’action.
+<!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
 * **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, pointez sur une image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image.
 * **Pour [supprimer une méta-annonce](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le titre de l’annonce (par exemple, « Méta 4 ») et cliquez sur **[!UICONTROL Supprimer la variante]**.

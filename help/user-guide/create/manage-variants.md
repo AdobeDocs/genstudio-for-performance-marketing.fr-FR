@@ -3,9 +3,9 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing [!DNL Create] vous permet de personnaliser et d’améliorer les variantes générées ([e-mails](/help/user-guide/create/email-experiences.md), [méta-annonces](/help/user-guide/create/meta-experiences.md), etc.) pour les utiliser dans des initiatives de marketing numérique.
 
-Lors de la [création d’expériences](/help/user-guide/create/overview.md), vous pouvez modifier le contenu et les ressources des variantes générées individuellement ou par lots. La possibilité de gérer des variantes au niveau micro individuel vous permet de gérer explicitement chaque élément de contenu généré.
+Lors de la [création d’expériences](/help/user-guide/create/overview.md), vous pouvez modifier le contenu et les ressources des variantes générées individuellement ou par lots. La possibilité de gérer des variantes au niveau micro individuel vous permet de gérer chaque élément de contenu généré.
 
 ## Modifier le nom du brouillon
 
@@ -32,7 +32,7 @@ Les brouillons de variantes générés ont un nom par défaut affiché en haut d
 
 Vous pouvez modifier les champs de texte dans les variantes générées. Affinez le texte pour votre audience en expérimentant différentes expressions et différents verbiages. Par exemple, vous pouvez réviser manuellement le texte dans les variantes pour prévisualiser l’aspect d’un titre avec une image choisie.
 
-**Pour modifier manuellement le texte dans les variantes générées** :
+**Pour modifier le texte manuellement dans les variantes générées** :
 
 1. Après avoir généré un ensemble de variantes, double-cliquez sur le texte modifiable dans une variante.
 1. Saisissez le nouveau texte.
@@ -52,7 +52,7 @@ Par exemple, vous pouvez générer à nouveau la section titre d’une méta-var
 1. Pour modifier le texte existant, sélectionnez _[!UICONTROL Reformuler]_, _[!UICONTROL Raccourcir]_ ou _[!UICONTROL Allonger]_.
 1. Pour générer de nouvelles options de phrasé, sélectionnez _[!UICONTROL Générer un nouveau texte]_ et saisissez une nouvelle invite.
    1. Cliquez sur **[!UICONTROL Générer]**.
-1. Lorsque vous régénérez le texte d’une section, cliquez sur l’icône de régénération pour afficher d’autres options de texte.
+1. Lorsque vous régénérez le texte d’une section, cliquez sur l’icône de régénération (flèches encerclées) pour afficher d’autres options de texte.
 1. Dans les résultats qui s’affichent, sélectionnez l’option souhaitée, puis cliquez sur **[!UICONTROL Remplacer]**.
 
    La variante est mise à jour avec le texte révisé.
@@ -61,13 +61,29 @@ Par exemple, vous pouvez générer à nouveau la section titre d’une méta-var
 
 Après avoir généré un ensemble de variantes, vous pouvez réviser le texte et le lien de l’appel à l’action (CTA).
 
+>[!NOTE]
+>
+>Vous pouvez modifier le texte du libellé CTA à l’aide de l’option _[!UICONTROL Reformuler]_ si le texte du libellé est un champ de modèle généré (non codé en dur dans le modèle). Vous pouvez modifier un lien CTA à l’aide de l’option _[!UICONTROL Modifier le lien]_ si le lien existe et est modifiable (et non codé en dur dans le modèle).
+
 **Pour modifier le CTA dans une variante** :
 
-1. Après avoir généré un ensemble de variantes, cliquez sur le bouton affichant le texte CTA.
-1. Pour modifier le texte du bouton CTA, sélectionnez l’une des options disponibles dans la liste _Appels à l’action_.
-1. Pour modifier le lien dans le CTA, cliquez sur **[!UICONTROL Lien]**.
-   1. Saisissez ou collez un nouveau lien ou modifiez le lien existant dans la section _Modifier le lien_ et cliquez sur **[!UICONTROL Appliquer]**. Vous pouvez cliquer sur **[!UICONTROL Supprimer le lien]** pour supprimer le lien existant avant d’en saisir un nouveau.
+1. Cliquez sur un bouton CTA dans l’une des variantes.
 
+   Le bouton est sélectionné, affiche le nombre de caractères et présente deux options : _[!UICONTROL Reformuler]_ et _[!UICONTROL Ajouter un lien]_.
+
+1. Cliquez sur **[!UICONTROL Reformuler]**.
+
+   1. Choisissez dans la liste des expressions régénérées ou cliquez sur **[!UICONTROL Actualiser les résultats]** pour accéder à plus d’options.
+
+   1. Cliquez sur **[!UICONTROL Remplacer]**.
+
+      Le texte CTA est actualisé et un message _« Le libellé du bouton a été remplacé »_ apparaît pour confirmer la modification.
+
+1. Cliquez sur **[!UICONTROL Ajouter un lien]**.
+
+   1. Saisissez ou collez une URL, puis cliquez sur **[!UICONTROL Appliquer]**.
+
+      Pour modifier un lien existant dans votre CTA, modifiez l’URL existante ou collez-en une nouvelle, puis cliquez sur **[!UICONTROL Appliquer]**.
 
 Le lien ajouté ou révisé est appliqué à toutes les CTA de l’ensemble des variantes.
 

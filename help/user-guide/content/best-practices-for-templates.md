@@ -4,9 +4,9 @@ description: Appliquez les bonnes pratiques lorsque vous utilisez des modèles a
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de Métado
 - Carré 1:1 (1 080 x 1 080 pixels)
 - Vertical 4:5 (1 080 x 1 350 pixels)
 - Histoire 9:16 (1080 x 1920 pixels)
+- Taille d’image personnalisée : (largeur d’image minimale de 50 x 50 pixels)
 
 **Noms de champs reconnus** :
 
@@ -121,6 +122,8 @@ Pour les Méta-publicités, les champs `headline`, `body` et `CTA` sont automati
 Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 
 >[!TAB Afficher l’annonce]
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Suivez ces bonnes pratiques de conception lors de la personnalisation des modèles d’annonce publicitaire d’affichage pour les utiliser avec GenStudio for Performance Marketing :
 

@@ -4,9 +4,9 @@ description: Découvrez comment personnaliser et optimiser votre modèle pour Ad
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
+source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Vous pouvez personnaliser un modèle à utiliser dans GenStudio for Performance Marketing en insérant des espaces réservés de contenu, ou des champs, que l’IA générative utilise pour insérer du contenu.
 
-Les sections suivantes expliquent comment adapter vos modèles d’HTML à GenStudio for Performance Marketing à l’aide du langage de modèle _Handlebars_. La syntaxe [!DNL Handlebars] utilise du texte normal avec des accolades doubles comme espaces réservés de contenu. Voir [Qu’est-ce que  [!DNL Handlebars] ?](https://handlebarsjs.com/guide/#what-is-handlebars) dans le guide de langue _Handlebars_ pour savoir comment préparer votre modèle.
+Les sections suivantes expliquent comment adapter vos modèles d’HTML à GenStudio for Performance Marketing à l’aide du langage de modèle _[!DNL Handlebars]_. La syntaxe [!DNL Handlebars] utilise du texte normal avec des accolades doubles comme espaces réservés de contenu. Voir [Qu’est-ce que  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) dans le_ guide du langage Handlebars _pour savoir comment préparer votre modèle.
 
 
 Une fois votre modèle prêt, vous pouvez [le charger dans GenStudio for Performance Marketing](use-templates.md#upload-a-template) et commencer à générer des e-mails personnalisés en fonction de votre modèle personnalisé.
@@ -123,6 +123,32 @@ Par exemple, un modèle d’e-mail peut inclure jusqu’à trois sections. Par c
 GenStudio for Performance Marketing comprend que `pod1_headline` est plus étroitement lié à `pod1_body` qu’à `pod2_body`.
 
 Consultez [Invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour savoir comment concevoir une invite qui génère un contenu variable pour chaque section d’un e-mail.
+
+### Appels à l’action
+
+Un appel à l’action (CTA) comprend une phrase et un lien. Pour que les fonctionnalités CTA _[!UICONTROL Reformulation]_ et _[!UICONTROL Ajouter un lien]_ fonctionnent correctement pendant le processus de génération de la variante, vous devez inclure des espaces réservés pour le lien et l’expression dans votre modèle.
+
+Suivez les instructions ci-dessous pour configurer les espaces réservés CTA :
+
+- La rephrase CTA est disponible et le lien est modifiable.
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >{{cta}}</a>
+  ```
+
+- La rephrase CTA est disponible, mais le lien n’est **modifiable** car le lien réel est fourni dans le modèle
+
+  ```html
+  <a align="center" href="https://link">{{cta}}</a>
+  ```
+
+- Le lien CTA est modifiable, mais la reformulation n’est **pas** disponible, car l’expression est fournie dans le modèle
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >Register now</a>
+  ```
+
+GenStudio for Performance Marketing peut également fournir des variantes d’expressions d’appel à l’action. Voir [Révision de l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ## Aperçu du modèle
 
