@@ -3,7 +3,8 @@ title: Tester la page pour Markdown
 description: Cet article est masqué pour tester différentes transformations Markdown.
 hide: true
 hidefromtoc: true
-source-git-commit: 3b186165022be9ac98c7698cf1511e36332962d8
+recommendations: noDisplay, noCatalog
+source-git-commit: cac3ee686121c3b5eca6f91ab6cfe2c0e97def4a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -33,4 +34,4 @@ ht-degree: 0%
 
 Vous pouvez désormais générer de nouvelles expressions d’appel à l’action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/content/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des appels à l’action dans les variantes, voir [Réviser l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
-![rephrase CTA en action](/help/assets/animation/rephrase-cta.gif "rephrase CTA"){width="250" align="center"}
+![rephrase CTA en action](/help/assets/animation/rephrase-cta.gif "rephrase CTA"){width="250" align="center" zoomable="yes"}
