@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ Les programmes Beta permettent de façonner le développement de produits et de 
 ### Générer de nouveaux appels à l’action
 
 Vous pouvez désormais générer de nouvelles expressions d’appel à l’action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/content/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des appels à l’action dans les variantes, voir [Réviser l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+
+L’aperçu suivant présente le nombre de caractères CTA, de nouvelles options et un exemple de reformulation et de remplacement :
+
+![rephrase CTA en action](/help/assets/animation/rephrase-cta.gif "rephrase CTA"){width="250" zoomable="yes"}
 
 ### Correctifs et améliorations
 
