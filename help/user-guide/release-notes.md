@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
+source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1676'
 ht-degree: 1%
 
 ---
@@ -141,7 +141,7 @@ De nouvelles fonctionnalités supplémentaires permettent aux éditeurs de :
 
 ### Nouvelles fonctionnalités
 
-Ajout de la prise en charge des modèles de médias riches, ce qui permet aux clients de réutiliser des ressources déjà publiées par le biais de leurs propres canaux de contenu géré. <!-- GS-6107 -->
+Ajout de la prise en charge de l’affichage de contenu statique hébergé sur des domaines externes. GenStudio for Performance Marketing valide la source de contenu définie dans le modèle et incorpore une copie pour produire l’aperçu du modèle. Voir [Contenu statique](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Correctifs et améliorations
 
