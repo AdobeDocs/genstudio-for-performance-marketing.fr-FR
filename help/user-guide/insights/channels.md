@@ -3,9 +3,9 @@ title: Présentation des canaux
 description: Consultez une vue d’ensemble de l’engagement des clients, des performances, du budget et des dépenses pour les campagnes marketing dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 8d85d47bdda981838771f9401d26f04fbb48d371
+source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL Nom de la méta-campagne]** | Liste des noms de campagne pour le compte de canal connecté. Le statut de la campagne peut être `Active`, `Paused`, `Deleted` ou `Archived`. Filtrez les campagnes par statut et objectif. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
 | **[!UICONTROL Launch]** | Date à laquelle la campagne a été publiée ou publiée sur le marché. | Un nombre élevé d’impressions peut indiquer que la publicité atteint l’audience prévue. |
 | **[!UICONTROL Impressions]** | Décompte de chaque chargement de contenu dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour obtenir de véritables informations sur les performances, considérez-les avec d’autres mesures d’engagement. |
-| **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs interagissent avec un élément cliquable, tel qu’un lien ou un bouton d’appel à l’action, dans la campagne publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
+| **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton d’appel à l’action, dans la campagne publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics de campagne dans un canal.<br>**Calcul** : (`clicks` divisé par `impressions`) x 100 = % | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
 | **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions d’annonce publicitaire pour la campagne publicitaire. <br>**Calcul** : (montant total `spent` divisé par `impressions`) x 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans une campagne publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` = $ | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |

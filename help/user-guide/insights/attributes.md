@@ -3,9 +3,9 @@ title: Présentation des attributs
 description: Découvrez comment évaluer les performances d’attributs spécifiques dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
+source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -14,46 +14,46 @@ ht-degree: 0%
 
 La vue [!DNL Insights] _[!UICONTROL Attributs]_ affiche une liste des attributs utilisés dans les campagnes publicitaires pour le compte de canal sélectionné.
 
-La table _[!UICONTROL Attributes]_ est organisée à l’aide du nom [!UICONTROL Attribute]. Vous pouvez basculer entre les types de liste à l’aide du bouton **[!UICONTROL Images]** et du bouton **[!UICONTROL Vidéo]** . Cliquez sur l’icône de paramètres (engrenage) située au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
+Le tableau _[!UICONTROL Attributs]_ est organisé à l’aide du nom [!UICONTROL Attribut]. Vous pouvez basculer entre les types de liste à l’aide du bouton **[!UICONTROL Images]** et du bouton **[!UICONTROL Vidéo]**. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
 
-L’icône de filtre (entonnoir) au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** où vous pouvez sélectionner les attributs dans le tableau [!UICONTROL Compte] et [!UICONTROL Catégorie d’attributs] pour filtrer les attributs. L’exemple suivant montre une liste d’attributs dans la catégorie `Lighting Condition`.
+L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection parmi les [!UICONTROL Compte] et [!UICONTROL Catégorie d’attribut] pour filtrer les attributs du tableau. L’exemple suivant illustre une liste d’attributs dans la catégorie `Lighting Condition` .
 
-![Filtre Attributs et table](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+![Filtre et tableau des attributs](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
 ## Détails des attributs
 
-Les attributs permettent d’identifier les ressources en fonction de leurs détails inhérents, tels que la couleur, la composition, les éléments visuels et d’autres propriétés.
+Les attributs permettent d’identifier les ressources en fonction de leurs détails inhérents, tels que la couleur, la composition, les éléments visuels, etc.
 
-Dans la vue des détails de l’attribut, vous pouvez voir les expériences qui utilisent l’attribut sélectionné. Les détails incluent les performances totales des attributs et une ventilation des mesures de performances liées à chaque expérience.
+Dans la vue des détails de l’attribut, vous pouvez voir quelles expériences utilisent l’attribut sélectionné. Les détails incluent le total des performances des attributs et une répartition des mesures de performances liées à chaque expérience.
 
 ![Mesures de performances des attributs](/help/assets/insights-attribute-details.png){zoomable="yes"}
 
-GenStudio for Performance Marketing détecte certaines fonctionnalités et applique l’attribut approprié à une ressource ou à une expérience sous la forme d’une balise . Voir [Catégories](#categories) pour consulter des exemples de ces balises. Pour afficher tous les attributs associés à une expérience, cliquez sur l’icône de paramètres (engrenage) située au-dessus du côté droit du tableau pour sélectionner la colonne **[!UICONTROL Attributs]**.
+GenStudio for Performance Marketing détecte certaines fonctionnalités et applique l’attribut approprié à une ressource ou à une expérience sous la forme d’une balise . Voir [Catégories](#categories) pour voir des exemples de ces balises. Pour afficher tous les attributs associés à une expérience, cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour sélectionner la colonne **[!UICONTROL Attributs]**.
 
 ## Catégories
 
-GenStudio for Performance Marketing reconnaît certaines fonctionnalités d’images, de vidéos et de texte et applique une balise de fonction à la ressource. Une _catégorie_ est un ensemble de fonctionnalités qui partagent une caractéristique spécifique. Par exemple, la catégorie _orientation d’image_ a une valeur `landscape`, `portrait` ou `square`.
+GenStudio for Performance Marketing reconnaît certaines fonctionnalités d’images, de vidéos et de texte et applique une balise de fonctionnalité à la ressource. Une _catégorie_ est un ensemble de fonctionnalités qui partagent une caractéristique spécifique. Par exemple, la catégorie _orientation de l’image_ a une valeur `landscape`, `portrait` ou `square`.
 
-Vous ne pouvez pas modifier les balises détectées et appliquées automatiquement.
+Vous ne pouvez pas modifier les balises détectées et automatiquement appliquées.
 
 Voir [Catégories d’attributs](/help/user-guide/insights/attribute-category.md) pour obtenir des listes détaillées des fonctionnalités d’image, de vidéo et de texte.
 
 ## Performances des attributs
 
-Les mesures de statistiques peuvent vous aider à évaluer les attributs qui inspirent le plus d’engagement des clients.
+Les mesures d’informations peuvent vous aider à évaluer quels attributs inspirent le plus d’engagement client.
 
-Le tableau suivant fournit des définitions et des informations sur les mesures de marketing numérique clés dans la vue de tableau [!UICONTROL Attributs]. Chaque mesure comprend une brève définition en ce qui concerne une ressource, le mode de calcul de la mesure et une ou plusieurs informations permettant de comprendre son importance et son impact sur une campagne publicitaire.
+Le tableau suivant fournit des définitions et des informations sur les principales mesures de marketing numérique dans la vue de tableau [!UICONTROL Attributs]. Chaque mesure comprend une brève définition en ce qui concerne une ressource, la manière dont la mesure est calculée et un ou plusieurs insights pour aider à comprendre son importance et son impact sur une campagne publicitaire.
 
 | Mesure | Définition | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Attribut]** | Nom de l’attribut. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
-| **[!UICONTROL Category]** | [category](#categories) qui représente la qualité inhérente d’un attribut. |  |
-| **[!UICONTROL # des images]** | Nombre d’images avec cet attribut. |  |
-| **[!UICONTROL # de vidéos]** | Nombre de vidéos avec cet attribut. |  |
-| **[!UICONTROL Impressions]** | Comptage de chaque chargement d’une image ou de vidéos avec cet attribut dans le canal, indépendamment de l’interaction ou de l’affichage. | Un nombre d’impressions élevé peut indiquer une large visibilité, mais pour obtenir de vraies informations sur les performances, prenez en compte d’autres mesures d’engagement. |
-| **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs interagissent avec une image ou une vidéo avec cet attribut. | Un nombre de clics élevé indique un fort intérêt et un engagement envers le contenu, ce qui peut être efficace et atteindre la bonne audience. |
-| **[!UICONTROL CTR ]**<br>_Taux de clics_ | Pourcentage (%) d&#39;impressions ayant généré des clics sur les images ou les vidéos avec cet attribut.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clics élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et cible effectivement les intérêts du public. |
-| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions publicitaires d’une image ou d’une vidéo avec cet attribut.<br>**Calcul** : somme `spent` divisée par portée, puis multipliée par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clics élevé. |
-| **[!UICONTROL CPA ]**<br>_Coût par action_ | Coût moyen dépensé pour réaliser une action client spécifique, comme un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d’actions client terminées | Permet d’identifier les attributs qui génèrent des actions précieuses de la part des clients. |
-| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic sur les images ou les vidéos avec cet attribut.<br>**Calcul** : montant total `spent` divisé par `clicks` | Des coûts moyens inférieurs peuvent indiquer des dépenses publicitaires rentables, en particulier par rapport à une augmentation des conversions. |
-| **[!UICONTROL Dépenser]** | Montant dépensé dans le budget en ce qui concerne les attributs sur une période donnée. | Un montant élevé de dépenses sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à une diminution rapide des ressources. Effectuez le suivi du montant des dépenses par rapport aux mesures de performances clés pour mieux surveiller le retour sur investissement global. |
+| **[!UICONTROL Category]** | La [catégorie](#categories) qui représente la qualité inhérente d’un attribut. |  |
+| **[!UICONTROL d’images]** | Nombre d’images possédant cet attribut. | Le nombre indiqué dans le tableau Attributs peut être différent du nombre indiqué dans la vue Détails de l’attribut. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
+| **[!UICONTROL de vidéos]** | Nombre de vidéos comportant cet attribut. | Le nombre indiqué dans le tableau Attributs peut être différent du nombre indiqué dans la vue Détails de l’attribut. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
+| **[!UICONTROL Impressions]** | Nombre de fois qu’une image ou des vidéos avec cet attribut sont chargées dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour obtenir de véritables informations sur les performances, considérez-les par rapport à d’autres mesures d’engagement. |
+| **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs interagissent avec une image ou une vidéo avec cet attribut. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
+| **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics sur les images ou les vidéos avec cet attribut.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
+| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions publicitaires d’une image ou d’une vidéo avec cet attribut.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
+| **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet d’identifier les attributs qui entraînent des actions client importantes. |
+| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic sur les images ou les vidéos avec cet attribut.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
+| **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget en ce qui concerne les attributs sur une période donnée. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi du montant des dépenses par rapport aux mesures de rendement clés afin de surveiller le rendement global de l&#39;investissement. |
