@@ -1,133 +1,228 @@
 ---
-title: Guide de l’utilisateur d’Adobe GenStudio
-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer rapidement des ressources pour votre marque, générer des variations et optimiser les expériences.
+title: Guide de l’utilisateur Adobe GenStudio
+description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Apprenez à créer des ressources sur la marque, à générer des variations et à optimiser les expériences.
 exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
-source-git-commit: 6e6ccea60d66d2b3c925bd55f06e16fd4cf728b9
+source-git-commit: 8e09ed3248a00234d17ea8207dc401fc198d7771
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 13%
+source-wordcount: '207'
+ht-degree: 8%
 
 ---
 
 # Guide d’utilisation d’Adobe GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing est une plateforme pilotée par l’IA qui vous permet de générer et de gérer du contenu marketing conforme aux normes de votre marque et conforme aux politiques de votre entreprise.
+Adobe GenStudio for Performance Marketing est une plateforme gérée par l’IA qui permet de générer et de gérer du contenu marketing conforme aux normes de votre marque et aux politiques de votre entreprise.
 
-En exploitant la technologie Adobe AI, GenStudio for Performance Marketing fournit une suite complète d’outils qui simplifient la création et la gestion de contenu complexes afin que les créatifs puissent se concentrer sur l’innovation.
+En tirant parti de Adobe technologie d’IA, GenStudio for Performance Marketing fournit une suite complète d’outils qui simplifient les complexités de la création et de la gestion de contenu afin que les créatifs puissent se concentrer sur l’innovation.
 
-<div id="recs-overview-body-1"></div>
-<div id="recs-overview-body-2"></div>
-<div id="recs-overview-body-3"></div>
-<div id="recs-overview-body-4"></div>
-<div id="recs-overview-body-5"></div>
-<div id="recs-overview-body-6"></div>
-
-## Exploration des fonctionnalités
+## Explorer les fonctionnalités
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td valign="top">
+
       <a href="../user-guide/effective-prompts.md">
-      <img alt="chevron droit" src="../assets/icons/icon-chevronRight.svg" width="35">
+
+      <img alt="Chevron droit" src="../assets/icons/icon-chevronRight.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../user-guide/effective-prompts.md">
-         <strong> Écrire les invites effectives </strong>
+
+         <strong>Rédiger des invites efficaces</strong>
+
          </a>
+
       </div>
+
       <p>
-         <em>Créez des invites descriptives qui génèrent des expériences numériques sur marque.</em>
+
+         <em>Créez des invites descriptives qui génèrent des expériences numériques sur la marque.</em>
+
       </p>
+
    </td>
+
    <td valign="top">
+
       <a href="../user-guide/create/overview.md">
-      <img alt="Paintbrush" src="../assets/icons/icon-create.svg" width="35">
+
+      <img alt="Pinceau" src="../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../user-guide/create/overview.md">
-         <strong>Créer des expériences</strong>
+
+         <strong>Création d’expériences</strong>
+
          </a>
+
       </div>
+
       <p>
-         <em> Créez des emails et des métadonnées performants sur marque.</em>
+
+         <em>Créez des e-mails et des méta-publicités performants et adaptés à la marque.</em>
+
       </p>
+
    </td>
+
    <td valign="top">
+
       <a href="../user-guide/approvals/overview.md">
+
       <img alt="Coche" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../user-guide/approvals/overview.md">
+
          <strong>Réviser et approuver</strong>
+
          </a>
+
       </div>
+
       <p>
-         <em>Orchestrer la révision et l’approbation simplifiées des ressources marketing.</em>
+
+         <em>Orchestrez la révision et l’approbation simplifiées des ressources marketing.</em>
+
       </p>
+
    </td>
+
    <td valign="top">
+
       <a href="../user-guide/content/overview.md">
+
       <img alt="Grille" src="../assets/icons/icon-images.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../user-guide/content/overview.md">
-         <strong>Gérer le contenu</strong>
+
+         <strong>Gestion du contenu</strong>
+
          </a>
+
       </div>
+
       <p>
-         <em> Recherchez, gérez et réutilisez du contenu tout en conservant les directives de la marque.</em>
+
+         <em>Recherchez, gérez et réutilisez du contenu tout en respectant les directives de la marque.</em>
+
       </p>
+
    </td>
+
    <td valign="top">
+
       <a href="../user-guide/insights/overview.md">
+
       <img alt="Graphique" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../user-guide/insights/overview.md">
-         <strong>Afficher les statistiques</strong>
+
+         <strong>Afficher Insights</strong>
+
          </a>
+
       </div>
+
       <p>
-         <em>Analyser l’efficacité du contenu des canaux de médias payants.</em>
+
+         <em>Analysez l’efficacité du contenu des canaux de médias payants.</em>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
-## Découvrez comment
+## Apprenez à
 
 <table style="table-layout:fixed">
+
 <td valign="top">
+
    <div>
+
       <a href="/help/user-guide/guidelines/add-guidelines.md">
-      <img alt="Ajouter des instructions" src="../assets/card-create-assets.png">
-      <strong>Ajouter des instructions</strong>
+
+      <img alt="Ajouter des lignes guides" src="../assets/card-guidelines.png">
+
+      <strong>Ajouter des lignes guides</strong>
+
       </a>
+
    </div>
+
    <p>
-      <em>Découvrez comment ajouter des directives—Marques, Produits et Personas—à GenStudio for Performance Marketing.</em>
+
+      <em>Découvrez comment ajouter des directives (marques, produits et personnes concernées) à GenStudio for Performance Marketing.</em>
+
    </p>
+
 </td>
+
 <td valign="top">
+
    <div>
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Idées, livres, crayon, ordinateur" src="../assets/card-create-assets.png">
-      <strong>Créer une expérience de courrier électronique</strong>
+
+      <strong>Créez une expérience de courrier électronique</strong>
+
       </a>
+
    </div>
+
    <p>
-      <em>Découvrez comment créer une expérience de messagerie sur marque.</em>
+
+      <em>Découvrez comment créer une expérience de messagerie intégrée à la marque.</em>
+
    </p>
+
 </td>
+
 <td valign="top">
+
    <div>
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Personnes qui déplacent des fichiers dans un dossier" src="../assets/card-manage-content.png">
-      <strong> Créez une expérience de métadonnées publicitaires </strong>
+
+      <strong>Création d’une expérience de méta-annonce</strong>
+
       </a>
+
    </div>
+
    <p>
-      <em>Découvrez comment créer une expérience de métadonnées alignée sur la marque.</em>
+
+      <em>Découvrez comment créer une expérience méta-annonce alignée sur la marque.</em>
+
    </p>
+
 </td>
+
 </table>
