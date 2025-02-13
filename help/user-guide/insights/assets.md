@@ -3,9 +3,9 @@ title: Présentation d’Assets
 description: Découvrez comment évaluer les performances des ressources dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,20 @@ ht-degree: 0%
 
 La vue [!DNL Insights] _[!UICONTROL Assets]_ affiche une liste des ressources utilisées dans les expériences et les campagnes publicitaires pour le compte de canal sélectionné.
 
-La galerie _[!UICONTROL Assets]_ est la vue par défaut qui affiche un collage d’aperçus de ressources et d’une mesure, telle que le taux de clic publicitaire. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit de la galerie pour activer/désactiver l’une des trois mesures visibles :
+{{connect-insights}}
+
+Le tableau _[!UICONTROL Assets]_ est organisé à l’aide de [!UICONTROL ID de ressource]. Vous pouvez basculer entre les vues à l’aide de l’icône de liste de vues (tableau) et de l’icône de vue galerie (grille). Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes.
+
+![Filtre et tableau Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
+
+La vue de la galerie _[!UICONTROL Assets]_ affiche un collage d’aperçus de ressources et d’une mesure, telle que le taux de clic publicitaire. Cliquez sur l’icône des paramètres (cog) située au-dessus du côté droit de la galerie pour ouvrir **[!UICONTROL Paramètres de la carte]** et activer l’une des trois mesures visibles :
 
 - Coût par action (CPA)
 - Taux de clic publicitaire (CTR)
 - CPC (coût par clic)
 - Dépenses
-
-Le tableau _[!UICONTROL Assets]_ est organisé à l’aide de [!UICONTROL ID de ressource]. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes.
-
-![Filtre et tableau Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
-
-Vous pouvez basculer entre les vues à l’aide de l’icône de liste de vues (tableau) et de l’icône de vue galerie (grille).
 
 ## Détails de la ressource
 

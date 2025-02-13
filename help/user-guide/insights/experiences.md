@@ -3,7 +3,7 @@ title: Présentation des expériences
 description: Consultez un aperçu de l’engagement des clients, du budget et des dépenses pour les expériences et les performances des emplacements publicitaires dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -12,11 +12,15 @@ ht-degree: 0%
 
 # Présentation des expériences
 
-La vue [!DNL Insights] _[!UICONTROL Expériences]_ affiche une liste d’expériences pour le compte publicitaire du canal connecté. Pour Facebook, les expériences sont des noms de publicités Meta .
+La vue [!DNL Insights] _[!UICONTROL Expériences]_ affiche une liste d’expériences pour le compte publicitaire du canal connecté. Pour Facebook, les expériences sont des Meta et des noms.
+
+{{connect-insights}}
 
 Le tableau _[!UICONTROL Expériences]_ est organisé à l’aide de [!UICONTROL noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection parmi les listes [!UICONTROL Compte] et [!UICONTROL Campagne] pour filtrer les noms des annonces dans le tableau.
 
 ![ Filtre et tableau des expériences ](/help/assets/insights-experiences-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Détails de l’expérience
 

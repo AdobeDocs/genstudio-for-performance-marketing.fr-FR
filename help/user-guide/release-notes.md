@@ -2,11 +2,11 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-01-16T00:00:00Z
+last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
+source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1746'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,19 @@ ht-degree: 1%
 
 Ces informations de mise à jour détaillent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.1.16 {#latest}
+## 2025.2.13 {#latest}
+
+### Améliorations des pages de destination pour [!DNL Create]
+
+La page de destination [!DNL Create] de GenStudio for Performance Marketing comprend des améliorations de l’interface utilisateur qui améliorent l’expérience utilisateur. La section _Travail récent_ est affinée et configurée avec la vue Liste comme vue par défaut. Le remplissage et d’autres améliorations visuelles rationalisent l’aspect de la zone de travail [!DNL Create].
+
+### Exportation des informations au format CSV
+
+Vous pouvez désormais télécharger le tableau affichable à partir de n’importe quelle vue [!DNL Insights] dans un fichier CSV. Cette fonctionnalité vous permet d’exporter et d’analyser facilement des données provenant de diverses vues de [!DNL Insights], ce qui facilite l’analyse des données et les options de création de rapports.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.1.16
 
 ### Intégration à Adobe Workfront Proof
 
@@ -28,10 +40,6 @@ Les programmes Beta permettent de façonner le développement de produits et de 
 ### Générer de nouveaux appels à l’action
 
 Vous pouvez désormais générer de nouvelles expressions d’appel à l’action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/content/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des appels à l’action dans les variantes, voir [Réviser l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
-
-L’aperçu suivant présente le nombre de caractères CTA, de nouvelles options et un exemple de reformulation et de remplacement :
-
-![rephrase CTA en action](/help/assets/animation/rephrase-cta.gif "rephrase CTA"){width="250" zoomable="yes"}
 
 ### Correctifs et améliorations
 
@@ -59,7 +67,7 @@ L’aperçu suivant présente le nombre de caractères CTA, de nouvelles options
 
 * Le bouton **[!UICONTROL Précédent]** renvoie désormais les utilisateurs à la page précédente ou à la page de destination [!DNL Create] comme prévu. <!-- GS-8622 -->
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2024.12.12
 
@@ -75,13 +83,13 @@ Les éditeurs peuvent désormais spécifier des valeurs personnalisées pour ces
 
 * Largeur et hauteur des bannières web dans les modèles d’affichage publicitaire. Ces valeurs sont désormais enregistrées en tant que métadonnées de modèle. <!-- GS-6735 -->
 
-* Dimensions d’images dans les expériences de publicité display lors du chargement d’images.<!-- GS-7166 -->
+* Dimensions des images dans les expériences d’affichage et de publicité lors du chargement des images.<!-- GS-7166 -->
 
 * Consultez les instructions spécifiques aux canaux dans la section [Bonnes pratiques pour les modèles](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Les options d’exportation incluent désormais :
 
-* Exportez les publicités display et les méta-publicités sous la forme d’HTML, de JPEG ou de PNG. Voir [Créer une expérience d’affichage publicitaire](/help/user-guide/create/create-display-ad.md) et [Créer une expérience de méta-annonce](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
+* Exportez les publicités display et les métadonnées de publicité sous la forme HTML, JPEG ou PNG. Voir [Créer une expérience d’affichage publicitaire](/help/user-guide/create/create-display-ad.md) et [Créer une expérience de méta-annonce](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
 
 De nouvelles fonctionnalités supplémentaires permettent aux éditeurs de :
 
@@ -147,7 +155,7 @@ Ajout de la prise en charge de l’affichage de contenu statique hébergé sur d
 
 * Lorsqu’ils sont redimensionnés dans un navigateur autre que celui utilisé pour générer le contenu initial, les brouillons se chargent désormais comme prévu. <!-- GS-7204 -->
 
-* Tous les caractères sont désormais correctement représentés à l’HTML exporté. <!-- GS-7246 -->
+* Tous les caractères sont désormais correctement représentés dans HTML exporté. <!-- GS-7246 -->
 
 * Les boutons de la fenêtre contextuelle [!DNL Content] _Expériences_ **[!UICONTROL Exporter]** ne sont plus tronqués dans certaines langues. <!-- GS-6873 -->
 
