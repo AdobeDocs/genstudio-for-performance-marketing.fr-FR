@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
+source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1729'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Vous pouvez désormais télécharger le tableau affichable à partir de n’impo
 
 Le programme Beta d’intégration des épreuves GenStudio for Performance Marketing et Adobe Workfront est lancé ce mois-ci. Workfront Proof stimule le cycle de vie de la création et de l’activation de contenu avec des modèles d’approbation, des workflows en plusieurs étapes et des annotations. Les utilisateurs de GenStudio for Performance Marketing disposant de droits Workfront Proof peuvent utiliser les fonctionnalités avancées de Proof dans GenStudio for Performance Marketing pour examiner et commenter le contenu généré par GenStudio.
 
-Les programmes Beta permettent de façonner le développement de produits et de déterminer leur disponibilité générale. Contactez Etienne Bosch (etienneb@adobe.com) pour plus d’informations sur le programme Beta d’intégration GenStudio for Performance Marketing/Workfront Proof.
+Les programmes Beta permettent de façonner le développement de produits et de déterminer leur disponibilité générale.
 
 ### Générer de nouveaux appels à l’action
 
