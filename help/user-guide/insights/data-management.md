@@ -1,13 +1,14 @@
 ---
 title: Gestion des données
-description: Découvrez l’ingestion et le stockage de données pour Insights dans GenStudio for Performance Marketing.
+description: Découvrez l’ingestion et le stockage de données pour  [!DNL Insights]  dans GenStudio for Performance Marketing.
 feature: Insights
 level: Experienced
 role: Admin
 last-substantial-update: 2025-1-7
-source-git-commit: 5dbe645f2ccf033f515da22ffdcce86edcb9fb24
+exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -24,21 +25,21 @@ GenStudio for Performance Marketing utilise Customer Journey Analytics (CJA) pou
 
 **Informations importantes sur les connexions de données**
 
-Si vous êtes un [administrateur système d’Adobe ](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), vous pouvez disposer de droits qui vous donnent accès à la gestion des sandbox AEP et aux composants du lac de données qui prennent en charge GenStudio for Performance Marketing.
+Si vous êtes un [administrateur système Adobe](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), vous pouvez disposer de droits qui vous donnent accès à la gestion des sandbox AEP et aux composants du lac de données qui prennent en charge GenStudio for Performance Marketing.
 
 >[!WARNING]
 >
->La réinitialisation du sandbox de production dans AEP supprime toutes les connexions de données et entraîne l’arrêt du fonctionnement de [!DNL Insights].
+>La réinitialisation du sandbox de production dans AEP supprime toutes les connexions de données et [!DNL Insights] fait cesser de fonctionner.
 
 Soyez prudent et ne supprimez pas les connexions de données suivantes, nécessaires au fonctionnement fiable de GenStudio for Performance Marketing :
 
 - Jeux de données AEP dotés du préfixe `GS Insights`
-- Schémas, classes et groupes de champs AEP dotés du préfixe `GS Insights`
+- Schémas, classes et groupes de champs d’AEP précédés du préfixe `GS Insights`
 - `timestamp for metadata` du groupe de champs personnalisé
-- Connexions AEP : flux de données dotés du préfixe `GS Insights`
-- Connexions AEP : compte Informations GS
+- Connexions AEP : flux de données précédés du préfixe `GS Insights`
+- AEP Connections : compte GS Insights
 
-Consultez la section [Supprimer les implications](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) dans le guide du _Customer Journey Analytics_ avant de supprimer des composants de données dans AEP.
+Voir [Implications de suppression](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) dans le guide _Customer Journey Analytics_ avant de supprimer des composants de données dans AEP.
 
 >[!ENDSHADEBOX]
 

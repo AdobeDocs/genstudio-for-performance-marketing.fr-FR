@@ -3,7 +3,7 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées riches pour le suivi de la capacité de recherche et des performances.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 1%
@@ -40,9 +40,9 @@ Certaines métadonnées de ressources sont automatiquement collectées lorsqu’
 
 ### Balises générées
 
-Lorsque vous stockez une ressource approuvée dans [!DNL Content], GenStudio for Performance Marketing utilise les fonctionnalités d’IA d’Adobe et de machine learning pour étudier la ressource et appliquer des balises en fonction des fonctionnalités de la ressource. Par exemple, l’image d’un chat peut donner lieu à des balises d’attributs telles que `pet photography` ou `cat`, ainsi qu’à des balises de couleurs qui identifient les couleurs dominantes dans l’image. Vous ne pouvez pas modifier les balises détectées et automatiquement appliquées.
+Lorsque vous stockez une ressource approuvée dans [!DNL Content], GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier la ressource et appliquer des balises en fonction des fonctionnalités de la ressource. Par exemple, l’image d’un chat peut donner lieu à des balises d’attributs telles que `pet photography` ou `cat`, ainsi qu’à des balises de couleurs qui identifient les couleurs dominantes dans l’image. Vous ne pouvez pas modifier les balises détectées et automatiquement appliquées.
 
-Voir [!DNL Insights] [Catégories d’attributs](/help/user-guide/insights/attribute-category.md) pour obtenir des listes détaillées des fonctionnalités d’image, de vidéo et de texte.
+Voir [!DNL Insights] [Catégories d’attributs](/help/user-guide/insights/attributes.md#categories) pour obtenir des listes détaillées des fonctionnalités d’image, de vidéo et de texte.
 
 ### Métadonnées de contenu générées
 

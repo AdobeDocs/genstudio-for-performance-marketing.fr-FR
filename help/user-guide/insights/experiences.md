@@ -3,9 +3,9 @@ title: Présentation des expériences
 description: Consultez un aperçu de l’engagement des clients, du budget et des dépenses pour les expériences et les performances des emplacements publicitaires dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ La vue [!DNL Insights] _[!UICONTROL Expériences]_ affiche une liste d’expéri
 
 {{connect-insights}}
 
-Le tableau _[!UICONTROL Expériences]_ est organisé à l’aide de [!UICONTROL noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection parmi les listes [!UICONTROL Compte] et [!UICONTROL Campagne] pour filtrer les noms des annonces dans le tableau.
+Le tableau _[!UICONTROL Expériences]_ est organisé à l’aide de [!UICONTROL noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection parmi les listes [!UICONTROL Compte] et [!UICONTROL Campagne] pour filtrer les noms des annonces dans le tableau. Cliquez sur **Réinitialiser** pour effacer toutes les sélections de filtres.
 
 ![ Filtre et tableau des expériences ](/help/assets/insights-experiences-filter.png){zoomable="yes"}
 
@@ -26,7 +26,7 @@ Le tableau _[!UICONTROL Expériences]_ est organisé à l’aide de [!UICONTROL 
 
 Une _expérience_ est une ressource promotionnelle qui comprend du contenu visuel et interactif destiné à être distribué à une audience spécifique dans le cadre d’une campagne marketing.
 
-Sélectionnez une expérience (nom de la publicité) et affichez les mesures de performances, les attributs de texte et les emplacements associés à chaque publicité. Dans la vue des détails, vous pouvez analyser les mesures d’une expérience en fonction de son positionnement publicitaire et de ses efforts marketing au cours d’une période spécifiée.
+Sélectionnez une expérience et affichez les mesures de performances, les attributs de texte et les emplacements associés à chaque publicité. Dans la vue des détails, vous pouvez analyser les mesures d’une expérience en fonction de son positionnement publicitaire et de ses efforts marketing au cours d’une période spécifiée.
 
 La vue des détails inclut des mesures générales sur les `click-through rate`, les `cost per action` et les `spend` de la publicité, à savoir la part du budget consacrée à la publicité. Comme les publicités peuvent avoir plusieurs emplacements, tels qu’un flux ou une bannière, vous pouvez voir une répartition des mêmes mesures pour chaque emplacement publicitaire. Utilisez les flèches gauche et droite sous **[!UICONTROL Performances par emplacement publicitaire]** pour parcourir les mesures d’emplacement.
 
@@ -34,7 +34,7 @@ La vue des détails inclut des mesures générales sur les `click-through rate`,
 
 ### Attributs de texte
 
-Sous l’aperçu de l’expérience se trouve une liste d’attributs [!UICONTROL texte] associés à la publicité. Lorsque les ressources et les expériences sont approuvées et stockées dans [!DNL Content], GenStudio for Performance Marketing génère des balises en fonction de leurs fonctionnalités inhérentes. Voir [Détails de la ressource](../content/asset-details.md#system-metadata) pour plus d’informations sur les métadonnées système.
+Sous l’aperçu de l’expérience se trouve une liste d’attributs [!UICONTROL texte] associés à la publicité. Lorsque les ressources et les expériences sont approuvées et stockées dans [!DNL Content], GenStudio for Performance Marketing génère des balises en fonction de leurs fonctionnalités inhérentes. Voir [Détails de la ressource](/help/user-guide/content/asset-details.md#system-metadata) pour plus d’informations sur les métadonnées système.
 
 ### Ajouter des emplacements
 
@@ -73,15 +73,17 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour mille impressions publicitaires pour l’emplacement de l’expérience.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
 | **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet de surveiller les dépenses liées aux expériences qui entraînent des actions client importantes. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un emplacement d’expérience.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
-| **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget sur une période donnée. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi du montant des dépenses par rapport aux mesures de rendement clés afin de surveiller le rendement global de l&#39;investissement. |
+| **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget de la campagne sur une période donnée pour placer cette expérience publicitaire. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |
 
 ## Performances de l’emplacement
 
-Dans la vue _Détails de l’expérience_, les trois principales mesures reflètent les performances globales de l’expérience sélectionnée. Toutefois, la section _Performances par emplacement_ affiche les mesures détaillées de chaque emplacement publicitaire. Le tableau suivant fournit des définitions pour les mesures de performances des emplacements :
+Dans la vue _Détails de l’expérience_, les trois principales mesures reflètent les performances globales de l’expérience sélectionnée. Toutefois, la section _Performances par emplacement_ affiche les mesures détaillées de chaque emplacement publicitaire. Utilisez les flèches droite et gauche pour naviguer parmi les différents emplacements publicitaires.
 
-| Mesure | Définition | Calcul |
+Le tableau suivant fournit des définitions pour les mesures de performances des emplacements publicitaires :
+
+| Mesure | Définition | Insight |
 | ---------------------- | ----------------------------- | ----------- |
-| **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions qui ont généré des clics dans l’emplacement publicitaire de l’expérience. | `clicks` divisé par `impressions` |
-| **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour cet emplacement publicitaire afin de réaliser une action spécifique du client ou de la cliente, telle qu’un achat ou un abonnement. | montant total `spent` divisé par le nombre d’actions du client effectuées |
-| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un emplacement d’expérience. | montant total `spent` divisé par `clicks` |
-| **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget sur une période donnée. | |
+| **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions pour un emplacement publicitaire unique qui a généré des clics.<p>**Calcul**:`clicks` divisé par `impressions`<p>Cette mesure permet de déterminer l’efficacité de l’emplacement publicitaire pour séduire l’audience. | Un taux de clics élevé indique que le positionnement de l’annonce publicitaire est pertinent et attrayant pour l’audience, ce qui entraîne davantage d’interactions. |
+| **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour un emplacement publicitaire unique afin d’atteindre l’action souhaitée par le client ou la cliente, comme un achat ou un abonnement.<p>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire dans la génération d’actions pertinentes. | Une CPA plus faible suggère que le placement publicitaire est efficace pour convertir les interactions d’audience en actions souhaitées à moindre coût. |
+| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un seul emplacement publicitaire.<p>**Calcul** : montant total `spent` divisé par `clicks`<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire pour la génération de clics. | Un CPC inférieur indique que l’emplacement publicitaire génère des clics à un coût inférieur, ce qui peut être bénéfique pour maximiser le retour sur investissement. |
+| **[!UICONTROL Dépenses]** | Montant dépensé pour un emplacement publicitaire unique, représentant une fraction du montant total dépensé pour l’ensemble de l’expérience. Cette mesure permet de suivre l’efficacité de l’affectation budgétaire et des dépenses pour chaque emplacement publicitaire. | Le suivi des dépenses peut permettre de s’assurer que les ressources sont utilisées efficacement à différents emplacements. |

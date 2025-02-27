@@ -4,10 +4,10 @@ breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer rapidement des ressources pour votre marque, générer des variations et optimiser les expériences.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: c76e0584c049b77e5e5742f4b52e959503422016
+source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 27%
+source-wordcount: '171'
+ht-degree: 26%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 27%
    + [Demander la révision et l’approbation du contenu](approvals/request-review.md)
    + [Vérifier et modifier le contenu](approvals/review-and-edit.md)
    + [Approuver le contenu](approvals/approve-content.md)
-   + [Contenu approuvé par Publish](approvals/publish-content.md)
+   + [Publier le contenu approuvé](approvals/publish-content.md)
 + {#content} de contenu
    + [Présentation du contenu](content/overview.md)
    + [Gestion des ressources et des expériences](content/manage-assets.md)
@@ -66,7 +66,10 @@ ht-degree: 27%
    + [Expériences](insights/experiences.md)
    + [Assets](insights/assets.md)
    + [Attributs](insights/attributes.md)
-   + [Catégories d’attributs](insights/attribute-category.md)
+   + Catégories d’attributs {#categories}
+      + [Fonctionnalités d’image](insights/image-features.md)
+      + [Fonctionnalités vidéo](insights/video-features.md)
+      + [Fonctionnalités de texte - Masqué](insights/text-features.md)
    + [Gestion des données](insights/data-management.md)
-+ [GenStudio Academy - Caché](genstudioacademy.md)
++ [GenStudio Academy - Masqué](genstudioacademy.md)
 + [Test Markdown - Masqué](test-markdown.md)

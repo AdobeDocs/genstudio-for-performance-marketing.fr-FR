@@ -3,9 +3,9 @@ title: Présentation des canaux
 description: Consultez une vue d’ensemble de l’engagement des clients, des performances, du budget et des dépenses pour les campagnes marketing dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Au moment où vous avez créé une campagne avec des méta-annonces, vous avez p
 
 ## Performances du canal
 
-En fonction de vos objectifs de performances, les mesures Insights peuvent vous aider à évaluer si vous atteignez votre objectif.
+Selon vos objectifs de performances, [!DNL Insights] mesures peuvent vous aider à évaluer si vous atteignez vos objectifs.
 
 Par exemple, si la sensibilisation est votre objectif, une augmentation du taux de `impressions` peut indiquer que vous élargissez votre portée. Pour comprendre si cela permet d’atteindre votre objectif, vous pouvez examiner les mesures qui indiquent que votre contenu est attrayant, comme les `clicks` ou les `video plays`. Quelle est l’efficacité de l’interaction de votre audience avec votre contenu ?
 
