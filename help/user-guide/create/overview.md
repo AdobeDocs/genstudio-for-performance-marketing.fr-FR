@@ -112,3 +112,4 @@ Cliquez sur les icônes de tri (grille ou tableau) pour afficher les éléments 
 GenStudio for Performance Marketing permet [un contrôle complet des sections des variantes individuelles](/help/user-guide/create/manage-variants.md).
 
 Vous pouvez réviser les sections d’une seule variante, générer à nouveau le contenu de sections individuelles et utiliser les modifications suggérées pour améliorer le message, dimensionner les ressources, etc., le tout dans la zone de travail.
+
