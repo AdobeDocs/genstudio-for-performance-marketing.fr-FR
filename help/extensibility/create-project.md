@@ -1,9 +1,10 @@
 ---
 title: Création d’un projet App Builder pour étendre GenStudio for Performance Marketing
 description: Créez un projet App Builder pour votre application ou module complémentaire.
-source-git-commit: 62d29311d02616939634ce09c0ae97f382787c8d
+exl-id: 502b6dd5-68ac-4392-bba3-3ab8cd9eefc2
+source-git-commit: 7cc91ff9260370a164331095101f04ee0ffc1119
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -14,6 +15,7 @@ Les développeurs qui étendent les fonctionnalités natives d’Adobe GenStudio
 
 >[!BEGINSHADEBOX]
 
+**Conditions préalables**
 Vous devez avoir accès à App Builder et à [Adobe Developer Console](https://developer.adobe.com/developer-console/) pour créer un projet pour votre application. Voir [Création d’un projet sur Developer Console](https://developer.adobe.com/app-builder/docs/getting_started/first_app#2-create-a-new-project-on-developer-console).
 
 >[!ENDSHADEBOX]

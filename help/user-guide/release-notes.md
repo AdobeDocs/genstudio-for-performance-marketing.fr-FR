@@ -2,11 +2,10 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
+source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -15,7 +14,50 @@ ht-degree: 1%
 
 Ces informations de mise à jour détaillent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.2.13 {#latest}
+## 2025.03.13 {#latest}
+
+### Création d’expériences LinkedIn
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Ajout de la prise en charge de la [ création d’expériences LinkedIn ](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+
+### Créer des expériences de bannière
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Ajout de la prise en charge de la [création d’expériences de bannière](/help/user-guide/create/create-banner-experience.md). Consultez l’onglet [Bannière](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+
+### Conformité
+
+Dans le cadre du processus de validation de la marque, des [normes de conformité](/help/user-guide/guidelines/overview.md) ont été introduites dans les [contrôles de contenu](/help/user-guide/guidelines/brand-validation.md). Ces contrôles examinent chaque variante d’une expérience par rapport aux directives [!DNL Brand], [!DNL Product] et [!DNL Persona], aux directives de la plateforme (par exemple, pour les métadonnées), aux considérations éthiques et aux normes ADA. Ce processus fournit un résumé complet des lignes directrices et des normes qui doivent être révisées pour une meilleure conformité.
+
+### Extensibilité
+
+Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/help/extensibility/overview.md) fournit aux entreprises des outils leur permettant d’incorporer leurs propres protocoles de conformité aux réclamations dans le workflow de création de contenu et la validation par le biais de modules complémentaires, ou applications extensibles.
+
+### Modèles
+
+* **Éditeur de code de modèle** : le nouvel [Éditeur de code de modèle](/help/user-guide/content/code-editor.md) vous permet de vérifier et d’affiner votre modèle pour une utilisation optimale lors de la génération de nouvelles expériences avec GenStudio for Performance Marketing.
+
+  ![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="500" zoomable="yes"}
+
+* **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image. Voir [Personnaliser un modèle : lien sur une image](/help/user-guide/content/customize-template.md#link-on-image).
+* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [ Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+
+### Correctifs et améliorations
+
+* Activation de la fonctionnalité pour les instructions [canal par défaut](/help/user-guide/guidelines/brands.md#channel-guidelines), [image](/help/user-guide/guidelines/brands.md#image-guidelines), [logo](/help/user-guide/guidelines/brands.md#logos) et [couleur](/help/user-guide/guidelines/brands.md#colors) pour [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
+* Possibilité d’[ajouter des liens à des images](/help/user-guide/create/manage-variants.md#add-image-link) dans une variante.
+* Déplacement de la fonctionnalité [Vérification de contenu](/help/user-guide/guidelines/brand-validation.md) et Révision et approbation vers la nouvelle barre d’actions de droite pour optimiser l’espace sur la zone de travail et améliorer l’expérience utilisateur.
+* Simplification du flux [chargement ou ajout manuel d’une marque](/help/user-guide/guidelines/add-guidelines.md#add-brands).
+* Ajout de la possibilité d’[ajouter ou de permuter des ressources d’image dans une variante](/help/user-guide/create/manage-variants.md#swap-image) sur la zone de travail.
+* Amélioration de l’expérience utilisateur et de la visibilité des catégories de canal [sur la page d’accueil Créer](/help/user-guide/create/overview.md) en les séparant en sections Média détenu, Média payant et Contenu .
+* Amélioration du filtrage dans les vues Tableau et Galerie [!DNL Insights].
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.02.13
 
 ### Améliorations des pages de destination pour [!DNL Create]
 
@@ -23,11 +65,11 @@ La page de destination [!DNL Create] de GenStudio for Performance Marketing comp
 
 ### Exportation des informations au format CSV
 
-Vous pouvez désormais télécharger le tableau affichable à partir de n’importe quelle vue [!DNL Insights] dans un fichier CSV. Cette fonctionnalité vous permet d’exporter et d’analyser facilement des données provenant de diverses vues de [!DNL Insights], ce qui facilite l’analyse des données et les options de création de rapports.
+Vous pouvez désormais télécharger le tableau affichable à partir de n’importe quelle vue [!DNL Insights] dans un fichier CSV. Cette fonctionnalité vous permet d’exporter et d’analyser des données provenant de diverses vues de [!DNL Insights], ce qui facilite l’analyse des données et les options de rapports.
 
-## Notes de mise à jour antérieures
++++
 
-+++Notes de la version 2025.1.16
++++Notes de la version 2025.01.16
 
 ### Intégration à Adobe Workfront Proof
 

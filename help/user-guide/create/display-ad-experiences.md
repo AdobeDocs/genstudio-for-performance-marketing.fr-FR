@@ -2,13 +2,12 @@
 title: Afficher les expériences publicitaires
 description: Découvrez les expériences d’affichage des publicités dans Adobe GenStudio for Performance Marketing.
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
-badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 25c3ad69774301d82573f2eec89f0eb0ea15404b
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '102'
 ht-degree: 1%
 
 ---
@@ -21,7 +20,7 @@ Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA gén
 
 Lors de la génération de l’affichage et des expériences, quatre variations sont créées et affichées dans la zone de travail.
 
-GenStudio for Performance Marketing prend en charge les [publicités display aux tailles standard et personnalisées](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+Consultez [Suivre les directives relatives aux modèles spécifiques aux canaux](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions prises en charge, les noms de champs reconnus, etc.
 
 Les sections modifiables d’un affichage et d’une expérience sont les suivantes :
 

@@ -4,10 +4,10 @@ breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer rapidement des ressources pour votre marque, générer des variations et optimiser les expériences.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
+source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 26%
+source-wordcount: '189'
+ht-degree: 22%
 
 ---
 
@@ -34,11 +34,15 @@ ht-degree: 26%
    + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Méta-expériences](create/meta-experiences.md)
+   + [Expériences LinkedIn](create/linkedin-experiences.md)
    + [Afficher les expériences publicitaires](create/display-ad-experiences.md)
+   + [Expériences de bannière](create/banner-experiences.md)
    + [Gérer les variantes](create/manage-variants.md)
    + [Créer une expérience d’e-mail](create/create-email-experience.md)
    + [Créer une expérience de méta-annonce](create/create-meta-ad.md)
+   + [Créer une expérience LinkedIn](create/create-linkedin.md)
    + [Créer une expérience d’affichage publicitaire](create/create-display-ad.md)
+   + [Créer une expérience de bannière](create/create-banner-experience.md)
 + {#approve} des révisions et approbations
    + [Présentation de la révision et des approbations](approvals/overview.md)
    + [Demander la révision et l’approbation du contenu](approvals/request-review.md)
@@ -53,6 +57,7 @@ ht-degree: 26%
    + Modèles {#templates}
       + [Utiliser des modèles](content/use-templates.md)
       + [Personnaliser un modèle](content/customize-template.md)
+      + [ Éditeur de code de modèle ](content/code-editor.md)
       + [Créer des modèles accessibles](content/accessibility-for-templates.md)
       + [Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
 + {#campaigns} des campagnes
@@ -63,8 +68,8 @@ ht-degree: 26%
    + [Vue d’ensemble d’Insights](insights/overview.md)
    + [Connecter le compte de canal](insights/connect-channel.md)
    + [Canaux](insights/channels.md)
-   + [Expériences](insights/experiences.md)
-   + [Assets](insights/assets.md)
+   + [Publicités et emplacement publicitaire](insights/ads.md)
+   + [Média](insights/media.md)
    + [Attributs](insights/attributes.md)
    + Catégories d’attributs {#categories}
       + [Fonctionnalités d’image](insights/image-features.md)

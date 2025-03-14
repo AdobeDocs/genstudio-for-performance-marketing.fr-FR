@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Pour commencer à générer une nouvelle expérience de métadonnées, utilisez 
 ## Ajouter des paramètres
 
 L’ajout de [directives](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite améliore le processus de génération de contenu et constitue une étape cruciale dans la préparation à la génération d’une méta-annonce.
+
+Si vous utilisez un modèle avec des directives prédéfinies ([!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces directives s’appliquent à vos variantes. Vous pouvez les modifier si vous le souhaitez.
 
 **Pour ajouter des paramètres et des ressources** :
 
@@ -75,11 +77,11 @@ Le contenu généré se charge progressivement ; au fur et à mesure que chaque 
 
 Lors de la génération d’une méta-annonce, vous pouvez choisir entre les annonces Facebook ou Instagram.
 
-Activez l’option Canal Méta-publicités (entre **Facebook** et **Instagram** dans la barre de menus de droite (icônes Facebook et Instagram) pour afficher et gérer les variantes de chaque canal.
+Dans la barre de menus de droite (icônes Facebook et Instagram), activez l’option **Canal des méta-annonces** entre Facebook et **Instagram** pour afficher et gérer les variantes de chaque canal.
 
-Lors de la [révision des Méta-annonces](#revise-generated-meta-ads), vous pouvez modifier les proportions des annonces Facebook et Instagram.
+Lors de la [révision des Méta-publicités](#revise-generated-variants), vous pouvez modifier le format des publicités Facebook et Instagram.
 
-## Révision des métadonnées générées
+## Réviser les variantes générées
 
 Avant de sélectionner les éléments à envoyer pour approbation ou publication à [!DNL Content], vous pouvez modifier les Méta-annonces ou supprimer une variante de l’ensemble des annonces générées.
 
@@ -90,33 +92,33 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 en-tête ou copie du corps) et modifiez-les si nécessaire.
 * **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton d’appel à l’action et sélectionnez les options de texte du bouton disponibles. Dans _Lien_, saisissez une URL pour le texte de l’appel à l’action.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
+* **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
+* **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône **[!UICONTROL Permuter depuis le contenu]**.
 * **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, pointez sur une image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image.
-* **Pour [supprimer une méta-annonce](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le titre de l’annonce (par exemple, « Méta 4 ») et cliquez sur **[!UICONTROL Supprimer la variante]**.
+* **Pour [supprimer une méta-annonce](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le menu d’options d’une variante et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Envoyer le retour d’informations de génération
 
 Pour [soumettre des commentaires](/help/user-guide/create/manage-variants.md#generation-feedback) sur la qualité de la sortie de génération, cliquez sur l&#39;icône d&#39;options (points de suspension) et sélectionnez **[!UICONTROL Bonne sortie]** ou **[!UICONTROL Mauvaise sortie]**.
 
-## Vérifier l’alignement de la marque
+## Vérifier l’alignement de la vérification du contenu
 
-Pour optimiser les publicités générées et garantir une stricte conformité à l’identité de marque, tirez parti de la puissance de la vérification [_directives sur les marques_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) qui fournit un résumé de l’alignement des marques pour une variante, ainsi que du panneau [_validation des marques_ ](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) qui affiche des détails complets sur la validation des marques et met en évidence les améliorations.
+Pour optimiser les variantes générées et garantir une stricte conformité à l’identité de la marque, aux directives de la plateforme et aux normes d’accessibilité, tirez parti de la puissance du panneau [_Vérification de contenu_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Ce panneau affiche des détails complets de vérification du contenu et illumine les zones d’amélioration.
 
-**Pour vérifier l’alignement de la marque** :
+**Pour effectuer des vérifications de contenu sur une variante** :
 
-1. Cliquez sur l’icône de vérification des directives de [**[!UICONTROL [!DNL Brand] d’une variante et ]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) un résumé de la façon dont cette variante se comporte lorsqu’elle est comparée à votre marque.
-1. Pour obtenir les détails des sections et des directives à améliorer, cliquez sur **[!UICONTROL Réviser]** _ou_ sur l’icône Validation de marque dans la barre de menus supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Cliquez sur l’icône du panneau _Vérification de contenu_ dans la barre d’actions de droite pour ouvrir le panneau [_Vérification de contenu_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Affichez un résumé des contrôles *Révision requise* et *Réussite* pour identifier les sections et directives à améliorer.
 
-   ![Panneau de validation de marque](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+   ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. Parcourez chaque publicité pour voir comment améliorer le contenu généré afin qu’il corresponde davantage à la marque.
-1. [Révisez manuellement les annonces](#revise-generated-meta-ads) pour vous assurer qu’elles sont étroitement alignées sur votre marque.
+1. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
 Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 
-Utilisez le panneau Approbations, accessible dans la barre de menu supérieure de la zone de travail, pour obtenir des révisions, suivre les commentaires des révisions et obtenir les approbations des parties prenantes.
+Utilisez le panneau Approbations , accessible sous forme d’icône dans la barre d’actions de droite de la zone de travail, pour obtenir des révisions, suivre les commentaires des révisions et obtenir les approbations des parties prenantes.
 
 **Pour obtenir des examens et des approbations** :
 
@@ -130,11 +132,11 @@ Utilisez le panneau Approbations, accessible dans la barre de menu supérieure d
 
 Voir [Révisions et approbations](/help/user-guide/approvals/overview.md) pour plus d’informations.
 
-## Publish et expérience d’exportation
+## Expérience de publication et d’exportation
 
 Pour rendre les méta-annonces générées disponibles pour une utilisation actuelle et future, publiez-les dans [!UICONTROL Contenu] et exportez-les pour les utiliser dans vos campagnes marketing.
 
-1. **Pour publier vos nouvelles expériences de métadonnées** cliquez sur **[!UICONTROL Publish]** dans la barre d’outils supérieure ou dans le flux d’approbations.
+1. **Pour publier vos nouvelles expériences de métadonnées** cliquez sur **[!UICONTROL Publier]** dans la barre d’outils supérieure ou dans le flux d’approbations.
 1. **Pour exporter vos nouvelles expériences de métadonnées**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
    1. Sélectionnez le format (HTML et images ou CSV et images (JPG ou PNG)), puis cliquez sur **[!UICONTROL Exporter]**.
 

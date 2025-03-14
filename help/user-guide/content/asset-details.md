@@ -3,9 +3,9 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées riches pour le suivi de la capacité de recherche et des performances.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: f401f93e7dd08db4837b8709e28acec5571052f7
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '726'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ Le tableau suivant détaille les métadonnées (détails de la ressource) que vo
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) ajoutée à GenStudio for Performance Marketing et publiée pour utilisation |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) ajoutée à GenStudio for Performance Marketing pour utilisation |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) ajoutée à GenStudio for Performance Marketing pour utilisation |
-| Canaux | Plateformes de distribution de certains types de contenu, tels que les e-mails et les publicités display |
+| Canaux | Plateformes de distribution de certains types de contenu, tels que les e-mails, les bannières et les publicités display |
 | [!UICONTROL Période] | Période pour laquelle la ressource est utilisée, telle que trimestre, saison, année, etc. Exemple : `Winter 2023` |
 | Région   | Régions pour lesquelles la ressource est utilisée. Exemples : `North America`, `APAC`, `Italy` |
 | Langue | Langues pour lesquelles la ressource est utilisée. Exemple : `Spanish` |

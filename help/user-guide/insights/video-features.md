@@ -2,9 +2,10 @@
 title: Fonctionnalités vidéo
 description: Découvrez la fonctionnalité vidéo des catégories d’attributs utilisées dans GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -35,7 +36,7 @@ La détection audio dans GenStudio for Performance Marketing implique l’analys
 
 1. Activez le bouton **activer le son** (situé dans le coin inférieur gauche d’un aperçu vidéo) et écoutez le son de l’aperçu vidéo.
 
-Le tableau suivant répertorie les catégories de fonctionnalités vidéo reconnues par l’IA dédiée à GenStudio for Performance Marketing. La liste des attributs détectés pour une ressource n’est pas exhaustive. Les Assets qui contiennent un riche ensemble de fonctionnalités peuvent être limitées aux trois fonctionnalités les plus dominantes identifiées par l’IA.
+Le tableau suivant répertorie les catégories de fonctionnalités vidéo reconnues par l’IA dédiée à GenStudio for Performance Marketing. La liste des attributs détectés pour un contenu multimédia n’est pas exhaustive. Les médias qui contiennent un ensemble riche de fonctionnalités peuvent être limités aux trois fonctionnalités les plus dominantes identifiées par l’IA.
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

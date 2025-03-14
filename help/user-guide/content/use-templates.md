@@ -3,9 +3,9 @@ title: Utilisation de modèles
 description: Découvrez comment utiliser efficacement les modèles pour rationaliser votre processus de création dans Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1157'
 ht-degree: 1%
 
 ---
@@ -18,67 +18,29 @@ Bien que GenStudio for Performance Marketing ne prenne pas en charge la créatio
 
 1. **Concevoir le modèle** : utilisez votre outil de conception préféré pour créer la disposition visuelle de votre [modèle avec des éléments](#template-elements) tels qu’un pré-titre, un titre, un corps, un CTA, des images et un pied de page.
 
-2. **Coder votre modèle** : convertissez votre conception en CSS HTML et intégré pour vous assurer qu’elle est propre et réactive sur différents appareils. Tenez compte des [directives d’accessibilité](accessibility-for-templates.md) pour atteindre votre audience maximale prévue.
+2. **Coder votre modèle** : convertissez votre conception en HTML et en CSS intégré pour vous assurer qu’il est propre et réactif sur différents appareils. Tenez compte des [directives d’accessibilité](accessibility-for-templates.md) pour atteindre votre audience maximale prévue.
 
-3. **Préparation pour GenStudio for Performance Marketing** : adaptez votre modèle d’HTML à l’aide du langage de modèle Handlebars. Insérez des espaces réservés pour indiquer où GenStudio for Performance Marketing doit générer du contenu dynamiquement. Consultez la section Comment [personnaliser un modèle](customize-template.md) pour GenStudio for Performance Marketing.
+3. **Préparation pour GenStudio for Performance Marketing** : adaptez votre modèle HTML à l’aide du langage de modèle Handlebars. Insérez des espaces réservés pour indiquer où GenStudio for Performance Marketing doit générer du contenu dynamiquement. Consultez la section Comment [personnaliser un modèle](customize-template.md) pour GenStudio for Performance Marketing.
 
 En suivant ces étapes, vous pouvez créer des modèles professionnels et efficaces, prêts à être utilisés dans GenStudio for Performance Marketing, ce qui vous permet de produire rapidement et efficacement du contenu intégré à la marque.
 
 ## Éléments de modèle
 
-Un modèle est un ensemble de directives définies avec un CSS HTML et intégré qui peut être utilisé pour produire un e-mail, une publicité sur les réseaux sociaux ou une expérience d’affichage d’annonce. Les éléments de modèle fournissent la structure pour la création de contenu.
+Un modèle est un ensemble d’instructions définies avec HTML et un CSS intégré qui peut être utilisé pour produire un e-mail, une publicité sur les réseaux sociaux ou une expérience d’affichage des annonces. Les éléments de modèle fournissent la structure pour la création de contenu.
 
 Voici une liste des éléments utilisés dans les modèles et quelques détails sur leurs caractéristiques :
 
-- **Preheader**
-
-   - Agit comme une ligne d’objet secondaire dans un e-mail, améliorant la ligne d’objet principale
-   - Entre 40 et 50 caractères
-   - Visible dans la boîte de réception avec l’objet avant l’ouverture de l’e-mail
-   - Utilisé dans les modèles d’e-mail
-
-- **En-tête**
-
-   - Section supérieure de l’e-mail que le destinataire voit lors de l’ouverture de l’e-mail
-   - Définit le ton et fournit un contexte pour le contenu inclus
-   - Utilisé dans les modèles d’e-mail
-
-- **Titre**
-
-   - Premier contenu vu par le destinataire
-   - Devrait être contraignant de capter l&#39;intérêt
-   - Utilisé dans les métamodèles
-
-- **Corps**
-
-   - Zone de contenu principale où le message principal est transmis
-   - Possibilité d’inclure du texte, des images et d’autres médias
-   - Utilisé dans les modèles d’e-mail et de métadonnées
-
-- **CTA**
-
-   - Le bouton d’appel à l’action utilise une expression et un lien
-   - Encourage le ou la destinataire à effectuer une action spécifique, telle que cliquer sur un lien ou effectuer un achat
-   - Utilisé dans les modèles d’e-mail et de métadonnées
-
-- **Images**
-
-   - Améliore l’attrait visuel
-   - Fractionner le texte
-   - Prise en charge du message
-   - Doit être de haute qualité et attrayant
-   - Utilisé dans les modèles d’e-mail et de métadonnées
-
-- **Pied de page**
-
-   - Section inférieure contenant du contenu supplémentaire, tel que des coordonnées, des liens vers les médias sociaux, des clauses de non-responsabilité et des options de désabonnement
-   - Utilisé dans les modèles d’e-mail
-
-- **Superposition de texte**
-
-   - Texte sur une image
-   - Utilisez pour soutenir et améliorer le titre et le corps
-   - Utilisé dans les métamodèles
+| **Élément** | **Canal** | **Description** |
+|----------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Preheader** | E-mail | Une ligne d’objet secondaire dans un e-mail, généralement entre 40 et 50 caractères, qui améliore la ligne d’objet principale. Il est visible dans la boîte de réception à côté de l’objet avant l’ouverture de l’e-mail. |
+| **En-tête** | E-mail | La section supérieure de l’e-mail que le destinataire voit lors de l’ouverture de l’e-mail donne le ton et fournit un contexte pour le contenu inclus. |
+| **Titre** | Méta-annonce, bannières et affichages publicitaires, LinkedIn | Le premier contenu que le destinataire voit doit être attrayant pour capter son intérêt. |
+| **Texte d’introduction** | LinkedIn | Le message principal transmet le message principal, comme la copie du corps. Il peut utiliser jusqu’à 150 caractères, y compris les espaces, quatre émoticônes au maximum et la ponctuation. |
+| **Corps** | E-mail, méta-annonce, bannière et publicité display | Le texte principal de l’annonce véhicule le message principal. Il doit être engageant, informatif et persuasif pour encourager l&#39;action souhaitée de la part du public. |
+| **CTA** | E-mail, Méta-annonce, bannières et publicités display, LinkedIn | Un bouton d’appel à l’action utilise une expression et un lien pour encourager le destinataire à effectuer une action spécifique, comme cliquer sur un lien ou effectuer un achat. |
+| **Images** | E-mail, Méta-annonce, bannières et publicités display, LinkedIn | Améliorez l’attrait visuel, fractionnez le texte et prenez en charge le message. Les images doivent être de haute qualité et accrocheuses. |
+| **Pied de page** | E-mail | La section inférieure de l’e-mail contient du contenu supplémentaire, tel que des coordonnées, des liens vers les médias sociaux, des clauses de non-responsabilité et des options de désabonnement. |
+| **Superposition de texte** | Méta-annonce | Texte placé sur une image pour prendre en charge et améliorer le titre et le contenu du corps. |
 
 >[!TIP]
 >
@@ -94,9 +56,9 @@ Vous [personnalisez votre modèle](customize-template.md) à utiliser dans GenSt
 
 ## Gestion des modèles
 
-La galerie [!DNL Templates] affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing. Vous pouvez filtrer les modèles par type de canal, tels que les e-mails, les publicités display et les méta-publicités.
+La galerie _[!DNL Templates]_affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing. Vous pouvez filtrer les modèles par type de canal, tels que les e-mails, les publicités display, les méta-publicités et les publicités LinkedIn.
 
-![Liste des modèles de contenu](/help/assets/content-templates.png){width="650" zoomable="yes"}
+![Liste des modèles de contenu](/help/assets/content-templates-filter.png "Rechercher les modèles LinkedIn"){width="650" zoomable="yes"}
 
 ### Ajouter un modèle
 
@@ -108,24 +70,26 @@ Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et 
 
 1. Cliquez sur **[!UICONTROL Ajouter un modèle]**.
 
-1. Dans le volet _[!UICONTROL Ajouter votre modèle approuvé]_, recherchez le fichier de modèle d’HTML ou faites glisser le fichier de modèle d’HTML vers l’espace de dépôt. Cliquez sur **[!UICONTROL Suivant]**.
+1. Dans le volet _[!UICONTROL Ajouter votre modèle approuvé]_, recherchez le fichier de modèle HTML ou faites glisser le fichier de modèle HTML vers l’espace de dépôt. Cliquez sur **[!UICONTROL Suivant]**.
 
-1. Dans le volet _[!UICONTROL Vérifier les champs découverts]_ passez en revue les champs détectés. Vérifiez que vous utilisez le modèle correct et que tous les détails sont conformes aux attentes. Cliquez sur **[!UICONTROL Suivant]**.
+1. Dans le volet _[!UICONTROL Vérifier les champs détectés]_ passez en revue les champs. Vérifiez que vous utilisez le modèle correct et que tous les détails sont conformes aux attentes.
 
    Exemple de prévisualisation pour un modèle d’e-mail :
 
-   ![Champs de prévisualisation détectés](/help/assets/template-detected-fields.png){width="650"}
+   ![Champs de prévisualisation détectés](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
 
    >[!TIP]
    >
-   >Si le modèle n’est pas correct, cliquez sur **[!UICONTROL Précédent]** et revenez à l’étape précédente. Chargez le fichier de modèle corrigé.
+   >Si le modèle n’est pas correct, cliquez sur **[!UICONTROL Précédent]** et revenez à l’étape précédente. Chargez le fichier de modèle corrigé. Vous pouvez également utiliser l’[éditeur de code de modèle](/help/user-guide/content/code-editor.md) pour apporter des corrections simples.
+
+1. Cliquez sur **[!UICONTROL Suivant]** lorsque vous êtes satisfait(e) de l’aperçu du modèle.
 
 1. Dans le volet _[!UICONTROL Fournir des détails de modèle et charger]_, nommez votre modèle et sélectionnez un type **[!UICONTROL Canal]**.
 
    Le nom du modèle et le type de canal sont obligatoires. Les exigences supplémentaires peuvent inclure :
 
    - **Meta** : nécessite un format
-   - **Afficher les publicités** : nécessite des Dimensions
+   - **Bannière et publicité display** : nécessite des dimensions.
 
 1. Ajoutez autant de détails que possible pour améliorer l’identification du modèle dans les recherches et le filtrage.
 
@@ -156,3 +120,23 @@ Recherchez et utilisez un modèle existant dans GenStudio for Performance Market
 1. Cliquez sur **[!UICONTROL Créer une expérience]** (pinceau) dans le coin supérieur droit pour utiliser le modèle.
 
 1. Passez à [Créer](/help/user-guide/create/overview.md#create-use-cases) une expérience.
+
+## Modèles AJO et Marketo
+
+Vous pouvez charger un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. GenStudio for Performance Marketing détecte les modèles spécifiques à l’application et les ignore, préservant ainsi le formulaire d’origine pour une utilisation continue dans AJO ou Marketo. Vous n’avez pas besoin de modifier la syntaxe d’origine d’AJO ou de Marketo.
+
+Les modèles d’application reconnus sont les suivants :
+
+- **AJO** : `{{profile.*}}`, `{{context.*}}`
+- **Marketo** : `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
+
+>[!BEGINSHADEBOX]
+
+**Conditions préalables**
+
+- L’application (AJO, Marketo) et GenStudio for Performance Marketing doivent appartenir à la même organisation IMS pour l’intégration
+- Les utilisateurs doivent avoir le rôle « Collaborateur » (niveau le plus bas) ou un niveau supérieur
+
+>[!ENDSHADEBOX]
+
+Ensuite, [personnalisez votre modèle](/help/user-guide/content/customize-template.md) avec des espaces réservés pour indiquer où GenStudio for Performance Marketing doit générer du contenu pour vous. [Ajoutez votre modèle](#add-a-template) au référentiel [!DNL Content] et validez le modèle. Effectuez des corrections mineures à l’aide de l’éditeur de code.

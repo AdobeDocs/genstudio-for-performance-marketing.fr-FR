@@ -4,9 +4,9 @@ description: Appliquez les bonnes pratiques lorsque vous utilisez des modèles a
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
+source-git-commit: cdba0ef2cc359a6ed0fd25ce946bcf89f9b712f9
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Créez des modèles qui s’adaptent à la mise en page et aux exigences visuell
 
 Suivez ces bonnes pratiques de conception lors de la personnalisation de modèles d’e-mail pour travailler avec GenStudio for Performance Marketing :
 
-- Utiliser des polices Adobe ou Google
-- Utiliser un HTML et un CSS intégrés propres et réactifs
+- Utilisation des polices Adobe ou Google
+- Utilisation d’HTML et de CSS intégré propres et réactifs
 - N’utilisez **** JavaScript
 - N **utilisez pas** largeur fixe dans le corps ou le conteneur
 - N’utilisez **pas** codage base64 pour les images, car il peut augmenter considérablement la taille du modèle
@@ -62,7 +62,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
    - Un modèle de base (une seule section) peut générer un seul ensemble d’éléments de modèle.
    - Un modèle complexe (plusieurs sections) peut générer jusqu’à trois ensembles d’éléments de modèle.
 - Le nombre maximal de champs autorisés dans un modèle est de 20
-- La taille de fichier HTML maximale est de 102 Ko
+- La taille maximale du fichier HTML est de 102 Ko
 
 **Noms de champs reconnus** :
 
@@ -72,7 +72,7 @@ Pour l’e-mail, le champ `subject` est automatiquement inclus. Utilisez des esp
 - `headline`
 - `body`
 - `cta`
-- `image` (sélectionné à partir du contenu)
+- `image` (sélectionné parmi Content JPEG, PNG ou GIF)
 - `brand_logo`
 
 Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
@@ -115,19 +115,17 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de Métado
 
 Pour les Méta-publicités, les champs `headline`, `body` et `CTA` sont automatiquement générés. Utilisez des espaces réservés de contenu pour les champs suivants :
 
-- `image` (sélectionné à partir du contenu)
-- `on-image-text`
+- `image` (sélectionné parmi Content JPEG, PNG ou GIF)
+- `on_image_text`
 - `brand_logo`
 
 Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 
->[!TAB Afficher l’annonce]
+>[!TAB Bannière et publicité display]
 
-[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+Suivez ces bonnes pratiques de conception lors de la personnalisation de modèles de bannières et d’affichages publicitaires pour les utiliser avec GenStudio for Performance Marketing :
 
-Suivez ces bonnes pratiques de conception lors de la personnalisation des modèles d’annonce publicitaire d’affichage pour les utiliser avec GenStudio for Performance Marketing :
-
-- Utiliser des polices Adobe ou Google
+- Utilisation des polices Adobe ou Google
 - Préparation des ressources qui s’affichent correctement dans les dimensions compactes
 - N’utilisez **** d’images d’arrière-plan incorporées ou codées
 - Utiliser des images d’arrière-plan (champ `image`) chargées dans le référentiel de contenu GenStudio for Performance Marketing
@@ -159,7 +157,55 @@ Utilisez des espaces réservés de contenu pour les champs suivants :
 - `headline`
 - `body`
 - `cta`
-- `image` (sélectionné à partir du contenu)
+- `image` (sélectionné parmi Content JPEG, PNG ou GIF)
+
+Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
+
+>[!TAB Annonce LinkedIn]
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Suivez ces bonnes pratiques de conception lors de la personnalisation des modèles d’annonces LinkedIn pour les utiliser avec GenStudio for Performance Marketing :
+
+**Contraintes** :
+
+- Utilisation des [sections](customize-template.md#sections-or-groups) :
+   - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle.
+- Taille d’image maximale de 5 Mo
+- Titre maximal de 70 caractères
+- Texte d’introduction maximal de 150 caractères
+
+**proportions prises en charge** :
+
+- Carré 1:1
+   - ordinateur de bureau ou mobile
+   - Min. : 360 x 360 pixels
+   - Maximum : 4 320 x 4 320 pixels
+- Horizontal 1,91:1
+   - ordinateur de bureau
+   - Min. : 640 x 360 pixels
+   - Maximum : 7 680 x 4 320 pixels
+- Vertical 1:1,91
+   - mobile
+   - Min. : 360 x 640 pixels
+   - Maximum : 2 430 x 4 320 pixels
+- Verticale 2.3
+   - mobile
+   - Min. : 360 x 640 pixels
+   - Maximum : 2 430 x 4 320 pixels
+- Vertex 4.5 (recommandé)
+   - mobile
+   - Min. : 360 x 640 pixels
+   - Maximum : 2 430 x 4 320 pixels
+
+**Noms de champs reconnus** :
+
+Pour les publicités LinkedIn, les champs `headline` et `CTA` sont automatiquement générés. Utilisez des espaces réservés de contenu pour les champs suivants :
+
+- `image` (sélectionné parmi Content JPEG, PNG ou GIF)
+- `introductory_text`
+- `on_image_text`
+- `brand_logo`
 
 Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 

@@ -3,9 +3,9 @@ title: Présentation des canaux
 description: Consultez une vue d’ensemble de l’engagement des clients, des performances, du budget et des dépenses pour les campagnes marketing dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ La vue [!DNL Insights] _[!UICONTROL Canaux]_ affiche une liste des campagnes pou
 
 {{connect-insights}}
 
-Le tableau _[!UICONTROL Canaux]_ est organisé à l’aide de la campagne publicitaire basée sur le canal. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection parmi les listes [!UICONTROL Compte], [!UICONTROL Statut] et [!UICONTROL Objectif] pour filtrer les campagnes du tableau.
+Le tableau _[!UICONTROL Canaux]_ est organisé à l’aide de la campagne publicitaire basée sur le canal. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau pour supprimer tous les filtres.
 
 ![Filtre et tableau des canaux](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 {{$include /help/_includes/download-insights.md}}
 
-Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Expériences] ](experiences.md) s’ouvre sur une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les expériences qui ont contribué à son succès global.
+Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Publicités] ](ads.md) s’ouvre dans une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les annonces qui ont contribué à son succès global.
 
 ## Objectifs
 

@@ -5,7 +5,8 @@ feature: Insights, Attributes, Generative AI
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 Les fonctions de texte incluent des nombres pour certains éléments de texte, tels que des mots, des phrases, des émoticônes, ainsi que des classifications pour la sémantique, l’émotion et le ton utilisés pour l’analyse avec [!DNL Insights]. Le texte peut également recevoir un score de lisibilité.
 
-GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier le texte et appliquer des [!UICONTROL attributs de ressource] en fonction des tons de texte et du récit marketing associés. Le processus valide le texte d’entrée pour s’assurer qu’il contient des caractères alphanumériques, en supprimant les espaces blancs supplémentaires et les caractères non imprimables, et en tronquant le texte au maximum autorisé de 1 500 mots. Avant d’appliquer les balises d’attribut détectées, l’IA prédit la tonalité dominante.
+GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier le texte et appliquer des [!UICONTROL attributs de média] en fonction des tons de texte et du récit marketing associés. Le processus valide le texte d’entrée pour s’assurer qu’il contient des caractères alphanumériques, en supprimant les espaces blancs supplémentaires et les caractères non imprimables, et en tronquant le texte au maximum autorisé de 1 500 mots. Avant d’appliquer les balises d’attribut détectées, l’IA prédit la tonalité dominante.
 
 ## Ton de la voix
 
@@ -52,7 +53,7 @@ Les autres valeurs secondaires de tonalité sont les suivantes : `Enthusiastic`,
 
 ## Narratif
 
-Les attributs narratifs vous aident à identifier les ressources qui communiquent les valeurs, l’objectif ou l’identité qui résonnent avec votre audience cible.
+Les attributs narratifs vous aident à identifier les médias qui communiquent les valeurs, l’objectif ou l’identité qui résonnent avec votre audience cible.
 
 | Narratif | Description | Exemple |
 | ----------------- | ----------- | ------- |

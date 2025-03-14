@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ Chaque champ et section des expériences d’e-mail est progressivement chargé 
 1. Pré-en-têtes
 1. Titres, corps de l’e-mail (pour les e-mails à section unique) et appels à l’action
 1. Corps de l’e-mail pour les sections suivantes (pour les e-mails à plusieurs sections)
-1. Le processus de validation de la marque se produit et la [_vérification des directives sur les marques_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) est renseignée pour chaque variante.
+1. Validation de la marque
+
+   Le processus de validation de la marque et de vérification du contenu se produit et le résumé [_vérification du contenu_ ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) est renseigné pour chaque variante.
 
 ## Nombre de caractères
 

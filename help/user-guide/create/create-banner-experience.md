@@ -1,42 +1,40 @@
 ---
-title: Création d’une expérience d’affichage d’annonce publicitaire
-description: Découvrez comment créer des expériences d’affichage publicitaire dans Adobe [!DNL GenStudio] for Performance Marketing.
+title: Création d’une expérience de bannière
+description: Découvrez comment créer des expériences de bannière dans Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
+badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 role: User
 level: Beginner
 recommendations: noDisplay
-exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
 
-# Création d’une expérience d’affichage d’annonce publicitaire
+# Création d’une expérience de bannière
 
-Ce tutoriel vous explique comment générer des expériences d’affichage d’annonces publicitaires de marque [display](display-ad-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel vous explique comment créer des expériences de bannière de marque [banner](banner-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
-Pour concevoir une expérience d’affichage publicitaire attrayante, il est recommandé d’[ajouter des directives à GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) et de consulter les [principes de base de la rédaction d’invites](/help/user-guide/effective-prompts.md) avant de commencer.
+Pour concevoir une expérience de bannière attrayante, il est recommandé d’[ajouter des directives à GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) et de consulter les [principes de base de la rédaction d’invites](/help/user-guide/effective-prompts.md) avant de commencer.
 
 ## Choisir un modèle
 
-Pour créer une expérience d’affichage et de publicité, utilisez un modèle disponible pour fournir le framework de votre contenu. Voir [Bonnes pratiques pour les modèles](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions d’annonces publicitaires prises en charge.
+Pour créer une expérience de bannière, utilisez un modèle disponible pour fournir le framework de votre contenu. Consultez [ Bonnes pratiques pour les modèles ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de bannière prises en charge.
 
-**Pour choisir un modèle de publicité display** :
+**Pour choisir un modèle de bannière** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Afficher les publicités]**dans le_ « Que voulez-vous créer aujourd’hui ? »_section.
-1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle d’annonce publicitaire d’affichage spécifique.
-1. Dans la vue _Sélectionner un modèle_, cliquez sur un modèle d’affichage publicitaire.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Bannières]**dans le_« Que souhaitez-vous créer aujourd’hui ? »_section.
+1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle de bannière spécifique.
+1. Dans la vue _Sélectionner un modèle_, cliquez sur un modèle de bannière.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
-   La zone de travail, qui sert de hub central pour la création de contenu, s’affiche.
+   La zone de travail, qui sert de base à la création de contenu, s’affiche.
 
 ## Ajouter des paramètres
 
-L’ajout de [directives](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite surcharge le processus de génération de contenu et constitue une étape préparatoire intégrale pour générer une expérience d’affichage d’annonce.
-
-Si vous utilisez un modèle avec des directives prédéfinies ([!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces directives s’appliquent à vos variantes. Vous pouvez les modifier si vous le souhaitez.
+L’intégration de [directives](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite améliore le processus de génération de contenu et constitue une étape préparatoire essentielle pour créer une expérience de bannière.
 
 **Pour ajouter des paramètres et des ressources** :
 
@@ -57,7 +55,7 @@ Lorsque vous avez terminé d&#39;ajouter des paramètres, réduisez le tiroir d&
 
 ## Saisir une invite
 
-Une fois les instructions sélectionnées, créez une invite en langage naturel pour commencer à générer du contenu pour votre nouvelle expérience d’affichage et d’affichage. Pour améliorer la qualité de l’affichage et des expériences générés, il est essentiel de créer des invites détaillées et descriptives.
+Une fois que vous avez sélectionné les instructions, utilisez le langage naturel pour créer une invite afin de lancer la génération du contenu pour votre nouvelle expérience de bannière. Pour garantir des résultats de haute qualité, il est essentiel de concevoir des invites détaillées et descriptives.
 
 ![Saisissez une invite](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
@@ -70,14 +68,14 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 
 Par défaut, quatre variantes (alimentées par l’invite, les instructions et le contenu que vous avez ajouté) sont générées et affichées dans la zone de travail.
 
-## Réviser les variantes générées
+## Révision des bannières générées
 
-Avant de sélectionner les éléments à envoyer pour approbation ou publication à [!DNL Content], vous pouvez modifier les sections d’affichage et les champs de texte, ou supprimer une variante générée.
+Avant de sélectionner les éléments à envoyer pour approbation ou publication à [!DNL Content], vous pouvez modifier les sections de bannière et les champs de texte, ou supprimer une variante générée.
 
 **Pour réviser les variantes générées** :
 
-* **Pour [modifier le nom du brouillon d’annonce publicitaire affiché](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
-* **Pour [modifier manuellement une publicité affichée](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’une des sections ou l’un des champs de la publicité affichée (comme l’objet, l’en-tête ou le corps du texte) et effectuez les modifications nécessaires.
+* **Pour [modifier le nom du brouillon de bannière](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
+* **Pour [modifier manuellement une bannière](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’une des sections ou l’un des champs de bannière (comme le titre ou le CTA) et effectuez les modifications nécessaires.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite dans la section _[!UICONTROL Générer un nouveau texte_ ] puis cliquez sur **[!UICONTROL Générer]**.
 * **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône **[!UICONTROL Permuter depuis le contenu]**.
 * **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.
@@ -98,7 +96,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 **Pour effectuer des vérifications de contenu sur une variante** :
 
-1. Cliquez sur l’icône du panneau _Vérification de contenu_ dans la barre d’actions de droite pour ouvrir le panneau [_Vérification de contenu_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Affichez un résumé des contrôles *Révision requise* et *Réussite* pour identifier les sections et directives à améliorer.
+1. Cliquez sur l’icône du panneau _Vérification de contenu_ dans la barre d’actions de droite pour ouvrir le panneau [_Vérification de contenu_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Affichez un résumé des contrôles _Révision requise_ et _Réussite_ pour identifier les sections et directives à améliorer.
 
    ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
@@ -108,28 +106,28 @@ Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md
 
 ## Obtention des révisions et des approbations
 
-Utilisez le panneau Approbations , accessible sous forme d’icône dans la barre d’actions de droite de la zone de travail, pour obtenir des révisions, suivre les commentaires des révisions et obtenir les approbations des parties prenantes.
+Utilisez le panneau _Approbations_, accessible sous forme d’icône dans la barre d’actions de droite de la zone de travail, pour obtenir des révisions, suivre les commentaires des révisions et obtenir les approbations des parties prenantes.
 
 **Pour obtenir des examens et des approbations** :
 
-1. [Lancez une demande d’approbation](/help/user-guide/approvals/request-review.md) pour solliciter une [approbation des brouillons d’expériences d’affichage publicitaire](/help/user-guide/approvals/approve-content.md).
+1. [Lancez une demande d’approbation](/help/user-guide/approvals/request-review.md) pour solliciter une [approbation des brouillons d’expériences de bannière](/help/user-guide/approvals/approve-content.md).
 1. [Supprimer ou ajouter des réviseurs et réviseuses](/help/user-guide/approvals/review-and-edit.md#manage-approvals) pendant le processus de révision.
 1. [Accédez au contenu à réviser](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) et affichez les demandes de révision.
-1. Modifiez les brouillons par commentaire de révision et [publiez vos expériences d’affichage publicitaire](#publish-and-export-experience).
+1. Modifiez les brouillons par commentaire de révision et [publiez vos expériences de bannière](#publish-and-export-experience).
 
 Voir [Révisions et approbations](/help/user-guide/approvals/overview.md).
 
 ## Expérience de publication et d’exportation
 
-Pour rendre les publicités display générées disponibles pour une utilisation actuelle et future, publiez-les dans [!UICONTROL Content] et exportez-les pour les utiliser dans vos campagnes marketing.
+Pour rendre les bannières générées disponibles pour une utilisation actuelle et future, publiez-les dans [!UICONTROL Contenu] et exportez-les pour les utiliser dans vos campagnes marketing.
 
-1. **Pour publier votre nouvelle expérience(s) d’affichage publicitaire**, cliquez sur **[!UICONTROL Publier]** dans la barre d’outils supérieure ou dans le flux d’approbations.
+1. **Pour publier vos nouvelles expériences de bannière**, cliquez sur **[!UICONTROL Publier]** dans la barre d’outils supérieure ou dans le flux d’approbations.
    1. Sélectionnez _[!UICONTROL [!DNL Campaigns]]_et ajoutez_[!UICONTROL  Plus de détails ]_si vous le souhaitez.
    1. Cliquez sur **[!UICONTROL Publier]**.
 
-      ![Publication d’une publicité display](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![Publier une bannière](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **Pour exporter vos nouvelles expériences d’affichage d’annonce(s)**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
+1. **Pour exporter vos nouvelles bannières**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
    1. Sélectionnez le format (HTML et images, PNG ou JPG), puis cliquez sur **[!UICONTROL Exporter]**.
 
       Les HTML exportées doivent être placées dans une propriété web prédéfinie, telle qu’un modèle ou un conteneur `div`. Sans ces dimensions définies, les images peuvent sembler déformées lorsqu’elles sont vues indépendamment.

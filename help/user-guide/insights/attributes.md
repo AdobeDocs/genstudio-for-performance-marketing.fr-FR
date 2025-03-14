@@ -3,9 +3,9 @@ title: Présentation des attributs
 description: Découvrez comment évaluer les performances d’attributs spécifiques dans Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ La vue [!DNL Insights] _[!UICONTROL Attributs]_ affiche une liste des attributs 
 
 Le tableau _[!UICONTROL Attributs]_ est organisé à l’aide du nom [!UICONTROL Attribut]. Vous pouvez basculer entre les types de liste à l’aide du bouton **[!UICONTROL Images]** et du bouton **[!UICONTROL Vidéo]**. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
 
-L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection parmi les [!UICONTROL Compte] et [!UICONTROL Catégorie d’attribut] pour filtrer les attributs du tableau. L’exemple suivant illustre une liste d’attributs dans la catégorie `Lighting Condition` . Cliquez sur **Réinitialiser** pour effacer toutes les sélections de filtres.
+L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau pour supprimer tous les filtres.
 
 ![Filtre et tableau des attributs](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -26,23 +26,23 @@ L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau o
 
 ## Détails des attributs
 
-Les attributs permettent d’identifier les ressources en fonction de leurs détails inhérents, tels que la couleur, la composition, les éléments visuels, etc.
+Les attributs permettent d’identifier [média](media.md#media-details) par leurs détails inhérents, tels que la couleur, la composition, les éléments visuels et d’autres propriétés.
 
-Dans la vue des détails de l’attribut, vous pouvez voir quelles expériences utilisent l’attribut sélectionné. Les détails incluent le total des performances des attributs et une répartition des mesures de performances liées à chaque expérience.
+Dans la vue des détails de l’attribut, vous pouvez voir quelles publicités utilisent l’attribut sélectionné. Les détails incluent les performances totales des attributs et une répartition des mesures de performances liées à chaque publicité.
 
 ![Mesures de performances des attributs](/help/assets/insights-attribute-details.png){zoomable="yes"}
 
-GenStudio for Performance Marketing détecte certaines fonctionnalités et applique l’attribut approprié à une ressource ou à une expérience sous la forme d’une balise . Voir [Catégories](#categories) pour voir des exemples de ces balises. Pour afficher tous les attributs associés à une expérience, cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour sélectionner la colonne **[!UICONTROL Attributs]**.
+GenStudio for Performance Marketing détecte certaines fonctionnalités et applique l’attribut approprié au contenu multimédia ou à la publicité sous la forme d’une balise . Voir [Catégories](#categories) pour obtenir des exemples de ces balises. Pour afficher tous les attributs associés à une publicité, cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour sélectionner la colonne **[!UICONTROL Attributs]**.
 
 ## Catégories
 
-Une catégorie d’attributs est un groupe de classification qui organise les attributs associés partageant une caractéristique commune. Ces catégories permettent de rationaliser la découverte, l’identification et la compréhension d’attributs spécifiques en fournissant un plus grand contexte et en facilitant leur application et leur utilisation.
+Un attribut _category_ est un groupe de classification qui organise les attributs associés partageant une caractéristique commune. Ces catégories permettent de rationaliser la découverte, l’identification et la compréhension d’attributs spécifiques en fournissant un plus grand contexte et en facilitant leur application et leur utilisation.
 
-GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier les [images](image-features.md), les [vidéos](video-features.md) et le texte, et pour appliquer des [!UICONTROL attributs de ressource] en fonction d’une probabilité d’exactitude.
+GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier les [images](image-features.md), les [vidéos](video-features.md) et le texte, et pour appliquer des [!UICONTROL attributs de média] en fonction d’une probabilité d’exactitude.
 
-La liste des attributs détectés pour une ressource n’est pas exhaustive. Les Assets qui contiennent un riche ensemble de fonctionnalités peuvent être limitées aux trois fonctionnalités les plus dominantes identifiées par l’IA. Par exemple, l’illustration suivante contient plusieurs attributs d’image détectés, y compris plusieurs objets, des couleurs de premier plan et d’arrière-plan.
+La liste des attributs détectés pour le contenu multimédia n’est pas exhaustive. Les médias qui contiennent un ensemble riche de fonctionnalités peuvent être limités aux trois fonctionnalités les plus dominantes identifiées par l’IA. Par exemple, l’illustration suivante contient plusieurs attributs d’image détectés, y compris plusieurs objets, des couleurs de premier plan et d’arrière-plan.
 
-![attributs de ressource image](/help/assets/category/asset-attributes.png "l’image de Toucan comprend plusieurs attributs détectés"){width="300" zoomable="yes"}
+![attributs d’image](/help/assets/category/asset-attributes.png "l’image de Toucan comprend plusieurs attributs détectés"){width="300" zoomable="yes"}
 
 >[!INFO]
 >
@@ -52,7 +52,7 @@ La liste des attributs détectés pour une ressource n’est pas exhaustive. Les
 
 Les mesures d’informations peuvent vous aider à évaluer quels attributs inspirent le plus d’engagement client.
 
-Le tableau suivant fournit des définitions et des informations sur les principales mesures de marketing numérique dans la vue de tableau [!UICONTROL Attributs]. Chaque mesure comprend une brève définition en ce qui concerne une ressource, la manière dont la mesure est calculée et un ou plusieurs insights pour aider à comprendre son importance et son impact sur une campagne publicitaire.
+Le tableau suivant fournit des définitions et des informations sur les principales mesures de marketing numérique dans la vue de tableau [!UICONTROL Attributs]. Chaque mesure comprend une brève définition en ce qui concerne les attributs, la manière dont elle est calculée et un ou plusieurs insights pour aider à comprendre son importance et son impact sur une campagne publicitaire.
 
 | Mesure | Définition | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |

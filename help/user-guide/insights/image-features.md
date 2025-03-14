@@ -2,7 +2,8 @@
 title: Fonctionnalités d’image
 description: Découvrez la fonctionnalité d’image des catégories d’attributs utilisées dans GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
-source-git-commit: c15140ed3fe3d07e9112e9ad4781cb8fcf65045d
+exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Si le style d’image est identifié comme un `sketch` ou un `digital cartoon`, 
 
 1. La page _Détails de l’attribut_ répertorie toutes les images avec cet attribut.
 
-Le tableau suivant répertorie les catégories de fonctionnalités d’image reconnues par l’IA dédiée à GenStudio for Performance Marketing. La liste des attributs détectés pour une ressource n’est pas exhaustive. Les Assets qui contiennent un riche ensemble de fonctionnalités peuvent être limitées aux trois fonctionnalités les plus dominantes identifiées par l’IA.
+Le tableau suivant répertorie les catégories de fonctionnalités d’image reconnues par l’IA dédiée à GenStudio for Performance Marketing. La liste des attributs détectés pour le contenu multimédia n’est pas exhaustive. Les médias qui contiennent un ensemble riche de fonctionnalités peuvent être limités aux trois fonctionnalités les plus dominantes identifiées par l’IA.
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 
