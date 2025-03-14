@@ -1,9 +1,10 @@
 ---
 title: Guide d’extensibilité d’Adobe GenStudio
-description: Explorez les fonctionnalités du framework d’extensibilité de GenStudio for Performance Marketing.
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+description: Explorez les fonctionnalités de l’interface utilisateur d’Adobe GenStudio for Performance Marketing SDK et apprenez à créer des applications extensibles.
+exl-id: 4eca9e83-a109-431e-bfaa-9a6f7682e56f
+source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
