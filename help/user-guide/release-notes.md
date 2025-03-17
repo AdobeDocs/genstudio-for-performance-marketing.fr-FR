@@ -3,9 +3,9 @@ title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
+source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 Ces informations de mise à jour détaillent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
 ## 2025.03.13 {#latest}
+
+### Activer les métadonnées
+
+Les marketeurs peuvent désormais [publier des expériences publicitaires](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing dans le Gestionnaire de métadonnées publicitaires. [!DNL Activate] prend en charge les prévisualisations détaillées des métadonnées de publicité avant le déploiement. Les métadonnées publicitaires publiées par l’intermédiaire de [!DNL Activate] sont automatiquement extraites dans le [!DNL Insights] une fois en ligne, ce qui permet aux utilisateurs et utilisatrices de suivre et de générer des rapports sur les performances des publicités.
 
 ### Création d’expériences LinkedIn
 
