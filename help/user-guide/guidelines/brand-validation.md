@@ -3,9 +3,9 @@ title: Validation des marques dans Adobe GenStudio for Performance Marketing
 description: Découvrez comment fonctionne le système de validation de marque intégré dans GenStudio for Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Dans GenStudio for Performance Marketing, la validation de marque est un composa
 
 GenStudio for Performance Marketing effectue la validation de la marque et d’autres contrôles de contenu sur divers aspects, notamment :
 
-* Directives de [!DNL Brand], de [!DNL Persona] et de [!DNL Product] définies ou par défaut
+* Instructions d’[!DNL Brand] définies ou par défaut
 * Instructions relatives à Platform
-* Considérations éthiques liées au sexe, à l’origine ethnique, à la race, au handicap et à l’âge dans le contenu généré par l’IA
+<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 * Normes de l’American with Disabilities Act (ADA)
 
 ## Résumé de la vérification du contenu
