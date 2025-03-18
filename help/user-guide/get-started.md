@@ -4,73 +4,61 @@ description: Découvrez comment commencer avec GenStudio for Performance Marketi
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: fd49abb491477b0a8ed5b1f646219458efc49365
+source-git-commit: 462834fb622dae4680a64e3de5c370b9268ee4cb
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '616'
 ht-degree: 2%
 
 ---
 
 # Prise en main d’Adobe GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing propose une suite complète d’outils conçus pour rationaliser la création, la gestion et l’analyse de contenu. Il intègre des fonctionnalités d’IA générative au cycle de vie de création de contenu, ce qui permet de transformer la manière dont le contenu marketing est créé, révisé, partagé et analysé.
+Adobe GenStudio for Performance Marketing propose une suite complète d’outils conçus pour rationaliser la création, la gestion et l’analyse de contenu. Il intègre le cycle de vie de la création de contenu à des fonctionnalités d’IA génératives qui transforment la manière dont le contenu marketing est créé, révisé, partagé et analysé.
 
-## Commencer à créer, partager et revoir du contenu
+## Commencer à créer, partager et réviser du contenu
 
-Si vous découvrez les outils génératifs basés sur l’IA ou que vous êtes simplement curieux des principes de base de GenStudio for Performance Marketing, reportez-vous aux sections [Concepts](concepts.md) et [Ecrire des invites efficaces](effective-prompts.md). Vous pouvez consulter [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), la plateforme d’apprentissage en ligne de l’Adobe sur l’utilisation des technologies d’IA générative dans le processus de création.
+Si vous découvrez les outils basés sur l’IA générative ou que vous êtes simplement curieux de connaître les principes de base de GenStudio for Performance Marketing, consultez les sections [Concepts](concepts.md) et [Rédiger des invites efficaces](effective-prompts.md). Vous pouvez consulter [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), la plateforme d’apprentissage en ligne d’Adobe sur l’utilisation des technologies d’IA génératives dans le processus de création.
 
-## Train GenStudio for Performance Marketing
+## Entraîner GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing utilise des informations sur votre marque et vos marchés pour améliorer la création de contenu conforme à la marque. Les supports de formation incluent des exemples, des descriptions de clients [personas](/help/user-guide/guidelines/personas.md) et [products](/help/user-guide/guidelines/products.md), ainsi que des [directives sur la marque](/help/user-guide/guidelines/overview.md).
+GenStudio for Performance Marketing utilise des informations sur votre marque et vos marchés pour améliorer la création de contenu conforme à la marque. Les supports de formation comprennent des exemples, des descriptions des [personnages](/help/user-guide/guidelines/personas.md) des [produits](/help/user-guide/guidelines/products.md) des clients et des [directives de marque](/help/user-guide/guidelines/overview.md).
 
-Les gestionnaires système configurent Adobe GenStudio for Performance Marketing en saisissant ou en chargeant des informations spécifiques à l’organisation. Cette préparation permet de s’assurer que les éditeurs de contenu et les collaborateurs peuvent utiliser efficacement les fonctionnalités d’IA générative pour créer et revoir des ressources de campagne. Une fois qu’un administrateur système d’Adobe a configuré l’instance de produit de votre entreprise et attribué des autorisations de gestionnaire système GenStudio, le gestionnaire système GenStudio peut préparer la structure d’intelligence artificielle générative sous-jacente du produit à l’aide de directives.
+Les responsables système configurent Adobe GenStudio for Performance Marketing en saisissant ou en chargeant des informations spécifiques à l’organisation. Cette préparation permet de s’assurer que les éditeurs et les collaborateurs de contenu peuvent utiliser efficacement les fonctionnalités d’IA générative pour créer et réviser des ressources de campagne. Une fois qu’un administrateur système Adobe a configuré l’instance de produit de votre organisation et attribué des autorisations de gestionnaire système GenStudio, le gestionnaire système GenStudio peut préparer le framework d’IA générative sous-jacente du produit à l’aide de directives.
 
-### Étape 1 : Ajouter des instructions
+### Étape 1 : ajouter des directives
 
-La configuration des éléments essentiels de l’identité de marque de votre entreprise est une condition préalable essentielle au travail des éditeurs de contenu et des collaborateurs. [Les directives](./guidelines/overview.md) capturent des caractéristiques de marque telles que des logos, la tonalité de la voix et des palettes de couleurs. Vous pouvez télécharger des documents [[!DNL Brands] guidelines](./guidelines/brands.md) ou saisir manuellement des informations sur la marque. [[!DNL Personas] guidelines](./guidelines/personas.md) et [[!DNL Products] guidelines](./guidelines/products.md) sont également importants. Les fonctionnalités d’IA générative sous-jacentes de GenStudio for Performance Marketing utilisent ces instructions pour établir des barrières de sécurité qui guident la génération du contenu.
+La configuration des éléments clés de l’identité de marque de votre entreprise est une condition préalable essentielle au travail des éditeurs de contenu et des collaborateurs. [Recommandations](./guidelines/overview.md) capturez les caractéristiques de la marque telles que les logos, le ton de la voix et les palettes de couleurs. Vous pouvez charger des documents [[!DNL Brands] directives](./guidelines/brands.md) ou saisir manuellement des informations sur la marque. [[!DNL Personas] lignes directrices](./guidelines/personas.md) et [[!DNL Products] lignes directrices](./guidelines/products.md) sont également importantes. Les fonctionnalités d’IA générative sous-jacentes de GenStudio for Performance Marketing utilisent ces directives pour établir des mécanismes de sécurisation qui guident la génération de contenu.
 
-#### Préparation de vos documents de ligne guide
+#### Préparer vos documents d&#39;orientation
 
-Des instructions [[!DNL Brands]](./guidelines/brands.md), [[!DNL Products]](./guidelines/products.md) et [[!DNL Personas]](./guidelines/personas.md) complètes et ciblées définissent les principaux aspects des campagnes marketing de votre entreprise. GenStudio for Performance Marketing extrait des informations de ces instructions pour commencer à créer votre marque.
+Des directives [[!DNL Brands]](./guidelines/brands.md), [[!DNL Products]](./guidelines/products.md) et [[!DNL Personas]](./guidelines/personas.md) complètes et ciblées définissent les aspects principaux des campagnes marketing de votre organisation. GenStudio for Performance Marketing extrait les informations de ces directives pour commencer à créer votre marque. Vous pouvez charger des documents de référence ou les consulter lorsque vous saisissez manuellement des informations dans GenStudio for Performance Marketing. Voir [Ajouter des instructions](./guidelines/overview.md) pour obtenir des conseils sur le chargement ou la saisie de ces informations.
 
-Suivez les bonnes pratiques suivantes lors de la préparation des instructions :
+#### Révision des directives
 
-* Utilisez une langue spécifique.
+Un responsable système GenStudio peut préparer le framework d’IA générative sous-jacent du produit en saisissant ou en chargeant manuellement les exigences spécifiques à la marque de votre entreprise. Bien que la mise en place des directives de marque d&#39;une organisation soit une action ponctuelle, vous pouvez réviser et améliorer ces directives en fonction de la volatilité, de la croissance et de l&#39;évolution des circonstances du marché de votre organisation.
 
-* Incluez les meilleurs exemples de style et de ton que vous pouvez trouver pour incorporer des ressources de campagne.
+### Étape 2 : configurer un projet Adobe Admin Console pour GenStudio [!DNL Brands]
 
-* Évitez la redondance. Vous pouvez être tenté de répéter une directive plusieurs fois, mais la redondance dans vos instructions n’aide pas la capture LLM sous-jacente ni la mise en oeuvre de vos directives de marque.
+Les administrateurs système doivent effectuer des tâches de configuration supplémentaires avant que les collaborateurs puissent modifier ou créer des [!DNL Brands]. Les administrateurs et administratrices système d’Adobe effectuent les tâches suivantes dans Adobe Admin Console :
 
-* Identifiez les éléments que le LLM doit exclure lors de la génération du contenu (par exemple, les points d’exclamation dans le texte).
+* Créez un groupe d’utilisateurs comprenant tous les utilisateurs qui doivent modifier et créer des droits d’[!DNL Brands].
 
-Vous pouvez charger des documents de ligne guide ou les consulter lorsque vous saisissez manuellement des informations dans GenStudio for Performance Marketing. Voir [Ajouter des instructions](./guidelines/overview.md) pour obtenir des conseils sur le téléchargement ou la saisie de ces informations.
+* Créez un projet dans le Adobe Admin Console.
 
-#### Instructions de révision
+Voir [ Attribuer des autorisations de marque ](configure-brand-permissions.md).
 
-Un gestionnaire de système GenStudio peut préparer la structure d’IA générative sous-jacente du produit en saisissant ou en chargeant manuellement les exigences de marque spécifiques de votre entreprise. Bien que la configuration des consignes de marque d’une entreprise soit une action unique, vous pouvez réviser et améliorer ces consignes en fonction de la volatilité, de la croissance et de l’évolution des circonstances du marché de votre entreprise.
+### Étape 3 : charger des modèles
 
-### Étape 2 : configuration d’un projet Adobe Admin Console pour GenStudio [!DNL Brands]
-
-Les administrateurs système doivent effectuer des tâches de configuration supplémentaires avant que les collaborateurs puissent modifier ou créer [!DNL Brands]. Les administrateurs système d’Adobe effectuent les tâches suivantes dans Adobe Admin Console :
-
-* Créez un groupe d’utilisateurs qui comprend tous les utilisateurs qui doivent être modifiés et créer des droits [!DNL Brands].
-
-* Créez un projet dans Adobe Admin Console.
-
-Voir [Attribution des autorisations de marque](configure-brand-permissions.md).
-
-### Étape 3 : téléchargement des modèles
-
-Les modèles accélèrent la création de contenu. Un modèle contient des fonctionnalités approuvées, telles que des en-têtes et des pieds de page, et est optimisé pour des canaux spécifiques. En règle générale, les gestionnaires système chargent et gèrent des modèles pour leur entreprise. Les éditeurs de contenu utilisent des modèles pour lancer le processus de création de contenu dans les limites établies de la marque organisationnelle.
+Les modèles accélèrent la création de contenu. Un modèle contient des fonctionnalités approuvées, telles que des en-têtes et des pieds de page, et est optimisé pour des canaux spécifiques. En règle générale, les responsables système chargent et gèrent des modèles pour leur entreprise. Les éditeurs de contenu utilisent des modèles pour lancer le processus de création de contenu dans les limites établies de la marque organisationnelle.
 
 Voir [Utilisation de modèles](./content/use-templates.md).
 
-### Étape 4 : téléchargement des ressources approuvées
+### Étape 4 : charger les ressources approuvées
 
-Les ressources approuvées dans [!DNL Content] sont disponibles pour tous les éditeurs GenStudio for Performance Marketing. Vous pouvez renseigner [!DNL Content] avec des ressources que les éditeurs de contenu peuvent utiliser pour créer des expériences ou des ressources.
+Les ressources approuvées dans [!DNL Content] sont disponibles pour tous les éditeurs GenStudio for Performance Marketing. Vous pouvez remplir les [!DNL Content] avec des ressources que les éditeurs de contenu pourront utiliser pour créer de nouvelles expériences ou ressources.
 
-Voir [Téléchargement des ressources approuvées](./content/manage-assets.md).
+Voir [ Chargement de ressources approuvées ](./content/manage-assets.md).
 
-### Étape 5 : connexion à un compte Meta (Facebook)
+### Étape 5 : Se connecter à un compte Meta (Facebook)
 
-Configurez une connexion entre GenStudio for Performance Marketing et les comptes sociaux de votre entreprise pour recevoir les données de vos campagnes marketing, ressources et expériences actives. [[!DNL Insights]](./insights/overview.md) fournit des outils pour analyser les données dérivées du canal. Voir [Connexion à un compte Meta (Facebook)](./insights/connect-channel.md#meta-ads-connect).
+Configurez une connexion entre GenStudio for Performance Marketing et les comptes sociaux de votre organisation pour recevoir des données de vos campagnes marketing, ressources et expériences actives. [[!DNL Insights]](./insights/overview.md) fournit des outils pour analyser les données dérivées du canal. Voir [Connexion à un compte Meta (Facebook)](./insights/connect-channel.md#meta-ads-connect).
