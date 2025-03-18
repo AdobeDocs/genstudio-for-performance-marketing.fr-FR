@@ -1,16 +1,21 @@
 ---
 title: Distribuer votre application
 description: Distribuez votre application ou module complémentaire pour GenStudio for Performance Marketing.
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+exl-id: 4935356b-08df-402c-b1a2-b89627afc188
+source-git-commit: 8884f3438a0010119f578ca9a3b7158e2e01cfa3
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # Distribuer votre application
 
-La distribution de votre application la rend disponible pour les membres de votre organisation.
+La distribution de votre module complémentaire le rend disponible pour une utilisation par votre organisation et potentiellement par d’autres organisations.
+
+La distribution privée limite le déploiement de votre module complémentaire à l’organisation identifiée par l’organisation IMS pour laquelle vous avez développé votre module complémentaire. La distribution publique rend le module complémentaire disponible sous la forme d’une application sur Adobe Exchange. Votre workflow de distribution dépend de si votre module complémentaire est destiné à une distribution publique ou privée.
+
+Cette rubrique traite de la distribution privée. [Distribution publique](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) dans la documentation du développeur _App Builder_, explique comment rendre votre application disponible pour toute organisation Adobe.
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +31,9 @@ Votre application App Builder doit être déployée dans un projet App Builder.
 
 >[!ENDSHADEBOX]
 
-**Pour distribuer votre application** :
+**Pour distribuer votre application de manière privée** :
+
+La distribution privée met votre application à disposition uniquement des membres de votre organisation.
 
 1. Dans [Adobe Developer Console](https://developer.adobe.com/console/), sélectionnez l&#39;organisation, le projet et l&#39;espace de travail dans lesquels l&#39;application est déployée.
 
