@@ -1,12 +1,13 @@
 ---
 title: Création d’une expérience LinkedIn
 description: Découvrez comment créer des expériences LinkedIn conformes à la marque avec Adobe GenStudio for Performance Marketing.
-feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
+feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 recommendations: noDisplay
-source-git-commit: 42a0fe67304b929ac3da265b746415cfd87cdaba
+exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
+source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%

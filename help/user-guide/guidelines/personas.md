@@ -1,41 +1,41 @@
 ---
-title: GenStudio pour le Marketing des performances [!DNL Personas]
-description: GenStudio for Performance Marketing [!DNL Personas] est une représentation fidèle de vos segments de clients, qui capture leurs intérêts, leurs points de douleur, leurs préférences et leurs caractéristiques comportementales.
-feature: Personas Service, Guidelines
+title: GenStudio for Performance Marketing  [!DNL Personas]
+description: Les GenStudio for Performance Marketing [!DNL Personas] sont une véritable représentation de vos segments de clients, capturant leurs intérêts, points faibles, préférences et caractéristiques comportementales.
+feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# GenStudio pour le marketing de performances [!DNL Personas]
+# [!DNL Personas] GenStudio for Performance Marketing
 
-[!DNL Personas] fournit une représentation authentique de vos segments de clients, incluant leurs informations, leurs intérêts, leurs points de douleur, leurs préférences et leurs caractéristiques comportementales.
+[!DNL Personas] brossez un portrait authentique de vos segments de clients, en englobant leurs informations, intérêts, points faibles, préférences et caractéristiques comportementales.
 
-GenStudio for Performance Marketing tire parti de la puissance des directives ([[!DNL Brands],  [!DNL Products] et  [!DNL Personas]](overview.md)) et de la technologie d’IA générative de l’Adobe pour traiter le contenu marketing personnalisé pour vos clients cibles. &#x200B;
+GenStudio for Performance Marketing tire parti de la puissance des directives ([[!DNL Brands],  [!DNL Products] et  [!DNL Personas]](overview.md)) et de la technologie d’IA générative d’Adobe pour organiser le contenu marketing personnalisé pour vos clients cibles&#x200B;
 
-**Pour afficher ou modifier une persona** :
+**Pour afficher ou modifier un persona** :
 
-1. Dans la zone de navigation de gauche, cliquez sur **[!UICONTROL Personas]**.
-1. Pour [ afficher des détails individuels ou modifier une persona](add-guidelines.md#manage-personas), cliquez sur le menu d’actions _[!DNL Personas]_et sélectionnez **Ouvrir**.
-1. Modifiez les directives des personnages en cliquant dans un champ de texte de catégorie de directives.
+1. Dans la zone de navigation de gauche, cliquez sur **[!UICONTROL Personnages]**.
+1. Pour [afficher des détails individuels ou modifier une personne](add-guidelines.md#manage-personas), cliquez sur le menu d’action _[!DNL Personas]_et sélectionnez **Ouvrir**.
+1. Révisez les directives relatives aux personas en cliquant dans un champ de texte de catégorie Directives.
 
-Voir [Ajout de directives](add-guidelines.md) pour savoir comment ajouter ou modifier une persona dans GenStudio pour le marketing sur les performances.
+Voir [Ajouter des directives](add-guidelines.md) pour savoir comment ajouter ou modifier une personne dans GenStudio for Performance Marketing.
 
-## [!DNL Personas] conseils
+## [!DNL Personas] des directives
 
-Les directives de personnage individuelles donnent à GenStudio for Performance Marketing une image claire de votre [!DNL Personas].
+Les directives individuelles relatives aux rôles donnent à GenStudio for Performance Marketing une image claire de votre [!DNL Personas].
 
-![Directives relatives à la personnalisation](/help/assets/personas.png){width="600" zoomable="yes"}
+![Instructions relatives à Persona](/help/assets/personas.png){width="600" zoomable="yes"}
 
-Ces instructions détaillent chaque catégorie de consignes et les exemples connexes. Les exemples sont des exemples d’entrées qui façonnent la sortie du contenu généré. Utilisez-les pour indiquer vos propres instructions [!DNL Personas].
+Ces instructions détaillent chaque catégorie d’instructions et les exemples associés. Les exemples sont des exemples d’entrées qui façonnent la sortie du contenu généré. Utilisez-les pour éclairer vos propres directives [!DNL Personas].
 
-Le tableau suivant présente chaque catégorie de directives [!DNL Personas] et les exemples associés.
+Le tableau suivant présente chaque catégorie de directives [!DNL Personas] et des exemples associés.
 
-| Catégorie de lignes guides | Exemples de lignes guides | Bonnes pratiques |
+| Catégorie d&#39;instructions | Exemples de recommandations | Bonnes pratiques |
 | ------------------| :---------- |-------------|
-| Nom du personnage | Représente un segment d’audience spécifique pour lequel les supports marketing générés sont personnalisés | Ajoutez un nom de persona clair et concis.<br><br>_Exemples_ : &quot;CMO de vente au détail&quot;, &quot;Prospective Nursing Students&quot;, &quot;New Savings Account Clients&quot; |
-| Description | Bref résumé de la définition des caractéristiques, des besoins et des comportements clés | Utilisez un langage concis pour décrire clairement la segmentation de personnage et d’audience unique (1 à 2 phrases).<br><br>Concentrez-vous sur ce qui motive ce segment d’audience (besoins, caractéristiques principales, etc.)<br><br>Conserver une description succincte et vide de données démographiques approfondies ou d’informations supplémentaires. |
-| Préférences de messagerie | Résumé clair des styles de communication préférés qui résonnent avec une personne spécifique | Définissez les exigences de messagerie unique et les motivations de persona, en vous concentrant sur la manière dont persona préfère recevoir et interagir avec les communications.<br><br>Indiquez des préférences de messagerie spécifiques dans la liste (chaque élément de liste 1 à 2 phrases).<br><br>Limitez la liste à 10 phrases au total, pour vous assurer que les informations les plus critiques sont mises en surbrillance.<br><br>_Exemple_ : &quot;Préférences de messagerie pour les professionnels du high-tech :<li>Préfère une communication concise et sans jargon.</li><li>Répond positivement aux informations basées sur les données et aux conseils pratiques.</li><li>Préfère les visuels tels que les infographies et les graphiques pour saisir rapidement des informations complexes.</li><li>Valorise la transparence avec une approche honnête et directe.</li> » |
+| Nom de la personne | Représente un segment ciblé spécifique pour lequel les ressources marketing générées sont personnalisées | Ajoutez un nom de persona clair et concis.<br><br>_Exemples_ : « CMO of Retail », « Prospects Nursing Students », « New Savings Account Clients » |
+| Description | Bref résumé définissant les caractéristiques, les besoins et les comportements clés | Utilisez un langage concis pour décrire clairement votre rôle et la segmentation unique de l’audience (1 à 2 phrases).<br><br>Concentrez-vous sur ce qui motive ce segment d’audience (besoins, caractéristiques principales, etc.)<br><br>Gardez la description succincte et évitez les données démographiques approfondies ou les informations supplémentaires. |
+| Préférences de messagerie | Résumé clair des styles de communication préférés qui résonnent avec une personne spécifique | Définissez les exigences et les motivations de messagerie uniques de la personne, en vous concentrant sur la manière dont la personne préfère recevoir et interagir avec les communications.<br><br>Indiquez des préférences de messagerie spécifiques dans la liste (chaque élément de liste comprend 1 à 2 phrases).<br><br>Limitez la liste à un total de 10 phrases ou moins, en veillant à ce que les informations les plus importantes soient mises en évidence.<br><br>_Exemple_ : « Préférences de messagerie pour les professionnels férus de technologie :<li>Privilégie une communication concise et sans jargon.</li><li>Répond positivement aux informations basées sur les données et aux conseils exploitables.</li><li>Privilégie les visuels tels que les infographies et les graphiques pour saisir rapidement des informations complexes.</li><li>Valorise la transparence avec une approche honnête et directe.</li> » |
