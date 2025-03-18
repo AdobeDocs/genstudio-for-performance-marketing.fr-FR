@@ -1,70 +1,71 @@
 ---
-title: Préparation d’un modèle de métadonnées publicitaires pour Adobe GenStudio for Performance Marketing
-description: Découvrez comment créer un modèle de métadonnées publicitaires personnalisé pour Adobe GenStudio for Performance Marketing.
+title: Préparation d’un modèle de méta-annonce pour Adobe GenStudio for Performance Marketing
+description: Découvrez comment créer un modèle de méta-annonce personnalisé pour Adobe GenStudio for Performance Marketing.
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Préparation du modèle de métadonnées publicitaires pour Adobe GenStudio for Performance Marketing
+# Préparation d’un modèle de méta-annonce pour Adobe GenStudio for Performance Marketing
 
-La création d’un modèle de méta-publicité implique une approche structurée adaptée aux médias sociaux. Une fois qu’un modèle de métadonnées publicitaires a été conçu et testé, vous pouvez le préparer pour le chargement et l’utilisation dans GenStudio for Performance Marketing.
+La création d’un MetaAdTemplate implique une approche structurée et adaptée aux médias sociaux. Une fois qu’un modèle de méta-annonce a été conçu et testé, vous pouvez le préparer pour le télécharger et l’utiliser dans GenStudio for Performance Marketing.
 
-## Ajouter des instructions
+## Ajout d’instructions
 
-Avant de préparer un modèle de métadonnées publicitaires, assurez-vous d’avoir ajouté [des instructions](/help/user-guide/guidelines/overview.md) à votre GenStudio for Performance Marketing et de leur avoir fourni des informations complètes sur les marques pertinentes. Les [directives de marque](/help/user-guide/guidelines/brands.md) influent directement sur le contenu généré.
+Avant de préparer un modèle de méta-annonce, assurez-vous d’avoir ajouté des [directives](/help/user-guide/guidelines/overview.md) à votre GenStudio for Performance Marketing et de les avoir renseignées avec des informations complètes pour les marques pertinentes. Les [ directives de la marque ](/help/user-guide/guidelines/brands.md) influencent directement le contenu généré.
 
-**Exemple** : si vous souhaitez que le corps d’un modèle de métadonnées publicitaires ne dépasse pas 500 caractères, ajoutez cette exigence au [guide du canal](/help/user-guide/guidelines/brands.md#channel-guidelines) pour le champ &quot;body&quot;.
+**Exemple** : si vous souhaitez que le corps d’un modèle de méta-annonce ne dépasse pas 500 caractères, ajoutez cette exigence aux [directives relatives aux canaux](/help/user-guide/guidelines/brands.md#channel-guidelines) pour le champ « corps ».
 
 Si des instructions ne sont pas ajoutées à GenStudio for Performance Marketing, les valeurs par défaut sont utilisées.
 
-## Concevoir un modèle
+## Conception d’un modèle
 
 En règle générale, un concepteur crée la conception visuelle d’un modèle dans un programme de conception tel qu’Adobe XD.
 
-Voir [Eléments de modèle](use-templates.md#template-elements) et [Exemples de modèles](/help/user-guide/content/customize-template.md#template-examples).
+Voir [Éléments de modèle](use-templates.md#template-elements) et [Exemples de modèle](/help/user-guide/content/customize-template.md#template-examples).
 
-### Spécifications des publicités
+### Spécifications publicitaires
 
-GenStudio for Performance Marketing prend en charge ces proportions pour les métadonnées publicitaires :
+GenStudio for Performance Marketing prend en charge les proportions suivantes pour les méta-annonces :
 
 * Carré (1:1) : 1 080 x 1 080 pixels
 * Vertical (4:5) : 1 080 x 1 350 pixels
-* Article (9:16) : 1 080 x 1 920 pixels
+* Histoire (9:16) : 1080 x 1920 pixels
 
-Si la publicité n’est pas conçue dans l’une de ces proportions, GenStudio for Performance Marketing recadre automatiquement l’image à la taille appropriée.
+Si la publicité n’est pas conçue dans l’un de ces proportions, GenStudio for Performance Marketing recadre automatiquement l’image à la taille appropriée.
 
-## Test d’un modèle de métadonnées publicitaires
+## Test d’un modèle de métadonnées
 
-Testez votre modèle à l’aide de Meta’s Creative Hub pour voir à quoi ressemble la publicité à différents emplacements, comme dans un flux ou un article.
+Testez votre modèle à l’aide du Creative Hub de Meta pour voir à quoi ressemble la publicité dans différents emplacements, tels qu’un flux ou une histoire.
 
-Utilisez votre diffusion email ou votre plateforme de vérification pour tester votre email et vérifier qu’il s’affiche correctement sur différents clients et appareils de messagerie.
+Utilisez votre plateforme de diffusion ou de relecture par e-mail pour tester votre e-mail et vérifier qu’il s’affiche correctement sur différents clients de messagerie et appareils.
 
-## Définition des zones de contenu générées
+## Définir les zones de contenu générées
 
-Définissez les zones de votre modèle de courrier électronique qui doivent être renseignées dynamiquement avec le contenu de GenStudio for Performance Marketing.
+Définissez les zones de votre modèle d’e-mail qui doivent être renseignées dynamiquement avec le contenu de GenStudio for Performance Marketing.
 
 Pour définir les zones de contenu générées :
 
-* Identifiez les éléments de texte dans le modèle que GenStudio for Performance Marketing doit générer automatiquement, tels que le titre ou CTA.
-* Adaptez votre modèle d’HTML en y insérant des espaces réservés à l’aide de la syntaxe Handlebars .
+* Identifiez les éléments de texte du modèle que GenStudio for Performance Marketing doit générer automatiquement, tels que le titre ou CTA.
+* Adaptez votre modèle HTML en y insérant des espaces réservés à l’aide de la syntaxe Handlebars.
 
 Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template.md#content-placeholders).
 
 ## Prévisualiser le modèle
 
-Contrôlez la visibilité de zones de contenu spécifiques avec des assistants intégrés. Par exemple, incluez des paramètres de suivi aux liens dans un modèle exporté tout en conservant des liens d’aperçu propres.
+Contrôlez la visibilité de zones de contenu spécifiques à l’aide des assistants intégrés. Par exemple, incluez les paramètres de suivi aux liens dans un modèle exporté tout en conservant des liens d’aperçu propres.
 
-Voir [Aperçu du modèle](/help/user-guide/content/customize-template.md#template-preview).
+Voir [ Aperçu du modèle ](/help/user-guide/content/customize-template.md#template-preview).
 
-## Télécharger et utiliser un modèle
+## Télécharger et utiliser le modèle
 
-Une fois votre modèle conçu, codé, testé et prévisualisé, téléchargez-le dans GenStudio for Performance Marketing afin de l’utiliser pour générer du contenu marketing entièrement nouveau.
+Une fois votre modèle conçu, codé, testé et prévisualisé, chargez-le dans GenStudio for Performance Marketing pour l’utiliser dans la génération d’un tout nouveau contenu marketing.
 
 Voir [Utilisation de modèles](use-templates.md).
