@@ -2,11 +2,11 @@
 title: Connecter un compte de canal
 description: Connectez un compte de canal pour surveiller vos campagnes Adobe GenStudio for Performance Marketing et les performances des médias.
 level: Intermediate
-feature: Insights, Channels
+feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
+source-git-commit: 91b684d27f3205806e5e92ea14db45cee84b806b
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,13 @@ GenStudio for Performance Marketing conserve les données de canal pendant 13 mo
 
 >[!ENDSHADEBOX]
 
-**Pour connecter un compte Meta Ads dans GenStudio for Performance Marketing** :
+**Pour connecter un compte Meta Ads** :
 
-1. Dans _[!DNL Insights]_, cliquez sur **[!UICONTROL Connecter un compte de canal]**dans la bannière ou cliquez sur le bouton **[!UICONTROL Ajouter des comptes]**(forme de personne avec signe plus) dans le coin supérieur droit.
+1. Dans _[!DNL Insights], si c’est la première fois que vous connectez un compte, cliquez sur **[!UICONTROL Connecter un compte de canal]** dans la bannière.
 
-   Vous serez peut-être invité à vous connecter à Facebook. Facebook est la seule option disponible pour le moment.
+   Vous pouvez également sélectionner les points de suspension (...) dans le coin inférieur gauche, puis cliquer sur **[!UICONTROL Paramètres]**.
+
+1. Dans la section _Connecteurs de données_, cliquez sur **[!UICONTROL Se connecter]** sur la carte _Méta-annonces_.
 
 1. Connectez-vous à votre compte Facebook.
 

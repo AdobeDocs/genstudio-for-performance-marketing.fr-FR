@@ -1,9 +1,9 @@
 ---
 title: Publicités et emplacement publicitaire - Aperçu
 description: Consultez un aperçu de l’engagement des clients, du budget et des dépenses pour les publicités et les performances de placement publicitaire dans Adobe GenStudio for Performance Marketing.
-feature: Insights, Experiences, Attributes
+feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 9c4df8d5b9e45d0c26bee8db9085e3ad21b02742
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
