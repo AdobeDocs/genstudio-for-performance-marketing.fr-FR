@@ -1,16 +1,16 @@
 ---
-title: Contenu approuvé par Publish
+title: Publier le contenu approuvé
 description: Découvrez comment publier du contenu approuvé avec Adobe GenStudio for Performance Marketing.
-feature: Approval, Content
+feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Contenu approuvé par Publish
+# Publier le contenu approuvé
 
 La dernière étape de la création de contenu approuvé aligné sur la marque consiste à l’enregistrer dans les [!DNL Content] avec les métadonnées appropriées. Vous (l’éditeur de contenu ou le créateur) pouvez finaliser la ressource approuvée en la publiant ou en l’enregistrant dans [!DNL Content].
 
@@ -20,9 +20,9 @@ Vous pouvez ensuite finaliser le brouillon en le publiant sur [!DNL Content] ave
 
 **Pour publier du contenu approuvé** :
 
-1. Accédez au brouillon approuvé directement ou à partir du pop-up _Variantes approuvées prêtes à être publiées_. Ce pop-up comprend un bouton **[!UICONTROL Fermer]** pour différer la publication de la ressource approuvée et un bouton **[!UICONTROL Publish]** pour démarrer le processus de publication.
+1. Accédez au brouillon approuvé directement ou à partir du pop-up _Variantes approuvées prêtes à être publiées_. Ce pop-up comprend un bouton **[!UICONTROL Fermer]** pour différer la publication de la ressource approuvée et un bouton **[!UICONTROL Publier]** pour lancer le processus de publication.
 
-1. Cliquez sur **[!UICONTROL Publish]** pour enregistrer la ressource ou l’expérience à [!DNL Content]. GenStudio for Performance Marketing affiche la fenêtre _Confirmer les détails de votre contenu approuvé_ qui affiche les miniatures des ressources approuvées.
+1. Cliquez sur **[!UICONTROL Publier]** pour enregistrer la ressource ou l’expérience à [!DNL Content]. GenStudio for Performance Marketing affiche la fenêtre _Confirmer les détails de votre contenu approuvé_ qui affiche les miniatures des ressources approuvées.
 
 1. Ajoutez des informations sur le contenu tel qu’il vous est demandé par GenStudio for Performance Marketing. Ces informations sont enregistrées en tant que métadonnées, ce qui ajoute de la valeur aux opérations de filtrage et de recherche [!DNL Content]. Vous pouvez ajouter la ressource à une campagne GenStudio for Performance Marketing à ce stade du processus de publication.
 
