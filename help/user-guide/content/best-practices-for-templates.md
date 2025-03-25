@@ -1,11 +1,13 @@
 ---
 title: Bonnes pratiques relatives aux modèles
 description: Appliquez les bonnes pratiques lorsque vous utilisez des modèles avec Adobe GenStudio for Performance Marketing.
+level: Intermediate
+role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -41,7 +43,13 @@ Voir [instructions relatives aux canaux](/help/user-guide/guidelines/brands.md#c
 
 ## Suivre les instructions relatives aux modèles spécifiques aux canaux
 
-Créez des modèles qui s’adaptent à la mise en page et aux exigences visuelles de chaque canal. Tenez compte des conseils et contraintes suivants lorsque vous utilisez chaque type de modèle pour garantir des performances et une compatibilité optimales :
+Lors de la création de modèles, assurez-vous qu’ils répondent aux exigences spécifiques du canal prévu. Créez des modèles qui s’adaptent à la mise en page et aux exigences visuelles de chaque canal. Des instructions générales s’appliquent à tous les modèles, notamment :
+
+- Utilisation d’HTML et de CSS intégré propres et réactifs
+- Utilisation des polices Adobe ou Google
+- N’utilisez **** JavaScript
+
+Tenez compte des conseils et contraintes suivants lorsque vous utilisez chaque type de modèle pour garantir des performances et une compatibilité optimales :
 
 >[!BEGINTABS]
 
@@ -83,20 +91,11 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de Métado
 - Utiliser une largeur de 360 pixels pour les mises en page de colonnes
 - Utilisez une résolution minimale de 1 080 x 1 080 pixels pour les images
 - N’utilisez **** de taille de police relative
-- Ne **pas définir** fenêtres d’affichage
+- Ne **pas définir** fenêtre d’affichage
 - N’utilisez **** JavaScript
 - Ne remplacez **** un élément HTML dans le CSS
-- Utilisez les paramètres suivants pour les images d’arrière-plan :
-
-  Ajoutez `object-fit: cover` valeur à `background-image` classe CSS :
-
-  ```css
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  ```
+- Utiliser la balise `<img>` au lieu de `background-image`
+- Utilisez le masquage pour améliorer la lisibilité du texte sur les images d’arrière-plan
 
 **Contraintes** :
 
@@ -151,11 +150,10 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 **Noms de champs reconnus** :
 
-Utilisez des espaces réservés de contenu pour les champs suivants :
+Pour les bannières publicitaires et les publicités display, le champ `CTA` est généré automatiquement. Utilisez des espaces réservés de contenu pour les champs suivants :
 
 - `headline`
 - `body`
-- `cta`
 - `image` (sélectionné parmi Content JPEG, PNG ou GIF)
 
 Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
@@ -188,21 +186,20 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation des modèl
    - mobile
    - Min. : 360 x 640 pixels
    - Maximum : 2 430 x 4 320 pixels
-- Verticale 2.3
+- Vertical 2.3
    - mobile
    - Min. : 360 x 640 pixels
    - Maximum : 2 430 x 4 320 pixels
-- Vertex 4.5 (recommandé)
+- Vertical 4.5 (recommandé)
    - mobile
    - Min. : 360 x 640 pixels
    - Maximum : 2 430 x 4 320 pixels
 
 **Noms de champs reconnus** :
 
-Pour les publicités LinkedIn, les champs `headline` et `CTA` sont automatiquement générés. Utilisez des espaces réservés de contenu pour les champs suivants :
+Pour les publicités LinkedIn, les champs `headline`, `introductory_text` et `CTA` sont automatiquement générés. Utilisez des espaces réservés de contenu pour les champs suivants :
 
 - `image` (sélectionné parmi Content JPEG, PNG ou GIF)
-- `introductory_text`
 - `on_image_text`
 - `brand_logo`
 

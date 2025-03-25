@@ -2,9 +2,10 @@
 title: Personnaliser un modèle
 description: Découvrez comment personnaliser et optimiser votre modèle pour Adobe GenStudio for Performance Marketing.
 level: Intermediate
+role: Developer
 feature: Media Templates, Content Generation
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
 workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 0%
@@ -70,7 +71,7 @@ Le nombre de champs est limité à 20 lors du chargement d’un modèle vers Gen
 
 ### Appels à l’action
 
-Un appel à l’action (CTA) comprend une phrase et un lien. Pour que les fonctionnalités CTA _[!UICONTROL Reformulation]_ et _[!UICONTROL Ajouter un lien]_ fonctionnent correctement pendant le processus de génération de la variante, vous devez inclure des espaces réservés pour le lien et l’expression dans votre modèle.
+Un appel à l’action (CTA) comprend une phrase et un lien. Pour que les fonctionnalités _[!UICONTROL Reformuler]_ et _[!UICONTROL Ajouter un lien]_ fonctionnent correctement pendant le processus de génération de la variante, vous devez inclure des espaces réservés pour le lien et l’expression dans votre modèle.
 
 Suivez les instructions ci-dessous pour configurer les espaces réservés CTA :
 
@@ -148,12 +149,19 @@ Pour créer une section modifiable, ajoutez des crochets doubles autour du nom d
 
 _Sections_ indiquez à GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
 
-Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Utilisez un nom de champ (`headline`, `body`, `image` ou `cta`) après le trait de soulignement (`_`). Par exemple, le titre et le corps suivants appartiennent à la section `pod1` :
+Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Utilisez un nom de champ (`headline`, `body`, `image` ou `cta`) après le trait de soulignement (`_`).
+
+- _Correct_ (??) : `pod1_body`
+- _Incorrect_ (❌) : `pod1_link`
+
+Chaque section ne peut utiliser qu’un seul de chaque type de champ. Par exemple, les champs suivants appartiennent à la section `pod1` :
 
 - `pod1_headline`
 - `pod1_body`
+- `pod1_image`
+- `pod1_cta`
 
-Chaque section ne peut utiliser qu’un seul de chaque type de champ. Dans l’exemple ci-dessus, la section `pod1` ne peut utiliser qu’un seul champ de `pod1_headline`. Pour cette raison, les sections ne peuvent pas être imbriquées.
+Pour cette raison, les sections ne peuvent pas être imbriquées.
 
 Chaque type de modèle, tel qu’un e-mail ou une méta-annonce, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
 
@@ -223,27 +231,27 @@ Voici un exemple de base de modèle HTML pour un e-mail contenant une section. L
 ```html {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Adobe</title>
-    <style>
-        .container {
+    <head>
+        <title>Adobe</title>
+        <style>
+            .container {
             width: 100%;
             padding: 20px;
             font-family: Arial, sans-serif;
-        }
-    </style>
-</head>
-<body>{{ pre_header }}
-    <div class="container">
-        <h1>{{ headline }}</h1>
-        <p><a href="{{ link }}">
-           <img alt="{{ headline }}"
-                src="{{ image }}"
-                width="600" height="600"
-                border="0"/></a></p>
-        <p>{{ body }}</p>
-    </div>
-</body>
+            }
+        </style>
+    </head>
+    <body>{{ pre_header }}
+        <div class="container">
+            <h1>{{ headline }}</h1>
+            <p><a href="{{ link }}">
+            <img alt="{{ headline }}"
+                    src="{{ image }}"
+                    width="600" height="600"
+                    border="0"/></a></p>
+            <p>{{ body }}</p>
+        </div>
+    </body>
 </html>
 ```
 
@@ -256,48 +264,48 @@ Vous trouverez ci-dessous le même modèle HTML dans l’exemple ci-dessus, mais
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Adobe</title>
-    <style>
-        .container {
+    <head>
+        <title>Adobe</title>
+        <style>
+            .container {
             width: 100%;
             padding: 20px;
             font-family: Arial, sans-serif;
-        }
-        .pod {
+            }
+            .pod {
             background-color: #f8f8f8;
             margin: 10px;
             padding: 20px;
             border-radius: 5px;
-        }
-        .pod h2 {
+            }
+            .pod h2 {
             color: #333;
-        }
-        .pod p {
-            color: #666;
-        }
-    </style>
-</head>
-<body>{{ pre_header }}
-    <div class="container">
-        <h1>{{ headline }}</h1>
-        <p>{{ body }}</p>
-        <!-- Pod1 -->
-        <div class="pod">
-            <h2>{{ pod1_headline }}</h2>
-            <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
-            <p>{{ pod1_body }}</p>
+            }
+            .pod p {
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>{{ pre_header }}
+        <div class="container">
+            <h1>{{ headline }}</h1>
+            <p>{{ body }}</p>
+            <!-- Pod1 -->
+            <div class="pod">
+                <h2>{{ pod1_headline }}</h2>
+                <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
+                <p>{{ pod1_body }}</p>
+            </div>
+            <!-- End of Pod1 -->
+            <!-- Pod2 -->
+            <div class="pod">
+                <h2>{{ pod2_headline }}</h2>
+                <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
+                <p>{{ pod2_body }}</p>
+            </div>
+            <!-- End of Pod2 -->
         </div>
-        <!-- End of Pod1 -->
-        <!-- Pod2 -->
-        <div class="pod">
-            <h2>{{ pod2_headline }}</h2>
-            <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
-            <p>{{ pod2_body }}</p>
-        </div>
-        <!-- End of Pod2 -->
-    </div>
-</body>
+    </body>
 </html>
 ```
 
@@ -305,54 +313,45 @@ Vous trouverez ci-dessous le même modèle HTML dans l’exemple ci-dessus, mais
 
 +++Exemple : modèle de méta-annonce
 
-Voici un exemple de base de modèle de métadonnées. L’en-tête contient le CSS intégré pour la mise en forme. Le corps utilise des [espaces réservés de contenu](#content-placeholders) précédés d’un préfixe.
+Voici un exemple de base de modèle de métadonnées. L’en-tête contient le CSS intégré pour la mise en forme. Le corps utilise des [espaces réservés de contenu](#content-placeholders) tels que `image` et `on_image_text`, pour indiquer où GenStudio for Performance Marketing peut générer du contenu.
 
 ```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adobe</title>
-    <style>
-        .ad-container {
-            width: 300px;
-            border: 1px solid #ddd;
-            padding: 16px;
-            font-family: Arial, sans-serif;
-        }
-        .ad-image {
-            width: 100%;
-            height: auto;
-        }
-        .ad-headline {
-            font-size: 18px;
-            font-weight: bold;
-            margin: 12px 0;
-        }
-        .ad-body {
-            font-size: 14px;
-            margin: 12px 0;
-        }
-        .ad-cta {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adobe</title>
+        <style>
+            .ad-container {
+            font-family: Helvetica, sans-serif;
+            position: relative;
             text-align: center;
-        }
-    </style>
-</head>
-<body>
-<div class="ad-container">
-    <img src="{{ image }}" alt="Ad Image" class="ad-image">
-    <div class="ad-headline">{{ headline }}</div>
-    <div class="ad-body">{{ body }}</div>
-    <a href="{{ link }}" class="ad-cta">{{ CTA }}</a>
-</div>
-</body>
+            height: 100%;
+            }
+            .ad-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
+            .ad-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 1em;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 1em;
+            font-size: 75px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ad-container">
+            <img src="{{ image }}" alt="Ad Image" class="ad-image" />
+            <div class="ad-text">{{ on_image_text }}</div>
+        </div>
+    </body>
 </html>
 ```
 
