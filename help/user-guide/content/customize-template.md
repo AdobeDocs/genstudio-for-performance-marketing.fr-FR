@@ -1,13 +1,13 @@
 ---
 title: Personnaliser un modèle
-description: Découvrez comment personnaliser et optimiser votre modèle pour Adobe GenStudio for Performance Marketing.
+description: Découvrez comment personnaliser votre modèle HTML à l’aide d’espaces réservés de contenu reconnus par l’IA générative d’Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer
-feature: Media Templates, Content Generation
+feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
+source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,19 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 | `{{headline}}` | Titre | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
 | `{{introductory_text}}` | Texte d’introduction | Annonce LinkedIn |
 | `{{body}}` | Copie du corps | e-mail <br>Méta-annonce <br>bannière et publicité display |
-| `{{cta}}` | Appel à l’action | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
+| `{{cta}}` | Appel à l’action<br>Voir [ Appels à l’action](#calls-to-action) | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
 | `{{image}}` | Image : sélection à partir de l&#39;[!DNL Content] | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
-| `{{on_image_text}}` | Texte sur l’image | Méta-publicité <br>publicité LinkedIn |
+| `{{on_image_text}}` | Dans le texte de l’image<br>voir [Dans le texte de l’image](#on-image-text). | Méta-publicité <br>publicité LinkedIn |
 | `{{link}}` | Appel à l’action sur l’image<br>voir [Lien sur l’image](#link-on-image). | email |
-| `{{brand_logo}}` | Logo de la marque sélectionnée<br>Voir [Nom du champ du logo de la marque](#brand-logo-field-name). | email<br>Meta ad <br>Annonce LinkedIn |
 
-GenStudio for Performance Marketing renseigne automatiquement certains champs dans les modèles suivants :
+<!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
+
+GenStudio for Performance Marketing génère automatiquement certains champs dans les modèles suivants :
 
 - **Modèle d’e-mail** ne nécessite pas que vous identifiiez le champ `subject`
 - **Modèle de méta-annonce** ne nécessite pas que vous identifiiez les champs `headline`, `body` et `CTA`
 - **Modèle de bannière et d’affichage publicitaire** ne nécessite pas que vous identifiiez le champ `CTA`
-- **Les modèles d’annonces LinkedIn** ne vous obligent pas à identifier les champs `headline`, `introductory_text` et `CTA`
+- **Modèle d’annonce LinkedIn** ne nécessite pas que vous identifiiez les champs `headline`, `introductory_text` et `CTA`
 
 >[!WARNING]
 >
@@ -109,17 +110,19 @@ Dans cet exemple :
 - `src="image-source.jpg"` doit être remplacé par l’URL source de l’image réelle.
 - `alt="description"` fournit un texte secondaire pour l’image, ce qui s’avère utile pour l’accessibilité et l’optimisation pour les moteurs de recherche.
 
-### Nom du champ du logo de la marque
+<!-- this field does not work in Create canvas 2025/03
 
-Actuellement, vous ne pouvez pas sélectionner le logo de la marque pour le chargement du modèle. Les exemples suivants présentent deux méthodes qui effectuent le rendu conditionnel du logo de la marque. Chaque méthode vérifie la source, fournit une image par défaut ou alternative au cas où le logo de la marque ne serait pas disponible, et applique un style :
+### Brand logo field name
 
-**Exemple 1** : utilisation de [!DNL Handlebars] condition d’assistance intégrée directement dans l’attribut de `img src` HTML :
+At this time, you cannot select the brand logo for the template upload. The following examples demonstrate two methods that conditionally render the brand logo. Each method verifies the source, provides a default or alternative image in case the brand logo is not available, and applies a style:
+
+**Example 1**: Using [!DNL Handlebars] Built-in Helpers condition directly in the HTML `img src` attribute:
 
 ```html
 <img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
 ```
 
-**Exemple 2** : utilisation de [!DNL Handlebars]’instruction de condition intégrée pour encapsuler la balise de `img` HTML :
+**Example 2**: Using [!DNL Handlebars] Built-in condition statement to wrap the HTML `img` tag:
 
 ```html
 {{#if brand_logo}}
@@ -128,6 +131,8 @@ Actuellement, vous ne pouvez pas sélectionner le logo de la marque pour le char
     <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
 {{/if}}
 ```
+
+-->
 
 ### Noms de champs manuels
 
@@ -139,10 +144,18 @@ Pour créer une section modifiable, ajoutez des crochets doubles autour du nom d
 <tbody>
     <tr>
         <td>
-            <p><span class="s1">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{ footerLegal }}</span></p>
         </td>
     </tr>
 </tbody>
+```
+
+## Texte sur l’image
+
+L’espace réservé `{{ on_image_text }}` est utilisé pour spécifier une superposition de texte de messages à impact court, placés directement sur l’image dans une expérience.
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
 ```
 
 ## Sections ou groupes
@@ -179,7 +192,6 @@ Par exemple, un modèle d’e-mail peut inclure jusqu’à trois sections. Par c
 GenStudio for Performance Marketing comprend que `pod1_headline` est plus étroitement lié à `pod1_body` qu’à `pod2_body`.
 
 Consultez [Invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour savoir comment concevoir une invite qui génère un contenu variable pour chaque section dans un e-mail à plusieurs sections.
-
 
 ## Aperçu du modèle
 

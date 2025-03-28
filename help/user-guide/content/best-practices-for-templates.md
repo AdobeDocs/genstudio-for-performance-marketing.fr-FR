@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
+source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -80,7 +80,6 @@ Pour l’e-mail, le champ `subject` est automatiquement inclus. Utilisez des esp
 - `body`
 - `cta`
 - `image` (sélectionné parmi Content JPEG, PNG ou GIF)
-- `brand_logo`
 
 Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 
@@ -115,7 +114,6 @@ Pour les Méta-publicités, les champs `headline`, `body` et `CTA` sont automati
 
 - `image` (sélectionné parmi Content JPEG, PNG ou GIF)
 - `on_image_text`
-- `brand_logo`
 
 Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 
@@ -201,7 +199,6 @@ Pour les publicités LinkedIn, les champs `headline`, `introductory_text` et `CT
 
 - `image` (sélectionné parmi Content JPEG, PNG ou GIF)
 - `on_image_text`
-- `brand_logo`
 
 Voir [Espaces réservés de contenu](customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 

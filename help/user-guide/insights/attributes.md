@@ -4,7 +4,7 @@ description: Découvrez comment évaluer les performances d’attributs spécifi
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 4afdde6fd08a9f33ff599f5f85b9c1b9d79870ec
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing détecte certaines fonctionnalités et appli
 
 Un attribut _category_ est un groupe de classification qui organise les attributs associés partageant une caractéristique commune. Ces catégories permettent de rationaliser la découverte, l’identification et la compréhension d’attributs spécifiques en fournissant un plus grand contexte et en facilitant leur application et leur utilisation.
 
-GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier les [images](image-features.md), les [vidéos](video-features.md) et le texte, et pour appliquer des [!UICONTROL attributs de média] en fonction d’une probabilité d’exactitude.
+GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier les [images](image-features.md), [vidéos](video-features.md) et [texte](text-features.md) et appliquer les [!UICONTROL attributs de médias] en fonction d’une probabilité d’exactitude.
 
 La liste des attributs détectés pour le contenu multimédia n’est pas exhaustive. Les médias qui contiennent un ensemble riche de fonctionnalités peuvent être limités aux trois fonctionnalités les plus dominantes identifiées par l’IA. Par exemple, l’illustration suivante contient plusieurs attributs d’image détectés, y compris plusieurs objets, des couleurs de premier plan et d’arrière-plan.
 
