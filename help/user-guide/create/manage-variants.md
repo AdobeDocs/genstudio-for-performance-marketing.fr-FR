@@ -3,9 +3,9 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,18 @@ Vous pouvez modifier les champs de texte dans les variantes générées. Affinez
 1. Saisissez le nouveau texte.
 1. Cliquez sur le champ de texte pour l’enregistrer.
 
+## Afficher les calques
+
+Vous pouvez sélectionner rapidement un calque individuel d’une variante et y apporter des modifications, telles que la régénération de sections ou le recadrage d’images. Lorsque vous sélectionnez un calque individuel, les champs modifiables ou les images du calque sont mis en surbrillance.
+
+**Pour afficher les calques d’une variante** :
+
+1. Après avoir généré un ensemble de variantes, cliquez sur un champ ou une image modifiable dans une variante.
+1. Cliquez sur _[!UICONTROL Afficher les calques]_.
+1. Cliquez pour sélectionner un calque dans la liste. Le calque sélectionné est mis en surbrillance pour la variante.
+
+   Apportez les modifications nécessaires au calque sélectionné.
+
 ## Générer à nouveau les sections
 
 GenStudio for Performance Marketing dispose d’une fonctionnalité intégrée pour régénérer les sections des variantes générées. Vous pouvez reformuler, raccourcir ou allonger le texte, ou ajouter de nouvelles invites pour générer du nouveau contenu.
@@ -59,7 +71,7 @@ Par exemple, vous pouvez générer à nouveau la section titre d’une méta-var
 
 ## Révision de l’appel à l’action
 
-Après avoir généré un ensemble de variantes, vous pouvez réviser le texte et le lien de l’appel à l’action (CTA).
+Après avoir généré un ensemble de variantes, vous pouvez réviser le texte et le lien du call-to-action (CTA).
 
 >[!NOTE]
 >

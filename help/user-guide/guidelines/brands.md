@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing  [!DNL Brands]
 description: Les GenStudio for Performance Marketing [!DNL Brands] sont une collection complète de ressources de marque (copie marketing, images, expériences, etc.) visant à informer la création de contenu aligné sur la marque.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -72,15 +72,15 @@ Le tableau suivant présente chaque section de canal, les canaux pour lesquels e
 
 | Sections | Canaux | Description | Bonnes pratiques |
 | ------------------| --------- | --------- | -------- |
-| Général | e-mail, métadonnées, publicité display | Un second objet ou texte d’aperçu d’e-mail | Définissez le ton/l’émotion global(e) pour être cohérent(e) tout au long de l’e-mail (2-5 directives).<br>_Exemples_ : « Maintenir un ton amical et accessible », « Éviter un langage trop formel »<br><br> |
+| Général | e-mail, métadonnées, bannière et publicité display | Un second objet ou texte d’aperçu d’e-mail | Définissez le ton/l’émotion global(e) pour être cohérent(e) tout au long de l’e-mail (2-5 directives).<br>_Exemples_ : « Maintenir un ton amical et accessible », « Éviter un langage trop formel »<br><br> |
 | Objet | email | Un titre attrayant et intéressant pour résumer le contenu d’un e-mail | Fournissez des conseils spécifiques (2 à 5 directives) sur le ton, la longueur, etc. Ajoutez des lignes d’objet précédemment réussies dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemple_ : « Aligner l’objet sur le corps de l’e-mail » |
 | Pré-titre | email | Un second objet ou texte d’aperçu d’e-mail | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des pré-titres précédemment réussis dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemple_ : « Limité à 60-80 caractères » |
-| Titre | e-mail, métadonnées, publicité display, LinkedIn | Un titre ou une phrase qui attire l&#39;attention du lecteur | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des titres précédemment publiés avec succès dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention » |
-| Sous-titre | e-mail, Afficher les publicités | Un deuxième ou troisième titre ou expression pour attirer l&#39;attention du lecteur | Fournissez des conseils spécifiques (2 à 5 directives) qui définissent le ton, la longueur idéale, etc. Ajoutez des sous-titres ayant précédemment réussi dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention » |
+| Titre | e-mail, Meta, bannières et publicités display, LinkedIn | Un titre ou une phrase qui attire l&#39;attention du lecteur | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des titres précédemment publiés avec succès dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention » |
+| Sous-titre | e-mail, bannière et publicité display | Un deuxième ou troisième titre ou expression pour attirer l&#39;attention du lecteur | Fournissez des conseils spécifiques (2 à 5 directives) qui définissent le ton, la longueur idéale, etc. Ajoutez des sous-titres ayant précédemment réussi dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention » |
 | Description | LinkedIn | Expressions descriptives qui définissent l&#39;émotion globale | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des descriptions précédemment réussies dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Maintenir un ton amical et accessible » |
-| Corps | e-mail, métadonnées, publicité display, LinkedIn | Contenu marketing comprenant des messages, des liens et des images | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Limiter à 80-100 caractères », « Éviter les acronymes excessifs » |
+| Corps | e-mail, Meta, bannières et publicités display, LinkedIn | Contenu marketing comprenant des messages, des liens et des images | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Limiter à 80-100 caractères », « Éviter les acronymes excessifs » |
 | Texte sur l’image | Méta, LinkedIn | Conseils spécifiques sur le ton, la longueur idéale, etc. pour le texte qui apparaît au-dessus des images | Fournissez des conseils spécifiques (1-2 phrases) sur le ton, la longueur idéale, etc. Ajoutez le texte précédemment réussi à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Se concentrer sur le moment » |
-| Appel à l’action (CTA) | e-mail, métadonnées, publicité display | (Appel à l’action) Instruction donnée au lecteur et qui inspire une réponse. Généralement un ou deux mots, comme `Get started` | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez les appels à l’action réussis précédemment à la section _Exemples_ pour obtenir une sortie de meilleure qualité.<br>_Exemples_ : « Ne pas utiliser la ponctuation de fin » |
+| Call-to-action (CTA) | e-mail, métadonnées, bannière et publicité display | (Appel à l’action) Instruction donnée au lecteur et qui inspire une réponse. Généralement un ou deux mots, comme `Get started` | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez les appels à l’action réussis précédemment à la section _Exemples_ pour obtenir une sortie de meilleure qualité.<br>_Exemples_ : « Ne pas utiliser la ponctuation de fin » |
 
 #### Instructions relatives aux canaux par défaut
 

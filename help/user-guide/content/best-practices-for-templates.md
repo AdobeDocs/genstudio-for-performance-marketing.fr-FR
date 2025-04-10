@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Pour l’e-mail, le champ `subject` est automatiquement inclus. Utilisez des esp
 
 - `pre_header`
 - `headline`
+- `sub_headline`
 - `body`
 - `cta`
 - `image` (sélectionné parmi Content JPEG, PNG ou GIF)
@@ -151,6 +152,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 Pour les bannières publicitaires et les publicités display, le champ `CTA` est généré automatiquement. Utilisez des espaces réservés de contenu pour les champs suivants :
 
 - `headline`
+- `sub_headline`
 - `body`
 - `image` (sélectionné parmi Content JPEG, PNG ou GIF)
 

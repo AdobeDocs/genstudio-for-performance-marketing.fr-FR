@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Pour créer une expérience d’affichage et de publicité, utilisez un modèle 
 **Pour choisir un modèle de publicité display** :
 
 1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Afficher les publicités]**dans le_ « Que voulez-vous créer aujourd’hui ? »_section.
-1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle d’annonce publicitaire d’affichage spécifique.
+1. Utilisez les options [rechercher et _Filtrer_ ](/help/user-guide/content/use-templates.md#search-templates) pour trouver un modèle spécifique.
 1. Dans la vue _Sélectionner un modèle_, cliquez sur un modèle d’affichage publicitaire.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
@@ -73,6 +73,8 @@ Par défaut, quatre variantes (alimentées par l’invite, les instructions et l
 ## Réviser les variantes générées
 
 Avant de sélectionner les éléments à envoyer pour approbation ou publication à [!DNL Content], vous pouvez modifier les sections d’affichage et les champs de texte, ou supprimer une variante générée.
+
+Pour mettre en surbrillance un calque individuel à réviser, cliquez sur un champ ou une image modifiable, puis sur _[!UICONTROL Afficher les calques]_.
 
 **Pour réviser les variantes générées** :
 

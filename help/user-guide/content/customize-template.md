@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Pré-titre | email |
 | `{{headline}}` | Titre | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
+| `{{sub_headline}}` | Sous-Titre | e-mail<br>bannière et publicité display |
 | `{{introductory_text}}` | Texte d’introduction | Annonce LinkedIn |
 | `{{body}}` | Copie du corps | e-mail <br>Méta-annonce <br>bannière et publicité display |
 | `{{cta}}` | Appel à l’action<br>Voir [ Appels à l’action](#calls-to-action) | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
@@ -101,14 +102,14 @@ GenStudio for Performance Marketing peut également fournir des variantes d’ex
 Vous pouvez personnaliser votre modèle d’e-mail pour permettre aux créatifs d’ajouter un lien à une image. Comme pour le lien CTA, suivez les instructions ci-après pour appliquer un espace réservé `link` à une balise d’image :
 
 ```html
-<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+<a href="{{link}}"><img src="image-source.jpg" alt="{{imageDescription}}"></a>
 ```
 
 Dans cet exemple :
 
 - `{{link}}` est un espace réservé pour l’URL réelle.
 - `src="image-source.jpg"` doit être remplacé par l’URL source de l’image réelle.
-- `alt="description"` fournit un texte secondaire pour l’image, ce qui s’avère utile pour l’accessibilité et l’optimisation pour les moteurs de recherche.
+- `{{imageDescription}}` est un nom de champ défini par l’utilisateur qui fournit un espace réservé pour le texte secondaire de l’image, ce qui s’avère utile pour l’accessibilité et l’optimisation du moteur de recherche.
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -136,7 +137,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ### Noms de champs manuels
 
-Tous les autres noms de champ sont traités comme des champs remplis manuellement. Par exemple, vous pouvez réserver une section au contenu du pied de page.
+Tous les autres noms de champ sont définis par l’utilisateur et traités comme des champs renseignés manuellement. Par exemple, vous pouvez réserver une section au contenu du pied de page.
 
 Pour créer une section modifiable, ajoutez des crochets doubles autour du nom de la section :
 

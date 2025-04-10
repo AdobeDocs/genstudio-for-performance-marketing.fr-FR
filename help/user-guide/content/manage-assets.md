@@ -3,9 +3,9 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque en vue de leur utilisation et réutilisation dans votre parcours de marketing numérique.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1409'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,13 @@ Vous trouverez ci-dessous une recherche sur le terme `space` dans la galerie [!U
 
 L’interface de filtrage et de recherche est rapide et réactive, et fournit une expérience de recherche productive. Chaque vue de [!DNL Content] fournit des options de filtre permettant d’affiner votre recherche de la ressource, de l’expérience ou du modèle idéal. Pour les ressources et les expériences, vous pouvez sélectionner une campagne et des directives spécifiques, telles que le contenu créé pour un produit spécifique.
 
-Il existe des filtres basés sur [mots-clés](asset-details.md#user-defined-metadata) et [catégories d’attributs](/help/user-guide/insights/attributes.md#categories) pour limiter les résultats de recherche. Par exemple, vous pouvez rechercher une ressource d’un type de fichier ou d’un objet spécifique afin de vous aider à créer une expérience pour votre campagne. Vous pouvez également filtrer le contenu en fonction de votre nom d’utilisateur ou du nom d’un membre de l’équipe :
+Il existe des filtres basés sur [directives](/help/user-guide/guidelines/overview.md), [mots-clés](asset-details.md#user-defined-metadata) et [catégories d’attributs](/help/user-guide/insights/attributes.md#categories) pour limiter les résultats de recherche. Par exemple, vous pouvez rechercher une ressource d’un type de fichier ou d’un objet spécifique afin de vous aider à créer une expérience pour votre campagne. Vous pouvez également filtrer le contenu en fonction de votre nom d’utilisateur ou du nom d’un membre de l’équipe :
 
-- Le filtre **[!UICONTROL Chargé par]** limite la liste _[!UICONTROL Assets]_ pour n’afficher que les ressources que vous ou une personne spécifique avez chargées.
-- Le filtre **[!UICONTROL Créé par]** limite la liste _[!UICONTROL Expériences]_ pour n’afficher que les expériences créées par vous ou par une personne spécifique.
+- **[!UICONTROL Chargé par]** : limite la liste _[!UICONTROL Assets]_ pour n’afficher que les ressources que vous ou une personne spécifique avez chargées.
+- **[!UICONTROL Créé par]** : limite la liste _[!UICONTROL Expériences]_ pour n’afficher que les expériences créées par vous ou par une personne spécifique.
+- **[!UICONTROL Modèle]** : limite la liste _[!UICONTROL Expériences]_ pour n’afficher que les expériences créées avec le modèle sélectionné.
+
+Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun modèle du référentiel ne correspond aux critères de métadonnées correspondants. Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
 
 **Pour rechercher du contenu à réutiliser** :
 

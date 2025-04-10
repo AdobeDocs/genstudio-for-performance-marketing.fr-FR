@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Pour commencer à générer une nouvelle expérience de métadonnées, utilisez 
 **Pour choisir un modèle de méta-annonce** :
 
 1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Méta-publicités]**dans le_ « Que voulez-vous créer aujourd’hui ? »_section.
-1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle de méta-annonce spécifique.
+1. Utilisez les options [rechercher et _Filtrer_ ](/help/user-guide/content/use-templates.md#search-templates) pour trouver un modèle spécifique.
 1. Cliquez pour sélectionner un modèle, puis cliquez sur **[!UICONTROL Utiliser]**.
 
    Cette action ouvre la zone de travail, qui est le centre de création de contenu.
@@ -85,12 +85,14 @@ Lors de la [révision des Méta-publicités](#revise-generated-variants), vous p
 
 Avant de sélectionner les éléments à envoyer pour approbation ou publication à [!DNL Content], vous pouvez modifier les Méta-annonces ou supprimer une variante de l’ensemble des annonces générées.
 
+Pour mettre en surbrillance un calque individuel à réviser, cliquez sur un champ ou une image modifiable, puis sur _[!UICONTROL Afficher les calques]_.
+
 **Pour réviser les variantes générées** :
 
 * **Pour [modifier le nom du brouillon de méta-annonce](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement une méta-annonce](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez sur l’une des sections d’annonce (comme l’objet,
 en-tête ou copie du corps) et modifiez-les si nécessaire.
-* **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton d’appel à l’action et sélectionnez les options de texte du bouton disponibles. Dans _Lien_, saisissez une URL pour le texte de l’appel à l’action.
+* **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton call-to-action et sélectionnez les options de texte du bouton disponibles. Dans _Lien_, saisissez l’URL du texte call-to-action.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
@@ -144,6 +146,6 @@ Voir [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-appro
 
 ## Connecter les métadonnées
 
-Vous pouvez connecter GenStudio for Performance Marketing aux métadonnées pour recevoir des analyses avancées et des [insights](/help/user-guide/insights/overview.md) sur les performances du contenu.
+Vous pouvez connecter GenStudio for Performance Marketing aux métadonnées pour recevoir des analyses avancées et des informations sur les performances du contenu.
 
-Voir [Connecter le compte de canal](/help/user-guide/insights/connect-channel.md) pour plus d’informations.
+Voir [Connexion des métadonnées publicitaires](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).

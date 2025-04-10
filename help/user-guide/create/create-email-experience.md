@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Pour créer une expérience d’e-mail, utilisez un modèle disponible pour four
 **Pour choisir un modèle d’e-mail** :
 
 1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL E-mail]**dans le_ « Que souhaitez-vous créer aujourd’hui ? »_section.
-1. Utilisez l’option de recherche, adjacente à _Filtrer_, pour rechercher un modèle d’e-mail spécifique.
+1. Utilisez les options [rechercher et _Filtrer_ ](/help/user-guide/content/use-templates.md#search-templates) pour trouver un modèle spécifique.
 1. Cliquez pour sélectionner un modèle d’e-mail, puis cliquez sur **[!UICONTROL Utiliser]**.
 
    La zone de travail, l’épicentre de la création de contenu, s’affiche.
@@ -85,7 +85,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 * **Pour [modifier le nom du brouillon d’e-mail](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement un e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez dans l’un des champs de texte modifiables (comme l’objet, l’en-tête ou la copie du corps) et modifiez-le si nécessaire
-* **Pour [modifier ou sélectionner l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, cliquez sur le bouton d’appel à l’action et sélectionnez _[!UICONTROL Reformuler]_ ou _[!UICONTROL Ajouter un lien]_.
+* **Pour [modifier ou sélectionner l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, cliquez sur le bouton call-to-action et sélectionnez _[!UICONTROL Reformuler]_ ou _[!UICONTROL Ajouter un lien]_.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
 * **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône **[!UICONTROL Permuter depuis le contenu]**.
 * **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.

@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2198'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 1%
 
 Ces informations de mise à jour détaillent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.03.13 {#latest}
+## 2025.04.10 {#latest}
+
+### Correctifs et améliorations
+
+* Nouvelles options de filtre pour les modèles ! Vous pouvez maintenant affiner votre liste _[!UICONTROL Sélectionner des modèles]_ dans [!DNL Create] et dans _[!UICONTROL Contenu]_ > _[!UICONTROL Modèles]_. Voir [Modèles de recherche](/help/user-guide/content/use-templates.md#search-templates). Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
+* Activation de la fonctionnalité [affichage et sélection de calques individuels](/help/user-guide/create/manage-variants.md#view-layers) tels que des champs de texte modifiables ou des images modifiables) d’une expérience afin de les mettre en surbrillance pour les révisions, telles que la régénération de contenu ou le recadrage d’images.
+* Ajout d’un [nouveau champ de modèle](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, pour du texte supplémentaire dans les expériences afin de capter l’attention de l’audience et de mettre en évidence les messages marketing.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.03.13
 
 ### Activer les métadonnées
 
@@ -60,7 +70,7 @@ Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/h
 * Amélioration de l’expérience utilisateur et de la visibilité des catégories de canal [sur la page d’accueil Créer](/help/user-guide/create/overview.md) en les séparant en sections Média détenu, Média payant et Contenu .
 * Amélioration du filtrage dans les vues Tableau et Galerie [!DNL Insights].
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2025.02.13
 
@@ -86,7 +96,7 @@ Les programmes Beta permettent de façonner le développement de produits et de 
 
 ### Générer de nouveaux appels à l’action
 
-Vous pouvez désormais générer de nouvelles expressions d’appel à l’action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/content/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des appels à l’action dans les variantes, voir [Réviser l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Vous pouvez désormais générer de nouvelles expressions call-to-action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/content/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des appels à l’action dans les variantes, voir [Réviser l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correctifs et améliorations
 
@@ -244,7 +254,7 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 * Le tiroir d’invite [!DNL Create] se ferme désormais comme prévu lorsqu’un utilisateur clique dessus. <!-- GS-5254 -->
 
-* L’exportation des métadonnées inclut désormais le libellé d’appel à l’action sélectionné comme prévu. <!-- GS-6504 -->
+* L’exportation des métadonnées de publicités inclut désormais le libellé call-to-action sélectionné comme prévu. <!-- GS-6504 -->
 
 * Le score de la marque est maintenant mis à jour et conservé comme prévu pour les expériences régénérées. <!-- GS-6535 -->
 
