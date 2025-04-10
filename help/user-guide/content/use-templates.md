@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1326'
 ht-degree: 1%
 
 ---
@@ -37,9 +37,10 @@ Voici une liste des éléments utilisés dans les modèles et quelques détails 
 | **Preheader** | E-mail | Une ligne d’objet secondaire dans un e-mail, généralement entre 40 et 50 caractères, qui améliore la ligne d’objet principale. Il est visible dans la boîte de réception à côté de l’objet avant l’ouverture de l’e-mail. |
 | **En-tête** | E-mail | La section supérieure de l’e-mail que le destinataire voit lors de l’ouverture de l’e-mail donne le ton et fournit un contexte pour le contenu inclus. |
 | **Titre** | Méta-annonce, bannières et affichages publicitaires, LinkedIn | Le premier contenu que le destinataire voit doit être attrayant pour capter son intérêt. |
+| **Sous-titre** | E-mail, bannière et publicité display | Un élément de texte secondaire qui prend en charge le titre. Il est généralement concis et conçu pour compléter le titre principal, attirant l&#39;attention du lecteur plus loin dans le contenu. |
 | **Texte d’introduction** | LinkedIn | Le message principal transmet le message principal, comme la copie du corps. Il peut utiliser jusqu’à 150 caractères, y compris les espaces, quatre émoticônes au maximum et la ponctuation. |
 | **Corps** | E-mail, méta-annonce, bannière et publicité display | Le texte principal de l’annonce véhicule le message principal. Il doit être engageant, informatif et persuasif pour encourager l&#39;action souhaitée de la part du public. |
-| **CTA** | E-mail, Méta-annonce, bannières et publicités display, LinkedIn | Un bouton d’appel à l’action utilise une expression et un lien pour encourager le destinataire à effectuer une action spécifique, comme cliquer sur un lien ou effectuer un achat. |
+| **CTA** | E-mail, Méta-annonce, bannières et publicités display, LinkedIn | Un bouton call-to-action utilise une expression et un lien pour encourager le destinataire à effectuer une action spécifique, comme cliquer sur un lien ou effectuer un achat. |
 | **Images** | E-mail, Méta-annonce, bannières et publicités display, LinkedIn | Améliorez l’attrait visuel, fractionnez le texte et prenez en charge le message. Les images doivent être de haute qualité et accrocheuses. |
 | **Pied de page** | E-mail | La section inférieure de l’e-mail contient du contenu supplémentaire, tel que des coordonnées, des liens vers les médias sociaux, des clauses de non-responsabilité et des options de désabonnement. |
 | **Superposition de texte** | Méta-annonce | Texte placé sur une image pour prendre en charge et améliorer le titre et le contenu du corps. |
@@ -58,13 +59,26 @@ Vous [personnalisez votre modèle](customize-template.md) à utiliser dans GenSt
 
 ## Gestion des modèles
 
-La galerie _[!DNL Templates]_affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing. Vous pouvez filtrer les modèles par type de canal, tels que les e-mails, les publicités display, les méta-publicités et les publicités LinkedIn.
+La galerie _[!DNL Templates]_affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
+
+### Rechercher des modèles
+
+Chaque vue de [!DNL Content] fournit des options de filtre permettant d’affiner votre recherche de la ressource, de l’expérience ou du modèle idéal. Il existe des filtres basés sur [directives](/help/user-guide/guidelines/overview.md), [mots-clés](asset-details.md#user-defined-metadata) et [catégories d’attributs](/help/user-guide/insights/attributes.md#categories) pour limiter les résultats de recherche.
+
+Par exemple, vous pouvez rechercher un modèle d’un type de canal ou d’un format spécifique que vous avez créé :
+
+- **[!UICONTROL Créé par]** : limite la liste _[!UICONTROL Modèles]_ pour n’afficher que les modèles créés par vous ou par une personne spécifique.
+- **[!UICONTROL Format]** : limite la liste _[!UICONTROL Modèles]_ aux modèles conçus pour un format spécifique.
+
+Les affichages suivants filtrent par type de canal, comme les e-mails, les affichages publicitaires, les métadonnées publicitaires et les annonces LinkedIn.
 
 ![Liste des modèles de contenu](/help/assets/content-templates-filter.png "Rechercher les modèles LinkedIn"){width="650" zoomable="yes"}
 
+La fonctionnalité de recherche de modèles est disponible lors de la [!UICONTROL Créer] lors de la sélection d’un modèle pour les médias propriétaires ou payants. Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun modèle du référentiel ne correspond aux critères de métadonnées correspondants. Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
+
 ### Ajouter un modèle
 
-Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions du guide [Personnaliser les modèles](customize-template.md).
+Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [ Personnaliser les modèles ](customize-template.md).
 
 **Pour ajouter un modèle** :
 
@@ -86,7 +100,7 @@ Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et 
 
 1. Cliquez sur **[!UICONTROL Suivant]** lorsque vous êtes satisfait(e) de l’aperçu du modèle.
 
-1. Dans le volet _[!UICONTROL Fournir des détails de modèle et charger]_, nommez votre modèle et sélectionnez un type **[!UICONTROL Canal]**.
+1. Dans _[!UICONTROL Fournir des détails sur le modèle et télécharger]_, nommez votre modèle et sélectionnez un type **[!UICONTROL Canal]**.
 
    Le nom du modèle et le type de canal sont obligatoires. Les exigences supplémentaires peuvent inclure :
 
