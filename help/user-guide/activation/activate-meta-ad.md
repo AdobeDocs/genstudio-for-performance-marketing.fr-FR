@@ -3,9 +3,9 @@ title: Activation d’une métadonnée
 description: Découvrez comment activer une expérience de métadonnées.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1372'
 ht-degree: 2%
 
 ---
@@ -33,13 +33,7 @@ Vous devez disposer des autorisations nécessaires pour publier du contenu dans 
 
 Avant que votre entreprise puisse activer des expériences, un responsable système GenStudio doit connecter vos comptes Meta à GenStudio for Performance Marketing. Cette connexion permet aux données de circuler entre GenStudio et les outils marketing externes tels que les métadonnées, ce qui active les processus d’activation.
 
-**Pour connecter GenStudio for Performance Marketing à vos comptes Meta** :
-
-1. Dans _Paramètres_, cliquez sur **[!UICONTROL Se connecter]** sur la mosaïque Méta-publicités. La vue _Compte de métadonnées publicitaires_ s’ouvre.
-
-1. Sélectionnez **[!UICONTROL Autoriser les pop-ups]** dans votre navigateur, si vous y êtes invité.
-
-1. Sélectionnez un ou plusieurs de vos comptes publicitaires à connecter, puis cliquez sur **[!UICONTROL Sélectionner]**.
+Voir [Connexion à un compte Meta (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
 
 Une fois la synchronisation terminée, vous pouvez afficher les comptes ajoutés. La synchronisation de grandes quantités de données prend plus de temps.
 

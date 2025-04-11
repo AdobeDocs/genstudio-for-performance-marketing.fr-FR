@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: ac166245f5358c3bd050227b3ba9c53caa0e3622
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
@@ -62,4 +62,4 @@ Voir [ Chargement de ressources approuvées ](./content/manage-assets.md).
 
 ### Étape 5 : Se connecter à un compte Meta (Facebook)
 
-Configurez une connexion entre GenStudio for Performance Marketing et les comptes sociaux de votre organisation pour recevoir des données de vos campagnes marketing, ressources et expériences actives. [[!DNL Insights]](./insights/overview.md) fournit des outils pour analyser les données dérivées du canal. Voir [Connexion à un compte Meta (Facebook)](./insights/connect-channel.md#meta-ads-connect).
+Configurez une connexion entre GenStudio for Performance Marketing et les comptes sociaux de votre organisation pour recevoir des données de vos campagnes marketing, ressources et expériences actives. [!DNL Insights] fournit des outils pour analyser les données dérivées du canal. Voir [Connexion à un compte Meta (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
