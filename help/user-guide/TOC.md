@@ -8,7 +8,7 @@ role: User
 source-git-commit: beeaa7e9b434321b99c58827ea0ca62e31e114a5
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 21%
 + Guide de [GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Commencer](get-started.md)
-+ Présentation {#intro}
++ Introduction {#intro}
    + [Concepts](concepts.md)
    + [Approvisionnement du produit](product-provisioning.md)
    + [Configurer [!DNL Brand] autorisations](configure-brand-permissions.md)
    + [Rôles utilisateur](user-roles.md)
    + [Invites actives](effective-prompts.md)
-+ {#settings} des paramètres
++ Paramètres {#settings}
    + [Connecter des médias achetés](connectors/connect-channel.md)
 + Directives {#guidelines}
    + [Présentation des directives](guidelines/overview.md)
@@ -46,13 +46,13 @@ ht-degree: 21%
    + [Créer une expérience LinkedIn](create/create-linkedin.md)
    + [Créer une expérience d’affichage publicitaire](create/create-display-ad.md)
    + [Créer une expérience de bannière](create/create-banner-experience.md)
-+ {#approve} des révisions et approbations
++ Révisions et approbations {#approve}
    + [Présentation de la révision et des approbations](approvals/overview.md)
    + [Demander la révision et l’approbation du contenu](approvals/request-review.md)
    + [Vérifier et modifier le contenu](approvals/review-and-edit.md)
    + [Approuver le contenu](approvals/approve-content.md)
    + [Publier le contenu approuvé](approvals/publish-content.md)
-+ {#content} de contenu
++ Contenu {#content}
    + [Présentation du contenu](content/overview.md)
    + [Gestion des ressources et des expériences](content/manage-assets.md)
    + [Connexion à un référentiel AEM](content/connect-aem-repo.md)
@@ -63,15 +63,15 @@ ht-degree: 21%
       + [ Éditeur de code de modèle ](content/code-editor.md)
       + [Créer des modèles accessibles](content/accessibility-for-templates.md)
       + [Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
-+ {#campaigns} des campagnes
++ Campagnes {#campaigns}
    + [Présentation des campagnes](campaigns/overview.md)
-+ {#activation} d’activation
++ Activation {#activation}
    + [Présentation de l’activation](activation/overview.md)
    + [Workflow d’activation](activation/create-activation.md)
    + [Activer une méta-annonce](activation/activate-meta-ad.md)
    + [Gérer les activations](activation/manage-activations.md)
    + [Optimiser les activations](activation/troubleshooting.md)
-+ {#insights} Insights
++ Insights {#insights}
    + [Vue d’ensemble d’Insights](insights/overview.md)
    + [Canaux](insights/channels.md)
    + [Publicités et emplacement publicitaire](insights/ads.md)
