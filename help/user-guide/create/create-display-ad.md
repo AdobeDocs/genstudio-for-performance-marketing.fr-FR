@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Pour créer une expérience d’affichage et de publicité, utilisez un modèle 
 
 **Pour choisir un modèle de publicité display** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Afficher les publicités]**dans le_ « Que voulez-vous créer aujourd’hui ? »_section.
-1. Utilisez les options [rechercher et _Filtrer_ ](/help/user-guide/content/use-templates.md#search-templates) pour trouver un modèle spécifique.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Afficher les annonces]**.
+1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle d’annonce publicitaire d’affichage spécifique.
 1. Dans la vue _Sélectionner un modèle_, cliquez sur un modèle d’affichage publicitaire.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 

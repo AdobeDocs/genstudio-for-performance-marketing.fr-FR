@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Pour créer une expérience de bannière, utilisez un modèle disponible pour fo
 
 **Pour choisir un modèle de bannière** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Bannières]**dans le_« Que souhaitez-vous créer aujourd’hui ? »_section.
-1. Utilisez les options [rechercher et _Filtrer_ ](/help/user-guide/content/use-templates.md#search-templates) pour trouver un modèle spécifique.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Bannières]**.
+1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle de bannière spécifique.
 1. Dans la vue _Sélectionner un modèle_, cliquez sur un modèle de bannière.
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 

@@ -5,10 +5,10 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: beeaa7e9b434321b99c58827ea0ca62e31e114a5
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 24%
+source-wordcount: '202'
+ht-degree: 23%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 24%
    + [Créer une expérience LinkedIn](create/create-linkedin.md)
    + [Créer une expérience d’affichage publicitaire](create/create-display-ad.md)
    + [Créer une expérience de bannière](create/create-banner-experience.md)
+   + [Générer une image](create/generate-assets.md)
 + Révisions et approbations {#approve}
    + [Présentation de la révision et des approbations](approvals/overview.md)
    + [Demander la révision et l’approbation du contenu](approvals/request-review.md)

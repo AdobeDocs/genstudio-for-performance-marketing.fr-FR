@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Pour commencer à générer une nouvelle expérience de métadonnées, utilisez 
 
 **Pour choisir un modèle de méta-annonce** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Méta-publicités]**dans le_ « Que voulez-vous créer aujourd’hui ? »_section.
-1. Utilisez les options [rechercher et _Filtrer_ ](/help/user-guide/content/use-templates.md#search-templates) pour trouver un modèle spécifique.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Méta-publicités]**.
+1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle de méta-annonce spécifique.
 1. Cliquez pour sélectionner un modèle, puis cliquez sur **[!UICONTROL Utiliser]**.
 
    Cette action ouvre la zone de travail, qui est le centre de création de contenu.

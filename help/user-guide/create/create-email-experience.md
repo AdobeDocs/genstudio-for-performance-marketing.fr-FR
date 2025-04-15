@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Pour créer une expérience d’e-mail, utilisez un modèle disponible pour four
 
 **Pour choisir un modèle d’e-mail** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL E-mail]**dans le_ « Que souhaitez-vous créer aujourd’hui ? »_section.
-1. Utilisez les options [rechercher et _Filtrer_ ](/help/user-guide/content/use-templates.md#search-templates) pour trouver un modèle spécifique.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Email]**.
+1. Utilisez l’option de recherche, adjacente à _Filtrer_, pour rechercher un modèle d’e-mail spécifique.
 1. Cliquez pour sélectionner un modèle d’e-mail, puis cliquez sur **[!UICONTROL Utiliser]**.
 
    La zone de travail, l’épicentre de la création de contenu, s’affiche.

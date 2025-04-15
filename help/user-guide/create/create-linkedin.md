@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Pour générer une nouvelle expérience LinkedIn, vous avez besoin d’un modèl
 
 **Pour choisir un modèle LinkedIn** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL LinkedIn]**dans le_ « Que voulez-vous créer aujourd’hui ? »_section.
-1. Utilisez les options [rechercher et _Filtrer_ ](/help/user-guide/content/use-templates.md#search-templates) pour trouver un modèle spécifique.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL LinkedIn]**.
+1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle spécifique.
 1. Cliquez pour sélectionner un modèle, puis cliquez sur **[!UICONTROL Utiliser]**.
 
    Cette action ouvre la zone de travail, qui est le centre de création de contenu.
