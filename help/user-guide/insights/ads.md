@@ -4,9 +4,9 @@ description: Consultez un aperçu de l’engagement des clients, du budget et de
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2d396b183084996c45616d29387e068a5d502c53
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -33,24 +33,23 @@ Sélectionnez une publicité et affichez les mesures de performances, les attrib
 
 Sous l’aperçu de l’annonce publicitaire se trouve une liste d’attributs [!UICONTROL Texte] associés à l’annonce publicitaire. Lorsque les ressources et les publicités sont approuvées et stockées dans [!DNL Content], GenStudio for Performance Marketing génère des balises en fonction de leurs fonctionnalités inhérentes. Voir [Détails du média](/help/user-guide/content/asset-details.md#system-metadata) pour plus d’informations sur les métadonnées système.
 
+### Formats publicitaires
+
+[!DNL Insights] dans GenStudio for Performance Marketing prend actuellement en charge les formats d’annonce suivants.
+
+| Pris en charge | Non pris en charge |
+|-----------|-------------|
+| Spécification du flux de ressources (optimisation de l’emplacement)<br>image unique ou vidéo<br>lien | Carrousel<br>Collaboratif<br>Catalogue<br>Expérience instantanée<br>Spécification du flux de ressources (autre que l’optimisation de l’emplacement)<br>Appel (image/vidéo)<br>Application (image/vidéo)<br>Messagerie<br>Lead (image/vidéo)<br>Diaporama (vidéo)<br>Collection (image/vidéo))<br>Boutique (image/vidéo)<br>Photo ou vidéo à partir de la publication sur la page/de la publication sur Instagram/des médias<br>Contenu de marque<br>Flexible<br>Advantage+ Catalogue |
+
 ### Ajouter des emplacements
 
-Au moment où vous avez créé une campagne avec des méta-annonces, vous avez peut-être sélectionné où exécuter vos annonces en fonction de l’[objectif](channels.md#objectives) de la campagne. Les emplacements publicitaires élargissent la portée de l’audience de votre publicité.
+Lorsque vous créez une campagne avec des Méta-annonces, vous avez peut-être sélectionné où diffuser vos annonces en fonction de l’objectif [de la campagne](channels.md#objectives). Les emplacements publicitaires élargissent la portée de l’audience de votre publicité.
 
-GenStudio for Performance Marketing prend en charge les formats d’annonce, tels que les flux de ressources, les annonces de liens et les images ou vidéos uniques. Voici une liste des formats d’annonce publicitaire par plateforme :
+Voici une liste des emplacements publicitaires pris en charge :
 
-| Instagram | Facebook/Meta | Messager | Audience Network |
-| ------------ | ---------------- | ------------ | ---------------- |
-| Explore<br>Explore home<br>Explore grid Home<br>Feed<br>Reels<br>Profile feed<br>Search<br>Shop<br>Stories | Business Explorer<br>Feed<br>In-stream video<br>Marketplace<br>Reels<br>Reels overlay<br>Right column<br>Search results<br>Stories<br>Video feeds<br>Ads on Facebook reels | Boîte<br>Réception | Vidéo native, de bannière et <br> récompensée |
-
-#### Emplacements non pris en charge
-
-GenStudio for Performance Marketing ne prend pas en charge les emplacements publicitaires suivants :
-
-- Collaboratif
-- Catalogue/Avantage+ catalogue
-- Expérience de l’instance
-- Carrousel
+| Audience Network | [Facebook/Meta](https://www.facebook.com/business/help/407108559393196?id=369787570424415) | Instagram | Messager |
+|--------------------|--------------------|-------------------------|---------------------|
+| Vidéo récompensée | Flux<br>flux vidéo<br>Histoires<br>Marketplace<br>Colonne de droite<br>Bobines<br>Superposition de bobines<br>Vidéo en flux continu<br>Recherche<br>Flux de disco d’entreprise<br>Flux de profil | Stories<br>Feed<br>Explore<br>Reels<br>Explore grid Home<br>Profile feed<br>Search<br>Stream | Stories<br>Inbox |
 
 ## Performances des publicités
 
@@ -64,8 +63,8 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL Campagne]** | Une campagne est un ensemble d’annonces publicitaires conçu pour atteindre un objectif spécifique. | Lorsque vous filtrez le tableau Publicités par campagne, les mesures de synthèse de toutes les publicités de la campagne peuvent être différentes de la ligne de synthèse de la campagne dans la vue [!UICONTROL Canaux]. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
 | **[!UICONTROL Emplacements]** | Nombre d’annonces [emplacements](#ad-placements), c’est-à-dire les emplacements où une annonce publicitaire est apparue dans la campagne. | Les emplacements augmentent la portée de l’audience.<p>Les annonces publicitaires qui n’affichent aucun emplacement et aucun média peuvent indiquer un [type d’annonce non pris en charge](#unsupported-placements).</p> |
 | **[!UICONTROL Média]** | Nombre de ressources utilisées dans la publicité ou l’annonce. | Le nombre indiqué dans le tableau Publicités peut être différent du nombre indiqué dans la vue Détails de la publicité. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
-| **[!UICONTROL Impressions]** | Décompte de chaque chargement de l’emplacement ou de l’annonce publicitaire dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour obtenir de véritables informations sur les performances, considérez-les par rapport à d’autres mesures d’engagement. |
-| **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton d’appel à l’action, dans un emplacement publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
+| **[!UICONTROL Impressions]** | Décompte de chaque chargement de l’emplacement ou de l’annonce publicitaire dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
+| **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton call-to-action, dans un emplacement publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics sur l’annonce publicitaire dans une campagne.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
 | **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour mille impressions publicitaires.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
 | **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet de surveiller les dépenses publicitaires qui entraînent des actions client importantes. |
