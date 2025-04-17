@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
+source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2252'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ Ces informations de mise à jour détaillent les dernières mises à jour de l�
 * Nouvelles options de filtre pour les modèles ! Vous pouvez maintenant affiner votre liste _[!UICONTROL Sélectionner des modèles]_ dans [!DNL Create] et dans _[!UICONTROL Contenu]_ > _[!UICONTROL Modèles]_. Voir [Modèles de recherche](/help/user-guide/content/use-templates.md#search-templates). Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
 * Activation de la fonctionnalité [affichage et sélection de calques individuels](/help/user-guide/create/manage-variants.md#view-layers) tels que des champs de texte modifiables ou des images modifiables) d’une expérience afin de les mettre en surbrillance pour les révisions, telles que la régénération de contenu ou le recadrage d’images.
 * Ajout d’un [nouveau champ de modèle](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, pour du texte supplémentaire dans les expériences afin de capter l’attention de l’audience et de mettre en évidence les messages marketing.
+* Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/overview.md) depuis GenStudio for Performance Marketing dans Google Campaign Manager 360. Activer prend en charge les aperçus détaillés des annonces Google Campaign Manager 360 avant leur publication sur un annonceur Campaign Manager 360. Les publicités publiées via Activer sont automatiquement extraites dans Insights une fois en ligne, ce qui permet aux utilisateurs et utilisatrices de suivre et de générer des rapports sur les performances des publicités.
 
 ## Notes de mise à jour antérieures
 
