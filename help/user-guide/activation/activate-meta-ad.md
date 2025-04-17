@@ -3,9 +3,9 @@ title: Activation d’une métadonnée
 description: Découvrez comment activer une expérience de métadonnées.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1356'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing prend en charge l’activation des Mé
 
 Vous pouvez [créer une méta-expérience](/help/user-guide/create/create-meta-ad.md) dans GenStudio for Performance Marketing et la sélectionner pour activation, ou créer une nouvelle expérience à partir de ressources approuvées dans [!DNL Activate].
 
-L’activation d’une publicité Meta suit les [mêmes étapes générales](create-activation.md) requises pour l’activation sur d’autres canaux payants. Le processus d’activation prend en charge la préparation de vos expériences publicitaires aux exigences spécifiques de Meta . Après avoir activé une expérience Meta, ou contenu créatif, dans GenStudio for Performance Marketing, utilisez [Gestionnaire de métadonnées publicitaires](https://adsmanager.facebook.com/) pour affiner l’expérience pour des emplacements de métadonnées publicitaires spécifiques avant la publication finale.
+L’activation d’une publicité Meta suit les [mêmes étapes générales](create-activation.md) requises pour l’activation sur d’autres canaux payants. Le processus d’activation prend en charge la préparation de votre contenu créatif à partir d’expériences publicitaires en fonction des exigences spécifiques de Meta. Après avoir activé une expérience Meta, ou contenu créatif, dans GenStudio for Performance Marketing, utilisez [Gestionnaire de métadonnées publicitaires](https://adsmanager.facebook.com/) pour affiner l’expérience pour des emplacements de métadonnées publicitaires spécifiques avant la publication finale.
 
 ## Étape 1 : Configurer vos comptes Meta
 
@@ -107,7 +107,7 @@ Utilisez la section _Texte_ de la page _Activer la méta-annonce_ pour ajouter d
 | URL du site web | oui | 1 000 |
 | Image | au moins un obligatoire |                                 |
 
-_Le texte en Principal_ et le _titre_ sont requis par GenStudio for Performance Marketing uniquement, et non par Meta.
+GenStudio for Performance Marketing nécessite _du texte de Principal_ et _headline_, et non Meta.
 
 ### Attribution de métadonnées
 
@@ -148,10 +148,10 @@ Cliquez sur **[!UICONTROL Suivant]** en haut à droite pour prévisualiser votre
 
 La page _Réviser_ affiche votre expérience publicitaire telle qu’elle a été assemblée dans la configuration de _Creative_ et offre une dernière occasion d’afficher et de modifier votre expérience. Cliquez sur **[!UICONTROL Modifier la section]** à côté du libellé _Configuration de Creative_ pour apporter vos modifications. Vous pouvez également cliquer sur **[!UICONTROL Précédent]** en haut à droite pour revenir à la page _Configuration de Creative_.
 
-### Activation complète de votre expérience publicitaire
+### Étape 6 : activation complète de votre expérience publicitaire
 
-Cliquez sur **[!UICONTROL Publier]**. L’expérience complète des métadonnées et les métadonnées associées sont directement transmises au jeu de publicités du Gestionnaire de métadonnées sélectionné. Les expériences sont diffusées au Gestionnaire de métadonnées désactivé. À partir du Gestionnaire de métadonnées publicitaires, vous pouvez gérer les dernières étapes de déploiement de l’expérience publicitaire et de la méta-campagne.
+1. Cliquez sur **[!UICONTROL Publier]**.
 
-### Connectez-vous au Gestionnaire de métadonnées publicitaires pour terminer l’activation
+   L’expérience complète des métadonnées et les métadonnées associées sont directement transmises au jeu de publicités du Gestionnaire de métadonnées sélectionné. Les expériences sont diffusées au gestionnaire de métadonnées publicitaires dans un état inactif. À partir du Gestionnaire de métadonnées publicitaires, vous pouvez gérer les dernières étapes de déploiement de l’expérience publicitaire et de la méta-campagne.
 
-Une fois l’activation terminée, vous devez vous connecter au Gestionnaire de métadonnées publicitaires. À partir du [Gestionnaire de publicités Meta](https://adsmanager.facebook.com/), vous pouvez passer en revue votre expérience publicitaire et finaliser la publication sur des canaux Meta spécifiques.
+1. [Connectez-vous à Meta Ads Manager](https://adsmanager.facebook.com/) pour consulter votre expérience publicitaire et finaliser la publication sur des canaux Meta spécifiques.
