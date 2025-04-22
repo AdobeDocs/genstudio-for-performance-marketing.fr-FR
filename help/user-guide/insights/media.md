@@ -4,9 +4,9 @@ description: Découvrez comment évaluer les performances des médias dans Adobe
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ Dans la vue _Détails du média_, vous pouvez voir quelles publicités utilisent
 
 ![Détails du média](/help/assets/insights-media-details.png){zoomable="yes"}
 
+### Attributs de média
+
+{{$include /help/_includes/generated-attributes.md}}
+
 ## Performances des médias
 
 Les mesures d’informations peuvent vous aider à évaluer quels médias contribuent au succès d’une campagne et quels attributs de médias sont les plus efficaces.
@@ -45,7 +49,7 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | Mesure | Définition | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL ID du média]** | Nom associé à une image, une vidéo, un texte ou tout autre contenu créatif. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
-| **[!UICONTROL Impressions]** | Décompte de chaque chargement du média dans le canal, indépendamment de l’interaction ou de l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour obtenir de véritables informations sur les performances, considérez-les par rapport à d’autres mesures d’engagement. |
+| **[!UICONTROL Impressions]** | Décompte de chaque chargement du média dans le canal, indépendamment de l’interaction ou de l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien, sur le média. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant donné lieu à des clics dans le média d’une publicité.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le média est très pertinent et attrayant pour le public. Cela suggère que le message et la conception captent efficacement l&#39;intérêt du public et l&#39;incitent à agir. En outre, un taux de clics élevé peut signifier que le média est bien ciblé et qu’il correspond à l’audience visée, ce qui se traduit par de meilleures performances globales de la campagne. |
 | **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour mille impressions de média.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;impressions, puis multiplié par 1 000 | Une valeur CPM faible peut indiquer des performances multimédias rentables, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
@@ -53,4 +57,4 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic sur le média.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget en ce qui concerne les médias individuels sur une période donnée. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |
 | **[!UICONTROL Utilisé dans ces publicités]** | Nombre de publicités qui utilisent ce média. | |
-| **[!UICONTROL Attributs]** | Liste des attributs détectés et appliqués à ce média. | |
+| **Attributs** | Liste des fonctionnalités inhérentes présentes dans ce média. | Peut vous aider à identifier les éléments créatifs qui trouvent le plus d’écho auprès de votre audience. |

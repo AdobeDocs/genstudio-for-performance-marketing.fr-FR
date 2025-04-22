@@ -4,7 +4,7 @@ description: Découvrez la fonctionnalité vidéo des catégories d’attributs 
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -44,9 +44,9 @@ Le tableau suivant répertorie les catégories de fonctionnalités vidéo reconn
 | Catégorie | Description | Exemple |
 | ------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | Ambiance Audio | Détermine le ton émotionnel global ou l’atmosphère de la piste audio, comme `calm`, `upbeat` ou `tense`. | `Energetic`, `Happy`, `Emotional Ambient/atmospheric`, `Relaxing`, `Dramatic`, `Expressive/characterful`, `Intense`, `Slow`, `Neutral` |
-| Types audio | Ajoute un ou plusieurs types d’audio à la vidéo, tels que `music` ou `speech`. | `Music`, `Speech`, `Silence`, `Special effects`, `Ambience` |
+| Types audio | Ajoute au(x) type(s) de contenu audio présent(s) dans la vidéo comme `music` ou `speech`. | `Music`, `Speech`, `Silence`, `Special effects`, `Ambience` |
 | Catégories | Classe la vidéo dans une ou plusieurs grandes catégories de contenu. | `Entertainment`, `Sports`, `Music`, `Gaming`, `Howto tutorials`, `Fashion and style`, `Film and animation`, `Science and technology`, `Autos and vehicles`, `Pets and animals`, `People and blogs`, `News and politics`, `Social causes and activism`, `Travel and events`, `Education` `Sales and offers` |
-| Catégorie de musique | Classification large du genre musical lorsque la musique est présente dans la vidéo. Cela permet d’identifier le type général de musique, tel que les styles `contemporary` ou `traditional`. | `Contemporary/pop music`, `Traditional/folk-based music`, `Instrumental/orchestral music`, `Rock music`, `Acoustic/unplugged music`, `Specialised/occasional music`, `Experimental/unique music` |
+| Catégorie de musique | Classification large du genre musical lorsque la musique est présente dans la vidéo. Le genre permet d’identifier le type général de musique, tel que les styles `contemporary` ou `traditional`. | `Contemporary/pop music`, `Traditional/folk-based music`, `Instrumental/orchestral music`, `Rock music`, `Acoustic/unplugged music`, `Specialised/occasional music`, `Experimental/unique music` |
 | Genre de musique | Classification spécifique du style musical lorsque la musique est présente dans la vidéo, ce qui permet une identification plus détaillée de la musique, telle que la `electronic` ou la `jazz`. | `electronic`, `hip-hop`, `dance`, `novelty`, `rock`, `world`, `reggae`, `pop`, `film`, `jazz`, `background`, `latin` |
 | Objets | Identifie un ou plusieurs éléments, entités et éléments qui apparaissent dans la vidéo. | Les valeurs sont trop nombreuses, mais certains exemples incluent : `backpack`, `book`, `hawk`, `glasses`, `fish`, `pencil`, `mountain bike`, `soap` |
 | Orientation | Alignement de la vidéo par rapport à sa largeur et sa hauteur. Détecte s’il est plus large que haut (paysage), plus haut que large (portrait) ou égal en largeur et en hauteur (carré). | `landscape`, `portrait`, `square` |

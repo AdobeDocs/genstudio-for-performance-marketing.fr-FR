@@ -4,9 +4,9 @@ description: Découvrez comment évaluer les performances d’attributs spécifi
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 4afdde6fd08a9f33ff599f5f85b9c1b9d79870ec
+source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau o
 
 ## Détails des attributs
 
-Les attributs permettent d’identifier [média](media.md#media-details) par leurs détails inhérents, tels que la couleur, la composition, les éléments visuels et d’autres propriétés.
+Les attributs permettent d’identifier les [annonces](ads.md#ad-details) et [médias](media.md#media-details) en fonction de leurs détails inhérents, tels que la couleur, la composition, les éléments visuels et d’autres propriétés.
 
 Dans la vue des détails de l’attribut, vous pouvez voir quelles publicités utilisent l’attribut sélectionné. Les détails incluent les performances totales des attributs et une répartition des mesures de performances liées à chaque publicité.
 
@@ -39,9 +39,9 @@ GenStudio for Performance Marketing détecte certaines fonctionnalités et appli
 
 Un attribut _category_ est un groupe de classification qui organise les attributs associés partageant une caractéristique commune. Ces catégories permettent de rationaliser la découverte, l’identification et la compréhension d’attributs spécifiques en fournissant un plus grand contexte et en facilitant leur application et leur utilisation.
 
-GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier les [images](image-features.md), [vidéos](video-features.md) et [texte](text-features.md) et appliquer les [!UICONTROL attributs de médias] en fonction d’une probabilité d’exactitude.
+GenStudio for Performance Marketing utilise l’IA d’Adobe et les fonctionnalités de machine learning pour étudier les [images](image-features.md), [vidéos](video-features.md) et [texte](text-features.md) et appliquer des attributs aux publicités et aux médias en fonction de la probabilité d’exactitude.
 
-La liste des attributs détectés pour le contenu multimédia n’est pas exhaustive. Les médias qui contiennent un ensemble riche de fonctionnalités peuvent être limités aux trois fonctionnalités les plus dominantes identifiées par l’IA. Par exemple, l’illustration suivante contient plusieurs attributs d’image détectés, y compris plusieurs objets, des couleurs de premier plan et d’arrière-plan.
+La liste des attributs détectés pour les publicités et le contenu multimédia n’est pas exhaustive. Le contenu qui contient un riche ensemble de fonctionnalités peut être limité aux trois fonctionnalités les plus dominantes identifiées par l’IA. Par exemple, l’illustration suivante contient plusieurs attributs d’image détectés, y compris plusieurs objets, des couleurs de premier plan et d’arrière-plan :
 
 ![attributs d’image](/help/assets/category/asset-attributes.png "l’image de Toucan comprend plusieurs attributs détectés"){width="300" zoomable="yes"}
 
@@ -61,7 +61,7 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL Category]** | La [catégorie](#categories) qui représente la qualité inhérente d’un attribut. |  |
 | **[!UICONTROL d’images]** | Nombre d’images possédant cet attribut. | Le nombre indiqué dans le tableau Attributs peut être différent du nombre indiqué dans la vue Détails de l’attribut. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
 | **[!UICONTROL de vidéos]** | Nombre de vidéos comportant cet attribut. | Le nombre indiqué dans le tableau Attributs peut être différent du nombre indiqué dans la vue Détails de l’attribut. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
-| **[!UICONTROL Impressions]** | Nombre de fois qu’une image ou des vidéos avec cet attribut sont chargées dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour obtenir de véritables informations sur les performances, considérez-les par rapport à d’autres mesures d’engagement. |
+| **[!UICONTROL Impressions]** | Nombre de fois qu’une image ou des vidéos avec cet attribut sont chargées dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs interagissent avec une image ou une vidéo avec cet attribut. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics sur les images ou les vidéos avec cet attribut.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
 | **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions publicitaires d’une image ou d’une vidéo avec cet attribut.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |

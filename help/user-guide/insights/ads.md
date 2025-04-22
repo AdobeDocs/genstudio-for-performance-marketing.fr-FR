@@ -4,9 +4,9 @@ description: Consultez un aperçu de l’engagement des clients, du budget et de
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 2d396b183084996c45616d29387e068a5d502c53
+source-git-commit: b4e0892af62be754f7b596537125458fc28930f3
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,11 @@ Sélectionnez une publicité et affichez les mesures de performances, les attrib
 
 ![Détails de l’annonce avec des mesures et des emplacements publicitaires](/help/assets/insights-ad-details.png){zoomable="yes"}
 
-### Attributs de texte
+### Ajouter des attributs
 
-Sous l’aperçu de l’annonce publicitaire se trouve une liste d’attributs [!UICONTROL Texte] associés à l’annonce publicitaire. Lorsque les ressources et les publicités sont approuvées et stockées dans [!DNL Content], GenStudio for Performance Marketing génère des balises en fonction de leurs fonctionnalités inhérentes. Voir [Détails du média](/help/user-guide/content/asset-details.md#system-metadata) pour plus d’informations sur les métadonnées système.
+Sous l’aperçu de l’annonce publicitaire se trouve une liste des attributs associés à l’annonce publicitaire.
+
+{{$include /help/_includes/generated-attributes.md}}
 
 ### Formats publicitaires
 
@@ -58,11 +60,11 @@ Les mesures d’informations peuvent vous aider à évaluer quelles annonces con
 Le tableau suivant fournit des définitions et des informations sur les principales mesures de marketing numérique dans la vue du tableau [!UICONTROL Publicités]. Chaque mesure comprend une brève définition en ce qui concerne les noms des publicités, la manière dont la mesure est calculée et un ou plusieurs informations pour aider à comprendre sa signification et son impact sur une publicité.
 
 | Mesure | Définition | Insight |
-| ---------------------- | ----------------------------- | -------------------------------- |
+| ---------------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Nom de l’annonce]** | Liste des publicités pour le compte du canal connecté. Filtrez les publicités en sélectionnant une campagne. | Triez la liste des publicités en cliquant sur l’une des mesures clés. |
 | **[!UICONTROL Campagne]** | Une campagne est un ensemble d’annonces publicitaires conçu pour atteindre un objectif spécifique. | Lorsque vous filtrez le tableau Publicités par campagne, les mesures de synthèse de toutes les publicités de la campagne peuvent être différentes de la ligne de synthèse de la campagne dans la vue [!UICONTROL Canaux]. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
 | **[!UICONTROL Emplacements]** | Nombre d’annonces [emplacements](#ad-placements), c’est-à-dire les emplacements où une annonce publicitaire est apparue dans la campagne. | Les emplacements augmentent la portée de l’audience.<p>Les annonces publicitaires qui n’affichent aucun emplacement et aucun média peuvent indiquer un [type d’annonce non pris en charge](#unsupported-placements).</p> |
-| **[!UICONTROL Média]** | Nombre de ressources utilisées dans la publicité ou l’annonce. | Le nombre indiqué dans le tableau Publicités peut être différent du nombre indiqué dans la vue Détails de la publicité. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
+| **[!UICONTROL Média]** | Nombre de ressources utilisées dans la publicité et les emplacements publicitaires | Le nombre indiqué dans le tableau Publicités peut être différent du nombre indiqué dans la vue Détails de la publicité. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
 | **[!UICONTROL Impressions]** | Décompte de chaque chargement de l’emplacement ou de l’annonce publicitaire dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton call-to-action, dans un emplacement publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics sur l’annonce publicitaire dans une campagne.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
@@ -70,6 +72,7 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet de surveiller les dépenses publicitaires qui entraînent des actions client importantes. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un emplacement publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget de Campaign sur une période donnée pour placer cette annonce publicitaire. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |
+| **Attributs** | Liste des fonctionnalités inhérentes présentes dans cette publicité. | Peut vous aider à identifier les éléments créatifs qui trouvent le plus d’écho auprès de votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
 
 ## Performances de l’emplacement
 
@@ -78,8 +81,9 @@ Dans la vue _[!UICONTROL Page de détails de l’annonce publicitaire]_, les tro
 Le tableau suivant fournit des définitions pour les mesures de performances des emplacements publicitaires :
 
 | Mesure | Définition | Insight |
-| ---------------------- | ----------------------------- | ----------- |
+| ---------------------------- | ----------------------------- | --------------------------------- |
 | **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions pour un emplacement publicitaire unique qui a généré des clics.<p>**Calcul**:`clicks` divisé par `impressions`<p>Cette mesure permet de déterminer l’efficacité de l’emplacement publicitaire pour séduire l’audience. | Un taux de clics élevé indique que le positionnement de l’annonce publicitaire est pertinent et attrayant pour l’audience, ce qui entraîne davantage d’interactions. |
 | **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour un emplacement publicitaire unique afin d’atteindre l’action souhaitée par le client ou la cliente, comme un achat ou un abonnement.<p>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire dans la génération d’actions pertinentes. | Une CPA plus faible suggère que le placement publicitaire est efficace pour convertir les interactions d’audience en actions souhaitées à moindre coût. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un seul emplacement publicitaire.<p>**Calcul** : montant total `spent` divisé par `clicks`<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire pour la génération de clics. | Un CPC inférieur indique que l’emplacement publicitaire génère des clics à un coût inférieur, ce qui peut être bénéfique pour maximiser le retour sur investissement. |
 | **[!UICONTROL Dépenses]** | Montant dépensé pour un emplacement publicitaire unique, représentant une fraction du montant total dépensé pour l’ensemble de l’annonce. Cette mesure permet de suivre l’efficacité de l’affectation budgétaire et des dépenses pour chaque emplacement publicitaire. | Le suivi des dépenses peut permettre de s’assurer que les ressources sont utilisées efficacement à différents emplacements. |
+| **Attributs** | Liste des fonctionnalités inhérentes présentes dans cet emplacement publicitaire. | Peut vous aider à identifier les éléments créatifs qui trouvent le plus d’écho auprès de votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
