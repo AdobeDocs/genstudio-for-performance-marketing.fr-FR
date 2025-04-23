@@ -4,7 +4,7 @@ description: Consultez un aperçu de l’engagement des clients, du budget et de
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: b4e0892af62be754f7b596537125458fc28930f3
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 0%
@@ -20,6 +20,8 @@ La vue [!DNL Insights] _[!UICONTROL Publicités]_ affiche une liste des publicit
 Le tableau _[!UICONTROL Annonces]_ est organisé à l’aide des [!UICONTROL noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau pour supprimer tous les filtres.
 
 ![Filtre et tableau des publicités](/help/assets/insights-ads-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

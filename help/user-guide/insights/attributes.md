@@ -4,7 +4,7 @@ description: Découvrez comment évaluer les performances d’attributs spécifi
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%
@@ -22,6 +22,8 @@ Le tableau _[!UICONTROL Attributs]_ est organisé à l’aide du nom [!UICONTROL
 L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau pour supprimer tous les filtres.
 
 ![Filtre et tableau des attributs](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

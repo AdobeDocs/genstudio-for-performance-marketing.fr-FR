@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -24,3 +24,9 @@ ht-degree: 0%
 >[!TIP]
 >
 >Enrichissez vos compétences sur ce sujet avec [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
+
+## Conseil sur les tables vides {#empty-table}
+
+>[!TIP]
+>
+>Vous voyez un message `No results found` ? Ajustez les filtres en modifiant les sélections, en effacant tous les filtres ou en élargissant la période.

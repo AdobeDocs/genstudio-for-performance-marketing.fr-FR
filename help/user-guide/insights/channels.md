@@ -4,7 +4,7 @@ description: Consultez une vue d’ensemble de l’engagement des clients, des p
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -20,6 +20,8 @@ La vue [!DNL Insights] _[!UICONTROL Canaux]_ affiche une liste des campagnes pou
 Le tableau _[!UICONTROL Canaux]_ est organisé à l’aide de la campagne publicitaire basée sur le canal. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau pour supprimer tous les filtres.
 
 ![Filtre et tableau des canaux](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 
@@ -48,8 +50,8 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | ----------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Nom de la méta-campagne]** | Liste des noms de campagne pour le compte de canal connecté. Le statut de la campagne peut être `Active`, `Paused`, `Deleted` ou `Archived`. Filtrez les campagnes par statut et objectif. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
 | **[!UICONTROL Launch]** | Date à laquelle la campagne a été publiée ou publiée sur le marché. | Un nombre élevé d’impressions peut indiquer que la publicité atteint l’audience prévue. |
-| **[!UICONTROL Impressions]** | Décompte de chaque chargement de contenu dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour obtenir de véritables informations sur les performances, considérez-les avec d’autres mesures d’engagement. |
-| **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton d’appel à l’action, dans la campagne publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
+| **[!UICONTROL Impressions]** | Décompte de chaque chargement de contenu dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue. Toutefois, pour des performances réelles, insight doit être considéré avec d’autres mesures d’engagement. |
+| **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton call-to-action, dans la campagne publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics de campagne dans un canal.<br>**Calcul** : (`clicks` divisé par `impressions`) x 100 = % | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
 | **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions d’annonce publicitaire pour la campagne publicitaire. <br>**Calcul** : (montant total `spent` divisé par `impressions`) x 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans une campagne publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` = $ | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
