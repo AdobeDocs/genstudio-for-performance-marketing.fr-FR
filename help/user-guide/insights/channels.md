@@ -4,9 +4,9 @@ description: Consultez une vue d’ensemble de l’engagement des clients, des p
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: 997bd2ce2243bbfe59567c5dd3b389408446f5e7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,21 @@ La vue [!DNL Insights] _[!UICONTROL Canaux]_ affiche une liste des campagnes pou
 
 {{connect-insights}}
 
-Le tableau _[!UICONTROL Canaux]_ est organisé à l’aide de la campagne publicitaire basée sur le canal. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau pour supprimer tous les filtres.
+Le tableau _[!UICONTROL Canaux]_ est organisé à l’aide de la campagne publicitaire basée sur le canal. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
 
 ![Filtre et tableau des canaux](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
+Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Publicités] ](ads.md) s’ouvre dans une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les annonces qui ont contribué à son succès global.
+
 {{empty-table}}
 
-{{$include /help/_includes/download-insights.md}}
+## Filtrer les canaux
 
-Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Publicités] ](ads.md) s’ouvre dans une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les annonces qui ont contribué à son succès global.
+L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Le filtre appliqué persiste dans toutes les vues dans [!DNL Insights]. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau ou de la galerie des publicités pour supprimer tous les filtres sélectionnés.
+
+### Télécharger les résultats du tableau
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Objectifs
 
@@ -57,4 +63,4 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans une campagne publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` = $ | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Lectures vidéo]** | Nombre de lectures d’une vidéo dans une campagne publicitaire, à l’exclusion des relectures. La lecture d’une vidéo démarre lorsqu’un utilisateur clique sur Lecture ou que la vidéo est lue automatiquement. | Un nombre élevé de lectures vidéo peut indiquer que la vidéo attire l’attention et que la miniature, le titre ou l’emplacement attire effectivement les visionneuses. |
 | **[!UICONTROL Budget]** | Montant total alloué à une campagne publicitaire pour atteindre les objectifs de la campagne. | Un budget élevé signifie davantage de ressources pour une portée plus large et un impact potentiellement plus important. |
-| **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget sur une période donnée pour placer des annonces sur différentes plateformes. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi du montant des dépenses par rapport aux mesures de rendement clés afin de surveiller le rendement global de l&#39;investissement. |
+| **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget sur une période donnée pour placer des annonces sur différentes plateformes. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |

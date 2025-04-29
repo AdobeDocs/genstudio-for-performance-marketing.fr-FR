@@ -4,24 +4,58 @@ description: Consultez un aperçu de l’engagement des clients, du budget et de
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: e053c91ebb40a9625ce22281a89feaa9cccab956
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
 
 # Publicités et emplacement publicitaire - Aperçu
 
-La vue [!DNL Insights] _[!UICONTROL Publicités]_ affiche une liste des publicités pour le compte publicitaire du canal connecté. Une _publicité_ est une ressource promotionnelle qui comprend du contenu visuel et interactif destiné à être distribué à une audience spécifique dans le cadre d’une campagne marketing. Pour Facebook, les publicités sont des noms de publicités Meta.
+La vue [!DNL Insights] _[!UICONTROL Publicités]_ affiche une liste des publicités pour le compte publicitaire du canal connecté. Une _publicité_ est une ressource promotionnelle qui comprend du contenu visuel et interactif destiné à être distribué à une audience spécifique dans le cadre d’une campagne marketing.
 
 {{connect-insights}}
 
-Le tableau _[!UICONTROL Annonces]_ est organisé à l’aide des [!UICONTROL noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau pour supprimer tous les filtres.
+Le tableau _[!UICONTROL Annonces]_ est organisé à l’aide des [!UICONTROL noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
 
 ![Filtre et tableau des publicités](/help/assets/insights-ads-filter.png){zoomable="yes"}
 
+La vue galerie _[!UICONTROL Annonce]_ affiche un collage d’aperçus d’annonce publicitaire et d’une mesure, telle que le taux de clic publicitaire. Cliquez sur l’icône des paramètres (cog) située au-dessus du côté droit de la galerie pour ouvrir **[!UICONTROL Paramètres de la carte]** et activer l’une des trois mesures visibles :
+
+- Coût par action (CPA)
+- Taux de clic publicitaire (CTR)
+- CPC (coût par clic)
+- Dépenses
+
 {{empty-table}}
+
+## Filtrer les publicités
+
+L’icône de filtre (entonnoir) située au-dessus du côté gauche ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Avec certains filtres, vous pouvez utiliser des mots-clés précis pour affiner la liste des critères. Les filtres de mots-clés sont particulièrement utiles pour les campagnes qui suivent une convention de nommage complexe avec plusieurs identifiants uniques, tels que :
+
+- Nom ou code de région spécifique : `NA`, `EMEA`
+- Acronymes des types de contenu : `EB`, `CHT` ou `DSP`
+- Codes ou acronymes des offres : `OFFER2023`, `PROMO`
+
+**Pour filtrer par campagnes** :
+
+1. Développez le filtre **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Sélectionner]**.
+1. Dans le champ de recherche, saisissez des mots-clés séparés par des virgules.
+
+   Utilisez autant de mots-clés que nécessaire pour affiner la liste :
+
+   ![Sélectionner des campagnes](/help/assets/insights-select-campaign.png){width=400}
+
+1. Sélectionnez une ou plusieurs campagnes à partir de la recherche résultante et cliquez sur **[!UICONTROL Appliquer]**.
+
+   Les campagnes sélectionnées apparaissent désormais dans la liste _[!UICONTROL Filtrer par]_ au-dessus du tableau ou de la galerie des annonces, ce qui vous permet de vous concentrer sur les annonces associées aux campagnes sélectionnées.
+
+>[!NOTE]
+>
+>Le filtre appliqué persiste dans toutes les vues dans [!DNL Insights]. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau ou de la galerie des publicités pour supprimer tous les filtres sélectionnés.
+
+### Télécharger les résultats du tableau
 
 {{$include /help/_includes/download-insights.md}}
 
@@ -39,21 +73,27 @@ Sous l’aperçu de l’annonce publicitaire se trouve une liste des attributs a
 
 ### Formats publicitaires
 
+Les formats d’annonces font référence aux différents éléments créatifs et mises en page utilisés pour s’aligner sur les objectifs de votre campagne, faire participer votre audience cible et suivre les mesures de performances.
+
 [!DNL Insights] dans GenStudio for Performance Marketing prend actuellement en charge les formats d’annonce suivants.
 
 | Pris en charge | Non pris en charge |
 |-----------|-------------|
-| Spécification du flux de ressources (optimisation de l’emplacement)<br>image unique ou vidéo<br>lien | Carrousel<br>Collaboratif<br>Catalogue<br>Expérience instantanée<br>Spécification du flux de ressources (autre que l’optimisation de l’emplacement)<br>Appel (image/vidéo)<br>Application (image/vidéo)<br>Messagerie<br>Lead (image/vidéo)<br>Diaporama (vidéo)<br>Collection (image/vidéo))<br>Boutique (image/vidéo)<br>Photo ou vidéo à partir de la publication sur la page/de la publication sur Instagram/des médias<br>Contenu de marque<br>Flexible<br>Advantage+ Catalogue |
+| Spécification du flux de ressources (optimisation de l’emplacement)<br>image unique ou vidéo<br>lien | Carrousel<br>collaboratif<br>Catalogue<br>Expérience instantanée<br>Spécification du flux de ressources (autre que l’optimisation de l’emplacement)<br>Appel (image et vidéo)<br>Application (image et vidéo)<br>Messagerie<br>Lead (image et vidéo)<br>Diaporama (vidéo)<br>Collection (image et vidéo))<br>Boutique (image et vidéo)<br>Photo ou vidéo à partir de la publication sur la page, de la publication sur Instagram<br>Contenu de marque<br>Flexible<br>Avantage+ Catalogue |
 
 ### Ajouter des emplacements
 
-Lorsque vous créez une campagne avec des Méta-annonces, vous avez peut-être sélectionné où diffuser vos annonces en fonction de l’objectif [de la campagne](channels.md#objectives). Les emplacements publicitaires élargissent la portée de l’audience de votre publicité.
+Les emplacements publicitaires font référence aux emplacements ou plateformes spécifiques où vos annonces apparaissent dans une campagne. Ces emplacements déterminent comment et où votre audience interagit avec votre contenu. Les emplacements publicitaires élargissent la portée de l’audience, ce qui permet d’optimiser la visibilité, l’engagement et l’efficacité globale de la campagne.
+
+Lorsque vous créez une campagne avec des Méta-annonces, vous avez peut-être sélectionné où diffuser vos annonces en fonction de l’objectif [de la campagne](channels.md#objectives).
 
 Voici une liste des emplacements publicitaires pris en charge :
 
-| Audience Network | [Facebook/Meta](https://www.facebook.com/business/help/407108559393196?id=369787570424415) | Instagram | Messager |
+| Audience Network | Facebook/Meta \* | Instagram | Messager |
 |--------------------|--------------------|-------------------------|---------------------|
 | Vidéo récompensée | Flux<br>flux vidéo<br>Histoires<br>Marketplace<br>Colonne de droite<br>Bobines<br>Superposition de bobines<br>Vidéo en flux continu<br>Recherche<br>Flux de disco d’entreprise<br>Flux de profil | Stories<br>Feed<br>Explore<br>Reels<br>Explore grid Home<br>Profile feed<br>Search<br>Stream | Stories<br>Inbox |
+
+\* Voir [À propos des emplacements publicitaires dans les technologies Meta](https://www.facebook.com/business/help/407108559393196?id=369787570424415) dans le _Centre d’aide aux entreprises Meta_.
 
 ## Performances des publicités
 
@@ -70,11 +110,11 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL Impressions]** | Décompte de chaque chargement de l’emplacement ou de l’annonce publicitaire dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton call-to-action, dans un emplacement publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics sur l’annonce publicitaire dans une campagne.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
-| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour mille impressions publicitaires.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
+| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût moyen pour mille impressions de publicité.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
 | **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet de surveiller les dépenses publicitaires qui entraînent des actions client importantes. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un emplacement publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget de Campaign sur une période donnée pour placer cette annonce publicitaire. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |
-| **Attributs** | Liste des fonctionnalités inhérentes présentes dans cette publicité. | Peut vous aider à identifier les éléments créatifs qui trouvent le plus d’écho auprès de votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
+| **Attributs** | Liste des fonctionnalités inhérentes présentes dans cette publicité. | Les attributs permettent d’identifier les éléments créatifs qui interagissent le plus avec votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
 
 ## Performances de l’emplacement
 
@@ -88,4 +128,4 @@ Le tableau suivant fournit des définitions pour les mesures de performances des
 | **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour un emplacement publicitaire unique afin d’atteindre l’action souhaitée par le client ou la cliente, comme un achat ou un abonnement.<p>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire dans la génération d’actions pertinentes. | Une CPA plus faible suggère que le placement publicitaire est efficace pour convertir les interactions d’audience en actions souhaitées à moindre coût. |
 | **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un seul emplacement publicitaire.<p>**Calcul** : montant total `spent` divisé par `clicks`<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire pour la génération de clics. | Un CPC inférieur indique que l’emplacement publicitaire génère des clics à un coût inférieur, ce qui peut être bénéfique pour maximiser le retour sur investissement. |
 | **[!UICONTROL Dépenses]** | Montant dépensé pour un emplacement publicitaire unique, représentant une fraction du montant total dépensé pour l’ensemble de l’annonce. Cette mesure permet de suivre l’efficacité de l’affectation budgétaire et des dépenses pour chaque emplacement publicitaire. | Le suivi des dépenses peut permettre de s’assurer que les ressources sont utilisées efficacement à différents emplacements. |
-| **Attributs** | Liste des fonctionnalités inhérentes présentes dans cet emplacement publicitaire. | Peut vous aider à identifier les éléments créatifs qui trouvent le plus d’écho auprès de votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
+| **Attributs** | Liste des fonctionnalités inhérentes présentes dans cet emplacement publicitaire. | Les attributs permettent d’identifier les éléments créatifs qui interagissent le plus avec votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |

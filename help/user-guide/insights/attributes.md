@@ -4,9 +4,9 @@ description: Découvrez comment évaluer les performances d’attributs spécifi
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,20 @@ La vue [!DNL Insights] _[!UICONTROL Attributs]_ affiche une liste des attributs 
 
 Le tableau _[!UICONTROL Attributs]_ est organisé à l’aide du nom [!UICONTROL Attribut]. Vous pouvez basculer entre les types de liste à l’aide du bouton **[!UICONTROL Images]** et du bouton **[!UICONTROL Vidéo]**. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
 
-L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau pour supprimer tous les filtres.
-
 ![Filtre et tableau des attributs](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
 {{empty-table}}
+
+## Attributs de filtre
+
+L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Voir [Filtrer les médias](/help/user-guide/insights/media.md#filter-media) pour en savoir plus sur les filtres de mots-clés pour les campagnes et les publicités.
+
+
+>[!NOTE]
+>
+>Le filtre appliqué persiste dans toutes les vues dans [!DNL Insights]. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau ou de la galerie des publicités pour supprimer tous les filtres sélectionnés.
+
+### Télécharger les résultats du tableau
 
 {{$include /help/_includes/download-insights.md}}
 
