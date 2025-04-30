@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
+source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -59,12 +59,32 @@ La vue _[!UICONTROL Comptes Google Campaign Manager 360]_ répertorie les `Accou
 
 ### Connexion des métadonnées publicitaires
 
+Lorsque vous connectez votre profil _Meta Business_ à GenStudio for Performance Marketing, vous bénéficiez d’un accès transparent aux données publicitaires pour vos pages d’entreprise, comptes de métadonnées publicitaires et autres ressources Meta.
+
 >[!BEGINSHADEBOX]
 
 **Conditions préalables** :
 
-- Compte Facebook/Meta ads
-- Accès au compte Méta-publicités avec `View performance` niveau d’autorisation pour accéder aux rapports et afficher les publicités
+- Identifiant Facebook/Meta qui peut accéder à tous les services Meta, tels que le compte Meta Ads et le profil professionnel Facebook
+- Accès au compte Méta-publicités avec `View performance` niveau d’autorisation pour accéder aux rapports et afficher les publicités, y compris les éléments suivants
+   - Autorisations requises pour une utilisation avec [!DNL Insights] :
+
+      - `pages_show_list`
+      - `ads_read`
+      - `ads_management`
+      - `pages_read_engagement`
+
+   - Autorisations requises pour une utilisation avec [!DNL Activate] :
+
+      - `ads_management`
+      - `ads_read`
+      - `business_management`
+      - `instagram_basic`
+      - `instagram_content_publish`
+      - `pages_manage_ads`
+      - `pages_manage_posts`
+      - `pages_show_list`
+
 - Supprimez tous les bloqueurs de pop-up dans votre navigateur
 
 >[!ENDSHADEBOX]
@@ -77,19 +97,26 @@ La vue _[!UICONTROL Comptes Google Campaign Manager 360]_ répertorie les `Accou
 
    Vous devrez peut-être supprimer les bloqueurs de pop-up, puis utiliser **[!UICONTROL Actualiser]** pour réessayer.
 
-1. Suivez les instructions d&#39;authentification Facebook.
+1. Suivez les instructions d’authentification Facebook, vérifiez les informations du compte, puis cliquez sur **[!UICONTROL Continuer comme ...]**
 
-1. Dans le pop-up _[!UICONTROL Connexion Facebook à l’entreprise]_ (symbole Meta à Adobe), effectuez les sélections suivantes.
+1. Dans _[!UICONTROL Facebook Login for Business]_ (symbole Meta to Adobe), parcourez les sélections suivantes pour accorder l’accès à GenStudio for Performance Marketing :
 
-   - Vérifiez les informations du compte et cliquez sur **[!UICONTROL Continuer comme]**
-   - Accordez l’accès à certaines pages et cliquez sur **[!UICONTROL Continuer]**
-   - Accordez l’accès à certaines entreprises et cliquez sur **[!UICONTROL Continuer]**
-   - Inscrivez-vous à un ou plusieurs comptes Instagram et cliquez sur **[!UICONTROL Continuer]**
+   - Sélectionnez un ou plusieurs profils Meta Business et cliquez sur **[!UICONTROL Continuer]**
+   - Sélectionnez une ou plusieurs méta-pages, puis cliquez sur **[!UICONTROL Continuer]**
+   - Sélectionnez un ou plusieurs comptes Instagram et cliquez sur **[!UICONTROL Continuer]**
    - Vérifiez les sélections et cliquez sur **[!UICONTROL Enregistrer]**
 
-1. Dans la vue _[!UICONTROL Méta-publicités]_, sélectionnez un ou plusieurs comptes et cliquez sur **[!UICONTROL Sélectionner]**.
+1. Une fois que vous avez reçu la vérification que votre compte est connecté, cliquez sur **[!UICONTROL Compris]**.
 
-La vue _[!UICONTROL Comptes de méta-annonces]_ répertorie les `Account name`, `Added by`, `Date added` et `Status`. Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste.
+   Cette étape permet à GenStudio for Performance Marketing d’accéder à toutes les publicités, métadonnées et mesures pour des performances optimales.
+
+1. Dans _[!UICONTROL Méta-publicités]_, sélectionnez un ou plusieurs comptes à inclure dans [!DNL Insights] et cliquez sur **[!UICONTROL Sélectionner]**.
+
+1. Une fois que vous avez reçu une confirmation _Connecté à Platform_, cliquez sur **[!UICONTROL Afficher les comptes]**.
+
+   La vue _[!UICONTROL Comptes de méta-annonces]_ répertorie les `Account name`, `Added by`, `Date added` et `Status`.
+
+Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste. Le flux d’autorisation peut être légèrement différent lorsque vous ajoutez des comptes liés au même profil Meta Business. Vous sélectionnez uniquement les nouveaux comptes de métadonnées publicitaires pendant le processus de connexion.
 
 ## Ingestion des données
 
