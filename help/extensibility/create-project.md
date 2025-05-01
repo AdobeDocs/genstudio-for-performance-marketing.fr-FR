@@ -3,10 +3,10 @@ title: Création d’un projet App Builder pour étendre GenStudio for Performan
 description: Créez un projet App Builder pour votre application ou module complémentaire.
 feature: Extensibility
 exl-id: 502b6dd5-68ac-4392-bba3-3ab8cd9eefc2
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 9efa42bac9e5623ace963d0de19eeb24467b69d8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
