@@ -3,9 +3,9 @@ title: Déploiement de l’application App Builder
 description: Déployez votre application App Builder, ou module complémentaire, pour GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Déploiement de l’application
 
 L’exécution de votre application fournit un instantané préliminaire de votre comportement de module complémentaire avant son déploiement. Ces informations peuvent faciliter le débogage. Vous pouvez forcer la création et le déploiement d&#39;une application déployée sans la soumettre à nouveau pour approbation.
-
 
 **Pour exécuter l’application** :
 
