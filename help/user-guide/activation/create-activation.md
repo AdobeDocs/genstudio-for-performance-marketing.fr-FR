@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Workflow d’activation
 
-_[!DNL Activate]_prend en charge l’activation des expériences publicitaires sous la forme d’un contenu créatif dans des formats spécifiques à un canal, tels qu’une expérience publicitaire Meta ou Google Campaign Manager 360.
+_[!DNL Activate]_&#x200B;prend en charge l’activation des expériences publicitaires sous la forme d’un contenu créatif dans des formats spécifiques à un canal, tels qu’une expérience publicitaire Meta ou Google Campaign Manager 360.
 
 Une expérience GenStudio for Performance Marketing est un composant de campagne marketing, tel qu’une publicité, préparé en tant que contenu créatif pour une audience spécifique sur un canal de publicité payante ou par e-mail. Les contenus publicitaires comprennent trois composants principaux :
 
@@ -36,11 +36,11 @@ Bien que des exigences d’emplacement uniques définissent chaque canal payant,
 
   >[!TIP]
   >
-  >Vous pouvez sélectionner des expériences d’annonces publicitaires approuvées directement à partir de la Galerie d’expériences _[!DNL Content]_pour vous préparer en tant que contenu créatif Google Campaign Manager 360. Une fois que vous avez sélectionné une expérience dans la galerie_[!DNL Content]_, vous ne pouvez plus modifier ni ajouter de ressources à votre contenu créatif.
+  >Vous pouvez sélectionner des expériences d’annonces publicitaires approuvées directement à partir de la Galerie d’expériences _[!DNL Content]_&#x200B;pour vous préparer en tant que contenu créatif Google Campaign Manager 360. Une fois que vous avez sélectionné une expérience dans la galerie&#x200B;_[!DNL Content]_, vous ne pouvez plus modifier ni ajouter de ressources à votre contenu créatif.
 
 * **Examinez et publiez votre expérience sur le canal cible**. Utilisez le panneau _Aperçu_ lors de la configuration de la création pour évaluer l’emplacement publicitaire et les éléments textuels de votre choix avant de finaliser votre activation. Votre dernière révision avant publication a lieu dans l’application de gestion des publicités du canal de destination. Par exemple, après l’activation d’une expérience de métadonnées d’annonce dans GenStudio for Performance Marketing, vous devez vous connecter au gestionnaire de métadonnées d’annonce, passer en revue votre contenu publicitaire, puis sélectionner ses attributs spécifiques avant de le publier.
 
-Une fois qu’une création est en ligne sur son canal de média payant cible, _[!DNL Insights]_pouvez suivre et analyser ses données de performance.
+Une fois qu’une création est en ligne sur son canal de média payant cible, _[!DNL Insights]_&#x200B;pouvez suivre et analyser ses données de performance.
 
 ## Canaux pris en charge
 

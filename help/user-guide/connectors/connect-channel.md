@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Connecter des comptes de médias achetés
 
-_[!DNL Data connectors]_une intégration transparente entre GenStudio for Performance Marketing et vos comptes de réseau de médias achetés. En vous connectant à des comptes de canaux tiers, vous pouvez échanger des données essentielles, telles que les mesures de performances des campagnes dans [[!DNL Insights]](/help/user-guide/insights/overview.md), et diffuser de nouveaux emplacements publicitaires avec [[!DNL Activate]](/help/user-guide/activation/overview.md). Cette intégration permet à GenStudio for Performance Marketing de gérer vos médias et publicités tout en recevant des informations précieuses, notamment des impressions, des clics et des conversions, de vos campagnes actives.
+_[!DNL Data connectors]_&#x200B;une intégration transparente entre GenStudio for Performance Marketing et vos comptes de réseau de médias achetés. En vous connectant à des comptes de canaux tiers, vous pouvez échanger des données essentielles, telles que les mesures de performances des campagnes dans [[!DNL Insights]](/help/user-guide/insights/overview.md), et diffuser de nouveaux emplacements publicitaires avec [[!DNL Activate]](/help/user-guide/activation/overview.md). Cette intégration permet à GenStudio for Performance Marketing de gérer vos médias et publicités tout en recevant des informations précieuses, notamment des impressions, des clics et des conversions, de vos campagnes actives.
 
 **Pour vous connecter à un compte de média payant** :
 

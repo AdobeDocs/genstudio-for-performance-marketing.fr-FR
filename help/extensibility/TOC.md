@@ -18,9 +18,9 @@ ht-degree: 57%
 + [Guide d’extensibilité](home.md)
 + Prise en main {#get-started}
    + [Vue d’ensemble](overview.md)
-+ {#apps} de développement d’application
++ de développement d’application{#apps}
    + [Création d’un projet App Builder](create-project.md)
    + [Développement d’une application App Builder](create-app.md)
    + [Déploiement de l’application](deploy-app.md)
    + [Distribuer votre application](distribute-app.md)
-   + {#ui} des extensions d’interface utilisateur
+   + des extensions d’interface utilisateur{#ui}

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gérer les activations
 
-_[!DNL Activate]_offre une vue centralisée du statut d’activation de chaque canal publicitaire, y compris les activations Publiée (réussie), Échec (non réussie) et Publication (en attente). La vue_ Expériences activées _affiche toutes les activations pour un compte publicitaire de canal connecté.
+_[!DNL Activate]_&#x200B;offre une vue centralisée du statut d’activation de chaque canal publicitaire, y compris les activations Publiée (réussie), Échec (non réussie) et Publication (en attente). La vue_ Expériences activées _affiche toutes les activations pour un compte publicitaire de canal connecté.
 
-_[!DNL Activate]_organise les expériences activées par canal publicitaire. Cliquez sur **[!UICONTROL Afficher]**sur la mosaïque du canal. La vue_ Expériences activées _du canal sélectionné s’ouvre. Cette vue répertorie les expériences par nom et les classe par date d’activation. Si votre organisation n’a pas activé d’expérience pour ce canal, la mosaïque du produit n’inclut pas le bouton **[!UICONTROL Afficher]**.
+_[!DNL Activate]_&#x200B;organise les expériences activées par canal publicitaire. Cliquez sur **[!UICONTROL Afficher]**&#x200B;sur la mosaïque du canal. La vue_ Expériences activées _du canal sélectionné s’ouvre. Cette vue répertorie les expériences par nom et les classe par date d’activation. Si votre organisation n’a pas activé d’expérience pour ce canal, la mosaïque du produit n’inclut pas le bouton **[!UICONTROL Afficher]**.
 
 ## Vue Expérience activée
 

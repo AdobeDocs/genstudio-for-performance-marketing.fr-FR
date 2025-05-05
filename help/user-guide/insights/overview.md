@@ -41,15 +41,15 @@ Chaque vue affiche un tableau correspondant que vous pouvez rechercher par mot-c
 
 ### Canaux
 
-La vue [[!DNL Insights] _[!UICONTROL Canaux ]_](channels.md) est la vue par défaut et affiche une liste des détails de la campagne active, tels que les objectifs, le budget, la date de lancement et l’activité. Veillez à [connecter un compte de canal](/help/user-guide/connectors/connect-channel.md) afin que GenStudio for Performance Marketing commence à recevoir vos données statistiques.
+La vue [[!DNL Insights] _[!UICONTROL Canaux &#x200B;]_](channels.md) est la vue par défaut et affiche une liste des détails de la campagne active, tels que les objectifs, le budget, la date de lancement et l’activité. Veillez à [connecter un compte de canal](/help/user-guide/connectors/connect-channel.md) afin que GenStudio for Performance Marketing commence à recevoir vos données statistiques.
 
 ### Publicités
 
-La vue [[!DNL Insights] _[!UICONTROL Publicités ]_](ads.md) se concentre sur l’évaluation de l’efficacité d’une publicité. La vue [!UICONTROL Publicités] vous permet d’analyser les mesures d’une publicité en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur un_[!UICONTROL  Nom de l’annonce ]_, vous pouvez afficher les mesures de performances des annonces, les performances par emplacement d’annonce et les attributs.
+La vue [[!DNL Insights] _[!UICONTROL Publicités &#x200B;]_](ads.md) se concentre sur l’évaluation de l’efficacité d’une publicité. La vue [!UICONTROL Publicités] vous permet d’analyser les mesures d’une publicité en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur un&#x200B;_[!UICONTROL &#x200B; Nom de l’annonce &#x200B;]_, vous pouvez afficher les mesures de performances des annonces, les performances par emplacement d’annonce et les attributs.
 
 ### Média
 
-La vue [[!DNL Insights] _[!UICONTROL Média ]_](media.md) est conçue pour vous aider à analyser les performances du contenu créatif. Vous pouvez identifier les attributs de média qui contribuent à améliorer une mesure sélectionnée, tels que les clics ou les impressions.
+La vue [[!DNL Insights] _[!UICONTROL Média &#x200B;]_](media.md) est conçue pour vous aider à analyser les performances du contenu créatif. Vous pouvez identifier les attributs de média qui contribuent à améliorer une mesure sélectionnée, tels que les clics ou les impressions.
 
 Cliquer sur le contenu multimédia fournit un contexte supplémentaire sur ses performances dans différentes annonces et emplacements publicitaires :
 
@@ -61,4 +61,4 @@ Dans la vue Détails du média, le côté gauche affiche une miniature de la res
 
 Les _attributs_ de média permettent d’identifier le contenu créatif par des détails inhérents, tels que la couleur, le ton, la composition (comme l’objet, les polices, les éléments visuels) et d’autres composants clés. Les attributs constituent souvent l’ensemble d’informations de contenu le moins mesuré et analysé.
 
-La vue [[!DNL Insights] _[!UICONTROL Attributs ]_](attributes.md) peut vous aider à identifier les attributs les plus performants avec certaines audiences, certains canaux et certaines régions, et peut vous aider à mettre en évidence les tendances saisonnières. Grâce à ces informations, vous pouvez utiliser des attributs performants pour créer des variantes, cibler une audience spécifique ou expérimenter différentes stratégies de campagne.
+La vue [[!DNL Insights] _[!UICONTROL Attributs &#x200B;]_](attributes.md) peut vous aider à identifier les attributs les plus performants avec certaines audiences, certains canaux et certaines régions, et peut vous aider à mettre en évidence les tendances saisonnières. Grâce à ces informations, vous pouvez utiliser des attributs performants pour créer des variantes, cibler une audience spécifique ou expérimenter différentes stratégies de campagne.
