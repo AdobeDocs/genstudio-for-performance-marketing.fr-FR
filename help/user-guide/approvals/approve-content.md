@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Approuver le contenu
 
-Les approbateurs reçoivent des notifications dans le produit, des e-mails et, si cette option est activée, des notifications Slack lorsque leur révision et leur approbation sont nécessaires. Les notifications fournissent un lien vers la zone de travail qui affiche le contenu en cours de révision. Voir [Préférences du compte et notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) pour plus d’informations sur la gestion de vos notifications.
+Les approbateurs reçoivent des notifications dans le produit, des e-mails et, si cette option est activée, des notifications Slack lorsque leur révision et leur approbation sont nécessaires. Les notifications fournissent un lien vers la zone de travail qui affiche le contenu en cours de révision. Voir [Préférences du compte et notifications](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences) pour plus d’informations sur la gestion de vos notifications.
 
 Si le brouillon de contenu répond aux normes de votre entreprise et à vos attentes, vous êtes prêt à approuver le brouillon.
 

@@ -104,9 +104,9 @@ Après avoir généré des variantes d’image, vous pouvez les modifier directe
 
    Une fenêtre _Optimisée par Adobe Express_ s’affiche.
 
-1. Effectuez la modification de l’image, comme [recadrage d’une image](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [suppression d’un objet](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) et application d’effets.
+1. Effectuez la modification de l’image, comme [recadrage d’une image](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/crop-images.html), [suppression d’un objet](https://helpx.adobe.com/fr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) et application d’effets.
 
-   Consultez la [documentation Adobe Express](https://helpx.adobe.com/express/user-guide.html) pour savoir comment réviser des images dans GenStudio for Performance Marketing avec Adobe Express.
+   Consultez la [documentation Adobe Express](https://helpx.adobe.com/fr/express/user-guide.html) pour savoir comment réviser des images dans GenStudio for Performance Marketing avec Adobe Express.
 
 1. Cliquez sur _[!UICONTROL Appliquer les modifications]_ pour enregistrer vos modifications.
 1. Continuez à modifier individuellement les variantes d’image selon vos besoins et à appliquer les modifications pour enregistrer votre progression.
