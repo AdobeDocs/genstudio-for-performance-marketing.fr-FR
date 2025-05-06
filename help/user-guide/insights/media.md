@@ -4,9 +4,9 @@ description: Découvrez comment évaluer les performances des médias dans Adobe
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 817a7bf425732cefd57da55e6bb41154567bca46
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -28,40 +28,7 @@ La vue de galerie _[!UICONTROL Média]_ affiche un collage d’aperçus de médi
 - CPC (coût par clic)
 - Dépenses
 
-{{empty-table}}
-
-## Filtrer les médias
-
-L’icône de filtre (entonnoir) située au-dessus du côté gauche ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau ou de la galerie des publicités pour supprimer tous les filtres sélectionnés.
-
-Avec certains filtres, vous pouvez utiliser des mots-clés précis pour affiner la liste des critères. Les filtres de mots-clés sont particulièrement utiles pour les campagnes et les annonces qui suivent une convention de nommage complexe avec plusieurs identifiants uniques, tels que :
-
-- Nom ou code de région spécifique : `NA`, `EMEA`
-- Acronymes des types de contenu : `EB`, `CHT` ou `DSP`
-- Codes ou acronymes des offres : `OFFER2023`, `PROMO`
-
-**Pour filtrer par campagnes** :
-
-1. Développez le filtre **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Sélectionner]**.
-1. Dans le champ de recherche, saisissez des mots-clés séparés par des virgules.
-
-   Utilisez autant de mots-clés que nécessaire pour affiner la liste :
-
-   ![Sélectionner des campagnes](/help/assets/insights-select-campaign.png){width=400}
-
-1. Sélectionnez une ou plusieurs campagnes à partir de la recherche résultante et cliquez sur **[!UICONTROL Appliquer]**.
-
-   Les campagnes sélectionnées apparaissent désormais dans la liste _[!UICONTROL Filtrer par]_ au-dessus du tableau ou de la galerie des annonces, ce qui vous permet de vous concentrer sur les médias associés aux campagnes sélectionnées.
-
-1. _Facultatif_ : pour filtrer davantage les médias, appliquez un filtre par mot-clé similaire sur les **[!UICONTROL publicités]**.
-
->[!NOTE]
->
->Le filtre appliqué persiste dans toutes les vues dans [!DNL Insights]. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau ou de la galerie des publicités pour supprimer tous les filtres sélectionnés.
-
-### Télécharger les résultats du tableau
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Détails du média
 
@@ -84,10 +51,10 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL ID du média]** | Nom associé à une image, une vidéo, un texte ou tout autre contenu créatif. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
 | **[!UICONTROL Impressions]** | Décompte de chaque chargement du média dans le canal, indépendamment de l’interaction ou de l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien, sur le média. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
-| **[!UICONTROL Taux de clics &#x200B;]**<br>_CTR_ | Pourcentage (%) d’impressions ayant donné lieu à des clics dans le média d’une publicité.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le média est très pertinent et attrayant pour le public. Cela suggère que le message et la conception captent efficacement l&#39;intérêt du public et l&#39;incitent à agir. En outre, un taux de clics élevé peut signifier que le média est bien ciblé et qu’il correspond à l’audience visée, ce qui se traduit par de meilleures performances globales de la campagne. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Coût par millier_ | Coût moyen pour mille impressions de média.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;impressions, puis multiplié par 1 000 | Une valeur CPM faible peut indiquer des performances multimédias rentables, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
-| **[!UICONTROL Coût &#x200B;]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet d’identifier les médias qui entraînent des actions client importantes. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic sur le média.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
+| **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant donné lieu à des clics dans le média d’une publicité.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le média est très pertinent et attrayant pour le public. Cela suggère que le message et la conception captent efficacement l&#39;intérêt du public et l&#39;incitent à agir. En outre, un taux de clics élevé peut signifier que le média est bien ciblé et qu’il correspond à l’audience visée, ce qui se traduit par de meilleures performances globales de la campagne. |
+| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût moyen pour mille impressions de média.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;impressions, puis multiplié par 1 000 | Une valeur CPM faible peut indiquer des performances multimédias rentables, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
+| **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet d’identifier les médias qui entraînent des actions client importantes. |
+| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic sur le média.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget en ce qui concerne les médias individuels sur une période donnée. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |
 | **[!UICONTROL Utilisé dans ces publicités]** | Nombre de publicités qui utilisent ce média. | |
 | **Attributs** | Liste des fonctionnalités inhérentes présentes dans ce média. | Les attributs permettent d’identifier les éléments créatifs qui interagissent le plus avec votre audience. |

@@ -4,9 +4,9 @@ description: Consultez un aperçu de l’engagement des clients, du budget et de
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: e053c91ebb40a9625ce22281a89feaa9cccab956
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
@@ -28,36 +28,7 @@ La vue galerie _[!UICONTROL Annonce]_ affiche un collage d’aperçus d’annonc
 - CPC (coût par clic)
 - Dépenses
 
-{{empty-table}}
-
-## Filtrer les publicités
-
-L’icône de filtre (entonnoir) située au-dessus du côté gauche ouvre le menu **[!UICONTROL Filtre]** dans lequel vous pouvez effectuer une sélection à partir de plusieurs listes. Avec certains filtres, vous pouvez utiliser des mots-clés précis pour affiner la liste des critères. Les filtres de mots-clés sont particulièrement utiles pour les campagnes qui suivent une convention de nommage complexe avec plusieurs identifiants uniques, tels que :
-
-- Nom ou code de région spécifique : `NA`, `EMEA`
-- Acronymes des types de contenu : `EB`, `CHT` ou `DSP`
-- Codes ou acronymes des offres : `OFFER2023`, `PROMO`
-
-**Pour filtrer par campagnes** :
-
-1. Développez le filtre **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Sélectionner]**.
-1. Dans le champ de recherche, saisissez des mots-clés séparés par des virgules.
-
-   Utilisez autant de mots-clés que nécessaire pour affiner la liste :
-
-   ![Sélectionner des campagnes](/help/assets/insights-select-campaign.png){width=400}
-
-1. Sélectionnez une ou plusieurs campagnes à partir de la recherche résultante et cliquez sur **[!UICONTROL Appliquer]**.
-
-   Les campagnes sélectionnées apparaissent désormais dans la liste _[!UICONTROL Filtrer par]_ au-dessus du tableau ou de la galerie des annonces, ce qui vous permet de vous concentrer sur les annonces associées aux campagnes sélectionnées.
-
->[!NOTE]
->
->Le filtre appliqué persiste dans toutes les vues dans [!DNL Insights]. Sélectionnez **[!UICONTROL Effacer tout]** au-dessus du tableau ou de la galerie des publicités pour supprimer tous les filtres sélectionnés.
-
-### Télécharger les résultats du tableau
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Détails de l’annonce
 
@@ -109,10 +80,10 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL Média]** | Nombre de ressources utilisées dans la publicité et les emplacements publicitaires | Le nombre indiqué dans le tableau Publicités peut être différent du nombre indiqué dans la vue Détails de la publicité. Cette incohérence peut se produire si la source du canal, telle que Meta et GenStudio, utilise des calculs de synthèse légèrement différents. |
 | **[!UICONTROL Impressions]** | Décompte de chaque chargement de l’emplacement ou de l’annonce publicitaire dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton call-to-action, dans un emplacement publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
-| **[!UICONTROL Taux de clics &#x200B;]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics sur l’annonce publicitaire dans une campagne.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Coût par millier_ | Coût moyen pour mille impressions de publicité.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
-| **[!UICONTROL Coût &#x200B;]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet de surveiller les dépenses publicitaires qui entraînent des actions client importantes. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un emplacement publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
+| **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics sur l’annonce publicitaire dans une campagne.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
+| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût moyen pour mille impressions de publicité.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
+| **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet de surveiller les dépenses publicitaires qui entraînent des actions client importantes. |
+| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un emplacement publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget de Campaign sur une période donnée pour placer cette annonce publicitaire. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |
 | **Attributs** | Liste des fonctionnalités inhérentes présentes dans cette publicité. | Les attributs permettent d’identifier les éléments créatifs qui interagissent le plus avec votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
 
@@ -124,8 +95,8 @@ Le tableau suivant fournit des définitions pour les mesures de performances des
 
 | Mesure | Définition | Insight |
 | ---------------------------- | ----------------------------- | --------------------------------- |
-| **[!UICONTROL Taux de clics &#x200B;]**<br>_CTR_ | Pourcentage (%) d’impressions pour un emplacement publicitaire unique qui a généré des clics.<p>**Calcul**:`clicks` divisé par `impressions`<p>Cette mesure permet de déterminer l’efficacité de l’emplacement publicitaire pour séduire l’audience. | Un taux de clics élevé indique que le positionnement de l’annonce publicitaire est pertinent et attrayant pour l’audience, ce qui entraîne davantage d’interactions. |
-| **[!UICONTROL Coût &#x200B;]**<br>_CPA par action_ | Coût moyen dépensé pour un emplacement publicitaire unique afin d’atteindre l’action souhaitée par le client ou la cliente, comme un achat ou un abonnement.<p>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire dans la génération d’actions pertinentes. | Une CPA plus faible suggère que le placement publicitaire est efficace pour convertir les interactions d’audience en actions souhaitées à moindre coût. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un seul emplacement publicitaire.<p>**Calcul** : montant total `spent` divisé par `clicks`<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire pour la génération de clics. | Un CPC inférieur indique que l’emplacement publicitaire génère des clics à un coût inférieur, ce qui peut être bénéfique pour maximiser le retour sur investissement. |
+| **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions pour un emplacement publicitaire unique qui a généré des clics.<p>**Calcul**:`clicks` divisé par `impressions`<p>Cette mesure permet de déterminer l’efficacité de l’emplacement publicitaire pour séduire l’audience. | Un taux de clics élevé indique que le positionnement de l’annonce publicitaire est pertinent et attrayant pour l’audience, ce qui entraîne davantage d’interactions. |
+| **[!UICONTROL Coût ]**<br>_CPA par action_ | Coût moyen dépensé pour un emplacement publicitaire unique afin d’atteindre l’action souhaitée par le client ou la cliente, comme un achat ou un abonnement.<p>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire dans la génération d’actions pertinentes. | Une CPA plus faible suggère que le placement publicitaire est efficace pour convertir les interactions d’audience en actions souhaitées à moindre coût. |
+| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un seul emplacement publicitaire.<p>**Calcul** : montant total `spent` divisé par `clicks`<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire pour la génération de clics. | Un CPC inférieur indique que l’emplacement publicitaire génère des clics à un coût inférieur, ce qui peut être bénéfique pour maximiser le retour sur investissement. |
 | **[!UICONTROL Dépenses]** | Montant dépensé pour un emplacement publicitaire unique, représentant une fraction du montant total dépensé pour l’ensemble de l’annonce. Cette mesure permet de suivre l’efficacité de l’affectation budgétaire et des dépenses pour chaque emplacement publicitaire. | Le suivi des dépenses peut permettre de s’assurer que les ressources sont utilisées efficacement à différents emplacements. |
 | **Attributs** | Liste des fonctionnalités inhérentes présentes dans cet emplacement publicitaire. | Les attributs permettent d’identifier les éléments créatifs qui interagissent le plus avec votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
