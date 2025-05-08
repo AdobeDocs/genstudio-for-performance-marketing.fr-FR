@@ -3,7 +3,7 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque en vue de leur utilisation et réutilisation dans votre parcours de marketing numérique.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
+source-git-commit: 67a760051b513dfd2bd6e69c886598efd7142090
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 2%
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content] simplifie et améliore 
 
 ## galerie [!DNL Content]
 
-La galerie affiche un inventaire des ressources, expériences ou modèles approuvés en fonction de la vue sélectionnée. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtrer]**, qui vous permet de sélectionner une catégorie pour filtrer le contenu affiché dans la galerie. Dans la vue _[!UICONTROL Assets]_, cliquez sur l’icône de recherche (loupe) pour utiliser un mot-clé afin de rechercher une ressource.
+La galerie affiche un inventaire des ressources, expériences ou modèles approuvés en fonction de la vue sélectionnée. Le bouton (bascule) Filtrer (entonnoir) situé au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtrer]**, qui vous permet de sélectionner une catégorie pour filtrer le contenu affiché dans la galerie. Dans la vue _[!UICONTROL Assets]_, cliquez sur l’icône de recherche (loupe) pour utiliser un mot-clé afin de rechercher une ressource.
 
 Vous trouverez ci-dessous une recherche sur le terme `space` dans la galerie [!UICONTROL Assets] :
 
