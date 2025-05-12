@@ -1,20 +1,20 @@
 ---
-title: Connecter un média payant
-description: Connectez un compte de canal pour activer et surveiller vos publicités et médias avec Adobe GenStudio for Performance Marketing.
+title: Connecter un compte de média payant
+description: Connectez un compte de média payant pour activer et surveiller vos publicités et médias avec Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Admin, Data Engineer
-feature: Reporting and Insights
+feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
+source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# Connecter des comptes de médias achetés
+# Connecter un compte de média payant
 
-_[!DNL Data connectors]_&#x200B;une intégration transparente entre GenStudio for Performance Marketing et vos comptes de réseau de médias achetés. En vous connectant à des comptes de canaux tiers, vous pouvez échanger des données essentielles, telles que les mesures de performances des campagnes dans [[!DNL Insights]](/help/user-guide/insights/overview.md), et diffuser de nouveaux emplacements publicitaires avec [[!DNL Activate]](/help/user-guide/activation/overview.md). Cette intégration permet à GenStudio for Performance Marketing de gérer vos médias et publicités tout en recevant des informations précieuses, notamment des impressions, des clics et des conversions, de vos campagnes actives.
+Un _compte média payant_ fait référence à un compte sur une plateforme publicitaire tierce où les entreprises gèrent et exécutent des campagnes publicitaires payantes. Ces comptes sont utilisés pour promouvoir des produits, des services ou des marques par le biais de canaux payants, tels que les plateformes de médias sociaux et les réseaux d’affichage. En connectant un compte de média payant à GenStudio for Performance Marketing, vous pouvez rationaliser l’échange de données, surveiller les performances des campagnes dans [Insights](/help/user-guide/insights/overview.md) et diffuser de nouveaux emplacements publicitaires avec [Activer](/help/user-guide/activation/overview.md).
 
 **Pour vous connecter à un compte de média payant** :
 
@@ -26,97 +26,14 @@ _[!DNL Data connectors]_&#x200B;une intégration transparente entre GenStudio fo
 
    S’il existe des comptes connectés, vous pouvez cliquer sur _comptes connectés_ pour afficher une liste de noms de compte, de détails et de statuts.
 
-1. Affichez le [type de connecteur](#connector-types) que vous avez sélectionné, passez en revue les conditions préalables et continuez les étapes de connexion.
+1. Examinez les conditions préalables et continuez les étapes de connexion à l’aide du type de connecteur suivant que vous avez sélectionné :
+
+   - [Google Campaign Manager 360](google-cm360.md)
+   - [Méta-publicités](meta-ads.md)
 
 ## Connexions de médias payantes
 
 GenStudio for Performance Marketing prend en charge divers types de connecteurs à intégrer à vos plateformes marketing préférées. Chaque type de connecteur comporte des conditions préalables spécifiques et des étapes de configuration à effectuer pour une connexion réussie.
-
-### Connexion à Google Campaign Manager 360
-
->[!BEGINSHADEBOX]
-
-**Conditions préalables** :
-
-- Compte Google Campaign Manager 360
-- Supprimez tous les bloqueurs de pop-up dans votre navigateur
-
->[!ENDSHADEBOX]
-
-**Pour connecter un compte Google Campaign Manager 360** :
-
-1. Dans la section _Connecteurs de données_, cliquez sur **[!UICONTROL Se connecter]** sur la vignette _Google Campaign Manager 360_.
-
-1. Connectez-vous à votre compte Google Campaign Manager 360.
-
-   Vous devrez peut-être supprimer les bloqueurs de pop-up, puis utiliser **[!UICONTROL Actualiser]** pour réessayer.
-
-1. Lisez les conditions générales et cliquez sur **[!UICONTROL Autoriser]** pour accorder l’accès.
-
-1. Dans la vue _[!UICONTROL Google Campaign Manager 360]_, sélectionnez un ou plusieurs annonceurs et cliquez sur **[!UICONTROL Sélectionner]**.
-
-La vue _[!UICONTROL Comptes Google Campaign Manager 360]_ répertorie les `Account name`, `Added by`, `Date added` et `Status`. Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste.
-
-### Connexion des métadonnées publicitaires
-
-Lorsque vous connectez votre profil _Meta Business_ à GenStudio for Performance Marketing, vous bénéficiez d’un accès transparent aux données publicitaires pour vos pages d’entreprise, comptes de métadonnées publicitaires et autres ressources Meta.
-
->[!BEGINSHADEBOX]
-
-**Conditions préalables** :
-
-- Identifiant Facebook/Meta qui peut accéder à tous les services Meta, tels que le compte Meta Ads et le profil professionnel Facebook
-- Accès au compte Méta-publicités avec `View performance` niveau d’autorisation pour accéder aux rapports et afficher les publicités, y compris les éléments suivants
-   - Autorisations requises pour une utilisation avec [!DNL Insights] :
-
-      - `pages_show_list`
-      - `ads_read`
-      - `ads_management`
-      - `pages_read_engagement`
-
-   - Autorisations requises pour une utilisation avec [!DNL Activate] :
-
-      - `ads_management`
-      - `ads_read`
-      - `business_management`
-      - `instagram_basic`
-      - `instagram_content_publish`
-      - `pages_manage_ads`
-      - `pages_manage_posts`
-      - `pages_show_list`
-
-- Supprimez tous les bloqueurs de pop-up dans votre navigateur
-
->[!ENDSHADEBOX]
-
-**Pour connecter un compte Meta Ads** :
-
-1. Dans la section _Connecteurs de données_, cliquez sur **[!UICONTROL Se connecter]** sur la carte _Méta-annonces_.
-
-1. Connectez-vous à votre compte Facebook.
-
-   Vous devrez peut-être supprimer les bloqueurs de pop-up, puis utiliser **[!UICONTROL Actualiser]** pour réessayer.
-
-1. Suivez les instructions d’authentification Facebook, vérifiez les informations du compte, puis cliquez sur **[!UICONTROL Continuer comme ...]**
-
-1. Dans _[!UICONTROL Facebook Login for Business]_ (symbole Meta to Adobe), parcourez les sélections suivantes pour accorder l’accès à GenStudio for Performance Marketing :
-
-   - Sélectionnez un ou plusieurs profils Meta Business et cliquez sur **[!UICONTROL Continuer]**
-   - Sélectionnez une ou plusieurs méta-pages, puis cliquez sur **[!UICONTROL Continuer]**
-   - Sélectionnez un ou plusieurs comptes Instagram et cliquez sur **[!UICONTROL Continuer]**
-   - Vérifiez les sélections et cliquez sur **[!UICONTROL Enregistrer]**
-
-1. Une fois que vous avez reçu la vérification que votre compte est connecté, cliquez sur **[!UICONTROL Compris]**.
-
-   Cette étape permet à GenStudio for Performance Marketing d’accéder à toutes les publicités, métadonnées et mesures pour des performances optimales.
-
-1. Dans _[!UICONTROL Méta-publicités]_, sélectionnez un ou plusieurs comptes à inclure dans [!DNL Insights] et cliquez sur **[!UICONTROL Sélectionner]**.
-
-1. Une fois que vous avez reçu une confirmation _Connecté à Platform_, cliquez sur **[!UICONTROL Afficher les comptes]**.
-
-   La vue _[!UICONTROL Comptes de méta-annonces]_ répertorie les `Account name`, `Added by`, `Date added` et `Status`.
-
-Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste. Le flux d’autorisation peut être légèrement différent lorsque vous ajoutez des comptes liés au même profil Meta Business. Vous sélectionnez uniquement les nouveaux comptes de métadonnées publicitaires pendant le processus de connexion.
 
 ## Ingestion des données
 

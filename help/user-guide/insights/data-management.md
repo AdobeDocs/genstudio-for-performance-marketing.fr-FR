@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Soyez prudent et ne supprimez pas les connexions de données suivantes, nécessa
 - Connexions AEP : flux de données précédés du préfixe `GS Insights`
 - AEP Connections : compte GS Insights
 
-Voir [Implications de suppression](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/deletion) dans le guide _Customer Journey Analytics_ avant de supprimer des composants de données dans AEP.
+Voir [Implications de suppression](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) dans le guide _Customer Journey Analytics_ avant de supprimer des composants de données dans AEP.
 
 >[!ENDSHADEBOX]
 
@@ -47,4 +47,4 @@ Voir [Implications de suppression](https://experienceleague.adobe.com/fr/docs/an
 
 GenStudio for Performance Marketing conserve les données de canal pendant 13 mois. Cette politique de conservation comprend les 6 mois de données ingérées lors de la connexion initiale, ce qui garantit une analyse complète des données historiques et la création de rapports.
 
-Voir [Connexion au compte publicitaire du canal](/help/user-guide/connectors/connect-channel.md).
+Voir [Connecter un compte de média payant](/help/user-guide/connectors/connect-channel.md).
