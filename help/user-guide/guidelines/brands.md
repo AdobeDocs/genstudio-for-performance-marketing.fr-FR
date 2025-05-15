@@ -3,10 +3,10 @@ title: GenStudio for Performance Marketing  [!DNL Brands]
 description: Les GenStudio for Performance Marketing [!DNL Brands] sont une collection complète de ressources de marque (copie marketing, images, expériences, etc.) visant à informer la création de contenu aligné sur la marque.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 2%
+source-wordcount: '1471'
+ht-degree: 1%
 
 ---
 
@@ -56,13 +56,13 @@ Le tableau suivant présente chaque catégorie d’instructions relatives aux im
 | Catégorie d&#39;instructions | Description | Valeurs |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL Description] | Ajout d’informations générales pour la catégorie spécifique de directives relatives aux images, telles que « Photographie de produit » ou « Directives générales relatives aux objets d’art ». | Extrait de documents de directives et configurable manuellement <br><br>_Exemple de directive générale sur les objets d’art_ : « Directives qui s’appliquent aux images qui ne sont pas des photographies, telles que des illustrations et des rendus 3D » |
-| [!UICONTROL &#x200B; Type de contenu &#x200B;] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
+| [!UICONTROL  Type de contenu ] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
 | Composition | Détails concernant le placement des objets, l&#39;appareil photo et les techniques de photographie | Extrait de documents d’instructions et configurable manuellement |
 | [!UICONTROL Environnement] | Détails concernant l’environnement, tels que les éléments d’arrière-plan dans l’image | _Exemple_ : « Préférez un environnement ensoleillé » |
 | [!UICONTROL Couleur] | Détails concernant la famille de couleurs, la température des couleurs, les couleurs primaires/secondaires/tertiaires, la teinte, la saturation, le contraste | Extrait de documents de directives et configurable manuellement <br><br>_Exemples_ : « Assurez-vous que le produit est l’objectif principal avec un minimum de distractions », « Couleurs vives » |
 | [!UICONTROL Éclairage] | Détails généraux ou spécifiques concernant l&#39;éclairage | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Placez un voyant lumineux devant la personne » |
-| [!UICONTROL Humeur &#x200B;] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
-| [!UICONTROL Restrictions &#x200B;] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
+| [!UICONTROL Humeur ] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
+| [!UICONTROL Restrictions ] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
 
 ### Instructions relatives aux canaux
 
@@ -87,31 +87,6 @@ Le tableau suivant présente chaque section de canal, les canaux pour lesquels e
 Les instructions de canal par défaut suivantes pour [!DNL Brands] sont appliquées par canal, en fonction des bonnes pratiques du secteur et des spécifications individuelles de la plateforme.
 
 >[!BEGINTABS]
-
->[!TAB E-mail]
-
-| Section | Règle par défaut |
-|-----------|-------------------------------|
-| Objet | Limiter à 2 lignes ou moins |
-| Pré-titre | Limiter à 2 lignes ou moins |
-| Titre | Limiter à 8 mots ou moins |
-| Corps | Limiter à 3-4 lignes |
-| CTA | Limiter à 2 mots ou moins |
-
->[!TAB Réseaux sociaux payants]
-
-| Section | Règle par défaut |
-|-----------|-------------------------------|
-| Titre | Limité à 40 caractères ou moins |
-| Corps | Limité à 125 caractères ou moins |
-
->[!TAB Afficher les publicités]
-
-| Section | Règle par défaut |
-|-----------|-------------------------------|
-| Titre | Limiter à 6 mots ou moins |
-| Corps | Limiter à 6 mots ou moins |
-| CTA | Limiter à 2 mots ou moins |
 
 >[!TAB Meta]
 

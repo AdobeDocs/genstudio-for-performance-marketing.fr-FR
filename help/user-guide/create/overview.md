@@ -4,9 +4,9 @@ description: Générez rapidement du contenu de marque hautement performant avec
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -35,68 +35,131 @@ Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Cr
 ## Scénarios d’utilisation d’[!DNL Create] 
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Créer du contenu" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Créer une expérience d’e-mail</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Création d’une expérience de métadonnées" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Créer une expérience de méta-annonce</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Création d’une expérience publicitaire LinkedIn" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>Créer une expérience publicitaire LinkedIn</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Création d’une expérience d’affichage d’annonce publicitaire" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Créer une expérience d’affichage publicitaire</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="Création d’une expérience de bannière" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>Créer une expérience de bannière</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="Création d’images" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>Générer des images</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing permet aux marketeurs de **créer du contenu marketing**. Dans ce cas d’utilisation, utilisez des [directives](/help/user-guide/guidelines/overview.md) définies et des images d’inspiration pour informer la création de contenu aligné sur la marque.
@@ -137,11 +200,11 @@ Une fois la génération des variations de contenu terminée, envoyez vos brouil
 
 ### Brouillons
 
-Dans la section _Travaux récents_ de la [!DNL Create], accédez à tous les brouillons récents et gérez-les. Affichez et terminez votre travail précédent pour le préparer en vue de sa publication sur [[!DNL Content]](/help/user-guide/content/overview.md) ou de son exportation en vue de son utilisation.
+Dans la section _Récents_ de [!DNL Create], vous pouvez accéder à tous les brouillons récents et les gérer. Affichez et terminez votre travail précédent pour le préparer en vue de sa publication sur [[!DNL Content]](/help/user-guide/content/overview.md) ou de son exportation en vue de son utilisation. Cliquez sur l’icône d’options (points de suspension) pour supprimer un brouillon.
 
-Les brouillons en cours sont automatiquement enregistrés. Lorsque vous revenez à l’accueil [!DNL Create], la section _Travaux récents_ est mise à jour avec vos brouillons les plus récents. Chaque brouillon de cette section affiche un statut, tel que _Brouillon_ ou _Approuvé_.
+Les brouillons sont automatiquement enregistrés et affichés dans la section _Récents_ de [!DNL Create] page d’accueil. Chaque brouillon de cette section affiche un statut, tel que _Brouillon_ ou _Approuvé_.
 
-Cliquez sur les icônes de tri (grille ou tableau) pour afficher les éléments _Travail récent_ en mode grille ou tableau.
+Cliquez sur l’icône en forme de galerie (grille) pour afficher les éléments _récents_ en mode grille ou tableau.
 
 ### Gérer les variantes
 

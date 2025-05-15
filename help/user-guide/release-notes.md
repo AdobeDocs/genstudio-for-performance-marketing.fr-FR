@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
+source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2300'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,18 @@ ht-degree: 1%
 
 Ces informations de mise à jour détaillent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.04.10 {#latest}
+## 2025.05.15 {#latest}
+
+### Correctifs et améliorations
+
+* Activation de la fonctionnalité [ajout d’un texte secondaire (alt)](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) à une image pour une variante individuelle.
+* Ajout d’un [nouveau format Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paysage 1,19:1 (largeur de 1 080 pixels).
+* Vous pouvez désormais choisir plusieurs expériences à exporter ou télécharger. Voir [Exporter des expériences](/help/user-guide/content/manage-assets.md#export-experiences).
+<!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.05.15
 
 ### Correctifs et améliorations
 
@@ -23,8 +34,6 @@ Ces informations de mise à jour détaillent les dernières mises à jour de l�
 * Activation de la fonctionnalité [affichage et sélection de calques individuels](/help/user-guide/create/manage-variants.md#view-layers) tels que des champs de texte modifiables ou des images modifiables) d’une expérience afin de les mettre en surbrillance pour les révisions, telles que la régénération de contenu ou le recadrage d’images.
 * Ajout d’un [nouveau champ de modèle](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, pour du texte supplémentaire dans les expériences afin de capter l’attention de l’audience et de mettre en évidence les messages marketing.
 * Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/overview.md) depuis GenStudio for Performance Marketing dans Google Campaign Manager 360. Activer prend en charge les aperçus détaillés des annonces Google Campaign Manager 360 avant leur publication sur un annonceur Campaign Manager 360. Les publicités publiées via Activer sont automatiquement extraites dans Insights une fois en ligne, ce qui permet aux utilisateurs et utilisatrices de suivre et de générer des rapports sur les performances des publicités.
-
-## Notes de mise à jour antérieures
 
 +++Notes de la version 2025.03.13
 

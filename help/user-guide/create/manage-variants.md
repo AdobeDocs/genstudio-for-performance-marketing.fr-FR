@@ -3,9 +3,9 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
+source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Par exemple, vous pouvez générer à nouveau la section titre d’une méta-var
 
    La variante est mise à jour avec le texte révisé.
 
-## Révision de l’appel à l’action
+## Réviser Call to action
 
 Après avoir généré un ensemble de variantes, vous pouvez réviser le texte et le lien du call-to-action (CTA).
 
@@ -155,7 +155,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 
@@ -176,6 +176,25 @@ Tout comme pour l’ajout ou la permutation d’images dans les variantes géné
 1. Ajoutez un lien dans le champ de texte et cliquez sur **[!UICONTROL Appliquer]**.
 
    Le lien défini est appliqué à toutes les images de l’ensemble des variantes.
+
+## Ajout de texte secondaire pour les images
+
+Lorsque vous ajoutez du contenu (des images) pendant le processus de création, vous pouvez définir du texte secondaire pour chaque image incluse. L’ajout de texte secondaire aux images améliore l’accessibilité, l’optimisation du moteur de recherche et l’expérience utilisateur.
+
+Pour activer la fonctionnalité de texte de remplacement, [ajoutez un espace réservé de contenu](/help/user-guide/content/customize-template.md#alternative-text) dans le modèle.
+
+**Pour ajouter du texte secondaire aux images dans des variantes générées** :
+
+1. Après avoir généré un ensemble de variantes, cliquez sur une image dans une variante individuelle.
+1. Cliquez sur le bouton **[!UICONTROL Texte de remplacement]** (icône d’image et de papier).
+1. Pour ajouter manuellement un texte de remplacement :
+   1. Cliquez dans la zone de texte et ajoutez du texte de remplacement.
+   1. Cliquez sur **[!UICONTROL Appliquer]**.
+1. Pour générer du texte de remplacement pour l’image :
+   1. Laissez le champ de texte vide et cliquez sur **[!UICONTROL Générer]**.
+   1. Cliquez de nouveau sur **[!UICONTROL Générer]** si vous n’êtes pas satisfait du résultat initial.
+   1. Cliquez sur **[!UICONTROL Appliquer]**.
+1. Répétez l’opération pour chaque image de votre jeu de variantes.
 
 ## Aperçu pour l’appareil
 

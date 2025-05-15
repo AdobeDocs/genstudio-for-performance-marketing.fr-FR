@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,10 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 | `{{sub_headline}}` | Sous-Titre | e-mail<br>bannière et publicité display |
 | `{{introductory_text}}` | Texte d’introduction | Annonce LinkedIn |
 | `{{body}}` | Copie du corps | e-mail <br>Méta-annonce <br>bannière et publicité display |
-| `{{cta}}` | Appel à l’action<br>Voir [ Appels à l’action](#calls-to-action) | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
+| `{{cta}}` | Call to action<br>Voir [Appels à l’action](#calls-to-action) | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
 | `{{image}}` | Image : sélection à partir de l&#39;[!DNL Content] | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
 | `{{on_image_text}}` | Dans le texte de l’image<br>voir [Dans le texte de l’image](#on-image-text). | Méta-publicité <br>publicité LinkedIn |
-| `{{link}}` | Appel à l’action sur l’image<br>voir [Lien sur l’image](#link-on-image). | email |
+| `{{link}}` | Call to action sur l’image<br>voir [Lien sur l’image](#link-on-image). | email |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -73,7 +73,7 @@ Le nombre de champs est limité à 20 lors du chargement d’un modèle vers Gen
 
 ### Appels à l’action
 
-Un appel à l’action (CTA) comprend une phrase et un lien. Pour que les fonctionnalités _[!UICONTROL Reformuler]_ et _[!UICONTROL Ajouter un lien]_ fonctionnent correctement pendant le processus de génération de la variante, vous devez inclure des espaces réservés pour le lien et l’expression dans votre modèle.
+Un Call to action (CTA) comprend une expression et un lien. Pour que les fonctionnalités _[!UICONTROL Reformuler]_ et _[!UICONTROL Ajouter un lien]_ fonctionnent correctement pendant le processus de génération de la variante, vous devez inclure des espaces réservés pour le lien et l’expression dans votre modèle.
 
 Suivez les instructions ci-dessous pour configurer les espaces réservés CTA :
 
@@ -110,6 +110,27 @@ Dans cet exemple :
 - `{{link}}` est un espace réservé pour l’URL réelle.
 - `src="image-source.jpg"` doit être remplacé par l’URL source de l’image réelle.
 - `{{imageDescription}}` est un nom de champ défini par l’utilisateur qui fournit un espace réservé pour le texte secondaire de l’image, ce qui s’avère utile pour l’accessibilité et l’optimisation du moteur de recherche.
+
+### Texte secondaire
+
+Utilisez un nom de champ défini par l’utilisateur comme espace réservé pour générer une description de texte secondaire (attribut HTML `alt="text"`) pour une image. L’espace réservé `{{imageDescription}}` suivant est utilisé avec le champ `{{image}}` dans la même balise `<img>`, en veillant à ce que la relation entre l’image et sa description persiste.
+
+```html
+<img src="{{image}}" alt="{{imageDescription}}">
+```
+
+Dans cet exemple :
+
+- `{{image}}` est l’espace réservé de l’URL source de l’image.
+- `{{imageDescription}}` est l’espace réservé du texte secondaire, qui fournit une description de l’image à des fins d’accessibilité et d’optimisation du moteur de recherche (SEO).
+
+### Texte sur l’image
+
+L’espace réservé `{{ on_image_text }}` est utilisé pour spécifier une superposition de texte de messages à impact court, placés directement sur l’image dans une expérience.
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
+```
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -151,22 +172,14 @@ Pour créer une section modifiable, ajoutez des crochets doubles autour du nom d
 </tbody>
 ```
 
-## Texte sur l’image
-
-L’espace réservé `{{ on_image_text }}` est utilisé pour spécifier une superposition de texte de messages à impact court, placés directement sur l’image dans une expérience.
-
-```html
-<div class="image-text">{{ on_image_text }}</div>
-```
-
 ## Sections ou groupes
 
 _Sections_ indiquez à GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
 
-Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Utilisez un nom de champ (`headline`, `body`, `image` ou `cta`) après le trait de soulignement (`_`).
+Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Utilisez un nom de champ (tel que `headline`, `body`, `image` ou `cta`) après le trait de soulignement (`_`).
 
-- _Correct_ (??) : `pod1_body`
-- _Incorrect_ (❌) : `pod1_link`
+- _Correct_ (👍) : `pod1_body`
+- _Incorrect_ (❌) : `pod1body`
 
 Chaque section ne peut utiliser qu’un seul de chaque type de champ. Par exemple, les champs suivants appartiennent à la section `pod1` :
 
@@ -177,9 +190,10 @@ Chaque section ne peut utiliser qu’un seul de chaque type de champ. Par exempl
 
 Pour cette raison, les sections ne peuvent pas être imbriquées.
 
-Chaque type de modèle, tel qu’un e-mail ou une méta-annonce, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
+Chaque type de modèle, tel qu’un e-mail ou une méta-annonce, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
 
 Par exemple, un modèle d’e-mail peut inclure jusqu’à trois sections. Par conséquent, vous pouvez avoir trois sections de titre et de corps :
+
 
 - `pre_header`
 - `pod1_headline`
@@ -192,7 +206,9 @@ Par exemple, un modèle d’e-mail peut inclure jusqu’à trois sections. Par c
 
 GenStudio for Performance Marketing comprend que `pod1_headline` est plus étroitement lié à `pod1_body` qu’à `pod2_body`.
 
-Consultez [Invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour savoir comment concevoir une invite qui génère un contenu variable pour chaque section dans un e-mail à plusieurs sections.
+>[!TIP]
+>
+>Consultez [Invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour savoir comment concevoir une invite qui génère un contenu variable pour chaque section dans un e-mail à plusieurs sections.
 
 ## Aperçu du modèle
 
