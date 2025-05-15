@@ -47,7 +47,7 @@ Lors de la création de modèles, assurez-vous qu’ils répondent aux exigences
 
 - Utilisation d’HTML et de CSS intégré propres et réactifs
 - Utilisation des polices Adobe ou Google
-- N’utilisez **** JavaScript
+- N’utilisez **&#x200B;**&#x200B;JavaScript
 
 {{note-css-effects}}
 
@@ -61,7 +61,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 - Utilisation des polices Adobe ou Google
 - Utilisation d’HTML et de CSS intégré propres et réactifs
-- N’utilisez **** JavaScript
+- N’utilisez **&#x200B;**&#x200B;JavaScript
 - N **utilisez pas** largeur fixe dans le corps ou le conteneur
 - N’utilisez **pas** codage base64 pour les images, car il peut augmenter considérablement la taille du modèle
 
@@ -92,10 +92,10 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de Métado
 
 - Utiliser une largeur de 360 pixels pour les mises en page de colonnes
 - Utilisez une résolution minimale de 1 080 x 1 080 pixels pour les images
-- N’utilisez **** de taille de police relative
+- N’utilisez **&#x200B;**&#x200B;de taille de police relative
 - Ne **pas définir** fenêtre d’affichage
-- N’utilisez **** JavaScript
-- Ne remplacez **** un élément HTML dans le CSS
+- N’utilisez **&#x200B;**&#x200B;JavaScript
+- Ne remplacez **&#x200B;**&#x200B;un élément HTML dans le CSS
 - Utiliser la balise `<img>` au lieu de `background-image`
 - Utilisez le masquage pour améliorer la lisibilité du texte sur les images d’arrière-plan
 
@@ -127,9 +127,9 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 - Utilisation des polices Adobe ou Google
 - Préparation des ressources qui s’affichent correctement dans les dimensions compactes
-- N’utilisez **** d’images d’arrière-plan incorporées ou codées
+- N’utilisez **&#x200B;**&#x200B;d’images d’arrière-plan incorporées ou codées
 - Utiliser des images d’arrière-plan (champ `image`) chargées dans le référentiel de contenu GenStudio for Performance Marketing
-- N’utilisez **** JavaScript
+- N’utilisez **&#x200B;**&#x200B;JavaScript
 
 **Contraintes** :
 

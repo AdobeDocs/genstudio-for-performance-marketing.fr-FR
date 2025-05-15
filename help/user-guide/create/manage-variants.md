@@ -155,7 +155,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 
