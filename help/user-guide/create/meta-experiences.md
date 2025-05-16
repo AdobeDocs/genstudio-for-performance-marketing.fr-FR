@@ -5,9 +5,9 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,9 @@ Les sections modifiables d’une expérience d’e-mail incluent :
 
 * Titre
 * Corps
-* Appel à l’action (CTA)
+* Call to action (CTA)
 * Texte sur l’image
 * Image
-* Logo de la marque
 
 Voir [Éléments de modèle](/help/user-guide/content/use-templates.md#template-elements).
 

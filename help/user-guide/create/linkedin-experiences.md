@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponib
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,8 @@ Les sections modifiables d’une expérience LinkedIn sont les suivantes :
 * Titre
 * Texte d’introduction
 * Description
-* Appel à l’action (CTA)
+* Call to action (CTA)
 * Image
-* Logo de la marque
 
 Voir [Éléments de modèle](/help/user-guide/content/use-templates.md#template-elements).
 
@@ -41,7 +40,7 @@ Lorsque vous cliquez sur **[!UICONTROL Générer]**, un indicateur de chargement
 Chaque champ et section des expériences LinkedIn sont progressivement chargés dans cet ordre :
 
 1. Principal de texte pour toutes les variations
-1. Appel à l’action et URL associées
+1. Call-to-action et URL associées
 1. Headlines
 1. Texte sur l’image
 1. Validation de la marque
