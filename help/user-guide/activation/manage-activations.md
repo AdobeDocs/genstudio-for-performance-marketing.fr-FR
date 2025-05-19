@@ -3,7 +3,7 @@ title: Gérer les activations
 description: Découvrez comment gérer les expériences activées avec Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 9efa42bac9e5623ace963d0de19eeb24467b69d8
+source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gérer les activations
 
-_[!DNL Activate]_&#x200B;offre une vue centralisée du statut d’activation de chaque canal publicitaire, y compris les activations Publiée (réussie), Échec (non réussie) et Publication (en attente). La vue_ Expériences activées _affiche toutes les activations pour un compte publicitaire de canal connecté.
+_[!DNL Activate]_offre une vue centralisée du statut d’activation de chaque canal publicitaire, y compris les activations Publiée (réussie), Échec (non réussie) et Publication (en attente). La vue_ Expériences activées _affiche toutes les activations pour un compte publicitaire de canal connecté.
 
-_[!DNL Activate]_&#x200B;organise les expériences activées par canal publicitaire. Cliquez sur **[!UICONTROL Afficher]**&#x200B;sur la mosaïque du canal. La vue_ Expériences activées _du canal sélectionné s’ouvre. Cette vue répertorie les expériences par nom et les classe par date d’activation. Si votre organisation n’a pas activé d’expérience pour ce canal, la mosaïque du produit n’inclut pas le bouton **[!UICONTROL Afficher]**.
+_[!DNL Activate]_organise les expériences activées par canal publicitaire. Cliquez sur **[!UICONTROL Afficher]**sur la mosaïque du canal. La vue_ Expériences activées _du canal sélectionné s’ouvre. Cette vue répertorie les expériences par nom et les classe par date d’activation. Si votre organisation n’a pas activé d’expérience pour ce canal, la mosaïque du produit n’inclut pas le bouton **[!UICONTROL Afficher]**.
 
 ## Vue Expérience activée
 
@@ -41,7 +41,7 @@ Dans la vue _Expériences activées_, cliquez sur une activation. La vue en lect
 
 * **Heure et date de publication** : heure et date de publication à partir du gestionnaire de canal publicitaire.
 * **Ad ID** : identifiant attribué par le canal payant et utilisé pour le tracking. Cliquez sur le bouton **[!UICONTROL Ouvrir]** adjacent à ce champ pour afficher l’annonce publiée dans le Gestionnaire de métadonnées publicitaires
-* **Détails Creative** : ressources d’image, textes et métadonnées sélectionnés affectés pendant le workflow d’activation de GenStudio for Performance Marketing
+* **Détails de l’expérience** : ressources d’image, textes et métadonnées sélectionnés affectés pendant le workflow d’activation de GenStudio for Performance Marketing
 * **Configuration du canal** : comptes de canal payant utilisés pour activer l’expérience publicitaire
 
 La vue _Détails_ d’une activation ayant échoué inclut le motif de l’échec.
