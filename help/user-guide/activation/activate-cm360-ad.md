@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing permet aux responsables système et aux éditeurs de GenStudio de publier des expériences publicitaires sur la plateforme Google Campaign Manager 360.
 
-Vous pouvez lancer la publication d’une expérience publicitaire Google Campaign Manager 360 à partir de la galerie _[!DNL Content]_ou de l’accueil_[!DNL Activate]_.
+Vous pouvez lancer la publication d’une expérience publicitaire Google Campaign Manager 360 à partir de la galerie _[!DNL Content]_&#x200B;ou de l’accueil&#x200B;_[!DNL Activate]_.
 
 ## Étape 1 : configurer vos comptes Google Campaign Manager 360
 
@@ -30,11 +30,11 @@ Une fois la synchronisation terminée, vous pouvez afficher les comptes ajoutés
 
 ## Étape 3 : sélectionner le contenu pour votre expérience publicitaire
 
-Vous pouvez lancer le processus de publication à partir de la galerie _[!DNL Content]_expériences ou de l’accueil_[!DNL Activate]_. Les expériences approuvées ne peuvent pas être modifiées. Chaque expérience ne peut contenir qu’une seule ressource.
+Vous pouvez lancer le processus de publication à partir de la galerie _[!DNL Content]_&#x200B;expériences ou de l’accueil&#x200B;_[!DNL Activate]_. Les expériences approuvées ne peuvent pas être modifiées. Chaque expérience ne peut contenir qu’une seule ressource.
 
 **Pour sélectionner des expériences** :
 
-1. Utilisez les outils de recherche et de filtrage de la galerie de _[!DNL Content]_pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Utiliser]**. (Vous pouvez également sélectionner une expérience dans_[!DNL Activate]_ en cliquant sur **[!UICONTROL Nouveau]** dans la fiche produit Google Campaign Manager 360 .)
+1. Utilisez les outils de recherche et de filtrage de la galerie de _[!DNL Content]_&#x200B;pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Utiliser]**. (Vous pouvez également sélectionner une expérience dans&#x200B;_[!DNL Activate]_ en cliquant sur **[!UICONTROL Nouveau]** dans la fiche produit Google Campaign Manager 360 .)
 
    La page Google Campaign Manager 360 _configuration de l’expérience_ s’ouvre pour cette expérience. Elle est préremplie avec les détails de l’expérience, que vous ne pouvez pas réviser. Il peut vous être demandé de sélectionner une plateforme avant de poursuivre l’activation.
 

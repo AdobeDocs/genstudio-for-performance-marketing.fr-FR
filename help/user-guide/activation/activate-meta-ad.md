@@ -51,7 +51,7 @@ Vous pouvez lancer une activation de deux manières :
 
 * **Activer directement à partir de [!DNL Content]_**. La sélection d’une expérience approuvée avec des paramètres prédéfinis est la méthode la plus simple pour lancer une activation sur un seul canal.
 
-* **Assembler votre expérience publicitaire à partir de [!DNL Activate] > _Configuration de l’expérience_**Vous pouvez créer une expérience en sélectionnant des ressources visuelles dans_[!DNL Content]_, en ajoutant des éléments de texte et en sélectionnant des proportions. Cette approche comporte plus d’étapes, mais offre une plus grande flexibilité lors de la conception de votre expérience créative.
+* **Assembler votre expérience publicitaire à partir de [!DNL Activate] > _Configuration de l’expérience_**&#x200B;Vous pouvez créer une expérience en sélectionnant des ressources visuelles dans&#x200B;_[!DNL Content]_, en ajoutant des éléments de texte et en sélectionnant des proportions. Cette approche comporte plus d’étapes, mais offre une plus grande flexibilité lors de la conception de votre expérience créative.
 
 ### Activer une expérience approuvée à partir du contenu
 
@@ -59,7 +59,7 @@ Vous pouvez sélectionner plusieurs expériences à activer sur un seul canal pa
 
 Si vous avez sélectionné plusieurs expériences à activer en tant que groupe, utilisez la barre latérale gauche pour placer le focus de l’affichage _Configuration de l’expérience_ sur les détails de l’expérience sélectionnée.
 
-1. Utilisez les outils de recherche et de filtrage de la galerie de _[!DNL Content]_pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Activer]**.
+1. Utilisez les outils de recherche et de filtrage de la galerie de _[!DNL Content]_&#x200B;pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Activer]**.
 
    La page Métadonnées publicitaires _configuration de l’expérience_ s’ouvre pour cette expérience. Il est prérempli avec des détails de l’expérience sélectionnée. Vous pouvez modifier les champs **[!UICONTROL Call-to-action]**, **[!UICONTROL URL du site Web]** et **[!UICONTROL Afficher le lien]**. Si vous sélectionnez plusieurs expériences à activer, la vue _Configuration de l’expérience_ comprend une barre latérale gauche qui affiche des miniatures de toutes les expériences sélectionnées. Utilisez cette barre latérale gauche pour placer le focus de la vue _Configuration de l’expérience_ sur les détails de l’expérience sélectionnée.
 
@@ -77,12 +77,12 @@ Si vous choisissez de ne pas activer directement une expérience approuvée à p
 
 **Pour préparer votre expérience en vue de l’activation** :
 
-1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**sur l’icône représentant le canal payant de votre choix. La vue_ Configuration de l’expérience _s’ouvre.
+1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**&#x200B;sur l’icône représentant le canal payant de votre choix. La vue_ Configuration de l’expérience _s’ouvre.
 
    La page _Configuration de l’expérience_ fournit un emplacement central pour préparer l’activation de vos annonces. La préparation de votre publicité comprend les trois tâches suivantes :
 
 1. Attribuez un nom à votre expérience. Après l’activation, vous pouvez utiliser ce nom pour rechercher cette expérience dans le tableau _Expériences activées_.
-1. Sélectionnez des ressources multimédias. Vous pouvez utiliser des ressources provenant de _[!DNL Content]_ou charger des ressources externes (par exemple, à partir de OneDrive ou de Dropbox).
+1. Sélectionnez des ressources multimédias. Vous pouvez utiliser des ressources provenant de _[!DNL Content]_&#x200B;ou charger des ressources externes (par exemple, à partir de OneDrive ou de Dropbox).
 1. [Ajouter du texte](#add-ad-text).
 1. [Ajout de métadonnées](#assign-metadata).
 
@@ -96,23 +96,23 @@ Après le chargement, les ressources sont enregistrées dans _[!DNL Content]_. L
 
 **Pour charger une ressource à partir du contenu** :
 
-_[!DNL Content]_fournit une vue centrale des ressources et expériences approuvées de votre organisation. Vous pouvez cibler la galerie de[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) l’inventaire affiché des ressources à l’aide des options de menu **[!UICONTROL Rechercher]** (loupe) et _Filtrer_.
+_[!DNL Content]_&#x200B;fournit une vue centrale des ressources et expériences approuvées de votre organisation. Vous pouvez cibler la galerie de[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) l’inventaire affiché des ressources à l’aide des options de menu **[!UICONTROL Rechercher]** (loupe) et _Filtrer_.
 
-1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**sur la carte du canal. La vue_ Configuration de l’expérience _s’ouvre.
+1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**&#x200B;sur la carte du canal. La vue_ Configuration de l’expérience _s’ouvre.
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez **[!UICONTROL Sélectionner dans le contenu]**. La vue _Sélectionner le contenu_ s’ouvre, affichant une galerie de ressources d’image que vous parcourez ou filtrez.
 
-1. Utilisez les outils de recherche et de filtrage de _[!DNL Content]_galerie pour sélectionner au moins une ressource à charger.
+1. Utilisez les outils de recherche et de filtrage de _[!DNL Content]_&#x200B;galerie pour sélectionner au moins une ressource à charger.
 
 1. Cliquez sur **[!UICONTROL Utiliser]** pour inclure la ressource sélectionnée dans votre expérience publicitaire. La fenêtre _Configuration de l’expérience_ inclut la ressource dans ses proportions par défaut dans la zone _Média_. Le panneau _Aperçu_ prévisualise la ressource dans l’emplacement publicitaire qui prend en charge ce rapport d’aspect.
 
-Si le chargement échoue, un message d’erreur informatif contenant un lien vers la ressource dans _[!DNL Content]_s’ouvre.
+Si le chargement échoue, un message d’erreur informatif contenant un lien vers la ressource dans _[!DNL Content]_&#x200B;s’ouvre.
 
 **Pour charger une ressource externe** :
 
-Vous pouvez charger jusqu’à six images statiques externes à la galerie _[!DNL Content]_à partir de Microsoft OneDrive ou de Dropbox.
+Vous pouvez charger jusqu’à six images statiques externes à la galerie _[!DNL Content]_&#x200B;à partir de Microsoft OneDrive ou de Dropbox.
 
-1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**sur la mosaïque Métadonnées. La fenêtre_ Configuration de l’expérience _s’ouvre.
+1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**&#x200B;sur la mosaïque Métadonnées. La fenêtre_ Configuration de l’expérience _s’ouvre.
 
 1. Dans la section _Média_, cliquez sur **[!UICONTROL Sélectionner]**. Un menu déroulant affiche des options _Sélectionner à partir du contenu_ ou _Télécharger_.
 
