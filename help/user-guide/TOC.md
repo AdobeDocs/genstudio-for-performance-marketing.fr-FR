@@ -5,17 +5,17 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 94d7c028bfc73d114e7da3a3676730d5e7edab99
+source-git-commit: 8dbb4b44cacac952e3c1b25e19551cbee60107b2
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 21%
+source-wordcount: '217'
+ht-degree: 22%
 
 ---
 
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
-+ [Guide de GenStudio for Performance Marketing](home.md)
++ Guide de [GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Commencer](get-started.md)
 + Introduction {#intro}
@@ -37,7 +37,7 @@ ht-degree: 21%
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + [Vue d’ensemble d’[!DNL Create] ](create/overview.md)
+   + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Méta-expériences](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -72,10 +72,11 @@ ht-degree: 21%
 + Activer {#activation}
    + [Présentation de l’activation](activation/overview.md)
    + [Workflow d’activation](activation/create-activation.md)
-   + [Activer une publicité Google Campaign Manager 360](activation/activate-cm360-ad.md)
-   + [Activer une méta-annonce](activation/activate-meta-ad.md)
    + [Gérer les activations](activation/manage-activations.md)
    + [Optimiser les activations](activation/troubleshooting.md)
+   + Publicités médias payantes {#paid-media-ads}
+      + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
+      + [Meta](activation/activate-meta-ad.md)
 + Insights {#insights}
    + [Vue d’ensemble d’Insights](insights/overview.md)
    + [Filtres d’informations](insights/filter-views.md)
