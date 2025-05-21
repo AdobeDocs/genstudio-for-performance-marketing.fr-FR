@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
+source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Lors de la création de modèles, assurez-vous qu’ils répondent aux exigences
 
 - Utilisation d’HTML et de CSS intégré propres et réactifs
 - Utilisation des polices Adobe ou Google
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 
 {{note-css-effects}}
 
@@ -61,15 +61,15 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 - Utilisation des polices Adobe ou Google
 - Utilisation d’HTML et de CSS intégré propres et réactifs
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 - N **utilisez pas** largeur fixe dans le corps ou le conteneur
 - N’utilisez **pas** codage base64 pour les images, car il peut augmenter considérablement la taille du modèle
 
 **Contraintes** :
 
-- Utilisation des [sections](customize-template.md#sections-or-groups) :
-   - Un modèle de base (une seule section) peut générer un seul ensemble d’éléments de modèle.
-   - Un modèle complexe (plusieurs sections) peut générer jusqu’à trois ensembles d’éléments de modèle.
+- Les e-mails marketing peuvent comporter 0, 2 ou 3 [sections](customize-template.md#sections-or-groups) :
+   - Un modèle de base (zéro section) peut générer un seul ensemble d’éléments de modèle, ce qui ne nécessite pas la convention d’affectation des noms de groupe.
+   - Un modèle complexe (plusieurs sections) peut générer jusqu’à trois ensembles d’éléments de modèle, ce qui nécessite de respecter la convention de dénomination des groupes : (`groupname_fieldname`)
 - Le nombre maximal de champs autorisés dans un modèle est de 20
 - La taille maximale du fichier HTML est de 102 Ko
 
@@ -77,7 +77,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 Pour l’e-mail, le champ `subject` est automatiquement inclus. Utilisez des espaces réservés de contenu pour les champs suivants :
 
-- `pre_header`
+- `pre_header` (texte enrichi non activé)
 - `headline`
 - `sub_headline`
 - `body`
@@ -92,10 +92,10 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de Métado
 
 - Utiliser une largeur de 360 pixels pour les mises en page de colonnes
 - Utilisez une résolution minimale de 1 080 x 1 080 pixels pour les images
-- N’utilisez **&#x200B;**&#x200B;de taille de police relative
+- N’utilisez **** de taille de police relative
 - Ne **pas définir** fenêtre d’affichage
-- N’utilisez **&#x200B;**&#x200B;JavaScript
-- Ne remplacez **&#x200B;**&#x200B;un élément HTML dans le CSS
+- N’utilisez **** JavaScript
+- Ne remplacez **** un élément HTML dans le CSS
 - Utiliser la balise `<img>` au lieu de `background-image`
 - Utilisez le masquage pour améliorer la lisibilité du texte sur les images d’arrière-plan
 
@@ -103,8 +103,11 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de Métado
 
 - Utilisation des [sections](customize-template.md#sections-or-groups) :
    - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle.
+- Un seul champ d’image est requis.
 
 **proportions prises en charge** :
+
+Les proportions doivent être définies :
 
 - Carré 1:1 (1 080 x 1 080 pixels)
 - Portrait 4:5 (1 080 x 1 350 pixels)
@@ -127,18 +130,19 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 - Utilisation des polices Adobe ou Google
 - Préparation des ressources qui s’affichent correctement dans les dimensions compactes
-- N’utilisez **&#x200B;**&#x200B;d’images d’arrière-plan incorporées ou codées
+- N’utilisez **** d’images d’arrière-plan incorporées ou codées
 - Utiliser des images d’arrière-plan (champ `image`) chargées dans le référentiel de contenu GenStudio for Performance Marketing
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 
 **Contraintes** :
 
 - Utilisation des [sections](customize-template.md#sections-or-groups) :
    - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle.
+- Un seul champ d’image est requis.
 
 **Dimensions prises en charge** :
 
-- Largeur x Hauteur (pixels)
+- Largeur x Hauteur (pixels) doit être défini
 - Vertical :
    - 300 x 600
    - 160 x 600&#x200B;
@@ -171,6 +175,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation des modèl
 
 - Utilisation des [sections](customize-template.md#sections-or-groups) :
    - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle.
+- Un seul champ d’image est requis.
 - Taille d’image maximale de 5 Mo
 - Titre maximal de 70 caractères
 - Texte d’introduction maximal de 150 caractères
