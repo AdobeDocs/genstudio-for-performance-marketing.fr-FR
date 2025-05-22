@@ -3,9 +3,9 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
+source-git-commit: 654adf4f774b5e4915a67e0c0c3e5d07268d1a89
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Vous pouvez recadrer et repositionner manuellement des ressources d’image dans
 
 ## Modifier les proportions
 
-Vous pouvez rapidement modifier les proportions des Méta-annonces pour adapter le dimensionnement de l’annonce publicitaire à vos besoins.
+Vous pouvez rapidement modifier les proportions des Méta-annonces pour adapter le dimensionnement de l’annonce publicitaire à vos besoins. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée 1:1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
 
 Les proportions disponibles sont les suivantes :
 
@@ -155,7 +155,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 
