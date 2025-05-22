@@ -4,7 +4,7 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
+source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Ces informations de mise à jour détaillent les dernières mises à jour de l�
 
 ## Notes de mise à jour antérieures
 
-+++Notes de la version 2025.05.15
++++Notes de la version 2025.04.15
 
 ### Correctifs et améliorations
 
