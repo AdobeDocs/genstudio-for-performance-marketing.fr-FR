@@ -5,17 +5,17 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 8dbb4b44cacac952e3c1b25e19551cbee60107b2
+source-git-commit: 2745df9f67c1af4261bfdbf096b721e9bb97bc4b
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 22%
+source-wordcount: '221'
+ht-degree: 21%
 
 ---
 
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
-+ [Guide de GenStudio for Performance Marketing](home.md)
++ Guide de [GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Commencer](get-started.md)
 + Introduction {#intro}
@@ -37,7 +37,7 @@ ht-degree: 22%
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + [Vue d’ensemble d’[!DNL Create] ](create/overview.md)
+   + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Méta-expériences](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -69,6 +69,8 @@ ht-degree: 22%
       + [Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
 + Campagnes {#campaigns}
    + [Présentation des campagnes](campaigns/overview.md)
+   + [Créer des campagnes](campaigns/create-campaign.md)
+   + [Gérer les campagnes](campaigns/manage-campaign.md)
 + Activer {#activation}
    + [Présentation de l’activation](activation/overview.md)
    + [Workflow d’activation](activation/create-activation.md)
