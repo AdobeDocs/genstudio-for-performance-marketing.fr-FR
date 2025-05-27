@@ -3,9 +3,9 @@ title: Validation des marques dans Adobe GenStudio for Performance Marketing
 description: Découvrez comment fonctionne le système de validation de marque intégré dans GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ GenStudio for Performance Marketing effectue la validation de la marque et d’a
 
 ## Résumé de la vérification du contenu
 
-Un résumé de la validation de la marque et d’autres informations de vérification du contenu pour chaque variante de contenu générée est accessible via l’icône de résumé _Vérification de contenu_ pour chaque variante dans la zone de travail.
+Un résumé de la validation de la marque et d’autres informations de vérification du contenu pour chaque élément de contenu généré est accessible via l’icône de résumé _Vérification de contenu_ pour chaque variante dans la zone de travail.
 
 Le résumé de la _vérification de contenu_ affiche les éléments suivants :
 
@@ -33,17 +33,17 @@ Le résumé de la _vérification de contenu_ affiche les éléments suivants :
 
 ![Résumé de la vérification du contenu](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
-Cliquez sur le pourcentage pour voir dans quelle mesure la variante est conforme. Les scores se mettent automatiquement à jour lorsque vous apportez des modifications aux variantes. Vous pouvez cliquer sur _Afficher et résoudre les problèmes_ pour garantir une meilleure conformité.
+Cliquez sur le pourcentage pour voir dans quelle mesure la variante est conforme. Les scores sont automatiquement mis à jour lorsque vous apportez des modifications aux variantes ou à d’autres contenus. Vous pouvez cliquer sur _Afficher et résoudre les problèmes_ pour garantir une meilleure conformité.
 
 Voir [Amélioration de l’alignement des marques](#improve-brand-alignment).
 
 ## Panneau de vérification du contenu
 
-Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsqu’on clique sur celui-ci dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_](#content-check-summary) pour une variante. Ce panneau fournit une validation de marque détaillée. les instructions relatives à la plateforme et les informations sur les normes d’accessibilité éclairent les possibilités d’amélioration pour chaque section de variante.
+Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ ](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
 
 ![Panneau de vérification du contenu](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
-Le panneau _Vérification de contenu_ affiche les informations de validation et [conformité](/help/user-guide/guidelines/overview.md#compliance) pour chaque section de la variante :
+Le panneau _Vérification de contenu_ affiche des informations de validation et de [conformité](/help/user-guide/guidelines/overview.md#compliance) pour les sections d’images et de variantes :
 
 * Représentation de la _vérification de contenu_ informations récapitulatives pour les [!DNL Brand], les directives de la plateforme et les normes d’accessibilité
 * Section _À réviser_ indiquant le nombre d’instructions ayant échoué et des informations détaillées sur chaque instruction à réviser
@@ -67,22 +67,21 @@ Pour optimiser l’efficacité du contenu généré et maintenir une identité d
 
 **Pour améliorer l’alignement de la marque pour les variantes générées** :
 
-1. Cliquez sur l’icône du panneau _Vérification de contenu_ dans la barre d’actions de droite pour afficher les informations de validation et d’accessibilité d’une seule variante.
+1. Cliquez sur l’icône du panneau _Vérification de contenu_ dans la barre d’actions de droite pour afficher les informations de validation et d’accessibilité.
 
-   Vous pouvez voir un résumé des contrôles _Révision requise_ et _Réussite_ pour identifier les sections et directives à améliorer.
+   Vous pouvez voir un résumé des contrôles _Révision des besoins_ et _Réussite_ pour voir ce qui doit être amélioré.
 
    >[!NOTE]
    >
    > La directive _voix de marque_ indiquée dans le panneau _Vérification de contenu_ s’applique à l’ensemble de la variante, et non à une section individuelle. L’ensemble de la variante de contenu est mis en surbrillance pour une amélioration suggérée.
 
 1. Cliquez pour corriger les instructions qui ne sont pas actuellement conformes.
-1. Cliquez pour développer et examiner chaque vérification qui doit être examinée dans les sections disponibles telles que _Titre_ et _Voix de la marque_.
+1. Cliquez pour développer et examiner chaque vérification qui doit être examinée dans les sections disponibles telles que _Titre_, _Couleur_ et _Voix de la marque_.
 
-   Utilisez le raisonnement fourni pour chaque contrôle afin de vous guider dans la révision des variantes.
+   Utilisez le raisonnement fourni pour chaque vérification afin de vous guider dans la révision des images et des variantes.
 
 1. Après avoir effectué les révisions nécessaires, cliquez sur **[!UICONTROL Vérifier à nouveau le score]** pour revérifier et valider vos modifications afin de vous assurer qu’elles sont plus étroitement alignées sur l’identité de votre marque, les directives de la plateforme et les normes d’accessibilité.
 
    Le processus de vérification du contenu s’exécute à nouveau. Si les éléments modifiés sont validés, une bannière verte s’affiche au bas de la zone de travail pour confirmer que le score a été mis à jour. Si aucune modification n’a été apportée après une nouvelle vérification, la bannière confirme qu’aucune modification n’a été apportée au score. Le pourcentage de l’icône de résumé _Vérification de contenu_ pour la variante révisée indique également votre progression.
 
 1. Continuez à réviser les sections pour vous assurer que la variante entière réussit la validation et les contrôles d’accessibilité. Parcourez chaque variante à l’aide des flèches adjacentes à une variante individuelle dans la zone de travail.
-
