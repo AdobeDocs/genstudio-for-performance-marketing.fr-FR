@@ -4,9 +4,9 @@ description: Découvrez les concepts et la terminologie d’Adobe GenStudio for 
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Commencez par intégrer l’image de marque de votre entreprise, les personnages
 
 {{in-academy}}
 
-## Modèles de langue volumineux
+### Modèles de langue volumineux
 
 GenStudio for Performance Marketing exploite la plateforme d’IA générative d’Adobe, qui offre des services d’IA et de machine learning (ML) fondamentaux. Cette plateforme simplifie l’utilisation de grands modèles de langage (LLM), en optimisant les fonctionnalités GenAI d’Adobe pour créer des expériences attrayantes.
 
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing utilise la série GPT de LLM tiers via Azure
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_, telles que définies dans la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), sont les unités quantifiant l’utilisation des fonctionnalités d’IA générative dans GenStudio for Performance Marketing.
+_[!DNL Generative Actions]_, telles que définies dans la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), sont les unités quantifiant l’utilisation des fonctionnalités d’IA générative dans GenStudio for Performance Marketing.
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### Taux
 
-Vous recevez une allocation par défaut de [!DNL Generative Actions] comme indiqué dans la description du produit [GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Vous recevez une allocation par défaut de [!DNL Generative Actions] comme indiqué dans la description du produit [GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 >[!NOTE]
 >
->Les taux d’utilisation peuvent varier. Les plans peuvent faire l&#39;objet de modifications. Voir la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) pour obtenir des informations à jour sur les taux.
+>Les taux d’utilisation peuvent varier. Les plans peuvent faire l&#39;objet de modifications. Voir la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) pour obtenir des informations à jour sur les taux.
 
 Les fonctions suivantes consomment du [!DNL Generative Actions] à la vitesse spécifiée.
 
