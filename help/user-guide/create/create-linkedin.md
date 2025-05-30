@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Avant de commencer à générer une publicité LinkedIn, il est important d’[a
 
 ## Choisir un modèle
 
-Pour générer une nouvelle expérience LinkedIn, vous avez besoin d’un modèle qui fournit le framework de votre contenu. Voir [Bonnes pratiques pour les modèles](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les proportions LinkedIn prises en charge.
+Pour générer une nouvelle expérience LinkedIn, vous avez besoin d’un modèle qui fournit le framework de votre contenu. Voir [Instructions relatives aux modèles LinkedIn](/help/user-guide/templates/linkedin-template.md) pour plus d’informations sur les proportions LinkedIn prises en charge.
 
 **Pour choisir un modèle LinkedIn** :
 
@@ -81,7 +81,7 @@ Avant d’envoyer des variantes pour approbation ou publication sur [!DNL Conten
 * **Pour [modifier le nom du brouillon d’annonce LinkedIn](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement une publicité LinkedIn](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez sur l’une des sections de la publicité (comme l’objet, l’en-tête ou le corps du texte) et modifiez-la si nécessaire.
 * **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton call-to-action et sélectionnez les options de texte du bouton disponibles. Dans _Lien_, saisissez l’URL du texte call-to-action.
-* **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite dans la section _[!UICONTROL Générer un nouveau texte_ &#x200B;] puis cliquez sur **[!UICONTROL Générer]**.
+* **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite dans la section _[!UICONTROL Générer un nouveau texte_ ] puis cliquez sur **[!UICONTROL Générer]**.
 * **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, pointez sur une image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image.
 * **Pour [ajouter du texte de remplacement pour les images d’une variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, cliquez sur une ressource d’image et utilisez l’option _Texte de remplacement_ pour ajouter ou générer manuellement un texte de remplacement par image.
 * **Pour [supprimer une publicité LinkedIn](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le menu d’options d’une variante et cliquez sur **[!UICONTROL Supprimer la variante]**.

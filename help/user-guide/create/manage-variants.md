@@ -3,7 +3,7 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Vous pouvez recadrer et repositionner manuellement des ressources d’image dans
 
 ## Modifier les proportions
 
-Vous pouvez rapidement modifier le [format des méta-annonces](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour adapter l’annonce au dimensionnement souhaité. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée 1:1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
+Vous pouvez rapidement modifier le [format des méta-annonces](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter l’annonce au dimensionnement souhaité. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée 1:1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Vous pouvez rapidement modifier le [format des méta-annonces](/help/user-guide/
 
    Le nombre de variations affectées par cette révision est indiqué dans le coin supérieur droit de la fenêtre. _Exemple_ : « 4 variations sur 4 »
 
-1. Sélectionnez un [format disponible](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+1. Sélectionnez un [format disponible](/help/user-guide/templates/meta-template.md#supported-aspect-ratios).
 
    Seules les tailles aux proportions qui ne sont pas actuellement représentées dans la zone de travail peuvent être sélectionnées.
 
@@ -148,7 +148,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 

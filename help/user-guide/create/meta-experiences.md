@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA gén
 
 Lors de la génération d’expériences Meta , quatre variations sont créées et affichées dans la zone de travail.
 
-GenStudio for Performance Marketing prend en charge les [méta-publicités standard et personnalisées](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+GenStudio for Performance Marketing prend en charge les [méta-publicités standard et personnalisées](/help/user-guide/templates/meta-template.md).
 
 Les sections modifiables d’une expérience d’e-mail incluent :
 

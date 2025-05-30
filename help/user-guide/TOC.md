@@ -5,17 +5,17 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 2745df9f67c1af4261bfdbf096b721e9bb97bc4b
+source-git-commit: 7ac97f040917ee737cd29ba8f5c7d8c72a75e577
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 21%
+source-wordcount: '237'
+ht-degree: 20%
 
 ---
 
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
-+ [Guide de GenStudio for Performance Marketing](home.md)
++ Guide de [GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Commencer](get-started.md)
 + Introduction {#intro}
@@ -37,7 +37,7 @@ ht-degree: 21%
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + [Vue d’ensemble d’[!DNL Create] ](create/overview.md)
+   + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Méta-expériences](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -61,12 +61,18 @@ ht-degree: 21%
    + [Gestion des ressources et des expériences](content/manage-assets.md)
    + [Connexion à un référentiel AEM](content/connect-aem-repo.md)
    + [Détails de la ressource](content/asset-details.md)
-   + Modèles {#templates}
-      + [Utiliser des modèles](content/use-templates.md)
-      + [Personnaliser un modèle](content/customize-template.md)
-      + [ Éditeur de code de modèle ](content/code-editor.md)
-      + [Créer des modèles accessibles](content/accessibility-for-templates.md)
-      + [Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
++ Modèles {#templates}
+   + [Utiliser des modèles](content/use-templates.md)
+   + [Modèles de démarrage](templates/starter-templates.md)
+   + [Personnaliser un modèle](content/customize-template.md)
+   + [ Éditeur de code de modèle ](content/code-editor.md)
+   + [Créer des modèles accessibles](content/accessibility-for-templates.md)
+   + [Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
+   + Bonnes pratiques relatives aux canaux {#channel-best-practice}
+      + [Guide d’affichage des publicités](templates/display-template.md)
+      + [Guide des e-mails](templates/email-template.md)
+      + [Guide des publicités LinkedIn](templates/linkedin-template.md)
+      + [Guide des métadonnées publicitaires](templates/meta-template.md)
 + Campagnes {#campaigns}
    + [Présentation des campagnes](campaigns/overview.md)
    + [Créer des campagnes](campaigns/create-campaign.md)

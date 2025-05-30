@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA gén
 
 [!DNL Create] permet aux spécialistes du marketing modernes d’utiliser des [directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [ invite bien conçue](/help/user-guide/effective-prompts.md) pour [ rapidement des expériences d’e-mail alignées sur la marque](/help/user-guide/create/create-email-experience.md).
 
-Lors de la génération d’expériences Meta , quatre variations sont créées et affichées dans la zone de travail.
+Lors de la génération d’expériences d’e-mail, quatre variations sont créées et affichées dans la zone de travail.
 
 Les sections modifiables d’une expérience d’e-mail incluent :
 
