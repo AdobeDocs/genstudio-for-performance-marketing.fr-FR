@@ -3,16 +3,16 @@ title: Publier le contenu approuvé
 description: Découvrez comment publier du contenu approuvé avec Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
 # Publier le contenu approuvé
 
-La dernière étape de la création de contenu approuvé aligné sur la marque consiste à l’enregistrer dans les [!DNL Content] avec les métadonnées appropriées. Vous (l’éditeur de contenu ou le créateur) pouvez finaliser la ressource approuvée en la publiant ou en l’enregistrant dans [!DNL Content].
+La dernière étape de la création de contenu approuvé aligné sur la marque consiste à l’enregistrer dans les [!DNL Content] avec les métadonnées appropriées. Vous (l’éditeur de contenu ou le créateur) pouvez finaliser la ressource approuvée en la publiant sur [!DNL Content].
 
 Lorsque tous les approbateurs désignés approuvent un brouillon, le statut du brouillon passe à **Approuvé**. Adobe GenStudio for Performance Marketing affiche le pop-up _Variantes approuvées prêtes à publier_ sur la zone de travail de l’éditeur.
 
@@ -34,9 +34,11 @@ Vous pouvez ensuite finaliser le brouillon en le publiant sur [!DNL Content] ave
 
 ## Après la publication
 
-Tous les utilisateurs de GenStudio for Performance Marketing peuvent accéder aux ressources ou expériences approuvées dans [!DNL Content]. Le panneau Détails de la ressource identifie l’historique de chargement et d’approbation de la ressource. Ces attributs identifient le contenu enregistré :
+Tous les utilisateurs de GenStudio for Performance Marketing peuvent accéder aux ressources ou expériences approuvées dans [!DNL Content]. Le panneau _Détails de la ressource_ identifie l’historique de chargement et d’approbation de la ressource. Ces attributs identifient le contenu enregistré :
 
 * **[!UICONTROL Créé par]** : identifie l’utilisateur GenStudio qui a chargé la ressource ou l’expérience.
 * **[!UICONTROL Historique des validations]** : identifie la date et l&#39;heure de validation, ainsi que l&#39;approbateur.
 
 Les URL de brouillon ne sont pas valides après l’enregistrement d’un brouillon de ressource ou d’expérience dans [!DNL Content].
+
+Si vous avez activé l’intégration de Workfront Proof, les commentaires sur l’épreuve et les versions sont enregistrés après la publication de la ressource ou de l’expérience.
