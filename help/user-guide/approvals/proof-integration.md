@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # Intégration de Workfront Proof à GenStudio for Performance Marketing
 
-L’intégration à Workfront Proof améliore le cycle de vie de révision et d’approbation de GenStudio for Performance Marketing grâce à des fonctionnalités avancées, notamment des modèles d’approbation, des workflows à plusieurs étapes et la possibilité de [comparer des versions de BAT](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Ce contrôle de version structuré garantit la transparence, la responsabilité et une collaboration rationalisée tout au long du cycle de vie de la révision du contenu.
+L’intégration à Workfront Proof améliore le cycle de vie de révision et d’approbation de GenStudio for Performance Marketing grâce à des fonctionnalités avancées, notamment des modèles d’approbation, des workflows à plusieurs étapes et la possibilité de [comparer des versions de BAT](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Ce contrôle de version structuré garantit la transparence, la responsabilité et une collaboration rationalisée tout au long du cycle de vie de la révision du contenu.
 
 >[!BEGINSHADEBOX]
 
 **Conditions préalables** :
 
-Installez l’extension [Visionneuse web Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+Installez l’extension [Visionneuse web Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ Le tableau ci-dessous compare les fonctions de révision et d’approbation stan
 
 ### Licences et rôles utilisateur
 
-Les licences identifient l’ensemble des droits d’utilisateur au sein d’un produit. Workfront Proof fournit plus de types de licence ou de rôles utilisateur que GenStudio for Performance Marketing. [Présentation des rôles dans l’épreuve](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) introduit les rôles utilisateur associés au workflow de révision et d’approbation de Workfront Proof.
+Les licences identifient l’ensemble des droits d’utilisateur au sein d’un produit. Workfront Proof fournit plus de types de licence ou de rôles utilisateur que GenStudio for Performance Marketing. [Présentation des rôles dans l’épreuve](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) introduit les rôles utilisateur associés au workflow de révision et d’approbation de Workfront Proof.
 
 | Licence GenStudio for Performance Marketing       | Licence Workfront                 | Description                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Les administrateurs système d’Adobe gèrent l’approvisionnement des utilisa
 
 >[!NOTE]
 >
-> Workfront Proof fournit des [rôles utilisateur supplémentaires](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). Tous les rôles ne sont pas visibles dans Performance Marketing. Cependant, le système honore tout jeu de rôles au sein d’un modèle Workfront Proof.
+> Workfront Proof fournit des [rôles utilisateur supplémentaires](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). Tous les rôles ne sont pas visibles dans Performance Marketing. Cependant, le système honore tout jeu de rôles au sein d’un modèle Workfront Proof.
 
 ### Brouillons et épreuves
 
@@ -78,9 +78,9 @@ Les modèles d’approbation prennent en charge les approbations à plusieurs é
 
 Les réviseurs peuvent cliquer directement sur des zones spécifiques du BAT pour laisser des commentaires précis et contextuels. Tous les commentaires sont horodatés et enregistrés dans l’historique des versions de l’épreuve. L’historique des commentaires n’est pas disponible dans GenStudio for Performance Marketing.
 
-Vous pouvez [comparer deux versions d’une épreuve](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) pour évaluer les commentaires et le contenu de la révision.
+Vous pouvez [comparer deux versions d’une épreuve](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) pour évaluer les commentaires et le contenu de la révision.
 
 ## Notifications et rappels
 
 Les réviseurs et les approbateurs reçoivent des notifications par e-mail lorsqu’une nouvelle épreuve est disponible pour révision ou lorsqu’une révision en cours a changé de statut.
-Les [notifications et rappels relatifs aux épreuves](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) comprennent un lien personnalisé vers l’épreuve, des détails sur l’épreuve et sa progression tout au long du processus d’approbation, ainsi que des informations de contrôle de version.
+Les [notifications et rappels relatifs aux épreuves](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) comprennent un lien personnalisé vers l’épreuve, des détails sur l’épreuve et sa progression tout au long du processus d’approbation, ainsi que des informations de contrôle de version.
