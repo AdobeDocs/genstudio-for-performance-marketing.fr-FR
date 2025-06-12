@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: 12336812e8f4f55935f624ad0a195b5928850c7f
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -86,10 +86,12 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour [modifier le nom du brouillon d’e-mail](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement un e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez dans l’un des champs de texte modifiables (comme l’objet, l’en-tête ou la copie du corps) et modifiez-le si nécessaire
 * **Pour [modifier ou sélectionner l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, cliquez sur le bouton call-to-action et sélectionnez _[!UICONTROL Reformuler]_ ou _[!UICONTROL Ajouter un lien]_.
+* **Pour [appliquer une mise en forme de texte](/help/user-guide/create/manage-variants.md#manually-edit-text)** dans une variante, cliquez sur le texte sur l’image d’une variante et cliquez sur **[!UICONTROL Mettre en forme le texte]**.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
 * **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône **[!UICONTROL Permuter depuis le contenu]**.
 * **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.
 * **Pour [ajouter du texte de remplacement pour les images d’une variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, cliquez sur une ressource d’image et utilisez l’option _Texte de remplacement_ pour ajouter ou générer manuellement un texte de remplacement par image.
+* **Pour [ajouter des libellés d’accessibilité](/help/user-guide/create/manage-variants.md#add-accessibility-labels) à vos variantes** cliquez sur une image ou un lien call-to-action, puis fournissez une brève description expliquant la fonction du lien ou du bouton.
 * **Pour [supprimer un e-mail](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de l’e-mail (par exemple, « E-mail 1/4 ») et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Envoyer le retour d’informations de génération

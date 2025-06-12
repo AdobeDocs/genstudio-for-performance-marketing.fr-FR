@@ -3,9 +3,9 @@ title: Activation d’une métadonnée
 description: Découvrez comment activer une expérience de métadonnées.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 09450c99dfc6bc283519b068a3b34c0551e45fc8
+source-git-commit: 2d43b1b3373c5ed0b80d9740906d372955816831
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1908'
 ht-degree: 1%
 
 ---
@@ -49,9 +49,9 @@ Une fois la synchronisation terminée, vous pouvez afficher les comptes ajoutés
 
 Vous pouvez lancer une activation de deux manières :
 
-* **Activer directement à partir de [!DNL Content]_**. La sélection d’une expérience approuvée avec des paramètres prédéfinis est la méthode la plus simple pour lancer une activation sur un seul canal.
+* **Activer directement depuis[!DNL Content]**. La sélection d’une expérience approuvée avec des paramètres prédéfinis est la méthode la plus simple pour lancer une activation sur un seul canal.
 
-* **Assembler votre expérience publicitaire à partir de [!DNL Activate] > _Configuration de l’expérience_**&#x200B;Vous pouvez créer une expérience en sélectionnant des ressources visuelles dans&#x200B;_[!DNL Content]_, en ajoutant des éléments de texte et en sélectionnant des proportions. Cette approche comporte plus d’étapes, mais offre une plus grande flexibilité lors de la conception de votre expérience créative.
+* **Assemblez votre expérience publicitaire à partir de [!DNL Activate] > _Configuration de l’expérience_**. Vous pouvez créer une expérience en sélectionnant des ressources visuelles dans [!DNL Content], en ajoutant des éléments de texte et en sélectionnant des proportions. Cette approche comporte plus d’étapes, mais offre une plus grande flexibilité lors de la conception de votre expérience créative.
 
 ### Activer une expérience approuvée à partir du contenu
 
@@ -59,7 +59,7 @@ Vous pouvez sélectionner plusieurs expériences à activer sur un seul canal pa
 
 Si vous avez sélectionné plusieurs expériences à activer en tant que groupe, utilisez la barre latérale gauche pour placer le focus de l’affichage _Configuration de l’expérience_ sur les détails de l’expérience sélectionnée.
 
-1. Utilisez les outils de recherche et de filtrage de la galerie de _[!DNL Content]_&#x200B;pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Activer]**.
+1. Utilisez les outils de recherche et de filtrage de la galerie de [!DNL Content] pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Activer]**.
 
    La page Métadonnées publicitaires _configuration de l’expérience_ s’ouvre pour cette expérience. Il est prérempli avec des détails de l’expérience sélectionnée. Vous pouvez modifier les champs **[!UICONTROL Call-to-action]**, **[!UICONTROL URL du site Web]** et **[!UICONTROL Afficher le lien]**. Si vous sélectionnez plusieurs expériences à activer, la vue _Configuration de l’expérience_ comprend une barre latérale gauche qui affiche des miniatures de toutes les expériences sélectionnées. Utilisez cette barre latérale gauche pour placer le focus de la vue _Configuration de l’expérience_ sur les détails de l’expérience sélectionnée.
 
@@ -73,16 +73,16 @@ Si vous avez sélectionné plusieurs expériences à activer en tant que groupe,
 
 ### Assembler des composants d’expérience
 
-Si vous choisissez de ne pas activer directement une expérience approuvée à partir de _[!DNL Content]_, vous pouvez sélectionner des ressources, attribuer des proportions et créer des brouillons de texte.
+Si vous choisissez de ne pas activer directement une expérience approuvée à partir de [!DNL Content], vous pouvez sélectionner des ressources, attribuer des proportions et créer des brouillons de texte.
 
 **Pour préparer votre expérience en vue de l’activation** :
 
-1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**&#x200B;sur l’icône représentant le canal payant de votre choix. La vue_ Configuration de l’expérience _s’ouvre.
+1. Dans [!DNL Activate], cliquez sur **[!UICONTROL Nouveau]** sur l’icône représentant le canal payant de votre choix. La vue _Configuration de l’expérience_ s’ouvre.
 
    La page _Configuration de l’expérience_ fournit un emplacement central pour préparer l’activation de vos annonces. La préparation de votre publicité comprend les trois tâches suivantes :
 
 1. Attribuez un nom à votre expérience. Après l’activation, vous pouvez utiliser ce nom pour rechercher cette expérience dans le tableau _Expériences activées_.
-1. Sélectionnez des ressources multimédias. Vous pouvez utiliser des ressources provenant de _[!DNL Content]_&#x200B;ou charger des ressources externes (par exemple, à partir de OneDrive ou de Dropbox).
+1. Sélectionnez des ressources multimédias. Vous pouvez utiliser des ressources provenant de [!DNL Content] ou charger des ressources externes (par exemple, à partir de OneDrive ou de Dropbox).
 1. [Ajouter du texte](#add-ad-text).
 1. [Ajout de métadonnées](#assign-metadata).
 
@@ -92,27 +92,27 @@ Si vous choisissez de ne pas activer directement une expérience approuvée à p
 
 Utilisez la section _Média_ pour sélectionner au moins une ressource d’image à inclure dans votre expérience. Les emplacements publicitaires sont associés à des proportions d’image prises en charge, qui sont répertoriées en tant qu’options dans le menu déroulant _Emplacements_. Ce menu affiche les emplacements publicitaires pris en charge pour les publications Facebook ou les articles Instagram, organisés par rapport aux proportions.
 
-Après le chargement, les ressources sont enregistrées dans _[!DNL Content]_. La zone_ Média _affiche l’image par défaut avec un rapport d’aspect de 1:1. Les autres proportions incluent uniquement les valeurs prises en charge par le canal publicitaire payant. Ils sont regroupés par orientation verticale et horizontale. GenStudio for Performance Marketing prend en charge l’inclusion de jusqu’à six proportions par expérience activée.
+Après le chargement, les ressources sont enregistrées dans [!DNL Content]. La zone _Média_ affiche l’image par défaut avec un rapport d’aspect de 1:1. Les autres proportions incluent uniquement les valeurs prises en charge par le canal publicitaire payant. Ils sont regroupés par orientation verticale et horizontale. GenStudio for Performance Marketing prend en charge l’inclusion de jusqu’à six proportions par expérience activée.
 
 **Pour charger une ressource à partir du contenu** :
 
-_[!DNL Content]_&#x200B;fournit une vue centrale des ressources et expériences approuvées de votre organisation. Vous pouvez cibler la galerie de[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) l’inventaire affiché des ressources à l’aide des options de menu **[!UICONTROL Rechercher]** (loupe) et _Filtrer_.
+[!DNL Content] fournit une vue centrale des ressources et expériences approuvées de votre organisation. Vous pouvez cibler l’inventaire des ressources affiché dans la [[!DNL Content] galerie](/help/user-guide/content/manage-assets.md) à l’aide des options de menu **[!UICONTROL Rechercher]** (loupe) et _Filtrer_.
 
-1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**&#x200B;sur la carte du canal. La vue_ Configuration de l’expérience _s’ouvre.
+1. Dans [!DNL Activate], cliquez sur **[!UICONTROL Nouveau]** sur la carte du canal. La vue _Configuration de l’expérience_ s’ouvre.
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez **[!UICONTROL Sélectionner dans le contenu]**. La vue _Sélectionner le contenu_ s’ouvre, affichant une galerie de ressources d’image que vous parcourez ou filtrez.
 
-1. Utilisez les outils de recherche et de filtrage de _[!DNL Content]_&#x200B;galerie pour sélectionner au moins une ressource à charger.
+1. Utilisez les outils de recherche et de filtrage de [!DNL Content] galerie pour sélectionner au moins une ressource à charger.
 
 1. Cliquez sur **[!UICONTROL Utiliser]** pour inclure la ressource sélectionnée dans votre expérience publicitaire. La fenêtre _Configuration de l’expérience_ inclut la ressource dans ses proportions par défaut dans la zone _Média_. Le panneau _Aperçu_ prévisualise la ressource dans l’emplacement publicitaire qui prend en charge ce rapport d’aspect.
 
-Si le chargement échoue, un message d’erreur informatif contenant un lien vers la ressource dans _[!DNL Content]_&#x200B;s’ouvre.
+Si le chargement échoue, un message d’erreur informatif contenant un lien vers la ressource dans _[!DNL Content]_s’ouvre.
 
 **Pour charger une ressource externe** :
 
-Vous pouvez charger jusqu’à six images statiques externes à la galerie _[!DNL Content]_&#x200B;à partir de Microsoft OneDrive ou de Dropbox.
+Vous pouvez charger jusqu’à six images statiques externes à la galerie [!DNL Content] à partir de Microsoft OneDrive ou de Dropbox.
 
-1. Dans _[!DNL Activate]_, cliquez sur **[!UICONTROL Nouveau]**&#x200B;sur la mosaïque Métadonnées. La fenêtre_ Configuration de l’expérience _s’ouvre.
+1. Dans [!DNL Activate], cliquez sur **[!UICONTROL Nouveau]** sur la mosaïque Métadonnées. La fenêtre _Configuration de l’expérience_ s’ouvre.
 
 1. Dans la section _Média_, cliquez sur **[!UICONTROL Sélectionner]**. Un menu déroulant affiche des options _Sélectionner à partir du contenu_ ou _Télécharger_.
 
@@ -171,6 +171,34 @@ Après avoir préparé vos expériences publicitaires, vous devez confirmer les 
 | Compte Instagram | Comptes Instagram ayant été connectés à GenStudio for Performance Marketing |
 | Campagnes | Métacaractères auxquelles appartient l’expérience publicitaire |
 | Visionneuses d’annonces | Métadonnées publicitaires auxquelles appartient l’expérience publicitaire activée. Les paramètres déterminent les emplacements finaux de la publicité. |
+
+### Création d’une visionneuse d’annonces
+
+Vous pouvez créer un nouveau jeu d’annonces lors de la configuration de la plateforme en clonant un jeu d’annonces existant. Les ensembles de métadonnées publicitaires définissent le timing, les détails du canal et l’audience d’une publicité spécifique. Une méta-campagne peut contenir plusieurs visionneuses d’annonces, mais une visionneuse d’annonces est exclusivement associée à une campagne.
+
+**Pour créer une visionneuse d’annonces** :
+
+1. Sélectionnez une campagne dans le menu déroulant _Méta-campagnes_.
+
+   La campagne sélectionnée détermine les visionneuses d’annonces disponibles sous forme d’options dans le menu déroulant _Visionneuses d’annonces_.
+
+1. Cliquez sur **[!UICONTROL + Créer une visionneuse d’annonces]**.
+
+   La fenêtre contextuelle _Créer un ensemble d’annonces_ s’ouvre, identifiant la méta-campagne dans laquelle l’ensemble d’annonces est créé.
+
+1. Sélectionnez la visionneuse d’annonces à cloner dans le menu déroulant _Utiliser la configuration à partir de_.
+
+   GenStudio for Performance Marketing attribue un nom de visionneuse d’annonces par défaut en ajoutant `- Copy` au nom de la visionneuse d’annonces sélectionnée.
+
+1. (Facultatif mais recommandé) Saisissez un nom d’annonce publicitaire unique dans le champ **[!UICONTROL Nom du nouveau jeu d’annonces]** pour remplacer la valeur par défaut.
+
+1. Cliquez sur **[!UICONTROL Créer un groupe d’annonces]**.
+
+   Vous revenez à la vue _Configuration de Platform_, où la nouvelle visionneuse d’annonces est présélectionnée. Un message de réussite s’affiche, y compris un lien vers la publicité définie dans le Gestionnaire de métadonnées. Ce jeu d’annonces est disponible pour des activations ultérieures.
+
+>[!NOTE]
+>
+>Si la visionneuse d’annonces a été créée avec succès mais que le nom de la visionneuse n’a pas pu être enregistré, celle-ci est enregistrée dans le Gestionnaire de métadonnées sous son nom par défaut (_nom d’origine de la visionneuse d’annonces - Copier_).
 
 ### Identifiant de tracking
 

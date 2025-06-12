@@ -5,9 +5,9 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: ecb6a410e26339ca295dad10e0c8dda2d73ae5a4
+source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 20%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
-+ [Guide de GenStudio for Performance Marketing](home.md)
++ Guide de [GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Commencer](get-started.md)
 + Introduction {#intro}
@@ -28,6 +28,7 @@ ht-degree: 20%
    + [Connecter des médias achetés](connectors/connect-channel.md)
    + Comptes médias payants {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
+      + [ LinkedIn ](connectors/linkedin-ads.md)
       + [Méta-publicités](connectors/meta-ads.md)
 + Directives {#guidelines}
    + [Présentation des directives](guidelines/overview.md)
@@ -37,7 +38,7 @@ ht-degree: 20%
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + [Vue d’ensemble d’[!DNL Create] ](create/overview.md)
+   + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Méta-expériences](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -52,7 +53,7 @@ ht-degree: 20%
    + [Générer une image](create/generate-assets.md)
 + Révisions et approbations {#approve}
    + [Présentation de la révision et des approbations](approvals/overview.md)
-   + [Intégration de Workfront Proof](approvals/proof-integration.md)
+   + Intégration de [Workfront Proof](approvals/proof-integration.md)
    + [Demander une révision et une approbation](approvals/request-review.md)
    + [Vérifier et modifier le contenu](approvals/review-and-edit.md)
    + [Approuver le contenu](approvals/approve-content.md)
@@ -85,6 +86,7 @@ ht-degree: 20%
    + [Optimiser les activations](activation/troubleshooting.md)
    + Publicités médias payantes {#paid-media-ads}
       + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
+      + [ LinkedIn ](activation/activate-linkedin-ad.md)
       + [Meta](activation/activate-meta-ad.md)
 + Insights {#insights}
    + [Vue d’ensemble d’Insights](insights/overview.md)

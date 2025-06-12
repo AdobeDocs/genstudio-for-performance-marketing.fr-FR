@@ -5,9 +5,9 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 7495891b58d7830453ba81048df3373820823136
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,14 @@ Les responsables système configurent Adobe GenStudio for Performance Marketing 
 
 ### Étape 1 : ajouter des directives
 
-La configuration des éléments clés de l’identité de marque de votre entreprise est une condition préalable essentielle au travail des éditeurs de contenu et des collaborateurs. [Recommandations](/help/user-guide/guidelines/overview.md) capturez les caractéristiques de la marque telles que les logos, le ton de la voix et les palettes de couleurs. Vous pouvez charger des documents [[!DNL Brands] directives](/help/user-guide/guidelines/brands.md) ou saisir manuellement des informations sur la marque. [[!DNL Personas] lignes directrices](/help/user-guide/guidelines/personas.md) et [[!DNL Products] lignes directrices](/help/user-guide/guidelines/products.md) sont également importantes. Les fonctionnalités d’IA générative sous-jacentes de GenStudio for Performance Marketing utilisent ces directives pour établir des mécanismes de sécurisation qui guident la génération de contenu.
+Les marques [directives](/help/user-guide/guidelines/overview.md) capturent leurs caractéristiques. Les fonctionnalités d’IA générative sous-jacentes de GenStudio for Performance Marketing utilisent ces directives pour établir des mécanismes de sécurisation qui guident la génération de contenu. Vous pouvez charger des documents [[!DNL Brands] directive](/help/user-guide/guidelines/brands.md) ou saisir manuellement des informations sur la marque.
+
+Les éditeurs de contenu et les collaborateurs ne peuvent pas commencer leur travail tant que les éléments fondamentaux de l’identité de [ marque ](/help/user-guide/guidelines/brands.md) votre organisation ne sont pas établis. Ces composants de marque comprennent à la fois :
+
+* Éléments intangibles, comme le ton de la voix
+* Actifs corporels, tels que logos, palettes de couleurs et typographie.
+
+Avant de créer des directives, découvrez comment GenStudio for Performance Marketing définit [ composants de marque ](/help/user-guide/guidelines/brands.md)
 
 #### Préparer vos documents d&#39;orientation
 

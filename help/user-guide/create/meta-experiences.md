@@ -5,18 +5,18 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
 # Méta-expériences
 
-Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences Meta à fort impact](/help/user-guide/create/create-meta-ad.md).
+Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences Meta à fort impact](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permet aux créateurs de contenu d’utiliser des [directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [invite bien conçue](/help/user-guide/effective-prompts.md) pour [créer rapidement des méta-expériences publicitaires](/help/user-guide/create/create-meta-ad.md).
 
-[!DNL Create] permet aux créateurs de contenu d’utiliser des [directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [invite bien conçue](/help/user-guide/effective-prompts.md) pour [créer rapidement des méta-expériences publicitaires](/help/user-guide/create/create-meta-ad.md).
+Lors de la génération d’expériences Meta , quatre variations sont créées et affichées dans la zone de travail. GenStudio for Performance Marketing prend en charge les [méta-publicités standard et personnalisées](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Lors de la génération d’expériences Meta , quatre variations sont créées et affichées dans la zone de travail.
 
@@ -28,13 +28,9 @@ Les sections modifiables d’une expérience d’e-mail incluent :
 * Corps
 * Call to action (CTA)
 * Texte sur l’image
-* Image
+* Image/Vidéo
 
 Voir [Éléments de modèle](/help/user-guide/content/use-templates.md#template-elements).
-
-<!-- ## Meta ad capabilities
-
-Content creators and marketers can produce brand-consistent Meta ad experiences in GenStudio for Performance Marketing. -->
 
 ## Canaux de méta-publicités
 

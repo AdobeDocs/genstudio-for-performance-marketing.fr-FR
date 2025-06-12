@@ -3,7 +3,7 @@ title: Gérer les activations
 description: Découvrez comment gérer les expériences activées avec Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gérer les activations
 
-_[!DNL Activate]_&#x200B;offre une vue centralisée du statut d’activation de chaque canal publicitaire, y compris les activations Publiée (réussie), Échec (non réussie) et Publication (en attente). La vue_ Expériences activées _affiche toutes les activations pour un compte publicitaire de canal connecté.
+[!DNL Activate] offre une vue centralisée du statut d’activation de chaque canal publicitaire, y compris les activations Publiée (réussie), Échec (non réussie) et Publication (en attente). La vue _Expériences activées_ affiche toutes les activations pour un compte publicitaire de canal connecté.
 
-_[!DNL Activate]_&#x200B;organise les expériences activées par canal publicitaire. Cliquez sur **[!UICONTROL Afficher]**&#x200B;sur la mosaïque du canal. La vue_ Expériences activées _du canal sélectionné s’ouvre. Cette vue répertorie les expériences par nom et les classe par date d’activation. Si votre organisation n’a pas activé d’expérience pour ce canal, la mosaïque du produit n’inclut pas le bouton **[!UICONTROL Afficher]**.
+[!DNL Activate] organise les expériences activées par canal publicitaire. Cliquez sur **[!UICONTROL Afficher]** sur la mosaïque du canal. La vue _Expériences activées_ du canal sélectionné s’ouvre. Cette vue répertorie les expériences par nom et les classe par date d’activation. Si votre organisation n’a pas activé d’expérience pour ce canal, la mosaïque du produit n’inclut pas le bouton **[!UICONTROL Afficher]**.
 
 ## Vue Expérience activée
 

@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,15 @@ Avant de commencer à générer une publicité LinkedIn, il est important d’[a
 
 Pour générer une nouvelle expérience LinkedIn, vous avez besoin d’un modèle qui fournit le framework de votre contenu. Voir [Instructions relatives aux modèles LinkedIn](/help/user-guide/templates/linkedin-template.md) pour plus d’informations sur les proportions LinkedIn prises en charge.
 
+Vous pouvez effectuer une sélection dans votre liste de modèles personnalisés ou choisir un modèle de démarrage.
+
 **Pour choisir un modèle LinkedIn** :
 
 1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL LinkedIn]**.
-1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle spécifique.
+1. Sélectionnez **[!UICONTROL Modèles personnalisés]** pour parcourir les modèles chargés ou **[!UICONTROL Modèles de démarrage]** pour parcourir les modèles préconfigurés.
+
+   Si vous prévoyez d’ajouter des ressources vidéo à vos variantes Meta, vous devez choisir un modèle de démarrage. Ils sont préchargés avec des zones de contenu définies par le système qui facilitent l’utilisation des vidéos.
+
 1. Cliquez pour sélectionner un modèle, puis cliquez sur **[!UICONTROL Utiliser]**.
 
    Cette action ouvre la zone de travail, qui est le centre de création de contenu.
@@ -45,14 +50,16 @@ L’ajout de [instructions](/help/user-guide/guidelines/overview.md) et de resso
 
    Si aucune marque, personnage ou produit n’est disponible à partir de ces menus, [ajoutez des conseils à votre GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Ajoutez du contenu à utiliser dans l’expérience *et* pour influencer la génération de contenu :
-   * Cliquez sur **[!UICONTROL Sélectionner à partir du contenu]** pour sélectionner des ressources (images) à partir de votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
+1. Ajoutez du contenu (images ou vidéos) à utiliser dans l’expérience *et* pour influencer la génération de contenu en cliquant sur **[!UICONTROL Sélectionner à partir du contenu]**. Vous pouvez également faire glisser et déposer des images dans la section **[!UICONTROL Sélectionner à partir du contenu]** pour charger une ou plusieurs nouvelles ressources.
 
-     ![Choisir le contenu visuel](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
+   Utilisez le filtre pour rechercher du contenu et sélectionner une ou plusieurs images.
 
-     Pour utiliser des ressources à partir d’un référentiel de [!DNL AEM Assets Content Hub] connecté, choisissez un référentiel dans le menu déroulant _Emplacement_. Filtrez et sélectionnez une ou plusieurs images.
+   Si vous utilisez un modèle qui comporte une section pour les vidéos, le contenu vidéo (.mp4) sera présélectionné et filtré pour vous. Pointez sur une vidéo pour afficher un aperçu lu automatiquement.
 
-   * Vous pouvez également faire glisser et déposer des ressources dans la section **[!UICONTROL Sélectionner à partir du contenu]** pour charger une ou plusieurs nouvelles ressources.
+   ![Choisir le contenu visuel](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
+
+   Pour utiliser des ressources à partir d’un référentiel de [!DNL AEM Assets Content Hub] connecté, choisissez un référentiel dans le menu déroulant _Emplacement_. Filtrez et sélectionnez une ou plusieurs images.
+
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
 Lorsque vous avez terminé d&#39;ajouter des paramètres, vous pouvez réduire le tiroir d&#39;invite en cliquant de nouveau sur l&#39;icône _Paramètres_.
@@ -68,6 +75,8 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 1. Saisissez une invite dans la zone d’invite _« Décrire les expériences que vous souhaitez générer »_.
 1. Cliquez sur **[!UICONTROL Générer]**.
 
+   Consultez la section [Gérer les vidéos](#manage-videos) pour comprendre comment elles sont générées et comment les gérer.
+
 Par défaut, quatre variations, toutes alimentées par l’invite, les instructions et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
 
 Le contenu généré se charge progressivement ; au fur et à mesure que chaque section des expériences LinkedIn est générée, elles apparaissent dans la zone de travail. Consultez [Expériences LinkedIn](/help/user-guide/create/linkedin-experiences.md#progressive-loading) pour savoir comment ces modifications sont chargées dans la zone de travail.
@@ -81,10 +90,21 @@ Avant d’envoyer des variantes pour approbation ou publication sur [!DNL Conten
 * **Pour [modifier le nom du brouillon d’annonce LinkedIn](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement une publicité LinkedIn](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez sur l’une des sections de la publicité (comme l’objet, l’en-tête ou le corps du texte) et modifiez-la si nécessaire.
 * **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton call-to-action et sélectionnez les options de texte du bouton disponibles. Dans _Lien_, saisissez l’URL du texte call-to-action.
-* **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite dans la section _[!UICONTROL Générer un nouveau texte_ &#x200B;] puis cliquez sur **[!UICONTROL Générer]**.
+* **Pour [appliquer une mise en forme de texte](/help/user-guide/create/manage-variants.md#manually-edit-text)** dans une variante, cliquez sur le texte sur l’image d’une variante et cliquez sur **[!UICONTROL Mettre en forme le texte]**.
+* **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite dans la section _[!UICONTROL Générer un nouveau texte_ ] puis cliquez sur **[!UICONTROL Générer]**.
+* **Pour [utiliser l’option Développement génératif pour dimensionner et ajuster les images](/help/user-guide/create/manage-variants.md#use-generative-expand) à votre modèle de travail**, cliquez sur une image, puis sur **[!UICONTROL Modifier]** (icône en forme de crayon) et **[!UICONTROL Développer]**. Ajustez l’image pour qu’elle s’adapte au format et au modèle nécessaires.
 * **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, pointez sur une image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image.
+* **Pour [modifier la taille et les proportions de l’annonce](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (encadrez-le d’une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et de nouvelles proportions à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
+* **Pour [ajouter ou permuter des ressources (image ou vidéo) dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource (ou dans la zone de ressource), puis sur l’icône **[!UICONTROL Permuter depuis du contenu]**.
 * **Pour [ajouter du texte de remplacement pour les images d’une variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, cliquez sur une ressource d’image et utilisez l’option _Texte de remplacement_ pour ajouter ou générer manuellement un texte de remplacement par image.
+* **Pour [ajouter des libellés d’accessibilité](/help/user-guide/create/manage-variants.md#add-accessibility-labels) à vos variantes** cliquez sur une image ou un lien call-to-action, puis fournissez une brève description expliquant la fonction du lien ou du bouton.
 * **Pour [supprimer une publicité LinkedIn](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le menu d’options d’une variante et cliquez sur **[!UICONTROL Supprimer la variante]**.
+
+### Gestion des vidéos
+
+Pointez sur chacune des vidéos pour afficher la lecture automatique en boucle.
+
+Les vidéos sont recadrées pour s’adapter aux proportions sélectionnées pendant la génération. Revenez à la vidéo non recadrée d’origine en cliquant sur **[!UICONTROL Recadrer la vidéo]** et en la désactivant.
 
 ## Envoyer le retour d’informations de génération
 
@@ -100,7 +120,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
    ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
+1. [Révisez manuellement les variantes](#revise-generated-linkedin-ads) pour vous assurer que vos variantes sont étroitement alignées avec les vérifications de contenu terminées.
 
 Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 

@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
+source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Une fois votre modèle prêt, vous pouvez [le charger dans GenStudio for Perform
 
 ## Espaces réservés de contenu
 
-GenStudio for Performance Marketing reconnaît certains [éléments](use-templates.md#template-elements) dans un modèle, mais uniquement si vous les identifiez avec un [nom de champ reconnu](#recognized-field-names).
+GenStudio for Performance Marketing reconnaît certains types de contenu ou [éléments](use-templates.md#template-elements) dans un modèle, mais uniquement si vous les identifiez avec un [nom de champ reconnu](#recognized-field-names).
 
 Dans l’en-tête ou le corps d’un modèle HTML, vous pouvez utiliser la syntaxe [!DNL Handlebars] pour insérer un espace réservé de contenu dans lequel vous avez besoin que GenStudio for Performance Marketing renseigne le modèle avec du contenu réel. GenStudio for Performance Marketing reconnaît et interprète ces espaces réservés en fonction du [nom _champ_ reconnu](#recognized-field-names). Chaque nom de champ est associé à des règles et comportements spécifiques qui déterminent la manière dont le contenu est généré et inséré dans votre modèle.
 
@@ -124,6 +124,14 @@ Dans cet exemple :
 - `{{image}}` est l’espace réservé de l’URL source de l’image.
 - `{{imageDescription}}` est l’espace réservé du texte secondaire, qui fournit une description de l’image à des fins d’accessibilité et d’optimisation du moteur de recherche (SEO).
 
+### Libellé d’accessibilité
+
+L’attribut `aria-label` est utilisé pour définir un nom accessible pour les éléments qui n’ont pas de libellés visibles. Cet attribut est particulièrement utile dans les modèles où il est important de fournir un contexte pour les éléments interactifs, tels qu’un bouton CTA.
+
+```html
+<a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
+```
+
 ### Texte sur l’image
 
 L’espace réservé `{{on_image_text}}` est utilisé pour spécifier une superposition de texte de messages à impact court, placés directement sur l’image dans une expérience.
@@ -172,9 +180,38 @@ Pour créer une section modifiable, ajoutez des crochets doubles autour du nom d
 </tbody>
 ```
 
+### Modification de texte enrichi
+
+Améliorez votre contenu créatif pendant le processus de [!DNL Create] avec la modification de texte enrichi. La zone de travail détermine la fonctionnalité de texte enrichi en fonction de l’emplacement de l’espace réservé de contenu. La fonctionnalité de texte enrichi est disponible uniquement lorsque vous utilisez des espaces réservés de contenu en tant qu’éléments autonomes ou dans des balises HTML au niveau du bloc, telles que `<p>`, `<div>` ou `<span>`.
+
+La modification de texte enrichi est disponible pour le contenu autonome d’un paragraphe :
+
+```html
+<p>{{body}}</p>
+```
+
+Si vous utilisez un espace réservé de contenu dans un attribut HTML (tel que `alt`, `href` ou `src`), la modification de texte enrichi n’est pas prise en charge pour ce champ.
+
+La modification de texte enrichi n’est **pas** disponible pour le contenu `alt` :
+
+```html
+<img src="image.jpg" alt="{{image_description}}">
+```
+
+Si un champ apparaît plusieurs fois, la fonctionnalité de texte enrichi est déterminée en fonction de son utilisation ou non comme attribut HTML dans l’une des instances. Par exemple, lorsque le titre est utilisé comme titre et comme texte secondaire pour une image, la balise `alt` est prioritaire.
+
+La modification de texte enrichi n’est **pas** disponible pour les `headline`, car elle est utilisée comme contenu `alt` :
+
+```html
+<h1>{{headline}}</h1>
+<img src="image.jpg" alt="{{headline}}">
+```
+
+L’édition de texte enrichi peut être disponible pour certains champs dans des canaux spécifiques, tels que les `on_image_text` dans les canaux sociaux (Meta, LinkedIn).
+
 ## Sections ou groupes
 
-Vous pouvez utiliser des sections dans un modèle d’e-mail marketing lorsque vous disposez de deux ou trois regroupements de champs. _Sections_ indiquez à GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
+Si votre modèle d’e-mail nécessite plusieurs zones de contenu, telles que plusieurs offres ou histoires, vous pouvez les organiser à l’aide de sections ou de groupes. _Sections_ indiquez à GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
 
 Utilisez le nom d’un groupe de votre choix comme préfixe pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Utilisez un nom de champ (tel que `headline`, `body`, `image` ou `cta`) après le trait de soulignement (`_`).
 
@@ -192,7 +229,7 @@ Chaque section ne peut utiliser qu’un seul de chaque type de champ. Par exempl
 
 Pour cette raison, les sections ne peuvent pas être imbriquées.
 
-Chaque type de modèle, tel qu’un e-mail ou une méta-annonce, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
+Chaque type de modèle, tel qu’un e-mail ou une méta-annonce, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](/help/user-guide/content/best-practices-for-templates.md) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
 
 Par exemple, un modèle d’e-mail peut inclure jusqu’à trois sections. Par conséquent, vous pouvez avoir trois sections de titre et de corps :
 

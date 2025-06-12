@@ -4,7 +4,7 @@ description: Ajoutez  [!DNL Brands], [!DNL Products], and [!DNL Personas]  à Ge
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: f08e92fd8d71fb8e918d8c8167d1e62ed86e35cb
+source-git-commit: dcd347dedd17497a080989df9e92dbf175cd2b2e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Instructions relatives à GenStudio for Performance Marketing :
 * Définir les complexités de l’identité de votre marque
 * Créez le référentiel d’informations de base, pour des éléments discrets tels que les logos et les polices, l’espacement des pixels et la subtilité des directives de messagerie, que l’IA générative utilise pour créer du contenu
 * Assurez-vous que l’identité de marque définie guide la création de chaque élément de contenu
-* fonctionner comme un framework d’identité de marque par rapport auquel est vérifié chaque élément de contenu généré ou [validé](#brand-validation)
+* fonctionner comme un framework d’identité de marque par rapport auquel est vérifié chaque élément de contenu généré ou [validé](#content-checks)
 * Implémente les directives d’accessibilité et de plateforme ADA pour les variantes générées
 
 En incorporant des données sur la marque, le produit et les personas dans GenStudio for Performance Marketing, vous pouvez améliorer la qualité du contenu généré par l’IA, assurant ainsi une identité de marque complète et personnalisée.
@@ -47,7 +47,7 @@ En incorporant des données sur la marque, le produit et les personas dans GenSt
 Les directives [!DNL Brands], [!DNL Products] et [!DNL Personas] relatives aux marques présentent deux cas d’utilisation principaux pour s’assurer que tout contenu généré respecte la représentation souhaitée par la marque :
 
 * **Génération de contenu** dans [[!DNL Create]](/help/user-guide/create/overview.md) ou [Contenu](/help/user-guide/content/overview.md)
-* [**Validation de la marque**](#brand-validation), qui se produit dans le cadre du processus de création de contenu
+* [**Validation de la marque**](#content-checks), qui se produit dans le cadre du processus de création de contenu
 
 ## Vérifications de contenu
 
@@ -63,5 +63,5 @@ Adobe GenStudio for Performance Marketing intègre des conseils sur les platefor
 
 Ces contrôles de conformité cumulés incluent :
 
-* **Accessibilité ADA** - Essentielle pour assurer le développement d’un contenu inclusif et d’expériences digitales qui répondent aux besoins des utilisateurs avec des capacités variables. Ils garantissent l’alignement avec les fonctionnalités d’accessibilité web et fournissent un accès équitable à tous les utilisateurs et utilisatrices. GenStudio for Performance Marketing fait actuellement référence aux normes d’accessibilité des copies (texte) de niveau A de l’ADA.
+* **Accessibilité ADA** - Essentielle pour assurer le développement d’un contenu inclusif et d’expériences digitales qui répondent aux besoins des utilisateurs avec des capacités variables. Ils garantissent l’alignement avec les fonctionnalités d’accessibilité web et fournissent un accès équitable à tous les utilisateurs et utilisatrices. GenStudio for Performance Marketing fait actuellement référence aux normes d’accessibilité des copies (textes) de niveau AA de l’ADA.
 * **Conformité de la plateforme** : essentiel pour respecter les directives spécifiques de chaque plateforme, telles que Meta ou LinkedIn, et les bonnes pratiques du secteur. Il s’agit des instructions par défaut présentes dans le système et pré-renseignées dans [[!DNL Brand] instructions](/help/user-guide/guidelines/brands.md#brands-guidelines).

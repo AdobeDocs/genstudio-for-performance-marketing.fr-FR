@@ -3,7 +3,7 @@ title: Activer une publicité Google Campaign Manager 360
 description: Découvrez comment activer une expérience Google Campaign Manager 360.
 feature: Ad Activation
 exl-id: e4ee4e04-8dd0-4e05-a0f7-0ddca2fbb6be
-source-git-commit: 09450c99dfc6bc283519b068a3b34c0551e45fc8
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing permet aux responsables système et aux éditeurs de GenStudio de publier des expériences publicitaires sur la plateforme Google Campaign Manager 360.
 
-Vous pouvez lancer la publication d’une expérience publicitaire Google Campaign Manager 360 à partir de la galerie _[!DNL Content]_&#x200B;ou de l’accueil&#x200B;_[!DNL Activate]_.
+Vous pouvez lancer la publication d’une expérience publicitaire Google Campaign Manager 360 à partir de la galerie [!DNL Content] ou de l’accueil [!DNL Activate].
 
 ## Étape 1 : configurer vos comptes Google Campaign Manager 360
 
@@ -30,11 +30,11 @@ Une fois la synchronisation terminée, vous pouvez afficher les comptes ajoutés
 
 ## Étape 3 : sélectionner le contenu pour votre expérience publicitaire
 
-Vous pouvez lancer le processus de publication à partir de la galerie _[!DNL Content]_&#x200B;expériences ou de l’accueil&#x200B;_[!DNL Activate]_. Les expériences approuvées ne peuvent pas être modifiées. Chaque expérience ne peut contenir qu’une seule ressource.
+Vous pouvez lancer le processus de publication à partir de la galerie _[!DNL Content]_expériences ou de l’accueil_[!DNL Activate]_. Les expériences approuvées ne peuvent pas être modifiées. Chaque expérience ne peut contenir qu’une seule ressource.
 
 **Pour sélectionner des expériences** :
 
-1. Utilisez les outils de recherche et de filtrage de la galerie de _[!DNL Content]_&#x200B;pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Utiliser]**. (Vous pouvez également sélectionner une expérience dans&#x200B;_[!DNL Activate]_ en cliquant sur **[!UICONTROL Nouveau]** dans la fiche produit Google Campaign Manager 360 .)
+1. Utilisez les outils de recherche et de filtrage de la galerie de [!DNL Content] pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Utiliser]**. (Vous pouvez également sélectionner une expérience dans [!DNL Activate] en cliquant sur **[!UICONTROL Nouveau]** dans la fiche produit Google Campaign Manager 360 .)
 
    La page Google Campaign Manager 360 _configuration de l’expérience_ s’ouvre pour cette expérience. Elle est préremplie avec les détails de l’expérience, que vous ne pouvez pas réviser. Il peut vous être demandé de sélectionner une plateforme avant de poursuivre l’activation.
 

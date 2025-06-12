@@ -4,10 +4,10 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '2300'
-ht-degree: 1%
+source-wordcount: '2667'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,45 @@ ht-degree: 1%
 
 Ces informations de mise à jour détaillent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.05.15 {#latest}
+## 2025,06 {#latest}
+
+### Modèles de démarrage disponibles
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) permettent de lancer le processus de création. Vous pouvez désormais effectuer une sélection à partir d’un Meta ou d’un modèle de démarrage d’annonce LinkedIn.
+
+### Fonctionnalité Generative Expand AI
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Désormais, dans GenStudio for Performance Marketing [!DNL Create], vous pouvez utiliser les [fonctionnalités Generative Expand AI](/help/user-guide/create/manage-variants.md#use-generative-expand) pour étendre les dimensions des images et ajouter du contenu génératif pour adapter vos modèles d’annonce publicitaire dans des variantes de médias achetés.
+
+### Ajout de vidéos aux publicités
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Avec le contenu de l’image, vous pouvez désormais ajouter des vidéos aux publicités [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) et [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos). Consultez les aperçus de lecture automatique des vidéos directement dans GenStudio for Performance Marketing au fur et à mesure que vous choisissez et ajoutez des vidéos à vos variantes.
+
+### Correctifs et améliorations
+
+* Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/activate-linkedin-ad.md) de GenStudio for Performance Marketing vers LinkedIn Campaign Manager. [!DNL Activate] prend en charge les aperçus d’annonces publicitaires LinkedIn détaillés avant la publication sur LinkedIn Campaign Manager.
+
+* L&#39;intégration de [Workfront Proof](/help/user-guide/approvals/overview.md) apporte les fonctionnalités robustes de révision et d&#39;approbation de Proof à GenStudio for Performance Marketing. Le contenu révisé dans GenStudio for Performance Marketing se synchronise avec Workfront Proof et les commentaires et le statut de révision sont conservés.
+
+* Possibilité de [fournir des noms accessibles pour les images et les liens call-to-action](/help/user-guide/create/manage-variants.md#add-accessibility-labels) dans vos variantes en ajoutant des libellés d’accessibilité (libellés Aria).
+
+* Lors de l’ajout ou de la révision de [directives relatives aux marques](/help/user-guide/guidelines/brands.md) dans une langue autre que l’anglais, GenStudio for Performance Marketing affiche ces directives dans la même langue.
+
+* Après avoir ajouté manuellement une [!DNL Brand] ou créé un [!DNL Brand] à partir d’une extraction manuelle à partir d’un document, vous pouvez [modifier ou ajouter des images miniatures de marque](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail) pour vous assurer que chaque marque est facilement identifiable dans votre liste de [!DNL Brands].
+
+* Vous pouvez désormais [utiliser la mise en forme d’édition de texte enrichi pour le texte](/help/user-guide/create/manage-variants.md#manually-edit-text) dans vos variantes générées. Testez une myriade d’options de mise en forme pour le texte de variante, telles que la couleur, la taille, les listes, etc.
+
+* Vous pouvez désormais [créer une visionneuse d’annonces](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) lors de la configuration de la plateforme en clonant une visionneuse d’annonces existante. Les ensembles de métadonnées publicitaires définissent le timing, les détails du canal et l’audience d’une publicité spécifique. Une méta-campagne peut contenir plusieurs visionneuses d’annonces, mais une visionneuse d’annonces est exclusivement associée à une campagne.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.05.15
 
 ### Correctifs et améliorations
 
@@ -24,7 +62,7 @@ Ces informations de mise à jour détaillent les dernières mises à jour de l�
 * Vous pouvez désormais choisir plusieurs expériences à exporter ou télécharger. Voir [Exporter des expériences](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2025.04.15
 
@@ -34,6 +72,8 @@ Ces informations de mise à jour détaillent les dernières mises à jour de l�
 * Activation de la fonctionnalité [affichage et sélection de calques individuels](/help/user-guide/create/manage-variants.md#view-layers) tels que des champs de texte modifiables ou des images modifiables) d’une expérience afin de les mettre en surbrillance pour les révisions, telles que la régénération de contenu ou le recadrage d’images.
 * Ajout d’un [nouveau champ de modèle](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, pour du texte supplémentaire dans les expériences afin de capter l’attention de l’audience et de mettre en évidence les messages marketing.
 * Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/overview.md) depuis GenStudio for Performance Marketing dans Google Campaign Manager 360. Activer prend en charge les aperçus détaillés des annonces Google Campaign Manager 360 avant leur publication sur un annonceur Campaign Manager 360. Les publicités publiées via Activer sont automatiquement extraites dans Insights une fois en ligne, ce qui permet aux utilisateurs et utilisatrices de suivre et de générer des rapports sur les performances des publicités.
+
++++
 
 +++Notes de la version 2025.03.13
 

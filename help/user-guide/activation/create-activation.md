@@ -3,16 +3,16 @@ title: Workflow d’activation
 description: Découvrez le workflow d’activation des expériences publicitaires.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: c622b86ae2977026207edb8919102620ef582d39
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
 # Workflow d’activation
 
-_[!DNL Activate]_&#x200B;prend en charge l’activation des expériences publicitaires dans des formats spécifiques à un canal, tels qu’une expérience publicitaire Meta ou Google Campaign Manager 360.
+[!DNL Activate] prend en charge l’activation des expériences publicitaires dans des formats spécifiques à un canal, tels qu’une expérience publicitaire Meta ou Google Campaign Manager 360.
 
 Une expérience GenStudio for Performance Marketing est un composant de campagne marketing, tel qu’une annonce, préparé en tant qu’expérience publicitaire pour une audience spécifique sur un canal d’annonce payante ou un e-mail. Les expériences d’activation contiennent trois composants principaux :
 
@@ -34,17 +34,18 @@ Bien que des exigences d’emplacement uniques définissent chaque canal payant,
 
 1. **Préparez votre expérience pour l’activation**. Vous pouvez préparer des expériences pour l’activation de deux manières :
 
-   * Activez une expérience approuvée avec des paramètres prédéfinis directement depuis _[!DNL Content]_. Cette méthode simplifiée d’activation d’une ou de plusieurs expériences publicitaires sur un seul canal. Une fois que vous avez sélectionné une expérience dans la galerie&#x200B;_[!DNL Content]_, vous ne pouvez plus modifier ni ajouter de ressources à votre expérience publicitaire. L’option Activer à partir de _[!DNL Content]_&#x200B;est disponible pour les expériences de publicité Meta et Google Campaign Manager 360 .
+   * Activez une expérience approuvée avec des paramètres prédéfinis directement depuis [!DNL Content]. Cette méthode simplifiée d’activation d’une ou de plusieurs expériences publicitaires sur un seul canal. Une fois que vous avez sélectionné une expérience dans la galerie [!DNL Content], vous ne pouvez plus modifier ni ajouter de ressources à votre expérience publicitaire. L’option Activer à partir de [!DNL Content] est disponible pour les expériences de publicité Meta et Google Campaign Manager 360 .
 
-   * Assemblez votre expérience publicitaire en sélectionnant des ressources visuelles dans _[!DNL Content]_, en ajoutant des éléments de texte et en sélectionnant des proportions. Cette méthode implique davantage d’étapes, mais offre une plus grande flexibilité créative. La préparation comprend la sélection des ressources multimédias dans les proportions appropriées pour votre emplacement publicitaire spécifique et l’affectation de texte aux éléments call-to-action et à la copie du corps. Vous pouvez ajouter des métadonnées informatives qui aident les utilisateurs à rechercher l’expérience après activation. Chaque emplacement de canal publicitaire spécifie des proportions valides pour les ressources visuelles incluses dans l’emplacement.
+   * Assemblez votre expérience publicitaire en sélectionnant des ressources visuelles dans [!DNL Content], en ajoutant des éléments de texte et en sélectionnant des proportions. Cette méthode implique davantage d’étapes, mais offre une plus grande flexibilité créative. La préparation comprend la sélection des ressources multimédias dans les proportions appropriées pour votre emplacement publicitaire spécifique et l’affectation de texte aux éléments call-to-action et à la copie du corps. Vous pouvez ajouter des métadonnées informatives qui aident les utilisateurs à rechercher l’expérience après activation. Chaque emplacement de canal publicitaire spécifie des proportions valides pour les ressources visuelles incluses dans l’emplacement.
 
 1. **Examinez et publiez votre expérience sur le canal cible**. Utilisez le panneau _Aperçu_ lors de la configuration de l’expérience pour évaluer votre choix d’emplacements publicitaires et d’éléments textuels avant de finaliser votre activation. Votre dernière révision avant publication a lieu dans l’application de gestion des publicités du canal de destination. Par exemple, après l’activation d’une expérience de métadonnées d’annonce dans GenStudio for Performance Marketing, vous devez vous connecter au gestionnaire de métadonnées d’annonce, passer en revue votre expérience d’annonce, puis sélectionner ses attributs spécifiques avant de la publier.
 
-Une fois qu’une expérience publicitaire est en ligne sur son canal média payant cible, _[!DNL Insights]_&#x200B;pouvez suivre et analyser ses données de performances.
+Une fois qu’une expérience publicitaire est en ligne sur son canal média payant cible, [!DNL Insights] pouvez suivre et analyser ses données de performances.
 
 ## Canaux pris en charge
 
 Chaque canal média payant comporte un workflow d’activation unique. Sélectionnez le canal payant pour obtenir des instructions d’activation :
 
-* [Meta](/help/user-guide/activation/activate-meta-ad.md)
-* [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)
+* [Google Campaign Manager 360](activate-cm360-ad.md)
+* [ LinkedIn ](activate-linkedin-ad.md)
+* [Meta](activate-meta-ad.md)

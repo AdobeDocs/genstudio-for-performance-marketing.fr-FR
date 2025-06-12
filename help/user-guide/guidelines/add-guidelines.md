@@ -5,10 +5,10 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 1%
+source-wordcount: '2194'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,8 @@ Lors de la création de variantes à partir d’un modèle avec des directives p
 ## Ajouter des marques
 
 Pour ajouter une [!DNL Brand], [téléchargez un guide de marque](#upload-a-brand) ou [créez manuellement une marque](#manually-add-brand) en sélectionnant des directives et en saisissant les détails de votre marque. [Publiez un  [!DNL Brand]](#publish-brand) pour le [!DNL Content] afin de le rendre disponible pour une utilisation lors de la génération future de contenu.
+
+Si vous téléchargez des directives de marque écrites dans une langue autre que l’anglais (ou si vous créez manuellement une marque à l’aide d’une langue autre que l’anglais), GenStudio for Performance Marketing les affiche dans la même langue.
 
 Dans la zone de navigation de gauche, cliquez sur **[!DNL Brands]** dans la liste _Partagé_. Dans le panneau _[!DNL Brands]_, sélectionnez **Ajouter une marque**.
 
@@ -91,6 +93,21 @@ Pour afficher les [!DNL Brands] que vous avez créées, cliquez sur la flèche v
 
 Il n’est pas nécessaire de [publier](#publish-brand) votre [!DNL Brand] pour rendre les informations accessibles. Toute information ajoutée manuellement est disponible immédiatement après son ajout. Pour que d’autres membres de votre organisation puissent utiliser les informations de [!DNL Brand] dans GenStudio for Performance Marketing, vous devez les publier. Un [!DNL Brand] créé est en version préliminaire jusqu’à sa publication.
 
+### Modifier la miniature de la marque
+
+Après avoir ajouté manuellement une [!DNL Brand], vous pouvez modifier l’image miniature pour vous assurer qu’elle est facilement reconnaissable dans votre liste de [!DNL Brands].
+
+Si un [!DNL Brand] est créé par extraction de document (au lieu d’être ajouté manuellement), un logo disponible dans ces documents est automatiquement implémenté comme image miniature.
+
+**Pour modifier manuellement la miniature d’une[!DNL Brand]** :
+
+1. Sélectionnez **[!UICONTROL Modifier la miniature]** dans le menu d’actions.
+1. Chargez une nouvelle image dans l’onglet _Charger_.
+1. Dans _[!UICONTROL Modifier la miniature]_, modifiez l’image chargée.
+1. Sélectionnez **[!UICONTROL Mettre à jour]** pour enregistrer l’image en tant qu’image miniature [!DNL Brand].
+
+Vous pouvez sélectionner un logo [!DNL Brand] existant pour une [!DNL Brand] dans la vue d’onglet [!UICONTROL Logos]. Cliquez pour ouvrir un logo et sélectionnez **[!UICONTROL Utiliser comme miniature de marque]** dans le menu d’actions.
+
 ### Publier la marque
 
 Avant de publier un [!DNL Brand] brouillon, cliquez sur toutes les sections d’instructions pour passer en revue toutes les informations renseignées. Apportez les modifications nécessaires aux directives de la marque.
@@ -129,6 +146,12 @@ Pour **afficher les informations sur la marque**, cliquez sur **[!UICONTROL [!DN
 
 1. Dans **[!DNL Brands]**, cliquez pour ouvrir une marque définie.
 1. Pour afficher des détails individuels ou modifier des instructions, cliquez sur [**[!UICONTROL Instructions relatives à la voix de la marque]**](brands.md#brand-voice-guidelines), [**[!UICONTROL Instructions relatives aux images]**](brands.md#image-guidelines), [**[!UICONTROL Instructions relatives aux canaux]**](brands.md#channel-guidelines), [**[!UICONTROL Logos]**](brands.md#logos) ou [**[!DNL Colors]**](brands.md#colors) dans la partie supérieure.
+1. Pour gérer un logo de marque, cliquez sur [**[!UICONTROL Logos]**](brands.md#logos) en haut et cliquez sur le menu d’action (points de suspension).
+   1. Sélectionnez **[!UICONTROL Afficher les détails]** pour afficher des informations relatives aux [!DNL Brand] telles que _Format_ et _Taille_.
+   1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger le logo.
+   1. Sélectionnez [**[!UICONTROL Utiliser comme miniature de marque]](#change-brand-thumbnail) pour définir le logo comme image miniature.
+   1. Sélectionnez **[!UICONTROL Renommer]** pour renommer le logo.
+   1. Sélectionnez **[!UICONTROL Supprimer]** pour supprimer le logo.
 1. Pour renommer une marque existante, cliquez dans le titre et saisissez un nouveau titre.
 1. Pour dupliquer une marque existante, sélectionnez **[!UICONTROL Dupliquer]** dans le menu d’actions _[!DNL Brands]_.
    1. Saisissez un nom de marque dans la fenêtre contextuelle _Dupliquer la marque_ et cliquez sur **[!UICONTROL Dupliquer la marque]**.
@@ -200,7 +223,7 @@ Vous pouvez ajouter manuellement des détails personnels, au lieu de charger des
 
 ### Gérer les [!DNL Personas]
 
-Dans _[!DNL Personas]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un persona**&#x200B;de la liste :
+Dans _[!DNL Personas]_page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**déjà créé pour le modifier ou le réviser, ou **supprimer un persona**de la liste :
 
 - Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Personas] pour réviser et passer en revue un persona existant.
 - Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Personas] pour **Supprimer** une personne.
@@ -268,7 +291,7 @@ Vous pouvez ajouter manuellement des détails de produit, au lieu de charger des
 
 ### Gérer les [!DNL Products]
 
-Dans _[!DNL Products]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Product]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un produit**&#x200B;de la liste :
+Dans _[!DNL Products]_page d’accueil, vous pouvez **ouvrir un[!DNL Product]**déjà créé pour le modifier ou le réviser, ou **supprimer un produit**de la liste :
 
 - Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Products] pour réviser et réviser un produit existant.
 - Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Products] pour **Supprimer** un produit.

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,15 @@ Avant de commencer à générer une expérience de métadonnées, il est importa
 
 Pour commencer à générer une nouvelle expérience de métadonnées, utilisez un modèle disponible afin de fournir le framework de votre contenu. Consultez [Directives relatives aux modèles de publicité Meta](/help/user-guide/templates/meta-template.md) pour plus d’informations sur les proportions de publicité Meta prises en charge.
 
+Lors de la sélection d’un modèle, vous avez la possibilité d’utiliser l’un des modèles chargés ou un modèle de démarrage.
+
 **Pour choisir un modèle de méta-annonce** :
 
 1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Méta-publicités]**.
-1. Utilisez l’option de recherche adjacente à _Filtrer_ pour rechercher un modèle de méta-annonce spécifique.
+1. Sélectionnez **[!UICONTROL Modèles personnalisés]** pour parcourir les modèles chargés ou **[!UICONTROL Modèles de démarrage]** pour parcourir les modèles préconfigurés.
+
+   Si vous prévoyez d’ajouter des ressources vidéo à vos variantes Meta, vous devez choisir un modèle de démarrage. Ils sont préchargés avec des zones de contenu définies par le système qui facilitent l’utilisation des vidéos.
+
 1. Cliquez pour sélectionner un modèle, puis cliquez sur **[!UICONTROL Utiliser]**.
 
    Cette action ouvre la zone de travail, qui est le centre de création de contenu.
@@ -46,14 +51,17 @@ Si vous utilisez un modèle avec des directives prédéfinies ([!DNL Brands], [!
 
    Si aucune marque, personnage ou produit n’est disponible à partir de ces menus, [ajoutez des conseils à votre GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Ajoutez du contenu à utiliser dans l’expérience *et* pour influencer la génération de contenu :
-   * Cliquez sur **[!UICONTROL Sélectionner à partir du contenu]** pour sélectionner des ressources (images) à partir de votre référentiel [!DNL Content], filtrer et sélectionner une ou plusieurs images.
+1. Ajoutez du contenu (images ou vidéos) à utiliser dans l’expérience *et* pour influencer la génération de contenu :
+   * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources dans votre référentiel de [!DNL Content], filtrer et sélectionner une ou plusieurs images.
+
+     Si vous utilisez un modèle qui comporte une section pour les vidéos, le contenu vidéo (.mp4) sera présélectionné et filtré pour vous. Pointez sur une vidéo pour afficher un aperçu lu automatiquement.
 
      ![Choisir le contenu visuel](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      Pour utiliser des ressources à partir d’un référentiel de [!DNL AEM Assets Content Hub] connecté, choisissez un référentiel dans le menu déroulant _Emplacement_. Filtrez et sélectionnez une ou plusieurs images.
 
-   * Vous pouvez également faire glisser et déposer des ressources dans la section **[!UICONTROL Sélectionner à partir du contenu]** pour charger une ou plusieurs nouvelles ressources.
+   * Vous pouvez également faire glisser et déposer des images dans la section **[!UICONTROL Sélectionner à partir du contenu]** pour charger une ou plusieurs nouvelles ressources.
+
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
 Lorsque vous avez terminé d&#39;ajouter des paramètres, vous pouvez réduire le tiroir d&#39;invite en cliquant de nouveau sur l&#39;icône _Paramètres_.
@@ -68,6 +76,8 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 
 1. Saisissez une invite dans la zone d’invite _« Décrire les expériences que vous souhaitez générer »_.
 1. Cliquez sur **[!UICONTROL Générer]**.
+
+   Consultez la section [Gérer les vidéos](#manage-videos) pour comprendre comment elles sont générées et comment les gérer.
 
 Par défaut, quatre variations, toutes alimentées par l’invite, les instructions et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
 
@@ -93,13 +103,23 @@ Pour mettre en surbrillance un calque individuel à réviser, cliquez sur un cha
 * **Pour [modifier manuellement une méta-annonce](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez sur l’une des sections d’annonce (comme l’objet,
 en-tête ou copie du corps) et modifiez-les si nécessaire.
 * **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton call-to-action et sélectionnez les options de texte du bouton disponibles. Dans _Lien_, saisissez l’URL du texte call-to-action.
+* **Pour [appliquer une mise en forme de texte](/help/user-guide/create/manage-variants.md#manually-edit-text)** dans une variante, cliquez sur le texte sur l’image ou sur le lien intégré d’une variante, puis cliquez sur **[!UICONTROL Mettre en forme le texte]**.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.
+* **Pour [modifier la taille et les proportions de l’annonce](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (encadrez-le d’une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et de nouvelles proportions à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
 * **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône **[!UICONTROL Permuter depuis le contenu]**.
-* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, pointez sur une image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image.
+* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, cliquez sur une image, puis sur **[!UICONTROL Modifier]** (icône représentant un crayon) et enfin sur **[!UICONTROL Recadrer]**. Ajustez la taille et l’emplacement de l’image.
+* **Pour [utiliser l’option Développement génératif pour dimensionner et ajuster les images](/help/user-guide/create/manage-variants.md#use-generative-expand) à votre modèle de travail**, cliquez sur une image, puis sur **[!UICONTROL Modifier]** (icône en forme de crayon) et **[!UICONTROL Développer]**. Ajustez l’image pour qu’elle s’adapte au format et au modèle nécessaires.
 * **Pour [ajouter du texte de remplacement pour les images d’une variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, cliquez sur une ressource d’image et utilisez l’option _Texte de remplacement_ pour ajouter ou générer manuellement un texte de remplacement par image.
+* **Pour [ajouter des libellés d’accessibilité](/help/user-guide/create/manage-variants.md#add-accessibility-labels) à vos variantes** cliquez sur une image ou un lien call-to-action, puis fournissez une brève description expliquant la fonction du lien ou du bouton.
 * **Pour [supprimer une méta-annonce](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le menu d’options d’une variante et cliquez sur **[!UICONTROL Supprimer la variante]**.
+
+### Gestion des vidéos
+
+Pointez sur chacune des vidéos pour afficher la lecture automatique en boucle.
+
+Les vidéos sont recadrées pour s’adapter aux proportions sélectionnées pendant la génération. Revenez à la vidéo non recadrée d’origine en cliquant sur **[!UICONTROL Recadrer la vidéo]** et en la désactivant.
 
 ## Envoyer le retour d’informations de génération
 

@@ -3,10 +3,10 @@ title: GenStudio for Performance Marketing  [!DNL Brands]
 description: Les GenStudio for Performance Marketing [!DNL Brands] sont une collection complète de ressources de marque (copie marketing, images, expériences, etc.) visant à informer la création de contenu aligné sur la marque.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 1%
+source-wordcount: '1522'
+ht-degree: 2%
 
 ---
 
@@ -28,9 +28,13 @@ Les marques publiées peuvent être modifiées (les modifications sont immédiat
 
 Les [!DNL Brands] supprimés sont archivés pendant 30 jours et peuvent être récupérés au cours de cette période.
 
-## [!DNL Brands] des directives
+## Directives sur les marques
 
 Les directives donnent à GenStudio for Performance Marketing une image claire de votre approche, de votre ton, de votre perception visuelle et plus encore, spécifiques à votre marque.
+
+>[!NOTE]
+>
+>Si vous téléchargez des directives de marque écrites dans une langue autre que l’anglais (ou si vous créez manuellement une marque à l’aide d’une langue autre que l’anglais), GenStudio for Performance Marketing les affiche dans la même langue.
 
 Certaines instructions de canal, extraites des [instructions de plateforme et normes d’accessibilité ADA](/help/user-guide/guidelines/overview.md#compliance), sont préremplies comme valeurs par défaut.
 
@@ -56,13 +60,13 @@ Le tableau suivant présente chaque catégorie d’instructions relatives aux im
 | Catégorie d&#39;instructions | Description | Valeurs |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL Description] | Ajout d’informations générales pour la catégorie spécifique de directives relatives aux images, telles que « Photographie de produit » ou « Directives générales relatives aux objets d’art ». | Extrait de documents de directives et configurable manuellement <br><br>_Exemple de directive générale sur les objets d’art_ : « Directives qui s’appliquent aux images qui ne sont pas des photographies, telles que des illustrations et des rendus 3D » |
-| [!UICONTROL &#x200B; Type de contenu &#x200B;] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
+| [!UICONTROL  Type de contenu ] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
 | Composition | Détails concernant le placement des objets, l&#39;appareil photo et les techniques de photographie | Extrait de documents d’instructions et configurable manuellement |
 | [!UICONTROL Environnement] | Détails concernant l’environnement, tels que les éléments d’arrière-plan dans l’image | _Exemple_ : « Préférez un environnement ensoleillé » |
 | [!UICONTROL Couleur] | Détails concernant la famille de couleurs, la température des couleurs, les couleurs primaires/secondaires/tertiaires, la teinte, la saturation, le contraste | Extrait de documents de directives et configurable manuellement <br><br>_Exemples_ : « Assurez-vous que le produit est l’objectif principal avec un minimum de distractions », « Couleurs vives » |
 | [!UICONTROL Éclairage] | Détails généraux ou spécifiques concernant l&#39;éclairage | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Placez un voyant lumineux devant la personne » |
-| [!UICONTROL Humeur &#x200B;] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
-| [!UICONTROL Restrictions &#x200B;] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
+| [!UICONTROL Humeur ] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
+| [!UICONTROL Restrictions ] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
 
 ### Instructions relatives aux canaux
 
@@ -137,7 +141,7 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 ### Logos
 
-[!DNL Brand] logos servent de symboles visuels représentant l’identité, les valeurs et les produits d’une entreprise. Vous pouvez charger un ou plusieurs logos (sans dépasser 1 Go par fichier) pour un [!DNL Brand] aux formats JPG, JPEG, SVG ou PNG. Les logos peuvent être ajoutés lors de [!DNL Brand] création ou à partir de la vue _[!DNL Brands]individuelle_.
+[!DNL Brand] logos servent de symboles visuels représentant l’identité, les valeurs et les produits d’une entreprise. Vous pouvez charger un ou plusieurs logos (sans dépasser 1 Go par fichier) pour un [!DNL Brand] aux formats JPG, JPEG, SVG ou PNG. Les logos peuvent être ajoutés lors de [!DNL Brand] création ou à partir de la vue _[!DNL Brands]individuelle_. Les logos peuvent être utilisés comme image miniature pour une [!DNL Brand] spécifique.
 
 Chaque logo chargé comprend les détails suivants dans la mosaïque du logo :
 
@@ -145,7 +149,13 @@ Chaque logo chargé comprend les détails suivants dans la mosaïque du logo :
 - Taille du fichier
 - Résolution
 
-Dans le menu d’actions (points de suspension) d’une couleur, vous pouvez **[!UICONTROL Télécharger]**, **[!UICONTROL Renommer]** ou **[!UICONTROL Supprimer]** une couleur.
+Dans le menu d’actions (points de suspension) d’un logo, vous pouvez [afficher les détails d’un logo individuel et le gérer](/help/user-guide/guidelines/add-guidelines.md#manage-brands) :
+
+- **[!UICONTROL Afficher les détails]**
+- **[!UICONTROL Télécharger]**
+- [**[!UICONTROL Utiliser comme miniature de marque]**](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)
+- **[!UICONTROL Renommer]**
+- **[!UICONTROL Supprimer]**
 
 ### Couleurs
 

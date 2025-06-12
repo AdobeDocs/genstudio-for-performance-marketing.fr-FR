@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: d9d774f727b69b18af6114965fdb8ffb450f797b
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,25 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 - Utilisation des polices Adobe ou Google
 - Utilisation d’HTML et de CSS intégré propres et réactifs
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 - N **utilisez pas** largeur fixe dans le corps ou le conteneur
 - N’utilisez **pas** codage base64 pour les images, car il peut augmenter considérablement la taille du modèle
 - La taille maximale du fichier HTML est de 102 Ko
 
 ## Noms de champs reconnus
 
-GenStudio for Performance Marketing génère automatiquement le champ `subject` pour les e-mails. Lorsque vous personnalisez votre modèle, utilisez des espaces réservés de contenu pour les champs obligatoires suivants :
+Lorsque vous personnalisez votre modèle d’e-mail, utilisez des espaces réservés de contenu pour les champs obligatoires suivants :
 
-- `pre_header` (texte enrichi non activé)
 - `headline`
 - `sub_headline`
 - `body`
 - `cta`
 - `image` (sélectionné parmi Content JPEG, PNG ou GIF)
+
+GenStudio for Performance Marketing génère automatiquement les champs suivants : Le texte enrichi n’est pas activé. Il n’est pas nécessaire d’appliquer des espaces réservés de contenu pour :
+
+- `pre_header`
+- `subject`
 
 Le nombre maximal de champs autorisés dans un modèle est de 20. Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 
@@ -56,30 +60,46 @@ Exemples de noms de champ pour deux sections :
 
 +++Exemple : modèle d’e-mail avec une section
 
-Voici un exemple de base de modèle HTML pour un e-mail contenant une section. L’en-tête contient un CSS simple et intégré pour le style. Le corps contient un `pre_header`, un `headline` et `image` [espace réservé](#content-placeholders) que GenStudio for Performance Marketing peut utiliser pour injecter du contenu pendant le processus de génération d’e-mail.
+Voici un exemple de base de modèle d’e-mail HTML avec une section. Le `<head>` inclut un CSS intégré simple pour le style et le `<body>` utilise des espaces réservés de contenu tels que `pre_header`, `headline`, `sub_headline`, `body`, `cta` et `image` avec un lien et. Ces espaces réservés permettent à GenStudio for Performance Marketing d’injecter du contenu dynamique pendant la génération des e-mails.
 
-```html {line-numbers="true" highlight="13"}
+```html
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Adobe</title>
+        <title>Marketing Email</title>
         <style>
             .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
+                width: 100%;
+                padding: 20px;
+                font-family: Arial, sans-serif;
+            }
+            .cta-button {
+                display: inline-block;
+                background-color: #fff;
+                color: #000;
+                border: 2px solid #000;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-family: 'Source Sans Pro', Arial, sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                margin-top: 20px;
+                text-align: center;
             }
         </style>
     </head>
-    <body>{{pre_header}}
+    <body>
         <div class="container">
+            {{pre_header}}
             <h1>{{headline}}</h1>
-            <p><a href="{{link}}">
-            <img alt="{{headline}}"
-                    src="{{image}}"
-                    width="600" height="600"
-                    border="0"/></a></p>
+            <p>
+                <a href="{{link}}">
+                    <img alt="banner headline" src="{{image}}" width="600" height="600">
+                </a>
+            </p>
+            <h2>{{sub_headline}}</h2>
             <p>{{body}}</p>
+            <a href="#" class="cta-button">{{cta}}</a>
         </div>
     </body>
 </html>
@@ -114,6 +134,19 @@ Vous trouverez ci-dessous le même modèle HTML dans l’exemple ci-dessus, mais
             .pod p {
                 color: #666;
             }
+            .cta-button {
+            display: inline-block;
+            background-color: #fff; /* Background color to white */
+            color: #000; /* Text color to black */
+            border: 2px solid #000; /* Border color to black */
+            padding: 10px 20px;
+            text-decoration: none;            
+            font-family: 'Source Sans Pro', Arial, sans-serif;
+            font-weight: 600; /* Semibold */
+            font-size: 14px;
+            margin-top: 20px;
+            text-align: center;
+            }
         </style>
     </head>
     <body>{{pre_header}}
@@ -123,17 +156,18 @@ Vous trouverez ci-dessous le même modèle HTML dans l’exemple ci-dessus, mais
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
-                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
+                <p><img alt="pic1" src="{{pod1_image}}" width="200" height="200" border="0"></p>
                 <p>{{pod1_body}}</p>
             </div>
             <!-- End of Pod1 -->
             <!-- Pod2 -->
             <div class="pod">
                 <h2>{{pod2_headline}}</h2>
-                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
+                <p><img alt="pic2" src="{{pod2_image}}" width="200" height="200" border="0"></p>
                 <p>{{pod2_body}}</p>
             </div>
             <!-- End of Pod2 -->
+            <a href="#" class="cta-button">{{cta}}</a>
         </div>
     </body>
 </html>

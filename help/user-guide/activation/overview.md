@@ -4,7 +4,7 @@ description: Découvrez comment activer du contenu avec Adobe Experience Cloud e
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 11513e8cb4bc629ae205183aa1ebb02f18150527
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Activation d’Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing _[!DNL Activate]_&#x200B;fournit un emplacement central pour préparer votre expérience publicitaire en vue de son activation pour sélectionner des canaux publicitaires payants. Le_ Activation _est le processus de préparation des expériences publicitaires, des ressources et du texte en tant qu’expérience publicitaire créative spécifiquement conçue pour être placée sur un canal payant spécifique. L’activation diffuse l’expérience créative sur les canaux désignés dans un état inactif, prêt pour la révision finale et le déploiement à partir du canal. Les expériences publicitaires peuvent ensuite être distribuées sur les marchés auxquels elles sont destinées.
+GenStudio for Performance Marketing [!DNL Activate] fournit un emplacement central pour préparer votre expérience publicitaire en vue de son activation pour sélectionner des canaux publicitaires payants. Le _Activation_ est le processus de préparation des expériences publicitaires, des ressources et du texte en tant qu’expérience publicitaire créative spécifiquement conçue pour être placée sur un canal payant spécifique. L’activation diffuse l’expérience créative sur les canaux désignés dans un état inactif, prêt pour la révision finale et le déploiement à partir du canal. Les expériences publicitaires peuvent ensuite être distribuées sur les marchés auxquels elles sont destinées.
 
 Les éditeurs de contenu et les gestionnaires de système peuvent publier des expériences dont les ressources sont générées dans ou chargées dans GenStudio for Performance Marketing.
 
@@ -23,19 +23,19 @@ Chaque compte de canal média payant doit être connecté à GenStudio for Perfo
 
 ## Activer les cas d’utilisation
 
-* Activez les expériences approuvées directement depuis _[!DNL Content]_&#x200B;pour certains canaux d’annonces payantes.
+* Activez les expériences approuvées directement depuis [!DNL Content] pour certains canaux d’annonces payantes.
 
 * [Créer une activation](create-activation.md). Vous pouvez créer une expérience publicitaire en sélectionnant des ressources visuelles, en attribuant du texte et en définissant des métadonnées avant de passer à un canal payant.
 
-* [ Gérer les activations ](manage-activations.md). _[!DNL Activate]_&#x200B;fournit un aperçu de toutes les expériences activées. Vous pouvez également afficher les détails de chaque activation.
+* [ Gérer les activations ](manage-activations.md). _[!DNL Activate]_fournit un aperçu de toutes les expériences activées. Vous pouvez également afficher les détails de chaque activation.
 
 ## Activer les fonctionnalités
 
-_[!DNL Activate]_&#x200B;facilite la préparation d’expériences publicitaires en vue de leur distribution sur leurs canaux payants cibles.
+[!DNL Activate] facilite la préparation d’expériences publicitaires en vue de leur distribution sur leurs canaux payants cibles.
 
 ### Activer une expérience approuvée directement à partir du contenu
 
-Vous pouvez activer une expérience approuvée directement à partir de _[!DNL Content]_&#x200B;ou activer plusieurs expériences approuvées en tant que groupe d’activation pour certains canaux payants. Toutes les expériences d’un groupe doivent cibler le même canal payant.
+Vous pouvez activer une expérience approuvée directement à partir de [!DNL Content] ou activer plusieurs expériences approuvées en tant que groupe d’activation pour certains canaux payants. Toutes les expériences d’un groupe doivent cibler le même canal payant.
 
 ### Préparation d’une expérience pour l’activation
 
@@ -43,7 +43,7 @@ La page _Configuration de l’expérience_ regroupe les outils dont vous avez be
 
 ### Sélection des ressources pour l’expérience publicitaire
 
-Recherchez et sélectionnez des ressources visuelles approuvées dans _[!DNL Content]_, ou chargez des ressources à partir de Dropbox ou OneDrive. Vous pouvez charger des ressources directement depuis votre appareil. Une expérience publicitaire peut s’exécuter à plusieurs emplacements. Assets peut être chargé selon les proportions dont vos emplacements publicitaires ont besoin.
+Recherchez et sélectionnez des ressources visuelles approuvées dans [!DNL Content], ou chargez des ressources à partir de Dropbox ou OneDrive. Vous pouvez charger des ressources directement depuis votre appareil. Une expérience publicitaire peut s’exécuter à plusieurs emplacements. Assets peut être chargé selon les proportions dont vos emplacements publicitaires ont besoin.
 
 ### Prévisualiser et activer votre expérience sur un canal publicitaire
 

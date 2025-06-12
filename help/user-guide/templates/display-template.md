@@ -4,9 +4,10 @@ description: Appliquez les bonnes pratiques lors de l’utilisation de modèles 
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -20,19 +21,23 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 - Utilisation des polices Adobe ou Google
 - Préparation des ressources qui s’affichent correctement dans les dimensions compactes
 - Un seul champ d’image est requis
-- N’utilisez **&#x200B;**&#x200B;d’images d’arrière-plan incorporées ou codées
+- N’utilisez **** d’images d’arrière-plan incorporées ou codées
 - Utiliser des images d’arrière-plan (champ `image`) chargées dans le référentiel de contenu GenStudio for Performance Marketing
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle
 
 ## Noms de champs reconnus
 
-Pour les bannières et les publicités display, GenStudio for Performance Marketing génère automatiquement le champ `cta` . Lors de la personnalisation de votre modèle, utilisez des espaces réservés de contenu pour les champs obligatoires suivants :
+Lors de la personnalisation de votre bannière ou modèle d’annonce publicitaire, utilisez des espaces réservés de contenu pour les champs obligatoires suivants :
 
 - `headline`
 - `sub_headline`
 - `body`
 - `image` (obligatoire, sélectionné parmi Content JPEG, PNG ou GIF)
+
+GenStudio for Performance Marketing génère automatiquement les champs suivants : Il n’est pas nécessaire d’appliquer des espaces réservés de contenu pour :
+
+- `cta`
 
 Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 

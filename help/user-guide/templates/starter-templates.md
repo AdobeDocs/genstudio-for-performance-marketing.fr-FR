@@ -3,12 +3,12 @@ title: Préparation d’un modèle d’e-mail pour GenStudio for Performance Mar
 description: Découvrez comment préparer un modèle d’e-mail à utiliser dans Adobe GenStudio for Performance Marketing.
 level: Beginner
 feature: Media Templates
-hide: true
-hidefromtoc: true
+badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 recommendations: noDisplay, noCatalog
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
+source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 2%
 Les _modèles de démarrage_ sont des options de modèle prédéfinies conçues pour vous aider à prendre en main rapidement GenStudio for Performance Marketing et à apprendre à créer des médias efficaces. Dans [!DNL Create], sélectionnez un type de média. Si des modèles de démarrage sont disponibles, passez à l’onglet **[!UICONTROL Modèles de démarrage]** pour rechercher et sélectionner un modèle qui correspond à vos besoins.
 
 ![Onglet Modèles de démarrage](/help/assets/starter-templates.png "Sélectionnez les onglets de modèle"){width="350"}
-
-## Choisir le bon rapport L/H
 
 Il est important de sélectionner les proportions appropriées pour votre publicité afin de maximiser l’impact et de vous assurer que votre contenu s’affiche correctement sur différentes plateformes et emplacements. Tenez compte des points suivants lors du choix des proportions :
 

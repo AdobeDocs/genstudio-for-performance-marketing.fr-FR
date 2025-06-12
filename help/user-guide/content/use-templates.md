@@ -5,16 +5,16 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
+source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1366'
 ht-degree: 1%
 
 ---
 
 # Utilisation de modèles
 
-GenStudio for Performance Marketing permet aux créateurs de contenu de produire rapidement du contenu marketing cohérent sur la marque à l’aide de _modèles_. Un modèle réduit considérablement le temps et les efforts requis pour générer un nouveau contenu en fournissant un point de départ qui inclut des dispositions et des éléments de conception préconfigurés.
+GenStudio for Performance Marketing permet aux créateurs de contenu de produire rapidement du contenu marketing cohérent sur la marque à l’aide de _modèles_. Un modèle réduit considérablement le temps et les efforts requis pour générer un nouveau contenu en fournissant un point de départ qui inclut des dispositions et des éléments de conception préconfigurés. Pour commencer, chargez un modèle personnalisé dans [!DNL Content] ou utilisez un modèle de démarrage dans [!DNL Create]. Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) offrent un moyen rapide de commencer par une conception standard, tandis qu’un modèle personnalisé vous permet d’utiliser vos conceptions et mises en page uniques.
 
 Bien que GenStudio for Performance Marketing ne prenne pas en charge la création directe de modèles dans l’application, vous pouvez facilement concevoir et préparer des modèles à l’aide d’outils de conception courants, tels qu’Adobe InDesign, Illustrator ou Express. Une fois la conception terminée, vous pouvez l’adapter pour l’utiliser dans GenStudio for Performance Marketing. Commencez à utiliser des modèles en procédant comme suit :
 
@@ -59,7 +59,7 @@ Vous [personnalisez votre modèle](customize-template.md) à utiliser dans GenSt
 
 ## Gestion des modèles
 
-La galerie _[!DNL Templates]_&#x200B;affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
+La galerie _[!DNL Templates]_affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
 
 ### Rechercher des modèles
 
