@@ -30,7 +30,7 @@ Une fois la synchronisation terminée, vous pouvez afficher les comptes ajoutés
 
 ## Étape 3 : sélectionner le contenu pour votre expérience publicitaire
 
-Vous pouvez lancer le processus de publication à partir de la galerie _[!DNL Content]_expériences ou de l’accueil_[!DNL Activate]_. Les expériences approuvées ne peuvent pas être modifiées. Chaque expérience ne peut contenir qu’une seule ressource.
+Vous pouvez lancer le processus de publication à partir de la galerie _[!DNL Content]_&#x200B;expériences ou de l’accueil&#x200B;_[!DNL Activate]_. Les expériences approuvées ne peuvent pas être modifiées. Chaque expérience ne peut contenir qu’une seule ressource.
 
 **Pour sélectionner des expériences** :
 

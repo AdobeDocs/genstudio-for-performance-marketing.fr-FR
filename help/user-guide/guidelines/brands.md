@@ -60,13 +60,13 @@ Le tableau suivant présente chaque catégorie d’instructions relatives aux im
 | Catégorie d&#39;instructions | Description | Valeurs |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL Description] | Ajout d’informations générales pour la catégorie spécifique de directives relatives aux images, telles que « Photographie de produit » ou « Directives générales relatives aux objets d’art ». | Extrait de documents de directives et configurable manuellement <br><br>_Exemple de directive générale sur les objets d’art_ : « Directives qui s’appliquent aux images qui ne sont pas des photographies, telles que des illustrations et des rendus 3D » |
-| [!UICONTROL  Type de contenu ] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
+| [!UICONTROL &#x200B; Type de contenu &#x200B;] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
 | Composition | Détails concernant le placement des objets, l&#39;appareil photo et les techniques de photographie | Extrait de documents d’instructions et configurable manuellement |
 | [!UICONTROL Environnement] | Détails concernant l’environnement, tels que les éléments d’arrière-plan dans l’image | _Exemple_ : « Préférez un environnement ensoleillé » |
 | [!UICONTROL Couleur] | Détails concernant la famille de couleurs, la température des couleurs, les couleurs primaires/secondaires/tertiaires, la teinte, la saturation, le contraste | Extrait de documents de directives et configurable manuellement <br><br>_Exemples_ : « Assurez-vous que le produit est l’objectif principal avec un minimum de distractions », « Couleurs vives » |
 | [!UICONTROL Éclairage] | Détails généraux ou spécifiques concernant l&#39;éclairage | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Placez un voyant lumineux devant la personne » |
-| [!UICONTROL Humeur ] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
-| [!UICONTROL Restrictions ] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
+| [!UICONTROL Humeur &#x200B;] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
+| [!UICONTROL Restrictions &#x200B;] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
 
 ### Instructions relatives aux canaux
 
