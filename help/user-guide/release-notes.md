@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,8 @@ Avec le contenu de l’image, vous pouvez désormais ajouter des vidéos aux pub
 * Vous pouvez désormais [utiliser la mise en forme d’édition de texte enrichi pour le texte](/help/user-guide/create/manage-variants.md#manually-edit-text) dans vos variantes générées. Testez une myriade d’options de mise en forme pour le texte de variante, telles que la couleur, la taille, les listes, etc.
 
 * Vous pouvez désormais [créer une visionneuse d’annonces](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) lors de la configuration de la plateforme en clonant une visionneuse d’annonces existante. Les ensembles de métadonnées publicitaires définissent le timing, les détails du canal et l’audience d’une publicité spécifique. Une méta-campagne peut contenir plusieurs visionneuses d’annonces, mais une visionneuse d’annonces est exclusivement associée à une campagne.
+
+* Vous pouvez désormais exporter les détails de la campagne pour les rendre accessibles en externe sous forme de résumés de campagne dans Word ou PDF. Sélectionnez une campagne, puis cliquez sur **[!UICONTROL Exporter]** (coin supérieur droit).
 
 ## Notes de mise à jour antérieures
 
