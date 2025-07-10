@@ -3,9 +3,9 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -196,27 +196,26 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 
    L’image est ajoutée ou permutée dans la variante applicable.
 
-## Ajout d’un lien vers une image
+## Ajouter des liens
 
-Tout comme pour l’ajout ou la permutation d’images dans les variantes générées, vous pouvez ajouter un lien vers les images. Le modèle que vous avez utilisé pour générer des variantes _doit_ contenir un espace réservé [de contenu pour le lien](/help/user-guide/content/customize-template.md#content-placeholders) pour activer cette fonctionnalité.
+Vous pouvez ajouter un lien vers le texte, les images et les boutons CTA dans vos variantes. Le modèle que vous avez utilisé pour générer des variantes _doit_ contenir un espace réservé [de contenu pour le lien](/help/user-guide/content/customize-template.md#content-placeholders) pour activer cette fonctionnalité.
 
-**Pour ajouter un lien d’image dans une variante** :
+**Pour ajouter un lien dans une variante** :
 
-1. Après avoir généré un ensemble de variantes, cliquez sur une ressource image.
-
-   Si la variante ne comporte pas de ressource image placée, cliquez sur la zone de la ressource image.
-
-1. Cliquez sur l’icône de lien.
-1. Cliquez sur **[!UICONTROL Supprimer le lien]** pour supprimer le lien par défaut existant.
-1. Ajoutez un lien dans le champ de texte et cliquez sur **[!UICONTROL Appliquer]**.
-
-   Le lien défini est appliqué à toutes les images de l’ensemble des variantes.
+1. Lors de la modification d’une publicité, cliquez sur la variable d’élément et recherchez l’icône **[!UICONTROL Ajouter un lien]** ou **[!UICONTROL Modifier le lien]**.
+2. Cliquez sur l’icône pour ouvrir la fenêtre au champ de texte.
+3. Saisissez la destination. Les liens comprenant des adresses URL, des adresses e-mail ou des numéros de téléphone sont acceptés :
+   * `https://`
+   * `mailto:`
+   * `tel:`
+   * `sms:`
+   * `https://wa.me/` ou `whatsapp://`
 
 ## Ajout de texte secondaire pour les images
 
