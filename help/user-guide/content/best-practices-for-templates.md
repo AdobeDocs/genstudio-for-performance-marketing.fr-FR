@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: adf987b016825861b5522b44b61263000eb63859
+source-git-commit: e2b2e3b541c4d07530b9e725fceebabccbf6c84d
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Lors de la création de modèles, assurez-vous qu’ils répondent aux exigences
 
 - Utilisation d’HTML et de CSS intégré propres et réactifs
 - Utilisation des polices Adobe ou Google
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 
 {{note-css-effects}}
 
-Consultez d’autres conseils et contraintes lorsque vous utilisez chaque type de modèle pour garantir des performances et une compatibilité optimales :
+Consultez d’autres conseils et contraintes lorsque vous utilisez chaque type de modèle pour garantir des performances optimales :
 
 - [E-mails](/help/user-guide/templates/email-template.md)
 - [Affichage et bannières publicitaires](/help/user-guide/templates/display-template.md)
