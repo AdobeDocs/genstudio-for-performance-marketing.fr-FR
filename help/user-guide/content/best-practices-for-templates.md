@@ -49,7 +49,7 @@ Lors de la création de modèles, assurez-vous qu’ils répondent aux exigences
 
 - Utilisation d’HTML et de CSS intégré propres et réactifs
 - Utilisation des polices Adobe ou Google
-- N’utilisez **** JavaScript
+- N’utilisez **&#x200B;**&#x200B;JavaScript
 
 {{note-css-effects}}
 
