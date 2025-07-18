@@ -3,9 +3,9 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
+source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Lors de la [création d’expériences](/help/user-guide/create/overview.md), vo
 
 Les brouillons de variantes générés ont un nom par défaut affiché en haut de la zone de travail. Les noms des brouillons par défaut utilisent la convention suivante qui inclut le type de canal, la date et l’heure de la génération.
 
-*Exemple* : « Méta : brouillon sans titre - 09.5.24, 9:56 »
+*Exemple* : « Méta : brouillon sans titre - 09.5.24, 9 :56 »
 
 **Pour modifier le nom par défaut** :
 
@@ -162,7 +162,7 @@ Cette fonction d’extension générative est associée à l’outil Recadrage p
 
 ## Modifier les proportions
 
-Vous pouvez rapidement modifier le [format des méta-annonces](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter l’annonce au dimensionnement souhaité. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée 1:1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
+Vous pouvez rapidement modifier le [format des méta-annonces](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter l’annonce au dimensionnement souhaité. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée de 1 :1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ Vous pouvez rapidement modifier le [format des méta-annonces](/help/user-guide/
 
 **Pour modifier les proportions des métadonnées publicitaires générées** :
 
-1. Après avoir généré un ensemble de variantes, sélectionnez l’icône de redimensionnement des proportions (flèche pointant vers le coin de la zone) sur le côté gauche de la zone de travail.
+1. Après avoir généré un ensemble de variantes, cliquez sur **[!UICONTROL Redimensionnement du format]** (flèche pointant vers le coin de la zone) sur le côté gauche de la zone de travail.
 
    Les proportions actuellement utilisées pour vos publicités s’affichent dans la partie supérieure de la fenêtre _[!UICONTROL Redimensionner]_.
 
@@ -184,7 +184,7 @@ Vous pouvez rapidement modifier le [format des méta-annonces](/help/user-guide/
 
    [!DNL Create] crée une copie de chaque variante en fonction des nouveaux proportions sélectionnées. Toutes les variantes, y compris celles du rapport d’aspect initial, sont présentes dans la zone de travail.
 
-   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect de 1:1, puis que vous modifiez le rapport d’aspect en 4:5, _huit_ le total des variantes est désormais disponible sur la zone de travail.
+   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect de 1:1, puis que vous modifiez le rapport d’aspect en 4:5, _huit_ variantes totales sont désormais disponibles sur la zone de travail.
 
 ## Permuter l’image
 
@@ -196,7 +196,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 
