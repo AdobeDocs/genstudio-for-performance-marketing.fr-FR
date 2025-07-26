@@ -4,24 +4,57 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
+source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '3052'
 ht-degree: 0%
 
 ---
 
 # Notes de mise à jour de GenStudio for Performance Marketing
 
-Ces informations de mise à jour détaillent les dernières mises à jour de l’application GenStudio for Performance Marketing.
+Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025,06 {#latest}
+## 2025.07.25 {#latest}
+
+### Filtre des ressources compatibles
+
+Un nouveau filtre dans le module [!DNL Insights] masque automatiquement les [ressources d’image et vidéo non prises en charge](/help/user-guide/insights/ads.md#ad-formats) des aperçus des publicités, éliminant ainsi l’encombrement visuel et les mosaïques endommagées. Cette amélioration garantit que les utilisateurs ne voient que les médias réellement disponibles et prêts à l’emploi, ce qui crée une expérience plus épurée et plus fiable. Le filtre fonctionne avec le filtre Annonces de compatibilité existant.
+
+### Activation de plusieurs ressources pour les métadonnées
+
+L’activation d’images à proportions multiples pour les méta-publicités permet aux annonceurs de charger et d’activer plusieurs ressources d’images dans différentes proportions sous une seule publicité créative. Cette fonctionnalité permet à une annonce publicitaire de présenter le contenu créatif approprié pour différents emplacements Meta tels que Flux, Histoires et Rouleaux. Les annonceurs peuvent prévisualiser la manière dont chaque image sera rendue à différents emplacements et publier toutes les versions dans les métadonnées dans un seul appel API.
+
+### Mise en forme de texte enrichi dans les variantes
+
+[Modifiez les champs de texte dans les variantes générées avec une mise en forme de texte enrichi](/help/user-guide/create/manage-variants.md#manually-edit-text) des options telles que le gras, l’italique, le soulignement, l’alignement du texte, les listes, la couleur du texte, la taille du texte et les liens. Vous pouvez ainsi affiner le texte et les expressions de votre audience et appliquer une mise en forme pour répondre aux exigences de mise en page.
+
+### Libellés d’accessibilité des images et des liens
+
+Ajoutez des libellés d’accessibilité (Aria-labels) aux images et aux liens call-to-action dans vos variantes pour fournir des noms accessibles qui aident les utilisateurs à comprendre l’objectif des éléments interactifs. Voir [Gérer les variantes](/help/user-guide/create/manage-variants.md) pour obtenir des instructions détaillées.
+
+### Génération de contenu non anglais
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Le nouveau menu déroulant Sélecteur de langue dans le tiroir de l’invite prend en charge la création de contenu multilingue, ce qui permet aux spécialistes du marketing régional de développer du contenu de marque pour leurs audiences locales. Cette fonctionnalité prend actuellement en charge 12 langues GA et 5 langues Beta. La liste des langues fournit un workflow défini et une directive de langue claire au LLM pour des sorties plus cohérentes.
+
+### Sélection de modèle facultative pour les métadonnées publicitaires
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+La sélection de modèles est désormais facultative avec les méta-annonces, ce qui permet aux utilisateurs de créer des annonces sans avoir besoin de texte et de logo en haut du média. Cette amélioration autorise d’autres types de médias, tels que les GIF animés et les vidéos, qui ne nécessitent pas de superpositions de texte ni d’emplacement du logo.
+
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.06.15
 
 ### Modèles de démarrage disponibles
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
-Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) permettent de lancer le processus de création. Vous pouvez désormais effectuer une sélection à partir d’un Meta ou d’un modèle de démarrage d’annonce LinkedIn.
+Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) permettent de relancer le processus de création. Vous pouvez désormais effectuer une sélection à partir d’un Meta ou d’un modèle de démarrage d’annonce LinkedIn.
 
 ### Fonctionnalité Generative Expand AI
 
@@ -53,14 +86,14 @@ Avec le contenu de l’image, vous pouvez désormais ajouter des vidéos aux pub
 
 * Vous pouvez désormais exporter les détails de la campagne pour les rendre accessibles en externe sous forme de résumés de campagne dans Word ou PDF. Sélectionnez une campagne, puis cliquez sur **[!UICONTROL Exporter]** (coin supérieur droit).
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2025.05.15
 
 ### Correctifs et améliorations
 
 * Activation de la fonctionnalité [ajout d’un texte secondaire (alt)](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) à une image pour une variante individuelle.
-* Ajout d’un [nouveau format Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paysage 1,19:1 (largeur de 1 080 pixels).
+* Ajout d’un [nouveau format Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paysage 1,19 :1 (largeur de 1 080 pixels).
 * Vous pouvez désormais choisir plusieurs expériences à exporter ou télécharger. Voir [Exporter des expériences](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -148,7 +181,7 @@ Les programmes Beta permettent de façonner le développement de produits et de 
 
 ### Générer de nouveaux appels à l’action
 
-Vous pouvez désormais générer de nouvelles expressions call-to-action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/content/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des appels à l’action dans les variantes, voir [Réviser l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Vous pouvez désormais générer de nouvelles expressions call-to-action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/content/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des CTA dans les variantes, voir [Revise Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correctifs et améliorations
 
@@ -162,7 +195,7 @@ Vous pouvez désormais générer de nouvelles expressions call-to-action (CTA) l
 
 * Les sélections de personnes, de marques et de produits sont désormais préchargées lors de la génération du modèle. <!-- GS-8069 -->
 
-* Le lien d’appel à l’action d’e-mail n’est plus un champ obligatoire. <!-- GS-8103 -->
+* Le lien call-to-action d’e-mail n’est plus un champ obligatoire. <!-- GS-8103 -->
 
 * Le menu déroulant du sélecteur de [!DNL Brand] fonctionne désormais comme prévu pour les modèles. Auparavant, le sélecteur ne se chargeait pas correctement pour certains modèles. <!-- GS-8908 -->
 
