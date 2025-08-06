@@ -21,7 +21,7 @@ L’ajout d’utilisateurs et de groupes d’utilisateurs est une tâche de base
 
 Regardez cette présentation vidéo ou suivez les étapes ci-dessous.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470499/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3470501/?learn=on&enablevpops&captions=fre_fr)
 
 ## Étape 1 : créer un groupe d’utilisateurs
 
