@@ -5,10 +5,10 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
+source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: '783'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,24 @@ Le volet _[!UICONTROL Vérifier les champs détectés]_ affiche une liste des ch
 
 Si vous remarquez qu’un champ est manquant dans la liste, recherchez votre code de modèle et recherchez l’emplacement du champ manquant. Insérez l’espace réservé approprié en utilisant la syntaxe Handlebars et un [ nom de champ reconnu ](/help/user-guide/content/customize-template.md#recognized-field-names). Utilisez le formulaire Rechercher et remplacer , qui s’affiche au bas de l’éditeur de code, pour rechercher des chaînes spécifiques dans le code. (Windows `CTRL`+`F` ou macOS `CMD`+`F`)
 
-### Effectuer une correction
+## Ajuster les rôles d’une variable
+
+Vous pouvez sélectionner et modifier des rôles de champ pour les rôles de champ basés sur du texte (par exemple, `headline`, `sub_headline`, `body`, `cta`, `on_image_text`, `custom`) avec une liste déroulante lors de la vérification de la structure du modèle. Les sélections de rôles de champ persistent lors des modifications du modèle afin que les personnalisations ne soient pas perdues, ce qui améliore l’efficacité des workflows.
+
+>[!NOTE]
+>
+>Les rôles des variables d’image ne peuvent pas être ajustés.
+
+![Sélection de champs multirôles](/help/assets/multirole-dropdown-field.png "Sélection de champs multirôles"){width="600" zoomable="yes"}
+
+Pour attribuer un rôle à une variable :
+
+1. Recherchez la variable dans le volet _[!UICONTROL Vérifier les champs détectés]_. Ces variables sont automatiquement découvertes.
+2. Passez en revue les rôles affectés à chaque variable. Les rôles sont automatiquement attribués mais peuvent être ajustés à l’aide de la liste déroulante pour toute variable du modèle.
+3. Ajustez un rôle en sélectionnant un nouveau rôle dans la liste déroulante.
+4. Cliquez sur **[!UICONTROL Suivant]** pour continuer.
+
+## Effectuer une correction
 
 Si votre modèle contient des erreurs, un message de `Template is invalid` contenant une brève explication du problème peut s’afficher. Dans l’exemple suivant, le message indique que le champ `_image` n’est pas conforme à la convention d’affectation des noms de champ établie dans le modèle multipod. Le message indique en outre que vous devez mettre à jour le nom du champ avec le préfixe correct. Recherchez le champ `_image` dans l’éditeur de code de modèle, puis mettez à jour le nom comme indiqué.
 
