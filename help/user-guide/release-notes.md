@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
+source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
 workflow-type: tm+mt
-source-wordcount: '3052'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,60 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.07.25 {#latest}
+## 2025.08.15 {#latest}
+
+### Informations pour les attributs de texte
+
+Dans Adobe GenStudio, les informations sur les attributs de texte analysent le ton émotionnel, les techniques de persuasion et le style narratif utilisés dans la copie publicitaire. Une fois qu’une campagne est active, GenStudio effectue le suivi de la corrélation entre ces attributs de texte et des mesures de performances clés telles que le taux de clics, le CPA, le CPC, les impressions et les dépenses.
+
+Actuellement, cette fonctionnalité est disponible uniquement pour les publicités en anglais. Voir [Fonctions de texte](/help/user-guide/insights/text-features.md) pour plus d’informations.
+
+### Améliorations du modèle Insights
+
+* La carte Aperçu de l’annonce publicitaire comprend désormais une option « En savoir plus » pour le texte.
+* Nouveaux modèles pour les cartes de maçonnerie de page de publicités.
+
+### Génération de contenu multilingue avec validation de marque
+
+Le nouveau sélecteur Langue dans le tiroir d’invite prend en charge la création de contenu multilingue, ce qui permet aux marketeurs régionaux de développer du contenu de marque pour leurs audiences locales. Cette fonctionnalité prend actuellement en charge 12 langues.
+
+### Prise en charge des ressources vidéo sur les modèles
+
+* Il est possible d’ajouter des ressources vidéo sur les modèles Meta et LinkedIn.
+
+### Activer les améliorations de l’expérience
+
+* Nouvelle fonctionnalité pour enregistrer les brouillons des activations.
+* Nouvelle fonctionnalité permettant de réessayer les activations ayant échoué.
+
+### Utiliser le même rôle dans plusieurs champs de texte
+
+Plusieurs champs de texte avec le même rôle sont désormais pris en charge (par exemple, « body », « cta », « on image text », etc.) pour les modèles clients complexes.
+
+Explorez les détails dans [les conseils pour l’éditeur de code de modèle](/help/user-guide/content/code-editor.md).
+
+### Nouveaux modèles de génération d&#39;images Clio 4 Standard et Clio 4 Ultra pris en charge
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Adobe GenStudio for Performance Marketing prend désormais en charge la dernière suite Firefly Image Model 4, y compris deux variantes puissantes :
+
+**Clio 4 Standard** : optimisé pour la vitesse et la simplicité, idéal pour générer des illustrations, des icônes, des photos d&#39;objets de base et des portraits sur un seul sujet, couvrant 90 % des besoins créatifs quotidiens.
+
+**Clio 4 Ultra** : Privilégie le photoréalisme et la précision, excellant dans le rendu de portraits humains, de groupes de taille moyenne et de scènes complexes pour des tâches créatives haut de gamme.
+
+Consultez [Générer des ressources](/help/user-guide/create/generate-assets.md) pour obtenir des informations détaillées sur l’utilisation de ces nouveaux modèles de génération d’images.
+
+### Traduction d&#39;email prête à l&#39;emploi
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+Adobe GenStudio for Performance Marketing propose désormais des fonctionnalités de traduction d’e-mail intégrées qui permettent aux spécialistes marketing de mettre à l’échelle efficacement leurs campagnes par e-mail à l’échelle mondiale. Cette fonctionnalité vous permet de prendre une expérience d’e-mail approuvée et de la traduire dans plusieurs langues cibles à l’aide des services de traduction Azure Open AI.
+
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.07.25
 
 ### Filtre des ressources compatibles
 
@@ -45,8 +98,7 @@ Le nouveau menu déroulant Sélecteur de langue dans le tiroir de l’invite pre
 
 La sélection de modèles est désormais facultative avec les méta-annonces, ce qui permet aux utilisateurs de créer des annonces sans avoir besoin de texte et de logo en haut du média. Cette amélioration autorise d’autres types de médias, tels que les GIF animés et les vidéos, qui ne nécessitent pas de superpositions de texte ni d’emplacement du logo.
 
-
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2025.06.15
 
@@ -381,7 +433,7 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 +++
 
-+++Notes de la version 2024.10.14 Disponibilité générale
++++Notes relatives à la version 2024.10.14 Disponibilité générale
 
 Cette version présente Adobe GenStudio for Performance Marketing, une application générative basée sur l’IA qui accélère la planification, le développement et l’analyse des campagnes marketing. GenStudio for Performance Marketing permet aux équipes marketing de créer du contenu multicanal sur la marque pour les publicités, les e-mails et les campagnes, tout en fournissant des informations en temps réel pour optimiser les performances du contenu.
 
