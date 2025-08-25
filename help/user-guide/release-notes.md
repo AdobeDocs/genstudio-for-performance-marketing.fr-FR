@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
+source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3411'
 ht-degree: 0%
 
 ---
@@ -47,15 +47,15 @@ Plusieurs champs de texte avec le même rôle sont désormais pris en charge (pa
 
 Explorez les détails dans [les conseils pour l’éditeur de code de modèle](/help/user-guide/content/code-editor.md).
 
-### Nouveaux modèles de génération d&#39;images Clio 4 Standard et Clio 4 Ultra pris en charge
+### Nouveaux modèles de génération d’images Firefly pris en charge
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Adobe GenStudio for Performance Marketing prend désormais en charge la dernière suite Firefly Image Model 4, y compris deux variantes puissantes :
 
-**Clio 4 Standard** : optimisé pour la vitesse et la simplicité, idéal pour générer des illustrations, des icônes, des photos d&#39;objets de base et des portraits sur un seul sujet, couvrant 90 % des besoins créatifs quotidiens.
+**Firefly Image 4** : optimisé pour la vitesse et la simplicité, idéal pour générer des illustrations, des icônes, des photos d&#39;objets de base et des portraits sur un seul sujet, couvrant 90 % des besoins créatifs quotidiens.
 
-**Clio 4 Ultra** : Privilégie le photoréalisme et la précision, excellant dans le rendu de portraits humains, de groupes de taille moyenne et de scènes complexes pour des tâches créatives haut de gamme.
+**Firefly Image 4 Ultra** : Privilégie le photoréalisme et la précision, excellant dans le rendu de portraits humains, de groupes de taille moyenne et de scènes complexes pour des tâches créatives haut de gamme.
 
 Consultez [Générer des ressources](/help/user-guide/create/generate-assets.md) pour obtenir des informations détaillées sur l’utilisation de ces nouveaux modèles de génération d’images.
 
