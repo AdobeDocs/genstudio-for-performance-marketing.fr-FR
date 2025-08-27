@@ -1,11 +1,11 @@
 ---
-title: Gestion des ressources et des expériences
+title: Gestion d’Assets et d’expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque en vue de leur utilisation et réutilisation dans votre parcours de marketing numérique.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
+source-git-commit: 6880aadb104aac6b3282980760406168df3da5fe
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1514'
 ht-degree: 1%
 
 ---
@@ -98,11 +98,11 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont stockées par déf
 
 1. Dans _[!DNL Content]_, cliquez sur **[!UICONTROL Ajouter des ressources]**.
 
-1. Sur la vue _Ajouter vos ressources approuvées_, déposez un ou plusieurs fichiers dans l’espace de dépôt. Vous pouvez éventuellement sélectionner des fichiers locaux à l’aide de **[!UICONTROL Parcourir]** ou importer des fichiers depuis Dropbox ou Microsoft OneDrive.
+2. Sur la vue _Ajouter vos ressources approuvées_, déposez un ou plusieurs fichiers dans l’espace de dépôt. Vous pouvez éventuellement sélectionner des fichiers locaux à l’aide de **[!UICONTROL Parcourir]** ou importer des fichiers depuis Dropbox ou Microsoft OneDrive.
 
-1. Dans la section _Ajouter des détails_, sélectionnez un **[!UICONTROL nom de campagne]** ou saisissez un nouveau nom.
+3. Dans la section _Ajouter des détails_, sélectionnez un **[!UICONTROL nom de campagne]** ou saisissez un nouveau nom.
 
-1. Pour améliorer la visibilité, ajoutez des informations facultatives telles que _nom de la marque_, _personnes_, _région_ et _mots-clés_ dans la section **Plus de détails**.
+4. Pour faciliter la découverte, ajoutez des informations facultatives telles que _nom de la marque_, _personnes_, _région_ et _mots-clés_ dans la section **Plus de détails**.
 
    Plus vous fournissez de détails, plus vous bénéficiez des fonctionnalités robustes de GenStudio for Performance Marketing. Sélectionnez un ou plusieurs détails dans la liste, ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
 
@@ -110,11 +110,11 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont stockées par déf
 
    Voir [Détails des métadonnées](/help/user-guide/content/asset-details.md#system-metadata).
 
-1. Cliquez sur **[!UICONTROL Ajouter des ressources]**.
+5. Cliquez sur **[!UICONTROL Ajouter des ressources]**.
 
-1. Une fois le chargement des ressources terminé, cliquez sur **Terminé**.
+6. Une fois le chargement des ressources terminé, cliquez sur **Terminé**.
 
-1. Pour afficher les nouvelles ressources chargées, cliquez sur **[!UICONTROL Actualiser]** dans la notification _Nouvelles ressources disponibles_ située au bas de la zone de travail.
+7. Pour afficher les nouvelles ressources chargées, cliquez sur **[!UICONTROL Actualiser]** dans la notification _Nouvelles ressources disponibles_ située au bas de la zone de travail.
 
 ### Télécharger des ressources
 
@@ -140,17 +140,21 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont stockées par déf
 
 Vous pouvez sélectionner une ou plusieurs expériences approuvées à télécharger dans un format compatible avec votre canal cible. Le fichier téléchargé est nommé en utilisant la date d’exportation : `2025-06-15-export.zip`. Lorsque vous décompressez le fichier, il existe un dossier pour chaque type de canal qui inclut les ressources exportées dans les formats que vous avez sélectionnés. Chaque ressource exportée conserve son nom de fichier d’origine.
 
+>[!WARNING]
+>
+>Les ressources récupérées ne peuvent pas s’afficher en toute sécurité sans nettoyage. Tous les utilisateurs doivent gérer le cross-site scripting (XSS) à partir des modèles en utilisant des techniques d’assainissement d’entrée de leur côté.
+
 **Pour exporter ou télécharger des expériences** :
 
 1. Dans _[!DNL Content]_, sélectionnez une ou plusieurs expériences.
 
    Une bannière s’affiche avec le nombre d’expériences sélectionnées à gauche et les options [!UICONTROL Activer], [!UICONTROL Télécharger] ou [!UICONTROL Supprimer] à droite.
 
-1. (Facultatif) Si vous choisissez d’activer, il peut vous être demandé de sélectionner une plateforme, puis de poursuivre le workflow de [!DNL Activate]. Voir [ Activer ](/help/user-guide/activation/overview.md).
+2. (Facultatif) Si vous choisissez d’activer, il peut vous être demandé de sélectionner une plateforme, puis de poursuivre le workflow de [!DNL Activate]. Voir [ Activer ](/help/user-guide/activation/overview.md).
 
-1. Cliquez sur **[!UICONTROL Télécharger]**.
+3. Cliquez sur **[!UICONTROL Télécharger]**.
 
-1. Dans la fenêtre contextuelle _Télécharger_, sélectionnez l’un des formats disponibles.
+4. Dans la fenêtre contextuelle _Télécharger_, sélectionnez l’un des formats disponibles.
 
    Si vous avez sélectionné plusieurs expériences à partir de différents canaux, vous avez la possibilité de sélectionner le format pour chaque type de canal.
 
