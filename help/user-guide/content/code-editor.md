@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
+source-git-commit: f9fec89a522f3c82367516b79dbc79db5a106bbf
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 1%
@@ -24,7 +24,7 @@ L’éditeur de code de modèle est conçu pour vous aider à vérifier et à af
 
 Le volet _[!UICONTROL Vérifier les champs détectés]_ affiche une liste des champs que GenStudio for Performance Marketing reconnaît dans votre modèle. Passez en revue la liste et vous pouvez faire défiler le code HTML pour consulter la formation de votre modèle.
 
-![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="600" zoomable="yes"}
+![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="600"}
 
 Si vous remarquez qu’un champ est manquant dans la liste, recherchez votre code de modèle et recherchez l’emplacement du champ manquant. Insérez l’espace réservé approprié en utilisant la syntaxe Handlebars et un [ nom de champ reconnu ](/help/user-guide/content/customize-template.md#recognized-field-names). Utilisez le formulaire Rechercher et remplacer , qui s’affiche au bas de l’éditeur de code, pour rechercher des chaînes spécifiques dans le code. (Windows `CTRL`+`F` ou macOS `CMD`+`F`)
 
@@ -36,7 +36,7 @@ Vous pouvez sélectionner et modifier des rôles de champ pour les rôles de cha
 >
 >Les rôles des variables d’image ne peuvent pas être ajustés.
 
-![Sélection de champs multirôles](/help/assets/multirole-dropdown-field.png "Sélection de champs multirôles"){width="600" zoomable="yes"}
+![Sélection de champs multirôles](/help/assets/multirole-dropdown-field.png "Sélection de champs multirôles"){width="600"}
 
 Pour attribuer un rôle à une variable :
 
@@ -49,7 +49,7 @@ Pour attribuer un rôle à une variable :
 
 Si votre modèle contient des erreurs, un message de `Template is invalid` contenant une brève explication du problème peut s’afficher. Dans l’exemple suivant, le message indique que le champ `_image` n’est pas conforme à la convention d’affectation des noms de champ établie dans le modèle multipod. Le message indique en outre que vous devez mettre à jour le nom du champ avec le préfixe correct. Recherchez le champ `_image` dans l’éditeur de code de modèle, puis mettez à jour le nom comme indiqué.
 
-![Corriger le modèle non valide](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
+![Corriger le modèle non valide](/help/assets/animation/template-code-editor.gif){width="600"}
 
 Le volet _[!UICONTROL Vérifier les champs détectés]_ se met à jour pour refléter les modifications que vous avez apportées. Une fois que vous êtes convaincu que les champs sont corrects et complets, cliquez sur **[!UICONTROL Suivant]** pour continuer [à charger votre modèle](/help/user-guide/content/use-templates.md#add-a-template).
 
