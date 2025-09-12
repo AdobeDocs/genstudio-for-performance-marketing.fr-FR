@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
+source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
 workflow-type: tm+mt
-source-wordcount: '3411'
+source-wordcount: '3502'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.08.15 {#latest}
+## 2025.09.11 {#latest}
+
+### Nouvelle fonctionnalité Generative Expand AI pour les médias achetés
+
+La nouvelle fonctionnalité GenExpand permet aux marketeurs d’adapter dynamiquement leurs ressources créatives afin de prendre en charge différents proportions sur les canaux de médias achetés tels que Meta, LinkedIn, Display Ads et Banners. Lorsqu’une image ne correspond pas aux proportions prévues, par exemple en ajoutant une image étroite à une disposition large, vous pouvez utiliser GenExpand pour réviser l’image afin qu’elle s’adapte.
+
+Cette fonctionnalité simplifie le processus d’édition et de redimensionnement d’images directement dans GenStudio for Performance Marketing. Consultez [Fonctionnalités Generative Expand AI](/help/user-guide/create/manage-variants.md#use-generative-expand) pour plus d’informations.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.08.15
 
 ### Informations pour les attributs de texte
 
@@ -65,8 +75,7 @@ Consultez [Générer des ressources](/help/user-guide/create/generate-assets.md)
 
 Adobe GenStudio for Performance Marketing propose désormais des fonctionnalités de traduction d’e-mail intégrées qui permettent aux spécialistes marketing de mettre à l’échelle efficacement leurs campagnes par e-mail à l’échelle mondiale. Cette fonctionnalité vous permet de prendre une expérience d’e-mail approuvée et de la traduire dans plusieurs langues cibles à l’aide des services de traduction Azure Open AI.
 
-
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2025.07.25
 
