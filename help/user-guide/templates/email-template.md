@@ -1,13 +1,13 @@
 ---
-title: Instructions relatives aux modèles d’e-mail
+title: Consignes relatives aux modèles d’e-mail
 description: Appliquez les bonnes pratiques lorsque vous utilisez des modèles d’e-mail avec Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
+source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 - Utilisation des polices Adobe ou Google
 - Utilisation d’HTML et de CSS intégré propres et réactifs
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 - N **utilisez pas** largeur fixe dans le corps ou le conteneur
 - N’utilisez **pas** codage base64 pour les images, car il peut augmenter considérablement la taille du modèle
 - La taille maximale du fichier HTML est de 102 Ko
@@ -44,17 +44,18 @@ Le nombre maximal de champs autorisés dans un modèle est de 20. Voir [Espaces 
 
 ## E-mail à plusieurs sections
 
-Les _sections_ vous permettent d’organiser le contenu en groupes distincts, ce qui rend les dispositions plus complexes. Dans Genstudio pour le marketing de performance, vous pouvez définir chaque section à l’aide d’une convention de nommage de groupe. Voir [Personnaliser les sections de modèle](/help/user-guide/content/customize-template.md#sections-or-groups).
+Les _sections_ vous permettent d’organiser le contenu en groupes distincts, prenant en charge des dispositions plus complexes. Dans GenStudio for Performance Marketing, vous pouvez définir chaque section à l’aide d’une convention de nommage de groupe. Voir [Personnaliser les sections de modèle](/help/user-guide/content/customize-template.md#sections-or-groups).
 
 Les modèles à plusieurs sections peuvent comporter 0, 2 ou 3 sections :
 
-- Un modèle de base (zéro section) peut générer un seul ensemble d’éléments de modèle, ce qui ne nécessite pas la convention d’affectation des noms de groupe.
-- Un modèle complexe (plusieurs sections) peut générer jusqu’à trois ensembles d’éléments de modèle, ce qui nécessite de respecter la convention de dénomination des groupes : (`groupname_fieldname`)
+- Un modèle de base (zéro section) peut générer un seul ensemble d&#39;éléments de modèle, ce qui ne nécessite pas la convention d&#39;affectation des noms de groupe.
+- Un modèle complexe (plusieurs sections) peut générer jusqu’à trois ensembles d’éléments de modèle, ce qui nécessite de respecter la convention d’affectation des noms de groupe : `<groupname_fieldname>`.
+- Si vous utilisez plusieurs sections, les éléments laissés autonomes, en dehors d’une section, ne sont pas renseignés.
 
-Exemples de noms de champ pour deux sections :
+Voici des exemples de noms de champ, selon la convention d’affectation des noms de groupe, pour deux sections :
 
-- `pod1_headline`, `pod1_body`, `pod1_cta`
-- `pod2_headline`, `pod2_body`, `pod2_cta`
+- Dans la section 1:`pod1_headline`, `pod1_body`, `pod1_cta`
+- Dans la section 2:`pod2_headline`, `pod2_body`, `pod2_cta`
 
 ## Exemples de modèles
 
@@ -109,7 +110,7 @@ Voici un exemple de base de modèle d’e-mail HTML avec une section. Le `<head>
 
 +++Exemple : modèle d’e-mail avec plusieurs sections
 
-Vous trouverez ci-dessous le même modèle HTML dans l’exemple ci-dessus, mais avec deux sections supplémentaires. L’en-tête contient un CSS intégré pour la mise en forme d’un groupe. Le corps utilise deux groupes avec des [espaces réservés de contenu](#content-placeholders) utilisant un préfixe.
+Voici le même modèle HTML dans l’exemple ci-dessus, mais avec deux sections supplémentaires. L’en-tête contient un CSS intégré pour la mise en forme d’un groupe. Le corps utilise deux groupes avec des [espaces réservés de contenu](#content-placeholders) utilisant un préfixe.
 
 ```html
 <!DOCTYPE html>
@@ -151,8 +152,6 @@ Vous trouverez ci-dessous le même modèle HTML dans l’exemple ci-dessus, mais
     </head>
     <body>{{pre_header}}
         <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
