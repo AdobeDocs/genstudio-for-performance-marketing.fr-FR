@@ -3,16 +3,16 @@ title: Déploiement de l’application App Builder
 description: Déployez votre application App Builder, ou module complémentaire, pour GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
+source-git-commit: 7fdd3f54a0a031bfe26b48983de9cd24baad2f62
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
 # Déploiement de l’application
 
-L’exécution de votre application fournit un instantané préliminaire de votre comportement de module complémentaire avant son déploiement. Ces informations peuvent faciliter le débogage. Vous pouvez forcer la création et le déploiement d&#39;une application déployée sans la soumettre à nouveau pour approbation.
+L’exécution de votre application offre un instantané préliminaire du comportement de votre module complémentaire avant son déploiement. Ces informations peuvent faciliter le débogage.
 
 **Pour exécuter l’application** :
 
@@ -24,13 +24,13 @@ aio app run
 
 **Pour déployer l’application** :
 
-1. Accédez à l’espace de travail Déploiement . Par exemple, pour accéder à l’espace de travail de production :
+1. Accédez à l’espace de travail de déploiement :
 
    ```bash
-   aio app use -w Production
+   aio app use -w [deployment_workspace]
    ```
 
-1. Déployez l’application :
+2. Déployez l’application :
 
    ```bash
    aio app deploy
@@ -38,9 +38,11 @@ aio app run
 
 **Pour forcer le redéploiement** :
 
+Vous pouvez forcer une version et le déploiement de votre application sans la soumettre à nouveau pour approbation.
+
 >[!NOTE]
 >
->Le fait de forcer la création et le déploiement remplace votre déploiement existant. Testez d’abord minutieusement votre application dans un environnement de test.
+>Le fait de forcer une version et un déploiement remplace votre déploiement existant. **Testez minutieusement votre application** dans un environnement de test.
 
 ```bash
 aio app build --force-build
@@ -60,7 +62,9 @@ aio app deploy --force-build --force-deploy
 
 Après le déploiement, vous pouvez afficher l’application dans GenStudio for Performance Marketing en ajoutant un paramètre `query` à l’URL de GenStudio for Performance Marketing :
 
-`https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.net/index.html#/@<ims-org>/genstudio/create`
+```txt
+https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.net/index.html#/@<ims-org>/genstudio/create
+```
 
 Si vous êtes satisfait de votre module complémentaire, vous êtes prêt à le distribuer sans le paramètre `query` .
 

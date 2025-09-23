@@ -1,11 +1,11 @@
 ---
-title: Création d’une application App Builder pour étendre GenStudio for Performance Marketing
-description: Commencez à créer une application ou un module complémentaire.
+title: Création d’une application App Builder
+description: Commencez à créer une application, ou un module complémentaire, pour étendre GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
+source-git-commit: 04a4f6432c5db87489e39f9396a7782c86441695
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Les développeurs qui étendent les fonctionnalités natives de GenStudio for Pe
 
 * npm (package avec Node.js)
 
-* Interface de ligne de commande (CLI) Adobe Developer. A installer : `npm install -g @adobe/aio-cli`
+* Interface de ligne de commande (CLI) Adobe Developer. Pour l’installer avec npm, exécutez : `npm install -g @adobe/aio-cli`
 
 >[!ENDSHADEBOX]
 
@@ -47,10 +47,10 @@ Les composants principaux des applications App Builder incluent ces fichiers de 
 * Fichiers de configuration App Builder :
 
    * `app.config.yaml`
-   * `ext.config.yaml` : fichier de configuration pour le module complémentaire
-   * `app.config.yaml` : fichier de configuration pour le module complémentaire (y compris la définition de votre application en tant que module complémentaire GenStudio for Performance Marketing)
+   * `ext.config.yaml` : fichier de configuration pour le module complémentaire.
+   * `app.config.yaml` : fichier de configuration pour le module complémentaire (y compris la définition de votre application en tant que module complémentaire GenStudio for Performance Marketing).
    * `.aio`
-   * `.env` : ne pas valider le fichier `.env` dans le contrôle de code source
+   * `.env` : ne pas valider le fichier `.env` dans le contrôle de code source.
 
 ### code Source
 
@@ -70,7 +70,7 @@ Les composants principaux des applications App Builder incluent ces fichiers de 
 
 ### Composants de code Source
 
-* `ExtensionRegistration.tsx` : définit les API nécessaires dont l’application hôte (GenStudio for Performance Marketing) a besoin pour charger et afficher le module complémentaire.
+* `ExtensionRegistration.tsx` : définit les API nécessaires pour que l’application hôte (GenStudio for Performance Marketing) charge et affiche le module complémentaire.
 
 * `App.tsx` : composant d’application principal qui définit le routage vers d’autres composants.
 
@@ -88,7 +88,7 @@ Vous pouvez utiliser un exemple d’application pour démarrer rapidement la cr�
 
 1. Téléchargez un exemple d’application à partir du référentiel [Exemples UIX de GenStudio](https://github.com/adobe/genstudio-uix-examples).
 
-1. Dans l’espace de travail Projet App Builder sur [Adobe Developer Console](https://developer.adobe.com/console/), sélectionnez **[!UICONTROL Tout télécharger]** pour télécharger les détails du projet.
+1. Dans l’espace de travail Projet App Builder sur [Adobe Developer Console](https://developer.adobe.com/console/), sélectionnez [!UICONTROL Tout télécharger] pour télécharger les détails du projet.
 
 1. Ouvrez votre exemple d’application localement dans l’environnement de développement intégré (IDE) de votre choix.
 
@@ -106,13 +106,11 @@ Vous pouvez utiliser un exemple d’application pour démarrer rapidement la cr�
 
 ## Ajout de code personnalisé à votre module complémentaire
 
-Vous définissez le code du module complémentaire dans les fichiers `AdditionalContextDialog.tsx` et `RightPanel.tsx`. Ces deux fichiers définissent l’aspect et le comportement des fenêtres contextuelles lorsque les utilisateurs accèdent au module complémentaire.
+Définissez votre code de module complémentaire dans les fichiers `AdditionalContextDialog.tsx` et `RightPanel.tsx`. Ces deux fichiers définissent l’aspect et le comportement des fenêtres contextuelles lorsque les utilisateurs accèdent au module complémentaire.
 
 * `AdditionalContextDialog.tsx` : définissez ce composant si vous prévoyez d’utiliser le module complémentaire _Ajouter du contexte_. Les utilisateurs interagissent avec ce composant lorsqu’ils cliquent sur _Modules complémentaires_ dans le tiroir d’invite de [!DNL Create].
 
 * `RightPanel.tsx` : définissez ce composant si vous prévoyez d’utiliser le module complémentaire _Panneau de droite_ (validation de l’expérience). Les utilisateurs interagissent avec ce composant lorsqu’ils cliquent sur le module complémentaire de validation dans le panneau de droite d’un brouillon d’expérience [!DNL Create].
-
-Vous êtes maintenant prêt à [déployer votre application](deploy-app.md)
 
 ## Bonnes pratiques de développement d’applications
 
@@ -125,3 +123,5 @@ La maintenance de votre environnement de développement peut vous aider à évit
   ```
 
 * Mettez à niveau le SDK UIX de GenStudio. Vérifiez que vous utilisez la version la plus récente de [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk). Reportez-vous au [Référentiel d’exemples de l’UIX de GenStudio](https://github.com/adobe/genstudio-uix-examples) pour savoir comment utiliser les modifications SDK les plus récentes.
+
+Vous êtes maintenant prêt à [déployer votre application](deploy-app.md)

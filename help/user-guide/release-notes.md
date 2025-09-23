@@ -4,7 +4,7 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
+source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
 workflow-type: tm+mt
 source-wordcount: '3502'
 ht-degree: 0%
@@ -195,7 +195,7 @@ Dans le cadre du processus de validation de la marque, des [normes de conformit�
 
 ### Extensibilité
 
-Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/help/extensibility/overview.md) fournit aux entreprises des outils leur permettant d’incorporer leurs propres protocoles de conformité aux réclamations dans le workflow de création de contenu et la validation par le biais de modules complémentaires, ou applications extensibles.
+Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/help/extensibility/setup.md) fournit aux entreprises des outils leur permettant d’incorporer leurs propres protocoles de conformité aux réclamations dans le workflow de création de contenu et la validation par le biais de modules complémentaires, ou applications extensibles.
 
 ### Modèles
 
