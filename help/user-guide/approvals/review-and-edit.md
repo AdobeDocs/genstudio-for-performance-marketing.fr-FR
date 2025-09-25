@@ -64,7 +64,7 @@ Le créateur de contenu peut continuer ses modifications tout en recevant les co
 
 ## Vérifier le contenu avec Workfront Proof
 
-[!DNL Proofing Viewer] fournit des [outils de balisage fiables](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) pour l’annotation des épreuves et le suivi des modifications. Vous pouvez également comparer deux versions de BAT.
+[!DNL Proofing Viewer] fournit des [outils de balisage fiables](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) pour l’annotation des épreuves et le suivi des modifications. Vous pouvez également comparer deux versions de BAT.
 
 **Pour vérifier le contenu** :
 
@@ -84,7 +84,7 @@ Le créateur de contenu peut continuer ses modifications tout en recevant les co
 
 ### Comparer les épreuves
 
-À partir de [!DNL Proofing Viewer], vous pouvez [comparer les versions de BAT](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+À partir de [!DNL Proofing Viewer], vous pouvez [comparer les versions de BAT](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
 
 **Pour comparer des épreuves** :
 
@@ -94,4 +94,4 @@ Le créateur de contenu peut continuer ses modifications tout en recevant les co
 
    Les épreuves s’affichent côte à côte, avec la version la plus récente sur la gauche.
 
-Workfront Proof fournit plusieurs outils de comparaison de BAT, notamment un outil de comparaison automatique. Voir [Utiliser les outils de comparaison](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
+Workfront Proof fournit plusieurs outils de comparaison de BAT, notamment un outil de comparaison automatique. Voir [Utiliser les outils de comparaison](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
