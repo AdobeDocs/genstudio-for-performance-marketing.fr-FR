@@ -5,7 +5,7 @@ level: Beginner
 feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 96e5d88eb92e61940d3cfbbf019edefd7d29e4c4
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 10%
@@ -26,9 +26,9 @@ Ces titres de rôle d’utilisateur peuvent sembler similaires, mais ils identif
 
 **Les administrateurs système d’Adobe** disposent de droits d’utilisateur avancé dans Adobe Admin Console et effectuent toutes les tâches de gestion des utilisateurs, comme l’ajout ou la suppression d’utilisateurs. Ce rôle d’administrateur système ne fournit aucun privilège dans l’application GenStudio for Performance Marketing, ce qui explique pourquoi les administrateurs système Adobe n’ont pas besoin de licence pour GenStudio. Les administrateurs système d’Adobe utilisent généralement Admin Console pour ajouter et supprimer des comptes d’utilisateurs des déploiements de GenStudio et attribuer ou supprimer des droits, ou autorisations, d’utilisateurs individuels ou de groupes d’utilisateurs.
 
-**Les gestionnaires système de GenStudio** sont des utilisateurs expérimentés de GenStudio for Performance Marketing mais n&#39;ont pas l&#39;autorisation d&#39;effectuer des tâches dans Adobe Admin Console. Ce rôle de gestionnaire système nécessite une licence de produit GenStudio et correspond à un utilisateur avancé dans la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Les gestionnaires système de GenStudio disposent de droits complets sur les fonctionnalités de GenStudio for Performance Marketing, notamment la création, la suppression, la mise à jour et la publication de [!DNL Brands], [!DNL Persona] et [!DNL Product]. [Description du produit Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explique comment les rôles utilisateur de GenStudio sont liés aux licences de produit.
+**Les gestionnaires système de GenStudio** sont des utilisateurs expérimentés de GenStudio for Performance Marketing mais n&#39;ont pas l&#39;autorisation d&#39;effectuer des tâches dans Adobe Admin Console. Ce rôle de gestionnaire système nécessite une licence de produit GenStudio et correspond à un utilisateur avancé dans la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Les gestionnaires système de GenStudio disposent de droits complets sur les fonctionnalités de GenStudio for Performance Marketing, notamment la création, la suppression, la mise à jour et la publication de [!DNL Brands], [!DNL Persona] et [!DNL Product]. [Description du produit Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explique comment les rôles utilisateur de GenStudio sont liés aux licences de produit.
 
-Voir [Rôles administratifs](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html#enterprise) dans le _guide d’administration d’entreprise et d’équipes_.
+Voir [Rôles administratifs](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) dans le _guide d’administration d’entreprise et d’équipes_.
 
 ## Droits
 

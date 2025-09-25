@@ -3,7 +3,7 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gérer les variantes
 
-Adobe GenStudio for Performance Marketing [!DNL Create] vous permet de personnaliser et d’améliorer les variantes générées ([e-mails](/help/user-guide/create/email-experiences.md), [méta-annonces](/help/user-guide/create/meta-experiences.md), etc.) pour les utiliser dans des initiatives de marketing numérique.
+Adobe GenStudio for Performance Marketing [!DNL Create] vous permet de personnaliser et d’améliorer les variantes générées ([e-mails](/help/user-guide/create/email-experiences.md), [annonces Meta](/help/user-guide/create/meta-experiences.md) etc.) pour les utiliser dans des initiatives de marketing numérique.
 
 Lors de la [création d’expériences](/help/user-guide/create/overview.md), vous pouvez modifier le contenu et les ressources des variantes générées individuellement ou par lots. La possibilité de gérer des variantes au niveau micro individuel vous permet de gérer chaque élément de contenu généré.
 
@@ -20,7 +20,7 @@ Lors de la [création d’expériences](/help/user-guide/create/overview.md), vo
 
 Les brouillons de variantes générés ont un nom par défaut affiché en haut de la zone de travail. Les noms des brouillons par défaut utilisent la convention suivante qui inclut le type de canal, la date et l’heure de la génération.
 
-*Exemple* : « Méta : brouillon sans titre - 09.5.24, 9 :56 »
+*Exemple* : « Meta : brouillon sans titre - 09.5.24, 9 :56 »
 
 **Pour modifier le nom par défaut** :
 
@@ -41,7 +41,7 @@ Le formatage de texte disponible inclut les éléments suivants :
 * Taille du texte
 * Lien
 
-Les options de formatage du texte varient selon le canal (méta, e-mail, etc.)
+Les options de formatage du texte varient selon le canal (Meta, e-mail, etc.)
 
 **Pour modifier le texte manuellement dans les variantes générées** :
 
@@ -69,7 +69,7 @@ Vous pouvez sélectionner rapidement un calque individuel d’une variante et y 
 
 GenStudio for Performance Marketing dispose d’une fonctionnalité intégrée pour régénérer les sections des variantes générées. Vous pouvez reformuler, raccourcir ou allonger le texte, ou ajouter de nouvelles invites pour générer du nouveau contenu.
 
-Par exemple, vous pouvez générer à nouveau la section titre d’une méta-variante pour voir à quoi elle ressemble avec une ressource en arrière-plan spécifique. Vous pouvez _[!UICONTROL Reformuler]_, _[!UICONTROL Raccourcir]_ ou _[!UICONTROL Allonger]_ le contenu d’une section ou _[!UICONTROL Générer un nouveau texte]_ pour ajouter une nouvelle invite.
+Par exemple, vous pouvez générer à nouveau la section titre d’une variante d’annonce Meta pour voir à quoi elle ressemble avec une ressource en arrière-plan spécifique. Vous pouvez _[!UICONTROL Reformuler]_, _[!UICONTROL Raccourcir]_ ou _[!UICONTROL Allonger]_ le contenu d’une section ou _[!UICONTROL Générer un nouveau texte]_ pour ajouter une nouvelle invite.
 
 ![Générer à nouveau les sections](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Vous pouvez recadrer et repositionner manuellement des ressources d’image dans
 
 ## Utiliser l’extension générative
 
-Développez les dimensions de vos images et ajoutez du contenu génératif avec l’option Développement génératif. L’extension générative vous permet de transformer des images mal ajustées en proportions les plus adaptées pour les bannières, les méta-publicités, les publicités LinkedIn ou les modèles de publicités display.
+Développez les dimensions de vos images et ajoutez du contenu génératif avec l’option Développement génératif. L’extension générative vous permet de transformer des images mal ajustées en proportions les plus adaptées pour les bannières, les publicités Meta, les publicités LinkedIn ou les modèles de publicités display.
 
 Cette fonction d’extension générative est associée à l’outil Recadrage pour vous permettre de contrôler entièrement les ressources dans divers proportions pour les canaux multimédias payants.
 
@@ -162,13 +162,13 @@ Cette fonction d’extension générative est associée à l’outil Recadrage p
 
 ## Modifier les proportions
 
-Vous pouvez rapidement modifier le [format des méta-annonces](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter l’annonce au dimensionnement souhaité. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée de 1 :1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
+Vous pouvez rapidement modifier le [format des annonces Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter le dimensionnement de l’annonce publicitaire à vos besoins. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée de 1 :1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
 
 >[!NOTE]
 >
 >Des proportions et des tailles variables peuvent être disponibles en fonction des modèles disponibles.
 
-**Pour modifier les proportions des métadonnées publicitaires générées** :
+**Pour modifier les proportions des annonces Meta générées** :
 
 1. Après avoir généré un ensemble de variantes, cliquez sur **[!UICONTROL Redimensionnement du format]** (flèche pointant vers le coin de la zone) sur le côté gauche de la zone de travail.
 
@@ -196,7 +196,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 

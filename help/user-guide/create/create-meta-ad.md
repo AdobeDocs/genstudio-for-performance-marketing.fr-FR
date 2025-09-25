@@ -1,33 +1,33 @@
 ---
-title: Création d’une expérience de métadonnées
-description: Découvrez comment créer des expériences de métadonnées de publicité sur la marque, pour Facebook ou Instagram, avec Adobe GenStudio for Performance Marketing.
+title: Création d’une expérience publicitaire Meta
+description: Découvrez comment créer des expériences publicitaires Meta sur la marque, pour Facebook ou Instagram, avec Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
-# Création d’une expérience de métadonnées
+# Création d’une expérience publicitaire Meta
 
-Ce tutoriel explique comment générer des expériences publicitaires de marque [Meta](/help/user-guide/create/meta-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel explique comment générer des expériences publicitaires Meta de marque [](/help/user-guide/create/meta-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
-Avant de commencer à générer une expérience de métadonnées, il est important d’[incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio for Performance Marketing et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
+Avant de commencer à générer une expérience publicitaire Meta, il est important d’[incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio for Performance Marketing et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
 
 ## Choisir un modèle
 
-Pour commencer à générer une nouvelle expérience de métadonnées, utilisez un modèle disponible afin de fournir le framework de votre contenu. Consultez [Directives relatives aux modèles de publicité Meta](/help/user-guide/templates/meta-template.md) pour plus d’informations sur les proportions de publicité Meta prises en charge.
+Pour commencer à générer une nouvelle expérience publicitaire Meta, utilisez un modèle disponible pour fournir le framework de votre contenu. Consultez les [directives relatives aux modèles de publicité Meta](/help/user-guide/templates/meta-template.md) pour plus d’informations sur les proportions de publicité Meta prises en charge.
 
 Lors de la sélection d’un modèle, vous avez la possibilité d’utiliser l’un des modèles chargés ou un modèle de démarrage.
 
-**Pour choisir un modèle de méta-annonce** :
+**Pour choisir un modèle d’annonce Meta** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Méta-publicités]**.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Meta ads]**.
 1. Sélectionnez **[!UICONTROL Modèles personnalisés]** pour parcourir les modèles chargés ou **[!UICONTROL Modèles de démarrage]** pour parcourir les modèles préconfigurés.
 
    Si vous prévoyez d’ajouter des ressources vidéo à vos variantes Meta, vous devez choisir un modèle de démarrage. Ils sont préchargés avec des zones de contenu définies par le système qui facilitent l’utilisation des vidéos.
@@ -38,7 +38,7 @@ Lors de la sélection d’un modèle, vous avez la possibilité d’utiliser l�
 
 ## Ajouter des paramètres
 
-L’ajout de [directives](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite améliore le processus de génération de contenu et constitue une étape cruciale dans la préparation à la génération d’une méta-annonce.
+L’ajout de [instructions](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite améliore le processus de génération de contenu et constitue une étape essentielle dans la préparation de la génération d’une publicité Meta.
 
 Si vous utilisez un modèle avec des directives prédéfinies ([!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces directives s’appliquent à vos variantes. Vous pouvez les modifier si vous le souhaitez.
 
@@ -68,7 +68,7 @@ Lorsque vous avez terminé d&#39;ajouter des paramètres, vous pouvez réduire l
 
 ## Saisir une invite
 
-Une fois les instructions sélectionnées, créez une invite en langage naturel pour commencer à générer du contenu pour votre nouvelle expérience de métadonnées. Les invites détaillées génèrent une sortie de meilleure qualité que les invites vagues ou ambiguës.
+Une fois les instructions sélectionnées, créez une invite en langage naturel pour commencer à générer du contenu pour votre nouvelle expérience publicitaire Meta. Les invites détaillées génèrent une sortie de meilleure qualité que les invites vagues ou ambiguës.
 
 Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l&#39;écriture d&#39;invites.
 
@@ -81,28 +81,28 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 
 Par défaut, quatre variations, toutes alimentées par l’invite, les instructions et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
 
-Le contenu généré se charge progressivement ; au fur et à mesure que chaque section des méta-expériences est générée, elles apparaissent dans la zone de travail. Consultez [Méta-expériences](/help/user-guide/create/meta-experiences.md#progressive-loading) pour découvrir comment ces modifications sont chargées dans la zone de travail.
+Le contenu généré se charge progressivement ; au fur et à mesure que chaque section des expériences Meta est générée, elle apparaît dans la zone de travail. Voir [Expériences Meta](/help/user-guide/create/meta-experiences.md#progressive-loading) pour savoir comment ces modifications sont chargées dans la zone de travail.
 
-## Choisir le canal Métadonnées publicitaires
+## Choisir le canal des publicités Meta
 
-Lors de la génération d’une méta-annonce, vous pouvez choisir entre les annonces Facebook ou Instagram.
+Lors de la génération d’une publicité Meta, vous pouvez choisir entre les publicités Facebook ou Instagram.
 
-Dans la barre de menus de droite (icônes Facebook et Instagram), activez l’option **Canal des méta-annonces** entre Facebook et **Instagram** pour afficher et gérer les variantes de chaque canal.
+Dans la barre de menu de droite (icônes Facebook et Instagram **, activez l’option de canal Meta ads, entre** Facebook et **Instagram**, pour afficher et gérer les variantes de chaque canal.
 
-Lors de la [révision des Méta-publicités](#revise-generated-variants), vous pouvez modifier le format des publicités Facebook et Instagram.
+Lors de la [révision des publicités Meta](#revise-generated-variants), vous pouvez modifier le format des publicités Facebook et Instagram.
 
 ## Réviser les variantes générées
 
-Avant de sélectionner les éléments à envoyer pour approbation ou publication à [!DNL Content], vous pouvez modifier les Méta-annonces ou supprimer une variante de l’ensemble des annonces générées.
+Avant de sélectionner les éléments à envoyer pour approbation ou publication à [!DNL Content], vous pouvez modifier les annonces Meta ou supprimer une variante de l’ensemble des annonces générées.
 
 Pour mettre en surbrillance un calque individuel à réviser, cliquez sur un champ ou une image modifiable, puis sur _[!UICONTROL Afficher les calques]_.
 
 **Pour réviser les variantes générées** :
 
-* **Pour [modifier le nom du brouillon de méta-annonce](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
-* **Pour [modifier manuellement une méta-annonce](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez sur l’une des sections d’annonce (comme l’objet,
+* **Pour [modifier le nom du brouillon d’annonce publicitaire Meta](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
+* **Pour [modifier manuellement une publicité Meta](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez sur l’une des sections de publicité (comme l’objet,
 en-tête ou copie du corps) et modifiez-les si nécessaire.
-* **Pour modifier ou sélectionner l’appel à l’action** cliquez sur le bouton call-to-action et sélectionnez les options de texte du bouton disponibles. Dans _Lien_, saisissez l’URL du texte call-to-action.
+* **Pour modifier ou sélectionner le call to action**, cliquez sur le bouton call-to-action , puis sélectionnez l’une des options de texte de bouton disponibles. Dans _Lien_, saisissez l’URL du texte call-to-action.
 * **Pour [appliquer une mise en forme de texte](/help/user-guide/create/manage-variants.md#manually-edit-text)** dans une variante, cliquez sur le texte sur l’image ou sur le lien intégré d’une variante, puis cliquez sur **[!UICONTROL Mettre en forme le texte]**.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.
@@ -113,7 +113,7 @@ en-tête ou copie du corps) et modifiez-les si nécessaire.
 * **Pour [utiliser l’option Développement génératif pour dimensionner et ajuster les images](/help/user-guide/create/manage-variants.md#use-generative-expand) à votre modèle de travail**, cliquez sur une image, puis sur **[!UICONTROL Modifier]** (icône en forme de crayon) et **[!UICONTROL Développer]**. Ajustez l’image pour qu’elle s’adapte au format et au modèle nécessaires.
 * **Pour [ajouter du texte de remplacement pour les images d’une variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, cliquez sur une ressource d’image et utilisez l’option _Texte de remplacement_ pour ajouter ou générer manuellement un texte de remplacement par image.
 * **Pour [ajouter des libellés d’accessibilité](/help/user-guide/create/manage-variants.md#add-accessibility-labels) à vos variantes** cliquez sur une image ou un lien call-to-action, puis fournissez une brève description expliquant la fonction du lien ou du bouton.
-* **Pour [supprimer une méta-annonce](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le menu d’options d’une variante et cliquez sur **[!UICONTROL Supprimer la variante]**.
+* **Pour [supprimer une publicité Meta](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le menu d’options d’une variante et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ### Gestion des vidéos
 
@@ -145,28 +145,28 @@ Utilisez le panneau Approbations , accessible sous forme d’icône dans la barr
 
 **Pour obtenir des examens et des approbations** :
 
-1. [Lancez une demande d’approbation](/help/user-guide/approvals/request-review.md) pour solliciter une [approbation des versions préliminaires des métadonnées et des expériences](/help/user-guide/approvals/approve-content.md).
+1. [Lancez une demande d’approbation](/help/user-guide/approvals/request-review.md) pour solliciter une [approbation des brouillons d’expériences publicitaires Meta](/help/user-guide/approvals/approve-content.md).
 
    ![Envoyer des brouillons pour révision et approbation](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. [Supprimer ou ajouter des réviseurs et réviseuses](/help/user-guide/approvals/review-and-edit.md#manage-approvals) pendant le processus de révision.
 1. [Accédez au contenu à réviser](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) et affichez les demandes de révision.
-1. Modifiez les brouillons par commentaire de révision et [publiez vos Métadonnées et expériences](#publish-and-export-experience).
+1. Modifiez les brouillons par commentaire de révision et [publiez vos expériences publicitaires Meta](#publish-and-export-experience).
 
 Voir [Révisions et approbations](/help/user-guide/approvals/overview.md) pour plus d’informations.
 
 ## Expérience de publication et d’exportation
 
-Pour rendre les méta-annonces générées disponibles pour une utilisation actuelle et future, publiez-les dans [!UICONTROL Contenu] et exportez-les pour les utiliser dans vos campagnes marketing.
+Pour rendre les annonces Meta générées disponibles pour une utilisation actuelle et future, publiez-les dans [!UICONTROL Contenu] et exportez-les pour les utiliser dans vos campagnes marketing.
 
-1. **Pour publier vos nouvelles expériences de métadonnées** cliquez sur **[!UICONTROL Publier]** dans la barre d’outils supérieure ou dans le flux d’approbations.
-1. **Pour exporter vos nouvelles expériences de métadonnées**, cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
+1. **Pour publier vos nouvelles expériences publicitaires Meta** cliquez sur **[!UICONTROL Publier]** dans la barre d’outils supérieure ou dans le flux d’approbations.
+1. **Pour exporter vos nouvelles expériences publicitaires Meta** cliquez sur **[!UICONTROL Exporter]** dans la barre d’outils supérieure.
    1. Sélectionnez le format (HTML et images ou CSV et images (JPG ou PNG)), puis cliquez sur **[!UICONTROL Exporter]**.
 
 Voir [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) pour plus d’informations.
 
-## Connecter les métadonnées
+## Connecter Meta
 
-Vous pouvez connecter GenStudio for Performance Marketing aux métadonnées pour recevoir des analyses avancées et des informations sur les performances du contenu.
+Vous pouvez connecter GenStudio for Performance Marketing à Meta pour recevoir des analyses avancées et des informations sur les performances du contenu.
 
-Voir [Connexion des métadonnées publicitaires](/help/user-guide/connectors/meta-ads.md).
+Voir [Meta ads connect](/help/user-guide/connectors/meta-ads.md).

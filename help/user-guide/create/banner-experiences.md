@@ -1,12 +1,12 @@
 ---
-title: Expériences de bannière
+title: Banner Experiences
 description: Découvrez les expériences liées aux bannières dans Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Media Templates
 badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Les sections modifiables d’un affichage et d’une expérience sont les suivan
 * Titre
 * Sous-titre
 * Corps
-* Appel à l’action (CTA)
+* Call to action (CTA)
 * Image
 
 Voir [Éléments de modèle](/help/user-guide/content/use-templates.md#template-elements).

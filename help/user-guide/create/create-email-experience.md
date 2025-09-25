@@ -1,12 +1,12 @@
 ---
-title: Créer une expérience d’e-mail
+title: Création d’une expérience d’e-mail
 description: Découvrez comment créer des expériences e-mail dans Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 12336812e8f4f55935f624ad0a195b5928850c7f
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 * **Pour [modifier le nom du brouillon d’e-mail](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement un e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez dans l’un des champs de texte modifiables (comme l’objet, l’en-tête ou la copie du corps) et modifiez-le si nécessaire
-* **Pour [modifier ou sélectionner l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, cliquez sur le bouton call-to-action et sélectionnez _[!UICONTROL Reformuler]_ ou _[!UICONTROL Ajouter un lien]_.
+* **Pour [modifier ou sélectionner le Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, cliquez sur le bouton call-to-action et sélectionnez _[!UICONTROL Reformuler]_ ou _[!UICONTROL Ajouter un lien]_.
 * **Pour [appliquer une mise en forme de texte](/help/user-guide/create/manage-variants.md#manually-edit-text)** dans une variante, cliquez sur le texte sur l’image d’une variante et cliquez sur **[!UICONTROL Mettre en forme le texte]**.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
 * **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône **[!UICONTROL Permuter depuis le contenu]**.

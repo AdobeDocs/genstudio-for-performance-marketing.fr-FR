@@ -6,10 +6,10 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 2%
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
@@ -40,10 +40,10 @@ Toutes les proportions sont prises en charge pour les images statiques. Pour la 
 | 1:1 | Square | Apparence cohérente sur tous les appareils et emplacements. |
 | 1,91:1 | Paysage | Norme pour les flux d&#39;actualités ou le contenu sponsorisé. Conservez les éléments visuels et les messages clés dans des zones sécurisées. |
 | 1:1,91 | Portrait | Format vertical élevé. Conservez les éléments visuels et les messages clés dans des zones sécurisées. |
-| 02:3, 04:5 | Portrait | Adapté aux formats de portrait et aide le créatif à se démarquer sur les appareils mobiles. |
+| 2:3, 4:5 | Portrait | Adapté aux formats de portrait et aide le créatif à se démarquer sur les appareils mobiles. |
 | 9:16 | Vertical | Idéal pour les histoires LinkedIn (expérience plein écran pour la vidéo). |
 
-### Modèles de métadonnées publicitaires
+### Modèles de publicité Meta
 
 Toutes les proportions sont prises en charge pour les images statiques et les types de médias vidéo.
 
@@ -51,5 +51,5 @@ Toutes les proportions sont prises en charge pour les images statiques et les ty
 |--------------|--------------|------------------------------------------------------------------------------------------------|
 | 1:1 | Square | Recommandé pour les publications de flux, les annonces de carrousel et les vidéos de flux pour une compatibilité étendue. |
 | 1,91:1 | Paysage | Idéal pour les bannières, les annonces de liens et les annonces vidéo grand écran. |
-| 04:5 | Portrait | Idéal pour les flux mobiles ; optimise l’espace vertical et la visibilité, en particulier pour le contenu vidéo. |
+| 4:5 | Portrait | Idéal pour les flux mobiles ; optimise l’espace vertical et la visibilité, en particulier pour le contenu vidéo. |
 | 9:16 | Vertical | Conçu pour les histoires et les rouleaux, offrant une expérience immersive en plein écran. |

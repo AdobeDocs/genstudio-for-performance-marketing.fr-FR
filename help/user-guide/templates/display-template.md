@@ -1,11 +1,11 @@
 ---
-title: Instructions relatives à l’affichage et au modèle de publicité
+title: Afficher Les Instructions Relatives Aux Modèles Publicitaires
 description: Appliquez les bonnes pratiques lors de l’utilisation de modèles d’affichage et de bannières avec Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
-source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 1%
@@ -21,9 +21,9 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 - Utilisation des polices Adobe ou Google
 - Préparation des ressources qui s’affichent correctement dans les dimensions compactes
 - Un seul champ d’image est requis
-- N’utilisez **&#x200B;**&#x200B;d’images d’arrière-plan incorporées ou codées
+- N’utilisez **** d’images d’arrière-plan incorporées ou codées
 - Utiliser des images d’arrière-plan (champ `image`) chargées dans le référentiel de contenu GenStudio for Performance Marketing
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle
 
 ## Noms de champs reconnus

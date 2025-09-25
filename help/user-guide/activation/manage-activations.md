@@ -3,7 +3,7 @@ title: Gérer les activations
 description: Découvrez comment gérer les expériences activées avec Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Cliquez sur l’activation pour ouvrir une vue ciblée des détails de l’activ
 Dans la vue _Expériences activées_, cliquez sur une activation. La vue en lecture seule _Détails de l’activation_ capture les détails de définition d’une expérience activée, y compris les activations ayant échoué. Cette vue inclut des informations provenant de GenStudio for Performance Marketing et du canal publicitaire.
 
 * **Heure et date de publication** : heure et date de publication à partir du gestionnaire de canal publicitaire.
-* **Ad ID** : identifiant attribué par le canal payant et utilisé pour le tracking. Cliquez sur le bouton **[!UICONTROL Ouvrir]** adjacent à ce champ pour afficher l’annonce publiée dans le Gestionnaire de métadonnées publicitaires
+* **Ad ID** : identifiant attribué par le canal payant et utilisé pour le tracking. Cliquez sur le bouton **[!UICONTROL Ouvrir]** adjacent à ce champ pour afficher l’annonce publiée dans Meta Ads Manager
 * **Détails de l’expérience** : ressources d’image, textes et métadonnées sélectionnés affectés pendant le workflow d’activation de GenStudio for Performance Marketing
 * **Configuration du canal** : comptes de canal payant utilisés pour activer l’expérience publicitaire
 

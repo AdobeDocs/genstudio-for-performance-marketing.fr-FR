@@ -1,26 +1,26 @@
 ---
-title: Activation d’une métadonnée
-description: Découvrez comment activer une expérience de métadonnées.
+title: Activation d’une publicité Meta
+description: Découvrez comment activer une expérience publicitaire Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 2d43b1b3373c5ed0b80d9740906d372955816831
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '1907'
 ht-degree: 1%
 
 ---
 
-# Activation d’une métadonnée
+# Activer une publicité Meta
 
-Adobe GenStudio for Performance Marketing prend en charge l’activation des métadonnées d’expérience sur Instagram et Facebook.
+Adobe GenStudio for Performance Marketing prend en charge l’activation des expériences publicitaires Meta sur Instagram et Facebook.
 
-Vous pouvez [créer une méta-expérience](/help/user-guide/create/create-meta-ad.md) dans GenStudio for Performance Marketing et la sélectionner pour activation, ou créer une nouvelle expérience à partir de ressources approuvées dans [!DNL Activate].
+Vous pouvez [créer une expérience Meta](/help/user-guide/create/create-meta-ad.md) dans GenStudio for Performance Marketing et la sélectionner pour activation, ou créer une expérience à partir de ressources approuvées dans [!DNL Activate].
 
-L’activation d’une publicité Meta suit les [mêmes étapes générales](create-activation.md) requises pour l’activation sur d’autres canaux payants. Le processus d’activation prend en charge la préparation de votre expérience publicitaire aux exigences spécifiques de Meta . Après avoir activé une expérience Méta-annonce dans GenStudio for Performance Marketing, utilisez [Gestionnaire de métadonnées publicitaires](https://adsmanager.facebook.com/) pour affiner l’expérience pour des emplacements de métadonnées spécifiques avant la publication finale.
+L’activation d’une publicité Meta suit les [mêmes étapes générales](create-activation.md) requises pour l’activation sur d’autres canaux payants. Le processus d’activation prend en charge la préparation de votre expérience publicitaire aux exigences spécifiques de Meta. Après avoir activé une expérience Meta dans GenStudio for Performance Marketing, utilisez [Meta Ads Manager](https://adsmanager.facebook.com/) pour affiner l’expérience pour des emplacements publicitaires Meta spécifiques avant la publication finale.
 
 Les gestionnaires de système et les éditeurs de GenStudio peuvent activer les expériences publicitaires.
 
-## Étape 1 : Configurer vos comptes Meta
+## Étape 1 : configurer vos comptes Meta
 
 Avant de lancer une activation, [connectez-vous à Meta](https://adsmanager.facebook.com/) pour accéder à votre compte Meta Ads Manager.
 
@@ -28,20 +28,20 @@ Avant de lancer une activation, [connectez-vous à Meta](https://adsmanager.face
 
 **Conditions préalables** :
 
-Vérifiez que vos comptes de méta-annonces connectés disposent de l’autorisation complète de gérer les annonces dans ces composants de la plateforme de méta-annonces :
+Vérifiez que vos comptes publicitaires Meta connectés disposent des autorisations complètes de gestion des publicités dans ces composants de la plateforme publicitaire Meta :
 
 * Page Facebook
-* Méta-campagne
-* Ensemble de métadonnées
+* Campagne Meta
+* Visionneuse publicitaire Meta
 * Profil Instagram (facultatif)
 
 >[!ENDSHADEBOX]
 
 ## Étape 2 : Connexion à vos comptes Meta
 
-Avant que votre entreprise puisse activer des expériences, un responsable système GenStudio doit connecter vos comptes Meta à GenStudio for Performance Marketing. Cette connexion permet aux données de circuler entre GenStudio et les outils marketing externes tels que les métadonnées, ce qui active le processus d’activation.
+Avant que votre entreprise puisse activer des expériences, un responsable système GenStudio doit connecter vos comptes Meta à GenStudio for Performance Marketing. Cette connexion permet aux données de circuler entre GenStudio et les outils marketing externes tels que Meta, ce qui active le processus d’activation.
 
-Voir [Connexion aux métadonnées publicitaires](/help/user-guide/connectors/meta-ads.md).
+Voir [Connexion à Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
 Une fois la synchronisation terminée, vous pouvez afficher les comptes ajoutés. La synchronisation de grandes quantités de données prend plus de temps.
 
@@ -61,7 +61,7 @@ Si vous avez sélectionné plusieurs expériences à activer en tant que groupe,
 
 1. Utilisez les outils de recherche et de filtrage de la galerie de [!DNL Content] pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Activer]**.
 
-   La page Métadonnées publicitaires _configuration de l’expérience_ s’ouvre pour cette expérience. Il est prérempli avec des détails de l’expérience sélectionnée. Vous pouvez modifier les champs **[!UICONTROL Call-to-action]**, **[!UICONTROL URL du site Web]** et **[!UICONTROL Afficher le lien]**. Si vous sélectionnez plusieurs expériences à activer, la vue _Configuration de l’expérience_ comprend une barre latérale gauche qui affiche des miniatures de toutes les expériences sélectionnées. Utilisez cette barre latérale gauche pour placer le focus de la vue _Configuration de l’expérience_ sur les détails de l’expérience sélectionnée.
+   La page Meta ads _configuration de l’expérience_ s’ouvre pour cette expérience. Il est prérempli avec des détails de l’expérience sélectionnée. Vous pouvez modifier les champs **[!UICONTROL Call-to-action]**, **[!UICONTROL URL du site Web]** et **[!UICONTROL Afficher le lien]**. Si vous sélectionnez plusieurs expériences à activer, la vue _Configuration de l’expérience_ comprend une barre latérale gauche qui affiche des miniatures de toutes les expériences sélectionnées. Utilisez cette barre latérale gauche pour placer le focus de la vue _Configuration de l’expérience_ sur les détails de l’expérience sélectionnée.
 
 1. Sélectionnez une campagne dans le menu déroulant **[!UICONTROL Campagnes]**.
 
@@ -106,13 +106,13 @@ Après le chargement, les ressources sont enregistrées dans [!DNL Content]. La 
 
 1. Cliquez sur **[!UICONTROL Utiliser]** pour inclure la ressource sélectionnée dans votre expérience publicitaire. La fenêtre _Configuration de l’expérience_ inclut la ressource dans ses proportions par défaut dans la zone _Média_. Le panneau _Aperçu_ prévisualise la ressource dans l’emplacement publicitaire qui prend en charge ce rapport d’aspect.
 
-Si le chargement échoue, un message d’erreur informatif contenant un lien vers la ressource dans _[!DNL Content]_&#x200B;s’ouvre.
+Si le chargement échoue, un message d’erreur informatif contenant un lien vers la ressource dans _[!DNL Content]_s’ouvre.
 
 **Pour charger une ressource externe** :
 
 Vous pouvez charger jusqu’à six images statiques externes à la galerie [!DNL Content] à partir de Microsoft OneDrive ou de Dropbox.
 
-1. Dans [!DNL Activate], cliquez sur **[!UICONTROL Nouveau]** sur la mosaïque Métadonnées. La fenêtre _Configuration de l’expérience_ s’ouvre.
+1. Dans [!DNL Activate], cliquez sur **[!UICONTROL Nouveau]** sur la mosaïque Meta. La fenêtre _Configuration de l’expérience_ s’ouvre.
 
 1. Dans la section _Média_, cliquez sur **[!UICONTROL Sélectionner]**. Un menu déroulant affiche des options _Sélectionner à partir du contenu_ ou _Télécharger_.
 
@@ -128,7 +128,7 @@ Vous pouvez charger jusqu’à six images statiques externes à la galerie [!DNL
 
 ### Ajouter du texte publicitaire
 
-Utilisez la section _Texte_ de la page _Activer la méta-annonce_ pour ajouter du texte attrayant et conforme à la marque aux champs de texte obligatoires. Le texte comprend le texte principal (corps) de la publicité et le texte d’appel à l’action. Vous ne pouvez pas modifier les champs _Texte du Principal_, _Titre_ et _Description_. Vous pouvez modifier les champs _Call-to-action_, _Afficher le lien_ et _URL du site Web_.
+Utilisez la section _Texte_ de la page _Activer la publicité Meta_ pour ajouter du texte attrayant et conforme à la marque aux champs de texte obligatoires. Le texte inclut le texte principal (corps) pour le texte de l’annonce publicitaire et de call-to-action. Vous ne pouvez pas modifier les champs _Texte du Principal_, _Titre_ et _Description_. Vous pouvez modifier les champs _Call-to-action_, _Afficher le lien_ et _URL du site Web_.
 
 | champ | Requis | Limite de caractères (max.) |
 |-----------------|---------------------------|---------------------------------|
@@ -136,7 +136,7 @@ Utilisez la section _Texte_ de la page _Activer la méta-annonce_ pour ajouter d
 | Texte du Principal | oui | 500 |
 | Titre | oui | 255 |
 | Description | Non | 125 |
-| Appel à l’action | oui | options de menu déroulant uniquement |
+| Call to action | oui | options de menu déroulant uniquement |
 | Afficher l’URL | Non | 1 000 |
 | URL du site web | oui | 1 000 |
 | Image | au moins un obligatoire |                                 |
@@ -158,19 +158,19 @@ Les détails de l’expérience sont enregistrés en tant que métadonnées et a
 | Langue | Langues pour lesquelles l’expérience publicitaire est utilisée |
 | Mots-clés | Mots-clés définis par l’utilisateur qui facilitent la recherche et la catégorisation de l’expérience publicitaire |
 
-Après avoir assemblé ou sélectionné votre expérience, cliquez sur **[!UICONTROL Suivant]** pour confirmer la configuration des métadonnées.
+Après avoir assemblé ou sélectionné votre expérience, cliquez sur **[!UICONTROL Suivant]** pour confirmer votre configuration Meta.
 
-## Étape 4 : confirmer la configuration du méta-compte
+## Étape 4 : confirmer la configuration du compte Meta
 
-Après avoir préparé vos expériences publicitaires, vous devez confirmer les informations de votre compte Meta . La vue _Configuration des publicités Meta_ est renseignée avec des options dérivées des comptes Meta configurés.
+Après avoir préparé vos expériences publicitaires, vous devez confirmer les informations de votre compte Meta. La vue _Meta ad setup_ est renseignée avec des options dérivées des comptes Meta configurés.
 
 | Détail | Description |
 |------------|-------------|
-| Comptes | Méta-comptes connectés à GenStudio for Performance Marketing |
+| Comptes | Comptes Meta connectés à GenStudio for Performance Marketing |
 | Page Facebook | Page Facebook sur laquelle l’expérience est publiée |
 | Compte Instagram | Comptes Instagram ayant été connectés à GenStudio for Performance Marketing |
-| Campagnes | Métacaractères auxquelles appartient l’expérience publicitaire |
-| Visionneuses d’annonces | Métadonnées publicitaires auxquelles appartient l’expérience publicitaire activée. Les paramètres déterminent les emplacements finaux de la publicité. |
+| Campagnes | Campagnes Meta auxquelles appartient l’expérience publicitaire |
+| Visionneuses d’annonces | Visionneuses d’annonces Meta auxquelles appartient l’expérience d’annonce activée. Les paramètres déterminent les emplacements finaux de la publicité. |
 
 ### Création d’une visionneuse d’annonces
 
@@ -178,13 +178,13 @@ Vous pouvez créer un nouveau jeu d’annonces lors de la configuration de la pl
 
 **Pour créer une visionneuse d’annonces** :
 
-1. Sélectionnez une campagne dans le menu déroulant _Méta-campagnes_.
+1. Sélectionnez une campagne dans le menu déroulant _Campagnes Meta_.
 
    La campagne sélectionnée détermine les visionneuses d’annonces disponibles sous forme d’options dans le menu déroulant _Visionneuses d’annonces_.
 
 1. Cliquez sur **[!UICONTROL + Créer une visionneuse d’annonces]**.
 
-   La fenêtre contextuelle _Créer un ensemble d’annonces_ s’ouvre, identifiant la méta-campagne dans laquelle l’ensemble d’annonces est créé.
+   La fenêtre contextuelle _Créer un jeu d’annonces_ s’ouvre, identifiant la campagne Meta dans laquelle le nouveau jeu d’annonces est créé.
 
 1. Sélectionnez la visionneuse d’annonces à cloner dans le menu déroulant _Utiliser la configuration à partir de_.
 
@@ -194,11 +194,11 @@ Vous pouvez créer un nouveau jeu d’annonces lors de la configuration de la pl
 
 1. Cliquez sur **[!UICONTROL Créer un groupe d’annonces]**.
 
-   Vous revenez à la vue _Configuration de Platform_, où la nouvelle visionneuse d’annonces est présélectionnée. Un message de réussite s’affiche, y compris un lien vers la publicité définie dans le Gestionnaire de métadonnées. Ce jeu d’annonces est disponible pour des activations ultérieures.
+   Vous revenez à la vue _Configuration de Platform_, où la nouvelle visionneuse d’annonces est présélectionnée. Un message de réussite s’affiche, y compris un lien vers la publicité définie dans le Gestionnaire de publicités de Meta. Ce jeu d’annonces est disponible pour des activations ultérieures.
 
 >[!NOTE]
 >
->Si la visionneuse d’annonces a été créée avec succès mais que le nom de la visionneuse n’a pas pu être enregistré, celle-ci est enregistrée dans le Gestionnaire de métadonnées sous son nom par défaut (_nom d’origine de la visionneuse d’annonces - Copier_).
+>Si la visionneuse d’annonces a été créée avec succès, mais que le nom de la visionneuse n’a pas pu être enregistré, elle est enregistrée dans Meta Ads Manager sous son nom par défaut (_nom de la visionneuse d’annonces d’origine - Copier_).
 
 ### Identifiant de tracking
 
@@ -214,6 +214,6 @@ La page _Réviser_ affiche votre expérience publicitaire telle qu’assemblée 
 
 1. Cliquez sur **[!UICONTROL Publier]**.
 
-   L’expérience complète des métadonnées et les métadonnées associées sont directement transmises au jeu de publicités du Gestionnaire de métadonnées sélectionné. Les expériences sont diffusées au gestionnaire de métadonnées publicitaires dans un état inactif. À partir du Gestionnaire de métadonnées publicitaires, vous pouvez gérer les dernières étapes de déploiement de l’expérience publicitaire et de la méta-campagne.
+   L’expérience publicitaire Meta complète et ses métadonnées associées sont directement transmises à la visionneuse publicitaire Meta Ads Manager sélectionnée. Les expériences sont diffusées au Meta Ads Manager dans un état inactif. Dans Meta Ads Manager, vous pouvez gérer les dernières étapes de déploiement de l’expérience publicitaire et de la campagne Meta.
 
-1. [Connectez-vous à Meta Ads Manager](https://adsmanager.facebook.com/) pour consulter votre expérience publicitaire et finaliser la publication sur des canaux Meta spécifiques.
+1. [Connectez-vous à Meta Ads Manager](https://adsmanager.facebook.com/) pour passer en revue votre expérience publicitaire et finaliser la publication sur des canaux Meta spécifiques.

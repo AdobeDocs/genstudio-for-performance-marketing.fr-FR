@@ -5,7 +5,7 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Un _compte média payant_ fait référence à un compte sur une plateforme publi
 1. Examinez les conditions préalables et continuez les étapes de connexion à l’aide du type de connecteur suivant que vous avez sélectionné :
 
    - [Google Campaign Manager 360](google-cm360.md)
-   - [Méta-publicités](meta-ads.md)
+   - [Meta Ads](meta-ads.md)
 
 ## Connexions de médias payantes
 

@@ -4,7 +4,7 @@ description: Consultez une vue d’ensemble de l’engagement des clients, des p
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Publicités] ](
 
 ## Objectifs
 
-Au moment où vous avez créé une campagne avec des méta-annonces, vous avez peut-être sélectionné un objectif qui correspondait aux objectifs de votre entreprise. Les méta-annonces publicitaires visibles dans GenStudio for Performance Marketing ont six objectifs :
+Au moment où vous avez créé une campagne avec des annonces Meta, vous avez peut-être sélectionné un objectif qui correspondait aux objectifs de votre entreprise. Les publicités Meta visibles dans GenStudio for Performance Marketing ont six objectifs :
 
 1. **Sensibilisation** : Touchez le plus grand nombre possible de personnes et sensibilisez votre entreprise.
 1. **Trafic** : augmentez le trafic sur votre site ou votre application.
@@ -46,13 +46,13 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 
 | Mesure | Définition | Insight |
 | ----------- | ----------------------------- | -------------------------------- |
-| **[!UICONTROL Nom de la méta-campagne]** | Liste des noms de campagne pour le compte de canal connecté. Le statut de la campagne peut être `Active`, `Paused`, `Deleted` ou `Archived`. Filtrez les campagnes par statut et objectif. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
+| **[!UICONTROL Nom de la campagne Meta]** | Liste des noms de campagne pour le compte de canal connecté. Le statut de la campagne peut être `Active`, `Paused`, `Deleted` ou `Archived`. Filtrez les campagnes par statut et objectif. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
 | **[!UICONTROL Launch]** | Date à laquelle la campagne a été publiée ou publiée sur le marché. | Un nombre élevé d’impressions peut indiquer que la publicité atteint l’audience prévue. |
 | **[!UICONTROL Impressions]** | Décompte de chaque chargement de contenu dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue. Toutefois, pour des performances réelles, insight doit être considéré avec d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton call-to-action, dans la campagne publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
-| **[!UICONTROL Taux de clics &#x200B;]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics de campagne dans un canal.<br>**Calcul** : (`clicks` divisé par `impressions`) x 100 = % | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions d’annonce publicitaire pour la campagne publicitaire. <br>**Calcul** : (montant total `spent` divisé par `impressions`) x 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans une campagne publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` = $ | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
+| **[!UICONTROL Taux de clics ]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics de campagne dans un canal.<br>**Calcul** : (`clicks` divisé par `impressions`) x 100 = % | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
+| **[!UICONTROL CPM ]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions d’annonce publicitaire pour la campagne publicitaire. <br>**Calcul** : (montant total `spent` divisé par `impressions`) x 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
+| **[!UICONTROL CPC ]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans une campagne publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` = $ | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Lectures vidéo]** | Nombre de lectures d’une vidéo dans une campagne publicitaire, à l’exclusion des relectures. La lecture d’une vidéo démarre lorsqu’un utilisateur clique sur Lecture ou que la vidéo est lue automatiquement. | Un nombre élevé de lectures vidéo peut indiquer que la vidéo attire l’attention et que la miniature, le titre ou l’emplacement attire effectivement les visionneuses. |
 | **[!UICONTROL Budget]** | Montant total alloué à une campagne publicitaire pour atteindre les objectifs de la campagne. | Un budget élevé signifie davantage de ressources pour une portée plus large et un impact potentiellement plus important. |
 | **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget sur une période donnée pour placer des annonces sur différentes plateformes. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |

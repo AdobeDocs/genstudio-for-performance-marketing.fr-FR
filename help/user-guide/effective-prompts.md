@@ -1,11 +1,11 @@
 ---
 title: Écrire des invites efficaces
-description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio for Performance Marketing.
+description: Découvrez comment écrire des prompts efficaces pour Adobe GenStudio for Performance Marketing.
 role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 Dans GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), vous pouvez utiliser **[!UICONTROL Critères d’invite]** ([_Paramètres_](/help/user-guide/create/overview.md#parameters) et une invite) dans le tiroir d’invite pour ajouter des détails par sélection afin d’améliorer l’interprétation de l’IA.
 
-Pour les [e-mails](/help/user-guide/create/email-experiences.md), les critères d’invite peuvent inclure l’ajout de [directives](/help/user-guide/guidelines/overview.md) dans _Paramètres_, le chargement d’une ressource à utiliser dans les variantes d’e-mail et une invite descriptive. Pour une [Méta-annonce](/help/user-guide/create/create-meta-ad.md), les critères d’invite peuvent inclure une ligne directrice de marque dans _Paramètres_, la sélection ou le chargement d’une ressource existante, des paramètres liés aux images ou aux ressources, tels que les proportions, ainsi qu’une invite. Le vrai pouvoir commence avec [la configuration des directives](/help/user-guide/guidelines/add-guidelines.md).
+Pour les [e-mails](/help/user-guide/create/email-experiences.md), les critères d’invite peuvent inclure l’ajout de [directives](/help/user-guide/guidelines/overview.md) dans _Paramètres_, le chargement d’une ressource à utiliser dans les variantes d’e-mail et une invite descriptive. Pour une publicité [Meta](/help/user-guide/create/create-meta-ad.md), les critères d’invite peuvent inclure une ligne directrice de marque dans _Paramètres_, la sélection ou le chargement d’une ressource existante, des paramètres liés aux images ou aux ressources telles que les proportions, ainsi qu’une invite. Le vrai pouvoir commence avec [la configuration des directives](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >

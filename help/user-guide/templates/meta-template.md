@@ -1,37 +1,37 @@
 ---
-title: Instructions relatives aux métadonnées et aux modèles
-description: Appliquez les bonnes pratiques lors de l’utilisation de Métadonnées et de modèles avec Adobe GenStudio for Performance Marketing.
+title: Instructions relatives aux modèles de publicité Meta
+description: Appliquez les bonnes pratiques lors de l’utilisation de modèles d’annonces Meta avec Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: d9d774f727b69b18af6114965fdb8ffb450f797b
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
-# Instructions relatives aux métadonnées et aux modèles
+# Instructions relatives aux modèles de publicité Meta
 
-Les modèles de méta-annonces vous aident à créer des annonces visuellement cohérentes et efficaces sur toutes les plateformes de méta. En suivant les pratiques de conception recommandées et en utilisant les champs pris en charge, vous pouvez vous assurer que vos modèles sont optimisés pour GenStudio for Performance Marketing. Ce guide explique comment structurer, personnaliser et préparer des métamodèles pour une intégration transparente et des résultats à fort impact.
+Les modèles d’annonces Meta vous permettent de créer des annonces visuellement cohérentes et efficaces sur les plateformes Meta. En suivant les pratiques de conception recommandées et en utilisant les champs pris en charge, vous pouvez vous assurer que vos modèles sont optimisés pour GenStudio for Performance Marketing. Ce guide explique comment structurer, personnaliser et préparer des modèles d’annonce Meta pour une intégration transparente et des résultats performants.
 
-Suivez ces bonnes pratiques de conception lors de la personnalisation de Métadonnées et de modèles d’annonce publicitaire pour les utiliser avec GenStudio for Performance Marketing :
+Suivez ces bonnes pratiques de conception lors de la personnalisation des modèles d’annonce publicitaire Meta pour les utiliser avec GenStudio for Performance Marketing :
 
 - Utiliser une largeur de 360 pixels pour les mises en page de colonnes
 - Utilisez une résolution minimale de 1 080 x 1 080 pixels pour les images
 - Un seul champ d’image est requis
-- N’utilisez **&#x200B;**&#x200B;de taille de police relative
+- N’utilisez **** de taille de police relative
 - Ne **pas définir** fenêtre d’affichage
-- N’utilisez **&#x200B;**&#x200B;JavaScript
-- Ne remplacez **&#x200B;**&#x200B;un élément HTML dans le CSS
+- N’utilisez **** JavaScript
+- Ne remplacez **** un élément HTML dans le CSS
 - Utiliser la balise `<img>` au lieu de `background-image`
 - Utilisez le masquage pour améliorer la lisibilité du texte sur les images d’arrière-plan
 - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle
 
 ## Noms de champs reconnus
 
-Lors de la personnalisation de votre modèle Métadonnées, appliquez des espaces réservés de contenu à ces champs obligatoires :
+Lors de la personnalisation de votre modèle de publicités Meta, appliquez des espaces réservés de contenu à ces champs obligatoires :
 
 - `image` (obligatoire, sélectionné parmi Content JPEG, PNG ou GIF)
 - `on_image_text` (texte qui apparaît sur l’image)
@@ -58,11 +58,11 @@ Si la publicité n’est pas conçue dans l’un de ces proportions, GenStudio f
 
 ## Exemple de modèle
 
-+++Exemple : modèle de méta-annonce
++++Exemple : modèle d’annonce Meta
 
 <!-- Does this need to be a precise size? -->
 
-Voici un exemple de base de modèle de métadonnées. L’en-tête contient le CSS intégré pour la mise en forme. Le corps utilise des [espaces réservés de contenu](#content-placeholders) tels que `image` et `on_image_text`, pour indiquer où GenStudio for Performance Marketing peut générer du contenu.
+Voici un exemple de base de modèle d’annonce Meta. L’en-tête contient le CSS intégré pour la mise en forme. Le corps utilise des [espaces réservés de contenu](#content-placeholders) tels que `image` et `on_image_text`, pour indiquer où GenStudio for Performance Marketing peut générer du contenu.
 
 ```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>

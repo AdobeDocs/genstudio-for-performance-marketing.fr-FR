@@ -4,7 +4,7 @@ description: Découvrez comment utiliser les fonctionnalités de filtre amélior
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: 04bc6f911394d0f4c324abc347ce125203011960
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Le tableau de bord [!DNL Insights] fournit un ensemble complet de filtres pour u
 
 ## Principes de base des filtres
 
-Chaque vue d’[!DNL Insights] propose une liste d’options de filtre. Le bouton (bascule) Filtrer (entonnoir) situé à gauche ouvre le menu **[!UICONTROL Filtrer]**. Que vous visionniez le tableau ou la galerie, les filtres appliqués apparaissent dans la liste **[!UICONTROL Filtrer par]** au-dessus du tableau ou de la galerie. Par défaut, un canal et un compte sont sélectionnés.
+Chaque vue d’[!DNL Insights] propose une liste d’options de filtre. Le bouton (bascule) Filtrer (funnel) situé à gauche ouvre le menu **[!UICONTROL Filtrer]**. Que vous visionniez le tableau ou la galerie, les filtres appliqués apparaissent dans la liste **[!UICONTROL Filtrer par]** au-dessus du tableau ou de la galerie. Par défaut, un canal et un compte sont sélectionnés.
 
 ![Filtrer par](/help/assets/insights-filter-by.png "Filtrer par"){width=600 zoomable="yes"}
 
@@ -61,7 +61,7 @@ Au fil du temps, votre liste de campagnes et de publicités peut augmenter de ma
 
    ![Filtre de publicités et vue tableau](/help/assets/insights-ads-filter.png "Publicités avec menu de filtre"){zoomable="yes"}
 
-1. Cliquez sur le bouton (bascule) Filtrer (entonnoir) situé au-dessus du côté gauche du tableau pour ouvrir le menu **[!UICONTROL Filtrer]**.
+1. Cliquez sur le bouton (funnel) Filtrer situé au-dessus du côté gauche du tableau pour ouvrir le menu **[!UICONTROL Filtrer]**.
 
 1. Vérifiez que le canal et le compte `Filter by` appropriés sont sélectionnés.
 
@@ -73,11 +73,11 @@ Au fil du temps, votre liste de campagnes et de publicités peut augmenter de ma
 
    Utilisez des mots-clés pour affiner votre recherche avec un filtrage logique et précis.
 
-   - Pour rechercher des noms de campagne contenant à la fois des `ready` `adventure` **AND**, saisissez les deux mots-clés séparés par une virgule :
+   - Pour rechercher des noms de campagne contenant à la fois des `adventure` **** AND`ready`, saisissez les deux mots-clés séparés par une virgule :
 
      ![Rechercher tous les mots-clés](/help/assets/insights-select-campaigns-and.png "Rechercher les noms de campagne contenant les deux mots-clés"){width=500}
 
-   - Pour rechercher des noms de campagne contenant des `ready` `adventure`**OU**, saisissez séparément chaque mot-clé :
+   - Pour rechercher des noms de campagne contenant des `adventure` **** OU`ready`, saisissez séparément chaque mot-clé :
 
      ![Rechercher des mots-clés](/help/assets/insights-select-campaigns-or.png "Rechercher les noms de campagne qui contiennent au moins un mot-clé"){width=500}
 

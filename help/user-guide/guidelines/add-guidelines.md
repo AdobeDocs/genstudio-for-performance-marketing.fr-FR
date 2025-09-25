@@ -1,11 +1,11 @@
 ---
-title: Ajout d’instructions à Adobe GenStudio for Performance Marketing
+title: Ajout de consignes à Adobe GenStudio for Performance Marketing
 description: Découvrez comment ajouter des instructions ([!DNL Brands],  [!DNL Products] et  [!DNL Personas]) dans Adobe GenStudio for Performance Marketing.
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Si un [!DNL Brand] est créé par extraction de document (au lieu d’être ajou
 1. Dans _[!UICONTROL Modifier la miniature]_, modifiez l’image chargée.
 1. Sélectionnez **[!UICONTROL Mettre à jour]** pour enregistrer l’image en tant qu’image miniature [!DNL Brand].
 
-Vous pouvez sélectionner un logo [!DNL Brand] existant pour une [!DNL Brand] dans la vue d’onglet [!UICONTROL Logos]. Cliquez pour ouvrir un logo et sélectionnez **[!UICONTROL Utiliser comme miniature de marque]** dans le menu d’actions.
+Vous pouvez sélectionner un logo [!DNL Brand] existant pour une [!UICONTROL  dans la vue d’onglet ]Logos[!DNL Brand]. Cliquez pour ouvrir un logo et sélectionnez **[!UICONTROL Utiliser comme miniature de marque]** dans le menu d’actions.
 
 ### Publier la marque
 
@@ -116,7 +116,7 @@ Dans _[!DNL Brands]_, les [!DNL Brands] de brouillon ou publiées s’affichent 
 
 >[!TIP]
 >
->Si vous souhaitez afficher uniquement les marques que vous avez créées, sélectionnez **[!UICONTROL Créé par vous]** dans le filtre [!DNL Brands] (icône d’entonnoir).
+>Si vous souhaitez afficher uniquement les marques que vous avez créées, sélectionnez **[!UICONTROL Créé par vous]** dans le filtre [!DNL Brands] (icône funnel).
 
 **Pour publier un brouillon de marque** :
 
@@ -223,7 +223,7 @@ Vous pouvez ajouter manuellement des détails personnels, au lieu de charger des
 
 ### Gérer les [!DNL Personas]
 
-Dans _[!DNL Personas]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un persona**&#x200B;de la liste :
+Dans _[!DNL Personas]_page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**déjà créé pour le modifier ou le réviser, ou **supprimer un persona**de la liste :
 
 - Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Personas] pour réviser et passer en revue un persona existant.
 - Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Personas] pour **Supprimer** une personne.
@@ -291,7 +291,7 @@ Vous pouvez ajouter manuellement des détails de produit, au lieu de charger des
 
 ### Gérer les [!DNL Products]
 
-Dans _[!DNL Products]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Product]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un produit**&#x200B;de la liste :
+Dans _[!DNL Products]_page d’accueil, vous pouvez **ouvrir un[!DNL Product]**déjà créé pour le modifier ou le réviser, ou **supprimer un produit**de la liste :
 
 - Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Products] pour réviser et réviser un produit existant.
 - Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Products] pour **Supprimer** un produit.

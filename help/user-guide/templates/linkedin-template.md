@@ -4,10 +4,11 @@ description: Appliquez les bonnes pratiques lors de l’utilisation de modèles 
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 85432185-8311-411b-b57b-f482c3d45854
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '297'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +46,7 @@ Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template
 | Carré 1:1 | Ordinateur de bureau, mobile | 360 x 360 | 4320 x 4320 | Le plus polyvalent. Idéal pour un aspect cohérent sur tous les appareils et emplacements. |
 | Horizontal 1,91:1 | Ordinateur de bureau | 640 x 360 | 7680 x 4320 | Format paysage standard. Généralement utilisé pour le contenu sponsorisé et les annonces de flux d’actualités. |
 | Vertical 1:1,91 | Mobile | 360 x 640 | 2430 x 4320 | Format vertical élevé. Optimisé pour l’affichage mobile, offrant une présence accrue sur l’écran. |
-| Vertical 2:3 | Mobile | 360 x 640 | 2430 x 4320 | Légèrement moins haut que 1:1.91. Idéal pour les campagnes mobiles-first. |
+| Vertical 2:3 | Mobile | 360 x 640 | 2430 x 4320 | Légèrement moins haut que 1:1,91. Idéal pour les campagnes mobiles-first. |
 | Vertical 4:5 | Mobile | 360 x 640 | 2430 x 4320 | Recommandé pour mobile. Équilibre visibilité et contenu, ce qui a souvent un impact plus important. |
 
 <!-- Potentially add an example

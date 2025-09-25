@@ -3,9 +3,9 @@ title: Créer des modèles accessibles
 description: Créez des modèles dans Adobe GenStudio for Performance Marketing capables d’atteindre une plus grande partie de votre audience et de fournir une expérience optimale.
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Utilisez des polices faciles à lire. Par exemple, les polices Sans Serif ont pr
 Fournissez un contraste approprié entre le texte et l’arrière-plan. Évitez d’utiliser des couleurs de police qui produisent du texte sombre sur un arrière-plan sombre et du texte clair sur un arrière-plan clair. Appliquez les règles de contraste pour obtenir un rapport optimal :
 
 - Texte et images du texte : rapport de contraste d’au moins 4,5:1
-- Texte volumineux et images de texte à grande échelle : rapport de contraste d’au moins 3:1
+- Texte grand format et images de texte à grande échelle : rapport de contraste d’au moins 3:1
 
 ## Fonction du lien (lien uniquement)
 

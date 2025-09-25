@@ -6,22 +6,23 @@ badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponib
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 277731aeea966da3cbd1fdabf015bfab3b907d39
+exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Générer des images
 
-Avec GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau), vous pouvez générer des ressources générées par _[!DNL On-brand images]_&#x200B;qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Avec GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau), vous pouvez générer des ressources générées par _[!DNL On-brand images]_qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Pour concevoir une image attrayante et efficace, il est recommandé d’[ajouter des instructions à GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) et de consulter les [principes de base de la création d’invites](/help/user-guide/effective-prompts.md).
 
 ## Types d’images
 
-Les _[!DNL On-brand images]_&#x200B;sont des ressources générées qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale. Ces images sont créées à l’aide d’images déjà disponibles dans [!DNL Content] et d’une invite soigneusement conçue qui guide la conception. Ils suivent strictement les directives de la marque et les paramètres choisis au cours du processus de génération.
+Les _[!DNL On-brand images]_sont des ressources générées qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale. Ces images sont créées à l’aide d’images déjà disponibles dans [!DNL Content] et d’une invite soigneusement conçue qui guide la conception. Ils suivent strictement les directives de la marque et les paramètres choisis au cours du processus de génération.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> intégrer des directives, des paramètres et une [invite soigneusement conçue](/help/user-guide/effective-prompts.md) pour offrir des ressources d’images attrayantes.
 
@@ -104,9 +105,9 @@ Après avoir généré des variantes d’image, vous pouvez les modifier directe
 
    Une fenêtre _Optimisée par Adobe Express_ s’affiche.
 
-1. Effectuez la modification de l’image, comme [recadrage d’une image](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/crop-images.html), [suppression d’un objet](https://helpx.adobe.com/fr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) et application d’effets.
+1. Effectuez la modification de l’image, comme [recadrage d’une image](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [suppression d’un objet](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) et application d’effets.
 
-   Consultez la [documentation Adobe Express](https://helpx.adobe.com/fr/express/user-guide.html) pour savoir comment réviser des images dans GenStudio for Performance Marketing avec Adobe Express.
+   Consultez la [documentation Adobe Express](https://helpx.adobe.com/express/user-guide.html) pour savoir comment réviser des images dans GenStudio for Performance Marketing avec Adobe Express.
 
 1. Cliquez sur _[!UICONTROL Appliquer les modifications]_ pour enregistrer vos modifications.
 1. Continuez à modifier individuellement les variantes d’image selon vos besoins et à appliquer les modifications pour enregistrer votre progression.
