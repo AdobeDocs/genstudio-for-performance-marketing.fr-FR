@@ -50,7 +50,7 @@ Voir [Approbation de ressources dans Experience Manager](https://experienceleagu
 
 ## Étape 4 : configurer la visibilité des ressources
 
-Dans _[!DNL AEM Assets Content Hub]_options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
+Dans _[!DNL AEM Assets Content Hub]_&#x200B;options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
 
 Voir [Configuration de l’interface utilisateur de Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) dans la documentation d’_AEM as a Cloud Service_.
 

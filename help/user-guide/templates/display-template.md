@@ -21,9 +21,9 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 - Utilisation des polices Adobe ou Google
 - Préparation des ressources qui s’affichent correctement dans les dimensions compactes
 - Un seul champ d’image est requis
-- N’utilisez **** d’images d’arrière-plan incorporées ou codées
+- N’utilisez **&#x200B;**&#x200B;d’images d’arrière-plan incorporées ou codées
 - Utiliser des images d’arrière-plan (champ `image`) chargées dans le référentiel de contenu GenStudio for Performance Marketing
-- N’utilisez **** JavaScript
+- N’utilisez **&#x200B;**&#x200B;JavaScript
 - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle
 
 ## Noms de champs reconnus
