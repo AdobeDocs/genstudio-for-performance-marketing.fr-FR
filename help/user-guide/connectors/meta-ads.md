@@ -1,20 +1,21 @@
 ---
-title: Se connecter aux métadonnées publicitaires
+title: Connexion à Meta Ads
 description: Connectez un compte Meta Ads pour activer et surveiller vos publicités et médias avec Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
-source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
+exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
+source-git-commit: fb5fe4885340639f8179c8de6944ac21bfe009ec
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
-# Se connecter aux métadonnées publicitaires
+# Connexion à Meta Ads
 
-Connectez votre compte de profil Meta Ads à GenStudio for Performance Marketing pour gérer les campagnes, exporter le contenu et accéder aux données publicitaires pour vos campagnes actives.
+Cette page explique comment connecter et gérer votre compte de profil Meta Ads vers GenStudio for Performance Marketing afin de gérer les campagnes, d’exporter le contenu et d’accéder aux données publicitaires pour vos campagnes actives.
 
 >[!BEGINSHADEBOX]
 
@@ -22,22 +23,22 @@ Connectez votre compte de profil Meta Ads à GenStudio for Performance Marketing
 
 - Login Facebook/Meta pouvant accéder à tous les services Meta
 
-- _Contrôle total_ sur les comptes Meta Business Portfolio et Ad, notamment :
+- _Contrôle total_ sur Meta Business Portfolio et les comptes publicitaires, notamment :
 
    - Gestion des campagnes
    - Affichage des performances
    - Gestion des maquettes du Hub Creative
    - Analyses avancées
 
-- Supprimez tous les bloqueurs de pop-up dans votre navigateur
+- Désactivez tous les bloqueurs de fenêtres contextuelles dans votre navigateur.
 
 >[!ENDSHADEBOX]
 
-**Pour connecter un compte Meta Ads** :
+## Connexion à un compte Meta ads
 
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Paramètres]**.
 
-1. Dans la section _Connecteurs de données_, cliquez sur **[!UICONTROL Se connecter]** sur la carte _Méta-annonces_.
+1. Dans la section _Connecteurs de données_, cliquez sur **[!UICONTROL Se connecter]** sur la carte _Meta Ads_.
 
 1. Connectez-vous à votre compte Facebook.
 
@@ -45,10 +46,10 @@ Connectez votre compte de profil Meta Ads à GenStudio for Performance Marketing
 
 1. Suivez les instructions d’authentification Facebook, vérifiez les informations du compte, puis cliquez sur **[!UICONTROL Continuer comme ...]**
 
-1. Dans _[!UICONTROL Facebook Login for Business]_ (symbole Meta to Adobe), parcourez les sélections suivantes pour accorder l’accès à GenStudio for Performance Marketing :
+1. Dans _[!UICONTROL Facebook Login for Business]_ (symbole Meta vers Adobe), parcourez les sélections suivantes pour accorder l’accès à GenStudio for Performance Marketing :
 
    - Sélectionnez un ou plusieurs profils Meta Business et cliquez sur **[!UICONTROL Continuer]**
-   - Sélectionnez une ou plusieurs méta-pages, puis cliquez sur **[!UICONTROL Continuer]**
+   - Sélectionnez une ou plusieurs pages Meta, puis cliquez sur **[!UICONTROL Continuer]**
    - Sélectionnez un ou plusieurs comptes Instagram et cliquez sur **[!UICONTROL Continuer]**
    - Vérifiez les sélections et cliquez sur **[!UICONTROL Enregistrer]**
 
@@ -58,12 +59,35 @@ Connectez votre compte de profil Meta Ads à GenStudio for Performance Marketing
 
    Cette étape permet à GenStudio for Performance Marketing d’accéder à toutes les publicités, métadonnées et mesures pour des performances optimales.
 
-1. Dans _[!UICONTROL Méta-publicités]_, sélectionnez un ou plusieurs comptes à inclure dans [!DNL Insights] et cliquez sur **[!UICONTROL Sélectionner]**.
+1. Dans _[!UICONTROL Meta Ads]_, sélectionnez un ou plusieurs comptes à inclure dans [!DNL Insights] et cliquez sur **[!UICONTROL Sélectionner]**.
 
 1. Une fois que vous avez reçu une confirmation _Connecté à Platform_, cliquez sur **[!UICONTROL Afficher les comptes]**.
 
-   La vue _[!UICONTROL Comptes de méta-annonces]_ répertorie les `Account name`, `Added by`, `Date added` et `Status`.
+   La vue _[!UICONTROL Comptes Meta Ads]_ répertorie les `Account name`, `Added by`, `Date added` et `Status`.
 
-   ![Liste des comptes métadonnées](/help/assets/meta/meta-accounts-list.png "Liste des comptes métadonnées connectés"){zoomable="yes"}
+   ![Liste ](/help/assets/meta/meta-accounts-list.png " comptes MetaListe des comptes Meta connectés"){zoomable="yes"}
 
-Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste. Le flux d’autorisation peut être légèrement différent lorsque vous ajoutez des comptes liés au même profil Meta Business. Vous sélectionnez uniquement les nouveaux comptes de métadonnées publicitaires pendant le processus de connexion.
+Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste. Le flux d’autorisation peut différer légèrement lorsque vous ajoutez des comptes liés au même profil Meta Business. Vous sélectionnez uniquement les nouveaux comptes Meta Ads pendant le processus de connexion.
+
+## Déconnexion et dépannage d’une intégration Meta Ads
+
+Il arrive qu’une instance GenStudio for Performance Marketing ne soit pas correctement connectée à un compte Meta Ads. Les configurations les plus courantes pouvant entraîner des problèmes sont les suivantes :
+
+- Un compte Instagram est sélectionné sans sélectionner sa page Facebook associée
+- Autorisations révoquées pour un utilisateur qui a effectué la connexion initiale
+
+Dans ce cas, il est préférable de reconnecter le compte publicitaire Meta à l’instance GenStudio for Performance Marketing. Tout d’abord, l’utilisateur doit supprimer l’intégration de l’application directement depuis son Meta Business Manager, ce qui permet de réinitialiser les autorisations. Pour ce faire, un accès administrateur à Meta Business Manager est nécessaire.
+
+Ces étapes effacent les autorisations mises en cache et réinitialisent le flux d’intégration :
+
+1. Accédez à [Meta Business Manager](https://business.facebook.com) en consultant le site web Facebook.
+1. Connectez-vous avec votre compte. Le compte doit avoir un accès administrateur au Business Manager.
+1. Cliquez sur l’icône représentant un engrenage **[!UICONTROL Paramètres]** dans le coin inférieur gauche pour accéder aux paramètres de Business Portfolio.
+1. Dans le menu de gauche, cliquez sur **[!UICONTROL Intégrations]**.
+1. Sélectionnez **[!UICONTROL Applications connectées]**. Adobe GenStudio apparaît dans la liste des applications connectées .
+   ![Meta Business Manager Connected Apps](./meta-connected-apps.png "Volet Meta Business Manager Connected Apps")
+1. Cliquez sur le nom de l’application.
+1. Cliquez sur **[!UICONTROL Supprimer]**.
+1. Confirmez la suppression lorsque vous y êtes invité.
+
+Vous pouvez désormais reconnecter vos comptes publicitaires Meta, vos profils Instagram et vos pages Facebook.
