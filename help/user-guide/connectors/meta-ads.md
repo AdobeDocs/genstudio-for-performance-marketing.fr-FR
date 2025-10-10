@@ -6,9 +6,9 @@ role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: 40c7d2d40f1c4bea9794e706d8e1ce7bf92042e3
+source-git-commit: dce3d9bbf3ed2d26872b324c04ab7e78bbb034dc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,15 @@ Cette page explique comment connecter et gérer votre compte de profil Meta Ads 
 
 **Conditions préalables** :
 
-- Login Facebook/Meta pouvant accéder à tous les services Meta
-
+- Une connexion Facebook/Meta qui peut accéder à tous les services Meta
 - _Contrôle total_ sur Meta Business Portfolio et les comptes publicitaires, notamment :
-
    - Gestion des campagnes
    - Affichage des performances
    - Gestion des maquettes du Hub Creative
    - Analyses avancées
-
 - Désactivez tous les bloqueurs de fenêtres contextuelles dans votre navigateur.
+- Vérifiez les associations de pages de compte Instagram dans Meta Business Manager avant de tenter une connexion
+- Confirmer l’accès administrateur à toutes les ressources connectées
 
 >[!ENDSHADEBOX]
 
@@ -65,9 +64,19 @@ Cette page explique comment connecter et gérer votre compte de profil Meta Ads 
 
    La vue _[!UICONTROL Comptes Meta Ads]_ répertorie les `Account name`, `Added by`, `Date added` et `Status`.
 
-   ![Liste &#x200B;](/help/assets/meta/meta-accounts-list.png " comptes MetaListe des comptes Meta connectés"){zoomable="yes"}
+   ![Liste ](/help/assets/meta/meta-accounts-list.png " comptes MetaListe des comptes Meta connectés"){zoomable="yes"}
 
 Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste. Le flux d’autorisation peut différer légèrement lorsque vous ajoutez des comptes liés au même profil Meta Business. Vous sélectionnez uniquement les nouveaux comptes Meta Ads pendant le processus de connexion.
+
+## Bonnes pratiques relatives à la connexion
+
+Pour éviter toute erreur, tenez compte des bonnes pratiques suivantes lors de la configuration des connexions :
+
+- [ ] Commencez par la sélection minimale de ressources (une seule page uniquement) pour la connexion initiale
+- [ ] Ajouter des comptes Instagram uniquement après avoir confirmé que l’accès à la page fonctionne
+- [ ] Assurez-vous que les comptes Instagram sont correctement associés à la page Facebook sélectionnée dans Meta Business Manager
+- [ ] Utiliser une approche par phases : établir d’abord une connexion de base, puis développer les ressources
+- [ ] Vérifier les autorisations d’administrateur pour toutes les ressources avant de tenter une connexion
 
 ## Déconnexion et dépannage d’une intégration Meta Ads
 
@@ -90,4 +99,25 @@ Ces étapes effacent les autorisations mises en cache et réinitialisent le flux
 1. Cliquez sur **[!UICONTROL Supprimer]**.
 1. Confirmez la suppression lorsque vous y êtes invité.
 
-Vous pouvez désormais reconnecter vos comptes publicitaires Meta, vos profils Instagram et vos pages Facebook.
+Vous pouvez maintenant reconnecter vos comptes publicitaires Meta, profils Instagram et pages Facebook.
+
+## Problèmes de connexion au compte Instagram
+
+Des problèmes peuvent survenir lorsque des comptes Instagram sont sélectionnés sans connecter une page Facebook associée pendant la configuration de la connexion. Cela peut entraîner des erreurs telles que :
+
+- « Impossible de se connecter à {Page_Name} » ou échecs de connexion génériques.
+- Délais d’expiration de la connexion pendant la connexion Facebook au flux métier.
+- Échecs silencieux lorsque plusieurs ressources sont sélectionnées.
+- La connexion échoue lors de la sélection simultanée d&#39;Instagram, de Page et de Compte publicitaire.
+
+### Étapes de résolution :
+
+1. Accédez à [Meta Business Manager](https://business.facebook.com) > Intégrations > Applications connectées.
+1. Supprimez l’intégration « Adobe GenStudio » existante, le cas échéant. Cliquez sur **Supprimer**.
+1. Revenez à GenStudio et relancez le processus de connexion.
+1. Sélectionnez UNIQUEMENT la page Facebook cible lors de la connexion initiale.
+1. NE PAS sélectionner le compte Instagram lors de la première tentative de connexion.
+1. Vérifiez que la connexion est établie avant d’ajouter d’autres ressources.
+1. Une fois la connexion à la page stable, ajoutez les comptes Instagram séparément.
+
+
