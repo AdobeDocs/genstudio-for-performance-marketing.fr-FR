@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Expériences Meta
 
-Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences Meta à fort impact](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permet aux créateurs de contenu d’utiliser [des directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [ invite bien conçue](/help/user-guide/effective-prompts.md) pour [ rapidement des expériences publicitaires Meta](/help/user-guide/create/create-meta-ad.md).
+Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences Meta à fort impact](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permet aux créateurs de contenu d’utiliser [des directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [&#x200B; invite bien conçue](/help/user-guide/effective-prompts.md) pour [&#x200B; rapidement des expériences publicitaires Meta](/help/user-guide/create/create-meta-ad.md).
 
 Lors de la génération d’expériences Meta, quatre variations sont créées et affichées dans la zone de travail. GenStudio for Performance Marketing prend en charge les [annonces Meta aux tailles standard et personnalisées](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
@@ -52,10 +52,10 @@ Chaque champ et section des expériences publicitaires Meta sont progressivement
 1. Texte sur l’image
 1. Validation de la marque
 
-   Le processus de validation de la marque et de vérification du contenu se produit et le résumé [_vérification du contenu_ ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) est renseigné pour chaque variante.
+   Le processus de validation de la marque et de vérification du contenu se produit et le résumé [_vérification du contenu_ &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-summary) est renseigné pour chaque variante.
 
 ## Nombre de caractères
 
 Après avoir généré un ensemble de variantes de Meta, vous pouvez voir le nombre de caractères affichés pour chaque section. Pointez ou cliquez sur une section générée, telle que l’objet ou le corps, et consultez le nom de la section et le nombre de caractères correspondants.
 
-![ Nombre de caractères ](/help/assets/character-count.png){width="500" zoomable="yes"}
+![&#x200B; Nombre de caractères &#x200B;](/help/assets/character-count.png){width="500" zoomable="yes"}

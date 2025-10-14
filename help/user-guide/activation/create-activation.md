@@ -47,5 +47,5 @@ Une fois qu’une expérience publicitaire est en ligne sur son canal média pay
 Chaque canal média payant comporte un workflow d’activation unique. Sélectionnez le canal payant pour obtenir des instructions d’activation :
 
 * [Google Campaign Manager 360](activate-cm360-ad.md)
-* [ LinkedIn ](activate-linkedin-ad.md)
+* [&#x200B; LinkedIn &#x200B;](activate-linkedin-ad.md)
 * [Meta](activate-meta-ad.md)

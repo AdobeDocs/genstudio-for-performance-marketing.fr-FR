@@ -275,7 +275,7 @@ Supprimez les variantes inutiles afin que la zone de travail n’affiche que les
 
 Utilisez le panneau _Vérification de contenu_ pour conserver une identité de marque cohérente, [les normes d’accessibilité ADA](/help/user-guide/guidelines/overview.md#content-checks), les directives relatives aux plateformes et l’alignement des variantes.
 
-Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
+Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
 
 ## Retour d’informations de génération
 

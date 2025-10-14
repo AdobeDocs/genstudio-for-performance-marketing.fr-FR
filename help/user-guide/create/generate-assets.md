@@ -34,7 +34,7 @@ Vous pouvez générer des [!DNL On-brand images] à l’aide de directives, de p
 
 ### Choisir une image de référence
 
-Pour créer une _[!DNL On-brand images]_, sélectionnez une image existante enregistrée dans [!DNL Content]. Voir [ Bonnes pratiques pour les modèles ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de [!DNL on-brand image] prises en charge.
+Pour créer une _[!DNL On-brand images]_, sélectionnez une image existante enregistrée dans [!DNL Content]. Voir [&#x200B; Bonnes pratiques pour les modèles &#x200B;](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de [!DNL on-brand image] prises en charge.
 
 **Pour choisir une image de référence** :
 
@@ -124,7 +124,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. Révisez les variantes d’image pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
+Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
 
 <!-- ## Generate Similar images
 

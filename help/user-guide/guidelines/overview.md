@@ -55,7 +55,7 @@ En collaboration avec les fonctionnalités d’IA générative d’Adobe, [!DNL 
 
 GenStudio for Performance Marketing effectue la validation de la marque et les contrôles du contenu, y compris les normes d’accessibilité ADA et les normes de plateforme, et fournit une liste de contrôle pour le contenu généré afin de mettre en évidence les améliorations à apporter.
 
-Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
+Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
 
 ### Conformité
 

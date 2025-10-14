@@ -78,7 +78,7 @@ La fonctionnalité de recherche de modèles est disponible lors de la [!UICONTRO
 
 ### Ajouter un modèle
 
-Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [ Personnaliser les modèles ](customize-template.md).
+Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [&#x200B; Personnaliser les modèles &#x200B;](customize-template.md).
 
 **Pour ajouter un modèle** :
 

@@ -42,7 +42,7 @@ Le développement de modules complémentaires comprend les outils et ressources 
 
 [SDK UIX Adobe](https://github.com/adobe/uix-sdk)
 
-[ Spectre React ](https://react-spectrum.adobe.com/react-spectrum/getting-started.html)
+[&#x200B; Spectre React &#x200B;](https://react-spectrum.adobe.com/react-spectrum/getting-started.html)
 
 ### Environnement
 

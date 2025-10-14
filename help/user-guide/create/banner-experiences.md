@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketing vous permet d’exploiter l’IA générative pour améliorer la [création d’expériences de bannières réussies](/help/user-guide/create/create-banner-experience.md).
 
-[!DNL Create] permet aux professionnels du marketing modernes de [créer des expériences de bannières cohérentes](/help/user-guide/create/create-banner-experience.md) à l’aide de [directives](/help/user-guide/guidelines/overview.md), de ressources d’image et d’une [ invite bien conçue](/help/user-guide/effective-prompts.md).
+[!DNL Create] permet aux professionnels du marketing modernes de [créer des expériences de bannières cohérentes](/help/user-guide/create/create-banner-experience.md) à l’aide de [directives](/help/user-guide/guidelines/overview.md), de ressources d’image et d’une [&#x200B; invite bien conçue](/help/user-guide/effective-prompts.md).
 
 Lors de la génération d’expériences de bannière, quatre variations sont créées et affichées dans la zone de travail.
 

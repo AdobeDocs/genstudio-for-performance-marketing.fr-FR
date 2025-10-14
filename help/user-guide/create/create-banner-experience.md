@@ -22,7 +22,7 @@ Pour concevoir une expérience de bannière attrayante, il est recommandé d’[
 
 ## Choisir un modèle
 
-Pour créer une expérience de bannière, utilisez un modèle disponible pour fournir le framework de votre contenu. Consultez [ Bonnes pratiques pour les modèles ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de bannière prises en charge.
+Pour créer une expérience de bannière, utilisez un modèle disponible pour fournir le framework de votre contenu. Consultez [&#x200B; Bonnes pratiques pour les modèles &#x200B;](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de bannière prises en charge.
 
 **Pour choisir un modèle de bannière** :
 
@@ -107,7 +107,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. [Révisez manuellement les variantes](#revise-generated-banners) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
+Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 

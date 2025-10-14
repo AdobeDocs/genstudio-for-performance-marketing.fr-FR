@@ -80,7 +80,7 @@ Vous pouvez ajouter manuellement des détails sur la marque, au lieu de charger 
    - _Quand utiliser cette marque_ : cliquez sur **[!UICONTROL Ajouter]** (ou cliquez dans le champ de texte pour modifier le texte existant) et saisissez un aperçu et des informations sur l’utilisation de la marque. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
    - [_[!DNL Brand] des instructions vocales _](brands.md#brand-voice-guidelines): ajoutez les informations applicables dans chaque champ d’instructions.
 
-     ![Ajout de directives vocales [!DNL Brand] ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Ajout de directives vocales [!DNL Brand] &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Instructions relatives aux images_](brands.md#image-guidelines) : cliquez sur **[!UICONTROL Ajouter une catégorie]** pour ajouter des catégories d’instructions telles que « Instructions générales relatives aux objets d’art » ou « Photographie de produit ». Renseignez les directives dans chaque catégorie ajoutée.
    - [_Instructions relatives aux canaux_](brands.md#channel-guidelines) : cliquez sur chaque canal disponible et ajoutez les instructions appropriées.

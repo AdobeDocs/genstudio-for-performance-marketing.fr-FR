@@ -33,7 +33,7 @@ Cette connexion permet à GenStudio for Performance Marketing de recevoir des do
 
 Le tableau de bord [!DNL Insights] comporte un tableau configurable pour chaque type de contenu : [!UICONTROL Canaux], [!UICONTROL Publicités], [!UICONTROL Média] et [!UICONTROL Attributs].
 
-![[!DNL Insights] le tableau de bord ](/help/assets/insights-dashboard.png)
+![[!DNL Insights] le tableau de bord &#x200B;](/help/assets/insights-dashboard.png)
 
 Chaque vue affiche un tableau correspondant que vous pouvez rechercher par mot-clé, filtrage et période. Vous pouvez cliquer sur l’icône des paramètres (icône représentant un engrenage) au-dessus du côté droit du tableau pour activer/désactiver les types de colonnes visibles. La ligne _[!UICONTROL Résumé]_ peut afficher les totaux ou les moyennes d’une colonne.
 

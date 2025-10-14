@@ -86,4 +86,4 @@ Lorsque vous enregistrez des ressources approuvées, [!DNL Content] conserve la 
 
 ### Utilisation de modèles
 
-Les modèles accélèrent le processus de création afin que vous puissiez générer du contenu cohérent sur plusieurs canaux. Chargez votre modèle personnalisé pour l’utiliser comme point de départ dans le processus de création avec des dispositions et des éléments de conception préconfigurés. Découvrez les éléments et procédures de base des modèles dans [Utilisation de modèles](use-templates.md). Explorez en détail la création de modèles avec la rubrique [ Personnaliser un modèle ](customize-template.md).
+Les modèles accélèrent le processus de création afin que vous puissiez générer du contenu cohérent sur plusieurs canaux. Chargez votre modèle personnalisé pour l’utiliser comme point de départ dans le processus de création avec des dispositions et des éléments de conception préconfigurés. Découvrez les éléments et procédures de base des modèles dans [Utilisation de modèles](use-templates.md). Explorez en détail la création de modèles avec la rubrique [&#x200B; Personnaliser un modèle &#x200B;](customize-template.md).

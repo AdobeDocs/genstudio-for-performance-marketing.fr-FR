@@ -28,7 +28,7 @@ ht-degree: 20%
    + [Connecter des médias achetés](connectors/connect-channel.md)
    + Comptes médias payants {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
-      + [ LinkedIn ](connectors/linkedin-ads.md)
+      + [&#x200B; LinkedIn &#x200B;](connectors/linkedin-ads.md)
       + [Méta-publicités](connectors/meta-ads.md)
 + Directives {#guidelines}
    + [Présentation des directives](guidelines/overview.md)
@@ -38,7 +38,7 @@ ht-degree: 20%
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + [Vue d’ensemble d’[!DNL Create] ](create/overview.md)
+   + [Vue d’ensemble d’[!DNL Create] &#x200B;](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Méta-expériences](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -67,7 +67,7 @@ ht-degree: 20%
    + [Utiliser des modèles](content/use-templates.md)
    + [Modèles de démarrage](templates/starter-templates.md)
    + [Personnaliser un modèle](content/customize-template.md)
-   + [ Éditeur de code de modèle ](content/code-editor.md)
+   + [&#x200B; Éditeur de code de modèle &#x200B;](content/code-editor.md)
    + [Créer des modèles accessibles](content/accessibility-for-templates.md)
    + [Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
    + Bonnes pratiques relatives aux canaux {#channel-best-practice}
@@ -86,7 +86,7 @@ ht-degree: 20%
    + [Optimiser les activations](activation/troubleshooting.md)
    + Publicités médias payantes {#paid-media-ads}
       + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-      + [ LinkedIn ](activation/activate-linkedin-ad.md)
+      + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
       + [Meta](activation/activate-meta-ad.md)
 + Insights {#insights}
    + [Vue d’ensemble d’Insights](insights/overview.md)

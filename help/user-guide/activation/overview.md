@@ -27,7 +27,7 @@ Chaque compte de canal média payant doit être connecté à GenStudio for Perfo
 
 * [Créer une activation](create-activation.md). Vous pouvez créer une expérience publicitaire en sélectionnant des ressources visuelles, en attribuant du texte et en définissant des métadonnées avant de passer à un canal payant.
 
-* [ Gérer les activations ](manage-activations.md). _[!DNL Activate]_&#x200B;fournit un aperçu de toutes les expériences activées. Vous pouvez également afficher les détails de chaque activation.
+* [&#x200B; Gérer les activations &#x200B;](manage-activations.md). _[!DNL Activate]_&#x200B;fournit un aperçu de toutes les expériences activées. Vous pouvez également afficher les détails de chaque activation.
 
 ## Activer les fonctionnalités
 

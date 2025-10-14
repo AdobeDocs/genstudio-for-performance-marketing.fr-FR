@@ -21,7 +21,7 @@ Le tableau _[!UICONTROL Canaux]_ est organisé à l’aide de la campagne public
 
 ![Filtre et tableau des canaux](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
-Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Publicités] ](ads.md) s’ouvre dans une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les annonces qui ont contribué à son succès global.
+Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Publicités] &#x200B;](ads.md) s’ouvre dans une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les annonces qui ont contribué à son succès global.
 
 {{filter-table}}
 
