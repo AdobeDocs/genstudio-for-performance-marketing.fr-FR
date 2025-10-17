@@ -111,7 +111,7 @@ Ce référentiel comprend des exemples de travail pour différents frameworks :
 
 - [Application Vue 3 avec intégration de l’API Composition](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js).
 
-- [Deux implémentations de JavaScript classique ](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js) :
+- [Deux implémentations de JavaScript classique &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js) :
 
 - [Cette version Vanilla ESM utilise des modules ES6 et des JavaScript modernes](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
 
