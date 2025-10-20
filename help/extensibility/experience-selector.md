@@ -2,7 +2,7 @@
 title: MFE du sélecteur d’expérience GenStudio
 description: Découvrez et implémentez le microfront-end du sélecteur d’expérience pour vos applications et modules complémentaires GenStudio.
 feature: Extensibility, Extensions, Experiences
-source-git-commit: e30e43bd8d226628b425c341d19195f7f860e560
+source-git-commit: 2d6453274d1bfeb35df2821e7e31eec1ca87b013
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 6%
@@ -28,13 +28,13 @@ L’EFM peut être intégrée selon deux approches différentes :
 ### ESM (modules ES) - Recommandé
 
 ```javascript
-import { renderExperienceSelectorWithSUSI } from 'https://experience-stage.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/esm/standalone.js';
+import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/esm/standalone.js';
 ```
 
 ### UMD (Universal Module Definition)
 
 ```html
-<script src="https://experience-stage.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/umd/standalone.js"></script>
+<script src="https://experience.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/umd/standalone.js"></script>
 ```
 
 ## Propriétés de configuration
