@@ -2,7 +2,7 @@
 title: MFE du sélecteur d’expérience GenStudio
 description: Découvrez et implémentez le microfront-end du sélecteur d’expérience pour vos applications et modules complémentaires GenStudio.
 feature: Extensibility, Extensions, Experiences
-source-git-commit: d9d6d3825cd953245049de119c66f54274f20fd9
+source-git-commit: e30e43bd8d226628b425c341d19195f7f860e560
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 6%
