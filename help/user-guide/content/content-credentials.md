@@ -3,9 +3,9 @@ title: Content Credentials pour les organisations
 description: Découvrez comment appliquer et réviser Content Credentials dans GenStudio for Performance Marketing.
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: b7e3d1c3b20149eee85670098ddd100b41e27f2c
+source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Découvrez comment les informations d’identification inviolables pour le conte
 
 >[!WARNING]
 >
->Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les organisations qui ont reçu l’accès. Si vous êtes intéressé, contactez le représentant de l’équipe en charge de votre compte Adobe pour vous inscrire.
+> Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les organisations qui ont reçu l’accès. Si vous êtes intéressé, veuillez contacter le représentant de l’équipe en charge de votre compte Adobe ou [utilisez ce lien pour demander une inscription](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
 
 ## Prise en main de Content Credentials
@@ -33,7 +33,7 @@ Les administrateurs et administratrices sont chargés de charger un certificat X
 
 ## Que sont les Content Credentials ? 
 
-Les Content Credentials sont un type de métadonnées durable et standard, avec des détails sur la création du contenu et des informations d’identité sur les créateurs et les créatrices. Vous pouvez afficher Content Credentials lorsque le contenu est publié en ligne sur des plateformes de prise en charge ou à l’aide d’outils tels que [l’outil Adobe Inspect](https://contentauthenticity.adobe.com/inspect) ou l’extension de navigateur Adobe Content Authenticity Chrome [&#128279;](https://helpx.adobe.com/fr/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Les Content Credentials sont un type de métadonnées durable et standard, avec des détails sur la création du contenu et des informations d’identité sur les créateurs et les créatrices. Vous pouvez afficher Content Credentials lorsque le contenu est publié en ligne sur des plateformes de prise en charge ou à l’aide d’outils tels que [l’outil Adobe Inspect](https://contentauthenticity.adobe.com/inspect) ou l’extension de navigateur Adobe Content Authenticity Chrome [](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 L’application de Content Credentials peut aider à accroître la transparence sur la création du contenu et peut aider vos utilisateurs à se connecter à leur contenu.
 
@@ -55,7 +55,7 @@ Dans la galerie de contenu, les informations d’identification s’affichent su
 
 Le badge Content Credential dans le coin supérieur droit de la miniature indique le contenu « Signé par la marque ».
 
-![Ressource importée avec informations d’identification](./images/import-discovery1.png){width="350"}
+![Ressource importée avec informations d’identification](./images/import-discovery1.png)
 
 La sélection du contenu signé affiche les métadonnées détaillées : marque publiée, enregistreur, outil utilisé, date et heure.
 
@@ -75,13 +75,13 @@ Les métadonnées d’identification sont conservées lorsque des ressources son
 
 Lors des exportations à partir d’un brouillon, les ressources modifiées sont automatiquement resignées et les nouvelles informations d’identification sont liées à l’original.
 
-![Données d’identification sur une ressource exportée](./images/edit-and-transformation1.png){width="300"}
+![Données d’identification sur une ressource exportée](./images/edit-and-transformation1.png){width="60%"}
 
 ### Révision et approbation
 
 Dans l’aperçu Réviser et approuver , le statut des informations d’identification s’affiche pour les ressources sur le rail de droite.
 
-![Données d’identification sur une ressource approuvée](./images/review-and-approve1.png){width="300"}
+![Données d’identification sur une ressource approuvée](./images/review-and-approve1.png){width="60%"}
 
 Les informations d’identification par variante s’affichent lorsque les réviseurs inspectent les ressources. Les expériences approuvées sont resignées lorsque les utilisateurs cliquent sur **[!UICONTROL Enregistrer dans le contenu]**.
 
@@ -91,7 +91,7 @@ Les informations d’identification par variante s’affichent lorsque les révi
 
 Pendant l’activation, le statut des informations d’identification s’affiche dans le sélecteur d’expérience.
 
-![Données d’identification sur une ressource activée](./images/activate-export1.png){width="350"}
+![Données d’identification sur une ressource activée](./images/activate-export1.png){width="60%"}
 
 Les fichiers exportés auront des informations d’identification conformes au C2PA incorporées.
 
