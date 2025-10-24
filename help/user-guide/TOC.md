@@ -5,9 +5,9 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
+source-git-commit: 48dae1e6ce14a7dc1f2cc5fbad60eefebe99bf4e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 20%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
-+ [Guide de GenStudio for Performance Marketing](home.md)
++ Guide de [GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Commencer](get-started.md)
 + Introduction {#intro}
@@ -28,8 +28,8 @@ ht-degree: 20%
    + [Connecter des médias achetés](connectors/connect-channel.md)
    + Comptes médias payants {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
-      + [&#x200B; LinkedIn &#x200B;](connectors/linkedin-ads.md)
-      + [Méta-publicités](connectors/meta-ads.md)
+      + [ LinkedIn ](connectors/linkedin-ads.md)
+      + [Meta Ads](connectors/meta-ads.md)
 + Directives {#guidelines}
    + [Présentation des directives](guidelines/overview.md)
    + [Marques](guidelines/brands.md)
@@ -38,22 +38,22 @@ ht-degree: 20%
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + [Vue d’ensemble d’[!DNL Create] &#x200B;](create/overview.md)
+   + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
-   + [Méta-expériences](create/meta-experiences.md)
+   + [Expériences Meta](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
    + [Afficher les expériences publicitaires](create/display-ad-experiences.md)
    + [Expériences de bannière](create/banner-experiences.md)
    + [Gérer les variantes](create/manage-variants.md)
    + [Créer une expérience d’e-mail](create/create-email-experience.md)
-   + [Créer une expérience de méta-annonce](create/create-meta-ad.md)
+   + [Création d’une expérience publicitaire Meta](create/create-meta-ad.md)
    + [Créer une expérience LinkedIn](create/create-linkedin.md)
    + [Créer une expérience d’affichage publicitaire](create/create-display-ad.md)
    + [Créer une expérience de bannière](create/create-banner-experience.md)
    + [Générer une image](create/generate-assets.md)
 + Révisions et approbations {#approve}
    + [Présentation de la révision et des approbations](approvals/overview.md)
-   + [Intégration de Workfront Proof](approvals/proof-integration.md)
+   + Intégration de [Workfront Proof](approvals/proof-integration.md)
    + [Demander une révision et une approbation](approvals/request-review.md)
    + [Vérifier et modifier le contenu](approvals/review-and-edit.md)
    + [Approuver le contenu](approvals/approve-content.md)
@@ -62,19 +62,20 @@ ht-degree: 20%
    + [Présentation du contenu](content/overview.md)
    + [Gestion des ressources et des expériences](content/manage-assets.md)
    + [Connexion à un référentiel AEM](content/connect-aem-repo.md)
-   + [Détails de la ressource](content/asset-details.md)
+   + [Détails des ressources](content/asset-details.md)
+   + [Content Credentials](content/content-credentials.md)
 + Modèles {#templates}
    + [Utiliser des modèles](content/use-templates.md)
    + [Modèles de démarrage](templates/starter-templates.md)
    + [Personnaliser un modèle](content/customize-template.md)
-   + [&#x200B; Éditeur de code de modèle &#x200B;](content/code-editor.md)
+   + [ Éditeur de code de modèle ](content/code-editor.md)
    + [Créer des modèles accessibles](content/accessibility-for-templates.md)
    + [Bonnes pratiques pour les modèles](content/best-practices-for-templates.md)
    + Bonnes pratiques relatives aux canaux {#channel-best-practice}
       + [Guide d’affichage des publicités](templates/display-template.md)
       + [Guide des e-mails](templates/email-template.md)
       + [Guide des publicités LinkedIn](templates/linkedin-template.md)
-      + [Guide des métadonnées publicitaires](templates/meta-template.md)
+      + [Guide des publicités Meta](templates/meta-template.md)
 + Campagnes {#campaigns}
    + [Présentation des campagnes](campaigns/overview.md)
    + [Créer des campagnes](campaigns/create-campaign.md)
@@ -86,7 +87,7 @@ ht-degree: 20%
    + [Optimiser les activations](activation/troubleshooting.md)
    + Publicités médias payantes {#paid-media-ads}
       + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-      + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
+      + [ LinkedIn ](activation/activate-linkedin-ad.md)
       + [Meta](activation/activate-meta-ad.md)
 + Insights {#insights}
    + [Vue d’ensemble d’Insights](insights/overview.md)
