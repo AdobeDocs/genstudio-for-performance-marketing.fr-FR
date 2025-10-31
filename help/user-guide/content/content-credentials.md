@@ -3,7 +3,7 @@ title: Content Credentials pour les organisations
 description: Découvrez comment appliquer et réviser Content Credentials dans GenStudio for Performance Marketing.
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
+source-git-commit: 488bc7d7b7447ee6e807dd91f83766844c24abb9
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Les administrateurs et administratrices sont chargés de charger un certificat X
 
 ## Que sont les Content Credentials ? 
 
-Les Content Credentials sont un type de métadonnées durable et standard, avec des détails sur la création du contenu et des informations d’identité sur les créateurs et les créatrices. Vous pouvez afficher Content Credentials lorsque le contenu est publié en ligne sur des plateformes de prise en charge ou à l’aide d’outils tels que [l’outil Adobe Inspect](https://contentauthenticity.adobe.com/inspect) ou l’extension de navigateur Adobe Content Authenticity Chrome [&#128279;](https://helpx.adobe.com/fr/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Les Content Credentials sont un type de métadonnées durable et standard, avec des détails sur la création du contenu et des informations d’identité sur les créateurs et les créatrices. Vous pouvez afficher Content Credentials lorsque le contenu est publié en ligne sur des plateformes de prise en charge ou à l’aide d’outils tels que [l’outil Adobe Inspect](https://contentauthenticity.adobe.com/inspect) ou l’extension de navigateur Adobe Content Authenticity Chrome [](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 L’application de Content Credentials peut aider à accroître la transparence sur la création du contenu et peut aider vos utilisateurs à se connecter à leur contenu.
 
@@ -61,7 +61,7 @@ La sélection du contenu signé affiche les métadonnées détaillées : marque 
 
 Le contenu peut être filtré par statut d’identification.
 
-![Données d’identification sur une ressource](./images/import-discovery2.png)
+![Données d’identification sur une ressource](./images/import-discovery2.jpg)
 
 ### Création et sélection
 
