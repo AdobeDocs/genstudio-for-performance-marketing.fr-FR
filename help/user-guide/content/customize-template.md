@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
+source-git-commit: 730e8f89f466ab457670cefe98833f5f4732636c
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 0%
@@ -43,13 +43,13 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 | champ | Rôle | Modèle de canal |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Pré-titre | email |
-| `{{headline}}` | Titre | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
+| `{{headline}}` | Titre | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
 | `{{sub_headline}}` | Sous-Titre | e-mail<br>bannière et publicité display |
 | `{{introductory_text}}` | Texte d’introduction | Annonce LinkedIn |
-| `{{body}}` | Copie du corps | e-mail <br>Méta-annonce <br>bannière et publicité display |
-| `{{cta}}` | Call to action<br>Voir [Appels à l’action](#calls-to-action) | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
-| `{{image}}` | Image : sélection à partir de l&#39;[!DNL Content] | e-mail <br>Méta-annonce <br>bannière et publicité display <br>publicité LinkedIn |
-| `{{on_image_text}}` | Dans le texte de l’image<br>voir [Dans le texte de l’image](#on-image-text). | Méta-publicité <br>publicité LinkedIn |
+| `{{body}}` | Copie du corps | e-mail <br>Annonce Meta <br>bannière et publicité display |
+| `{{cta}}` | Call to action<br>Voir [Appels à l’action](#calls-to-action) | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
+| `{{image}}` | Image : sélection à partir de l&#39;[!DNL Content] | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
+| `{{on_image_text}}` | Dans le texte de l’image<br>voir [Dans le texte de l’image](#on-image-text). | Annonce Meta <br>Annonce LinkedIn |
 | `{{link}}` | Call to action sur l’image<br>voir [Lien sur l’image](#link-on-image). | email |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
@@ -57,7 +57,7 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 GenStudio for Performance Marketing génère automatiquement certains champs dans les modèles suivants :
 
 - **Modèle d’e-mail** ne nécessite pas que vous identifiiez le champ `subject`
-- **Modèle de méta-annonce** ne nécessite pas que vous identifiiez les champs `headline`, `body` et `CTA`
+- **Le modèle de publicité Meta** ne nécessite pas que vous identifiiez les champs `headline`, `body` et `CTA`
 - **Modèle de bannière et d’affichage publicitaire** ne nécessite pas que vous identifiiez le champ `CTA`
 - **Modèle d’annonce LinkedIn** ne nécessite pas que vous identifiiez les champs `headline`, `introductory_text` et `CTA`
 
@@ -95,7 +95,7 @@ Suivez les instructions ci-dessous pour configurer les espaces réservés CTA :
   <a class="button" href="{{pod1_link}}" >Register now</a>
   ```
 
-GenStudio for Performance Marketing peut également fournir des variantes d’expressions d’appel à l’action. Voir [Révision de l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action).
+GenStudio for Performance Marketing peut également fournir des variantes d’expressions d’appel à l’action. Voir [Révision de Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ### Lien sur l’image
 
@@ -105,7 +105,7 @@ Vous pouvez personnaliser votre modèle d’e-mail pour permettre aux créatifs 
 <a href="{{link}}"><img src="image-source.jpg" alt="{{imageDescription}}"></a>
 ```
 
-Dans cet exemple :
+Dans cet exemple :
 
 - `{{link}}` est un espace réservé pour l’URL réelle.
 - `src="image-source.jpg"` doit être remplacé par l’URL source de l’image réelle.
@@ -119,7 +119,7 @@ Utilisez un nom de champ défini par l’utilisateur comme espace réservé pour
 <img src="{{image}}" alt="{{imageDescription}}">
 ```
 
-Dans cet exemple :
+Dans cet exemple :
 
 - `{{image}}` est l’espace réservé de l’URL source de l’image.
 - `{{imageDescription}}` est l’espace réservé du texte secondaire, qui fournit une description de l’image à des fins d’accessibilité et d’optimisation du moteur de recherche (SEO).
@@ -229,7 +229,7 @@ Chaque section ne peut utiliser qu’un seul de chaque type de champ. Par exempl
 
 Pour cette raison, les sections ne peuvent pas être imbriquées.
 
-Chaque type de modèle, tel qu’un e-mail ou une méta-annonce, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](/help/user-guide/content/best-practices-for-templates.md) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
+Chaque type de modèle, tel qu’une publicité par e-mail ou Meta, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](/help/user-guide/content/best-practices-for-templates.md) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
 
 Par exemple, un modèle d’e-mail peut inclure jusqu’à trois sections. Par conséquent, vous pouvez avoir trois sections de titre et de corps :
 
@@ -259,7 +259,7 @@ Voir [Éditeur de code de modèle](/help/user-guide/content/code-editor.md).
 
 Vous pouvez contrôler la visibilité du contenu spécial à l’aide des assistants intégrés (expressions spéciales du langage de modèle [!DNL Handlebars] qui effectuent certaines actions). Par exemple, vous pouvez ajouter une instruction conditionnelle qui ajoute des paramètres de suivi aux liens du modèle exporté tout en préservant les liens d’aperçu.
 
-La valeur `_genStudio.browser` est définie lors du rendu d’un modèle et la valeur `genStudio.export` est définie lors de l’exportation d’un modèle. Vous pouvez décider d’inclure certains contenus en haut d’un e-mail à l’aide d’un wrapper conditionnel, par exemple lorsque le modèle est utilisé pour l’exportation :
+La valeur `_genStudio.canvas` est définie lors du rendu d’un modèle et la valeur `genStudio.export` est définie lors de l’exportation d’un modèle. Vous pouvez décider d’inclure certains contenus en haut d’un e-mail à l’aide d’un wrapper conditionnel, par exemple lorsque le modèle est utilisé pour l’exportation :
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -270,7 +270,7 @@ La valeur `_genStudio.browser` est définie lors du rendu d’un modèle et la v
 Un autre exemple peut être d’empêcher l’utilisation des codes de suivi lors de la prévisualisation d’un modèle dans GenStudio for Performance Marketing. L’exemple suivant montre comment ajouter des paramètres de tracking aux liens dans le modèle exporté, tout en préservant les liens d’aperçu :
 
 ```html
-<a class="button" {{#if _genStudio.browser }}
+<a class="button" {{#if _genStudio.canvas }}
    href="{{link}}"{{/if}}{{#if _genStudio.export }}
    href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
    target="_blank">{{cta}}</a>
@@ -278,7 +278,7 @@ Un autre exemple peut être d’empêcher l’utilisation des codes de suivi lor
 
 ## Contenu statique
 
-Les modèles E-mail et Métadonnées sont souvent associés à des images et des fichiers CSS hébergés sur d’autres domaines. Lorsque GenStudio for Performance Marketing génère des miniatures pour les aperçus de modèle ou les expériences qui en sont dérivées, il valide la source de contenu et incorpore une copie à des fins d’aperçu.
+Les modèles d’e-mail et de Meta sont souvent associés à des images et des fichiers CSS hébergés sur d’autres domaines. Lorsque GenStudio for Performance Marketing génère des miniatures pour les aperçus de modèle ou les expériences qui en sont dérivées, il valide la source de contenu et incorpore une copie à des fins d’aperçu.
 
 Les fichiers externes sont temporairement incorporés uniquement dans le but de créer l’aperçu du modèle, ce qui garantit que l’aperçu reflète précisément le contenu tel qu’il apparaît au moment de la création. Ces fichiers externes ne sont **pas** stockés de manière permanente dans GenStudio for Performance Marketing. Une fois l’aperçu du modèle créé, GenStudio for Performance Marketing continue à référencer le lien source d’origine fourni dans le modèle.
 
