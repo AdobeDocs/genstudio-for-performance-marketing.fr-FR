@@ -1,28 +1,26 @@
 ---
 title: Ajout de consignes à Adobe GenStudio for Performance Marketing
-description: Découvrez comment ajouter des instructions ([!DNL Brands],  [!DNL Products] et  [!DNL Personas]) dans Adobe GenStudio for Performance Marketing.
+description: Découvrez comment ajouter des instructions en tant que paramètres pour vos invites dans Adobe GenStudio for Performance Marketing.
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: a4df9c81339a8fe5197200d58abc8b48df59da6f
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
 
 # Ajout d’instructions
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) et [[!DNL Personas]](/help/user-guide/guidelines/personas.md) sont des directives définies par l’utilisateur dans GenStudio for Performance Marketing qui garantissent que tout contenu généré par l’IA est personnalisé pour s’aligner sur l’identité de la marque, ce qui permet une personnalisation efficace du contenu.
-
-Voir la [présentation des directives](/help/user-guide/guidelines/overview.md).
+GenStudio for Performance Marketing vous permet de définir des directives définies par l’utilisateur pour vous assurer que tout contenu généré par l’IA est personnalisé pour s’aligner sur l’identité d’une marque. Cette page fournit des instructions pour définir et utiliser chaque consigne disponible spécifique. Pour une explication générale, voir la [présentation des instructions](/help/user-guide/guidelines/overview.md).
 
 L’ajout d’instructions à GenStudio for Performance Marketing est une étape importante du processus de création. Les directives guident le processus de création de contenu, ainsi que les invites définies par l’utilisateur, les [contrôles d’accessibilité et de contenu](overview.md#compliance) et la technologie d’IA générative d’Adobe, afin de créer des ressources efficaces.
 
 Les instructions peuvent être définies par l’utilisateur ou exister en tant qu’instructions par défaut, telles que les instructions [default [!DNL Brand] channel](/help/user-guide/guidelines/brands.md#default-channel-guidelines).
 
-Lors de la création de variantes à partir d’un modèle avec des directives prédéfinies ([!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces directives s’appliquent aux variantes. Vous pouvez les modifier si vous le souhaitez.
+Lors de la création de variantes à partir d’un modèle avec des instructions de canal prédéfinies (telles que [!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces instructions s’appliquent aux variantes. Vous pouvez les modifier si vous le souhaitez.
 
 {{in-academy}}
 
@@ -30,9 +28,11 @@ Lors de la création de variantes à partir d’un modèle avec des directives p
 
 Pour ajouter une [!DNL Brand], [téléchargez un guide de marque](#upload-a-brand) ou [créez manuellement une marque](#manually-add-brand) en sélectionnant des directives et en saisissant les détails de votre marque. [Publiez un  [!DNL Brand]](#publish-brand) pour le [!DNL Content] afin de le rendre disponible pour une utilisation lors de la génération future de contenu.
 
-Si vous téléchargez des directives de marque écrites dans une langue autre que l’anglais (ou si vous créez manuellement une marque à l’aide d’une langue autre que l’anglais), GenStudio for Performance Marketing les affiche dans la même langue.
+Dans la zone de navigation de gauche, cliquez sur **[!DNL Brands]** dans la liste _Partagé_.
 
-Dans la zone de navigation de gauche, cliquez sur **[!DNL Brands]** dans la liste _Partagé_. Dans le panneau _[!DNL Brands]_, sélectionnez **Ajouter une marque**.
+![Recommandations dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
+
+Si vous téléchargez des directives de marque écrites dans une langue autre que l’anglais (ou si vous créez manuellement une marque à l’aide d’une langue autre que l’anglais), GenStudio for Performance Marketing les affiche dans la même langue.
 
 >[!TIP]
 >
@@ -46,7 +46,7 @@ Consultez [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 **Pour charger des documents de marque** :
 
-1. Sélectionnez le bouton **[!UICONTROL Ajouter une marque]**.
+1. Dans le panneau _[!DNL Brands]_, sélectionnez le bouton **[!UICONTROL Ajouter une marque]**.
 1. Sélectionnez **[!UICONTROL Charger des PDF]** et saisissez un nom de marque dans la fenêtre contextuelle _Choisir un moyen d’ajouter votre marque_.
 1. Sélectionnez **[!UICONTROL Continuer]**.
 1. Recherchez et joignez ou faites glisser vos documents de directives de marque sur la fenêtre contextuelle _[!UICONTROL Ajouter votre marque]_.
@@ -80,7 +80,7 @@ Vous pouvez ajouter manuellement des détails sur la marque, au lieu de charger 
    - _Quand utiliser cette marque_ : cliquez sur **[!UICONTROL Ajouter]** (ou cliquez dans le champ de texte pour modifier le texte existant) et saisissez un aperçu et des informations sur l’utilisation de la marque. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
    - [_[!DNL Brand] des instructions vocales _](brands.md#brand-voice-guidelines): ajoutez les informations applicables dans chaque champ d’instructions.
 
-     ![Ajout de directives vocales [!DNL Brand] &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Ajout de directives vocales [!DNL Brand] ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Instructions relatives aux images_](brands.md#image-guidelines) : cliquez sur **[!UICONTROL Ajouter une catégorie]** pour ajouter des catégories d’instructions telles que « Instructions générales relatives aux objets d’art » ou « Photographie de produit ». Renseignez les directives dans chaque catégorie ajoutée.
    - [_Instructions relatives aux canaux_](brands.md#channel-guidelines) : cliquez sur chaque canal disponible et ajoutez les instructions appropriées.
@@ -97,16 +97,16 @@ Il n’est pas nécessaire de [publier](#publish-brand) votre [!DNL Brand] pour 
 
 Après avoir ajouté manuellement une [!DNL Brand], vous pouvez modifier l’image miniature pour vous assurer qu’elle est facilement reconnaissable dans votre liste de [!DNL Brands].
 
-Si un [!DNL Brand] est créé par extraction de document (au lieu d’être ajouté manuellement), un logo disponible dans ces documents est automatiquement implémenté comme image miniature.
+Si un [!DNL Brand] est créé avec l’extraction de document (au lieu d’être ajouté manuellement), un logo disponible dans ces documents est automatiquement implémenté comme image miniature.
 
-**Pour modifier manuellement la miniature d’une[!DNL Brand]** :
+**Modification manuelle de l’image miniature d’une[!DNL Brand]** :
 
 1. Sélectionnez **[!UICONTROL Modifier la miniature]** dans le menu d’actions.
 1. Chargez une nouvelle image dans l’onglet _Charger_.
 1. Dans _[!UICONTROL Modifier la miniature]_, modifiez l’image chargée.
 1. Sélectionnez **[!UICONTROL Mettre à jour]** pour enregistrer l’image en tant qu’image miniature [!DNL Brand].
 
-Vous pouvez sélectionner un logo [!DNL Brand] existant pour une [!UICONTROL &#x200B; dans la vue d’onglet &#x200B;]Logos[!DNL Brand]. Cliquez pour ouvrir un logo et sélectionnez **[!UICONTROL Utiliser comme miniature de marque]** dans le menu d’actions.
+Vous pouvez sélectionner un logo [!DNL Brand] existant pour une [!UICONTROL  dans la vue d’onglet ]Logos[!DNL Brand]. Cliquez pour ouvrir un logo et sélectionnez **[!UICONTROL Utiliser comme miniature de marque]** dans le menu d’actions.
 
 ### Publier la marque
 
@@ -121,7 +121,7 @@ Dans _[!DNL Brands]_, les [!DNL Brands] de brouillon ou publiées s’affichent 
 **Pour publier un brouillon de marque** :
 
 1. Dans la zone de navigation de gauche, cliquez sur **[!UICONTROL [!DNL Brands]]**.
-1. Cliquez pour ouvrir un brouillon de [!DNL Brand] existant.
+1. Cliquez sur une vignette pour ouvrir un brouillon de [!DNL Brand] existant.
 1. Cliquez sur le bouton **[!UICONTROL Publier]** (disponible uniquement pour les brouillons).
 1. Dans la fenêtre contextuelle _Publier la marque_, vérifiez qui a accès à l’affichage et à l’utilisation des [!DNL Brand] publiées.
 1. Dans la fenêtre contextuelle _Publier_ qui s’affiche, sélectionnez **[!UICONTROL Publier]**.
@@ -163,9 +163,11 @@ Pour **afficher les informations sur la marque**, cliquez sur **[!UICONTROL [!DN
 
 ## Ajouter [!DNL Personas]
 
-Pour ajouter une persona, [téléchargez un guide du persona](#upload-a-persona) ou [créez manuellement un persona](#manually-add-persona) en sélectionnant des directives et en saisissant vos détails de persona.
+Pour ajouter une persona, [téléchargez une persona](#upload-a-persona) ou [créez manuellement une persona](#manually-add-persona) en sélectionnant des instructions et en saisissant les détails de votre personnage.
 
-Dans la zone de navigation de gauche, cliquez sur **[!DNL Personas]** dans la liste _Partagé_. Dans le panneau _[!DNL Personas]_, sélectionnez **Ajouter une persona**.
+Dans la zone de navigation de gauche, cliquez sur **[!DNL Personas]** dans la liste _Partagé_.
+
+![Recommandations dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
 Vous pouvez ajouter un [!DNL Persona] dans GenStudio for Performance Marketing pour cibler le contenu que vous créez sur l’audience idéale.
 
@@ -177,7 +179,7 @@ Vous pouvez charger vos propres documents personnels pour remplir de nouveaux r�
 
 Consultez [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
-1. Sélectionnez le bouton **[!UICONTROL Ajouter une personne]**.
+1. Dans le panneau _[!DNL Personas]_, sélectionnez le bouton **[!UICONTROL Ajouter un persona]**.
 1. Sélectionnez **[!UICONTROL Télécharger des fichiers]** et saisissez un nom de persona dans la fenêtre contextuelle _Choisir un moyen d’ajouter votre persona_.
 1. Sélectionnez **[!UICONTROL Continuer]**.
 1. Recherchez et joignez ou faites glisser vos documents de directives personnelles dans la fenêtre contextuelle _[!UICONTROL Ajouter votre persona]_.
@@ -223,7 +225,7 @@ Vous pouvez ajouter manuellement des détails personnels, au lieu de charger des
 
 ### Gérer les [!DNL Personas]
 
-Dans _[!DNL Personas]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un persona**&#x200B;de la liste :
+Dans _[!DNL Personas]_page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**déjà créé pour le modifier ou le réviser, ou **supprimer un persona**de la liste :
 
 - Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Personas] pour réviser et passer en revue un persona existant.
 - Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Personas] pour **Supprimer** une personne.
@@ -231,9 +233,12 @@ Dans _[!DNL Personas]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Per
 
 ## Ajouter [!DNL Products]
 
-Pour ajouter un produit, [téléchargez un guide du produit](#upload-a-product) ou [créez manuellement un produit](#manually-add-product) en sélectionnant des instructions et en saisissant les détails du produit.
+Pour ajouter un produit :
 
-Dans la zone de navigation de gauche, cliquez sur **[!DNL Products]** dans la liste _Partagé_. Dans le panneau _[!DNL Products]_, sélectionnez **Ajouter un produit**.
+1. Dans la zone de navigation de gauche, cliquez sur **[!DNL Products]** dans la liste _Partagé_.
+   ![Recommandations dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
+1. Dans le panneau _[!DNL Products]_, sélectionnez **Ajouter un produit**.
+1. Choisissez de [charger un produit](#upload-a-product) ou [créer manuellement un produit](#manually-add-product) en sélectionnant les directives et en saisissant les détails de votre produit.
 
 ![Ajouter un [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
 
@@ -260,7 +265,7 @@ Consultez [[!DNL Products]](/help/user-guide/guidelines/products.md).
 
    La vue de votre nouveau produit s’ouvre et affiche les détails des directives produit extraits de vos documents. Une fenêtre contextuelle vous informe _« Votre produit est prêt à être révisé »_ et vous rappelle de réviser le contenu extrait et d’apporter les modifications nécessaires.
 
-### Ajout manuel du produit
+### Ajout manuel d’un produit
 
 Vous pouvez ajouter manuellement des détails de produit, au lieu de charger des documents de produit existants, pour renseigner un nouveau [produits](products.md).
 
@@ -282,7 +287,7 @@ Vous pouvez ajouter manuellement des détails de produit, au lieu de charger des
       Vous pouvez également supprimer ou recadrer une image miniature existante dans l’onglet _Télécharger_.
 
    1. Cliquez sur **[!UICONTROL Utiliser l’image]**.
-1. Pour modifier l’image de la couverture, pointez sur la couverture et, dans le menu d’actions, sélectionnez **[!UICONTROL Modifier la couverture]**.
+   1. Pour modifier l’image de la couverture, pointez sur la couverture et, dans le menu d’actions, sélectionnez **[!UICONTROL Modifier la couverture]**.
    1. Choisissez une image dans la galerie sous l’onglet _Galerie_ _ou_ téléchargez une nouvelle image sous l’onglet _Télécharger_.
    1. Cliquez sur **[!UICONTROL Utiliser l’image]**.
    1. Pour repositionner l’image de couverture, cliquez sur **[!UICONTROL Repositionner]** dans le menu d’actions, faites glisser l’image à la position souhaitée, puis cliquez sur **[!UICONTROL Enregistrer]**.
@@ -291,8 +296,35 @@ Vous pouvez ajouter manuellement des détails de produit, au lieu de charger des
 
 ### Gérer les [!DNL Products]
 
-Dans _[!DNL Products]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Product]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un produit**&#x200B;de la liste :
+Dans _[!DNL Products]_page d’accueil, vous pouvez **ouvrir un[!DNL Product]**déjà créé pour le modifier ou le réviser, ou **supprimer un produit**de la liste :
 
 - Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Products] pour réviser et réviser un produit existant.
 - Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Products] pour **Supprimer** un produit.
 - Sélectionnez **[!UICONTROL Renommer]** dans le menu d’actions [!DNL Products] pour **Renommer** un produit.
+
+## Ajouter [!DNL Audiences]
+
+>[!NOTE]
+>
+>La fonctionnalité [!DNL Audiences] nécessite une intégration par l’équipe Adobe pour apparaître dans GenStudio. Si _[!DNL Audiences]_n’apparaît pas dans les paramètres du modèle, contactez votre représentant Adobe.
+
+[!DNL Audiences] fournir des segments de clients ciblés à partir d’Adobe Real-Time Customer Data Platform (RTCDP), en apportant des données de ciblage précises dans votre workflow de génération de contenu. GenStudio for Performance Marketing exploite les définitions d’audience pour vous aider à créer du contenu marketing personnalisé aligné sur des segments de clientèle spécifiques.
+
+[!DNL Audiences] s’affichent sous forme de liste déroulante dans le volet des paramètres, dans [le workflow _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ peut ajouter de la spécificité aux _[!DNL Personas]_lorsque les deux directives sont utilisées, mais peut également être utilisé efficacement de manière indépendante.
+
+Lors de l’intégration, les définitions d’audience sont importées et transformées dans un format compatible avec GenStudio. Ce processus prend généralement quelques jours. Contactez votre équipe Adobe pour le lancer.
+
+**Conditions préalables** :
+
+- Accès de l’organisation à Adobe Real-Time Customer Data Platform
+- Audiences existantes déjà configurées dans les sandbox RTCDP
+- L’intégration _[!DNL Audience]_nécessite un processus d’intégration manuel par l’équipe d’Adobe
+
+**Pour sélectionner une audience** :
+
+1. Dans [le workflow de _[!DNL Create]_](../create/overview.md#templates), sélectionnez un modèle, puis cliquez sur le bouton **[!UICONTROL Utiliser]**pour ouvrir le brouillon.
+1. Dans la liste des paramètres, cliquez sur le menu déroulant _[!UICONTROL Audience]_ pour afficher toutes les audiences disponibles.
+   ![Liste déroulante Audience dans le volet Paramètres de persona](./audience-dropdown.png){width=450}
+1. Sélectionnez une audience à affecter dans la liste. Le système suggère des audiences recommandées qui s’alignent sur les [!DNL Persona] sélectionnées, si un [!DNL Persona] est sélectionné.
+1. Cliquez sur **[!UICONTROL Voir les détails de l’audience]** pour afficher la description développée et les préférences de messagerie générées pour l’audience sélectionnée. Les détails de l’audience informent la génération du contenu, en veillant à ce que votre contenu créatif s’aligne sur les caractéristiques et préférences spécifiques de votre segment cible.
+   ![Volet Détails de l’audience](./audience-details.png){width=450}

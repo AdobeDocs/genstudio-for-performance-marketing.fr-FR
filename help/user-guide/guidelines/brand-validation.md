@@ -3,7 +3,7 @@ title: Validation de la marque dans Adobe GenStudio for Performance Marketing
 description: Découvrez comment fonctionne le système de validation de marque intégré dans GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -18,8 +18,9 @@ GenStudio for Performance Marketing effectue la validation de la marque et d’a
 
 * Instructions d’[!DNL Brand] définies ou par défaut
 * Instructions relatives à Platform
-<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 * Normes de l’American with Disabilities Act (ADA)
+<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
+
 
 ## Résumé de la vérification du contenu
 
@@ -39,7 +40,7 @@ Voir [Amélioration de l’alignement des marques](#improve-brand-alignment).
 
 ## Panneau de vérification du contenu
 
-Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ &#x200B;](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
+Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ ](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
 
 ![Panneau de vérification du contenu](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 

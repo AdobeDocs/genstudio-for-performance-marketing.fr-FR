@@ -4,9 +4,9 @@ description: Générez rapidement du contenu de marque hautement performant avec
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -22,81 +22,144 @@ La page d’accueil [!DNL Create] est organisée en sections de canal (_Médias 
 Avec [!DNL Create], vous pouvez générer du contenu pour les canaux suivants :
 
 * [E-mails](email-experiences.md)
-* [Méta-publicités](meta-experiences.md)
+* [Meta ads](meta-experiences.md)
 * [Annonces LinkedIn](linkedin-experiences.md)
 * [Afficher les publicités](display-ad-experiences.md)
 * [Bannières](banner-experiences.md)
 * [Images](generate-assets.md)
 
-Grâce à la puissance des [directives](/help/user-guide/guidelines/overview.md)—[!DNL Brands], [!DNL Products] et [!DNL Personas]—[Contenu](/help/user-guide/content/overview.md), [Campagnes](/help/user-guide/campaigns/overview.md), [Révisions et approbations](/help/user-guide/approvals/overview.md), [Activation](/help/user-guide/activation/overview.md) et [Insights](/help/user-guide/insights/overview.md), [!DNL Create] facilite la création de contenu marketing percutant aligné sur la marque.
+Grâce à la puissance des [directives](/help/user-guide/guidelines/overview.md),[Contenu](/help/user-guide/content/overview.md), [Campagnes](/help/user-guide/campaigns/overview.md), [Révisions et approbations](/help/user-guide/approvals/overview.md), [Activation](/help/user-guide/activation/overview.md) et [Insights](/help/user-guide/insights/overview.md), [!DNL Create] facilite la création de contenu marketing percutant aligné sur la marque.
 
 Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Create]. Voir [Rôles utilisateur et autorisations](/help/user-guide/user-roles.md) pour obtenir des informations détaillées sur l’accès aux rôles.
 
 ## Scénarios d’utilisation d’[!DNL Create] 
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Créer du contenu" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Créer une expérience d’e-mail</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
-      <img alt="Création d’une expérience de métadonnées" src="../../assets/icons/icon-addContent.png" width="35">
+
+      <img alt="Création d’une expérience publicitaire Meta" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
-         <strong>Créer une expérience de méta-annonce</strong>
+
+         <strong>Création d’une expérience publicitaire Meta</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Création d’une expérience publicitaire LinkedIn" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>Créer une expérience publicitaire LinkedIn</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Création d’une expérience d’affichage d’annonce publicitaire" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Créer une expérience d’affichage publicitaire</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="Création d’une expérience de bannière" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>Créer une expérience de bannière</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="Création d’images" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>Générer des images</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing permet aux marketeurs de **créer du contenu marketing**. Dans ce cas d’utilisation, utilisez des [directives](/help/user-guide/guidelines/overview.md) définies et des images d’inspiration pour informer la création de contenu aligné sur la marque.

@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Pour les [e-mails](/help/user-guide/create/email-experiences.md), les critères 
 
 >[!NOTE]
 >
->Si des directives sont ajoutées dans _Paramètres_ dans le tiroir de l&#39;invite, il n&#39;est pas nécessaire d&#39;y faire référence dans l&#39;invite. GenStudio for Performance Marketing exploite ces [!DNL Brands], [!DNL Products] et [!DNL Personas] dans la génération de contenu.
+>Si des directives sont ajoutées dans _Paramètres_ dans le tiroir de l&#39;invite, il n&#39;est pas nécessaire d&#39;y faire référence dans l&#39;invite. GenStudio for Performance Marketing exploite automatiquement ceux de la génération de contenu.
 
 ### Directives
 

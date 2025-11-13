@@ -6,16 +6,16 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
 
 # Création d’une expérience publicitaire Meta
 
-Ce tutoriel explique comment générer des expériences publicitaires Meta de marque [&#128279;](/help/user-guide/create/meta-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel explique comment générer des expériences publicitaires Meta de marque [](/help/user-guide/create/meta-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
 Avant de commencer à générer une expérience publicitaire Meta, il est important d’[incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio for Performance Marketing et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
 
@@ -40,7 +40,7 @@ Lors de la sélection d’un modèle, vous avez la possibilité d’utiliser l�
 
 L’ajout de [instructions](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite améliore le processus de génération de contenu et constitue une étape essentielle dans la préparation de la génération d’une publicité Meta.
 
-Si vous utilisez un modèle avec des directives prédéfinies ([!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces directives s’appliquent à vos variantes. Vous pouvez les modifier si vous le souhaitez.
+Si vous utilisez un modèle avec des directives prédéfinies (telles que [!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces directives s’appliquent à vos variantes. Vous pouvez les modifier si vous le souhaitez.
 
 **Pour ajouter des paramètres et des ressources** :
 
@@ -137,7 +137,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Pour créer une expérience d’e-mail, utilisez un modèle disponible pour four
 
 L’ajout de [directives](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite surcharge le processus de génération de contenu et constitue une étape préparatoire intégrale pour la génération d’une expérience d’e-mail.
 
-Si vous utilisez un modèle avec des directives prédéfinies ([!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces directives s’appliquent à vos variantes. Vous pouvez les modifier si vous le souhaitez.
+Si vous utilisez un modèle avec des directives prédéfinies (telles que [!DNL Brands], [!DNL Personas] ou [!DNL Products]), ces directives s’appliquent à vos variantes. Vous pouvez les modifier si vous le souhaitez.
 
 **Pour ajouter des paramètres et des ressources** :
 
@@ -114,7 +114,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 
