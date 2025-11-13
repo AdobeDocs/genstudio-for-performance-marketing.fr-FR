@@ -19,7 +19,7 @@ GenStudio for Performance Marketing exploite [la puissance des directives](overv
 **Pour afficher ou modifier un persona** :
 
 1. Dans la zone de navigation de gauche, cliquez sur **[!UICONTROL Personnages]**.
-1. Pour [afficher des détails individuels ou modifier une personne](add-guidelines.md#manage-personas), cliquez sur le menu d’action _[!DNL Personas]_et sélectionnez **Ouvrir**.
+1. Pour [afficher des détails individuels ou modifier une personne](add-guidelines.md#manage-personas), cliquez sur le menu d’action _[!DNL Personas]_&#x200B;et sélectionnez **Ouvrir**.
 1. Révisez les directives relatives aux personas en cliquant dans un champ de texte de catégorie Directives.
 
 Voir [Ajouter des directives](add-guidelines.md) pour savoir comment ajouter ou modifier une personne dans GenStudio for Performance Marketing.
