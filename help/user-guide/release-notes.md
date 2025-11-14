@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 015f2f14edfb05cab11a66a8e5bc9b357f2e3ab9
+source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
 workflow-type: tm+mt
-source-wordcount: '3763'
+source-wordcount: '4162'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,53 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.10.16 {#latest}
+## 2025.11.14 {#latest}
+
+### Intégration de l’audience Real-Time CDP
+
+* GenStudio for Performance Marketing s’intègre désormais à Adobe Real-Time Customer Data Platform (RTCDP), ce qui permet aux spécialistes marketing d’exploiter les définitions d’audience directement dans le workflow de [!DNL Create].
+* En sélectionnant [!DNL Audience] paramètres pendant la génération du contenu, les marketeurs peuvent créer des copies personnalisées de contenu créatif et d&#39;e-mails en fonction du contexte client, y compris les préférences de messagerie, les segments d&#39;acheteur, les étapes de parcours et les données comportementales.
+
+### Innovid Insights pour l&#39;affichage publicitaire
+
+* [!DNL Insights] inclut désormais Innovid (anciennement Flashtalking) comme un canal d’affichage publicitaire, ce qui permet aux spécialistes marketing d’analyser les performances des campagnes avec Meta, LinkedIn et TikTok dans une plateforme unifiée.
+* Grâce à l’actualisation quotidienne des données et à l’accès aux mesures de performances clés, notamment les impressions, les clics et le CTR, les spécialistes marketing peuvent prendre des décisions d’optimisation plus rapides sans passer d’un outil à l’autre.
+
+### Traduction prête à l’emploi pour les médias payants et les e-mails
+
+* Traduisez instantanément les expériences de médias achetés et d’e-mails approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing.
+* Grâce aux services de traduction Azure Open AI, les équipes peuvent traduire du contenu en masse dans plusieurs langues cibles simultanément.
+
+### Exportation de PDF pour les expériences
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+* Les marketeurs peuvent désormais [exporter des expériences au format PDF](/help/user-guide/content/manage-assets.md#export-experiences) à des fins de révision, d’approbation et d’archivage.
+
+### Modèles personnalisés sur Firefly Image Model 4
+
+* GenStudio for Performance Marketing prend désormais en charge les modèles personnalisés [entraînés sur Adobe Firefly Image Model 4](/help/user-guide/create/generate-assets.md), offrant des fonctionnalités améliorées de génération d’images sur la marque avec un photoréalisme et des détails améliorés.
+
+### activation de publicité vidéo unique Meta
+
+* Les marketeurs peuvent désormais [activer les publicités Meta avec des ressources vidéo uniques](/help/user-guide/activation/activate-meta-ad.md) directement depuis GenStudio for Performance Marketing dans Meta Ads Manager. Cela permet aux acheteurs de médias, aux spécialistes du marketing de la performance et aux équipes créatives de publier en toute transparence des expériences publicitaires vidéo, en conservant le même workflow rationalisé utilisé pour l’activation des publicités statiques.
+* Les utilisateurs peuvent configurer les détails créatifs des publicités vidéo, prévisualiser l’aspect de la vidéo et activer les publicités vidéo sur les plateformes Meta.
+
+### CPA par type d’action pour les campagnes Meta
+
+* Analysez le [coût par action (CPA) avec un suivi de conversion flexible](/help/user-guide/insights/ads.md) pour les campagnes publicitaires Meta.
+* Au lieu d’une mesure fixe unique, effectuez votre choix parmi plusieurs types d’action, tels que des achats, des événements de type ajouter au panier, des prospects, des vues vidéo ou des conversions personnalisées, pour calculer et afficher les CPA des campagnes, annonces, ressources et attributs dans [!DNL Insights].
+
+### Correctifs et améliorations
+
+* Une extension SDK a été ajoutée pour permettre aux clients de se connecter à leur propre gestion des ressources numériques au lieu d’utiliser AEM Assets par défaut pour les ressources lors de la génération du contenu.
+* Les utilisateurs peuvent désormais appliquer des balises [!DNL Brand] afin de regrouper les enregistrements [!DNL Product] et [!DNL Persona] par [!DNL Brand].
+* [!DNL Experience Translations] flux a été optimisé avec la nouvelle fonctionnalité de traduction pour les médias payants et les e-mails.
+
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.10.16
 
 ### Nouveaux plug-ins GenStudio pour Photoshop et Figma
 
@@ -59,8 +105,9 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
    * Maintenir une source unique de vérité en se connectant directement à des systèmes tiers
    * SDK et exemple d’application fournis pour créer des intégrations personnalisées
 
++++
 
-## Notes de mise à jour antérieures
+
 
 +++Notes de la version 2025.09.11
 
@@ -132,7 +179,7 @@ Un nouveau filtre dans le module [!DNL Insights] masque automatiquement les [res
 
 ### Multi-Asset Activation for Meta
 
-L’activation d’images à proportions multiples pour les méta-publicités permet aux annonceurs de charger et d’activer plusieurs ressources d’images dans différentes proportions sous une seule publicité créative. Cette fonctionnalité permet à une annonce publicitaire de présenter l’élément créatif approprié pour différents emplacements de Meta tels que les flux, les histoires et les rouleaux. Les annonceurs peuvent prévisualiser la manière dont chaque image sera rendue à différents emplacements et publier toutes les versions dans les métadonnées dans un seul appel API.
+L’activation d’images à proportions multiples pour les publicités Meta permet aux annonceurs de charger et d’activer plusieurs ressources d’image dans différentes proportions sous une seule création publicitaire. Cette fonctionnalité permet à une annonce publicitaire de présenter l’élément créatif approprié pour différents emplacements de Meta tels que les flux, les histoires et les rouleaux. Les annonceurs peuvent prévisualiser la manière dont chaque image sera rendue à différents emplacements et publier toutes les versions dans les métadonnées dans un seul appel API.
 
 ### Mise en forme de texte enrichi dans les variantes
 
@@ -220,15 +267,15 @@ Avec le contenu de l’image, vous pouvez désormais ajouter des vidéos aux pub
 
 +++Notes de la version 2025.03.13
 
-### Activer les métadonnées
+### Activer les publicités Meta
 
-Les marketeurs peuvent désormais [publier des expériences publicitaires](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing dans le Gestionnaire de métadonnées publicitaires. [!DNL Activate] prend en charge les prévisualisations détaillées des métadonnées de publicité avant le déploiement. Les publicités Meta publiées via [!DNL Activate] sont automatiquement extraites dans le [!DNL Insights] une fois en ligne, ce qui permet aux utilisateurs et utilisatrices de suivre et de générer des rapports sur les performances des publicités.
+Les marketeurs peuvent désormais [publier des expériences publicitaires](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing vers Meta Ads Manager. [!DNL Activate] prend en charge les aperçus détaillés des publicités Meta avant le déploiement. Les publicités Meta publiées via [!DNL Activate] sont automatiquement extraites dans le [!DNL Insights] une fois en ligne, ce qui permet aux utilisateurs et utilisatrices de suivre et de générer des rapports sur les performances des publicités.
 
 ### Création d’expériences LinkedIn
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
-Ajout de la prise en charge de la [&#x200B; création d’expériences LinkedIn &#x200B;](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+Ajout de la prise en charge de la [ création d’expériences LinkedIn ](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Créer des expériences de bannière
 
@@ -238,7 +285,7 @@ Ajout de la prise en charge de la [création d’expériences de bannière](/hel
 
 ### Conformité
 
-Dans le cadre du processus de validation de la marque, des [normes de conformité](/help/user-guide/guidelines/overview.md) ont été introduites dans les [contrôles de contenu](/help/user-guide/guidelines/brand-validation.md). Ces contrôles examinent chaque variante d’une expérience par rapport aux directives [!DNL Brand], aux directives de plateforme (telles que pour Meta) et aux normes ADA. Ce processus fournit un résumé complet des lignes directrices et des normes qui doivent être révisées pour une meilleure conformité.
+Dans le cadre du processus de validation de la marque, des [normes de conformité](/help/user-guide/guidelines/overview.md) ont été introduites dans les [contrôles de contenu](/help/user-guide/guidelines/brand-validation.md). Ces contrôles examinent chaque variante d’une expérience par rapport aux directives [!DNL Brand], aux directives de la plateforme (par exemple, pour Meta) et aux normes ADA. Ce processus fournit un résumé complet des lignes directrices et des normes qui doivent être révisées pour une meilleure conformité.
 
 ### Extensibilité
 
@@ -251,7 +298,7 @@ Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/h
   ![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="500" zoomable="yes"}
 
 * **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image. Voir [Personnaliser un modèle : lien sur une image](/help/user-guide/content/customize-template.md#link-on-image).
-* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [&#x200B; Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [ Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correctifs et améliorations
 
@@ -299,7 +346,7 @@ Vous pouvez désormais générer de nouvelles expressions call-to-action (CTA) l
 
 * Les éditeurs de contenu peuvent désormais modifier les métadonnées des ressources, des expériences et des modèles. <!-- GS-4905 -->
 
-* Les tailles d’image personnalisées dans les métamodèles et les modèles sont désormais prises en charge. <!-- GS-7512 -->
+* Les tailles d’image personnalisées dans les modèles d’annonce Meta sont désormais prises en charge. <!-- GS-7512 -->
 
 * Les sélections de personnes, de marques et de produits sont désormais préchargées lors de la génération du modèle. <!-- GS-8069 -->
 
@@ -389,7 +436,7 @@ De nouvelles fonctionnalités supplémentaires permettent aux éditeurs de :
 
 * Les éditeurs peuvent désormais cliquer simultanément dans les champs de l’e-mail et afficher des publicités. <!-- GS-6297 -->
 
-* La fonctionnalité de modification de fragment pour les e-mails et les méta-annonces est désormais déclenchée comme prévu par un seul clic. <!-- GS-8081 -->
+* La fonctionnalité de modification de fragment pour les publicités Meta et par e-mail est désormais déclenchée comme prévu par un seul clic. <!-- GS-8081 -->
 
 * Amélioration des performances du bouton [!DNL Create] **[!UICONTROL Précédent]**. <!-- GS-6767 -->
 
