@@ -42,7 +42,7 @@ Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun mod
 
    >[!IMPORTANT]
    >
-   >La liste _Emplacement_ n’est disponible que lorsque vous [ vous connecter à un référentiel AEM](connect-aem-repo.md).
+   >La liste _Emplacement_ n’est disponible que lorsque vous [&#x200B; vous connecter à un référentiel AEM](connect-aem-repo.md).
 
 1. Cliquez sur **[!UICONTROL Rechercher]** (loupe) pour saisir un mot-clé ou une description.
 
@@ -150,7 +150,7 @@ Vous pouvez sélectionner une ou plusieurs expériences approuvées à télécha
 
    Une bannière s’affiche avec le nombre d’expériences sélectionnées à gauche et les options [!UICONTROL Activer], [!UICONTROL Télécharger] ou [!UICONTROL Supprimer] à droite.
 
-2. (Facultatif) Si vous choisissez d’activer, il peut vous être demandé de sélectionner une plateforme, puis de poursuivre le workflow de [!DNL Activate]. Voir [ Activer ](/help/user-guide/activation/overview.md).
+2. (Facultatif) Si vous choisissez d’activer, il peut vous être demandé de sélectionner une plateforme, puis de poursuivre le workflow de [!DNL Activate]. Voir [&#x200B; Activer &#x200B;](/help/user-guide/activation/overview.md).
 
 3. Cliquez sur **[!UICONTROL Télécharger]**.
 

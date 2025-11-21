@@ -30,12 +30,12 @@ Les responsables système configurent Adobe GenStudio for Performance Marketing 
 
 Les marques [directives](/help/user-guide/guidelines/overview.md) capturent leurs caractéristiques. Les fonctionnalités d’IA générative sous-jacentes de GenStudio for Performance Marketing utilisent ces directives pour établir des mécanismes de sécurisation qui guident la génération de contenu. Vous pouvez charger des documents [[!DNL Brands] directive](/help/user-guide/guidelines/brands.md) ou saisir manuellement des informations sur la marque.
 
-Les éditeurs de contenu et les collaborateurs ne peuvent pas commencer leur travail tant que les éléments fondamentaux de l’identité de [ marque ](/help/user-guide/guidelines/brands.md) votre organisation ne sont pas établis. Ces composants de marque comprennent à la fois :
+Les éditeurs de contenu et les collaborateurs ne peuvent pas commencer leur travail tant que les éléments fondamentaux de l’identité de [&#x200B; marque &#x200B;](/help/user-guide/guidelines/brands.md) votre organisation ne sont pas établis. Ces composants de marque comprennent à la fois :
 
 * Éléments intangibles, comme le ton de la voix
 * Actifs corporels, tels que logos, palettes de couleurs et typographie.
 
-Avant de créer des directives, découvrez comment GenStudio for Performance Marketing définit [ composants de marque ](/help/user-guide/guidelines/brands.md)
+Avant de créer des directives, découvrez comment GenStudio for Performance Marketing définit [&#x200B; composants de marque &#x200B;](/help/user-guide/guidelines/brands.md)
 
 #### Préparer vos documents d&#39;orientation
 
@@ -53,7 +53,7 @@ Les administrateurs système doivent effectuer des tâches de configuration supp
 
 * Créez un projet dans le Adobe Admin Console.
 
-Voir [ Attribuer des autorisations de marque ](configure-brand-permissions.md).
+Voir [&#x200B; Attribuer des autorisations de marque &#x200B;](configure-brand-permissions.md).
 
 ### Étape 3 : charger des modèles
 
@@ -65,7 +65,7 @@ Voir [Utilisation de modèles](/help/user-guide/templates/use-templates.md).
 
 Les ressources approuvées dans [!DNL Content] sont disponibles pour tous les éditeurs GenStudio for Performance Marketing. Vous pouvez remplir les [!DNL Content] avec des ressources que les éditeurs de contenu pourront utiliser pour créer de nouvelles expériences ou ressources.
 
-Voir [ Chargement de ressources approuvées ](/help/user-guide/content/manage-assets.md).
+Voir [&#x200B; Chargement de ressources approuvées &#x200B;](/help/user-guide/content/manage-assets.md).
 
 ### Étape 5 : Se connecter à un compte média payant
 

@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Générer des images
 
-Avec GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau), vous pouvez générer des ressources générées par _[!DNL On-brand images]_qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Avec GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau), vous pouvez générer des ressources générées par _[!DNL On-brand images]_&#x200B;qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Pour concevoir une image attrayante et efficace, il est recommandé d’[ajouter des instructions à GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) et de consulter les [principes de base de la création d’invites](/help/user-guide/effective-prompts.md).
 
 ## Types d’images
 
-Les _[!DNL On-brand images]_sont des ressources générées qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale. Ces images sont créées à l’aide d’images déjà disponibles dans [!DNL Content] et d’une invite soigneusement conçue qui guide la conception. Ils suivent strictement les directives de la marque et les paramètres choisis au cours du processus de génération.
+Les _[!DNL On-brand images]_&#x200B;sont des ressources générées qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale. Ces images sont créées à l’aide d’images déjà disponibles dans [!DNL Content] et d’une invite soigneusement conçue qui guide la conception. Ils suivent strictement les directives de la marque et les paramètres choisis au cours du processus de génération.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> intégrer des directives, des paramètres et une [invite soigneusement conçue](/help/user-guide/effective-prompts.md) pour offrir des ressources d’images attrayantes.
 
@@ -34,7 +34,7 @@ Vous pouvez générer des [!DNL On-brand images] à l’aide de directives, de p
 
 ### Choisir une image de référence
 
-Pour créer une _[!DNL On-brand images]_, sélectionnez une image existante enregistrée dans [!DNL Content]. Voir [ Bonnes pratiques pour les modèles ](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de [!DNL on-brand image] prises en charge.
+Pour créer une _[!DNL On-brand images]_, sélectionnez une image existante enregistrée dans [!DNL Content]. Voir [&#x200B; Bonnes pratiques pour les modèles &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de [!DNL on-brand image] prises en charge.
 
 **Pour choisir une image de référence** :
 
@@ -124,7 +124,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. Révisez les variantes d’image pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
+Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
 
 <!-- ## Generate Similar images
 

@@ -50,7 +50,7 @@ Utilisez des crochets simples (droits ou courbes) pour indiquer le texte de l’
 
 Il est essentiel de définir des directives claires concernant les canaux pour vous assurer que le contenu généré correspond aux exigences et aux objectifs de votre marque. Les instructions de canal vous permettent de spécifier des règles pour des éléments tels que le ton, la longueur et le style utilisés dans votre modèle. Par exemple, vous pouvez définir un nombre maximal de caractères pour le corps du texte ou exiger un style call-to-action spécifique. En définissant ces directives à l’avance, vous réduisez la nécessité d’écrire des instructions détaillées dans chaque invite d’IA, en rationalisant le processus de génération de contenu et en assurant la cohérence entre vos e-mails.
 
-Examinez et définissez les [directives relatives aux canaux](/help/user-guide/guidelines/brands.md#channel-guidelines) de votre marque pour tous les champs clés de votre modèle. Si vous ne définissez pas de directives, les [ directives de canal par défaut](/help/user-guide/guidelines/brands.md#default-channel-guidelines) sont appliquées, ce qui peut ne pas refléter entièrement les exigences de votre marque.
+Examinez et définissez les [directives relatives aux canaux](/help/user-guide/guidelines/brands.md#channel-guidelines) de votre marque pour tous les champs clés de votre modèle. Si vous ne définissez pas de directives, les [&#x200B; directives de canal par défaut](/help/user-guide/guidelines/brands.md#default-channel-guidelines) sont appliquées, ce qui peut ne pas refléter entièrement les exigences de votre marque.
 
 ![Spécifications du corps](/help/assets/channel-email-body.png)
 
@@ -101,7 +101,7 @@ Lors de la création de modèles, assurez-vous qu’ils répondent aux exigences
 
 - Utilisation d’HTML et de CSS intégré propres et réactifs
 - Utilisation des polices Adobe ou Google
-- N’utilisez **** JavaScript
+- N’utilisez **&#x200B;**&#x200B;JavaScript
 
 {{note-css-effects}}
 

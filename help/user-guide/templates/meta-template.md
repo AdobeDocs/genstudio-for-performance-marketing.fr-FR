@@ -21,10 +21,10 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation des modèl
 - Utiliser une largeur de 360 pixels pour les mises en page de colonnes
 - Utilisez une résolution minimale de 1 080 x 1 080 pixels pour les images
 - Un seul champ d’image est requis
-- N’utilisez **** de taille de police relative
+- N’utilisez **&#x200B;**&#x200B;de taille de police relative
 - Ne **pas définir** fenêtre d’affichage
-- N’utilisez **** JavaScript
-- Ne remplacez **** un élément HTML dans le CSS
+- N’utilisez **&#x200B;**&#x200B;JavaScript
+- Ne remplacez **&#x200B;**&#x200B;un élément HTML dans le CSS
 - Utiliser la balise `<img>` au lieu de `background-image`
 - Utilisez le masquage pour améliorer la lisibilité du texte sur les images d’arrière-plan
 - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle
