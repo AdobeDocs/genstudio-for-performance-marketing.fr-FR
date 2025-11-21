@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences d’affichage réussies](/help/user-guide/create/create-display-ad.md).
 
-[!DNL Create] permet aux professionnels du marketing modernes de [produire des expériences d’affichage et de publicité cohérentes avec la marque](/help/user-guide/create/create-display-ad.md) à l’aide de [directives](/help/user-guide/guidelines/overview.md), de ressources d’image et d’une [&#x200B; invite bien conçue](/help/user-guide/effective-prompts.md).
+[!DNL Create] permet aux professionnels du marketing modernes de [produire des expériences d’affichage et de publicité cohérentes avec la marque](/help/user-guide/create/create-display-ad.md) à l’aide de [directives](/help/user-guide/guidelines/overview.md), de ressources d’image et d’une [ invite bien conçue](/help/user-guide/effective-prompts.md).
 
 Lors de la génération de l’affichage et des expériences, quatre variations sont créées et affichées dans la zone de travail.
 
@@ -30,7 +30,7 @@ Les sections modifiables d’un affichage et d’une expérience sont les suivan
 * Call to action (CTA)
 * Image
 
-Voir [Éléments de modèle](/help/user-guide/content/use-templates.md#template-elements).
+Voir [Éléments de modèle](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Character counts
 

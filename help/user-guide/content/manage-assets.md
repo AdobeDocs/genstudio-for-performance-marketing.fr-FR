@@ -3,7 +3,7 @@ title: Gestion d’Assets et d’expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque en vue de leur utilisation et réutilisation dans votre parcours de marketing numérique.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 279bf9e1fab24c286df4a0600b472c456231ddb6
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun mod
 
    >[!IMPORTANT]
    >
-   >La liste _Emplacement_ n’est disponible que lorsque vous [&#x200B; vous connecter à un référentiel AEM](connect-aem-repo.md).
+   >La liste _Emplacement_ n’est disponible que lorsque vous [ vous connecter à un référentiel AEM](connect-aem-repo.md).
 
 1. Cliquez sur **[!UICONTROL Rechercher]** (loupe) pour saisir un mot-clé ou une description.
 
@@ -84,7 +84,7 @@ Le tableau suivant répertorie les tâches de gestion disponibles pour les resso
 | [Créer une expérience](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Modifier dans Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Exporter des expériences](#export-experiences) |        | ✓ |           |
-| [Actualiser](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
+| [Actualiser](/help/user-guide/templates/use-templates.md#refresh-template) |   |      | ✓ |
 | [Télécharger](#download-assets) | ✓ |             | ✓ |
 | [Supprimer](#delete-assets) | ✓ | ✓ | ✓ |
 
@@ -150,7 +150,7 @@ Vous pouvez sélectionner une ou plusieurs expériences approuvées à télécha
 
    Une bannière s’affiche avec le nombre d’expériences sélectionnées à gauche et les options [!UICONTROL Activer], [!UICONTROL Télécharger] ou [!UICONTROL Supprimer] à droite.
 
-2. (Facultatif) Si vous choisissez d’activer, il peut vous être demandé de sélectionner une plateforme, puis de poursuivre le workflow de [!DNL Activate]. Voir [&#x200B; Activer &#x200B;](/help/user-guide/activation/overview.md).
+2. (Facultatif) Si vous choisissez d’activer, il peut vous être demandé de sélectionner une plateforme, puis de poursuivre le workflow de [!DNL Activate]. Voir [ Activer ](/help/user-guide/activation/overview.md).
 
 3. Cliquez sur **[!UICONTROL Télécharger]**.
 

@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
-source-git-commit: 85cc8ee51bd6b934811583dc0a8460d6d7083a70
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 1%
@@ -21,9 +21,9 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 - Utilisation des polices Adobe ou Google
 - Préparation des ressources qui s’affichent correctement dans les dimensions compactes
 - Un seul champ d’image est requis
-- N’utilisez **&#x200B;**&#x200B;d’images d’arrière-plan incorporées ou codées
+- N’utilisez **** d’images d’arrière-plan incorporées ou codées
 - Utilisez des images d’arrière-plan (champ `image`) chargées dans le référentiel de contenu GenStudio for Performance Marketing. Respectez les instructions de la section [Chargement d’images pour les publicités display](#uploading-images-for-display-ads) pour obtenir les meilleurs résultats
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle
 
 ## Noms de champs reconnus
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing génère automatiquement les champs suivants
 
 - `cta`
 
-Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
+Voir [Espaces réservés de contenu](/help/user-guide/templates/customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 
 ## Dimensions prises en charge
 

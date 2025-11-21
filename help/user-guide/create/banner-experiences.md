@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponib
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 1%
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketing vous permet d’exploiter l’IA générative pour améliorer la [création d’expériences de bannières réussies](/help/user-guide/create/create-banner-experience.md).
 
-[!DNL Create] permet aux professionnels du marketing modernes de [créer des expériences de bannières cohérentes](/help/user-guide/create/create-banner-experience.md) à l’aide de [directives](/help/user-guide/guidelines/overview.md), de ressources d’image et d’une [&#x200B; invite bien conçue](/help/user-guide/effective-prompts.md).
+[!DNL Create] permet aux professionnels du marketing modernes de [créer des expériences de bannières cohérentes](/help/user-guide/create/create-banner-experience.md) à l’aide de [directives](/help/user-guide/guidelines/overview.md), de ressources d’image et d’une [ invite bien conçue](/help/user-guide/effective-prompts.md).
 
 Lors de la génération d’expériences de bannière, quatre variations sont créées et affichées dans la zone de travail.
 
-Consultez [Suivre les directives relatives aux modèles spécifiques aux canaux](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions prises en charge, les noms de champs reconnus, etc.
+Consultez [Suivre les directives relatives aux modèles spécifiques aux canaux](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions prises en charge, les noms de champs reconnus, etc.
 
 Les sections modifiables d’un affichage et d’une expérience sont les suivantes :
 
@@ -31,7 +31,7 @@ Les sections modifiables d’un affichage et d’une expérience sont les suivan
 * Call to action (CTA)
 * Image
 
-Voir [Éléments de modèle](/help/user-guide/content/use-templates.md#template-elements).
+Voir [Éléments de modèle](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Character counts
 

@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 1%
@@ -21,10 +21,10 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation des modèl
 - Utiliser une largeur de 360 pixels pour les mises en page de colonnes
 - Utilisez une résolution minimale de 1 080 x 1 080 pixels pour les images
 - Un seul champ d’image est requis
-- N’utilisez **&#x200B;**&#x200B;de taille de police relative
+- N’utilisez **** de taille de police relative
 - Ne **pas définir** fenêtre d’affichage
-- N’utilisez **&#x200B;**&#x200B;JavaScript
-- Ne remplacez **&#x200B;**&#x200B;un élément HTML dans le CSS
+- N’utilisez **** JavaScript
+- Ne remplacez **** un élément HTML dans le CSS
 - Utiliser la balise `<img>` au lieu de `background-image`
 - Utilisez le masquage pour améliorer la lisibilité du texte sur les images d’arrière-plan
 - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle
@@ -42,7 +42,7 @@ GenStudio for Performance Marketing génère automatiquement les champs suivants
 - `body`
 - `cta`
 
-Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
+Voir [Espaces réservés de contenu](/help/user-guide/templates/customize-template.md#content-placeholders) pour en savoir plus sur l’utilisation de noms de champ dans les modèles.
 
 ## Proportions prises en charge
 

@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Les instructions de GenStudio for Performance Marketing aident l’IA générati
 
 ### Invites structurées
 
-Pour les e-mails à plusieurs sections, vous pouvez structurer des invites pour fournir des instructions spécifiques à la section afin de générer un contenu variable pour chaque section d&#39;un e-mail. Les invites structurées doivent référencer directement les [noms de section dans le modèle d&#39;email](/help/user-guide/content/customize-template.md#sections-or-groups) afin que le contenu généré puisse être inséré dans les espaces réservés de contenu correspondants.
+Pour les e-mails à plusieurs sections, vous pouvez structurer des invites pour fournir des instructions spécifiques à la section afin de générer un contenu variable pour chaque section d&#39;un e-mail. Les invites structurées doivent référencer directement les [noms de section dans le modèle d&#39;email](/help/user-guide/templates/customize-template.md#sections-or-groups) afin que le contenu généré puisse être inséré dans les espaces réservés de contenu correspondants.
 
 Par exemple, vous pouvez demander à GenStudio for Performance Marketing de générer du contenu pour un e-mail qui promeut un nouveau produit dans la première section et détaille les avantages en termes de réduction des coûts dans la seconde section.
 
@@ -93,7 +93,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-Voir [Bonnes pratiques relatives à l’utilisation des modèles](/help/user-guide/content/best-practices-for-templates.md).
+Voir [Bonnes pratiques relatives à l’utilisation des modèles](/help/user-guide/templates/best-practices-for-templates.md).
 
 ## Réessayez
 

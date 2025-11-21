@@ -4,7 +4,7 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '4162'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Le nouveau sélecteur Langue dans le tiroir d’invite prend en charge la créat
 
 Plusieurs champs de texte avec le même rôle sont désormais pris en charge (par exemple, « body », « cta », « on image text », etc.) pour les modèles clients complexes.
 
-Explorez les détails dans [les conseils pour l’éditeur de code de modèle](/help/user-guide/content/code-editor.md).
+Explorez les détails dans [les conseils pour l’éditeur de code de modèle](/help/user-guide/templates/code-editor.md).
 
 ### Nouveaux modèles de génération d’images Firefly pris en charge
 
@@ -248,7 +248,7 @@ Avec le contenu de l’image, vous pouvez désormais ajouter des vidéos aux pub
 ### Correctifs et améliorations
 
 * Activation de la fonctionnalité [ajout d’un texte secondaire (alt)](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) à une image pour une variante individuelle.
-* Ajout d’un [nouveau format Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paysage 1,19 :1 (largeur de 1 080 pixels).
+* Ajout d’un [nouveau format Meta](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paysage 1,19 :1 (largeur de 1 080 pixels).
 * Vous pouvez désormais choisir plusieurs expériences à exporter ou télécharger. Voir [Exporter des expériences](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -258,9 +258,9 @@ Avec le contenu de l’image, vous pouvez désormais ajouter des vidéos aux pub
 
 ### Correctifs et améliorations
 
-* Nouvelles options de filtre pour les modèles ! Vous pouvez maintenant affiner votre liste _[!UICONTROL Sélectionner des modèles]_ dans [!DNL Create] et dans _[!UICONTROL Contenu]_ > _[!UICONTROL Modèles]_. Voir [Modèles de recherche](/help/user-guide/content/use-templates.md#search-templates). Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
+* Nouvelles options de filtre pour les modèles ! Vous pouvez maintenant affiner votre liste _[!UICONTROL Sélectionner des modèles]_ dans [!DNL Create] et dans _[!UICONTROL Contenu]_ > _[!UICONTROL Modèles]_. Voir [Modèles de recherche](/help/user-guide/templates/use-templates.md#search-templates). Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
 * Activation de la fonctionnalité [affichage et sélection de calques individuels](/help/user-guide/create/manage-variants.md#view-layers) tels que des champs de texte modifiables ou des images modifiables) d’une expérience afin de les mettre en surbrillance pour les révisions, telles que la régénération de contenu ou le recadrage d’images.
-* Ajout d’un [nouveau champ de modèle](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, pour du texte supplémentaire dans les expériences afin de capter l’attention de l’audience et de mettre en évidence les messages marketing.
+* Ajout d’un [nouveau champ de modèle](/help/user-guide/templates/use-templates.md#template-elements), `sub-headline`, pour du texte supplémentaire dans les expériences afin de capter l’attention de l’audience et de mettre en évidence les messages marketing.
 * Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/overview.md) depuis GenStudio for Performance Marketing dans Google Campaign Manager 360. Activer prend en charge les aperçus détaillés des annonces Google Campaign Manager 360 avant leur publication sur un annonceur Campaign Manager 360. Les publicités publiées via Activer sont automatiquement extraites dans Insights une fois en ligne, ce qui permet aux utilisateurs et utilisatrices de suivre et de générer des rapports sur les performances des publicités.
 
 +++
@@ -275,13 +275,13 @@ Les marketeurs peuvent désormais [publier des expériences publicitaires](/help
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
-Ajout de la prise en charge de la [&#x200B; création d’expériences LinkedIn &#x200B;](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+Ajout de la prise en charge de la [ création d’expériences LinkedIn ](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Créer des expériences de bannière
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
-Ajout de la prise en charge de la [création d’expériences de bannière](/help/user-guide/create/create-banner-experience.md). Consultez l’onglet [Bannière](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+Ajout de la prise en charge de la [création d’expériences de bannière](/help/user-guide/create/create-banner-experience.md). Consultez l’onglet [Bannière](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Conformité
 
@@ -293,12 +293,12 @@ Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/h
 
 ### Modèles
 
-* **Éditeur de code de modèle** : le nouvel [Éditeur de code de modèle](/help/user-guide/content/code-editor.md) vous permet de vérifier et d’affiner votre modèle pour une utilisation optimale lors de la génération de nouvelles expériences avec GenStudio for Performance Marketing.
+* **Éditeur de code de modèle** : le nouvel [Éditeur de code de modèle](/help/user-guide/templates/code-editor.md) vous permet de vérifier et d’affiner votre modèle pour une utilisation optimale lors de la génération de nouvelles expériences avec GenStudio for Performance Marketing.
 
   ![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="500" zoomable="yes"}
 
-* **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image. Voir [Personnaliser un modèle : lien sur une image](/help/user-guide/content/customize-template.md#link-on-image).
-* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [&#x200B; Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+* **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image. Voir [Personnaliser un modèle : lien sur une image](/help/user-guide/templates/customize-template.md#link-on-image).
+* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [ Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correctifs et améliorations
 
@@ -336,7 +336,7 @@ Les programmes Beta permettent de façonner le développement de produits et de 
 
 ### Générer de nouveaux appels à l’action
 
-Vous pouvez désormais générer de nouvelles expressions call-to-action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/content/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des CTA dans les variantes, voir [Revise Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Vous pouvez désormais générer de nouvelles expressions call-to-action (CTA) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour générer de nouvelles expressions et modifier le lien CTA. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [Appels à l’action](/help/user-guide/templates/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des CTA dans les variantes, voir [Revise Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correctifs et améliorations
 
@@ -382,7 +382,7 @@ Les éditeurs peuvent désormais spécifier des valeurs personnalisées pour ces
 
 * Dimensions des images dans les expériences d’affichage et de publicité lors du chargement des images.<!-- GS-7166 -->
 
-* Consultez les instructions spécifiques aux canaux dans la section [Bonnes pratiques pour les modèles](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+* Consultez les instructions spécifiques aux canaux dans la section [Bonnes pratiques pour les modèles](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Les options d’exportation incluent désormais :
 
@@ -446,7 +446,7 @@ De nouvelles fonctionnalités supplémentaires permettent aux éditeurs de :
 
 ### Nouvelles fonctionnalités
 
-Ajout de la prise en charge de l’affichage de contenu statique hébergé sur des domaines externes. GenStudio for Performance Marketing valide la source de contenu définie dans le modèle et incorpore une copie pour produire l’aperçu du modèle. Voir [Contenu statique](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
+Ajout de la prise en charge de l’affichage de contenu statique hébergé sur des domaines externes. GenStudio for Performance Marketing valide la source de contenu définie dans le modèle et incorpore une copie pour produire l’aperçu du modèle. Voir [Contenu statique](/help/user-guide/templates/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Correctifs et améliorations
 

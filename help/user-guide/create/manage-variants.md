@@ -3,7 +3,7 @@ title: Gérer les variantes
 description: Personnalisez et améliorez les variantes et les ressources générées pour répondre à vos besoins de marketing numérique.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -196,7 +196,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 
@@ -204,7 +204,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 
 ## Ajouter des liens
 
-Vous pouvez ajouter un lien vers le texte, les images et les boutons CTA dans vos variantes. Le modèle que vous avez utilisé pour générer des variantes _doit_ contenir un espace réservé [de contenu pour le lien](/help/user-guide/content/customize-template.md#content-placeholders) pour activer cette fonctionnalité.
+Vous pouvez ajouter un lien vers le texte, les images et les boutons CTA dans vos variantes. Le modèle que vous avez utilisé pour générer des variantes _doit_ contenir un espace réservé [de contenu pour le lien](/help/user-guide/templates/customize-template.md#content-placeholders) pour activer cette fonctionnalité.
 
 **Pour ajouter un lien dans une variante** :
 
@@ -221,7 +221,7 @@ Vous pouvez ajouter un lien vers le texte, les images et les boutons CTA dans vo
 
 Lorsque vous ajoutez du contenu (des images) pendant le processus de création, vous pouvez définir du texte secondaire pour chaque image incluse. L’ajout de texte secondaire aux images améliore l’accessibilité, l’optimisation du moteur de recherche et l’expérience utilisateur.
 
-Pour activer la fonctionnalité de texte de remplacement, [ajoutez un espace réservé de contenu](/help/user-guide/content/customize-template.md#alternative-text) dans le modèle.
+Pour activer la fonctionnalité de texte de remplacement, [ajoutez un espace réservé de contenu](/help/user-guide/templates/customize-template.md#alternative-text) dans le modèle.
 
 **Pour ajouter du texte secondaire aux images dans des variantes générées** :
 
@@ -247,7 +247,7 @@ Attribuez un nom accessible aux liens d’image et de call-to-action dans vos va
 1. Cliquez dans la zone de texte et ajoutez une brève description expliquant le rôle du lien ou du bouton. Par exemple, vous pouvez utiliser « Acheter sur le site officiel de WKND » pour un lien de bouton call to action.
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
-Pour activer la fonctionnalité de libellé d’accessibilité, [ajoutez un espace réservé de contenu](/help/user-guide/content/customize-template.md) dans le modèle.
+Pour activer la fonctionnalité de libellé d’accessibilité, [ajoutez un espace réservé de contenu](/help/user-guide/templates/customize-template.md) dans le modèle.
 
 ## Aperçu pour l’appareil
 
@@ -275,7 +275,7 @@ Supprimez les variantes inutiles afin que la zone de travail n’affiche que les
 
 Utilisez le panneau _Vérification de contenu_ pour conserver une identité de marque cohérente, [les normes d’accessibilité ADA](/help/user-guide/guidelines/overview.md#content-checks), les directives relatives aux plateformes et l’alignement des variantes.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Retour d’informations de génération
 

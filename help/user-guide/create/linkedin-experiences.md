@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponib
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Les sections modifiables d’une expérience LinkedIn sont les suivantes :
 * Call to action (CTA)
 * Image/Vidéo
 
-Voir [Éléments de modèle](/help/user-guide/content/use-templates.md#template-elements).
+Voir [Éléments de modèle](/help/user-guide/templates/use-templates.md#template-elements).
 
 ## Charge progressive
 
@@ -43,10 +43,10 @@ Chaque champ et section des expériences LinkedIn sont progressivement chargés 
 1. Texte sur l’image
 1. Validation de la marque
 
-   Le processus de validation de la marque et de vérification du contenu se produit et le résumé [_vérification du contenu_ &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-summary) est renseigné pour chaque variante.
+   Le processus de validation de la marque et de vérification du contenu se produit et le résumé [_vérification du contenu_ ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) est renseigné pour chaque variante.
 
 ## Nombre de caractères
 
 Après avoir généré un ensemble de variantes LinkedIn, vous pouvez voir le nombre de caractères affichés pour chaque section. Pointez ou cliquez sur une section générée, telle que l’objet ou le corps, et consultez le nom de la section et le nombre de caractères correspondants.
 
-![&#x200B; Nombre de caractères &#x200B;](/help/assets/character-count.png){width="500" zoomable="yes"}
+![ Nombre de caractères ](/help/assets/character-count.png){width="500" zoomable="yes"}
