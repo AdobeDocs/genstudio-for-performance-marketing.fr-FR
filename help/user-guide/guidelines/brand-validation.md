@@ -3,9 +3,9 @@ title: Validation de la marque dans Adobe GenStudio for Performance Marketing
 description: Découvrez comment fonctionne le système de validation de marque intégré dans GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
+source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing effectue la validation de la marque et d’a
 
 * Instructions d’[!DNL Brand] définies ou par défaut
 * Instructions relatives à Platform
-* Normes de l’American with Disabilities Act (ADA)
+* [Normes de l’American with Disabilities Act (ADA)](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -40,7 +40,7 @@ Voir [Amélioration de l’alignement des marques](#improve-brand-alignment).
 
 ## Panneau de vérification du contenu
 
-Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ &#x200B;](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
+Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ ](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
 
 ![Panneau de vérification du contenu](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
@@ -81,8 +81,19 @@ Pour optimiser l’efficacité du contenu généré et maintenir une identité d
 
    Utilisez le raisonnement fourni pour chaque vérification afin de vous guider dans la révision des images et des variantes.
 
-1. Après avoir effectué les révisions nécessaires, cliquez sur **[!UICONTROL Vérifier à nouveau le score]** pour revérifier et valider vos modifications afin de vous assurer qu’elles sont plus étroitement alignées sur l’identité de votre marque, les directives de la plateforme et les normes d’accessibilité.
+1. Après avoir apporté les révisions nécessaires, cliquez sur **[!UICONTROL Vérifier à nouveau le score]** pour revérifier et valider vos modifications afin de vous assurer qu’elles sont alignées sur l’identité de votre marque, les directives de la plateforme et les normes d’accessibilité.
 
    Le processus de vérification du contenu s’exécute à nouveau. Si les éléments modifiés sont validés, une bannière verte s’affiche au bas de la zone de travail pour confirmer que le score a été mis à jour. Si aucune modification n’a été apportée après une nouvelle vérification, la bannière confirme qu’aucune modification n’a été apportée au score. Le pourcentage de l’icône de résumé _Vérification de contenu_ pour la variante révisée indique également votre progression.
 
 1. Continuez à réviser les sections pour vous assurer que la variante entière réussit la validation et les contrôles d’accessibilité. Parcourez chaque variante à l’aide des flèches adjacentes à une variante individuelle dans la zone de travail.
+
+## Validation de l’American with Disabilities Act (ADA)
+
+Ces contrôles d’accessibilité sont inclus pour assurer la conformité légale avec la loi « Americans with Disabilities Act » (ADA) :
+
+[Contenu non textuel WCAG 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) - S’assure que les images fournissent un attribut `<alt>`.
+[Contraste WCAG 1.4.3 (minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) : garantit que le texte généré présente un contraste de 4,5 :1 par rapport à son arrière-plan.
+[WCAG 3.1.3 Mots inhabituels](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) - Identifie les mots ou expressions utilisés de manière inhabituelle ou restreinte, y compris les idiomes et le jargon.
+[WCAG 3.1.4 Abréviations](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) - Mécanisme d’identification de la forme développée ou de la signification des abréviations.
+[Niveau de lecture WCAG 3.1.5](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) - Garantit que le contenu est lisible au niveau de l’enseignement secondaire inférieur.
+
