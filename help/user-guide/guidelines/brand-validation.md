@@ -40,7 +40,7 @@ Voir [Amélioration de l’alignement des marques](#improve-brand-alignment).
 
 ## Panneau de vérification du contenu
 
-Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ ](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
+Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ &#x200B;](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
 
 ![Panneau de vérification du contenu](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
