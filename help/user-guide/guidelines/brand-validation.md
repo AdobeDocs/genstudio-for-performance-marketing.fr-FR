@@ -1,11 +1,11 @@
 ---
 title: Validation de la marque dans Adobe GenStudio for Performance Marketing
-description: Découvrez comment fonctionne le système de validation de marque intégré dans GenStudio for Performance Marketing.
+description: Découvrez le système de validation de marque intégré à GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
+source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing effectue la validation de la marque et d’a
 
 * Instructions d’[!DNL Brand] définies ou par défaut
 * Instructions relatives à Platform
-* [Normes de l’American with Disabilities Act (ADA)](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
+* [ Prise en charge de l’accessibilité ](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -40,7 +40,7 @@ Voir [Amélioration de l’alignement des marques](#improve-brand-alignment).
 
 ## Panneau de vérification du contenu
 
-Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ &#x200B;](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
+Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ ](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
 
 ![Panneau de vérification du contenu](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
@@ -87,13 +87,16 @@ Pour optimiser l’efficacité du contenu généré et maintenir une identité d
 
 1. Continuez à réviser les sections pour vous assurer que la variante entière réussit la validation et les contrôles d’accessibilité. Parcourez chaque variante à l’aide des flèches adjacentes à une variante individuelle dans la zone de travail.
 
-## Validation de l’American with Disabilities Act (ADA)
+## Prise en charge de votre stratégie d’accessibilité
 
-Ces contrôles d’accessibilité sont inclus pour assurer la conformité légale avec la loi « Americans with Disabilities Act » (ADA) :
+GenStudio for Performance Marketing comprend des vérifications de contenu conçues pour aider les clients à prendre en charge leurs propres bonnes pratiques en matière d’accessibilité.
 
-[Contenu non textuel WCAG 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) - S’assure que les images fournissent un attribut `<alt>`.
-[Contraste WCAG 1.4.3 (minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) : garantit que le texte généré présente un contraste de 4,5 :1 par rapport à son arrière-plan.
-[WCAG 3.1.3 Mots inhabituels](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) - Identifie les mots ou expressions utilisés de manière inhabituelle ou restreinte, y compris les idiomes et le jargon.
-[WCAG 3.1.4 Abréviations](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) - Mécanisme d’identification de la forme développée ou de la signification des abréviations.
-[Niveau de lecture WCAG 3.1.5](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) - Garantit que le contenu est lisible au niveau de l’enseignement secondaire inférieur.
+Cette fonctionnalité inclut les vérifications de contenu suivantes :
 
+* Les images fournissent un attribut `<alt>`.
+* Le texte généré offre un contraste de 4,5 :1 par rapport à son arrière-plan.
+* Les mots ou expressions utilisés de manière inhabituelle ou restreinte, y compris les idiomes et le jargon, sont évités.
+* Des formulaires développés ou la signification des abréviations sont disponibles.
+* Le contenu est lisible au niveau de l&#39;enseignement secondaire inférieur.
+
+Nous recommandons aux clients d’utiliser ces fonctionnalités dans le cadre de leur stratégie d’accessibilité globale, bien qu’ils restent responsables de leur propre conformité juridique et en matière d’accessibilité.
