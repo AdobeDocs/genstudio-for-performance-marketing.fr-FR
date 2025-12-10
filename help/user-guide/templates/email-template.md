@@ -20,7 +20,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation de modèle
 
 - Utilisation des polices Adobe ou Google
 - Utilisation d’HTML et de CSS intégré propres et réactifs
-- N’utilisez **** JavaScript
+- N’utilisez **&#x200B;**&#x200B;JavaScript
 - N **utilisez pas** largeur fixe dans le corps ou le conteneur
 - N’utilisez **pas** codage base64 pour les images, car il peut augmenter considérablement la taille du modèle
 - La taille maximale du fichier HTML est de 102 Ko
