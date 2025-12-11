@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Création d’une expérience publicitaire Meta
 
-Ce tutoriel explique comment générer des expériences publicitaires Meta de marque [](/help/user-guide/create/meta-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel explique comment générer des expériences publicitaires Meta de marque [&#128279;](/help/user-guide/create/meta-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
 Avant de commencer à générer une expérience publicitaire Meta, il est important d’[incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio for Performance Marketing et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
 
@@ -137,7 +137,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
+Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 
