@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
+source-git-commit: 0db148b99a78714020b0ad4d9c1f71e6ccc945b5
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Si vous utilisez un modèle avec des directives prédéfinies (telles que [!DNL 
 1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir d’invite.
 1. Dans la section _Paramètres_, sélectionnez les instructions ([!DNL Brands], [!DNL Personas] et [!DNL Products]) pour informer la création de contenu.
 
-   ![Choisir une persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![Choisir une persona](/help/assets/persona-select-email.png){width="300" align="center"}
 
    Si aucune marque, personnage ou produit n’est disponible à partir de ces menus, [ajoutez des conseils à votre GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -114,7 +114,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 
