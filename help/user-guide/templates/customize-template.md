@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
+source-git-commit: 4f3d8558f37656ccfc67b592e0bb9e90c30a7963
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -222,18 +222,26 @@ Syntaxe : `groupname_fieldname`
 - _Correct_ (👍) : `pod1_body`
 - _Incorrect_ (❌) : `pod1body`
 
-Chaque section ne peut utiliser qu’une seule de chaque type de champ. En raison de cette règle, les sections ne peuvent pas être imbriquées.
-
-Par exemple, les champs suivants appartiennent à la section `pod1` :
+Chaque section ne peut utiliser qu’un seul de chaque type de champ. Par exemple, les champs suivants appartiennent à la section `pod1` :
 
 - `pod1_headline`
 - `pod1_body`
 - `pod1_image`
 - `pod1_cta`
 
-GenStudio for Performance Marketing comprend que `pod1_headline` est plus étroitement lié à `pod1_body` qu’à `pod2_body`.
+Pour cette raison, les sections ne peuvent pas être imbriquées.
 
 Chaque type de modèle, tel qu’une publicité par e-mail ou Meta, présente des contraintes spécifiques au canal quant à l’utilisation des sections. Consultez les [instructions spécifiques aux canaux](/help/user-guide/templates/best-practices-for-templates.md) dans la rubrique _Bonnes pratiques relatives à l’utilisation des modèles_.
+
+Par exemple, un modèle d’e-mail peut inclure jusqu’à trois sections. Par conséquent, vous pouvez avoir trois sections de titre et de corps :
+
+- `pre_header`
+- `pod1_headline`, `pod1_body`
+- `pod2_headline`, `pod2_body`
+- `pod3_headline`, `pod3_body`
+- `cta`
+
+GenStudio for Performance Marketing comprend que `pod1_headline` est plus étroitement lié à `pod1_body` qu’à `pod2_body`.
 
 >[!TIP]
 >
