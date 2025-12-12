@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
 workflow-type: tm+mt
-source-wordcount: '4162'
+source-wordcount: '4225'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,15 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.11.14 {#latest}
+## 2025.12.12 {#latest}
+
+### Permutation de logo pour les modèles
+
+Les marketeurs peuvent désormais permuter dynamiquement les logos dans les modèles directement dans le workflow de [!DNL Create], ce qui élimine la nécessité de créer plusieurs variations de modèles pour différents logos, sous-marques ou lignes de produits. Cette fonctionnalité permet aux créateurs de sélectionner ou de remplacer le logo approprié au moment de la création de contenu, ce qui simplifie la gestion des modèles et réduit les frais généraux de production.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.11.14
 
 ### Intégration de l’audience Real-Time CDP
 
@@ -58,6 +66,7 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
 * Les utilisateurs peuvent désormais appliquer des balises [!DNL Brand] afin de regrouper les enregistrements [!DNL Product] et [!DNL Persona] par [!DNL Brand].
 * [!DNL Experience Translations] flux a été optimisé avec la nouvelle fonctionnalité de traduction pour les médias payants et les e-mails.
 
++++
 
 ## Notes de mise à jour antérieures
 
@@ -275,7 +284,7 @@ Les marketeurs peuvent désormais [publier des expériences publicitaires](/help
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
-Ajout de la prise en charge de la [&#x200B; création d’expériences LinkedIn &#x200B;](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+Ajout de la prise en charge de la [ création d’expériences LinkedIn ](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Créer des expériences de bannière
 
@@ -298,7 +307,7 @@ Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/h
   ![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="500" zoomable="yes"}
 
 * **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image. Voir [Personnaliser un modèle : lien sur une image](/help/user-guide/templates/customize-template.md#link-on-image).
-* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [&#x200B; Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
+* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [ Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correctifs et améliorations
 
