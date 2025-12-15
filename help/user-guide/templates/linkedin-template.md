@@ -5,10 +5,10 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 85432185-8311-411b-b57b-f482c3d45854
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: ff694925dea4741d13ae71a68e23a5e604134521
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 2%
 
 ---
 
@@ -41,13 +41,15 @@ Voir [Espaces réservés de contenu](/help/user-guide/templates/customize-templa
 
 ## Proportions prises en charge
 
-| Format | Plateforme | Taille minimale (px) | Taille max. (px) | Notes |
-|-------------------|-----------------|---------------|----------------|-------------------------------------------------------------------------------------|
-| Carré 1:1 | Ordinateur de bureau, mobile | 360 x 360 | 4320 x 4320 | Le plus polyvalent. Idéal pour un aspect cohérent sur tous les appareils et emplacements. |
-| Horizontal 1,91:1 | Ordinateur de bureau | 640 x 360 | 7680 x 4320 | Format paysage standard. Généralement utilisé pour le contenu sponsorisé et les annonces de flux d’actualités. |
-| Vertical 1:1,91 | Mobile | 360 x 640 | 2430 x 4320 | Format vertical élevé. Optimisé pour l’affichage mobile, offrant une présence accrue sur l’écran. |
-| Vertical 2:3 | Mobile | 360 x 640 | 2430 x 4320 | Légèrement moins haut que 1:1,91. Idéal pour les campagnes mobiles-first. |
-| Vertical 4:5 | Mobile | 360 x 640 | 2430 x 4320 | Recommandé pour mobile. Équilibre visibilité et contenu, ce qui a souvent un impact plus important. |
+Toutes les largeurs du modèle LinkedIn sont codées en dur à 1 200 pixels.
+
+| Format | Plateforme | Dimensions (px) | Notes |
+|-------------------|-----------------|------------|-------------------------------------------------------------------------------------|
+| Carré 1:1 | Ordinateur de bureau, mobile | 1 200 x 1 200 | Le plus polyvalent. Idéal pour un aspect cohérent sur tous les appareils et emplacements. |
+| Horizontal 1,91:1 | Ordinateur de bureau | 1200 x 628 | Format paysage standard. Généralement utilisé pour le contenu sponsorisé et les annonces de flux d’actualités. |
+| Vertical 1:1,91 | Mobile | 1 200 x 2 292 | Format vertical élevé. Optimisé pour l’affichage mobile, offrant une présence accrue sur l’écran. |
+| Vertical 2:3 | Mobile | 1 200 x 1 800 | Légèrement moins haut que 1:1,91. Idéal pour les campagnes mobiles-first. |
+| Vertical 4:5 | Mobile | 1 200 x 1 500 | Recommandé pour mobile. Équilibre visibilité et contenu, ce qui a souvent un impact plus important. |
 
 <!-- Potentially add an example
 
