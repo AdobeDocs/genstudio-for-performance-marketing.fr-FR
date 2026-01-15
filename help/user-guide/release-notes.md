@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations apport
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
+source-git-commit: c7300b3f531947081253aaf719e099512b419539
 workflow-type: tm+mt
-source-wordcount: '4225'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,31 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2025.12.12 {#latest}
+## 2026,01 {#latest}
+
+### Reconception du panneau d’invite de la zone de travail d’HTML
+
+Le tiroir d’invite de la zone de travail d’HTML [!DNL Create] s’affiche désormais sous la forme d’un panneau de gauche sur les e-mails, les publicités display et les publicités multimédia payantes, et remplace le tiroir inférieur précédent. Cette actualisation conserve la même fonctionnalité de base tout en améliorant la disposition et la cohérence de l’espace de travail lors de la génération du contenu.
+
+### Génération d’e-mails multi-pod jusqu’à 10 sections
+
+Vous pouvez désormais créer des e-mails avec jusqu’à 10 pods/sections dans [!DNL Create], ce qui permet d’étendre la génération d’e-mails multipod au-delà de la limite précédente de 1 à 3 pods. Cette amélioration permet d’obtenir des dispositions d’e-mail plus riches et plus structurées dans un flux de génération unique sans assembler le contenu sur plusieurs passages.
+
+### Content Credentials pour l’authenticité des ressources
+
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+GenStudio for Performance Marketing prend désormais en charge Content Credentials, ce qui permet aux équipes d’appliquer et de conserver des métadonnées d’authenticité sur les ressources tout au long de leur création, révision et exportation. Les badges et détails d’identification apparaissent sur les workflows clés afin que les organisations puissent vérifier la provenance et conserver la confiance lors du partage de contenu.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2025.12.12
 
 ### Permutation de logo pour les modèles
 
 Les marketeurs peuvent désormais permuter dynamiquement les logos dans les modèles directement dans le workflow de [!DNL Create], ce qui élimine la nécessité de créer plusieurs variations de modèles pour différents logos, sous-marques ou lignes de produits. Cette fonctionnalité permet aux créateurs de sélectionner ou de remplacer le logo approprié au moment de la création de contenu, ce qui simplifie la gestion des modèles et réduit les frais généraux de production.
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2025.11.14
 
@@ -67,8 +85,6 @@ Les marketeurs peuvent désormais permuter dynamiquement les logos dans les mod�
 * [!DNL Experience Translations] flux a été optimisé avec la nouvelle fonctionnalité de traduction pour les médias payants et les e-mails.
 
 +++
-
-## Notes de mise à jour antérieures
 
 +++Notes de la version 2025.10.16
 
@@ -284,7 +300,7 @@ Les marketeurs peuvent désormais [publier des expériences publicitaires](/help
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
-Ajout de la prise en charge de la [&#x200B; création d’expériences LinkedIn &#x200B;](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+Ajout de la prise en charge de la [ création d’expériences LinkedIn ](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Créer des expériences de bannière
 
@@ -307,7 +323,7 @@ Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/h
   ![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="500" zoomable="yes"}
 
 * **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image. Voir [Personnaliser un modèle : lien sur une image](/help/user-guide/templates/customize-template.md#link-on-image).
-* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [&#x200B; Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
+* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [ Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correctifs et améliorations
 
