@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Pour concevoir une expérience de bannière attrayante, il est recommandé d’[
 
 ## Choisir un modèle
 
-Pour créer une expérience de bannière, utilisez un modèle disponible pour fournir le framework de votre contenu. Consultez [&#x200B; Bonnes pratiques pour les modèles &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de bannière prises en charge.
+Pour créer une expérience de bannière, utilisez un modèle disponible pour fournir le framework de votre contenu. Consultez [ Bonnes pratiques pour les modèles ](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) pour plus d’informations sur les dimensions de bannière prises en charge.
 
 **Pour choisir un modèle de bannière** :
 
@@ -36,6 +36,8 @@ Pour créer une expérience de bannière, utilisez un modèle disponible pour fo
 ## Ajouter des paramètres
 
 L’intégration de [directives](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans le tiroir d’invite améliore le processus de génération de contenu et constitue une étape préparatoire essentielle pour créer une expérience de bannière.
+
+![Entrez les paramètres dans le tiroir d&#39;invite](/help/assets/prompt-displayad2.png){width="300" align="center"}
 
 **Pour ajouter des paramètres et des ressources** :
 
@@ -58,8 +60,6 @@ Lorsque vous avez terminé d&#39;ajouter des paramètres, réduisez le tiroir d&
 
 Une fois que vous avez sélectionné les instructions, utilisez le langage naturel pour créer une invite afin de lancer la génération du contenu pour votre nouvelle expérience de bannière. Pour garantir des résultats de haute qualité, il est essentiel de concevoir des invites détaillées et descriptives.
 
-![Saisissez une invite](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
-
 Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l&#39;écriture d&#39;invites.
 
 **Pour saisir une invite** :
@@ -78,7 +78,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour [modifier le nom du brouillon de bannière](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement une bannière](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’une des sections ou l’un des champs de bannière (comme le titre ou le CTA) et effectuez les modifications nécessaires.
 * **Pour [appliquer une mise en forme de texte](/help/user-guide/create/manage-variants.md#manually-edit-text)** dans une variante, cliquez sur le texte sur l’image ou sur le lien intégré d’une variante, puis cliquez sur **[!UICONTROL Mettre en forme le texte]**.
-* **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite dans la section _[!UICONTROL Générer un nouveau texte_ &#x200B;] puis cliquez sur **[!UICONTROL Générer]**.
+* **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite dans la section _[!UICONTROL Générer un nouveau texte_ ] puis cliquez sur **[!UICONTROL Générer]**.
 * **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône **[!UICONTROL Permuter depuis le contenu]**.
 * **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.
 * **Pour [ajouter du texte de remplacement pour les images d’une variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, cliquez sur une ressource d’image et utilisez l’option _Texte de remplacement_ pour ajouter ou générer manuellement un texte de remplacement par image.
@@ -103,11 +103,11 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. Cliquez sur l’icône du panneau _Vérification de contenu_ dans la barre d’actions de droite pour ouvrir le panneau [_Vérification de contenu_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Affichez un résumé des contrôles _Révision requise_ et _Réussite_ pour identifier les sections et directives à améliorer.
 
-   ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){width="300"}
 
-1. [Révisez manuellement les variantes](#revise-generated-banners) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
+2. [Révisez manuellement les variantes](#revise-generated-banners) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 
@@ -127,7 +127,7 @@ Voir [Révisions et approbations](/help/user-guide/approvals/overview.md).
 Pour rendre les bannières générées disponibles pour une utilisation actuelle et future, publiez-les dans [!UICONTROL Contenu] et exportez-les pour les utiliser dans vos campagnes marketing.
 
 1. **Pour publier vos nouvelles expériences de bannière**, cliquez sur **[!UICONTROL Publier]** dans la barre d’outils supérieure ou dans le flux d’approbations.
-   1. Sélectionnez _[!UICONTROL [!DNL Campaigns]]_&#x200B;et ajoutez&#x200B;_[!UICONTROL &#x200B; Plus de détails &#x200B;]_&#x200B;si vous le souhaitez.
+   1. Sélectionnez _[!UICONTROL [!DNL Campaigns]]_et ajoutez_[!UICONTROL  Plus de détails ]_si vous le souhaitez.
    1. Cliquez sur **[!UICONTROL Publier]**.
 
       ![Publier une bannière](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
