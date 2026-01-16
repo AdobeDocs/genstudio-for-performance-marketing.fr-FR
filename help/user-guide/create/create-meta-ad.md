@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
+source-git-commit: 9ac53f3fc88df095f4098693090dafb9416bda27
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Création d’une expérience publicitaire Meta
 
-Ce tutoriel explique comment générer des expériences publicitaires Meta de marque [&#128279;](/help/user-guide/create/meta-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel explique comment générer des expériences publicitaires Meta de marque [](/help/user-guide/create/meta-experiences.md) à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
 Avant de commencer à générer une expérience publicitaire Meta, il est important d’[incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio for Performance Marketing et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
 
@@ -47,7 +47,7 @@ Si vous utilisez un modèle avec des directives prédéfinies (telles que [!DNL 
 1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir d’invite.
 1. Dans la section _Paramètres_, sélectionnez les instructions ([!DNL Brands], [!DNL Personas] et [!DNL Products]) pour informer la création de contenu.
 
-   ![Choisir une persona](/help/assets/persona-select-meta2.png){width="300" align="center" zoomable="yes"}
+   ![Choisir une persona](/help/assets/persona-select-meta2.png){width="50%" align="center"}
 
    Si aucune marque, personnage ou produit n’est disponible à partir de ces menus, [ajoutez des conseils à votre GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -133,11 +133,11 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. Cliquez sur l’icône du panneau _Vérification de contenu_ dans la barre d’actions de droite pour ouvrir le panneau [_Vérification de contenu_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Affichez un résumé des contrôles *Révision requise* et *Réussite* pour identifier les sections et directives à améliorer.
 
-   ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){width="300"}
 
-1. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
+2. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 

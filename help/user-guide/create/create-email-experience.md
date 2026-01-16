@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Si vous utilisez un modèle avec des directives prédéfinies (telles que [!DNL 
 1. Cliquez sur l’icône _Paramètres_ pour développer le tiroir d’invite.
 1. Dans la section _Paramètres_, sélectionnez les instructions ([!DNL Brands], [!DNL Personas] et [!DNL Products]) pour informer la création de contenu.
 
-   ![Choisir une persona](/help/assets/persona-select-email2.png){width="300" align="center"}
+   ![Choisir une persona](/help/assets/persona-select-email2.png){width="50%" align="center"}
 
    Si aucune marque, personnage ou produit n’est disponible à partir de ces menus, [ajoutez des conseils à votre GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -110,11 +110,11 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. Cliquez sur l’icône du panneau _Vérification de contenu_ dans la barre d’actions de droite pour ouvrir le panneau [_Vérification de contenu_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Affichez un résumé des contrôles *Révision requise* et *Réussite* pour identifier les sections et directives à améliorer.
 
-   ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Vérification de contenu_ panneau](/help/assets/content-check-panel.png){width="300"}
 
-1. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
+2. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 
