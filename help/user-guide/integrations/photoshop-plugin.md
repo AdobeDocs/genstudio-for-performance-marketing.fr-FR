@@ -133,7 +133,7 @@ De nouveaux documents sont ajoutés à votre espace de travail Photoshop avec le
 
 Les utilisateurs peuvent sélectionner exporter après la génération ou la traduction du contenu. Les expériences exportées sont renseignées dans la section contenu de GenStudio for Performance Marketing.
 
-![ Ressources exportées affichées dans la section Contenu ](./content-assets.png){width="90%"}
+![&#x200B; Ressources exportées affichées dans la section Contenu &#x200B;](./content-assets.png){width="90%"}
 
 ## Dépannage
 
