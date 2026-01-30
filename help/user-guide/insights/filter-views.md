@@ -4,9 +4,9 @@ description: Découvrez comment utiliser les fonctionnalités de filtre amélior
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 0eeb41597d547bf806b1728541ca85b598d2aa1c
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,11 @@ Au fil du temps, votre liste de campagnes et de publicités peut augmenter de ma
 
    Utilisez des mots-clés pour affiner votre recherche avec un filtrage logique et précis.
 
-   - Pour rechercher des noms de campagne contenant à la fois des `adventure` **&#x200B;**&#x200B;AND`ready`, saisissez les deux mots-clés séparés par une virgule :
+   - Pour rechercher des noms de campagne contenant à la fois des `adventure` **** AND`ready`, saisissez les deux mots-clés séparés par une virgule :
 
      ![Rechercher tous les mots-clés](/help/assets/insights-select-campaigns-and.png "Rechercher les noms de campagne contenant les deux mots-clés"){width=500}
 
-   - Pour rechercher des noms de campagne contenant des `adventure` **&#x200B;**&#x200B;OU`ready`, saisissez séparément chaque mot-clé :
+   - Pour rechercher des noms de campagne contenant des `adventure` **** OU`ready`, saisissez séparément chaque mot-clé :
 
      ![Rechercher des mots-clés](/help/assets/insights-select-campaigns-or.png "Rechercher les noms de campagne qui contiennent au moins un mot-clé"){width=500}
 
@@ -89,7 +89,7 @@ Au fil du temps, votre liste de campagnes et de publicités peut augmenter de ma
 
    ![Liste des campagnes](/help/assets/insights-select-campaigns-list.png "Sélectionner les campagnes à inclure")
 
-Les campagnes sélectionnées apparaissent désormais dans la liste _[!UICONTROL Filtrer par]_ au-dessus du tableau ou de la galerie des publicités. Vous pouvez vous concentrer exclusivement sur les annonces liées aux campagnes sélectionnées. Dans cet exemple, les résultats filtrés comprennent 6 annonces, fournissant une vue plus ciblée pour l’analyse.
+Les campagnes sélectionnées apparaissent désormais dans la liste _[!UICONTROL Filtrer par]_ au-dessus du tableau ou de la galerie des publicités. Vous pouvez vous concentrer exclusivement sur les annonces liées aux campagnes sélectionnées. Dans cet exemple, les résultats filtrés fournissent une vue plus ciblée pour l’analyse.
 
 ![Table filtrée par campagnes](/help/assets/insights-filter-by-campaigns.png "Table avec filtre campagnes"){zoomable="yes"}
 

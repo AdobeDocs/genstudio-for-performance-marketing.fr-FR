@@ -4,9 +4,9 @@ description: Découvrez comment optimiser les publicités en fonction des mesure
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 42a211956854126798024a97fc0befc3626160b7
+source-git-commit: 8bdfe52173b93e55f627f37cb1d6c5b16827d899
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -29,27 +29,37 @@ Cette connexion permet à GenStudio for Performance Marketing de recevoir des do
 
 {{connect-insights}}
 
+## Canaux pris en charge
+
+Les canaux pris en charge dans Insights comprennent Meta, LinkedIn, TikTok, DV360 et Innovid.
+
+Meta, LinkedIn et TikTok offrent une visibilité complète sur les campagnes, les publicités, les médias et les attributs. DV360 et Innovid offrent actuellement une couverture de données plus limitée.
+
+Actuellement, les données Media ne sont pas disponibles pour DV360 et Innovid, ce qui signifie que l’onglet Attributs n’est pas non plus affiché pour ces canaux. L’onglet Attributs dépend des données au niveau du média pour faire apparaître les caractéristiques extraites des expériences.
+
+Cette limitation est due aux contraintes propres aux plateformes de médias payants et ne pose pas de problème avec GenStudio for Performance Marketing.
+
 ## Tableau de bord
 
 Le tableau de bord [!DNL Insights] comporte un tableau configurable pour chaque type de contenu : [!UICONTROL Canaux], [!UICONTROL Publicités], [!UICONTROL Média] et [!UICONTROL Attributs].
 
-![[!DNL Insights] le tableau de bord &#x200B;](/help/assets/insights-dashboard.png)
+![[!DNL Insights] le tableau de bord ](/help/assets/insights-dashboard.png)
 
 Chaque vue affiche un tableau correspondant que vous pouvez rechercher par mot-clé, filtrage et période. Vous pouvez cliquer sur l’icône des paramètres (icône représentant un engrenage) au-dessus du côté droit du tableau pour activer/désactiver les types de colonnes visibles. La ligne _[!UICONTROL Résumé]_ peut afficher les totaux ou les moyennes d’une colonne.
 
 [!UICONTROL Publicités], [!UICONTROL Média] et [!UICONTROL Attributs] incluent une vue de galerie qui vous permet de numériser et de trier des ressources à l’aide de cartes avec une image ou une miniature vidéo. Il existe une option pour afficher l’une des trois mesures clés suivantes sur chaque carte : `Click-through rate`, `Cost per click` et `Spend`.
 
-### Canaux
+### Campagnes
 
-La vue [[!DNL Insights] _[!UICONTROL Canaux &#x200B;]_](channels.md) est la vue par défaut et affiche une liste des détails de la campagne active, tels que les objectifs, le budget, la date de lancement et l’activité. Veillez à [connecter un compte de canal](/help/user-guide/connectors/connect-channel.md) afin que GenStudio for Performance Marketing commence à recevoir vos données statistiques.
+La vue [[!DNL Insights] _[!UICONTROL Campagnes ]_](campaigns.md) est la vue par défaut et affiche une liste des détails des campagnes actives, tels que les objectifs, le budget, la date de lancement et l’activité. Veillez à [connecter un compte de canal](/help/user-guide/connectors/connect-channel.md) afin que GenStudio for Performance Marketing commence à recevoir vos données statistiques.
 
 ### Publicités
 
-La vue [[!DNL Insights] _[!UICONTROL Publicités &#x200B;]_](ads.md) se concentre sur l’évaluation de l’efficacité d’une publicité. La vue [!UICONTROL Publicités] vous permet d’analyser les mesures d’une publicité en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur un&#x200B;_[!UICONTROL &#x200B; Nom de l’annonce &#x200B;]_, vous pouvez afficher les mesures de performances des annonces, les performances par emplacement d’annonce et les attributs.
+La vue [[!DNL Insights] _[!UICONTROL Publicités ]_](ads.md) se concentre sur l’évaluation de l’efficacité d’une publicité. La vue [!UICONTROL Publicités] vous permet d’analyser les mesures d’une publicité en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur un_[!UICONTROL  Nom de l’annonce ]_, vous pouvez afficher les mesures de performances des annonces, les performances par emplacement d’annonce et les attributs.
 
 ### Média
 
-La vue [[!DNL Insights] _[!UICONTROL Média &#x200B;]_](media.md) est conçue pour vous aider à analyser les performances du contenu créatif. Vous pouvez identifier les attributs de média qui contribuent à améliorer une mesure sélectionnée, tels que les clics ou les impressions.
+La vue [[!DNL Insights] _[!UICONTROL Média ]_](media.md) est conçue pour vous aider à analyser les performances du contenu créatif. Vous pouvez identifier les attributs de média qui contribuent à améliorer une mesure sélectionnée, tels que les clics ou les impressions.
 
 Cliquer sur le contenu multimédia fournit un contexte supplémentaire sur ses performances dans différentes annonces et emplacements publicitaires :
 
@@ -61,4 +71,4 @@ Dans la vue Détails du média, le côté gauche affiche une miniature de la res
 
 Les _attributs_ de média permettent d’identifier le contenu créatif par des détails inhérents, tels que la couleur, le ton, la composition (comme l’objet, les polices, les éléments visuels) et d’autres composants clés. Les attributs constituent souvent l’ensemble d’informations de contenu le moins mesuré et analysé.
 
-La vue [[!DNL Insights] _[!UICONTROL Attributs &#x200B;]_](attributes.md) peut vous aider à identifier les attributs les plus performants avec certaines audiences, certains canaux et certaines régions, et peut vous aider à mettre en évidence les tendances saisonnières. Grâce à ces informations, vous pouvez utiliser des attributs performants pour créer des variantes, cibler une audience spécifique ou expérimenter différentes stratégies de campagne.
+La vue [[!DNL Insights] _[!UICONTROL Attributs ]_](attributes.md) peut vous aider à identifier les attributs les plus performants avec certaines audiences, certains canaux et certaines régions, et peut vous aider à mettre en évidence les tendances saisonnières. Grâce à ces informations, vous pouvez utiliser des attributs performants pour créer des variantes, cibler une audience spécifique ou expérimenter différentes stratégies de campagne.
