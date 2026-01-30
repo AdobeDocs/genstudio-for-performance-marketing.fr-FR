@@ -73,11 +73,11 @@ Au fil du temps, votre liste de campagnes et de publicités peut augmenter de ma
 
    Utilisez des mots-clés pour affiner votre recherche avec un filtrage logique et précis.
 
-   - Pour rechercher des noms de campagne contenant à la fois des `adventure` **** AND`ready`, saisissez les deux mots-clés séparés par une virgule :
+   - Pour rechercher des noms de campagne contenant à la fois des `adventure` **&#x200B;**&#x200B;AND`ready`, saisissez les deux mots-clés séparés par une virgule :
 
      ![Rechercher tous les mots-clés](/help/assets/insights-select-campaigns-and.png "Rechercher les noms de campagne contenant les deux mots-clés"){width=500}
 
-   - Pour rechercher des noms de campagne contenant des `adventure` **** OU`ready`, saisissez séparément chaque mot-clé :
+   - Pour rechercher des noms de campagne contenant des `adventure` **&#x200B;**&#x200B;OU`ready`, saisissez séparément chaque mot-clé :
 
      ![Rechercher des mots-clés](/help/assets/insights-select-campaigns-or.png "Rechercher les noms de campagne qui contiennent au moins un mot-clé"){width=500}
 
