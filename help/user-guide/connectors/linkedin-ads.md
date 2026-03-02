@@ -2,12 +2,13 @@
 title: Se connecter aux publicités LinkedIn
 description: Connectez un compte LinkedIn Ads pour activer et surveiller vos publicités et médias avec Adobe GenStudio for Performance Marketing.
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 recommendations: noDisplay
 feature: Reporting and Insights
-source-git-commit: c720a7c34250caa6aefea19149fcd33c8fd5f37f
+exl-id: 8ad10ce2-8558-430c-8cc3-4c29bfa970c6
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---

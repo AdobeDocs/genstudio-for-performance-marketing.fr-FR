@@ -2,13 +2,13 @@
 title: Connexion à Meta Ads
 description: Connectez un compte Meta Ads pour activer et surveiller vos publicités et médias avec Adobe GenStudio for Performance Marketing.
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: dce3d9bbf3ed2d26872b324c04ab7e78bbb034dc
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Cette page explique comment connecter et gérer votre compte de profil Meta Ads 
 
    La vue _[!UICONTROL Comptes Meta Ads]_ répertorie les `Account name`, `Added by`, `Date added` et `Status`.
 
-   ![Liste &#x200B;](/help/assets/meta/meta-accounts-list.png " comptes MetaListe des comptes Meta connectés"){zoomable="yes"}
+   ![Liste ](/help/assets/meta/meta-accounts-list.png " comptes MetaListe des comptes Meta connectés"){zoomable="yes"}
 
 Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste. Le flux d’autorisation peut différer légèrement lorsque vous ajoutez des comptes liés au même profil Meta Business. Vous sélectionnez uniquement les nouveaux comptes Meta Ads pendant le processus de connexion.
 

@@ -2,12 +2,12 @@
 title: Connexion à un compte de média payant
 description: Connectez un compte de média payant pour activer et surveiller vos publicités et médias avec Adobe GenStudio for Performance Marketing.
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 631ad4931363a6acef902bf4626bd79aff683981
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---

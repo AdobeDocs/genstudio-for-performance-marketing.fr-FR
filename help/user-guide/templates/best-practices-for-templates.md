@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 71b46454fa6fe2037ea6b103c0dfeedad74b8919
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -37,20 +37,20 @@ Voir [Éléments de modèle](use-templates.md#template-elements).
 
 ## Utilisation de texte d’espace réservé dans les modèles
 
-Le texte d’espace réservé peut aider à définir la syntaxe ou la structure du contenu à remplir ultérieurement dans un modèle par un utilisateur. Par exemple, {first_name}.{last_name}@email.etc. pour définir une adresse e-mail. Cependant, certains délimiteurs communs sont déjà réservés à d’autres significations dans GenStudio for Performance Marketing :
+Le texte d’espace réservé peut aider à définir la syntaxe ou la structure du contenu à remplir ultérieurement dans un modèle par un utilisateur. Par exemple, {first_name}.{last_name}@email.etc. pour définir une adresse électronique. Cependant, certains délimiteurs communs sont déjà réservés à d’autres significations dans GenStudio for Performance Marketing :
 
-❌ &lt; > : utilisé pour les balises HTML.
-❌ {{ }}{{ }} - Utilisé pour les expressions Handlebar.
+❌ `< >` - Utilisé pour les balises HTML.
+❌ `{{ }}` - Utilisé pour les expressions Handlebar.
 
 Utilisez des crochets simples (droits ou courbes) pour indiquer le texte de l’espace réservé afin d’éviter toute confusion avec les balises existantes.
 
-✅ {first_name} - Espace réservé pour le prénom.
+✅ `{first_name}` - Espace réservé pour le prénom.
 
 ## Configurer les instructions relatives aux canaux
 
 Il est essentiel de définir des directives claires concernant les canaux pour vous assurer que le contenu généré correspond aux exigences et aux objectifs de votre marque. Les instructions de canal vous permettent de spécifier des règles pour des éléments tels que le ton, la longueur et le style utilisés dans votre modèle. Par exemple, vous pouvez définir un nombre maximal de caractères pour le corps du texte ou exiger un style call-to-action spécifique. En définissant ces directives à l’avance, vous réduisez la nécessité d’écrire des instructions détaillées dans chaque invite d’IA, en rationalisant le processus de génération de contenu et en assurant la cohérence entre vos e-mails.
 
-Examinez et définissez les [directives relatives aux canaux](/help/user-guide/guidelines/brands.md#channel-guidelines) de votre marque pour tous les champs clés de votre modèle. Si vous ne définissez pas de directives, les [&#x200B; directives de canal par défaut](/help/user-guide/guidelines/brands.md#default-channel-guidelines) sont appliquées, ce qui peut ne pas refléter entièrement les exigences de votre marque.
+Examinez et définissez les [directives relatives aux canaux](/help/user-guide/guidelines/brands.md#channel-guidelines) de votre marque pour tous les champs clés de votre modèle. Si vous ne définissez pas de directives, les [ directives de canal par défaut](/help/user-guide/guidelines/brands.md#default-channel-guidelines) sont appliquées, ce qui peut ne pas refléter entièrement les exigences de votre marque.
 
 ![Spécifications du corps](/help/assets/channel-email-body.png)
 
@@ -101,7 +101,7 @@ Lors de la création de modèles, assurez-vous qu’ils répondent aux exigences
 
 - Utilisation d’HTML et de CSS intégré propres et réactifs
 - Utilisation des polices Adobe ou Google
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- N’utilisez **** JavaScript
 
 {{note-css-effects}}
 
@@ -110,4 +110,4 @@ Consultez d’autres conseils et contraintes lorsque vous utilisez chaque type d
 - [E-mails](/help/user-guide/templates/email-template.md)
 - [Affichage et bannières publicitaires](/help/user-guide/templates/display-template.md)
 - [LinkedIn](/help/user-guide/templates/linkedin-template.md)
-- [Métadonnées publicitaires](/help/user-guide/templates/meta-template.md)
+- [Meta ads](/help/user-guide/templates/meta-template.md)

@@ -5,10 +5,10 @@ user-guide-description: Découvrez les fonctionnalités du cadre d’extensibili
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
-source-git-commit: b268d6015381c224980af82f89fffe6f2b7948b1
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 60%
+source-wordcount: '56'
+ht-degree: 62%
 
 ---
 
@@ -24,4 +24,7 @@ ht-degree: 60%
    + [Déploiement de l’application](deploy-app.md)
    + [Distribuer votre application](distribute-app.md)
    + [Sélecteur d’expérience MFE](experience-selector.md)
-   + Extensions de l’interface utilisateur {#ui}
+
+<!--
+  + UI Extensions {#ui}
+-->
