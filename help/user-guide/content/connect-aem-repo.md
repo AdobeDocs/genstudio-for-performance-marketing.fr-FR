@@ -39,20 +39,20 @@ Après avoir activé [!DNL AEM Assets Content Hub], vous disposez d’une nouvel
 
 Dans le [!DNL Admin Console], ajoutez un utilisateur ou un groupe d’utilisateurs GenStudio for Performance Marketing au profil de produit [!DNL AEM Assets Content Hub]. Si un réviseur ou une réviseuse de contenu n’a pas accès à la même organisation que le référentiel [!DNL AEM Assets Content Hub], il ou elle peut rencontrer des difficultés pour réviser et approuver le contenu.
 
-- [Intégration [!DNL Content Hub] administrateur](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [Intégration [!DNL Content Hub] utilisateurs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [Intégration [!DNL Content Hub] administrateur](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [Intégration [!DNL Content Hub] utilisateurs](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## Étape 3 : Approuver les ressources
 
 Approuver les ressources à utiliser dans [!DNL AEM Assets Content Hub], ce qui les rend disponibles dans GenStudio for Performance Marketing.
 
-Voir [Approbation de ressources dans Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) dans la documentation d’_AEM as a Cloud Service_.
+Voir [Approbation de ressources dans Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) dans la documentation d’_AEM as a Cloud Service_.
 
 ## Étape 4 : configurer la visibilité des ressources
 
 Dans _[!DNL AEM Assets Content Hub]_&#x200B;options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
 
-Voir [Configuration de l’interface utilisateur de Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) dans la documentation d’_AEM as a Cloud Service_.
+Voir [Configuration de l’interface utilisateur de Content Hub](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) dans la documentation d’_AEM as a Cloud Service_.
 
 ## Étape 5 : vérifier la connexion
 
