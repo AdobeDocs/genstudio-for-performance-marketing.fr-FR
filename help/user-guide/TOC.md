@@ -5,7 +5,7 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 89f88d217d6afdf431519a5cd3803a9857fcd84d
+source-git-commit: 9cd03372041056483e94ae324124e791a8c8d7ba
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 19%
@@ -107,5 +107,5 @@ ht-degree: 19%
    + [Présentation des intégrations](integrations/overview.md)
    + [Plug-in Photoshop](integrations/photoshop-plugin.md)
    + [Plug-in Figma](integrations/figma-plugin.md)
-+ [GenStudio Academy - Masqué](genstudioacademy.md)
-+ [Test Markdown - Masqué](test-markdown.md)
++ [hide-from-tocGenStudio Academy - Masqué](genstudioacademy.md)
++ [hide-from-tocTest Markdown - Masqué](test-markdown.md)
