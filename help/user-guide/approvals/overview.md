@@ -5,11 +5,17 @@ level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
 TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 890
@@ -23,7 +29,7 @@ Le workflow de révision et d’approbation garantit que toutes les parties pren
 
 >[!NOTE]
 >
-Cette fonctionnalité est également disponible en tant qu’[intégration à Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Cette intégration fournit des fonctionnalités de BAT dans la zone de travail GenStudio for Performance Marketing. Grâce à l’intégration de Workfront Proof, GenStudio for Performance Marketing bénéficie d’un processus d’examen plus structuré, transparent et collaboratif, ce qui permet aux équipes de passer de la version préliminaire à la version finale avec plus de confiance et de clarté.
+>Cette fonctionnalité est également disponible en tant qu’[intégration à Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Cette intégration fournit des fonctionnalités de BAT dans la zone de travail GenStudio for Performance Marketing. Grâce à l’intégration de Workfront Proof, GenStudio for Performance Marketing bénéficie d’un processus d’examen plus structuré, transparent et collaboratif, ce qui permet aux équipes de passer de la version préliminaire à la version finale avec plus de confiance et de clarté.
 
 ## Avantages des workflows de révision et d’approbation
 
@@ -33,7 +39,7 @@ Cette fonctionnalité est également disponible en tant qu’[intégration à Ad
 
 * **Respect des objectifs de la campagne et des exigences légales**. Le processus de validation permet de vérifier que le contenu prend en charge les objectifs de la campagne. Elle garantit que tous les documents de marketing sont conformes aux normes juridiques et réglementaires, ce qui réduit les risques et les problèmes juridiques potentiels.
 
-* **Intégration à Adobe Workfront Proof**. Les utilisateurs et utilisatrices peuvent accéder à des fonctionnalités de révision et d’approbation robustes de Workfront Proof depuis GenStudio for Performance Marketing. Le contenu révisé dans GenStudio for Performance Marketing se synchronise avec Workfront Proof et les commentaires et le statut de révision sont conservés. [L’intégration met en évidence ](/help/user-guide/approvals/proof-integration.md) identifie la manière dont Proof étend le workflow d’approbation de GenStudio for Performance Marketing.
+* **Intégration à Adobe Workfront Proof**. Les utilisateurs et utilisatrices peuvent accéder à des fonctionnalités de révision et d’approbation robustes de Workfront Proof depuis GenStudio for Performance Marketing. Le contenu révisé dans GenStudio for Performance Marketing se synchronise avec Workfront Proof et les commentaires et le statut de révision sont conservés. [L’intégration met en évidence &#x200B;](/help/user-guide/approvals/proof-integration.md) identifie la manière dont Proof étend le workflow d’approbation de GenStudio for Performance Marketing.
 
 ## Cycle de vie de la révision et de l’approbation
 
@@ -63,7 +69,7 @@ Statuts de brouillon disponibles :
 
 >[!NOTE]
 >
-Les brouillons correspondent aux _BAT_ pour les utilisateurs de l’intégration Workfront Proof. [Les brouillons et les BAT](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) diffèrent en termes de persistance et de contrôle de version.
+>Les brouillons correspondent aux _BAT_ pour les utilisateurs de l’intégration Workfront Proof. [Les brouillons et les BAT](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) diffèrent en termes de persistance et de contrôle de version.
 
 ## Rôles d&#39;approbation
 

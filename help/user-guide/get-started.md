@@ -6,12 +6,26 @@ role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
 TQID: https://experienceleague.adobe.com/HAKr2otOS5gyJA0PDkZL4zpDx2OjqjFMwZLtFPFQ2M0
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 648
@@ -37,12 +51,12 @@ Les responsables système configurent Adobe GenStudio for Performance Marketing 
 
 Les marques [directives](/help/user-guide/guidelines/overview.md) capturent leurs caractéristiques. Les fonctionnalités d’IA générative sous-jacentes de GenStudio for Performance Marketing utilisent ces directives pour établir des mécanismes de sécurisation qui guident la génération de contenu. Vous pouvez charger des documents [[!DNL Brands] directive](/help/user-guide/guidelines/brands.md) ou saisir manuellement des informations sur la marque.
 
-Les éditeurs de contenu et les collaborateurs ne peuvent pas commencer leur travail tant que les éléments fondamentaux de l’identité de [ marque ](/help/user-guide/guidelines/brands.md) votre organisation ne sont pas établis. Ces composants de marque comprennent à la fois :
+Les éditeurs de contenu et les collaborateurs ne peuvent pas commencer leur travail tant que les éléments fondamentaux de l’identité de [&#x200B; marque &#x200B;](/help/user-guide/guidelines/brands.md) votre organisation ne sont pas établis. Ces composants de marque comprennent à la fois :
 
 * Éléments intangibles, comme le ton de la voix
 * Actifs corporels, tels que logos, palettes de couleurs et typographie.
 
-Avant de créer des directives, découvrez comment GenStudio for Performance Marketing définit [ composants de marque ](/help/user-guide/guidelines/brands.md)
+Avant de créer des directives, découvrez comment GenStudio for Performance Marketing définit [&#x200B; composants de marque &#x200B;](/help/user-guide/guidelines/brands.md)
 
 #### Préparer vos documents d&#39;orientation
 
@@ -60,7 +74,7 @@ Les administrateurs système doivent effectuer des tâches de configuration supp
 
 * Créez un projet dans le Adobe Admin Console.
 
-Voir [ Attribuer des autorisations de marque ](configure-brand-permissions.md).
+Voir [&#x200B; Attribuer des autorisations de marque &#x200B;](configure-brand-permissions.md).
 
 ### Étape 3 : charger des modèles
 
@@ -72,7 +86,7 @@ Voir [Utilisation de modèles](/help/user-guide/templates/use-templates.md).
 
 Les ressources approuvées dans [!DNL Content] sont disponibles pour tous les éditeurs GenStudio for Performance Marketing. Vous pouvez remplir les [!DNL Content] avec des ressources que les éditeurs de contenu pourront utiliser pour créer de nouvelles expériences ou ressources.
 
-Voir [ Chargement de ressources approuvées ](/help/user-guide/content/manage-assets.md).
+Voir [&#x200B; Chargement de ressources approuvées &#x200B;](/help/user-guide/content/manage-assets.md).
 
 ### Étape 5 : Se connecter à un compte média payant
 

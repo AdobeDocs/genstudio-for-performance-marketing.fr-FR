@@ -7,9 +7,13 @@ feature: Content Management
 recommendations: noDisplay
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
 TQID: https://experienceleague.adobe.com/FJ6G7qlBlkrsGk1H7SHhlkqHUHYYGKkTqklTeGDxJho
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 387
@@ -37,7 +41,7 @@ Après avoir activé [!DNL AEM Assets Content Hub], vous disposez d’une nouvel
 
 >[!IMPORTANT]
 >
-Les administrateurs doivent vérifier que le référentiel [!DNL AEM Assets Content Hub] se trouve dans la même organisation que GenStudio for Performance Marketing.
+>Les administrateurs doivent vérifier que le référentiel [!DNL AEM Assets Content Hub] se trouve dans la même organisation que GenStudio for Performance Marketing.
 
 ## Étape 2 : intégration des utilisateurs GenStudio
 
@@ -54,7 +58,7 @@ Voir [Approbation de ressources dans Experience Manager](https://experienceleagu
 
 ## Étape 4 : configurer la visibilité des ressources
 
-Dans _[!DNL AEM Assets Content Hub]_options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
+Dans _[!DNL AEM Assets Content Hub]_&#x200B;options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
 
 Voir [Configuration de l’interface utilisateur de Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) dans la documentation d’_AEM as a Cloud Service_.
 

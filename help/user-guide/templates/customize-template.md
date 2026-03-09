@@ -6,12 +6,21 @@ role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
 TQID: https://experienceleague.adobe.com/6gHxPvfz-30X3w2MYIc2Aj5SiGZokzOqSvOHYTQ-u7I
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 1646
@@ -33,7 +42,7 @@ Suivez les [directives d’accessibilité](accessibility-for-templates.md) et [b
 
 >[!TIP]
 >
-Les espaces réservés de contenu sont **différents** texte d’espace réservé dans le contenu destiné à être rempli ultérieurement par un utilisateur. En savoir plus sur l’[utilisation de texte d’espace réservé dans les modèles](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates).
+>Les espaces réservés de contenu sont **différents** texte d’espace réservé dans le contenu destiné à être rempli ultérieurement par un utilisateur. En savoir plus sur l’[utilisation de texte d’espace réservé dans les modèles](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates).
 
 GenStudio for Performance Marketing reconnaît certains types de contenu ou [éléments](use-templates.md#template-elements) dans un modèle, mais uniquement si vous les identifiez avec un [nom de champ reconnu](#recognized-field-names).
 
@@ -72,13 +81,13 @@ GenStudio for Performance Marketing génère automatiquement certains champs dan
 
 >[!WARNING]
 >
-Pour les publicités Instagram, le titre généré n’apparaît pas dans l’expérience finale.
+>Pour les publicités Instagram, le titre généré n’apparaît pas dans l’expérience finale.
 
 Le nombre de champs est limité à 20 lors du chargement d’un modèle vers GenStudio for Performance Marketing. Le champ `subject` étant généré automatiquement dans un e-mail, il est comptabilisé comme un seul champ. Cela signifie que 19 champs sont autorisés dans un modèle d’e-mail.
 
 >[!TIP]
 >
-Vous pouvez vérifier votre modèle à l’aide de l’aperçu du [modèle](#template-preview) dans GenStudio for Performance Marketing.
+>Vous pouvez vérifier votre modèle à l’aide de l’aperçu du [modèle](#template-preview) dans GenStudio for Performance Marketing.
 
 ### Appels à l’action
 
@@ -252,7 +261,7 @@ GenStudio for Performance Marketing comprend que `pod1_headline` est plus étroi
 
 >[!TIP]
 >
-Consultez [Invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour savoir comment concevoir une invite qui génère un contenu variable pour chaque section dans un e-mail à plusieurs sections.
+>Consultez [Invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour savoir comment concevoir une invite qui génère un contenu variable pour chaque section dans un e-mail à plusieurs sections.
 
 ## Aperçu du modèle
 
