@@ -3,9 +3,15 @@ title: Gestion d’Assets et d’expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque en vue de leur utilisation et réutilisation dans votre parcours de marketing numérique.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/G9pgYplVoU0cVTOveP57W7MtUehg1E5GAiuGzjL8wRc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: 1518
 ht-degree: 1%
 
 ---
@@ -42,7 +48,7 @@ Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun mod
 
    >[!IMPORTANT]
    >
-   >La liste _Emplacement_ n’est disponible que lorsque vous [&#x200B; vous connecter à un référentiel AEM](connect-aem-repo.md).
+   La liste _Emplacement_ n’est disponible que lorsque vous [ vous connecter à un référentiel AEM](connect-aem-repo.md).
 
 1. Cliquez sur **[!UICONTROL Rechercher]** (loupe) pour saisir un mot-clé ou une description.
 
@@ -85,7 +91,7 @@ Le tableau suivant répertorie les tâches de gestion disponibles pour les resso
 | [Modifier dans Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Exporter des expériences](#export-experiences) |        | ✓ |           |
 | [Actualiser](/help/user-guide/templates/use-templates.md#refresh-template) |   |      | ✓ |
-| [Télécharger](#download-assets) | ✓ |             | ✓ |
+| [Téléchargement](#download-assets) | ✓ |             | ✓ |
 | [Supprimer](#delete-assets) | ✓ | ✓ | ✓ |
 
 ### Ajouter des ressources
@@ -142,7 +148,7 @@ Vous pouvez sélectionner une ou plusieurs expériences approuvées à télécha
 
 >[!WARNING]
 >
->Les ressources récupérées ne peuvent pas s’afficher en toute sécurité sans nettoyage. Tous les utilisateurs doivent gérer le cross-site scripting (XSS) à partir des modèles en utilisant des techniques d’assainissement d’entrée de leur côté.
+Les ressources récupérées ne peuvent pas s’afficher en toute sécurité sans nettoyage. Tous les utilisateurs doivent gérer le cross-site scripting (XSS) à partir des modèles en utilisant des techniques d’assainissement d’entrée de leur côté.
 
 **Pour exporter ou télécharger des expériences** :
 
@@ -150,7 +156,7 @@ Vous pouvez sélectionner une ou plusieurs expériences approuvées à télécha
 
    Une bannière s’affiche avec le nombre d’expériences sélectionnées à gauche et les options [!UICONTROL Activer], [!UICONTROL Télécharger] ou [!UICONTROL Supprimer] à droite.
 
-2. (Facultatif) Si vous choisissez d’activer, il peut vous être demandé de sélectionner une plateforme, puis de poursuivre le workflow de [!DNL Activate]. Voir [&#x200B; Activer &#x200B;](/help/user-guide/activation/overview.md).
+2. (Facultatif) Si vous choisissez d’activer, il peut vous être demandé de sélectionner une plateforme, puis de poursuivre le workflow de [!DNL Activate]. Voir [ Activer ](/help/user-guide/activation/overview.md).
 
 3. Cliquez sur **[!UICONTROL Télécharger]**.
 
@@ -197,6 +203,6 @@ Critères d’amélioration des images avec la fonction [!DNL Edit in Adobe Expr
 
    >[!TIP]
    >
-   >Plus vous fournissez de détails, plus vous bénéficiez des fonctionnalités robustes de GenStudio for Performance Marketing. Sélectionnez un ou plusieurs détails dans la liste, ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
+   Plus vous fournissez de détails, plus vous bénéficiez des fonctionnalités robustes de GenStudio for Performance Marketing. Sélectionnez un ou plusieurs détails dans la liste, ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
 
-1. Cliquer sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.

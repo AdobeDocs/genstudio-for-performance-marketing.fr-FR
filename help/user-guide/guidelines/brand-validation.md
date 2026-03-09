@@ -3,9 +3,15 @@ title: Validation de la marque dans Adobe GenStudio for Performance Marketing
 description: Découvrez le système de validation de marque intégré à GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
+TQID: https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 786
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ GenStudio for Performance Marketing effectue la validation de la marque et d’a
 
 * Instructions d’[!DNL Brand] définies ou par défaut
 * Instructions relatives à Platform
-* [&#x200B; Prise en charge de l’accessibilité &#x200B;](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
+* [ Prise en charge de l’accessibilité ](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -40,7 +46,7 @@ Voir [Amélioration de l’alignement des marques](#improve-brand-alignment).
 
 ## Panneau de vérification du contenu
 
-Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ &#x200B;](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
+Le panneau _Vérification du contenu_ s’ouvre sur le côté droit de la zone de travail lorsque vous cliquez sur dans la barre d’actions de droite _ou_ à partir de l’icône de résumé [_Vérification du contenu_ ](#content-check-summary). Ce panneau fournit des informations détaillées sur la validation de la marque, les directives de la plateforme et les normes d’accessibilité, et met en évidence les possibilités d’amélioration.
 
 ![Panneau de vérification du contenu](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
@@ -74,7 +80,7 @@ Pour optimiser l’efficacité du contenu généré et maintenir une identité d
 
    >[!NOTE]
    >
-   > La directive _voix de marque_ indiquée dans le panneau _Vérification de contenu_ s’applique à l’ensemble de la variante, et non à une section individuelle. L’ensemble de la variante de contenu est mis en surbrillance pour une amélioration suggérée.
+   La directive _voix de marque_ indiquée dans le panneau _Vérification de contenu_ s’applique à l’ensemble de la variante, et non à une section individuelle. L’ensemble de la variante de contenu est mis en surbrillance pour une amélioration suggérée.
 
 1. Cliquez pour corriger les instructions qui ne sont pas actuellement conformes.
 1. Cliquez pour développer et examiner chaque vérification qui doit être examinée dans les sections disponibles telles que _Titre_, _Couleur_ et _Voix de la marque_.

@@ -3,9 +3,15 @@ title: GenStudio for Performance Marketing  [!DNL Brands]
 description: Les GenStudio for Performance Marketing [!DNL Brands] sont une collection complète de ressources de marque (copie marketing, images, expériences, etc.) visant à informer la création de contenu aligné sur la marque.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
+TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: 1525
 ht-degree: 2%
 
 ---
@@ -34,7 +40,7 @@ Les directives donnent à GenStudio for Performance Marketing une image claire d
 
 >[!NOTE]
 >
->Si vous téléchargez des directives de marque écrites dans une langue autre que l’anglais (ou si vous créez manuellement une marque à l’aide d’une langue autre que l’anglais), GenStudio for Performance Marketing les affiche dans la même langue.
+Si vous téléchargez des directives de marque écrites dans une langue autre que l’anglais (ou si vous créez manuellement une marque à l’aide d’une langue autre que l’anglais), GenStudio for Performance Marketing les affiche dans la même langue.
 
 Certaines instructions de canal, extraites des [instructions de plateforme et normes d’accessibilité ADA](/help/user-guide/guidelines/overview.md#compliance), sont préremplies comme valeurs par défaut.
 
@@ -48,9 +54,9 @@ Le tableau suivant présente chaque catégorie de directives vocales de marque e
 
 | Catégorie d&#39;instructions | Description | Bonnes pratiques |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL Ton de la voix] | Personnalité de la marque exprimée par la communication écrite | Utilisez des mots descriptifs pour exprimer clairement l&#39;émotion et le ton de la marque. <br>_Exemples_ : « authentique », « ludique »<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les principaux attributs vocaux de la marque.<br><br>Sélectionnez des mots/expressions cohérents sur l’ensemble des canaux de communication afin de créer une identité de marque cohérente. |
+| [!UICONTROL Ton de la voix] | Personnalité de la marque exprimée par la communication écrite | Utilisez des mots descriptifs pour exprimer clairement l&#39;émotion et le ton de la marque. <br>_Exemples_ : « authentique », « ludique »<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les attributs vocaux clés de la marque.<br><br>Sélectionnez des mots/expressions cohérents sur tous les canaux de communication pour créer une identité de marque cohérente. |
 | [!UICONTROL Valeurs de marque] | Principes qui sous-tendent la culture de marque, l’expérience client et les stratégies commerciales | Utilisez des mots descriptifs pour décrire la mission, la vision et les besoins du public de la marque. <br>_Exemples_ : « authenticité », « inspirant », « progressif »<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les valeurs/thèmes de base de la marque. |
-| [!UICONTROL Instructions éditoriales] | Directives de communication définissant les bonnes pratiques pour l’élaboration des messages de marque | Utilisez des expressions positives (5 à 10 directives) pour établir une base solide.<br>_Exemples_ : « Utilisez un langage simple et accessible » au lieu de « Évitez d’utiliser du jargon »<br><br>Fournissez des conseils clairs et exploitables. <br>_Exemples_ : « Conserver les phrases de moins de 20 mots » au lieu de « Être concis »<br><br>Reflétez le style de votre marque, par exemple en utilisant des préférences de syntaxe spécifiques. <br>_Exemples_ : « Utilisez un tiret cadratin au lieu du signe deux-points », « Utilisez un cas de phrase »<br><br>Établissez des directives précises qui maintiennent la cohérence entre les sorties. |
+| [!UICONTROL Instructions éditoriales] | Directives de communication définissant les bonnes pratiques pour l’élaboration des messages de marque | Utilisez des expressions positives (5 à 10 directives) pour établir une base solide.<br>_Exemples_ : « Utilisez un langage simple et accessible » au lieu de « Évitez d’utiliser du jargon »<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemples_ : « Conserver les phrases de moins de 20 mots » au lieu de « Être concis »<br><br>Reflétez le style de votre marque, par exemple en utilisant des préférences de syntaxe spécifiques. <br>_Exemples_ : « Utilisez un tiret cadratin au lieu du signe deux-points », « Utilisez un cas de phrase »<br><br>Établissez des directives précises qui maintiennent la cohérence entre les sorties. |
 | [!UICONTROL Restrictions éditoriales] | Directives de communication définissant les éléments à éviter dans les messages de marque | Utilisez des expressions négatives directes (directives 5 à 10) pour spécifier ce qui doit être évité. <br>_Exemple_ : « Évitez d’utiliser... »<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemple_ : « Évitez les questions rhétoriques » |
 
 ### Instructions relatives aux images
@@ -60,13 +66,13 @@ Le tableau suivant présente chaque catégorie d’instructions relatives aux im
 | Catégorie d&#39;instructions | Description | Valeurs |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL Description] | Ajout d’informations générales pour la catégorie spécifique de directives relatives aux images, telles que « Photographie de produit » ou « Directives générales relatives aux objets d’art ». | Extrait de documents de directives et configurable manuellement <br><br>_Exemple de directive générale sur les objets d’art_ : « Directives qui s’appliquent aux images qui ne sont pas des photographies, telles que des illustrations et des rendus 3D » |
-| [!UICONTROL &#x200B; Type de contenu &#x200B;] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
+| [!UICONTROL  Type de contenu ] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
 | Composition | Détails concernant le placement des objets, l&#39;appareil photo et les techniques de photographie | Extrait de documents d’instructions et configurable manuellement |
 | [!UICONTROL Environnement] | Détails concernant l’environnement, tels que les éléments d’arrière-plan dans l’image | _Exemple_ : « Préférez un environnement ensoleillé » |
 | [!UICONTROL Couleur] | Détails concernant la famille de couleurs, la température des couleurs, les couleurs primaires/secondaires/tertiaires, la teinte, la saturation, le contraste | Extrait de documents de directives et configurable manuellement <br><br>_Exemples_ : « Assurez-vous que le produit est l’objectif principal avec un minimum de distractions », « Couleurs vives » |
 | [!UICONTROL Éclairage] | Détails généraux ou spécifiques concernant l&#39;éclairage | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Placez un voyant lumineux devant la personne » |
-| [!UICONTROL Humeur &#x200B;] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
-| [!UICONTROL Restrictions &#x200B;] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
+| [!UICONTROL Humeur ] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
+| [!UICONTROL Restrictions ] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
 
 ### Instructions relatives aux canaux
 
@@ -76,15 +82,15 @@ Le tableau suivant présente chaque section de canal, les canaux pour lesquels e
 
 | Sections | Canaux | Description | Bonnes pratiques |
 | ------------------| --------- | --------- | -------- |
-| Général | e-mail, métadonnées, bannière et publicité display | Un second objet ou texte d’aperçu d’e-mail | Définissez le ton/l’émotion global(e) pour être cohérent(e) tout au long de l’e-mail (2-5 directives).<br>_Exemples_ : « Maintenir un ton amical et accessible », « Éviter un langage trop formel »<br><br> |
+| Général | e-mail, Meta, bannière et publicité display | Un second objet ou texte d’aperçu d’e-mail | Définissez le ton/l’émotion global(e) pour qu’il/elle soit cohérent(e) dans tous les e-mails (2-5 instructions).<br>_Exemples_ : « Maintenir un ton amical et accessible », « Éviter les propos trop formels »<br><br> |
 | Objet | email | Un titre attrayant et intéressant pour résumer le contenu d’un e-mail | Fournissez des conseils spécifiques (2 à 5 directives) sur le ton, la longueur, etc. Ajoutez des lignes d’objet précédemment réussies dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemple_ : « Aligner l’objet sur le corps de l’e-mail » |
-| Pré-titre | email | Un second objet ou texte d’aperçu d’e-mail | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des pré-titres précédemment réussis dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemple_ : « Limité à 60-80 caractères » |
-| Titre | e-mail, Meta, bannières et publicités display, LinkedIn | Un titre ou une phrase qui attire l&#39;attention du lecteur | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des titres précédemment publiés avec succès dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention » |
-| Sous-titre | e-mail, bannière et publicité display | Un deuxième ou troisième titre ou expression pour attirer l&#39;attention du lecteur | Fournissez des conseils spécifiques (2 à 5 directives) qui définissent le ton, la longueur idéale, etc. Ajoutez des sous-titres ayant précédemment réussi dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention » |
-| Description | LinkedIn | Expressions descriptives qui définissent l&#39;émotion globale | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des descriptions précédemment réussies dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Maintenir un ton amical et accessible » |
-| Corps | e-mail, Meta, bannières et publicités display, LinkedIn | Contenu marketing comprenant des messages, des liens et des images | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Limiter à 80-100 caractères », « Éviter les acronymes excessifs » |
-| Texte sur l’image | Méta, LinkedIn | Conseils spécifiques sur le ton, la longueur idéale, etc. pour le texte qui apparaît au-dessus des images | Fournissez des conseils spécifiques (1-2 phrases) sur le ton, la longueur idéale, etc. Ajoutez le texte précédemment réussi à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Se concentrer sur le moment » |
-| Call-to-action (CTA) | e-mail, métadonnées, bannière et publicité display | (Appel à l’action) Instruction donnée au lecteur et qui inspire une réponse. Généralement un ou deux mots, comme `Get started` | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez les appels à l’action réussis précédemment à la section _Exemples_ pour obtenir une sortie de meilleure qualité.<br>_Exemples_ : « Ne pas utiliser la ponctuation de fin » |
+| Pré-titre | email | Un second objet ou texte d’aperçu d’e-mail | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des pré-titres précédemment réussis dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemple_ : « Limiter à 60-80 caractères » |
+| Titre | e-mail, Meta, bannières et publicités display, LinkedIn | Un titre ou une phrase qui attire l&#39;attention du lecteur | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des titres qui ont réussi précédemment dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention ». |
+| Sous-titre | e-mail, bannière et publicité display | Un deuxième ou troisième titre ou expression pour attirer l&#39;attention du lecteur | Fournissez des conseils spécifiques (2 à 5 directives) qui définissent le ton, la longueur idéale, etc. Ajoutez des sous-titres qui ont réussi auparavant dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Utilisez des instructions pointues pour attirer l’attention ». |
+| Description | LinkedIn | Expressions descriptives qui définissent l&#39;émotion globale | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez des descriptions précédemment réussies dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Maintenir un ton amical et accessible ». |
+| Corps | e-mail, Meta, bannières et publicités display, LinkedIn | Contenu marketing comprenant des messages, des liens et des images | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Limiter à 80-100 caractères », « Éviter les acronymes excessifs ». |
+| Texte sur l’image | Meta, LinkedIn | Conseils spécifiques sur le ton, la longueur idéale, etc. du texte qui apparaît au-dessus des images | Fournissez des conseils spécifiques (1-2 phrases) sur le ton, la longueur idéale, etc. Ajoutez le texte précédemment réussi à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « Se concentrer sur le moment ». |
+| Call-to-action (CTA) | e-mail, Meta, bannière et publicité display | (Call to action) Instruction donnée au lecteur et qui inspire une réponse. Généralement un ou deux mots, comme `Get started` | Fournissez des conseils spécifiques (2-5 directives) sur le ton, la longueur idéale, etc. Ajoutez les CTA précédemment réussis dans la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : « N’utilisez pas la ponctuation de fin ». |
 
 #### Instructions relatives aux canaux par défaut
 
@@ -152,7 +158,7 @@ Chaque logo chargé comprend les détails suivants dans la mosaïque du logo :
 Dans le menu d’actions (points de suspension) d’un logo, vous pouvez [afficher les détails d’un logo individuel et le gérer](/help/user-guide/guidelines/add-guidelines.md#manage-brands) :
 
 - **[!UICONTROL Afficher les détails]**
-- **[!UICONTROL Télécharger]**
+- **[!UICONTROL Téléchargement]**
 - [**[!UICONTROL Utiliser comme miniature de marque]**](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)
 - **[!UICONTROL Renommer]**
 - **[!UICONTROL Supprimer]**
@@ -169,4 +175,4 @@ Dans le menu d’actions (points de suspension) d’une couleur, vous pouvez **[
 
 Dans GenStudio for Performance Marketing, la validation de la marque joue un rôle essentiel, en conjonction avec les fonctionnalités d’IA génératives de [!DNL Brands], [!DNL Products] et [!DNL Personas]. Cela permet de s’assurer que tout votre contenu reste cohérent avec l’identité de votre marque et les préoccupations d’accessibilité.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).

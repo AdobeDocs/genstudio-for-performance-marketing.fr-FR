@@ -4,10 +4,17 @@ description: Générez rapidement du contenu de marque hautement performant avec
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+TQID: https://experienceleague.adobe.com/Qgnbf7BVqsRFk5SmkQHkvwK-GAaUtLFfAVXb1HYLSw4
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 1%
+source-wordcount: 722
+ht-degree: 0%
 
 ---
 
@@ -32,7 +39,7 @@ Grâce à la puissance des [directives](/help/user-guide/guidelines/overview.md)
 
 Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Create]. Voir [Rôles utilisateur et autorisations](/help/user-guide/user-roles.md) pour obtenir des informations détaillées sur l’accès aux rôles.
 
-## Scénarios d’utilisation d’[!DNL Create] 
+## Scénarios d’utilisation d’[!DNL Create]
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -107,7 +114,7 @@ GenStudio for Performance Marketing permet aux marketeurs de **créer du contenu
 
 ### Modèles
 
-Après avoir sélectionné le canal à produire dans le _Que voulez-vous créer aujourd’hui ?_ section, vous pouvez accéder aux modèles approuvés par la marque à utiliser dans la génération de contenu. Utilisez des modèles pour lancer le processus de création de contenu et rester alignés sur une identité de marque définie.
+Après avoir sélectionné le canal à produire dans le _Que voulez-vous créer aujourd’hui ?_ , vous pouvez accéder aux modèles approuvés par la marque à utiliser dans la génération de contenu. Utilisez des modèles pour lancer le processus de création de contenu et rester alignés sur une identité de marque définie.
 
 Les modèles sont [chargés et stockés dans [!DNL Content]](/help/user-guide/content/overview.md) et sont accessibles dans [!DNL Create].
 
@@ -127,7 +134,7 @@ Pour créer du contenu généré par l’IA, saisissez une [invite descriptive](
 
 ### Vérifications de contenu
 
-GenStudio for Performance Marketing effectue des [vérifications de contenu](/help/user-guide/guidelines/brand-validation.md#content-check-panel) par rapport aux [directives de la marque](/help/user-guide/guidelines/brands.md), aux directives de la plateforme et aux [normes d’accessibilité](/help/user-guide/guidelines/overview.md#compliance) sur chaque variante afin de s’assurer qu’elle répond aux normes les plus strictes en matière de [!DNL Brand], de plateforme et d’accessibilité. [Vérification de contenu](/help/user-guide/guidelines/brand-validation.md#content-check-summary) des informations sont disponibles pour tout contenu généré, indiquant sa conformité aux vérifications de contenu complètes et la cohérence entre le texte et les images. Vous pouvez utiliser ces informations pour réviser ou améliorer votre expérience générée afin de mieux vous aligner sur votre marque.
+GenStudio for Performance Marketing effectue des [vérifications de contenu](/help/user-guide/guidelines/brand-validation.md#content-check-panel) par rapport aux [directives de la marque](/help/user-guide/guidelines/brands.md), aux directives de la plateforme et aux [normes d’accessibilité](/help/user-guide/guidelines/overview.md#compliance) sur chaque variante afin de s’assurer qu’elle répond aux normes les plus strictes en matière de [!DNL Brand], de plateforme et d’accessibilité. [Vérification du contenu ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) des informations sont disponibles pour tout contenu généré, indiquant sa conformité aux vérifications de contenu complètes et la cohérence entre le texte et les images. Vous pouvez utiliser ces informations pour réviser ou améliorer votre expérience générée afin de mieux vous aligner sur votre marque.
 
 ### Révisions et approbations
 

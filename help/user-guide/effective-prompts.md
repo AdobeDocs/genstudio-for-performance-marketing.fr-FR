@@ -1,14 +1,21 @@
 ---
 title: Écrire des invites efficaces
-description: Découvrez comment écrire des prompts efficaces pour Adobe GenStudio for Performance Marketing.
+description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio for Performance Marketing.
 role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/ESQljlBQv9vk7Zz-SU-hMNkY2zFy6qawEfkonjXaCkQ
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 2%
+source-wordcount: 758
+ht-degree: 0%
 
 ---
 
@@ -47,7 +54,7 @@ Pour les [e-mails](/help/user-guide/create/email-experiences.md), les critères 
 
 >[!NOTE]
 >
->Si des directives sont ajoutées dans _Paramètres_ dans le tiroir de l&#39;invite, il n&#39;est pas nécessaire d&#39;y faire référence dans l&#39;invite. GenStudio for Performance Marketing exploite automatiquement ceux de la génération de contenu.
+Si des directives sont ajoutées dans _Paramètres_ dans le tiroir de l&#39;invite, il n&#39;est pas nécessaire d&#39;y faire référence dans l&#39;invite. GenStudio for Performance Marketing exploite automatiquement ceux de la génération de contenu.
 
 ### Directives
 
@@ -55,7 +62,7 @@ Les instructions de GenStudio for Performance Marketing aident l’IA générati
 
 >[!TIP]
 >
->Vous contrôlez quand et comment GenStudio for Performance Marketing utilise vos directives de [!DNL Brand]. Consultez [Recommandations](/help/user-guide/guidelines/overview.md) pour savoir comment configurer et gérer vos recommandations de marque.
+Vous contrôlez quand et comment GenStudio for Performance Marketing utilise vos directives de [!DNL Brand]. Consultez [Recommandations](/help/user-guide/guidelines/overview.md) pour savoir comment configurer et gérer vos recommandations de marque.
 
 ### Invites structurées
 

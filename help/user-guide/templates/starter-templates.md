@@ -6,10 +6,15 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/wM0dD2t751PHH9UkmPpZDzwv-1L90UW5vdcKXDeIBHE
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: 404
+ht-degree: 3%
 
 ---
 
@@ -23,7 +28,7 @@ Il est important de sélectionner les proportions appropriées pour votre public
 
 - **Objectifs de la campagne**—Définissez vos objectifs (notoriété de la marque, engagement, conversions) afin de déterminer les emplacements et les formats qui les soutiennent le mieux.
 - **Exigences en matière de plateforme**—Chaque canal média payant dispose de proportions recommandées pour différents emplacements.
-- **Visibilité du contenu** : certaines proportions affichent une plus grande partie de votre contenu créatif, tandis que d’autres peuvent recadrer ou redimensionner votre contenu.
+- **Visibilité du contenu**—Certaines proportions affichent davantage votre contenu créatif, tandis que d&#39;autres peuvent recadrer ou redimensionner votre contenu.
 
 Examinez les objectifs de votre campagne et les options d’emplacement avant de sélectionner un modèle. Pour tous les modèles, conservez les éléments visuels et les messages clés dans des zones sécurisées afin d’éviter tout recadrage et passez en revue les exigences spécifiques à la plateforme avant de finaliser votre contenu créatif.
 
@@ -38,8 +43,8 @@ Toutes les proportions sont prises en charge pour les images statiques. Pour la 
 | Format | Orientation | Conseils |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
 | 1:1 | Square | Apparence cohérente sur tous les appareils et emplacements. |
-| 1,91:1 | Paysage | Norme pour les flux d&#39;actualités ou le contenu sponsorisé. Conservez les éléments visuels et les messages clés dans des zones sécurisées. |
-| 1:1,91 | Portrait | Format vertical élevé. Conservez les éléments visuels et les messages clés dans des zones sécurisées. |
+| 1.91:1 | Paysage | Norme pour les flux d&#39;actualités ou le contenu sponsorisé. Conservez les éléments visuels et les messages clés dans des zones sécurisées. |
+| 1:1.91 | Portrait | Format vertical élevé. Conservez les éléments visuels et les messages clés dans des zones sécurisées. |
 | 2:3, 4:5 | Portrait | Adapté aux formats de portrait et aide le créatif à se démarquer sur les appareils mobiles. |
 | 9:16 | Vertical | Idéal pour les histoires LinkedIn (expérience plein écran pour la vidéo). |
 
@@ -50,6 +55,6 @@ Toutes les proportions sont prises en charge pour les images statiques et les ty
 | Format | Orientation | Conseils |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
 | 1:1 | Square | Recommandé pour les publications de flux, les annonces de carrousel et les vidéos de flux pour une compatibilité étendue. |
-| 1,91:1 | Paysage | Idéal pour les bannières, les annonces de liens et les annonces vidéo grand écran. |
+| 1.91:1 | Paysage | Idéal pour les bannières, les annonces de liens et les annonces vidéo grand écran. |
 | 4:5 | Portrait | Idéal pour les flux mobiles ; optimise l’espace vertical et la visibilité, en particulier pour le contenu vidéo. |
 | 9:16 | Vertical | Conçu pour les histoires et les rouleaux, offrant une expérience immersive en plein écran. |

@@ -4,16 +4,23 @@ description: Découvrez comment activer du contenu avec Adobe Experience Cloud e
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+TQID: https://experienceleague.adobe.com/-Nal0YqjTzKw4g2SM3IuMf0a13e87CWdTqBZPd0dBkU
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: 474
 ht-degree: 0%
 
 ---
 
 # Activation d’Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing [!DNL Activate] fournit un emplacement central pour préparer votre expérience publicitaire en vue de son activation pour sélectionner des canaux publicitaires payants. Le _Activation_ est le processus de préparation des expériences publicitaires, des ressources et du texte en tant qu’expérience publicitaire créative spécifiquement conçue pour être placée sur un canal payant spécifique. L’activation diffuse l’expérience créative sur les canaux désignés dans un état inactif, prêt pour la révision finale et le déploiement à partir du canal. Les expériences publicitaires peuvent ensuite être distribuées sur les marchés auxquels elles sont destinées.
+GenStudio for Performance Marketing [!DNL Activate] fournit un emplacement central pour préparer votre expérience publicitaire en vue de son activation pour sélectionner des canaux publicitaires payants. _Activation_ processus de préparation des expériences publicitaires, des ressources et du texte en tant qu’expérience publicitaire créative conçue spécifiquement pour être placée sur un canal payant spécifique. L’activation diffuse l’expérience créative sur les canaux désignés dans un état inactif, prêt pour la révision finale et le déploiement à partir du canal. Les expériences publicitaires peuvent ensuite être distribuées sur les marchés auxquels elles sont destinées.
 
 Les éditeurs de contenu et les gestionnaires de système peuvent publier des expériences dont les ressources sont générées dans ou chargées dans GenStudio for Performance Marketing.
 
@@ -27,7 +34,7 @@ Chaque compte de canal média payant doit être connecté à GenStudio for Perfo
 
 * [Créer une activation](create-activation.md). Vous pouvez créer une expérience publicitaire en sélectionnant des ressources visuelles, en attribuant du texte et en définissant des métadonnées avant de passer à un canal payant.
 
-* [&#x200B; Gérer les activations &#x200B;](manage-activations.md). _[!DNL Activate]_&#x200B;fournit un aperçu de toutes les expériences activées. Vous pouvez également afficher les détails de chaque activation.
+* [Gérer les activations](manage-activations.md). _[!DNL Activate]_fournit un aperçu de toutes les expériences activées. Vous pouvez également afficher les détails de chaque activation.
 
 ## Activer les fonctionnalités
 
@@ -47,4 +54,4 @@ Recherchez et sélectionnez des ressources visuelles approuvées dans [!DNL Cont
 
 ### Prévisualiser et activer votre expérience sur un canal publicitaire
 
-Confirmez les comptes de canal payant, les ensembles d’annonces et les métadonnées de campagne associés à cette activation publicitaire. Le panneau _Aperçu_ vous permet d’afficher des expériences publicitaires à différents emplacements avant de les finaliser. (Lorsque vous sélectionnez un emplacement dans le panneau _Aperçu_, seule votre vue de l’annonce est affectée. Votre sélection d’emplacement dans le panneau _Aperçu_ n’est pas enregistrée.) Lorsque vous êtes satisfait de votre expérience publicitaire, cliquez sur **[!UICONTROL Publier]** pour envoyer l’expérience et ses métadonnées associées au canal publicitaire payant.
+Confirmez les comptes de canal payant, les ensembles publicitaires et les campagnes Meta associés à cette activation publicitaire. Le panneau _Aperçu_ vous permet d’afficher des expériences publicitaires à différents emplacements avant de les finaliser. (Lorsque vous sélectionnez un emplacement dans le panneau _Aperçu_, seule votre vue de l’annonce est affectée. Votre sélection d’emplacement dans le panneau _Aperçu_ n’est pas enregistrée.) Lorsque vous êtes satisfait de votre expérience publicitaire, cliquez sur **[!UICONTROL Publier]** pour envoyer l’expérience et ses métadonnées associées au canal publicitaire payant.

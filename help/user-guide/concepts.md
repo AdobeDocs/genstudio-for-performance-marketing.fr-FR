@@ -4,9 +4,15 @@ description: Découvrez les concepts et la terminologie d’Adobe GenStudio for 
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/i3VF7S-ndAMDoF1akF3l20tStW-IPS--MSysxD-MArc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32id: f912fa8d-7beb-4468-9ea7-1c0f198b59ef
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: 754
 ht-degree: 0%
 
 ---
@@ -39,7 +45,7 @@ GenStudio for Performance Marketing utilise la série GPT de LLM tiers via Azure
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_, telles que définies dans la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), sont les unités quantifiant l’utilisation des fonctionnalités d’IA générative dans GenStudio for Performance Marketing.
+_[!DNL Generative Actions]_, telles que définies dans la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), sont les unités quantifiant l’utilisation des fonctionnalités d’IA générative dans GenStudio for Performance Marketing.
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +54,11 @@ If genactions roll over month to month or not -->
 
 ### Taux
 
-Vous recevez une allocation par défaut de [!DNL Generative Actions] comme indiqué dans la description du produit [GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Vous recevez une allocation par défaut de [!DNL Generative Actions] comme indiqué dans la description du produit [GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 >[!NOTE]
 >
->Les taux d’utilisation peuvent varier. Les plans peuvent faire l&#39;objet de modifications. Voir la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) pour obtenir des informations à jour sur les taux.
+Les taux d’utilisation peuvent varier. Les plans peuvent faire l&#39;objet de modifications. Voir la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) pour obtenir des informations à jour sur les taux.
 
 Les fonctions suivantes consomment du [!DNL Generative Actions] à la vitesse spécifiée.
 
@@ -77,7 +83,7 @@ Les fonctions suivantes consomment du [!DNL Generative Actions] à la vitesse sp
 
 >[!TIP]
 >
->Si vous dépassez votre droit de [!DNL Generative Actions], vous pouvez acheter plus directement auprès de votre représentant de compte.
+Si vous dépassez votre droit de [!DNL Generative Actions], vous pouvez acheter plus directement auprès de votre représentant de compte.
 
 ## Gouvernance des données
 
@@ -94,85 +100,44 @@ Lorsque ce message s’affiche, vous pouvez modifier l’invite et réessayer _o
 La demande d’expériences de qualité sur plusieurs canaux est élevée et plus rapide. GenStudio for Performance Marketing simplifie le supply chain de contenu en un workflow bien organisé pour les marketeurs. GenStudio for Performance Marketing exploite la technologie Adobe à chaque étape du cycle de vie.
 
 <table style="table-layout:auto">
-
 <tr style="border: 0;">
-
     <td>
-
        <p><strong>Workflow et planification</strong></p>
-
     </td>
-
     <td>
-
         <p>Réfléchissez à des idées, définissez des directives et élaborez une stratégie autour du contenu afin d’impliquer votre audience.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Création et production</strong></p>
-
     </td>
-
     <td>
-
         <p>Produisez le contenu en fonction du plan. Collaborez en temps réel, recevez des commentaires, apportez des modifications et approuvez du contenu.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Gestion de contenu</strong></p>
-
     </td>
-
     <td>
-
         <p>Stockez, partagez et recherchez des ressources de création dans le référentiel centralisé. Réutilisez et revitalisez le contenu en fonction des performances.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Diffusion et activation</strong></p>
-
     </td>
-
     <td>
-
         <p>Activez le contenu et publiez-le sur plusieurs canaux marketing.</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Rapports et informations</strong></p>
-
     </td>
-
     <td>
-
         <p>Collectez des données et obtenez des informations pour optimiser les performances des ressources.</p>
-
     </td>
-
 </tr>
-
 </table>
