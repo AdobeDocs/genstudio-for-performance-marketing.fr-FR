@@ -25,7 +25,7 @@ ht-degree: 1%
 
 # Configuration d’Adobe GenStudio for Performance Marketing
 
-Un administrateur système Adobe effectue les tâches d’approvisionnement initiales dans le [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Depuis Admin Console, un administrateur système Adobe peut accéder au profil de produit GenStudio et attribuer des licences de produit disponibles aux utilisateurs.
+Un administrateur système Adobe effectue les tâches d’approvisionnement initiales dans le [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html#Overview). Depuis Admin Console, un administrateur système Adobe peut accéder au profil de produit GenStudio et attribuer des licences de produit disponibles aux utilisateurs.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Dans Admin Console, le profil de produit définit les règles et les profils uti
 
 **Pour accéder au profil de produit GenStudio**
 
-1. Cliquez sur le lien **Commencer** dans l’e-mail de bienvenue pour accéder à [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview).
+1. Cliquez sur le lien **Commencer** dans l’e-mail de bienvenue pour accéder à [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html#Overview).
 
 1. Connectez-vous à Admin Console à l’aide de votre Adobe ID.
 
@@ -73,8 +73,8 @@ Voir [Rôles utilisateur et autorisations](user-roles.md) pour obtenir des conse
 
 Vous pouvez ajouter des utilisateurs individuellement ou importer des informations de compte pour plusieurs utilisateurs :
 
-* [Gérer les utilisateurs individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
+* [Gérer les utilisateurs individuellement](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html#add-users)
 
-* [Gérer plusieurs utilisateurs et utilisatrices/chargement CSV en bloc](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html?lang=fr)
+* [Gérer plusieurs utilisateurs et utilisatrices/chargement CSV en bloc](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html?lang=fr)
 
 Une fois que vous avez intégré les utilisateurs à GenStudio for Performance Marketing de votre entreprise, un gestionnaire de système GenStudio peut [configurer les directives relatives à la marque et aux médias de votre entreprise](get-started.md).
