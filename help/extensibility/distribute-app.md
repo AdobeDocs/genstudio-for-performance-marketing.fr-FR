@@ -3,10 +3,15 @@ title: Distribuer Votre Application
 description: Distribuez votre application ou module complémentaire pour GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
-source-git-commit: 2df93292f456cc952f72faea3d25ca0503a4e2db
+TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 0%
+source-wordcount: 303
+ht-degree: 1%
 
 ---
 
@@ -16,7 +21,7 @@ La distribution de votre module complémentaire le rend disponible pour une util
 
 Cette rubrique traite de la distribution privée. La distribution privée limite le déploiement du module complémentaire à l’organisation, identifiée par l’organisation IMS, pour laquelle il a été développé.
 
-La distribution publique rend le module complémentaire disponible sous la forme d’une application sur Adobe Exchange. [Distribution publique](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) dans la documentation du développeur _App Builder_, explique comment rendre votre application disponible pour toute organisation Adobe.
+La distribution publique rend le module complémentaire disponible sous la forme d’une application sur Adobe Exchange. [Distribution publique &#x200B;](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) la documentation App Builder __ destinée aux développeurs décrit comment rendre votre application disponible pour toute organisation Adobe.
 
 >[!BEGINSHADEBOX]
 

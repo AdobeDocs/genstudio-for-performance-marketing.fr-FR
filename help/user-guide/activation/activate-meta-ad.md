@@ -3,9 +3,23 @@ title: Activation d’une publicité Meta
 description: Découvrez comment activer une expérience publicitaire Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
+TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: d87258a7-722c-4afd-b632-adddc447c7aa
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: 1931
 ht-degree: 1%
 
 ---
@@ -116,7 +130,7 @@ Vous pouvez charger jusqu’à six images statiques externes à la galerie [!DNL
 
 1. Dans la section _Média_, cliquez sur **[!UICONTROL Sélectionner]**. Un menu déroulant affiche des options _Sélectionner à partir du contenu_ ou _Télécharger_.
 
-1. Cliquez sur **[!UICONTROL Charger]**. La fenêtre _Ajouter des proportions_ s’ouvre.
+1. Cliquez sur **[!UICONTROL Charger]**. La fenêtre _Ajouter des proportions_ s’ouvre.
 
 1. Sélectionnez les images selon les proportions prises en charge en faisant glisser et en déposant les fichiers image dans la zone de chargement des images. Vous pouvez également rechercher des ressources sur votre appareil.
 
@@ -137,8 +151,8 @@ Utilisez la section _Texte_ de la page _Activer la publicité Meta_ pour ajouter
 | Titre | oui | 255 |
 | Description | Non | 125 |
 | Call to action | oui | options de menu déroulant uniquement |
-| Afficher l’URL | Non | 1 000 |
-| URL du site web | oui | 1 000 |
+| Afficher l’URL | Non | 1000 |
+| URL du site web | oui | 1000 |
 | Image | au moins un obligatoire |                                 |
 
 GenStudio for Performance Marketing nécessite _du texte de Principal_ et _headline_, et non Meta.
@@ -152,9 +166,9 @@ Les détails de l’expérience sont enregistrés en tant que métadonnées et a
 | Campagnes | Toutes les campagnes GenStudio for Performance Marketing auxquelles appartient l’expérience publicitaire |
 | Marque | Directives, définies par l&#39;utilisateur ou par défaut, qui permettent aux utilisateurs d&#39;établir des directives de marque capturant l&#39;essence de l&#39;identité d&#39;une marque. |
 | Produits | Produits associés à votre organisation et identifiés dans GenStudio for Performance Marketing |
-| Personnes | Personnes associées à votre organisation et identifiées dans GenStudio for Performance Marketing |
+| Personas | Personnes associées à votre organisation et identifiées dans GenStudio for Performance Marketing |
 | Échéancier | Trimestre, saison, année ou autre unité de temps définie par l’organisation pendant laquelle l’expérience publicitaire est active |
-| Région   | Région géographique dans laquelle l’expérience est lancée |
+| Région | Région géographique dans laquelle l’expérience est lancée |
 | Langue | Langues pour lesquelles l’expérience publicitaire est utilisée |
 | Mots-clés | Mots-clés définis par l’utilisateur qui facilitent la recherche et la catégorisation de l’expérience publicitaire |
 
@@ -174,7 +188,7 @@ Après avoir préparé vos expériences publicitaires, vous devez confirmer les 
 
 ### Création d’une visionneuse d’annonces
 
-Vous pouvez créer un nouveau jeu d’annonces lors de la configuration de la plateforme en clonant un jeu d’annonces existant. Les ensembles de métadonnées publicitaires définissent le timing, les détails du canal et l’audience d’une publicité spécifique. Une méta-campagne peut contenir plusieurs visionneuses d’annonces, mais une visionneuse d’annonces est exclusivement associée à une campagne.
+Vous pouvez créer un nouveau jeu d’annonces lors de la configuration de la plateforme en clonant un jeu d’annonces existant. Les ensembles d’annonces Meta définissent le timing, les détails du canal et l’audience d’une annonce publicitaire spécifique. Une campagne Meta peut contenir plusieurs visionneuses d’annonces, mais une visionneuse d’annonces est exclusivement associée à une campagne.
 
 **Pour créer une visionneuse d’annonces** :
 

@@ -4,9 +4,22 @@ description: Découvrez comment configurer et utiliser le plug-in Figma pour Gen
 feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
-source-git-commit: 4ab7e82336bfa6907331b0684253e48066e7d021
+TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2:
+  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: 1202
 ht-degree: 0%
 
 ---
@@ -14,7 +27,7 @@ ht-degree: 0%
 # Plug-in Figma pour GenStudio for Performance Marketing
 
 Le plug-in GenStudio for Performance Marketing Figma ajoute un nouveau panneau à l’application Figma qui vous permet de générer du contenu sur la marque.
-[Recherchez et installez le plug-in sur la marketplace communautaire Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
+[Recherchez et installez le plug-in sur la marketplace communautaire de Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 Cette page décrit comment configurer et utiliser le plug-in .
 
@@ -102,7 +115,7 @@ Utilisez l’IA dédiée aux GenStudio for Performance Marketing pour générer 
 1. Sélectionnez le nœud de section qui contient vos modèles d’annonces publicitaires. Vous pouvez le faire à partir du panneau **Calques** ou en cliquant directement sur la section dans la zone de travail.
    ![Sélection de section ou de variations](./plugin-playground.png){width="500" zoomable="yes"}
 1. Dans la fenêtre du plug-in, saisissez un nom de projet pour les variations et choisissez une plateforme pour le contenu.
-1. En **[!UICONTROL Quel est l’objectif ?]**, sélectionnez **[!UICONTROL Générer des variations]** ou **[!UICONTROL Traduire]**, puis cliquez sur le bouton **[!UICONTROL Terminer la configuration]**.
+1. Dans **[!UICONTROL Quel est l’objectif ?]**, sélectionnez **[!UICONTROL Générer les variations]** ou **[!UICONTROL Traduire]**, puis cliquez sur le bouton **[!UICONTROL Terminer la configuration]**.
    ![Fenêtre Configurer le projet](./setup-project.png){width="300" zoomable="yes"}
 1. Sélectionnez les [!DNL Brand], [!DNL Persona] et [!DNL Product] à utiliser pour la génération de contenu.
 1. Sélectionnez le nombre de variations à produire.

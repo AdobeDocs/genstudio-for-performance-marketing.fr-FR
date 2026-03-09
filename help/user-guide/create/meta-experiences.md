@@ -5,16 +5,32 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/zKvU0COY6lhiGxtx0H5coTozyAiOWcUqh7NZa5FBGGE
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: 318
 ht-degree: 0%
 
 ---
 
 # Expériences Meta
 
-Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences Meta à fort impact](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permet aux créateurs de contenu d’utiliser [des directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [&#x200B; invite bien conçue](/help/user-guide/effective-prompts.md) pour [&#x200B; rapidement des expériences publicitaires Meta](/help/user-guide/create/create-meta-ad.md).
+Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences Meta à fort impact](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permet aux créateurs et créatrices de contenu d’utiliser des [directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [invite bien conçue](/help/user-guide/effective-prompts.md) pour [&#x200B; rapidement des expériences publicitaires Meta](/help/user-guide/create/create-meta-ad.md).
 
 Lors de la génération d’expériences Meta, quatre variations sont créées et affichées dans la zone de travail. GenStudio for Performance Marketing prend en charge les [annonces Meta aux tailles standard et personnalisées](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 

@@ -4,10 +4,23 @@ description: Découvrez comment attribuer des droits aux créateurs et  [!DNL Br
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
+TQID: https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 1%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -21,7 +34,7 @@ L’ajout d’utilisateurs et de groupes d’utilisateurs est une tâche de base
 
 Regardez cette présentation vidéo ou suivez les étapes ci-dessous.
 
->[!VIDEO](https://video.tv.adobe.com/v/3474999?learn=on&enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3474999?captions=fre_fr&learn=on&enablevpops)
 
 ## Étape 1 : créer un groupe d’utilisateurs
 
@@ -35,7 +48,7 @@ Regardez cette présentation vidéo ou suivez les étapes ci-dessous.
 
 1. Vous pouvez éventuellement ajouter une description du groupe et de son objectif.
 
-1. Cliquer sur **[!UICONTROL Enregistrer]**. Admin Console ouvre la fenêtre contextuelle _Nouveau groupe_ avec le nom du groupe nouvellement créé.
+1. Cliquez sur **[!UICONTROL Enregistrer]**. Admin Console ouvre la fenêtre contextuelle _Nouveau groupe_ avec le nom du groupe nouvellement créé.
 
 Voir [Gérer les groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-groups.html) dans le _Guide d’administration pour les entreprises et les équipes_.
 
@@ -51,13 +64,13 @@ Une fois que vous avez créé un nouveau groupe d&#39;utilisateurs et ajouté de
 
 1. Sélectionnez `Adobe GenStudio` dans la liste _Sélectionner des produits_.
 
-1. Cliquez sur **[!UICONTROL Appliquer]**. La fenêtre contextuelle _Sélectionner des profils de produit_ s’ouvre, affichant les profils de produit associés à Adobe GenStudio.
+1. Cliquez sur **[!UICONTROL Appliquer]**. La fenêtre contextuelle _Sélectionner des profils de produit_ s’ouvre, affichant les profils de produit associés à Adobe GenStudio.
 
 1. Sélectionnez `Adobe GenStudio system manager`.
 
-1. Cliquez sur **[!UICONTROL Appliquer]**. La fenêtre contextuelle _Attribuer des produits et des profils_ s’ouvre, affichant le profil de produit du groupe d’utilisateurs nouvellement créé.
+1. Cliquez sur **[!UICONTROL Appliquer]**. La fenêtre contextuelle _Attribuer des produits et des profils_ s’ouvre, affichant le profil de produit du groupe d’utilisateurs nouvellement créé.
 
-1. Cliquer sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Voir [Attribuer des profils de produit à des groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-groups.html) dans _Guide d’administration pour les entreprises et les équipes_.
 
