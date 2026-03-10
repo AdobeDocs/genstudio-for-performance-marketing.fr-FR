@@ -5,21 +5,15 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+hold: true
+source-git-commit: 77e11368c9e7a42a49501e346aff7eb9ffe3f8c8
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
@@ -42,7 +36,7 @@ Les fonctionnalités de ce plug-in incluent :
 * Exportez les [!DNL Experiences] générés vers GenStudio for Performance Marketing.
 * Utilisez des options de module externe qui s’adaptent aux éléments sélectionnés dans la zone de travail Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478811?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Créer un modèle
 
@@ -105,7 +99,7 @@ Utilisez l’IA dédiée au GenStudio for Performance Marketing pour générer o
 1. Sélectionnez le nombre de variations à produire (huit au maximum).
 1. Utilisez le bouton sous **[!UICONTROL Sélectionner le contenu]** pour parcourir et choisir des images dans vos ressources. Les 40 ressources ajoutées le plus récemment apparaissent en premier et vous pouvez rechercher d’autres ressources. Les images sélectionnées sont automatiquement redimensionnées pour s’adapter à vos modèles.
 1. Saisissez une invite de texte. L’option **[!UICONTROL Action]** de chaque champ de la liste **[!UICONTROL Champs]** est définie sur **[!UICONTROL Générer]** pour le nouveau contenu.
-1. Mappez tous les rôles de champ. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+1. Mappez tous les rôles de champ. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 1. Cliquez sur le bouton **[!UICONTROL Générer]**.
 
 ## Traduire ou générer et copier des variations d’un contenu existant
@@ -121,7 +115,7 @@ Utilisez l’IA dédiée aux GenStudio for Performance Marketing pour générer 
 1. Sélectionnez le nombre de variations à produire.
 1. Utilisez le bouton sous **[!UICONTROL Sélectionner le contenu]** pour parcourir et choisir des images dans vos ressources. Les 40 ressources ajoutées le plus récemment apparaissent en premier et vous pouvez rechercher d’autres ressources. Les images sélectionnées sont automatiquement redimensionnées pour s’adapter à vos modèles.
 1. Saisissez une invite de texte. L’option **[!UICONTROL Action]** de chaque champ de la liste **[!UICONTROL Champs]** est définie sur **[!UICONTROL Générer]** pour le nouveau contenu.
-1. Mappez tous les rôles de champ. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+1. Mappez tous les rôles de champ. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 1. Sélectionnez chaque type de champ pour générer des variations ou effectuer une traduction dans le panneau sur le côté gauche du plug-in, puis collez le contenu initial dans chaque zone **[!UICONTROL Contenu initial]**.
    ![Exemple de texte dans la zone Contenu initial](./initial-content-box.png){width="60%" zoomable="yes"}
 1. Cliquez sur le bouton **[!UICONTROL Générer]**.
@@ -162,13 +156,15 @@ Les options disponibles sont les suivantes :
 
 Après avoir sélectionné une option **[!UICONTROL Action]**, régénérez le contenu à l’aide du bouton **[!UICONTROL Régénérer]**.
 
+## Convertir les images Figma en Photoshop
+
 ## Exporter des expériences
 
 Les variations peuvent être exportées à partir de Figma en tant que [!DNL Experiences] GenStudio for Performance Marketing.
 
 1. Sélectionnez le contenu à exporter dans la zone de travail Graphique en effectuant l’une des opérations suivantes :
    * Sélectionnez la section de génération dans la zone de travail, puis cliquez sur **[!UICONTROL Tout marquer pour l’exportation]** dans le panneau du plug-in.
-     ![&#x200B; Sélection de la section de génération &#x200B;](./select-generation-section.png){width="200" zoomable="yes"}
+     ![ Sélection de la section de génération ](./select-generation-section.png){width="200" zoomable="yes"}
    * Sélectionnez une génération individuelle dans la zone de travail, puis cliquez sur **[!UICONTROL Marquer pour l’exportation]** dans le panneau du plug-in.
      ![Sélection de génération individuelle](./select-generation.png){width="200" zoomable="yes"}
 1. Sélectionnez l’élément Exporter dans le menu de la barre latérale.
@@ -190,7 +186,7 @@ Tenez compte de ces bonnes pratiques et conseils si le texte ou les images ne so
 
 ### Champs mappés
 
-Si le texte ou les images ne sont pas remplacés, vérifiez que les champs ont été mappés à des rôles de champ GenStudio dans l’interface utilisateur du plug-in. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+Si le texte ou les images ne sont pas remplacés, vérifiez que les champs ont été mappés à des rôles de champ GenStudio dans l’interface utilisateur du plug-in. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 
 ### Confirmer que les polices sont disponibles
 
