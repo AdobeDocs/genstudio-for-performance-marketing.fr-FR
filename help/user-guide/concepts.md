@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 0%
@@ -67,10 +67,12 @@ GenStudio for Performance Marketing utilise la série GPT de LLM tiers via Azure
 
 _[!DNL Generative Actions]_, telles que définies dans la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), sont les unités quantifiant l’utilisation des fonctionnalités d’IA générative dans GenStudio for Performance Marketing.
 
-<!-- Add example about usage mode?
+<!-- 
+Add example about usage mode?
 Where users check how many generative actions they have left
 How they re-up their genactions
-If genactions roll over month to month or not -->
+If genactions roll over month to month or not 
+-->
 
 ### Taux
 
@@ -89,10 +91,12 @@ Les fonctions suivantes consomment du [!DNL Generative Actions] à la vitesse sp
 | Créer des publicités display | 5 par génération |
 | Régénération des sections | 1 par génération |
 
-<!-- | Generate on-brand images | 1 per prompt  |
+<!-- 
+| Generate on-brand images | 1 per prompt  |
 | Translation              | 1 per prompt  |
 | Video: ADLS              | 1 per prompt  |
-| Video: TTS + Avatar      | 1 per prompt  | -->
+| Video: TTS + Avatar      | 1 per prompt  | 
+-->
 
 [!DNL Generative Actions] _ne sont pas_ consommés lorsque :
 
@@ -120,44 +124,85 @@ Lorsque ce message s’affiche, vous pouvez modifier l’invite et réessayer _o
 La demande d’expériences de qualité sur plusieurs canaux est élevée et plus rapide. GenStudio for Performance Marketing simplifie le supply chain de contenu en un workflow bien organisé pour les marketeurs. GenStudio for Performance Marketing exploite la technologie Adobe à chaque étape du cycle de vie.
 
 <table style="table-layout:auto">
+
 <tr style="border: 0;">
+
     <td>
+
        <p><strong>Workflow et planification</strong></p>
+
     </td>
+
     <td>
+
         <p>Réfléchissez à des idées, définissez des directives et élaborez une stratégie autour du contenu afin d’impliquer votre audience.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Création et production</strong></p>
+
     </td>
+
     <td>
+
         <p>Produisez le contenu en fonction du plan. Collaborez en temps réel, recevez des commentaires, apportez des modifications et approuvez du contenu.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Gestion de contenu</strong></p>
+
     </td>
+
     <td>
+
         <p>Stockez, partagez et recherchez des ressources de création dans le référentiel centralisé. Réutilisez et revitalisez le contenu en fonction des performances.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Diffusion et activation</strong></p>
+
     </td>
+
     <td>
+
         <p>Activez le contenu et publiez-le sur plusieurs canaux marketing.</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Rapports et informations</strong></p>
+
     </td>
+
     <td>
+
         <p>Collectez des données et obtenez des informations pour optimiser les performances des ressources.</p>
+
     </td>
+
 </tr>
+
 </table>
