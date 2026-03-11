@@ -4,11 +4,22 @@ description: Les GenStudio for Performance Marketing [!DNL Brands] sont une coll
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
 TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1525
@@ -66,13 +77,13 @@ Le tableau suivant présente chaque catégorie d’instructions relatives aux im
 | Catégorie d&#39;instructions | Description | Valeurs |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL Description] | Ajout d’informations générales pour la catégorie spécifique de directives relatives aux images, telles que « Photographie de produit » ou « Directives générales relatives aux objets d’art ». | Extrait de documents de directives et configurable manuellement <br><br>_Exemple de directive générale sur les objets d’art_ : « Directives qui s’appliquent aux images qui ne sont pas des photographies, telles que des illustrations et des rendus 3D » |
-| [!UICONTROL  Type de contenu ] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
+| [!UICONTROL &#x200B; Type de contenu &#x200B;] | Types de contenu disponibles pour une image | _Art_ ou _Photo_ |
 | Composition | Détails concernant le placement des objets, l&#39;appareil photo et les techniques de photographie | Extrait de documents d’instructions et configurable manuellement |
 | [!UICONTROL Environnement] | Détails concernant l’environnement, tels que les éléments d’arrière-plan dans l’image | _Exemple_ : « Préférez un environnement ensoleillé » |
 | [!UICONTROL Couleur] | Détails concernant la famille de couleurs, la température des couleurs, les couleurs primaires/secondaires/tertiaires, la teinte, la saturation, le contraste | Extrait de documents de directives et configurable manuellement <br><br>_Exemples_ : « Assurez-vous que le produit est l’objectif principal avec un minimum de distractions », « Couleurs vives » |
 | [!UICONTROL Éclairage] | Détails généraux ou spécifiques concernant l&#39;éclairage | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Placez un voyant lumineux devant la personne » |
-| [!UICONTROL Humeur ] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
-| [!UICONTROL Restrictions ] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
+| [!UICONTROL Humeur &#x200B;] | Décrit la sensation d’une image | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Les images doivent toujours représenter des thèmes positifs et joyeux » |
+| [!UICONTROL Restrictions &#x200B;] | Éléments à éviter indépendamment des autres directives | Extrait de documents de directives et configurable manuellement <br><br>_Exemple_ : « Évitez de prendre des photos dans un environnement nuageux », « Évitez les thèmes négatifs », « Les couleurs ne peuvent pas être lavées » |
 
 ### Instructions relatives aux canaux
 
@@ -177,4 +188,4 @@ Dans le menu d’actions (points de suspension) d’une couleur, vous pouvez **[
 
 Dans GenStudio for Performance Marketing, la validation de la marque joue un rôle essentiel, en conjonction avec les fonctionnalités d’IA génératives de [!DNL Brands], [!DNL Products] et [!DNL Personas]. Cela permet de s’assurer que tout votre contenu reste cohérent avec l’identité de votre marque et les préoccupations d’accessibilité.
 
-Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
+Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
