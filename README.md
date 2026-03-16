@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3af756e5bc0e2731187c3879c1593605706d6a2c
+source-git-commit: 28ad1f3a659fd1f44283c8e5913810f8637b87a2
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 # Documentation de GenStudio for Performance Marketing
@@ -11,7 +11,7 @@ Ce site contient la documentation la plus récente pour le produit GenStudio for
 
 ## Code de conduite d’Adobe Open Source
 
-Ce projet a adopté le [Code de conduite d’Adobe Open Source](code-of-conduct.md) ou le Code de conduite de la Fondation [.NET](https://dotnetfoundation.org/about/policies/code-of-conduct). Voir l’article [Contribution](contributing.md).
+Ce projet a adopté le [Code de conduite d’Adobe Open Source](code-of-conduct.md) ou le Code de conduite de la Fondation [.NET](https://dotnetfoundation.org/about/policies/code-of-conduct). Reportez-vous à la page [Contribution](contributing.md).
 
 ### Modifications mineures
 
