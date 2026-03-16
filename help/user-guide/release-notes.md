@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: b3ebb731f7b9a7968a232fe2283b5ef2441c3f6c
 workflow-type: tm+mt
-source-wordcount: 4448
+source-wordcount: 4584
 ht-degree: 0%
 
 ---
@@ -50,7 +50,28 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2026.01 {#latest}
+## 2026.03 {#latest}
+
+### Modèles Express pour Meta, LinkedIn et Display
+
+[!DNL Create] prend désormais en charge les modèles [Express sur la zone de travail Horizon](/help/user-guide/templates/express-templates.md) pour Meta, LinkedIn et Display. Vous pouvez utiliser des modèles Adobe Express, y compris des modèles de démarrage et des mises en page personnalisées de marque, directement dans le workflow de création.
+
+La zone de travail prend en charge les fonctionnalités de modèle, notamment :
+
+* plusieurs tailles par modèle
+* les options de verrouillage et de déverrouillage de calque sont définies dans Express
+* Modification de WYSIWYG pour les éléments de modèle
+* commandes plus riches pour le texte, le remplacement de média, le remplacement de logo, le recadrage vidéo, etc
+
+Pour plus d’informations, consultez la section [&#x200B; Utilisation de modèles Adobe Express dans GenStudio for Performance Marketing &#x200B;](/help/user-guide/templates/express-templates.md).
+
+### Contenu TikTok dans GenStudio for Performance Marketing
+
+Vous pouvez désormais créer, approuver et activer les publicités vidéo intégrées à TikTok à partir de GenStudio for Performance Marketing. Générez facilement des annonces dans le workflow de [!DNL Create], puis publiez l’expérience sur [!DNL Content]. Utilisez [!DNL Insights] for TikTok pour surveiller les performances et informer la prochaine actualisation créative.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2026.01.15
 
 ### Reconception du panneau d’invite de la zone de travail d’HTML
 
@@ -66,7 +87,7 @@ Vous pouvez désormais créer des e-mails avec jusqu’à 10 pods/sections dans 
 
 GenStudio for Performance Marketing prend désormais en charge Content Credentials, ce qui permet aux équipes d’appliquer et de conserver des métadonnées d’authenticité sur les ressources tout au long de leur création, révision et exportation. Les badges et détails d’identification apparaissent sur les workflows clés afin que les organisations puissent vérifier la provenance et conserver la confiance lors du partage de contenu.
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2025.12.12
 
