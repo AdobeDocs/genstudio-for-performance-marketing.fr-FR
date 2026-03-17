@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: a3045fbab1e26338bdfbed21f6a373d56719ee07
 workflow-type: tm+mt
 source-wordcount: 201
 ht-degree: 0%
@@ -45,3 +45,4 @@ Pour en savoir plus sur le plug-in Figma, consultez la page [Plug-in Figma](figm
 Le plug-in GenStudio for Performance Marketing Photoshop ajoute un nouveau panneau à Adobe Photoshop qui permet aux utilisateurs d’effectuer des actions GenStudio for Performance Marketing, telles que la génération de contenu sur la marque.
 
 Pour en savoir plus sur le plug-in Photoshop, consultez la page [Plug-in Photoshop](photoshop-plugin.md).
+
