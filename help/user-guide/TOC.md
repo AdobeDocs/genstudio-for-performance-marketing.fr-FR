@@ -5,9 +5,9 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
+source-git-commit: 10f873f1d68b03a1d9b8ea6d288c8b824ac9ad00
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '256'
 ht-degree: 19%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
-+ [Guide de GenStudio for Performance Marketing](home.md)
++ Guide de [GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Commencer](get-started.md)
 + Introduction {#intro}
@@ -28,7 +28,7 @@ ht-degree: 19%
    + [Connecter des médias achetés](connectors/connect-channel.md)
    + Comptes médias payants {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
-      + [&#x200B; LinkedIn &#x200B;](connectors/linkedin-ads.md)
+      + [ LinkedIn ](connectors/linkedin-ads.md)
       + [Meta Ads](connectors/meta-ads.md)
 + Directives {#guidelines}
    + [Présentation des directives](guidelines/overview.md)
@@ -38,10 +38,11 @@ ht-degree: 19%
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + [Vue d’ensemble d’[!DNL Create] &#x200B;](create/overview.md)
+   + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Expériences Meta](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
+   + [Expériences TikTok](create/tiktok-experiences.md)
    + [Afficher les expériences publicitaires](create/display-ad-experiences.md)
    + [Expériences de bannière](create/banner-experiences.md)
    + [Gérer les variantes](create/manage-variants.md)
@@ -53,7 +54,7 @@ ht-degree: 19%
    + [Générer une image](create/generate-assets.md)
 + Révisions et approbations {#approve}
    + [Présentation de la révision et des approbations](approvals/overview.md)
-   + [Intégration de Workfront Proof](approvals/proof-integration.md)
+   + Intégration de [Workfront Proof](approvals/proof-integration.md)
    + [Demander une révision et une approbation](approvals/request-review.md)
    + [Vérifier et modifier le contenu](approvals/review-and-edit.md)
    + [Approuver le contenu](approvals/approve-content.md)
@@ -68,7 +69,7 @@ ht-degree: 19%
    + [Utiliser des modèles](templates/use-templates.md)
    + [Modèles de démarrage](templates/starter-templates.md)
    + [Personnaliser un modèle](templates/customize-template.md)
-   + [&#x200B; Éditeur de code de modèle &#x200B;](templates/code-editor.md)
+   + [ Éditeur de code de modèle ](templates/code-editor.md)
    + [Créer des modèles accessibles](templates/accessibility-for-templates.md)
    + [Utilisation de modèles Express](/help/user-guide/templates/express-templates.md)
    + [Bonnes pratiques pour les modèles](templates/best-practices-for-templates.md)
@@ -88,10 +89,10 @@ ht-degree: 19%
    + [Optimiser les activations](activation/troubleshooting.md)
    + Publicités médias payantes {#paid-media-ads}
       + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-      + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
+      + [ LinkedIn ](activation/activate-linkedin-ad.md)
       + [Meta](activation/activate-meta-ad.md)
       + [Amazon](activation/activate-amazon-ad.md)
-      + [&#x200B; Innovid &#x200B;](activation/activate-innovid-ad.md)
+      + [ Innovid ](activation/activate-innovid-ad.md)
 + Insights {#insights}
    + [Vue d’ensemble d’Insights](insights/overview.md)
    + [Filtres d’informations](insights/filter-views.md)
