@@ -1,6 +1,6 @@
 ---
-title: Plug-in Photoshop pour Adobe GenStudio for Performance Marketing
-description: Découvrez comment installer, configurer et utiliser le plug-in Photoshop pour GenStudio for Performance Marketing.
+title: GenStudio Photoshop pour Adobe GenStudio for Performance Marketing
+description: Découvrez comment installer, configurer et utiliser GenStudio Photoshop for GenStudio for Performance Marketing.
 feature: Generative AI
 role: User
 exl-id: e3f57acd-f2dd-4957-aa5e-c97595a29899
@@ -15,16 +15,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 1%
+source-wordcount: 847
+ht-degree: 92%
 
 ---
 
-# Plug-in Photoshop pour GenStudio for Performance Marketing
+# GenStudio Photoshop for GenStudio for Performance Marketing
 
-Le plug-in GenStudio for Performance Marketing Photoshop ajoute un panneau à Adobe Photoshop qui vous permet de générer du contenu sur la marque.
+GenStudio Photoshop ajoute un panneau à Adobe Photoshop qui vous permet de générer du contenu sur la marque.
 
 Cette page décrit comment installer et configurer le plug-in et comment l’utiliser.
 
@@ -53,7 +53,7 @@ Suivez ces instructions pour installer le plug-in .
 ### Etapes d&#39;installation
 
 1. Téléchargez et mettez à jour le plug-in depuis Creative Cloud Marketplace dans Adobe Exchange.
-1. Recherchez le plug-in **GenStudio pour Photoshop** dans Adobe Exchange.
+1. Recherchez **GenStudio Photoshop** dans Adobe Exchange.
 1. Suivez les invites pour installer le plug-in.
 
 ### Désinstallation du plug-in
@@ -149,7 +149,7 @@ Les utilisateurs peuvent sélectionner exporter après la génération ou la tra
 
 ## Convertir les images Figma en Photoshop
 
-Les cadres figma peuvent être convertis en documents Photoshop et exportés pour être utilisés avec le plug-in Photoshop. Pour savoir comment convertir des images, consultez la section [&#x200B; Convertir des images Figma en Photoshop &#x200B;](figma-plugin.md#convert-figma-frames-to-photoshop) de la page du plug-in Figma.
+Les images Figma peuvent être converties en documents Photoshop et exportées pour être utilisées avec GenStudio Photoshop. Pour savoir comment convertir des images, consultez la section [&#x200B; Convertir des images Figma en Photoshop &#x200B;](figma-plugin.md#convert-figma-frames-to-photoshop) de la page du plug-in Figma.
 
 ## Dépannage
 

@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 4b3f2ae27b9368b95e440a58cb04f4b063da616e
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 1725
-ht-degree: 1%
+source-wordcount: 1713
+ht-degree: 93%
 
 ---
 
@@ -182,9 +182,9 @@ Un fichier ZIP est créé dans le panneau du plug-in ou un lien vers **[!UICONTR
 
 >[!NOTE]
 >
-> Pour effectuer cette tâche, vous avez besoin du module externe Figma et du module externe [Photoshop pour GenStudio for Performance Marketing](photoshop-plugin.md).
+> Pour effectuer cette tâche, vous avez besoin du plug-in Figma et de [GenStudio Photoshop](photoshop-plugin.md).
 
-Vous pouvez utiliser le module externe Figma pour convertir un cadre Figma, plusieurs cadres ou un document entier au format Photoshop et l’exporter pour l’utiliser avec le module externe [Photoshop](photoshop-plugin.md). Actuellement, seules les propriétés majeures telles que la visibilité, la taille de police et les attributs de calque de base sont prises en charge lors de la conversion. Les fonctions telles que les caractères barrés, les exposants, les indices, l’opacité en pourcentages, les dégradés et d’autres propriétés avancées similaires ne sont pas encore prises en charge.
+Vous pouvez utiliser le module externe Figma pour convertir un cadre Figma, plusieurs cadres ou un document entier au format Photoshop et l’exporter pour l’utiliser avec [GenStudio Photoshop](photoshop-plugin.md). Actuellement, seules les propriétés majeures telles que la visibilité, la taille de police et les attributs de calque de base sont prises en charge lors de la conversion. Les fonctions telles que les caractères barrés, les exposants, les indices, l’opacité en pourcentages, les dégradés et d’autres propriétés avancées similaires ne sont pas encore prises en charge.
 
 Le plug-in prend en charge les types de calques Figma suivants pour la conversion :
 
@@ -215,8 +215,8 @@ Pour convertir des images :
 1. Utilisez l’une des méthodes suivantes :
 
    * Cliquez sur **[!UICONTROL Exporter]** pour exporter le fichier converti vers un emplacement choisi, ou
-   * Cliquez sur **[!UICONTROL Transférer vers le plug-in Photoshop]** pour mettre en cache le fichier converti en vue d’une utilisation immédiate dans le plug-in Photoshop.
-     ![Bouton Transférer vers le plug-in Photoshop](./transfer-to-ps-button.png){width="60%"}
+   * Cliquez sur **[!UICONTROL Transférer vers GenStudio Photoshop]** pour mettre en cache le fichier converti en vue d’une utilisation immédiate dans GenStudio Photoshop.
+     ![Bouton Transférer vers GenStudio Photoshop](./transfer-to-ps-button.png){width="40%"}
 1. Lorsque la boîte de dialogue **[!UICONTROL Clé de fichier requise]** s’affiche, le plug-in a besoin d’une URL de fichier Figma pour effectuer la conversion. Ajoutez l’URL de votre document :
 
    1. Dans Figma, cliquez sur **[!UICONTROL Partager]** dans le coin supérieur droit de la zone de travail.
@@ -224,14 +224,14 @@ Pour convertir des images :
    1. Collez le lien copié dans le champ **[!UICONTROL URL du fichier Figma]** de la boîte de dialogue du plug-in.
 
 1. Cliquez sur **[!UICONTROL Envoyer]**. Le module externe lit les images sélectionnées dans Figma et les convertit en document JSON, un format intermédiaire pour les données de fichier.
-   ![Boîte de dialogue Clé de fichier requise](./file-key-required.png){width="40%"}
-1. Dans Photoshop, ouvrez le plug-in GenStudio et cliquez sur l’onglet **[!UICONTROL Importer]**.
+   ![Boîte de dialogue Clé de fichier requise](./file-key-required.png){width="35%"}
+1. Dans Photoshop, ouvrez GenStudio Photoshop et cliquez sur l’onglet **[!UICONTROL Importer]**.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur **[!UICONTROL À partir du plug-in]** pour choisir un fichier converti avec **[!UICONTROL Transférer vers le plug-in Photoshop]** dans la liste des fichiers mis en cache, ou
+   * Cliquez sur **[!UICONTROL À partir du plug-in]** pour choisir un fichier converti avec **[!UICONTROL Transférer vers GenStudio Photoshop]** dans la liste des fichiers mis en cache, ou
    * Cliquez sur **[!UICONTROL Charger JSON]** pour rechercher et sélectionner le fichier JSON à charger.
      ![Bouton Télécharger JSON](./upload-json.png){width="40%"}
-1. Le plug-in GenStudio de Photoshop convertit les informations du document JSON en document Photoshop ouvert.
+1. GenStudio Photoshop convertit les informations du document JSON en document Photoshop ouvert.
 1. Cliquez sur **[!UICONTROL Terminé]**. Le nouveau fichier s’ouvre dans Photoshop et est prêt à l’emploi. Ou cliquez sur **[!UICONTROL Enregistrer sous...]** pour choisir un emplacement d’enregistrement du fichier.
    ![&#x200B; Boîte de dialogue du bouton Terminé &#x200B;](./import-done-button.png){width="40%"}
 
