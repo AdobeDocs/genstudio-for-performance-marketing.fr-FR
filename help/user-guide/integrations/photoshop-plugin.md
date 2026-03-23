@@ -5,10 +5,16 @@ feature: Generative AI
 role: User
 exl-id: e3f57acd-f2dd-4957-aa5e-c97595a29899
 TQID: https://experienceleague.adobe.com/9p-ohsF1gIVKv3vwjnP9o675l3gJT3tVxx34PefFzCQ
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
 source-wordcount: 847
@@ -139,11 +145,11 @@ De nouveaux documents sont ajoutés à votre espace de travail Photoshop avec le
 
 Les utilisateurs peuvent sélectionner exporter après la génération ou la traduction du contenu. Les expériences exportées sont renseignées dans la section contenu de GenStudio for Performance Marketing.
 
-![ Ressources exportées affichées dans la section Contenu ](./content-assets.png){width="90%"}
+![&#x200B; Ressources exportées affichées dans la section Contenu &#x200B;](./content-assets.png){width="90%"}
 
 ## Convertir les images Figma en Photoshop
 
-Les images Figma peuvent être converties en documents Photoshop et exportées pour être utilisées avec GenStudio Photoshop. Pour savoir comment convertir des images, consultez la section [ Convertir des images Figma en Photoshop ](figma-plugin.md#convert-figma-frames-to-photoshop) de la page du plug-in Figma.
+Les images Figma peuvent être converties en documents Photoshop et exportées pour être utilisées avec GenStudio Photoshop. Pour savoir comment convertir des images, consultez la section [&#x200B; Convertir des images Figma en Photoshop &#x200B;](figma-plugin.md#convert-figma-frames-to-photoshop) de la page du plug-in Figma.
 
 ## Dépannage
 
