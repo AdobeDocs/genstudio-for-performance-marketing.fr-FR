@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
 workflow-type: tm+mt
-source-wordcount: 1449
-ht-degree: 0%
+source-wordcount: 1457
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Les formats d’annonces font référence aux différents éléments créatifs e
 | Meta | <ul><li>Publicités dynamiques</li><li>Publicités du lien</li><li>Annonces d’images simples</li><li>Publicités vidéo simples</li><li>Shop Ads</li></ul> | <ul><li>Advantage+ Annonces Catalogue</li><li>Publicités du carrousel</li><li>Publicités Messenger</li><li>Publicités du lead</li><li>Publicités de collection</li><li>Publicités d’appel</li><li>Publicités de publications de pages détenues</li><li>Publicités du partenariat</li><li>Publicités flexibles</li></ul> |
 | LinkedIn | <ul><li>Publicités à image unique</li><li>Publicités vidéo uniques</li><li>Publicités de l’article</li></ul> | <ul><li>Publicités du carrousel</li><li>Publicités du document</li><li>Annonces d’événements</li><li>Publicités de leaders d’opinion</li><li>Publicités gén. de leads</li><li>Publicités Suivantes</li><li>Publicités de conversation</li><li>Publicités Spotlight</li><li>Annonces de travaux</li><li>Annonces de contenu</li><li>Publicités de message</li></ul> |
 | TikTok | <ul><li>Publicités à image unique</li><li>Publicités vidéo uniques</li></ul> | <ul><li>Publicités Dans Le Flux (Vidéo, Spark, Carrousel)</li><li>Publicités de sensibilisation Premium (TopView, Brand Takeover)</li><li>Annonces Interactives (Défis De Hashtag, Effets De Marque)</li><li>Commerce Ads (Shopping, Catalogue, LIVE)</li><li>Publicités de leads et de messages</li><li>Difficile à catégoriser, car nous ne disposons pas des ressources nécessaires pour déterminer le type d’annonce</li></ul> |
-| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Difficile à catégoriser. Nous ne disposons pas des ressources nécessaires pour déterminer le type d’annonce. |
+| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Le canal média payant ne permet pas d’accéder à la récupération des ressources créatives, ce qui rend difficile la classification précise des types d’annonces. |
 | Innovid | S/O | Difficile à catégoriser, car nous ne disposons pas des ressources nécessaires pour déterminer le type d’annonce. |
 
 ### Ajouter des emplacements
@@ -105,7 +105,7 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL Impressions]** | Décompte de chaque chargement de l’emplacement ou de l’annonce publicitaire dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton call-to-action, dans un emplacement publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics &#x200B;]**<br>_CTR_ | Pourcentage (%) d’impressions ayant généré des clics sur l’annonce publicitaire dans une campagne.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Coût par millier_ | Coût moyen pour mille impressions d’annonce publicitaire.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
+| **&#x200B;**<br>_Coût par millier_ | Coût moyen pour mille impressions d’annonce publicitaire.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
 | **[!UICONTROL Coût &#x200B;]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu’un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d’actions du client terminées | Permet de surveiller les dépenses publicitaires qui entraînent des actions client importantes. |
 | **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un emplacement publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget de Campaign sur une période donnée pour placer cette annonce publicitaire. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |
