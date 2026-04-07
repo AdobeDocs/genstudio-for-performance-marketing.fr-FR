@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0c9aa3dd0939e9e31d3e53f02c954e65a151026b
+source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
 workflow-type: tm+mt
 source-wordcount: 1464
 ht-degree: 1%
@@ -124,3 +124,4 @@ Le tableau suivant fournit des définitions pour les mesures de performances des
 | **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un seul emplacement publicitaire.<p>**Calcul** : montant total `spent` divisé par `clicks`<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire pour la génération de clics. | Un CPC inférieur indique que l’emplacement publicitaire génère des clics à un coût inférieur, ce qui peut être bénéfique pour maximiser le retour sur investissement. |
 | **[!UICONTROL Dépenses]** | Montant dépensé pour un emplacement publicitaire unique, représentant une fraction du montant total dépensé pour l’ensemble de l’annonce. Cette mesure permet de suivre l’efficacité de l’affectation budgétaire et des dépenses pour chaque emplacement publicitaire. | Le suivi des dépenses peut permettre de s’assurer que les ressources sont utilisées efficacement à différents emplacements. |
 | **Attributs** | Liste des fonctionnalités inhérentes présentes dans cet emplacement publicitaire. | Les attributs permettent d’identifier les éléments créatifs qui interagissent le plus avec votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
+
