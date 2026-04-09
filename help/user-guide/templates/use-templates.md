@@ -6,33 +6,22 @@ role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
 TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
 workflow-type: tm+mt
-source-wordcount: 1374
+source-wordcount: 1410
 ht-degree: 1%
 
 ---
 
 # Utilisation de modèles
 
-GenStudio for Performance Marketing permet aux créateurs de contenu de produire rapidement du contenu marketing cohérent sur la marque à l’aide de _modèles_. Un modèle réduit considérablement le temps et les efforts requis pour générer un nouveau contenu en fournissant un point de départ qui inclut des dispositions et des éléments de conception préconfigurés. Pour commencer, chargez un modèle personnalisé dans [!DNL Content] ou utilisez un modèle de démarrage dans [!DNL Create]. [Les modèles de démarrage &#x200B;](/help/user-guide/templates/starter-templates.md) un moyen rapide de commencer par une conception standard, tandis qu’un modèle personnalisé vous permet d’utiliser vos conceptions et mises en page uniques.
+GenStudio for Performance Marketing permet aux créateurs de contenu de produire rapidement du contenu marketing cohérent sur la marque à l’aide de _modèles_. Un modèle réduit considérablement le temps et les efforts requis pour générer un nouveau contenu en fournissant un point de départ qui inclut des dispositions et des éléments de conception préconfigurés. Pour commencer, chargez un modèle personnalisé dans [!DNL Content] ou utilisez un modèle de démarrage dans [!DNL Create]. Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) offrent un moyen rapide de commencer par une conception standard, tandis qu’un modèle personnalisé vous permet d’utiliser vos conceptions et mises en page uniques.
 
 Bien que GenStudio for Performance Marketing ne prenne pas en charge la création directe de modèles dans l’application, vous pouvez facilement concevoir et préparer des modèles à l’aide d’outils de conception courants, tels qu’Adobe InDesign, Illustrator ou Express. Une fois la conception terminée, vous pouvez l’adapter pour l’utiliser dans GenStudio for Performance Marketing. Commencez à utiliser des modèles en procédant comme suit :
 
@@ -77,7 +66,7 @@ Vous [personnalisez votre modèle](customize-template.md) à utiliser dans GenSt
 
 ## Gérer les modèles
 
-La galerie _[!DNL Templates]_&#x200B;affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
+La galerie _[!DNL Templates]_affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
 
 ### Rechercher des modèles
 
@@ -96,7 +85,7 @@ La fonctionnalité de recherche de modèles est disponible lors de la [!UICONTRO
 
 ### Ajouter un modèle
 
-Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [&#x200B; Personnaliser les modèles &#x200B;](customize-template.md).
+Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [ Personnaliser les modèles ](customize-template.md).
 
 **Pour ajouter un modèle** :
 
@@ -122,7 +111,7 @@ Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et 
 
    Le nom du modèle et le type de canal sont obligatoires. Les exigences supplémentaires peuvent inclure :
 
-   - **Meta** : nécessite le format
+   - **** : nécessite le format
    - **Bannière et publicité display** : nécessite des dimensions.
 
 7. Ajoutez autant de détails que possible pour améliorer l’identification du modèle dans les recherches et le filtrage.
@@ -131,7 +120,7 @@ Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et 
 
 ### Actualiser le modèle
 
-Les modèles peuvent inclure des fichiers statiques, tels que des icônes ou des logos. [Le contenu statique](/help/user-guide/templates/customize-template.md#static-content) n’est pas stocké après la création de l’aperçu du modèle. GenStudio for Performance Marketing continue de référencer le lien source fourni dans le modèle. Utilisez l’option Actualiser pour mettre à jour l’aperçu du modèle avec les dernières versions de ces ressources.
+Les modèles peuvent inclure des fichiers statiques, tels que des icônes ou des logos. Le [contenu statique](/help/user-guide/templates/customize-template.md#static-content) n’est pas stocké après la création de l’aperçu du modèle. GenStudio for Performance Marketing continue de référencer le lien source fourni dans le modèle. Utilisez l’option Actualiser pour mettre à jour l’aperçu du modèle avec les dernières versions de ces ressources.
 
 **Pour actualiser le modèle** :
 
@@ -159,10 +148,12 @@ Recherchez et utilisez un modèle existant dans GenStudio for Performance Market
 
 Vous pouvez charger un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. GenStudio for Performance Marketing détecte les modèles spécifiques à l’application et les ignore, préservant ainsi le formulaire d’origine pour une utilisation continue dans AJO ou Marketo. Vous n’avez pas besoin de modifier la syntaxe d’origine d’AJO ou de Marketo.
 
+Pour utiliser les modèles AJO de votre bibliothèque Journey Optimizer dans GenStudio (y compris l’onglet **[!UICONTROL Modèle AJO]** lorsque vous créez des expériences d’e-mail), votre entreprise doit installer et configurer l’application [Journey Optimizer pour GenStudio](/help/extensibility/journey-optimizer-for-genstudio.md) à partir d’Adobe Exchange.
+
 Les modèles d’application reconnus sont les suivants :
 
-- **AJO** : `{{profile.*}}`, `{{context.*}}`
-- **Marketo** : `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
+- **** : `{{profile.*}}`, `{{context.*}}`
+- **** : `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
 
 >[!BEGINSHADEBOX]
 
