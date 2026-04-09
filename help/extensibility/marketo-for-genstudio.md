@@ -18,21 +18,21 @@ Cette rubrique est destinée aux **administrateurs** qui installent l’applicat
 ## Conditions préalables
 
 * [!DNL Marketo Engage] doit être configuré dans l’organisation dans laquelle vous déployez l’extension.
-* Les utilisateurs qui déploient l’application ont besoin de **informations d’identification**. Pour créer et récupérer ces informations d’identification, vous devez disposer d’un accès d’administrateur de produit **** (la zone **[!UICONTROL Admin]** doit être disponible lorsque vous ouvrez Marketo).
+* Les utilisateurs qui déploient l’application ont besoin de **informations d’identification**. Pour créer et récupérer ces informations d’identification, vous devez disposer d’un accès d’administrateur de produit **&#x200B;**&#x200B;(la zone **[!UICONTROL Admin]** doit être disponible lorsque vous ouvrez Marketo).
 
 ## Installation de l’application à partir d’Adobe Exchange
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
 
-1. Ouvrez [](https://exchange.adobe.com) puis accédez à **[!UICONTROL Experience Cloud]**.
+1. Ouvrez [&#128279;](https://exchange.adobe.com) puis accédez à **[!UICONTROL Experience Cloud]**.
 1. Ouvrez la liste [Marketo for GenStudio](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio).
    Liste de ![Marketo for GenStudio sur Adobe Exchange](/help/extensibility/marketo-adobe-exchange.png){width="75%"}
 1. Sélectionnez **[!UICONTROL Gratuit]** pour demander l’application pour votre organisation.
-1. Une fois que votre organisation a **révisé et approuvé** la demande, continuez avec [Obtention des informations d’identification Marketo](#get-marketo-credentials) et [ Déploiement de l’application à partir d’Exchange](#deploy-the-application-from-exchange).
+1. Une fois que votre organisation a **révisé et approuvé** la demande, continuez avec [Obtention des informations d’identification Marketo](#get-marketo-credentials) et [&#x200B; Déploiement de l’application à partir d’Exchange](#deploy-the-application-from-exchange).
 
 ## Obtention des informations d’identification Marketo
 
-Vous utilisez les informations d’identification de votre instance **** (et non de Adobe Developer Console). Collectez les éléments suivants avant de procéder au déploiement dans Exchange.
+Vous utilisez les informations d’identification de votre instance **&#x200B;**&#x200B;(et non de Adobe Developer Console). Collectez les éléments suivants avant de procéder au déploiement dans Exchange.
 
 ### Créer un utilisateur API uniquement (facultatif si vous réutilisez un utilisateur API existant)
 
@@ -52,7 +52,7 @@ Vous utilisez les informations d’identification de votre instance **** (et non
 ### Notez l’URL de base de l’API REST Marketo
 
 1. Dans **[!UICONTROL Admin]**, sous **[!UICONTROL Intégration]**, ouvrez **[!UICONTROL Web Services]**.
-1. Recherchez le point d’entrée **[!UICONTROL API REST]**. Copiez uniquement l’**URL de base** (hôte), dans le `https://###-XXX-###.mktorest.com` de formulaire. N’incluez **** de segments de chemin tels que `/rest` ou `/identity`. Cette valeur est unique par instance Marketo.
+1. Recherchez le point d’entrée **[!UICONTROL API REST]**. Copiez uniquement l’**URL de base** (hôte), dans le `https://###-XXX-###.mktorest.com` de formulaire. N’incluez **&#x200B;**&#x200B;de segments de chemin tels que `/rest` ou `/identity`. Cette valeur est unique par instance Marketo.
 
 ![URL de base du point d’entrée de l’API REST des services web](/help/extensibility/marketo-web-services-rest-endpoint.png){width="80%"}
 
@@ -62,7 +62,7 @@ Vous aurez également besoin de l’**[!UICONTROL URL d’identité]** demandée
 
 Pour rendre l’extension disponible dans GenStudio, déployez l’application à partir d’Adobe Exchange.
 
-1. Revenez à [](https://exchange.adobe.com).
+1. Revenez à [&#128279;](https://exchange.adobe.com).
 1. Sélectionnez **[!UICONTROL Gérer]** et ouvrez l’application **Marketo for GenStudio** (par exemple sous **[!UICONTROL Applications App Builder]** ou les applications gérées de votre organisation).
 1. Sous **[!UICONTROL Environnements]**, choisissez un environnement existant dans la liste déroulante ou sélectionnez **[!UICONTROL Ajouter un environnement]** pour en créer un.
 1. Ouvrez **[!UICONTROL Configuration]** pour l’environnement sélectionné.
