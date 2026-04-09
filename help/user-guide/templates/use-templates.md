@@ -23,16 +23,16 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
 workflow-type: tm+mt
-source-wordcount: 1374
+source-wordcount: 1410
 ht-degree: 1%
 
 ---
 
 # Utilisation de modèles
 
-GenStudio for Performance Marketing permet aux créateurs de contenu de produire rapidement du contenu marketing cohérent sur la marque à l’aide de _modèles_. Un modèle réduit considérablement le temps et les efforts requis pour générer un nouveau contenu en fournissant un point de départ qui inclut des dispositions et des éléments de conception préconfigurés. Pour commencer, chargez un modèle personnalisé dans [!DNL Content] ou utilisez un modèle de démarrage dans [!DNL Create]. [Les modèles de démarrage &#x200B;](/help/user-guide/templates/starter-templates.md) un moyen rapide de commencer par une conception standard, tandis qu’un modèle personnalisé vous permet d’utiliser vos conceptions et mises en page uniques.
+GenStudio for Performance Marketing permet aux créateurs de contenu de produire rapidement du contenu marketing cohérent sur la marque à l’aide de _modèles_. Un modèle réduit considérablement le temps et les efforts requis pour générer un nouveau contenu en fournissant un point de départ qui inclut des dispositions et des éléments de conception préconfigurés. Pour commencer, chargez un modèle personnalisé dans [!DNL Content] ou utilisez un modèle de démarrage dans [!DNL Create]. Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) offrent un moyen rapide de commencer par une conception standard, tandis qu’un modèle personnalisé vous permet d’utiliser vos conceptions et mises en page uniques.
 
 Bien que GenStudio for Performance Marketing ne prenne pas en charge la création directe de modèles dans l’application, vous pouvez facilement concevoir et préparer des modèles à l’aide d’outils de conception courants, tels qu’Adobe InDesign, Illustrator ou Express. Une fois la conception terminée, vous pouvez l’adapter pour l’utiliser dans GenStudio for Performance Marketing. Commencez à utiliser des modèles en procédant comme suit :
 
@@ -122,7 +122,7 @@ Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et 
 
    Le nom du modèle et le type de canal sont obligatoires. Les exigences supplémentaires peuvent inclure :
 
-   - **Meta** : nécessite le format
+   - **&#x200B;**&#x200B;: nécessite le format
    - **Bannière et publicité display** : nécessite des dimensions.
 
 7. Ajoutez autant de détails que possible pour améliorer l’identification du modèle dans les recherches et le filtrage.
@@ -131,7 +131,7 @@ Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et 
 
 ### Actualiser le modèle
 
-Les modèles peuvent inclure des fichiers statiques, tels que des icônes ou des logos. [Le contenu statique](/help/user-guide/templates/customize-template.md#static-content) n’est pas stocké après la création de l’aperçu du modèle. GenStudio for Performance Marketing continue de référencer le lien source fourni dans le modèle. Utilisez l’option Actualiser pour mettre à jour l’aperçu du modèle avec les dernières versions de ces ressources.
+Les modèles peuvent inclure des fichiers statiques, tels que des icônes ou des logos. Le [contenu statique](/help/user-guide/templates/customize-template.md#static-content) n’est pas stocké après la création de l’aperçu du modèle. GenStudio for Performance Marketing continue de référencer le lien source fourni dans le modèle. Utilisez l’option Actualiser pour mettre à jour l’aperçu du modèle avec les dernières versions de ces ressources.
 
 **Pour actualiser le modèle** :
 
@@ -159,10 +159,12 @@ Recherchez et utilisez un modèle existant dans GenStudio for Performance Market
 
 Vous pouvez charger un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. GenStudio for Performance Marketing détecte les modèles spécifiques à l’application et les ignore, préservant ainsi le formulaire d’origine pour une utilisation continue dans AJO ou Marketo. Vous n’avez pas besoin de modifier la syntaxe d’origine d’AJO ou de Marketo.
 
+Pour utiliser les modèles AJO de votre bibliothèque Journey Optimizer dans GenStudio (y compris l’onglet **[!UICONTROL Modèle AJO]** lorsque vous créez des expériences d’e-mail), votre entreprise doit installer et configurer l’application [Journey Optimizer pour GenStudio](/help/extensibility/journey-optimizer-for-genstudio.md) à partir d’Adobe Exchange.
+
 Les modèles d’application reconnus sont les suivants :
 
-- **AJO** : `{{profile.*}}`, `{{context.*}}`
-- **Marketo** : `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
+- **&#x200B;**&#x200B;: `{{profile.*}}`, `{{context.*}}`
+- **&#x200B;**&#x200B;: `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
 
 >[!BEGINSHADEBOX]
 
