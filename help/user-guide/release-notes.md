@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 90c6d3e24ec752f0cb23476e7fc407dee294a4c9
+source-git-commit: 3556becd6dc0417f4c36d28def7d5cb20cc10cec
 workflow-type: tm+mt
-source-wordcount: 5224
+source-wordcount: 4584
 ht-degree: 0%
 
 ---
@@ -50,77 +50,7 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2026.04 {#latest}
-
-### CPA par type d’action pour les comptes publicitaires Meta
-
-Pour les campagnes publicitaires Meta dans [!DNL Insights], vous pouvez désormais analyser le coût par action (CPA) à l’aide de l’action de conversion qui correspond à la manière dont la campagne est optimisée, au lieu d’une seule mesure par défaut.
-
-Choisissez parmi les types d’action Meta disponibles, tels que :
-
-* Achats
-* Événements d’ajout au panier
-* Prospects
-* Vues vidéo
-* Conversions personnalisées
-
-et passez en revue le CPA de manière cohérente dans les tableaux de [!DNL Insights] Publicités, Assets (Media) et Attributs .
-
-### Audiences RTCDP dans le workflow Créer
-
-Les [audiences Adobe Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences) sont disponibles dans le workflow [!DNL Create] afin que vous puissiez ancrer les expériences générées dans les définitions d’audience, tout en respectant vos directives existantes.
-
-### Canal d’affichage Innovid dans [!DNL Insights]
-
-Innovid apparaît désormais en tant que canal d’affichage dans [!DNL Insights], ce qui vous permet d’examiner les performances des campagnes et des annonces en regard de Meta, LinkedIn, TikTok et d’autres sources connectées au même endroit, avec des mesures actualisées quotidiennement.
-
-Utilisez Innovid pour évaluer les impressions, les clics et le taux de clics.
-
-### Activation de LinkedIn avec une seule ressource vidéo
-
-Vous pouvez désormais [activer les expériences publicitaires LinkedIn qui utilisent une seule ressource vidéo](/help/user-guide/activation/activate-linkedin-ad.md) vers LinkedIn Campaign Manager à partir de GenStudio for Performance Marketing, en suivant le même flux d’activation de bout en bout que celui que vous utilisez pour les publicités LinkedIn statiques.
-
-### Traduction prête à l’emploi pour les expériences de médias et d’e-mails payantes
-
-Utilisez maintenant la vignette **[!UICONTROL Traduire et localiser]** sur la [Créer une page d’accueil](/help/user-guide/create/overview.md) ou choisissez **[!UICONTROL Traduire]** dans le menu d’actions d’une expérience de média payant ou d’e-mail approuvée dans [Gérer les ressources et les expériences](/help/user-guide/content/manage-assets.md), pour traduire le contenu
-
-Pour les médias achetés, traduisez le contenu dans des langues **40+** en un seul flux.
-
-Pour les e-mails, traduisez le contenu dans **plus de 10** langues prises en charge en un seul flux.
-
-### Connexion à la gestion des ressources numériques tierce pour les ressources de modèle
-
-Les entreprises peuvent désormais utiliser un module complémentaire enregistré pour **connecter leur propre référentiel de gestion des ressources numériques (DAM)** afin que les auteurs puissent parcourir et sélectionner des médias de ce système dans le flux des paramètres du modèle.
-
-Consultez les sections [Trouver des extensions de gestion des ressources numériques](/help/extensibility/deploy-app.md#find-dam-extensions) et [Commencer à créer des applications extensibles](/help/extensibility/setup.md) pour savoir comment les modules complémentaires sont créés et distribués.
-
-### Micro front-end du sélecteur d’expérience pour les intégrations
-
-Le **sélecteur d’expérience** intègre GenStudio aux applications personnalisées et aux applications partenaires. Intégrez le micro front-end (MFE) pour offrir la navigation, le filtrage et la sélection dans une application partenaire ou personnalisée avec une interface utilisateur et une connexion cohérentes et adaptées à votre intégration.
-
-Adoptez le lot autonome, les options de configuration et les modèles d’incorporation dans le [MFE du sélecteur d’expérience &#x200B;](/help/extensibility/experience-selector.md). Votre équipe envoie l’expérience de sélecteur sans reconstruire l’expérience utilisateur de sélection à partir de zéro.
-
-### Modèles personnalisés sur Firefly Image Model 4
-
-[Générer des images](/help/user-guide/create/generate-assets.md) en [!DNL Create]. La liste **[!UICONTROL Modèle] inclut désormais des modèles personnalisés entraînés sur Adobe Firefly** Image Model 4 pour le travail **sur marque** et **texte en image** qui reflète la formation du modèle d’image 4, et pas seulement les anciens modèles personnalisés basés sur Image Model 3.
-
-Vous restez dans le même flux de [!DNL Create] pendant que cette nouvelle base de Firefly alimente une génération fiable avec des modèles entraînés par le modèle d’image 4. Les paramètres et les invites se comportent comme vos autres choix de modèle : aucun workflow parallèle à mettre en place.
-
-### Modèles Express sur Horizon Canvas (Meta, LinkedIn et Display)
-
-Les modèles **Zone de travail Horizon** + Adobe Express sont désormais **généralement disponibles** pour **Meta**, **LinkedIn** et **Display** en [!DNL Create]. Des dispositions multi-tailles, des conceptions Express prêtes à l’emploi (lorsqu’elles sont prises en charge), des verrous de calque et la modification WYSIWYG remplacent l’ancien goulot d’étranglement des modèles HTML pour ces canaux, de sorte que les équipes exportent plus rapidement de la création sur la marque.
-
-Lisez [Utilisation de modèles Adobe Express dans GenStudio for Performance Marketing](/help/user-guide/templates/express-templates.md) pour connaître les formats pris en charge, les modèles de démarrage et personnalisés, ainsi que les fonctionnalités de zone de travail. La rubrique décrit la prise en charge spécifique au canal à mesure que vous mettez à l’échelle les dispositions Express.
-
-### Exportation de PDF pour révision et archivage
-
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
-
-Vous pouvez [exporter des expériences vers PDF](/help/user-guide/content/manage-assets.md#export-experiences) à partir de l’exportation de brouillons sur la zone de travail de [!DNL Create] et d’expériences approuvées dans [!DNL Content], afin de produire un document non modifiable pour la révision des parties prenantes, les enregistrements d’approbation et l’archivage, en particulier lorsque les équipes ont besoin d’un instantané fixe pour les workflows de conformité ou de révision réglementée.
-
-## Notes de mise à jour antérieures
-
-+++Notes de la version 2026.03.15
+## 2026.03.15 {#latest}
 
 ### Modèles Express pour Meta, LinkedIn et Display
 
@@ -139,7 +69,7 @@ Pour plus d’informations, consultez la section [&#x200B; Utilisation de modèl
 
 Vous pouvez désormais créer, approuver et activer les publicités vidéo intégrées à TikTok à partir de GenStudio for Performance Marketing. Générez facilement des annonces dans le workflow de [!DNL Create], puis publiez l’expérience sur [!DNL Content]. Utilisez [!DNL Insights] for TikTok pour surveiller les performances et informer la prochaine actualisation créative.
 
-+++
+## Notes de mise à jour antérieures
 
 +++Notes de la version 2026.01.15
 
