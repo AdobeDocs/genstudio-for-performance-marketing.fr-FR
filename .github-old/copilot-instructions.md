@@ -23,7 +23,7 @@ Aidez les assistants de codage de l’IA à apporter de petites modifications s�
 - Conventions de formatage : les documents utilisent le Markdown parfumé GitHub. Les en-têtes suivent généralement la casse des phrases et les paragraphes courts. Préférez les puces `*` pour les listes dans les notes de mise à jour et les `###` pour les sections de fonctionnalités.
 
 ## Instructions de style de documentation
-- Suivez le [Guide de style d’écriture ](https://learn.microsoft.com/en-us/style-guide/) pour connaître les bonnes pratiques en matière de documentation technique :
+- Suivez le [Guide de style d’écriture &#x200B;](https://learn.microsoft.com/en-us/style-guide/) pour connaître les bonnes pratiques en matière de documentation technique :
    - Écrire des phrases claires et concises axées sur les actions des utilisateurs et utilisatrices
    - Utiliser la voix active et le présent
    - Diviser le texte en blocs courts et analysables
@@ -73,5 +73,5 @@ markdownlint --config markdownlint_custom.json "help/**/*.md"
 yarn lint
 ```
 
----
+&#x200B;---
 Si vous le souhaitez, je peux le fusionner en `.github/copilot-instructions.md` dans le référentiel (ou ajuster le libellé/la longueur). Que dois-je modifier ou ajouter ?

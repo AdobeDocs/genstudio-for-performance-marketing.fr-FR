@@ -9,7 +9,7 @@ ht-degree: 6%
 
 ## Matière Première
 
-La page active [](../../help/user-guide/release-notes.md) inclut des métadonnées Experience League au-delà d’un ensemble minimal (par exemple, `TQID`, `product_v2`, `feature_v2`, identifiants de taxonomie).
+La page active [&#128279;](../../help/user-guide/release-notes.md) inclut des métadonnées Experience League au-delà d’un ensemble minimal (par exemple, `TQID`, `product_v2`, `feature_v2`, identifiants de taxonomie).
 
 **Règles:**
 

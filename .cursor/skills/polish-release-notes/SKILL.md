@@ -54,8 +54,8 @@ Conserver les différences **minimales** : le libellé et les sauts de paragraph
 
 ## Liste de contrôle des workflows
 
-1. [ ] Confirmez **** quels `###` en cours de `## … {#latest}` sont concernés (nouveaux pour ce cycle).
-2. [ ] Pour chaque `###` de la portée, resserrez le texte par [règles de voix et de ton](#voice-and-tone) et [ règles de paragraphe](#paragraph-rules).
+1. [ ] Confirmez **&#x200B;**&#x200B;quels `###` en cours de `## … {#latest}` sont concernés (nouveaux pour ce cycle).
+2. [ ] Pour chaque `###` de la portée, resserrez le texte par [règles de voix et de ton](#voice-and-tone) et [&#x200B; règles de paragraphe](#paragraph-rules).
 3. [ ] supprimer ou raccourcir toute **procédure** instructions ; conserver **les résultats pour l’utilisateur**.
 4. [ ] Vérifiez que les liens et les numéros courts sont toujours valides. Exécutez une analyse rapide pour rechercher les identifiants internes ou les modèles interdits par [Contrôles qualité](#quality-checks).
 
