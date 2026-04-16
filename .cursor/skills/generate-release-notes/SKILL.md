@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 1a33b08048233c5f9a82b5f428082aa5c71b0052
+source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,23 @@ ht-degree: 0%
 
 **Mappage des champs KT/wiki et chemins de document :** [reference.md](reference.md)
 
+## Édition de l’étendue (stricte)
+
+Lors de l’utilisation de cette compétence, **le seul endroit** vous pouvez **ajouter** ou **modifier** le contenu du corps de la note de mise à jour est la section intitulée avec **`## … {#latest}`** (le bloc unique qui porte l’ancrage `{#latest}`).
+
+- **Ne modifiez pas** **Notes de mise à jour antérieures** (tout bloc `+++Notes from YYYY.MM.DD+++` réductible) ou **tout** toute ancienne section mensuelle `##` qui n’a plus de `{#latest}`, même si la rubrique semble liée, si un lien semble erroné ou si une copie semble y être dupliquée ou obsolète.
+- **Ne retouchez pas** les sous-sections, les puces, les liens ou les libellés des `###` précédents en dehors du bloc de `{#latest}` actuel, sauf si l’utilisateur ou l’utilisatrice donne une requête **explicite, distincte** qui n’est pas couverte par cette compétence.
+- **Exception :** [Archiver la version précédente au plus tard](#archive-previous-latest) lors de l’introduction d’un **nouveau** bloc de `{#latest}` supérieur : **déplacer** l’ensemble de la section `{#latest}` précédente dans un **nouveau** réductible sous **Notes de mise à jour antérieures** comme décrit ci-dessous. Au cours de cette passe, **ne pas** réécrire ou ajouter à d’**autres blocs d’archives plus anciens**.
+
+Si de nouvelles informations appartiennent au document, placez-les sous l’en-tête **`{#latest}`** actuel (ou archivez-les d’abord, puis ajoutez-les uniquement sous le nouveau `{#latest}`).
+
 ## Liste de contrôle des workflows
 
 Travaillez dans cet ordre. Copiez la liste de contrôle et suivez la progression pour les modifications à plusieurs étapes.
 
-1. [ ] Ouvrir le `help/user-guide/release-notes.md` et lisez le bloc de `## YYYY.MM {#latest}` actuel ainsi que la zone **Notes de mise à jour précédentes**.
+1. [ ] Ouvrir le `help/user-guide/release-notes.md` et lire le bloc de `## YYYY.MM {#latest}` actif. Traitez les **notes de mise à jour antérieures** comme du contexte **lecture seule** sauf si vous effectuez l’étape d’archivage de l’étape 2.
 2. [ ] Si vous ajoutez une **nouvelle** version mensuelle : archivez la dernière version (voir [Archiver la dernière version précédente](#archive-previous-latest)).
-3. [ ] Ajoutez ou modifiez la section du `## YYYY.MM {#latest}` supérieur (le mois le plus récent en haut de la liste des versions).
+3. [ ] Ajouter ou modifier **uniquement** la section des `## YYYY.MM {#latest}` principaux (le mois le plus récent en haut de la liste des versions).
 4. [ ] Pour chaque élément, appliquez [Règles de décision](#decision-rules) (`###` des fonctionnalités par rapport à **Correctifs et améliorations**, badge Beta ou non).
 5. [ ] Ajoutez ou vérifiez des liens vers la documentation relative à l’expression la plus pertinente (voir [reference.md](reference.md#documentation-linking)).
 6. [ ] Exécutez [contrôles qualité](#quality-checks) avant de terminer.
@@ -47,10 +57,12 @@ Utilisez ces règles if/then pour que le contenu arrive au bon endroit :
 Lors de l’introduction d’un nouveau `## YYYY.MM {#latest}` :
 
 1. Coupez l’ensemble de la section `## YYYY.MM {#latest}` précédente (de son en-tête à la fin du contenu de cette version, avant la `##` suivante ou **Notes de mise à jour précédentes**).
-2. Collez-le dans **Notes de mise à jour antérieures**, dans un bloc réductible.
+2. Collez-le dans **Notes de mise à jour antérieures**, dans un bloc **nouveau** réductible.
 3. Remplacez l’ancien en-tête par : `+++Notes from YYYY.MM.DD+++` (utilisez la date de publication réelle ; mettez-la au format des notes existantes dans le fichier).
 4. Supprimez le `{#latest}` de l’en-tête archivé ; la nouvelle section supérieure est la seule avec `{#latest}`.
 5. Conservez l’ordre chronologique à l’intérieur **Notes de mise à jour antérieures** (les blocs archivés les plus récents sont placés en haut, sauf si le fichier utilise déjà un ordre différent, **correspondent au fichier existant**).
+
+Ne modifiez **pas** le corps des blocs de `+++Notes from …+++` **préexistants** lors de l’exécution de cette archive. Insérez uniquement le bloc nouvellement archivé et conservez les anciennes archives en l’état.
 
 ## Structure requise
 
@@ -108,6 +120,7 @@ Utilisez exactement :
 
 Avant d’effectuer la tâche :
 
+- [ ] **Portée :** seul le bloc `## … {#latest}` a été ajouté ou modifié ; **Notes de mise à jour antérieures** et les anciennes sections mensuelles n’ont pas été modifiées, à l’exception de la [Archiver la dernière version](#archive-previous-latest) qui a été coupée/collée de l’ancienne `{#latest}` dans un bloc **new**.
 - [ ] Tous les liens relatifs, nouveaux ou modifiés, sont résolus sur des chemins réels sous `help/`, dans la mesure du possible.
 - [ ] fonctionnalités de Beta incluent le fragment de code Beta si nécessaire.
 - [ ] terminologie correspond aux notes de mise à jour existantes (`[!DNL …]`, `[!UICONTROL …]`).

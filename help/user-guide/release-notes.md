@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3556becd6dc0417f4c36d28def7d5cb20cc10cec
+source-git-commit: 45495ee2df117d6c9d87324fc1ac421387fd3032
 workflow-type: tm+mt
-source-wordcount: 4584
+source-wordcount: 4994
 ht-degree: 0%
 
 ---
@@ -50,7 +50,57 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2026.03.15 {#latest}
+## 2026.04.16 {#latest}
+
+### Présentation de la nouvelle version [!DNL Insights] 2.0
+
+La version 2.0 de [[!DNL Insights]](/help/user-guide/insights/overview.md) réunit les performances de **Meta** et **LinkedIn** dans un seul espace de travail. Des instantanés cross-canal et spécifiques à un canal, des rapports de style contribution et des vues d’annonces à hautes et faibles performances permettent de voir plus facilement où les dépenses fonctionnent.
+
+### [!DNL Insights] à partir des balises de publicité
+
+**Informations des balises d’annonce publicitaire** divise les identifiants de suivi en dimensions de balises que vous pouvez analyser avec les performances (comme le coût, l’engagement, les conversions, etc.) sans exporter les noms des annonces vers des feuilles de calcul. Les valeurs de balise de plus en plus faibles apparaissent dans l’expérience, de sorte que votre convention d’affectation des noms devienne quelque chose que vous pouvez piloter, et non quelque chose que vous décodez hors ligne.
+
+### Recommandations contextuelles dans [!DNL Create]
+
+Dans le [workflow de création](/help/user-guide/create/overview.md), **[!UICONTROL Sélectionner à partir du contenu]** s’ouvre désormais avec le tri **[!UICONTROL Pertinence]**, de sorte que la grille reflète les [!DNL Brands], les [!DNL Products], les [!DNL Personas] et les langues dans votre tiroir d’invite.
+
+Ou si la récence doit mener au lieu de l’ajustement contextuel, passez à **[!UICONTROL Récemment ajouté]**.
+
+### Permutation de fragments de contenu dans la zone de travail HTML
+
+Pour les [expériences d’e-mail](/help/user-guide/create/create-email-experience.md) sur la zone de travail d’HTML, **assemblez les expériences d’e-mail en utilisant trois types d’emplacement dans une seule zone de travail** :
+
+* Emplacements génératifs (copie générée par l’IA)
+* Emplacements pour fragments de contenu (fragments de contenu préapprouvés sélectionnés dans un référentiel AEM connecté via le gestionnaire d’accès MFE)
+* Emplacements verrouillés (champs non modifiables tels que clauses de non-responsabilité)
+
+Ces fragments de contenu existent ensemble dans la même zone de travail. Par conséquent, la copie modulaire et approuvée est envoyée sans reconstruction manuelle d’HTML.
+
+### Créer des [!DNL Brands], des [!DNL Products] et des [!DNL Personas] à partir d’une URL
+
+Créez des [!DNL Brands], des [!DNL Products] ou des [!DNL Personas] à partir d’une URL publique de marque, avec des sorties basées sur ce que la marque publie en ligne.
+
+Les directives relatives à la marque peuvent être générées en une seule passe automatique. Les produits et les personas commencent à partir des candidats suggérés que vous confirmez avant que les détails complets soient créés.
+
+### Annonces TV connectées (CTV) en [!DNL Create]
+
+**Adobe GenStudio pour CTV** permet aux spécialistes du marketing de la performance de mettre en libre-service des publicités CTV conformes et de haute qualité grâce à un workflow rationalisé, GenAI-first, du bref au lancement.
+
+Vous pouvez assembler des scènes, utiliser l’aide de l’IA générative lorsque des éléments audio ou visuels sont toujours manquants, affiner les scènes, puis exporter ou enregistrer dans [!DNL Content] après révision.
+
+### Modèles d’affichage, variations et redimensionnement d’HTML5
+
+Vous pouvez **charger un fichier zip HTML5 basé sur DOM pour développer un modèle d’affichage** en [!DNL Create], produire des variations d’annonces HTML5 et redimensionner les proportions de contenu créatif en proportions supplémentaires. Les expériences terminées peuvent être activées dans [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) et [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
+
+### Workflows de production Firefly Creative dans GenStudio
+
+{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+
+**Les workflows de production Firefly Creative** peuvent être publiés et exécutés à partir de GenStudio for Performance Marketing, de sorte que les spécialistes marketing puissent effectuer des exécutions de production in-app, télécharger des livrables et acheminer les ressources terminées vers les [[!DNL Content]](/help/user-guide/content/overview.md) avec moins de sauts d’outils.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2026.03.15
 
 ### Modèles Express pour Meta, LinkedIn et Display
 
@@ -69,7 +119,7 @@ Pour plus d’informations, consultez la section [&#x200B; Utilisation de modèl
 
 Vous pouvez désormais créer, approuver et activer les publicités vidéo intégrées à TikTok à partir de GenStudio for Performance Marketing. Générez facilement des annonces dans le workflow de [!DNL Create], puis publiez l’expérience sur [!DNL Content]. Utilisez [!DNL Insights] for TikTok pour surveiller les performances et informer la prochaine actualisation créative.
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2026.01.15
 
