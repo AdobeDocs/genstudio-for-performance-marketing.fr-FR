@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 665
 ht-degree: 0%
 
 ---
@@ -90,4 +90,4 @@ Voir [&#x200B; Chargement de ressources approuvées &#x200B;](/help/user-guide/c
 
 ### Étape 5 : Se connecter à un compte média payant
 
-Configurez une connexion entre GenStudio for Performance Marketing et vos comptes de médias achetés pour recevoir des données provenant de campagnes marketing, de ressources et d’expériences actives. Utilisez [!DNL Insights] pour analyser les données dérivées du canal. Voir [Connecter un compte de média payant](/help/user-guide/connectors/connect-channel.md).
+Configurez une connexion entre GenStudio for Performance Marketing et vos comptes de médias achetés pour recevoir des données provenant de campagnes marketing, de ressources et d’expériences actives. Utilisez [!DNL Insights] pour analyser les données dérivées du canal, y compris la présentation cross-canal **[!UICONTROL Insights 2.0]** lorsque vous utilisez Meta et LinkedIn ([Présentation d’Insights](/help/user-guide/insights/overview.md#insights-20)). Voir [Connecter un compte de média payant](/help/user-guide/connectors/connect-channel.md).

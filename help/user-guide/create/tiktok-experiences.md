@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 5f02a3076ca875f9819e5da55824bbf9c5337bb4
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 100%
+source-wordcount: 931
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 Avec [!DNL GenStudio for Performance Marketing], vous pouvez créer des annonces TikTok sous la forme d’expériences de médias achetés dans le workflow de [[!DNL Create]](/help/user-guide/create/overview.md). Générez des variantes créatives, exécutez des vérifications de marque et de canal, publiez sur [!DNL Content] et activez-les via [[!DNL Activate]](/help/user-guide/activation/overview.md), afin de diffuser du contenu au gestionnaire TikTok Ads pour révision finale et lancement.
 
-TikTok dans [!DNL GenStudio for Performance Marketing] s’intègre dans un workflow omnicanal plus large : vous pouvez analyser les performances des campagnes et des annonces TikTok dans [[!DNL Insights]](/help/user-guide/insights/overview.md) avec d’autres canaux sociaux et d’affichage (tels que Meta et LinkedIn), au lieu de passer à des outils de création de rapports distincts.
+TikTok dans [!DNL GenStudio for Performance Marketing] s’intègre dans un workflow omnicanal plus large : vous pouvez analyser les performances des campagnes et des annonces TikTok dans les vues [!DNL Insights] standard ([!UICONTROL Campagnes], [!UICONTROL Annonces], [!UICONTROL Médias] et [!UICONTROL Attributs]) dans [[!DNL Insights]](/help/user-guide/insights/overview.md#dashboard) avec d’autres canaux sociaux et d’affichage (tels que Meta et LinkedIn), au lieu de passer à des outils de création de rapports distincts. La présentation cross-canal **[!UICONTROL Insights 2.0]** ([Présentation d’Insights - Insights 2.0](/help/user-guide/insights/overview.md#insights-20)) se concentre uniquement sur Meta et LinkedIn ; TikTok n’y est pas inclus pour le moment.
 
 [!DNL Insights] des mesures de surfaces, notamment :
 
@@ -69,7 +69,7 @@ Un gestionnaire système a connecté votre compte TikTok Ads dans [!DNL Activate
 
 ### Créer une configuration
 
-* Votre [ marque, vos produits et vos rôles](/help/user-guide/guidelines/overview.md) sont configurés de sorte que l’application puisse générer une copie et des mises en page sur la marque.
+* Votre [&#x200B; marque, vos produits et vos rôles](/help/user-guide/guidelines/overview.md) sont configurés de sorte que l’application puisse générer une copie et des mises en page sur la marque.
 * Au moins un modèle TikTok est chargé. Adobe recommande un modèle vidéo vertical TikTok, optimisé pour un emplacement dans le flux, avec un rapport d’aspect **9:16** et des zones sécurisées pour l’interface utilisateur supérieure et inférieure.
 * Les vidéos sont chargées vers [!DNL Content].
 
@@ -183,7 +183,7 @@ Une fenêtre modale _Publication en cours_ s’affiche et se ferme automatiqueme
 
 ![Boîte de dialogue modale de publication GenStudio](../../assets/tiktok/publishing-modal.png){width="30%"}
 
-Le tableau des activations affiche les dernières activations, avec un statut **En attente** pendant que le traitement est terminé. Vous pouvez quitter cette page pendant que la publication est terminée.
+Le tableau des activations affiche les dernières activations, avec un statut **En attente** pendant que le traitement est terminé.Vous pouvez quitter cette page pendant la publication terminée.
 
 ![Page de détails de TikTok](../../assets/tiktok/tiktok-details-page.png){width="90%"}
 

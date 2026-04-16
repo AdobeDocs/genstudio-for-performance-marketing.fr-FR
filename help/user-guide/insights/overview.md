@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 943
 ht-degree: 0%
 
 ---
@@ -42,6 +42,24 @@ Dans le tableau de bord [!DNL Insights], vous pouvez :
 - **Optimiser le contenu peu performant** : recherchez le contenu qui ne fonctionne pas bien et utilisez l’IA générative intégrée pour créer immédiatement des variations, améliorant potentiellement son efficacité sans devoir repartir de zéro.
 - **Revitaliser le contenu hautement performant** : prenez du contenu réussi et ajustez-le pour actualiser l’annonce pour le public ou adaptez le contenu principal pour l’utiliser dans de nouvelles campagnes, ce qui peut étendre son cycle de vie et ses performances.
 
+Le module [!DNL Insights] comprend **[!UICONTROL Insights 2.0]**, une expérience de performance cross-canal pour les réseaux sociaux payants. Il fonctionne avec les vues détaillées de tableau et de galerie dans la section [Tableau de bord](#dashboard) de cet article.
+
+## Insights 2.0 {#insights-20}
+
+**[!UICONTROL Insights 2.0]** fournit une couche d’intelligence des performances qui donne aux marketeurs une vue claire des performances du marketing social payant sur plusieurs comptes connectés.
+
+**Dans [!UICONTROL Insights 2.0], vous pouvez effectuer les opérations suivantes :**
+
+- **Consultez les présentations cross-canal ou mono-canal (Meta et LinkedIn)** : consultez un instantané consolidé sur les deux canaux sociaux payants ou explorez un seul canal.
+- **Utiliser le rapport de performances cross-canal** : affichez la part des résultats de chaque canal avec une visualisation de contribution en pourcentage, y compris les dépenses totales (pourcentage et montant) et les mesures de part de performance telles que le CTR, le CPC et CPM.
+- **Utiliser le rapport de performances des annonces** : identifier les annonces à hautes et faibles performances avec des classements et des mesures qui prennent en charge les décisions d’optimisation.
+- **Analyse des mesures de conversion de Meta** : concentrez-vous sur les conversions avec une visibilité sur le CPA à travers les étapes de funnel (par exemple, les visites engagées, les demandes d’informations, le démarrage de l’application, le prospect et l’application terminée) et examinez les tendances de conversion au fil du temps, avec les données de conversion disponibles dans GenStudio for Performance Marketing.
+- **Explorez les informations provenant des balises d’annonce publicitaire** : les identifiants de suivi des annonces publicitaires sont analysés en balises structurées afin que vous puissiez analyser les performances en fonction des dimensions que vous définissez (telles que le call to action, la géographie, le format ou le concept), voir l’affectation du budget sur ces dimensions et passer moins de temps à décoder manuellement les conventions de nommage.
+
+>[!NOTE]
+>
+>**[!UICONTROL Insights 2.0]** comprend actuellement UNIQUEMENT **Meta** et **LinkedIn**. Pour le moment, TikTok, DV360 et Innovid ne sont pas inclus dans la présentation **[!UICONTROL Insights 2.0]**. Les vues **[!UICONTROL Campagnes]**, **[!UICONTROL Publicités]**, **[!UICONTROL Média]** et **[!UICONTROL Attributs]** de la section [Tableau de bord](#dashboard) continuent de prendre en charge le jeu de canaux plus large décrit sous [Canaux pris en charge](#channels-supported).
+
 ## Connecteurs de données
 
 La première fois que vous ouvrez [!DNL Insights], il se peut qu’une bannière s’affiche pour vous guider dans la connexion d’Adobe GenStudio for Performance Marketing à un compte de canal.
@@ -50,7 +68,7 @@ Cette connexion permet à GenStudio for Performance Marketing de recevoir des do
 
 {{connect-insights}}
 
-## Canaux pris en charge
+## Canaux pris en charge {#channels-supported}
 
 Les canaux pris en charge dans Insights comprennent Meta, LinkedIn, TikTok, DV360 et Innovid.
 
@@ -60,7 +78,7 @@ Actuellement, les données Media ne sont pas disponibles pour DV360 et Innovid, 
 
 Cette limitation est due aux contraintes propres aux plateformes de médias payants et ne pose pas de problème avec GenStudio for Performance Marketing.
 
-## Tableau de bord
+## Tableau de bord {#dashboard}
 
 Le tableau de bord [!DNL Insights] comporte un tableau configurable pour chaque type de contenu : [!UICONTROL Canaux], [!UICONTROL Publicités], [!UICONTROL Média] et [!UICONTROL Attributs].
 
