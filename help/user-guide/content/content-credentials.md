@@ -17,10 +17,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 1%
+source-wordcount: 723
+ht-degree: 0%
 
 ---
 
@@ -32,8 +32,12 @@ Découvrez comment les informations d’identification inviolables pour le conte
 >
 > Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les organisations qui ont reçu l’accès. Si vous êtes intéressé, veuillez contacter le représentant de l’équipe en charge de votre compte Adobe ou [utilisez ce lien pour demander une inscription](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
+## Prise en main de Content Credentials {#content-credentials}
 
-## Prise en main de Content Credentials
+>[!CONTEXTUALHELP]
+>id="gspm_content_credentials"
+>title="Content Credentials dans [!DNL GenStudio for Performance Marketing]"
+>abstract="Les informations d’identification inviolables pour le contenu qui prouvent l’authenticité de la marque et la conformité du lecteur peuvent être directement intégrées à votre workflow marketing."
 
 Une fois Content Credentials activé dans Admin Console, les utilisateurs de GenStudio for Performance Marketing peuvent activer Content Credentials pour toutes les ressources globalement dans l’application. Si l’option globale d’application des informations d’identification est désactivée, les utilisateurs peuvent appliquer Content Credentials pour chaque ressource individuelle.
 
@@ -55,47 +59,47 @@ L’application de Content Credentials peut aider à accroître la transparence 
 
 ## Signature de marque et suivi des ressources
 
-Le contenu signé par la marque joue un rôle important dans la promotion de l’intégrité de la marque et de la confiance des utilisateurs. Les entreprises peuvent signer leur contenu avec une signature de marque unique dans les applications Adobe lorsque leur certificat est correctement configuré dans Admin Console. Cette assurance d’authenticité est maintenue à l’aide de technologies de filigrane et d’empreinte digitale invisibles, qui permettent de préserver la durabilité de la signature tout au long du cycle de vie du contenu.
+Le contenu signé par la marque joue un rôle important dans la promotion de l’intégrité de la marque et de la confiance des utilisateurs. Organizations can sign their content with a unique brand signature in Adobe applications when their certificate is properly configured in the Admin Console. This assurance of authenticity is maintained using invisible watermarking and fingerprinting technologies, which help preserve the durability of the signature throughout the content&#39;s lifecycle.
 
-Outre la signature de marque, les entreprises peuvent joindre des identifiants de ressource directement à leur contenu. Cela facilite le suivi efficace des ressources, en particulier lorsqu’elles sont partagées ou publiées sur des plateformes de médias sociaux. En incorporant des identifiants de ressources, les entreprises peuvent retracer l’origine et le chemin de distribution de leur contenu, ce qui renforce la surveillance et la responsabilité.
+In addition to brand signing, enterprises can attach asset IDs directly to their content. This facilitates efficient tracking of assets, particularly when they are shared or posted on social media platforms. By incorporating asset IDs, organizations can trace the origin and distribution path of their content, enhancing oversight and accountability.
 
-## Content Credentials dans le workflow marketing
+## Content Credentials in the marketing workflow
 
-L’application de Content Credentials peut être réalisée tout au long du workflow marketing, directement dans GenStudio for Performance Marketing, depuis l’importation et la découverte de contenu jusqu’à l’activation et l’exportation. Vous trouverez également des informations d’identification affichées sur le contenu pour révision dans l’application.
+Applying Content Credentials can be done throughout the marketing workflow directly in GenStudio for Performance Marketing, from import and content discovery to activation and export. You&#39;ll also find credentials displayed on content for review throughout the app.
 
-### Import et découverte
+### Import and discovery
 
-Dans la galerie de contenu, les informations d’identification s’affichent sur les ressources importées.
+In the Content gallery, credentials are displayed on imported assets.
 
-Le badge Content Credential dans le coin supérieur droit de la miniature indique le contenu « Signé par la marque ».
+The Content Credential badge in the upper right corner of the thumbnail indicates &quot;Brand signed&quot; content.
 
-![Ressource importée avec informations d’identification](./images/import-discovery1.png)
+![An imported asset with credentials](./images/import-discovery1.png)
 
-La sélection du contenu signé affiche les métadonnées détaillées : marque publiée, enregistreur, outil utilisé, date et heure.
+Selecting signed content displays the detailed metadata: published brand, recorder, tool used, timestamp.
 
-Le contenu peut être filtré par statut d’identification.
+Content can be filtered by credential status.
 
-![Données d’identification sur une ressource](./images/import-discovery2.jpg)
+![Credential data on an asset](./images/import-discovery2.jpg)
 
-### Création et sélection
+### Creation and selection
 
-Les badges Content Credential s’affichent dans le sélecteur de ressources de la zone de travail.
+Content Credential badges are shown in the Canvas asset selector.
 
-Les métadonnées d’identification sont conservées lorsque des ressources sont sélectionnées pour que les expériences conservent la chaîne de provenance tout au long de la modification.
+Credential metadata is preserved as assets are selected for experiences to maintain the provenance chain throughout editing.
 
-![Badges Content Credential dans le sélecteur de ressources de la zone de travail](./images/creation-selection1.png)
+![Content Credential badges in the Canvas asset selector](./images/creation-selection1.png)
 
-### Edition et transformation
+### Editing and transformation
 
-Lors des exportations à partir d’un brouillon, les ressources modifiées sont automatiquement resignées et les nouvelles informations d’identification sont liées à l’original.
+During exports from a draft, modified assets are automatically re-signed and the new credential links to the original.
 
-![Données d’identification sur une ressource exportée](./images/edit-and-transformation1.png){width="60%"}
+![Credential data on an exported asset](./images/edit-and-transformation1.png){width="60%"}
 
-### Révision et approbation
+### Review and approval
 
-Dans l’aperçu Réviser et approuver , le statut des informations d’identification s’affiche pour les ressources sur le rail de droite.
+In the Review and Approve preview, credential status is displayed for assets on the right rail.
 
-![Données d’identification sur une ressource approuvée](./images/review-and-approve1.png){width="60%"}
+![Credential data on an approved asset](./images/review-and-approve1.png){width="60%"}
 
 Les informations d’identification par variante s’affichent lorsque les réviseurs inspectent les ressources. Les expériences approuvées sont resignées lorsque les utilisateurs cliquent sur **[!UICONTROL Enregistrer dans le contenu]**.
 
