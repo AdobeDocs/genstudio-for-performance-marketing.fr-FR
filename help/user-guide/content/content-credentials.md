@@ -5,18 +5,11 @@ level: Intermediate
 feature: Content Management, Content Attributes
 exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
 TQID: https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
 source-wordcount: 723
@@ -51,7 +44,7 @@ Les administrateurs et administratrices sont chargés de charger un certificat X
 
 ## Que sont les Content Credentials ? 
 
-Les Content Credentials sont un type de métadonnées durable et standard, avec des détails sur la création du contenu et des informations d’identité sur les créateurs et les créatrices. Vous pouvez afficher Content Credentials lorsque le contenu est publié en ligne sur des plateformes de prise en charge ou à l’aide d’outils tels que [l’outil Adobe Inspect](https://contentauthenticity.adobe.com/inspect) ou l’extension de navigateur Adobe Content Authenticity Chrome [&#128279;](https://helpx.adobe.com/fr/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Les Content Credentials sont un type de métadonnées durable et standard, avec des détails sur la création du contenu et des informations d’identité sur les créateurs et les créatrices. Vous pouvez afficher Content Credentials lorsque le contenu est publié en ligne sur des plateformes de prise en charge ou à l’aide d’outils tels que [l’outil Adobe Inspect](https://contentauthenticity.adobe.com/inspect) ou l’extension de navigateur Adobe Content Authenticity Chrome [](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 L’application de Content Credentials peut aider à accroître la transparence sur la création du contenu et peut aider vos utilisateurs à se connecter à leur contenu.
 
@@ -59,47 +52,47 @@ L’application de Content Credentials peut aider à accroître la transparence 
 
 ## Signature de marque et suivi des ressources
 
-Le contenu signé par la marque joue un rôle important dans la promotion de l’intégrité de la marque et de la confiance des utilisateurs. Organizations can sign their content with a unique brand signature in Adobe applications when their certificate is properly configured in the Admin Console. This assurance of authenticity is maintained using invisible watermarking and fingerprinting technologies, which help preserve the durability of the signature throughout the content&#39;s lifecycle.
+Le contenu signé par la marque joue un rôle important dans la promotion de l’intégrité de la marque et de la confiance des utilisateurs. Les entreprises peuvent signer leur contenu avec une signature de marque unique dans les applications Adobe lorsque leur certificat est correctement configuré dans Admin Console. Cette assurance d’authenticité est maintenue à l’aide de technologies de filigrane et d’empreinte digitale invisibles, qui permettent de préserver la durabilité de la signature tout au long du cycle de vie du contenu.
 
-In addition to brand signing, enterprises can attach asset IDs directly to their content. This facilitates efficient tracking of assets, particularly when they are shared or posted on social media platforms. By incorporating asset IDs, organizations can trace the origin and distribution path of their content, enhancing oversight and accountability.
+Outre la signature de marque, les entreprises peuvent joindre des identifiants de ressource directement à leur contenu. Cela facilite le suivi efficace des ressources, en particulier lorsqu’elles sont partagées ou publiées sur des plateformes de médias sociaux. En incorporant des identifiants de ressources, les entreprises peuvent retracer l’origine et le chemin de distribution de leur contenu, ce qui renforce la surveillance et la responsabilité.
 
-## Content Credentials in the marketing workflow
+## Content Credentials dans le workflow marketing
 
-Applying Content Credentials can be done throughout the marketing workflow directly in GenStudio for Performance Marketing, from import and content discovery to activation and export. You&#39;ll also find credentials displayed on content for review throughout the app.
+L’application de Content Credentials peut être réalisée tout au long du workflow marketing, directement dans GenStudio for Performance Marketing, depuis l’importation et la découverte de contenu jusqu’à l’activation et l’exportation. Vous trouverez également des informations d’identification affichées sur le contenu pour révision dans l’application.
 
-### Import and discovery
+### Import et découverte
 
-In the Content gallery, credentials are displayed on imported assets.
+Dans la galerie de contenu, les informations d’identification s’affichent sur les ressources importées.
 
-The Content Credential badge in the upper right corner of the thumbnail indicates &quot;Brand signed&quot; content.
+Le badge Content Credential dans le coin supérieur droit de la miniature indique le contenu « Signé par la marque ».
 
-![An imported asset with credentials](./images/import-discovery1.png)
+![Ressource importée avec informations d’identification](./images/import-discovery1.png)
 
-Selecting signed content displays the detailed metadata: published brand, recorder, tool used, timestamp.
+La sélection du contenu signé affiche les métadonnées détaillées : marque publiée, enregistreur, outil utilisé, date et heure.
 
-Content can be filtered by credential status.
+Le contenu peut être filtré par statut d’identification.
 
-![Credential data on an asset](./images/import-discovery2.jpg)
+![Données d’identification sur une ressource](./images/import-discovery2.jpg)
 
-### Creation and selection
+### Création et sélection
 
-Content Credential badges are shown in the Canvas asset selector.
+Les badges Content Credential s’affichent dans le sélecteur de ressources de la zone de travail.
 
-Credential metadata is preserved as assets are selected for experiences to maintain the provenance chain throughout editing.
+Les métadonnées d’identification sont conservées lorsque des ressources sont sélectionnées pour que les expériences conservent la chaîne de provenance tout au long de la modification.
 
-![Content Credential badges in the Canvas asset selector](./images/creation-selection1.png)
+![Badges Content Credential dans le sélecteur de ressources de la zone de travail](./images/creation-selection1.png)
 
-### Editing and transformation
+### Edition et transformation
 
-During exports from a draft, modified assets are automatically re-signed and the new credential links to the original.
+Lors des exportations à partir d’un brouillon, les ressources modifiées sont automatiquement resignées et les nouvelles informations d’identification sont liées à l’original.
 
-![Credential data on an exported asset](./images/edit-and-transformation1.png){width="60%"}
+![Données d’identification sur une ressource exportée](./images/edit-and-transformation1.png){width="60%"}
 
-### Review and approval
+### Révision et approbation
 
-In the Review and Approve preview, credential status is displayed for assets on the right rail.
+Dans l’aperçu Réviser et approuver , le statut des informations d’identification s’affiche pour les ressources sur le rail de droite.
 
-![Credential data on an approved asset](./images/review-and-approve1.png){width="60%"}
+![Données d’identification sur une ressource approuvée](./images/review-and-approve1.png){width="60%"}
 
 Les informations d’identification par variante s’affichent lorsque les réviseurs inspectent les ressources. Les expériences approuvées sont resignées lorsque les utilisateurs cliquent sur **[!UICONTROL Enregistrer dans le contenu]**.
 
