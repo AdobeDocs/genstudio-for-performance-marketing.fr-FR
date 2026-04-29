@@ -17,17 +17,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
+source-git-commit: b6ee6bef6552cf0a48316c4ce788e7a22f9daf16
 workflow-type: tm+mt
-source-wordcount: 1713
-ht-degree: 93%
+source-wordcount: 1731
+ht-degree: 90%
 
 ---
 
 # Plug-in Figma pour GenStudio for Performance Marketing
 
 Le plug-in GenStudio for Performance Marketing Figma ajoute un nouveau panneau à l’application Figma qui vous permet de générer du contenu sur la marque.
-[Recherchez et installez le plug-in sur la marketplace communautaire de Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
+[Recherchez et installez le plug-in sur la marketplace communautaire Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 Cette page décrit comment configurer et utiliser le plug-in .
 
@@ -85,7 +85,11 @@ Pour attribuer des rôles d’élément :
 1. Sélectionnez un élément dans votre modèle (texte, image, etc.).
 1. Utilisez le menu déroulant pour attribuer un rôle.
 
-Le plug-in mémorise ces mappages à utiliser pour le contenu généré. Un rôle de champ\ peut être mappé à plusieurs éléments de modèle.
+>[!IMPORTANT]
+>
+> Vous devez mapper une image : attribuez le rôle de champ `image` à au moins un élément d’image dans votre modèle.
+
+Le plug-in mémorise ces mappages à utiliser pour le contenu généré. Un rôle de champ peut être mappé à plusieurs éléments de modèle.
 
 ![Mappage du rôle de champ](./field-role-mapping.png){width="60%"}
 
