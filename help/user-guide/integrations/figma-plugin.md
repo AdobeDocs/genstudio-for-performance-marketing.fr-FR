@@ -5,29 +5,22 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b6ee6bef6552cf0a48316c4ce788e7a22f9daf16
 workflow-type: tm+mt
-source-wordcount: 1713
-ht-degree: 93%
+source-wordcount: 1731
+ht-degree: 90%
 
 ---
 
 # Plug-in Figma pour GenStudio for Performance Marketing
 
 Le plug-in GenStudio for Performance Marketing Figma ajoute un nouveau panneau à l’application Figma qui vous permet de générer du contenu sur la marque.
-[Recherchez et installez le plug-in sur la marketplace communautaire de Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
+[Recherchez et installez le plug-in sur la marketplace communautaire Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 Cette page décrit comment configurer et utiliser le plug-in .
 
@@ -42,7 +35,7 @@ Les fonctionnalités de ce plug-in incluent :
 * Exportez les [!DNL Experiences] générés vers GenStudio for Performance Marketing.
 * Utilisez des options de module externe qui s’adaptent aux éléments sélectionnés dans la zone de travail Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478811?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Créer un modèle
 
@@ -85,7 +78,11 @@ Pour attribuer des rôles d’élément :
 1. Sélectionnez un élément dans votre modèle (texte, image, etc.).
 1. Utilisez le menu déroulant pour attribuer un rôle.
 
-Le plug-in mémorise ces mappages à utiliser pour le contenu généré. Un rôle de champ\ peut être mappé à plusieurs éléments de modèle.
+>[!IMPORTANT]
+>
+> Vous devez mapper une image : attribuez le rôle de champ `image` à au moins un élément d’image dans votre modèle.
+
+Le plug-in mémorise ces mappages à utiliser pour le contenu généré. Un rôle de champ peut être mappé à plusieurs éléments de modèle.
 
 ![Mappage du rôle de champ](./field-role-mapping.png){width="60%"}
 
@@ -105,7 +102,7 @@ Utilisez l’IA dédiée au GenStudio for Performance Marketing pour générer o
 1. Sélectionnez le nombre de variations à produire (huit au maximum).
 1. Utilisez le bouton sous **[!UICONTROL Sélectionner le contenu]** pour parcourir et choisir des images dans vos ressources. Les 40 ressources ajoutées le plus récemment apparaissent en premier et vous pouvez rechercher d’autres ressources. Les images sélectionnées sont automatiquement redimensionnées pour s’adapter à vos modèles.
 1. Saisissez une invite de texte. L’option **[!UICONTROL Action]** de chaque champ de la liste **[!UICONTROL Champs]** est définie sur **[!UICONTROL Générer]** pour le nouveau contenu.
-1. Mappez tous les rôles de champ. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+1. Mappez tous les rôles de champ. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 1. Cliquez sur le bouton **[!UICONTROL Générer]**.
 
 ## Traduire ou générer et copier des variations d’un contenu existant
@@ -121,7 +118,7 @@ Utilisez l’IA dédiée aux GenStudio for Performance Marketing pour générer 
 1. Sélectionnez le nombre de variations à produire.
 1. Utilisez le bouton sous **[!UICONTROL Sélectionner le contenu]** pour parcourir et choisir des images dans vos ressources. Les 40 ressources ajoutées le plus récemment apparaissent en premier et vous pouvez rechercher d’autres ressources. Les images sélectionnées sont automatiquement redimensionnées pour s’adapter à vos modèles.
 1. Saisissez une invite de texte. L’option **[!UICONTROL Action]** de chaque champ de la liste **[!UICONTROL Champs]** est définie sur **[!UICONTROL Générer]** pour le nouveau contenu.
-1. Mappez tous les rôles de champ. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+1. Mappez tous les rôles de champ. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 1. Sélectionnez chaque type de champ pour générer des variations ou effectuer une traduction dans le panneau sur le côté gauche du plug-in, puis collez le contenu initial dans chaque zone **[!UICONTROL Contenu initial]**.
    ![Exemple de texte dans la zone Contenu initial](./initial-content-box.png){width="60%" zoomable="yes"}
 1. Cliquez sur le bouton **[!UICONTROL Générer]**.
@@ -168,7 +165,7 @@ Les variations peuvent être exportées à partir de Figma en tant que [!DNL Exp
 
 1. Sélectionnez le contenu à exporter dans la zone de travail Graphique en effectuant l’une des opérations suivantes :
    * Sélectionnez la section de génération dans la zone de travail, puis cliquez sur **[!UICONTROL Tout marquer pour l’exportation]** dans le panneau du plug-in.
-     ![&#x200B; Sélection de la section de génération &#x200B;](./select-generation-section.png){width="20%" zoomable="yes"}
+     ![ Sélection de la section de génération ](./select-generation-section.png){width="20%" zoomable="yes"}
    * Sélectionnez une génération individuelle dans la zone de travail, puis cliquez sur **[!UICONTROL Marquer pour l’exportation]** dans le panneau du plug-in.
      ![Sélection de génération individuelle](./select-generation.png){width="20%" zoomable="yes"}
 1. Sélectionnez l’élément Exporter dans le menu de la barre latérale.
@@ -233,7 +230,7 @@ Pour convertir des images :
      ![Bouton Télécharger JSON](./upload-json.png){width="40%"}
 1. GenStudio Photoshop convertit les informations du document JSON en document Photoshop ouvert.
 1. Cliquez sur **[!UICONTROL Terminé]**. Le nouveau fichier s’ouvre dans Photoshop et est prêt à l’emploi. Ou cliquez sur **[!UICONTROL Enregistrer sous...]** pour choisir un emplacement d’enregistrement du fichier.
-   ![&#x200B; Boîte de dialogue du bouton Terminé &#x200B;](./import-done-button.png){width="40%"}
+   ![ Boîte de dialogue du bouton Terminé ](./import-done-button.png){width="40%"}
 
 ## Historique de génération
 
@@ -247,7 +244,7 @@ Tenez compte de ces bonnes pratiques et conseils si le texte ou les images ne so
 
 ### Champs mappés
 
-Si le texte ou les images ne sont pas remplacés, vérifiez que les champs ont été mappés à des rôles de champ GenStudio dans l’interface utilisateur du plug-in. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+Si le texte ou les images ne sont pas remplacés, vérifiez que les champs ont été mappés à des rôles de champ GenStudio dans l’interface utilisateur du plug-in. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 
 ### Confirmer que les polices sont disponibles
 
