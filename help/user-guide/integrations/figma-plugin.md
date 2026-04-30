@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6b964da5bf0d0d10508a43f17f68faf1114270c1
+source-git-commit: 1dbfb6115c9340f9c14cef75d5144a303314fa71
 workflow-type: tm+mt
 source-wordcount: 1835
 ht-degree: 85%
@@ -93,9 +93,9 @@ Le plug-in doit comprendre les différents éléments de votre modèle, tels que
 
 Découvrez comment certains de ces rôles de champ sont mappés ci-dessous.
 
-| ![Une publication Facebook avec des rôles de terrain indiqués](./facebook-post.png){width="50%" align="center"}<br> | ![Une histoire Facebook avec des rôles de terrain indiqués](./facebook-story.png){width="60%" align="center"}<br> |
+| ![Une publication Facebook avec des rôles de terrain indiqués](./facebook-post.png){width="60%" align="center" zoomable="yes"}<br> | ![Une histoire Facebook avec des rôles de terrain indiqués](./facebook-story.png){width="70%" align="center" zoomable="yes"}<br> |
 |:---:|:---:|
-| ![Une publication Instagram avec des rôles de terrain indiqués](./instagram-post.png){width="50%" align="center"}<br> | ![Une histoire Instagram avec les rôles de terrain indiqués](./instagram-story.png){width="60%" align="center"}<br> |
+| ![Une publication Instagram avec des rôles de terrain indiqués](./instagram-post.png){width="60%" align="center" zoomable="yes"}<br> | ![Une histoire Instagram avec les rôles de terrain indiqués](./instagram-story.png){width="70%" align="center" zoomable="yes"}<br> |
 
 **Les rôles de champ LinkedIn incluent** :
 
@@ -109,7 +109,7 @@ Découvrez comment certains de ces rôles de champ sont mappés ci-dessous.
 
 Découvrez comment certains de ces rôles de champ sont mappés ci-dessous.
 
-![Publication LinkedIn avec les rôles de champ indiqués](./linkedin-ad.png){width="20%" align="center"}
+![Publication LinkedIn avec les rôles de champ indiqués](./linkedin-ad.png){width="30%" align="center" zoomable="yes"}
 
 Le plug-in mémorise ces mappages à utiliser pour le contenu généré. Un rôle de champ peut être mappé à plusieurs éléments de modèle. Les champs manuels concernent les éléments que vous souhaitez conserver pour la modifiabilité du texte, mais qui ne seront pas marqués pour la génération.
 
@@ -122,7 +122,7 @@ Pour attribuer des rôles d’élément :
 1. Sélectionnez un élément dans votre modèle (texte, image, etc.).
 1. Utilisez le menu déroulant pour attribuer un rôle.
 
-![Mappage du rôle de champ](./field-role-mapping.png){width="60%"}
+![Mappage du rôle de champ](./field-role-mapping.png){width="60%" zoomable="yes"}
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
