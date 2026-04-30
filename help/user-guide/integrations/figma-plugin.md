@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b6ee6bef6552cf0a48316c4ce788e7a22f9daf16
+source-git-commit: 6b964da5bf0d0d10508a43f17f68faf1114270c1
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 90%
+source-wordcount: 1835
+ht-degree: 85%
 
 ---
 
@@ -80,20 +80,49 @@ Il n’existe aucune exigence de taille fixe. Les modèles d’affichage prennen
 
 Le plug-in doit comprendre les différents éléments de votre modèle, tels que le titre, le corps du texte ou l’image.
 
+**Les rôles de champ Meta sont les suivants** :
+
+* Image
+* Texte de l’image
+* CTA
+* Corps du texte
+* Titre
+* URL du site web
+* Afficher le lien
+* Champs manuels
+
+Découvrez comment certains de ces rôles de champ sont mappés ci-dessous.
+
+| ![Une publication Facebook avec des rôles de terrain indiqués](./facebook-post.png){width="50%" align="center"}<br> | ![Une histoire Facebook avec des rôles de terrain indiqués](./facebook-story.png){width="60%" align="center"}<br> |
+|:---:|:---:|
+| ![Une publication Instagram avec des rôles de terrain indiqués](./instagram-post.png){width="50%" align="center"}<br> | ![Une histoire Instagram avec les rôles de terrain indiqués](./instagram-story.png){width="60%" align="center"}<br> |
+
+**Les rôles de champ LinkedIn incluent** :
+
+* Image
+* Texte d’introduction
+* Texte de l’image
+* Titre
+* CTA
+* URL du site web
+* Champs manuels
+
+Découvrez comment certains de ces rôles de champ sont mappés ci-dessous.
+
+![Publication LinkedIn avec les rôles de champ indiqués](./linkedin-ad.png){width="20%" align="center"}
+
+Le plug-in mémorise ces mappages à utiliser pour le contenu généré. Un rôle de champ peut être mappé à plusieurs éléments de modèle. Les champs manuels concernent les éléments que vous souhaitez conserver pour la modifiabilité du texte, mais qui ne seront pas marqués pour la génération.
+
+>[!IMPORTANT]
+>
+> **Vous devez mapper une image** en attribuant le rôle de champ `image` à au moins un élément d’image dans votre modèle.
+
 Pour attribuer des rôles d’élément :
 
 1. Sélectionnez un élément dans votre modèle (texte, image, etc.).
 1. Utilisez le menu déroulant pour attribuer un rôle.
 
->[!IMPORTANT]
->
-> Vous devez mapper une image : attribuez le rôle de champ `image` à au moins un élément d’image dans votre modèle.
-
-Le plug-in mémorise ces mappages à utiliser pour le contenu généré. Un rôle de champ peut être mappé à plusieurs éléments de modèle.
-
 ![Mappage du rôle de champ](./field-role-mapping.png){width="60%"}
-
-### Exceptions de mappage de champs
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
