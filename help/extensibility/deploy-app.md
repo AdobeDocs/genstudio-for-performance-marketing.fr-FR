@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 501
 ht-degree: 0%
 
 ---
@@ -111,6 +111,10 @@ Les extensions de validation se trouvent après une génération d’invite, dan
 Exécutez l’extension sélectionnée pour valider le contenu généré.
 
 ![Validation valide](./validation-valid.png){width="600" zoomable="yes"}
+
+En cas d’erreur, vous pouvez utiliser l’extension pour mettre à jour la copie des expériences par programmation. Cliquez sur le bouton **[!UICONTROL Copier]** pour copier le texte suggéré dans le presse-papiers. Cliquez sur le bouton **[!UICONTROL Appliquer]** pour appliquer le texte à une zone de texte spécifique dans l’expérience générée.
+
+![Erreur de validation affichant les boutons Copier et Appliquer](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### Rechercher des extensions de gestion des ressources numériques
 
