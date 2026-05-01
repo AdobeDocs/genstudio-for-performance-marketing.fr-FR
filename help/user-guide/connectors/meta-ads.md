@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: 875
 ht-degree: 0%
 
 ---
@@ -89,6 +89,23 @@ Cette page explique comment connecter et gérer votre compte de profil Meta Ads 
 
 Utilisez **[!UICONTROL Ajouter un compte]** pour ajouter d’autres comptes à la liste. Le flux d’autorisation peut différer légèrement lorsque vous ajoutez des comptes liés au même profil Meta Business. Vous sélectionnez uniquement les nouveaux comptes Meta Ads pendant le processus de connexion.
 
+## Connexion à un compte Instagram
+
+>[!IMPORTANT]
+>
+>Avant d’activer une publicité Meta, assurez-vous dans Meta Business Manager que le compte Instagram que vous souhaitez utiliser est connecté au même compte publicitaire sélectionné lors de l’intégration. Si cette connexion est manquante, le compte Instagram peut ne pas apparaître dans le menu déroulant [!DNL GenStudio for Performance Marketing] _Compte Instagram_ lors de l’activation.
+
+**Pour vérifier ou mettre à jour la connexion au compte Instagram dans Meta Business Manager** :
+
+1. Accédez à **[!UICONTROL Paramètres]**.
+1. Sous _Comptes_, sélectionnez **[!UICONTROL Comptes Instagram]**.
+1. Choisissez le compte Instagram que vous souhaitez utiliser.
+1. Cliquez sur **[!UICONTROL Ressources connectées]**.
+1. Sous _Comptes publicitaires_, vérifiez que le compte publicitaire utilisé lors de l’intégration est répertorié.
+1. S’il n’est pas répertorié, cliquez sur **[!UICONTROL Connecter des ressources]** et ajoutez le compte publicitaire approprié.
+
+Une fois le compte publicitaire connecté, revenez à [!DNL GenStudio for Performance Marketing] et poursuivez le flux d’activation.
+
 ## Bonnes pratiques relatives à la connexion
 
 Pour éviter toute erreur, tenez compte des bonnes pratiques suivantes lors de la configuration des connexions :
@@ -140,5 +157,3 @@ Des problèmes peuvent survenir lorsque des comptes Instagram sont sélectionné
 1. NE PAS sélectionner le compte Instagram lors de la première tentative de connexion.
 1. Vérifiez que la connexion est établie avant d’ajouter d’autres ressources.
 1. Une fois la connexion à la page stable, ajoutez les comptes Instagram séparément.
-
-
