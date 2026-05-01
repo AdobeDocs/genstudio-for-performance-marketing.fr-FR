@@ -4,22 +4,14 @@ description: Découvrez comment activer une expérience publicitaire Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1931
+source-wordcount: 1980
 ht-degree: 1%
 
 ---
@@ -53,9 +45,9 @@ Vérifiez que vos comptes publicitaires Meta connectés disposent des autorisati
 
 ## Étape 2 : Connexion à vos comptes Meta
 
-Avant que votre entreprise puisse activer des expériences, un responsable système GenStudio doit connecter vos comptes Meta à GenStudio for Performance Marketing. Cette connexion permet aux données de circuler entre GenStudio et les outils marketing externes tels que Meta, ce qui active le processus d’activation.
+Avant que votre entreprise puisse activer des expériences, un responsable système GenStudio doit connecter vos comptes Meta à GenStudio for Performance Marketing. Cette connexion permet aux données de circuler entre GenStudio et les outils marketing externes tels que Meta, ce qui active le processus d’activation. Voir [Connexion à Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
-Voir [Connexion à Meta Ads](/help/user-guide/connectors/meta-ads.md).
+Pour sélectionner un compte Instagram, assurez-vous dans Meta Business Manager que [le compte Instagram que vous souhaitez utiliser est connecté au même compte publicitaire](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account) sélectionné lors de l’intégration. Si cette connexion est manquante, le compte Instagram peut ne pas apparaître dans le menu déroulant [!DNL GenStudio for Performance Marketing] _Compte Instagram_ lors de l’activation.
 
 Une fois la synchronisation terminée, vous pouvez afficher les comptes ajoutés. La synchronisation de grandes quantités de données prend plus de temps.
 
@@ -75,7 +67,7 @@ Si vous avez sélectionné plusieurs expériences à activer en tant que groupe,
 
 1. Utilisez les outils de recherche et de filtrage de la galerie de [!DNL Content] pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Activer]**.
 
-   La page Meta ads _configuration de l’expérience_ s’ouvre pour cette expérience. Il est prérempli avec des détails de l’expérience sélectionnée. Vous pouvez modifier les champs **[!UICONTROL Call-to-action]**, **[!UICONTROL URL du site Web]** et **[!UICONTROL Afficher le lien]**. Si vous sélectionnez plusieurs expériences à activer, la vue _Configuration de l’expérience_ comprend une barre latérale gauche qui affiche des miniatures de toutes les expériences sélectionnées. Utilisez cette barre latérale gauche pour placer le focus de la vue _Configuration de l’expérience_ sur les détails de l’expérience sélectionnée.
+   La page Meta ads _configuration de l’expérience_ s’ouvre pour cette expérience. Il est prérempli avec des détails de l’expérience sélectionnée. Vous pouvez modifier les champs ****, **[!UICONTROL URL du site Web]** et **[!UICONTROL Afficher le lien]**. Si vous sélectionnez plusieurs expériences à activer, la vue _Configuration de l’expérience_ comprend une barre latérale gauche qui affiche des miniatures de toutes les expériences sélectionnées. Utilisez cette barre latérale gauche pour placer le focus de la vue _Configuration de l’expérience_ sur les détails de l’expérience sélectionnée.
 
 1. Sélectionnez une campagne dans le menu déroulant **[!UICONTROL Campagnes]**.
 
@@ -120,7 +112,7 @@ Après le chargement, les ressources sont enregistrées dans [!DNL Content]. La 
 
 1. Cliquez sur **[!UICONTROL Utiliser]** pour inclure la ressource sélectionnée dans votre expérience publicitaire. La fenêtre _Configuration de l’expérience_ inclut la ressource dans ses proportions par défaut dans la zone _Média_. Le panneau _Aperçu_ prévisualise la ressource dans l’emplacement publicitaire qui prend en charge ce rapport d’aspect.
 
-Si le chargement échoue, un message d’erreur informatif contenant un lien vers la ressource dans _[!DNL Content]_&#x200B;s’ouvre.
+Si le chargement échoue, un message d’erreur informatif contenant un lien vers la ressource dans _[!DNL Content]_s’ouvre.
 
 **Pour charger une ressource externe** :
 
@@ -142,7 +134,7 @@ Vous pouvez charger jusqu’à six images statiques externes à la galerie [!DNL
 
 ### Ajouter du texte publicitaire
 
-Utilisez la section _Texte_ de la page _Activer la publicité Meta_ pour ajouter du texte attrayant et conforme à la marque aux champs de texte obligatoires. Le texte inclut le texte principal (corps) pour le texte de l’annonce publicitaire et de call-to-action. Vous ne pouvez pas modifier les champs _Texte du Principal_, _Titre_ et _Description_. Vous pouvez modifier les champs _Call-to-action_, _Afficher le lien_ et _URL du site Web_.
+Utilisez la section _Texte_ de la page _Activer la publicité Meta_ pour ajouter du texte attrayant et conforme à la marque aux champs de texte obligatoires. Le texte inclut le texte principal (corps) pour le texte de l’annonce publicitaire et de call-to-action. Vous ne pouvez pas modifier les champs _Texte du Principal_, _Titre_ et _Description_. Vous pouvez modifier les champs __, _Afficher le lien_ et _URL du site Web_.
 
 | champ | Requis | Limite de caractères (max.) |
 |-----------------|---------------------------|---------------------------------|
@@ -192,7 +184,7 @@ Vous pouvez créer un nouveau jeu d’annonces lors de la configuration de la pl
 
 **Pour créer une visionneuse d’annonces** :
 
-1. Sélectionnez une campagne dans le menu déroulant _Campagnes Meta_.
+1. Sélectionnez une campagne dans le menu déroulant _Campagnes_.
 
    La campagne sélectionnée détermine les visionneuses d’annonces disponibles sous forme d’options dans le menu déroulant _Visionneuses d’annonces_.
 
