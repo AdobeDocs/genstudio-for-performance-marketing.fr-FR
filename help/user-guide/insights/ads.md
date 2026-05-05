@@ -24,24 +24,24 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
+source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1469
 ht-degree: 1%
 
 ---
 
-# Publicités et emplacement publicitaire - Aperçu
+# Présentation des balises et de l’emplacement des publicités
 
-La vue [!DNL Insights] _[!UICONTROL Publicités]_ affiche une liste des publicités pour le compte publicitaire du canal connecté. Une _publicité_ est une ressource promotionnelle qui comprend du contenu visuel et interactif destiné à être distribué à une audience spécifique dans le cadre d’une campagne marketing.
+La vue [!DNL Insights] _[!UICONTROL Balises des publicités]_ affiche une liste des publicités pour le compte publicitaire du canal connecté. Une _publicité_ est une ressource promotionnelle qui comprend du contenu visuel et interactif destiné à être distribué à une audience spécifique dans le cadre d’une campagne marketing.
 
 {{connect-insights}}
 
-Le tableau _[!UICONTROL Annonces]_ est organisé à l’aide des [!UICONTROL noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
+Le tableau _[!UICONTROL Balises publicitaires]_ est organisé à l’aide de [!UICONTROL Noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
 
-![Filtre et tableau des publicités](/help/assets/insights-ads-filter.png){zoomable="yes"}
+![Mesures de performances des informations sur les balises publicitaires](./ad-tags-tab.png)
 
-La vue galerie _[!UICONTROL Annonce]_ affiche un collage d’aperçus d’annonce publicitaire et d’une mesure, telle que le taux de clic publicitaire. Cliquez sur l’icône des paramètres (cog) située au-dessus du côté droit de la galerie pour ouvrir **[!UICONTROL Paramètres de la carte]** et activer l’une des trois mesures visibles :
+La vue galerie _[!UICONTROL Balises publicitaires]_ affiche un collage d’aperçus d’annonces publicitaires et une mesure, telle que le taux de clic publicitaire. Cliquez sur l’icône des paramètres (cog) située au-dessus du côté droit de la galerie pour ouvrir **[!UICONTROL Paramètres de la carte]** et activer l’une des trois mesures visibles :
 
 - Coût par action (CPA)
 - Taux de clic publicitaire (CTR)

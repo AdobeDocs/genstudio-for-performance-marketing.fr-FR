@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
+source-git-commit: d3d3bd0d0790ecfe5a9c0e796b74fcf97672f1d2
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: 959
 ht-degree: 0%
 
 ---
@@ -52,9 +52,13 @@ Le module [!DNL Insights] comprend **[!UICONTROL Insights 2.0]**, une expérienc
 
 - **Consultez les présentations cross-canal ou mono-canal (Meta et LinkedIn)** : consultez un instantané consolidé sur les deux canaux sociaux payants ou explorez un seul canal.
 - **Utiliser le rapport de performances cross-canal** : affichez la part des résultats de chaque canal avec une visualisation de contribution en pourcentage, y compris les dépenses totales (pourcentage et montant) et les mesures de part de performance telles que le CTR, le CPC et CPM.
+  ![Rapport de performances cross-canal](./cross-channel-report.png)
 - **Utiliser le rapport de performances des annonces** : identifier les annonces à hautes et faibles performances avec des classements et des mesures qui prennent en charge les décisions d’optimisation.
+  ![Rapport sur les performances des publicités](./ad-performance-report.png)
 - **Analyse des mesures de conversion de Meta** : concentrez-vous sur les conversions avec une visibilité sur le CPA à travers les étapes de funnel (par exemple, les visites engagées, les demandes d’informations, le démarrage de l’application, le prospect et l’application terminée) et examinez les tendances de conversion au fil du temps, avec les données de conversion disponibles dans GenStudio for Performance Marketing.
+  ![mesures de conversion de &#x200B;](./meta-conversion-report.png)
 - **Explorez les informations provenant des balises d’annonce publicitaire** : les identifiants de suivi des annonces publicitaires sont analysés en balises structurées afin que vous puissiez analyser les performances en fonction des dimensions que vous définissez (telles que le call to action, la géographie, le format ou le concept), voir l’affectation du budget sur ces dimensions et passer moins de temps à décoder manuellement les conventions de nommage.
+  ![Rapport Insights 2.0 sur les balises d’annonces](./ad-tags-insights.png)
 
 >[!NOTE]
 >
@@ -92,10 +96,6 @@ Chaque vue affiche un tableau correspondant que vous pouvez rechercher par mot-c
 
 La vue [[!DNL Insights] _[!UICONTROL Campagnes &#x200B;]_](campaigns.md) est la vue par défaut et affiche une liste des détails des campagnes actives, tels que les objectifs, le budget, la date de lancement et l’activité. Veillez à [connecter un compte de canal](/help/user-guide/connectors/connect-channel.md) afin que GenStudio for Performance Marketing commence à recevoir vos données statistiques.
 
-### Publicités
-
-La vue [[!DNL Insights] _[!UICONTROL Publicités &#x200B;]_](ads.md) se concentre sur l’évaluation de l’efficacité d’une publicité. La vue [!UICONTROL Publicités] vous permet d’analyser les mesures d’une publicité en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur un&#x200B;_[!UICONTROL &#x200B; Nom de l’annonce &#x200B;]_, vous pouvez afficher les mesures de performances des annonces, les performances par emplacement d’annonce et les attributs.
-
 ### Média
 
 La vue [[!DNL Insights] _[!UICONTROL Média &#x200B;]_](media.md) est conçue pour vous aider à analyser les performances du contenu créatif. Vous pouvez identifier les attributs de média qui contribuent à améliorer une mesure sélectionnée, tels que les clics ou les impressions.
@@ -111,3 +111,7 @@ Dans la vue Détails du média, le côté gauche affiche une miniature de la res
 Les _attributs_ de média permettent d’identifier le contenu créatif par des détails inhérents, tels que la couleur, le ton, la composition (comme l’objet, les polices, les éléments visuels) et d’autres composants clés. Les attributs constituent souvent l’ensemble d’informations de contenu le moins mesuré et analysé.
 
 La vue [[!DNL Insights] _[!UICONTROL Attributs &#x200B;]_](attributes.md) peut vous aider à identifier les attributs les plus performants avec certaines audiences, certains canaux et certaines régions, et peut vous aider à mettre en évidence les tendances saisonnières. Grâce à ces informations, vous pouvez utiliser des attributs performants pour créer des variantes, cibler une audience spécifique ou expérimenter différentes stratégies de campagne.
+
+### Balises publicitaires
+
+La vue [[!DNL Insights] _[!UICONTROL Publicités &#x200B;]_](ads.md) se concentre sur l’évaluation de l’efficacité d’une publicité. La vue [!UICONTROL Publicités] vous permet d’analyser les mesures d’une publicité en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur un&#x200B;_[!UICONTROL &#x200B; Nom de l’annonce &#x200B;]_, vous pouvez afficher les mesures de performances des annonces, les performances par emplacement d’annonce et les attributs.
