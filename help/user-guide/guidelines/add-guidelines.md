@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a8b4c6b395908dc6aada4c5be9fcc53d9776da50
+source-git-commit: 899a575f664d3aba0fe913fd625f8e5353ee854d
 workflow-type: tm+mt
-source-wordcount: 2499
+source-wordcount: 3019
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Lors de la création de variantes à partir d’un modèle avec des instructions
 
 ## Ajouter des marques
 
-Pour ajouter une [!DNL Brand], [téléchargez un guide de marque](#upload-a-brand) ou [créez manuellement une marque](#manually-add-brand) en sélectionnant des directives et en saisissant les détails de votre marque. [Publiez un  [!DNL Brand]](#publish-brand) pour le [!DNL Content] afin de le rendre disponible pour une utilisation lors de la génération future de contenu.
+Pour ajouter une [!DNL Brand], [téléchargez un guide de marque](#upload-a-brand), [créez manuellement une marque](#manually-add-brand) ou [créez une marque à partir d’une URL](#creating-a-brand-from-url). Lorsque vous chargez des fichiers ou ajoutez une marque manuellement, sélectionnez des directives et saisissez les détails de votre marque. [Publiez un  [!DNL Brand]](#publish-brand) pour le [!DNL Content] afin de le rendre disponible pour une utilisation lors de la génération future de contenu.
 
 Dans la zone de navigation de gauche, cliquez sur **[!DNL Brands]** dans la liste _Partagé_.
 
@@ -113,6 +113,19 @@ Vous pouvez ajouter manuellement des détails sur la marque, au lieu de charger 
 Pour afficher les [!DNL Brands] que vous avez créées, cliquez sur la flèche vers l’arrière située en haut du panneau _[!UICONTROL Marques]_ pour revenir à l’accueil _[!UICONTROL Marques]_.
 
 Il n’est pas nécessaire de [publier](#publish-brand) votre [!DNL Brand] pour rendre les informations accessibles. Toute information ajoutée manuellement est disponible immédiatement après son ajout. Pour que d’autres membres de votre organisation puissent utiliser les informations de [!DNL Brand] dans GenStudio for Performance Marketing, vous devez les publier. Un [!DNL Brand] créé est en version préliminaire jusqu’à sa publication.
+
+### Créer une marque à partir d&#39;une URL
+
+**Conditions préalables** voir [Conseils pour l’ajout depuis une URL](#guidance-when-adding-from-a-url).
+
+**Pour créer une marque à partir d’une URL :**
+
+1. Accédez à **[!DNL Brands]** dans GenStudio, puis cliquez sur le bouton **[!UICONTROL +Ajouter une marque]**.
+1. Lorsque vous êtes invité à _Choisir un moyen d’ajouter votre marque_, sélectionnez **[!UICONTROL via l’URL]**.
+1. Saisissez l&#39;URL de la marque dans le champ fourni.
+1. Le système lit la page et génère automatiquement des directives de marque. Ce processus prend généralement moins d’une minute.
+1. Consultez la carte des directives de marque générée et modifiez les champs selon vos besoins.
+1. Cliquez sur **[!UICONTROL Enregistrer]**. La marque est désormais disponible pour la génération de contenu.
 
 ### Modifier la miniature de la marque
 
@@ -184,7 +197,7 @@ Pour **afficher les informations sur la marque**, cliquez sur **[!UICONTROL [!DN
 
 ## Ajouter [!DNL Personas]
 
-Pour ajouter une persona, [téléchargez une persona](#upload-a-persona) ou [créez manuellement une persona](#manually-add-persona) en sélectionnant des instructions et en saisissant les détails de votre personnage.
+Pour ajouter une personne, [téléchargez-la](#upload-a-persona), [créez-la manuellement](#manually-add-persona) ou [ajoutez-la à partir d’une URL](#adding-personas-from-url). Lorsque vous téléchargez des fichiers ou ajoutez un persona manuellement, sélectionnez des directives et saisissez les détails de votre persona.
 
 Dans la zone de navigation de gauche, cliquez sur **[!DNL Personas]** dans la liste _Partagé_.
 
@@ -244,6 +257,19 @@ Vous pouvez ajouter manuellement des détails personnels, au lieu de charger des
 
    Pour afficher les [!DNL Personas] que vous avez créées, cliquez sur la flèche vers l’arrière située en haut de la vue _Persona_ pour revenir à la page d’accueil _[!DNL Personas]_.
 
+### Ajout de [!DNL Personas] depuis l’URL
+
+**Conditions préalables** voir [Conseils pour l’ajout depuis une URL](#guidance-when-adding-from-a-url).
+
+**Pour ajouter des rôles à partir d’une URL :**
+
+1. Accédez à **[!DNL Personas]** dans GenStudio, puis cliquez sur le bouton **[!UICONTROL +Ajouter une personne]**.
+1. Lorsque vous êtes invité à _Choisir un moyen d’ajouter votre persona_, sélectionnez **[!UICONTROL via l’URL]**.
+1. Saisissez l&#39;URL de la marque dans le champ fourni.
+1. Consultez la liste des segments d’audience affichés à partir de la page. Supprimez les segments qui ne s’appliquent pas, renommez-les si nécessaire et ajoutez ceux qui manquent.
+1. Confirmez la liste. Le système commence à générer des cartes personnelles complètes pour chaque segment confirmé.
+1. Les cartes personnelles apparaissent dans la bibliothèque au fur et à mesure qu’elles se terminent. Examinez et modifiez chaque persona avant de l’utiliser pour la génération de contenu.
+
 ### Gérer les [!DNL Personas]
 
 Dans _[!DNL Personas]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un persona**&#x200B;de la liste :
@@ -258,8 +284,8 @@ Pour ajouter un produit :
 
 1. Dans la zone de navigation de gauche, cliquez sur **[!DNL Products]** dans la liste _Partagé_.
    ![Recommandations dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
-1. Dans le panneau _[!DNL Products]_, sélectionnez **Ajouter un produit**.
-1. Choisissez de [charger un produit](#upload-a-product) ou [créer manuellement un produit](#manually-add-product) en sélectionnant les directives et en saisissant les détails de votre produit.
+1. Dans le panneau _[!DNL Products]_, sélectionnez **[!UICONTROL Ajouter un produit]**.
+1. Choisissez de [charger un produit](#upload-a-product), [créer manuellement un produit](#manually-add-a-product) ou [ajouter des produits à partir d’une URL](#adding-products-from-url). Lorsque vous téléchargez des fichiers ou ajoutez un produit manuellement, sélectionnez Recommandations et saisissez les détails du produit.
 
 ![Ajouter un [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
 
@@ -315,6 +341,19 @@ Vous pouvez ajouter manuellement des détails de produit, au lieu de charger des
 
    Pour afficher les [!DNL Products] que vous avez créées, cliquez sur la flèche vers l’arrière située en haut de la vue _Produit_ et revenez à la page d’accueil _[!DNL Products]_.
 
+### Ajout de produits à partir d’une URL
+
+**Conditions préalables** voir [Conseils pour l’ajout depuis une URL](#guidance-when-adding-from-a-url).
+
+**Pour ajouter des [!DNL Products] à partir d’une URL :**
+
+1. Accédez à **[!DNL Products]** dans GenStudio, puis cliquez sur le bouton **[!UICONTROL +Ajouter un produit]**.
+1. Lorsque vous êtes invité à _Choisir un moyen d’ajouter votre produit_, sélectionnez **[!UICONTROL via l’URL]**.
+1. Saisissez une URL. Utilisez la page d’accueil de la marque pour obtenir une large liste de produits ou une page de catégorie pour définir la portée des résultats.
+1. Examinez la liste des produits affichés à partir de la page. Supprimez les éléments qui n’appartiennent pas, renommez-les si nécessaire et ajoutez les produits qui n’appartiennent pas.
+1. Confirmez la liste. Le système commence à générer des détails complets sur chaque produit confirmé.
+1. Les produits apparaissent dans la bibliothèque. Examinez et modifiez chaque produit avant de l’utiliser pour la génération de contenu.
+
 ### Gérer les [!DNL Products]
 
 Dans _[!DNL Products]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Product]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un produit**&#x200B;de la liste :
@@ -349,3 +388,23 @@ Lors de l’intégration, les définitions d’audience sont importées et trans
 1. Sélectionnez une audience à affecter dans la liste. Le système suggère des audiences recommandées qui s’alignent sur les [!DNL Persona] sélectionnées, si un [!DNL Persona] est sélectionné.
 1. Cliquez sur **[!UICONTROL Voir les détails de l’audience]** pour afficher la description développée et les préférences de messagerie générées pour l’audience sélectionnée. Les détails de l’audience informent la génération du contenu, en veillant à ce que votre contenu créatif s’aligne sur les caractéristiques et préférences spécifiques de votre segment cible.
    ![Volet Détails de l’audience](./audience-details.png){width=450}
+
+## Conseils pour l’ajout depuis une URL
+
+Lorsque vous choisissez d’ajouter une [!DNL Brand], une [!DNL Product] ou une [!DNL Persona] à partir d’une URL dans [!DNL GenStudio for Performance Marketing], tenez compte des informations ci-dessous.
+
+**Conditions préalables pour les workflows basés sur des URL** :
+
+- Vous disposez d’un **compte [!DNL GenStudio for Performance Marketing] actif** avec Brand Manager ou des autorisations supérieures.
+- L’**URL est accessible au public**. Les pages protégées par mot de passe ou par nom d’utilisateur génèrent un résultat limité.
+- **Pour obtenir de meilleurs résultats, utilisez l’URL du site web de la marque** (une page d’accueil ou une page de produit/catégorie) au lieu d’un retailer, d’un revendeur ou d’un agrégateur.
+
+**Types d’URL et sorties attendues** :
+
+| Type d’URL | À quoi s’attendre ? |
+| --- | --- |
+| Page d’accueil de la marque | Vous obtenez des directives complètes sur la marque et le système affiche une large couverture produit et personnelle. |
+| Page de catégorie de produits | Les produits et les rôles sont inclus dans la catégorie représentée sur cette page. |
+| Page de destination de Campaign | Les signaux personnels sont particulièrement utiles, mais la sortie de la marque peut refléter la campagne au lieu de la marque complète. |
+| Retailer ou page de partenaire | Le système donne la priorité au contenu tiers, de sorte que la sortie sera limitée. |
+| Page bloquée/avec connexion obligatoire | Le contenu de la page n’étant pas disponible, la sortie sera conservatrice. |
