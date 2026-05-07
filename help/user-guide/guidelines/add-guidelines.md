@@ -6,12 +6,26 @@ role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
 TQID: https://experienceleague.adobe.com/ZBEIHvBGmsFQ42jATObuO7IeANKc3CXCmhJ20p5-QCs
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: afc6e550-6640-4eb4-a143-75ec86d23a66id: be495d08-ecd1-455f-951e-c22de504e667id: cec71013-cf14-4e28-b808-3d3060935bcbid: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: afc6e550-6640-4eb4-a143-75ec86d23a66
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: cec71013-cf14-4e28-b808-3d3060935bcb
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8ec5d89113f24b91b4d963124050eaf4bf1bf368
 workflow-type: tm+mt
 source-wordcount: 3023
@@ -87,7 +101,7 @@ Vous pouvez ajouter manuellement des détails sur la marque, au lieu de charger 
    - _Quand utiliser cette marque_ : cliquez sur **[!UICONTROL Ajouter]** (ou cliquez dans le champ de texte pour modifier le texte existant) et saisissez un aperçu et des informations sur l’utilisation de la marque. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
    - [_[!DNL Brand] des instructions vocales _](brands.md#brand-voice-guidelines): ajoutez les informations applicables dans chaque champ d’instructions.
 
-     ![Ajout de directives vocales [!DNL Brand] ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Ajout de directives vocales [!DNL Brand] &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Instructions relatives aux images_](brands.md#image-guidelines) : cliquez sur **[!UICONTROL Ajouter une catégorie]** pour ajouter des catégories d’instructions telles que « Instructions générales relatives aux objets d’art » ou « Photographie de produit ». Renseignez les directives dans chaque catégorie ajoutée.
    - [_Instructions relatives aux canaux_](brands.md#channel-guidelines) : cliquez sur chaque canal disponible et ajoutez les instructions appropriées.
@@ -258,7 +272,7 @@ Vous pouvez ajouter manuellement des détails personnels, au lieu de charger des
 
 ### Gérer les [!DNL Personas]
 
-Dans _[!DNL Personas]_page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**déjà créé pour le modifier ou le réviser, ou **supprimer un persona**de la liste :
+Dans _[!DNL Personas]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Persona]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un persona**&#x200B;de la liste :
 
 - Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Personas] pour réviser et passer en revue un persona existant.
 - Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Personas] pour **Supprimer** une personne.
@@ -342,7 +356,7 @@ Vous pouvez ajouter manuellement des détails de produit, au lieu de charger des
 
 ### Gérer les [!DNL Products]
 
-Dans _[!DNL Products]_page d’accueil, vous pouvez **ouvrir un[!DNL Product]**déjà créé pour le modifier ou le réviser, ou **supprimer un produit**de la liste :
+Dans _[!DNL Products]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Product]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer un produit**&#x200B;de la liste :
 
 - Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Products] pour réviser et réviser un produit existant.
 - Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Products] pour **Supprimer** un produit.
@@ -352,11 +366,11 @@ Dans _[!DNL Products]_page d’accueil, vous pouvez **ouvrir un[!DNL Product]**d
 
 >[!NOTE]
 >
->La fonctionnalité [!DNL Audiences] nécessite une intégration par l’équipe Adobe pour apparaître dans GenStudio. Si _[!DNL Audiences]_n’apparaît pas dans les paramètres du modèle, contactez votre représentant Adobe.
+>La fonctionnalité [!DNL Audiences] nécessite une intégration par l’équipe Adobe pour apparaître dans GenStudio. Si _[!DNL Audiences]_&#x200B;n’apparaît pas dans les paramètres du modèle, contactez votre représentant Adobe.
 
 [!DNL Audiences] fournir des segments de clients ciblés à partir d’Adobe Real-Time Customer Data Platform (RTCDP), en apportant des données de ciblage précises dans votre workflow de génération de contenu. GenStudio for Performance Marketing exploite les définitions d’audience pour vous aider à créer du contenu marketing personnalisé aligné sur des segments de clientèle spécifiques.
 
-[!DNL Audiences] s’affichent sous forme de liste déroulante dans le volet des paramètres, dans [le workflow _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ peut ajouter de la spécificité aux _[!DNL Personas]_lorsque les deux directives sont utilisées, mais peut également être utilisé efficacement de manière indépendante.
+[!DNL Audiences] s’affichent sous forme de liste déroulante dans le volet des paramètres, dans [le workflow _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ peut ajouter de la spécificité aux _[!DNL Personas]_&#x200B;lorsque les deux directives sont utilisées, mais peut également être utilisé efficacement de manière indépendante.
 
 Lors de l’intégration, les définitions d’audience sont importées et transformées dans un format compatible avec GenStudio. Ce processus prend généralement quelques jours. Contactez votre équipe Adobe pour le lancer.
 
@@ -364,11 +378,11 @@ Lors de l’intégration, les définitions d’audience sont importées et trans
 
 - Accès de l’organisation à Adobe Real-Time Customer Data Platform
 - Audiences existantes déjà configurées dans les sandbox RTCDP
-- L’intégration _[!DNL Audience]_nécessite un processus d’intégration manuel par l’équipe d’Adobe
+- L’intégration _[!DNL Audience]_&#x200B;nécessite un processus d’intégration manuel par l’équipe d’Adobe
 
 **Pour sélectionner une audience** :
 
-1. Dans [le workflow de _[!DNL Create]_](../create/overview.md#templates), sélectionnez un modèle, puis cliquez sur le bouton **[!UICONTROL Utiliser]**pour ouvrir le brouillon.
+1. Dans [le workflow de _[!DNL Create]_](../create/overview.md#templates), sélectionnez un modèle, puis cliquez sur le bouton **[!UICONTROL Utiliser]**&#x200B;pour ouvrir le brouillon.
 1. Dans la liste des paramètres, cliquez sur le menu déroulant _[!UICONTROL Audience]_ pour afficher toutes les audiences disponibles.
    ![Liste déroulante Audience dans le volet Paramètres de persona](./audience-dropdown.png){width=450}
 1. Sélectionnez une audience à affecter dans la liste. Le système suggère des audiences recommandées qui s’alignent sur les [!DNL Persona] sélectionnées, si un [!DNL Persona] est sélectionné.
