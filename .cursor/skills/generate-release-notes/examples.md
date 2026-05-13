@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Exemples de notes de mise à jour
 
-Modèles prêts pour le collage pour [](../../help/user-guide/release-notes.md). Faites correspondre la tonalité et la structure au fichier environnant.
+Modèles prêts pour le collage pour [&#128279;](../../help/user-guide/release-notes.md). Faites correspondre la tonalité et la structure au fichier environnant.
 
 ## Exemple de frontMATTER minimal (nouvelle page uniquement)
 
