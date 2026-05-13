@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
 source-wordcount: 4727
 ht-degree: 0%
@@ -103,7 +103,7 @@ Vous pouvez désormais créer des e-mails avec jusqu’à 10 pods/sections dans 
 
 ### Content Credentials pour l’authenticité des ressources
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 GenStudio for Performance Marketing prend désormais en charge Content Credentials, ce qui permet aux équipes d’appliquer et de conserver des métadonnées d’authenticité sur les ressources tout au long de leur création, révision et exportation. Les badges et détails d’identification apparaissent sur les workflows clés afin que les organisations puissent vérifier la provenance et conserver la confiance lors du partage de contenu.
 
@@ -136,7 +136,7 @@ Les marketeurs peuvent désormais permuter dynamiquement les logos dans les mod�
 
 ### Exportation de PDF pour les expériences
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 * Les marketeurs peuvent désormais [exporter des expériences au format PDF](/help/user-guide/content/manage-assets.md#export-experiences) à des fins de révision, d’approbation et d’archivage.
 
@@ -151,7 +151,7 @@ Les marketeurs peuvent désormais permuter dynamiquement les logos dans les mod�
 
 ### CPA par type d’action pour les campagnes Meta
 
-* Analysez le [coût par action (CPA) avec un suivi de conversion flexible](/help/user-guide/insights/ads.md) pour les campagnes publicitaires Meta.
+* Analysez le [coût par action (CPA) avec un suivi de conversion flexible](/help/user-guide/insights/published-experiences.md) pour les campagnes publicitaires Meta.
 * Au lieu d’une mesure fixe unique, effectuez votre choix parmi plusieurs types d’action, tels que des achats, des événements de type ajouter au panier, des prospects, des vues vidéo ou des conversions personnalisées, pour calculer et afficher les CPA des campagnes, annonces, ressources et attributs dans [!DNL Insights].
 
 ### Correctifs et améliorations
@@ -254,7 +254,7 @@ Explorez les détails dans [les conseils pour l’éditeur de code de modèle](/
 
 ### Nouveaux modèles de génération d’images Firefly pris en charge
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Adobe GenStudio for Performance Marketing prend désormais en charge la dernière suite Firefly Image Model 4, y compris deux variantes puissantes :
 
@@ -266,7 +266,7 @@ Consultez [Générer des ressources](/help/user-guide/create/generate-assets.md)
 
 ### Traduction d&#39;email prête à l&#39;emploi
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Adobe GenStudio for Performance Marketing propose désormais des fonctionnalités de traduction d’e-mail intégrées qui permettent aux spécialistes marketing de mettre à l’échelle efficacement leurs campagnes par e-mail à l’échelle mondiale. Cette fonctionnalité vous permet de prendre une expérience d’e-mail approuvée et de la traduire dans plusieurs langues cibles à l’aide des services de traduction Open AI d’Azure.
 
@@ -276,7 +276,7 @@ Adobe GenStudio for Performance Marketing propose désormais des fonctionnalité
 
 ### Filtre des ressources compatibles
 
-Un nouveau filtre dans le module [!DNL Insights] masque automatiquement les [ressources d’image et vidéo non prises en charge](/help/user-guide/insights/ads.md#ad-formats) des aperçus des publicités, éliminant ainsi l’encombrement visuel et les mosaïques endommagées. Cette amélioration garantit que les utilisateurs ne voient que les médias réellement disponibles et prêts à l’emploi, ce qui crée une expérience plus épurée et plus fiable. Le filtre fonctionne avec le filtre Annonces de compatibilité existant.
+Un nouveau filtre dans le module [!DNL Insights] masque automatiquement les [ressources d’image et vidéo non prises en charge](/help/user-guide/insights/published-experiences.md#ad-formats) des aperçus des publicités, éliminant ainsi l’encombrement visuel et les mosaïques endommagées. Cette amélioration garantit que les utilisateurs ne voient que les médias réellement disponibles et prêts à l’emploi, ce qui crée une expérience plus épurée et plus fiable. Le filtre fonctionne avec le filtre Annonces de compatibilité existant.
 
 ### Multi-Asset Activation for Meta
 
@@ -292,13 +292,13 @@ Ajoutez des libellés d’accessibilité (Aria-labels) aux images et aux liens c
 
 ### Génération de contenu non anglais
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Le nouveau menu déroulant Sélecteur de langue dans le tiroir de l’invite prend en charge la création de contenu multilingue, ce qui permet aux spécialistes du marketing régional de développer du contenu de marque pour leurs audiences locales. Cette fonctionnalité prend actuellement en charge 12 langues GA et 5 langues Beta. La liste des langues fournit un workflow défini et une directive de langue claire au LLM pour des sorties plus cohérentes.
 
 ### Sélection de modèle facultative pour les publicités Meta
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 La sélection de modèles est désormais facultative avec les publicités Meta, ce qui permet aux utilisateurs et aux utilisatrices de créer des publicités sans avoir besoin de texte et de logo en haut du média. Cette amélioration autorise d’autres types de médias, tels que les GIF animés et les vidéos, qui ne nécessitent pas de superpositions de texte ni d’emplacement du logo.
 
@@ -308,19 +308,19 @@ La sélection de modèles est désormais facultative avec les publicités Meta, 
 
 ### Modèles de démarrage disponibles
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) permettent de relancer le processus de création. Vous pouvez désormais effectuer une sélection à partir d’un modèle de démarrage d’annonce publicitaire Meta ou LinkedIn.
 
 ### Fonctionnalité Generative Expand AI
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Désormais, dans GenStudio for Performance Marketing [!DNL Create], vous pouvez utiliser les [fonctionnalités Generative Expand AI](/help/user-guide/create/manage-variants.md#use-generative-expand) pour étendre les dimensions des images et ajouter du contenu génératif pour adapter vos modèles d’annonce publicitaire dans des variantes de médias achetés.
 
 ### Ajout de vidéos aux publicités
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Avec le contenu de l’image, vous pouvez désormais ajouter des vidéos aux publicités [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) et [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos). Consultez les aperçus de lecture automatique des vidéos directement dans GenStudio for Performance Marketing au fur et à mesure que vous choisissez et ajoutez des vidéos à vos variantes.
 
@@ -374,13 +374,13 @@ Les marketeurs peuvent désormais [publier des expériences publicitaires](/help
 
 ### Création d’expériences LinkedIn
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Ajout de la prise en charge de la [&#x200B; création d’expériences LinkedIn &#x200B;](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Créer des expériences de bannière
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Ajout de la prise en charge de la [création d’expériences de bannière](/help/user-guide/create/create-banner-experience.md). Consultez l’onglet [Bannière](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
@@ -429,7 +429,7 @@ Vous pouvez désormais télécharger le tableau affichable à partir de n’impo
 
 ### Intégration à Adobe Workfront Proof
 
-{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
+[!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
 Le programme Beta d’intégration des épreuves GenStudio for Performance Marketing et Adobe Workfront est lancé ce mois-ci. Workfront Proof stimule le cycle de vie de la création et de l’activation de contenu avec des modèles d’approbation, des workflows en plusieurs étapes et des annotations. Les utilisateurs de GenStudio for Performance Marketing disposant de droits Workfront Proof peuvent utiliser les fonctionnalités avancées de Proof dans GenStudio for Performance Marketing pour examiner et commenter le contenu généré par GenStudio.
 

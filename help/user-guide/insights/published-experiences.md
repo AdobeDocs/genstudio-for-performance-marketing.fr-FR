@@ -1,6 +1,6 @@
 ---
-title: Publicités et emplacement publicitaire - Aperçu
-description: Consultez un aperçu de l’engagement des clients, du budget et des dépenses pour les publicités et les performances de placement publicitaire dans Adobe GenStudio for Performance Marketing.
+title: Détails des expériences publiées
+description: Consultez un aperçu de l’engagement des clients, du budget et des dépenses pour les expériences publiées et les performances des emplacements dans Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
@@ -24,45 +24,21 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
+source-git-commit: d61c45100a8ec4973e87948315f5500e023a29eb
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: 1320
 ht-degree: 1%
 
 ---
 
-# Présentation des balises et de l’emplacement des publicités
 
-La vue [!DNL Insights] _[!UICONTROL Balises des publicités]_ affiche une liste des publicités pour le compte publicitaire du canal connecté. Une _publicité_ est une ressource promotionnelle qui comprend du contenu visuel et interactif destiné à être distribué à une audience spécifique dans le cadre d’une campagne marketing.
+# Détails des expériences publiées {#ad-details}
 
-{{connect-insights}}
+Sélectionnez une expérience publiée et affichez les mesures de performances, les attributs de texte et les emplacements associés à chaque expérience. Les _[!UICONTROL détails sur les expériences publiées]_ incluent des mesures pour les `click-through rate`, `cost per action` et `spend` d’expérience, à savoir la part du budget consacrée à l’expérience. Comme les expériences peuvent avoir plusieurs emplacements, tels qu’un flux ou une bannière, vous pouvez voir une répartition des mêmes mesures pour chaque emplacement. Utilisez les flèches gauche et droite sous **[!UICONTROL Performances par emplacement]** pour parcourir les mesures d’emplacement.
 
-Le tableau _[!UICONTROL Balises publicitaires]_ est organisé à l’aide de [!UICONTROL Noms d’annonces]. Cliquez sur l’icône des paramètres (cog) au-dessus du côté droit du tableau pour activer/désactiver les colonnes visibles.
+![Détails des expériences publiées avec des mesures et des emplacements](/help/assets/insights-ad-details.png){zoomable="yes"}
 
-![Mesures de performances des informations sur les balises publicitaires](./ad-tags-tab.png)
-
-La vue galerie _[!UICONTROL Balises publicitaires]_ affiche un collage d’aperçus d’annonces publicitaires et une mesure, telle que le taux de clic publicitaire. Cliquez sur l’icône des paramètres (cog) située au-dessus du côté droit de la galerie pour ouvrir **[!UICONTROL Paramètres de la carte]** et activer l’une des trois mesures visibles :
-
-- Coût par action (CPA)
-- Taux de clic publicitaire (CTR)
-- CPC (coût par clic)
-- Dépenses
-
-{{filter-table}}
-
-## Détails de l’annonce
-
-Sélectionnez une publicité et affichez les mesures de performances, les attributs de texte et les emplacements associés à chaque publicité. La _[!UICONTROL page Détails de l’annonce publicitaire]_ comprend des mesures relatives à l’`click-through rate`, à la `cost per action` et à l’`spend` de l’annonce : pourcentage du budget consacré à l’annonce publicitaire. Comme les publicités peuvent avoir plusieurs emplacements, tels qu’un flux ou une bannière, vous pouvez voir une répartition des mêmes mesures pour chaque emplacement publicitaire. Utilisez les flèches gauche et droite sous **[!UICONTROL Performances par emplacement publicitaire]** pour parcourir les mesures d’emplacement.
-
-![Détails de l’annonce avec des mesures et des emplacements publicitaires](/help/assets/insights-ad-details.png){zoomable="yes"}
-
-### Ajouter des attributs
-
-Sous l’aperçu de l’annonce publicitaire se trouve une liste des attributs associés à l’annonce publicitaire.
-
-{{$include /help/_includes/generated-attributes.md}}
-
-### Formats publicitaires
+## Formats publicitaires
 
 Les formats d’annonces font référence aux différents éléments créatifs et mises en page utilisés pour s’aligner sur les objectifs de votre campagne, faire participer votre audience cible et suivre les mesures de performances.
 
@@ -76,7 +52,7 @@ Les formats d’annonces font référence aux différents éléments créatifs e
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Le canal média payant ne permet pas d’accéder à la récupération des ressources créatives, ce qui rend difficile la classification précise des types d’annonces. |
 | Innovid | S/O | Le canal média payant ne permet pas d’accéder à la récupération des ressources créatives, ce qui rend difficile la classification précise des types d’annonces. |
 
-### Ajouter des emplacements
+## Ajouter des emplacements
 
 Les emplacements publicitaires font référence aux emplacements ou plateformes spécifiques où vos annonces apparaissent dans une campagne. Ces emplacements déterminent comment et où votre audience interagit avec votre contenu. Les emplacements publicitaires élargissent la portée de l’audience, ce qui permet d’optimiser la visibilité, l’engagement et l’efficacité globale de la campagne.
 
@@ -124,4 +100,3 @@ Le tableau suivant fournit des définitions pour les mesures de performances des
 | **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans un seul emplacement publicitaire.<p>**Calcul** : montant total `spent` divisé par `clicks`<p>Cette mesure permet d’évaluer le rapport coût-efficacité de l’emplacement publicitaire pour la génération de clics. | Un CPC inférieur indique que l’emplacement publicitaire génère des clics à un coût inférieur, ce qui peut être bénéfique pour maximiser le retour sur investissement. |
 | **[!UICONTROL Dépenses]** | Montant dépensé pour un emplacement publicitaire unique, représentant une fraction du montant total dépensé pour l’ensemble de l’annonce. Cette mesure permet de suivre l’efficacité de l’affectation budgétaire et des dépenses pour chaque emplacement publicitaire. | Le suivi des dépenses peut permettre de s’assurer que les ressources sont utilisées efficacement à différents emplacements. |
 | **Attributs** | Liste des fonctionnalités inhérentes présentes dans cet emplacement publicitaire. | Les attributs permettent d’identifier les éléments créatifs qui interagissent le plus avec votre audience. Voir [Catégories](/help/user-guide/insights/attributes.md#categories). |
-

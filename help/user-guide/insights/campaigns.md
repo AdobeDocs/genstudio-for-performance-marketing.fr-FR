@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -41,7 +41,7 @@ Le tableau _[!UICONTROL Campagnes]_ est organisé à l’aide de la campagne pub
 
 ![Filtre et tableau des campagnes](/help/assets/insights-campaigns-filter.png){zoomable="yes"}
 
-Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Publicités] &#x200B;](ads.md) s’ouvre dans une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les annonces qui ont contribué à son succès global.
+Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Publicités] &#x200B;](published-experiences.md) s’ouvre dans une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les annonces qui ont contribué à son succès global.
 
 {{filter-table}}
 
@@ -66,12 +66,12 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 
 | Mesure | Définition | Insight |
 | ----------- | ----------------------------- | -------------------------------- |
-| **[!UICONTROL Nom de la campagne Meta]** | Liste des noms de campagne pour le compte de canal connecté. Le statut de la campagne peut être `Active`, `Paused`, `Deleted` ou `Archived`. Filtrez les campagnes par statut et objectif. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
+| **[!UICONTROL Nom de la campagne]** | Liste des noms de campagne pour le compte de canal connecté. Le statut de la campagne peut être `Active`, `Paused`, `Deleted` ou `Archived`. Filtrez les campagnes par statut et objectif. | Triez le tableau en cliquant sur l’en-tête de colonne de l’une des mesures clés. |
 | **[!UICONTROL Launch]** | Date à laquelle la campagne a été publiée ou publiée sur le marché. | Un nombre élevé d’impressions peut indiquer que la publicité atteint l’audience prévue. |
 | **[!UICONTROL Impressions]** | Décompte de chaque chargement de contenu dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue. Toutefois, pour des performances réelles, insight doit être considéré avec d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs et utilisatrices interagissent avec un élément cliquable, tel qu’un lien ou un bouton call-to-action, dans la campagne publicitaire. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics &#x200B;]**<br>_CTR_ | Pourcentage (%) des impressions qui ont généré des clics de campagne dans un canal.<br>**Calcul** : (`clicks` divisé par `impressions`) x 100 = % | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions d’annonce publicitaire pour la campagne publicitaire. <br>**Calcul** : (montant total `spent` divisé par `impressions`) x 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
+| **&#x200B;**<br>_Coût par millier_ | Coût pour chaque millier d’impressions d’annonce publicitaire pour la campagne publicitaire. <br>**Calcul** : (montant total `spent` divisé par `impressions`) x 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
 | **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic dans une campagne publicitaire.<br>**Calcul** : montant total `spent` divisé par `clicks` = $ | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Lectures vidéo]** | Nombre de lectures d’une vidéo dans une campagne publicitaire, à l’exclusion des relectures. La lecture d’une vidéo démarre lorsqu’un utilisateur clique sur Lecture ou que la vidéo est lue automatiquement. | Un nombre élevé de lectures vidéo peut indiquer que la vidéo attire l’attention et que la miniature, le titre ou l’emplacement attire effectivement les visionneuses. |
 | **[!UICONTROL Budget]** | Montant total alloué à une campagne publicitaire pour atteindre les objectifs de la campagne. | Un budget élevé signifie davantage de ressources pour une portée plus large et un impact potentiellement plus important. |

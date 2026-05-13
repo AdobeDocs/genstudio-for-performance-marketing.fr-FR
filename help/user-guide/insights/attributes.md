@@ -24,7 +24,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
 source-wordcount: 812
 ht-degree: 0%
@@ -45,7 +45,7 @@ Le tableau _[!UICONTROL Attributs]_ est organisé à l’aide du nom [!UICONTROL
 
 ## Détails des attributs
 
-Les attributs permettent d’identifier les [annonces](ads.md#ad-details) et [médias](media.md#media-details) en fonction de leurs détails inhérents, tels que la couleur, la composition, les éléments visuels et d’autres propriétés.
+Les attributs permettent d’identifier les [annonces](published-experiences.md#ad-details) et [médias](media.md#media-details) en fonction de leurs détails inhérents, tels que la couleur, la composition, les éléments visuels et d’autres propriétés.
 
 Dans la vue des détails de l’attribut, vous pouvez voir quelles publicités utilisent l’attribut sélectionné. Les détails incluent les performances totales des attributs et une répartition des mesures de performances liées à chaque publicité.
 
@@ -82,7 +82,7 @@ Le tableau suivant fournit des définitions et des informations sur les principa
 | **[!UICONTROL Impressions]** | Nombre de fois qu’une image ou des vidéos avec cet attribut sont chargées dans le canal, quelle que soit l’interaction ou l’affichage. | Un nombre d’impressions élevé peut indiquer une visibilité étendue, mais pour des performances réelles d’insight, considérez-le par rapport à d’autres mesures d’engagement. |
 | **[!UICONTROL Clics]** | Nombre de fois où les utilisateurs interagissent avec une image ou une vidéo avec cet attribut. | Un nombre élevé de clics indique un intérêt et un engagement forts envers le contenu, qui peuvent être efficaces et atteindre la bonne audience. |
 | **[!UICONTROL Taux de clics &#x200B;]**<br>_CTR_ | Pourcentage (%) d’impressions qui ont généré des clics sur les images ou les vidéos avec cet attribut.<br>**Calcul** : `clicks` divisé par `impressions` | Un taux de clic publicitaire élevé indique que le contenu est très pertinent et motivant pour le public dans la messagerie et la conception, et qu’il cible efficacement les intérêts du public. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Coût par millier_ | Coût pour chaque millier d’impressions publicitaires d’une image ou d’une vidéo avec cet attribut.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
+| **&#x200B;**<br>_Coût par millier_ | Coût pour chaque millier d’impressions publicitaires d’une image ou d’une vidéo avec cet attribut.<br>**Calcul** : montant total `spent` divisé par la portée, puis multiplié par 1 000 | Une valeur faible peut indiquer une visibilité rentable, en particulier lorsqu’elle est associée à un taux de clic publicitaire élevé. |
 | **[!UICONTROL Coût &#x200B;]**<br>_CPA par action_ | Coût moyen dépensé pour réaliser une action spécifique du client, telle qu&#39;un achat ou un abonnement.<br>**Calcul** : montant total `spent` divisé par le nombre d&#39;actions du client effectuées | Permet d’identifier les attributs qui entraînent des actions client importantes. |
 | **[!UICONTROL CPC &#x200B;]**<br>_Coût par clic_ | Coût moyen associé à chaque clic sur les images ou les vidéos avec cet attribut.<br>**Calcul** : montant total `spent` divisé par `clicks` | Une baisse des coûts moyens peut indiquer un bon rapport coût/efficacité des dépenses publicitaires, surtout si on les compare à une augmentation des conversions. |
 | **[!UICONTROL Dépenses]** | Montant dépensé à partir du budget en ce qui concerne les attributs sur une période donnée. | Un montant de dépenses élevé sur une courte période peut indiquer une utilisation rapide, ce qui pourrait conduire à un épuisement précoce des ressources. Effectuez le suivi des montants dépensés par rapport aux mesures de rendement clés pour vous aider à surveiller le rendement global du capital investi. |

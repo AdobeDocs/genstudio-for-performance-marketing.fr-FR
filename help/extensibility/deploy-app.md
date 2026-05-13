@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
+source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 622
 ht-degree: 0%
 
 ---
@@ -91,6 +91,7 @@ Les nouvelles extensions se trouvent à différents emplacements dans l’interf
 * [Extension de la gestion des ressources numériques (DAM)](#find-dam-extensions)
 * [Extension de modèle](#find-template-extensions)
 * [Extension de traduction](#find-translation-extensions)
+* [Extension de fragment de contenu](#find-content-fragment-extension)
 
 ### Rechercher des extensions d&#39;invite
 
@@ -128,7 +129,6 @@ Les extensions de modèle se trouvent dans l’onglet **Application de modèle e
 
 ![Extensions de modèle](./template-ext.png){width="600" zoomable="yes"}
 
-
 ### Rechercher des extensions de traduction
 
 Utilisez les points d’extension de traduction pour amener votre propre service de traduction via un proxy au lieu d’utiliser la traduction par défaut de GenStudio.
@@ -136,7 +136,21 @@ Il n’existe aucun emplacement d’interface utilisateur pour ces extensions.
 
 Si l’extension est enregistrée, le service de traduction fourni est utilisé. Sinon, le service de traduction GenStudio par défaut est utilisé.
 
+### Rechercher l’extension de fragment de contenu
 
+L’extension Fragment de contenu dans [!DNL GenStudio for Performance Marketing] remplace le texte dans les expériences d’e-mail générées sur la zone de travail de [!DNL Create] par des entrées d’un référentiel tiers connecté (3P). Après avoir configuré et déployé l’extension, vous permutez la copie de la zone de travail sans quitter votre workflow.
+
+>[!NOTE]
+>
+>La permutation d’extension de fragment de contenu est aujourd’hui disponible pour les expériences **e-mail** sur la zone de travail. La prise en charge du canal **Horizon** sera bientôt disponible.
+
+**Pour permuter du texte à l’aide de l’extension de fragment de contenu** :
+
+1. Sur la zone de travail, cliquez sur un champ de texte modifiable dans une variante d’e-mail générée.
+1. Cliquez sur **[!UICONTROL Permuter]**.
+   ![Permuter le texte](./subject-line-swap.png){width="400" zoomable="yes"}
+1. Sélectionnez votre référentiel tiers. Votre organisation contrôle les référentiels qui s’affichent et le comportement de l’interface utilisateur du référentiel.
+1. Sélectionnez la réclamation à utiliser comme texte de remplacement pour le champ.
 
 Si vous êtes satisfait de votre module complémentaire, vous êtes prêt à le distribuer sans le paramètre `query` .
 

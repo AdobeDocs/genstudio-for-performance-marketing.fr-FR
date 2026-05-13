@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d3d3bd0d0790ecfe5a9c0e796b74fcf97672f1d2
+source-git-commit: 96438790ee2d211cee8ab076b13f8d404b0a2700
 workflow-type: tm+mt
-source-wordcount: 959
+source-wordcount: 1002
 ht-degree: 0%
 
 ---
@@ -96,6 +96,10 @@ Chaque vue affiche un tableau correspondant que vous pouvez rechercher par mot-c
 
 La vue [[!DNL Insights] _[!UICONTROL Campagnes &#x200B;]_](campaigns.md) est la vue par défaut et affiche une liste des détails des campagnes actives, tels que les objectifs, le budget, la date de lancement et l’activité. Veillez à [connecter un compte de canal](/help/user-guide/connectors/connect-channel.md) afin que GenStudio for Performance Marketing commence à recevoir vos données statistiques.
 
+### Expériences publiées
+
+La vue [[!DNL Insights] _[!UICONTROL Détails des expériences publiées &#x200B;]_](published-experiences.md) se concentre sur l’évaluation de l’efficacité d’une expérience. La vue [!UICONTROL Expériences publiées] vous permet d’analyser les mesures d’une expérience en fonction de son emplacement au cours d’une période spécifiée. En cliquant sur un&#x200B;_[!UICONTROL &#x200B; nom de l’expérience &#x200B;]_, vous pouvez afficher les mesures de performances de l’expérience, les performances par emplacement et les attributs.
+
 ### Média
 
 La vue [[!DNL Insights] _[!UICONTROL Média &#x200B;]_](media.md) est conçue pour vous aider à analyser les performances du contenu créatif. Vous pouvez identifier les attributs de média qui contribuent à améliorer une mesure sélectionnée, tels que les clics ou les impressions.
@@ -114,4 +118,4 @@ La vue [[!DNL Insights] _[!UICONTROL Attributs &#x200B;]_](attributes.md) peut v
 
 ### Balises publicitaires
 
-La vue [[!DNL Insights] _[!UICONTROL Publicités &#x200B;]_](ads.md) se concentre sur l’évaluation de l’efficacité d’une publicité. La vue [!UICONTROL Publicités] vous permet d’analyser les mesures d’une publicité en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur un&#x200B;_[!UICONTROL &#x200B; Nom de l’annonce &#x200B;]_, vous pouvez afficher les mesures de performances des annonces, les performances par emplacement d’annonce et les attributs.
+La vue [[!DNL Insights] _[!UICONTROL Balises des publicités &#x200B;]_](ad-tags.md) affiche une liste de publicités pour le compte publicitaire du canal connecté. Une_ publicité&#x200B;_est une ressource promotionnelle qui comprend du contenu visuel et interactif destiné à être distribué à une audience spécifique dans le cadre d’une campagne marketing.
