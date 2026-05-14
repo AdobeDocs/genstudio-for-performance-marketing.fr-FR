@@ -5,10 +5,10 @@ user-guide-description: Découvrez les fonctionnalités du cadre d’extensibili
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
-source-git-commit: 566c951706642fd5cde0ce584a5248489e76e917
+source-git-commit: 8caee588140b91f81a8c77f7da4b930674f46865
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 53%
+source-wordcount: '73'
+ht-degree: 47%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 53%
 + Extensions propriétaires {#first-party}
    + [Journey Optimizer pour GenStudio](journey-optimizer-for-genstudio.md)
    + [Marketo pour GenStudio](marketo-for-genstudio.md)
++ Extensions 3P {#third-party-extensions}
+   + [Sélecteur d’expérience MFE dans Salesforce](experience-selector-salesforce.md)
 
 <!--
   + UI Extensions {#ui}
