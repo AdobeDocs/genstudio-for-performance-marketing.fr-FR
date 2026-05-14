@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Cette rubrique explique comment les clients et les personnes responsables de l’implémentation peuvent déployer et exécuter le micro front-end (MFE) du sélecteur d’expérience [!DNL GenStudio for Performance Marketing] dans une organisation Salesforce. Elle couvre les étapes d’administration (pas de code), les étapes de développement (déploiement et configuration) et les paramètres liés à la sécurité tels que la politique de sécurité du contenu (CSP).
 
-Pour obtenir des options d’intégration MFE génériques, des propriétés de configuration et des exemples de framework, consultez [MFE du sélecteur d’expérience ](experience-selector.md).
+Pour obtenir des options d’intégration MFE génériques, des propriétés de configuration et des exemples de framework, consultez [MFE du sélecteur d’expérience &#x200B;](experience-selector.md).
 
 ## Fonctionnement de cette intégration
 
@@ -38,7 +38,7 @@ L’intégration peut également :
 
 * **Autorisations :** les utilisateurs qui créent des modèles d’e-mail doivent avoir accès au dossier du modèle d’e-mail cible et disposer des droits pour créer des modèles en fonction des politiques de votre organisation. Apex s&#39;exécute `with sharing`.
 * **Adobe/GenStudio :** votre identifiant d’organisation Adobe IMS et votre `clientId` SUSI doivent correspondre à votre configuration Adobe (voir [Configurer les valeurs d’intégration](#configure-integration-values-developer--implementation)).
-* **Navigateur/CSP :** Salesforce doit autoriser le chargement de scripts depuis `https://experience.adobe.com` (voir [ Configurer la politique de sécurité du contenu et l’URL d’Adobe](#configure-content-security-policy-and-adobe-url)).
+* **Navigateur/CSP :** Salesforce doit autoriser le chargement de scripts depuis `https://experience.adobe.com` (voir [&#x200B; Configurer la politique de sécurité du contenu et l’URL d’Adobe](#configure-content-security-policy-and-adobe-url)).
 
 ## Déployer le package (développeur)
 
