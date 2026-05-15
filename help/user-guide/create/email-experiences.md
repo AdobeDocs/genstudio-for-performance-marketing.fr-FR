@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
+source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 580
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Après avoir généré un ensemble de variantes d’e-mail, vous pouvez voir le 
 >
 >La permutation de fragment de contenu est disponible aujourd’hui pour les expériences **e-mail** sur la zone de travail. La prise en charge du canal **Horizon** sera bientôt disponible.
 
-Le contenu des e-mails d’entreprise nécessite souvent à la fois une copie nouvellement générée et des blocs modulaires approuvés (tels que des clauses de non-responsabilité, un langage de sécurité, des offres et des revendications réglementées) ainsi que du contenu que vous façonnez pour les modèles. Les équipes qui stockent du contenu modulaire dans [!DNL Adobe Experience Manager], [!DNL Marketo Engage], [!DNL Adobe Journey Optimizer] et [!DNL Adobe Campaign] peuvent rechercher et échanger ce contenu pour l’utiliser dans les expériences d’e-mail sans quitter [!DNL GenStudio for Performance Marketing]. Cela peut s’avérer utile pour :
+Le contenu des e-mails d’entreprise nécessite souvent à la fois une copie nouvellement générée et des blocs modulaires approuvés (tels que des clauses de non-responsabilité, un langage de sécurité, des offres et des revendications réglementées) ainsi que du contenu que vous façonnez pour les modèles. Les équipes qui stockent du contenu modulaire dans [!DNL Adobe Experience Manager] peuvent rechercher et échanger ce contenu afin de l’utiliser dans les expériences d’e-mail sans quitter [!DNL GenStudio for Performance Marketing]. Cela peut s’avérer utile pour :
 
 * **Contenu compatible avec la conformité :** IA peut remplir des emplacements créatifs tandis que des fragments approuvés par les spécialistes de la conformité remplacent des emplacements injectables ; les zones légales verrouillées restent inchangées grâce à l’exportation.
 * **Composants de contenu approuvés réutilisables :** les titres approuvés, les clauses de non-responsabilité régionales ou les descriptions de produits peuvent rester le système d’enregistrement dans les [!DNL Adobe Experience Manager] pendant que les auteurs les extraient dans des variantes sans contournement par copier-coller.
