@@ -1,6 +1,6 @@
 ---
 title: Expériences e-mail
-description: Découvrez les expériences de messagerie dans Adobe GenStudio for Performance Marketing.
+description: Découvrez les expériences e-mail dans Adobe GenStudio for Performance Marketing, notamment le comportement de la zone de travail et le remplacement des fragments de contenu des bibliothèques approuvées.
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
 workflow-type: tm+mt
-source-wordcount: 309
+source-wordcount: 581
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 ## Emails à plusieurs sections
 
-Les expériences d’e-mail peuvent comporter plusieurs sections, ce qui permet une personnalisation complète pour s’aligner sur votre marque et vos objectifs. [Sélectionnez et  [!DNL Products]  ressources visuelles pour chaque section](/help/user-guide/create/create-email-experience.md#add-parameters) et utilisez [des invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour créer du contenu unique. Chaque section prend en charge une ressource visuelle.
+Les expériences d’e-mail peuvent comporter plusieurs sections, ce qui permet une personnalisation complète pour s’aligner sur votre marque et vos objectifs. [Sélectionnez [!DNL Products] et les ressources visuelles pour chaque section](/help/user-guide/create/create-email-experience.md#add-parameters) et utilisez [des invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pour créer du contenu unique. Chaque section prend en charge une ressource visuelle.
 
 Voir [Personnalisation de modèles avec des sections](/help/user-guide/templates/customize-template.md#sections-or-groups) pour savoir comment créer un modèle à plusieurs sections.
 
@@ -81,3 +81,30 @@ Chaque champ et section des expériences d’e-mail est progressivement chargé 
 Après avoir généré un ensemble de variantes d’e-mail, vous pouvez voir le nombre de caractères affiché pour chaque section. Pointez ou cliquez sur une section générée, telle que l’objet ou le corps, et consultez le nom de la section et le nombre de caractères correspondants.
 
 ![&#x200B; Nombre de caractères &#x200B;](/help/assets/character-count.png){width="500" zoomable="yes"}
+
+## Permutation de fragment de contenu {#content-fragment-swap}
+
+>[!NOTE]
+>
+>La permutation de fragment de contenu est disponible aujourd’hui pour les expériences **e-mail** sur la zone de travail. La prise en charge du canal **Horizon** sera bientôt disponible.
+
+Le contenu des e-mails d’entreprise nécessite souvent à la fois une copie nouvellement générée et des blocs modulaires approuvés (tels que des clauses de non-responsabilité, un langage de sécurité, des offres et des revendications réglementées) ainsi que du contenu que vous façonnez pour les modèles. Les équipes qui stockent du contenu modulaire dans [!DNL Adobe Experience Manager], [!DNL Marketo Engage], [!DNL Adobe Journey Optimizer] et [!DNL Adobe Campaign] peuvent rechercher et échanger ce contenu pour l’utiliser dans les expériences d’e-mail sans quitter [!DNL GenStudio for Performance Marketing]. Cela peut s’avérer utile pour :
+
+* **Contenu compatible avec la conformité :** IA peut remplir des emplacements créatifs tandis que des fragments approuvés par les spécialistes de la conformité remplacent des emplacements injectables ; les zones légales verrouillées restent inchangées grâce à l’exportation.
+* **Composants de contenu approuvés réutilisables :** les titres approuvés, les clauses de non-responsabilité régionales ou les descriptions de produits peuvent rester le système d’enregistrement dans les [!DNL Adobe Experience Manager] pendant que les auteurs les extraient dans des variantes sans contournement par copier-coller.
+
+Les créateurs assemblent les expériences sur la zone de travail ; les équipes de marque et de conformité conservent les workflows d’approbation en [!DNL Adobe Experience Manager] ; les équipes informatiques et d’intégration connectent les référentiels et les autorisations dont votre entreprise a besoin.
+
+![Permutation de fragment de contenu](./cf-swap.png){width="500" zoomable="yes"}
+
+Lorsque votre entreprise active la permutation de fragments de contenu, vous pouvez vous attendre à :
+
+* Les champs de fragment de contenu peuvent être renseignés à partir d’une bibliothèque de contenu connectée au lieu d’une saisie manuelle ou d’une génération d’IA seule.
+* Parcourez, recherchez et filtrez des fragments à l’aide de métadonnées telles que la campagne, le persona, le canal, la langue et la marque.
+* Un sélecteur de référentiel est disponible lorsque plusieurs référentiels sont configurés.
+* Aperçu d’un fragment avant qu’il ne remplace le texte du champ.
+* Propagation d’une sélection de fragment à travers toutes les variantes en une seule action.
+
+![Volet UI des fragments de contenu](./cf-pane.png){width="500" zoomable="yes"}
+
+Votre entreprise choisit les sources de fragments de contenu et les référentiels disponibles. Voir [Rechercher l’extension de fragment de contenu](/help/extensibility/deploy-app.md#find-content-fragment-extension) pour savoir comment les administrateurs configurent les sources et comment les auteurs permutent la copie de la zone de travail avec **[!UICONTROL permuter]**.

@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: 1132
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 * **Pour [modifier le nom du brouillon d’e-mail](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez sur le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement un e-mail](/help/user-guide/create/manage-variants.md#manually-edit-text)**, cliquez dans l’un des champs de texte modifiables (comme l’objet, l’en-tête ou la copie du corps) et modifiez-le si nécessaire
+* **Pour utiliser les [fragments de contenu approuvés dans des variantes d’e-mail](/help/user-guide/create/email-experiences.md#content-fragment-swap)**, découvrez comment [!DNL GenStudio for Performance Marketing] combine des champs génératifs, des champs de fragment de contenu injectables et des champs verrouillés sur une seule zone de travail. Les administrateurs configurent les sources de fragment comme décrit dans la section [Rechercher l’extension de fragment de contenu](/help/extensibility/deploy-app.md#find-content-fragment-extension).
 * **Pour [modifier ou sélectionner le Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, cliquez sur le bouton call-to-action et sélectionnez _[!UICONTROL Reformuler]_ ou _[!UICONTROL Ajouter un lien]_.
 * **Pour [appliquer une mise en forme de texte](/help/user-guide/create/manage-variants.md#manually-edit-text)** dans une variante, cliquez sur le texte sur l’image d’une variante et cliquez sur **[!UICONTROL Mettre en forme le texte]**.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
