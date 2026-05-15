@@ -4,9 +4,9 @@ description: Découvrez les fonctionnalités de GenStudio for Performance Market
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
+source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 [!DNL GenStudio for Performance Marketing] pouvez utiliser des modèles qui ont été créés et conçus dans [!DNL Adobe Express]. Obtenez des ressources de marque de [!DNL Adobe Express] et utilisez ces puissants outils pour les intégrer dans des campagnes et des [!DNL Experiences] marketing attrayantes.
 
-Ce guide explique les exigences et les fonctionnalités relatives aux modèles de [!DNL Adobe Express].
+Ce guide explique les exigences et les fonctionnalités relatives aux modèles de [!DNL Adobe Express]. Pour obtenir d’autres conseils et bonnes pratiques, voir [Bonnes pratiques relatives à l’utilisation des modèles](/help/user-guide/templates/best-practices-for-templates.md#express-to-genstudio-template-best-practices).
 
 ## À propos des modèles dans [!DNL Adobe Express]
 
-Dans [!DNL Adobe Express], les [nouveaux documents peuvent être créés à l’aide de modèles de démarrage existants](https://helpx.adobe.com/fr/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) fournis dans l’application, ou avec des modèles [personnalisés pouvant inclure des restrictions utiles de la marque](https://helpx.adobe.com/fr/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) tels que :
+Dans [!DNL Adobe Express], les [nouveaux documents peuvent être créés à l’aide de modèles de démarrage existants](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) fournis dans l’application, ou avec des modèles [personnalisés pouvant inclure des restrictions utiles de la marque](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) tels que :
 
-- [Éléments verrouillés](https://helpx.adobe.com/fr/express/web/invite-collaborate/object-locking.html) non modifiables
+- [Éléments verrouillés](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) non modifiables
 - Restrictions de verrouillage qui contrôlent la manière dont les utilisateurs peuvent déverrouiller des éléments si nécessaire
 
-Les paramètres de verrouillage qui ont été définis sur le modèle dans [!DNL Adobe Express] seront également appliqués dans [!DNL GenStudio for Performance Marketing]. Utilisez [les [!DNL Adobe Express] instructions pour créer un modèle personnalisé avec des restrictions de marque](https://helpx.adobe.com/fr/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
+Les paramètres de verrouillage qui ont été définis sur le modèle dans [!DNL Adobe Express] seront également appliqués dans [!DNL GenStudio for Performance Marketing]. Utilisez [les [!DNL Adobe Express] instructions pour créer un modèle personnalisé avec des restrictions de marque](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
 
 Pour utiliser des polices personnalisées dans un modèle Express, les administrateurs doivent d’abord accepter l’offre de qualification des polices personnalisées dans l’Admin Console, qui est incluse dans les droits de licence Express.
 
@@ -53,15 +53,15 @@ Lorsque vous sélectionnez un modèle de [!DNL Express] et cliquez sur **[!UICON
 
 >[!IMPORTANT]
 >
->Pendant la génération du contenu, les calques de modèle Express seront automatiquement balisés avec des rôles de champ pour [!DNL GenStudio for Performance Marketing]. Les éléments d’un modèle peuvent également être [&#x200B; balisés manuellement &#x200B;](#manual-tagging-of-templates).
+>Pendant la génération du contenu, les calques de modèle Express seront automatiquement balisés avec des rôles de champ pour [!DNL GenStudio for Performance Marketing]. Les éléments d’un modèle peuvent également être [ balisés manuellement ](#manual-tagging-of-templates).
 
 ## À propos des variantes et des [!DNL Experiences] avec des modèles de [!DNL Adobe Express]
 
-[!DNL Express] modèles offrent de nombreuses fonctionnalités que vous connaîtrez bien lorsque vous [gérez d’autres variantes](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Cependant, il existe quelques ajouts puissants pour rationaliser tout workflow de contenu à partir de [!DNL Express]. Cette section décrit les fonctionnalités exclusives à l’implémentation [!DNL Adobe Express].
+[!DNL Express] modèles offrent de nombreuses fonctionnalités que vous connaîtrez bien lorsque vous [gérez d’autres variantes](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Cependant, il existe quelques ajouts puissants pour rationaliser tout workflow de contenu à partir de [!DNL Express]. Cette section décrit les fonctionnalités exclusives à l’implémentation [!DNL Adobe Express].
 
 ### Génération automatique de plusieurs tailles
 
-Lorsque [plusieurs pages ont été créées pour une ressource dans [!DNL Express]](https://helpx.adobe.com/fr/express/web/arrange-layers-and-pages/add-pages.html), ces pages sont transférées vers tout modèle créé à partir de cette ressource. Les pages Express sont générées chacune en tant que tailles différentes du contenu créatif en [!DNL GenStudio for Performance Marketing].
+Lorsque [plusieurs pages ont été créées pour une ressource dans [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html), ces pages sont transférées vers tout modèle créé à partir de cette ressource. Les pages Express sont générées chacune en tant que tailles différentes du contenu créatif en [!DNL GenStudio for Performance Marketing].
 
 Lorsqu’il existe un contenu à plusieurs tailles pour une ressource dans [!DNL Express], des variantes peuvent être générées pour toutes ces tailles en une seule génération.
 
@@ -192,7 +192,7 @@ Les options de balisage varient en fonction du type d’élément.
 
 ### Restrictions de verrouillage des modèles
 
-Les modèles peuvent inclure des [éléments verrouillés](https://helpx.adobe.com/fr/express/web/invite-collaborate/object-locking.html) qui transfèrent des [!DNL Express] et contrôlent la manière dont certaines fonctionnalités peuvent être modifiées. Ces paramètres sont respectés par le modèle et peuvent également être modifiés sur le modèle :
+Les modèles peuvent inclure des [éléments verrouillés](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) qui transfèrent des [!DNL Express] et contrôlent la manière dont certaines fonctionnalités peuvent être modifiées. Ces paramètres sont respectés par le modèle et peuvent également être modifiés sur le modèle :
 
 1. Sélectionnez un élément verrouillé sur le modèle.
 1. Cliquez sur l’icône de verrouillage en haut à gauche de l’élément sélectionné.
@@ -238,9 +238,9 @@ Les limites des calques d’image peuvent être étendues avec l’IA pour s’a
 
 Utilisez le panneau _Vérification de contenu_ pour conserver une identité de marque cohérente, les normes d’accessibilité ADA, les directives de la plateforme et l’alignement des variantes.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
 
 ## Vérifier et approuver
 
-Après avoir modifié et ajusté vos variantes, approuvez et publiez votre contenu avec [le workflow Révisions et approbation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+Après avoir modifié et ajusté vos variantes, approuvez et publiez votre contenu avec [le workflow Révisions et approbation](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
 
