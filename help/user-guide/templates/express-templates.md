@@ -53,7 +53,7 @@ Lorsque vous sélectionnez un modèle de [!DNL Express] et cliquez sur **[!UICON
 
 >[!IMPORTANT]
 >
->Pendant la génération du contenu, les calques de modèle Express seront automatiquement balisés avec des rôles de champ pour [!DNL GenStudio for Performance Marketing]. Les éléments d’un modèle peuvent également être [ balisés manuellement ](#manual-tagging-of-templates).
+>Pendant la génération du contenu, les calques de modèle Express seront automatiquement balisés avec des rôles de champ pour [!DNL GenStudio for Performance Marketing]. Les éléments d’un modèle peuvent également être [&#x200B; balisés manuellement &#x200B;](#manual-tagging-of-templates).
 
 ## À propos des variantes et des [!DNL Experiences] avec des modèles de [!DNL Adobe Express]
 
@@ -238,7 +238,7 @@ Les limites des calques d’image peuvent être étendues avec l’IA pour s’a
 
 Utilisez le panneau _Vérification de contenu_ pour conserver une identité de marque cohérente, les normes d’accessibilité ADA, les directives de la plateforme et l’alignement des variantes.
 
-Voir [ Validation de la marque ](/help/user-guide/guidelines/brand-validation.md).
+Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
 
 ## Vérifier et approuver
 
