@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+source-git-commit: d8bce70c1e5cd80df2a8b6789de6ee3acda4b643
 workflow-type: tm+mt
-source-wordcount: 4727
+source-wordcount: 4991
 ht-degree: 0%
 
 ---
@@ -50,7 +50,35 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2026.04.16 {#latest}
+## 2026.05.15 {#latest}
+
+### Édition collaborative sur la zone de travail Horizon
+
+Les brouillons de médias payants sur la toile Horizon ne sont plus un exercice solo. Les propriétaires peuvent désormais inviter des collaborateurs par e-mail avec des rôles **[!UICONTROL Éditeur]** ou **[!UICONTROL Visionneuse]**, de sorte que tout le monde travaille à partir du même brouillon actif au lieu de rebondir sur les exportations entre les outils.
+
+À l’aide du bouton [!UICONTROL Partager] dans la zone de travail, les éditeurs voient les mises à jour des plans de travail et des champs (y compris les titres, les appels à l’action et les descriptions) arriver en temps réel.
+
+### Actualisation de la disposition de la carte sur la page [!DNL Create] [!DNL Content]
+
+Le point d’entrée [!DNL Create] à l’intérieur de [!DNL Content] débute une mise en page de carte actualisée.
+
+### Les fragments de contenu AEM permutent les expériences d’e-mail dans la zone de travail HTML
+
+[Expériences d’e-mail](/help/user-guide/create/email-experiences.md) sur la zone de travail d’HTML, vous pouvez désormais échanger du contenu avec des **fragments de contenu AEM** préapprouvés pour le contenu modulaire prédéfini. Il n’est pas possible de le coller à partir des canaux latéraux.
+
+Fiez-vous aux fragments de votre organisation déjà publiés dans AEM sans quitter GenStudio for Performance Marketing.
+
+### Ajouter des [!DNL Brands], des [!DNL Products] et des [!DNL Personas] à partir d’une URL
+
+[!DNL GenStudio for Performance Marketing] ingère les signaux **[!DNL Brand]**, **[!DNL Product]** et **[!DNL Persona]** publiés directement à partir d’une URL, réduisant ainsi les heures de saisie manuelle tout en conservant les sorties basées sur ce que la marque publie réellement en ligne. [L’ajout de directives à partir d’une URL publique](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url) reflète enfin la manière dont les professionnels du marketing consultent le web avant d’ouvrir un brief.
+
+Les directives sur les marques arrivent en un seul passage, tandis que les produits et les personnes partent d’une courte liste intelligente afin que vous puissiez traiter ce qui appartient avant que le système n’enrichisse les enregistrements. La découverte assistée par IA reste délibérément conservatrice lorsqu’un site est mince ou fermé, ce qui protège les équipes réglementées sans bloquer l’élan.
+
+Les entreprises qui nécessitent un **[!UICONTROL Brand Manager]** ou une version ultérieure appliquent toujours automatiquement ces mécanismes de sécurisation. Les domaines de marque accessibles au public continuent de bénéficier des conseils les plus riches lorsque vous adaptez des programmes à plusieurs régions ou portefeuilles.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2026.04.16
 
 ### Recommandations contextuelles dans [!DNL Create]
 
@@ -68,7 +96,7 @@ Vous pouvez assembler des scènes, utiliser l’aide de l’IA générative lors
 
 Vous pouvez **charger un fichier zip HTML5 basé sur DOM pour développer un modèle d’affichage** en [!DNL Create], produire des variations d’annonces HTML5 et redimensionner les proportions de contenu créatif en proportions supplémentaires. Les expériences terminées peuvent être activées dans [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) et [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2026.03.15
 
