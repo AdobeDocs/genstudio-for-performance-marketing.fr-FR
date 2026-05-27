@@ -1,6 +1,6 @@
 ---
 title: GenStudio for Performance Marketing  [!DNL Personas]
-description: Les GenStudio for Performance Marketing [!DNL Personas] sont une véritable représentation de vos segments de clients, capturant leurs intérêts, points faibles, préférences et caractéristiques comportementales.
+description: Les  [!DNL Personas] sont une véritable représentation de vos segments de clients, capturant leurs intérêts, points faibles, préférences et caractéristiques comportementales.
 feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
 TQID: https://experienceleague.adobe.com/05SP4Vat09WFu4jdpvxj-5tlSzkFG-kj0FJbb5200ms
@@ -23,8 +23,8 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 360
-ht-degree: 0%
+source-wordcount: 361
+ht-degree: 1%
 
 ---
 
@@ -56,4 +56,4 @@ Le tableau suivant présente chaque catégorie de directives [!DNL Personas] et 
 | ------------------| :---------- |-------------|
 | Nom de la personne | Représente un segment ciblé spécifique pour lequel les ressources marketing générées sont personnalisées | Ajouter un nom de personnage clair et concis.<br><br>_Exemples_ : « directeurs de la vente au détail », « futurs étudiants en soins infirmiers », « nouveaux clients du compte d&#39;épargne » |
 | Description | Bref résumé définissant les caractéristiques, les besoins et les comportements clés | Utilisez un langage concis pour décrire clairement votre personnalité et la segmentation unique de l’audience (1 à 2 phrases). <br><br>Concentrez-vous sur ce qui motive ce segment d’audience (besoins, caractéristiques principales, etc.)<br><br>Gardez la description succincte et évitez les données démographiques profondes ou les informations supplémentaires. |
-| Préférences de messagerie | Résumé clair des styles de communication préférés qui résonnent avec une personne spécifique | Définissez les exigences et les motivations de messagerie uniques de la personne, en vous concentrant sur la manière dont la personne préfère recevoir et interagir avec les communications.<br><br>Indiquez des préférences de messagerie spécifiques dans la liste (chaque élément de liste comporte 1 à 2 phrases).<br><br>Limitez la liste à un total de 10 phrases ou moins, en vous assurant que les informations les plus critiques sont mises en évidence.<br><br>_Exemple_ : « Préférences de messagerie pour les professionnels avertis :<li>Privilégie une communication concise et sans jargon.</li><li>Répond positivement aux informations basées sur les données et aux conseils exploitables.</li><li>Privilégie les visuels tels que les infographies et les graphiques pour saisir rapidement des informations complexes.</li><li>Valorise la transparence avec une approche honnête et directe.</li>&quot; |
+| Préférences de messagerie | Résumé clair des styles de communication préférés qui résonnent avec une personne spécifique | Définissez les exigences et les motivations de messagerie uniques de la personne, en vous concentrant sur la manière dont la personne préfère recevoir et interagir avec les communications.<br><br>Indiquez des préférences de messagerie spécifiques dans la liste (chaque élément de liste comprend 1 à 2 phrases).<br><br>Limitez la liste à un total de 10 phrases ou moins, en veillant à ce que les informations les plus importantes soient mises en évidence.<br><br>_Exemple_ : « Préférences de messagerie pour les professionnels avertis en matière de technologie :<li>Privilégie une communication concise et sans jargon.</li><li>Répond positivement aux informations basées sur les données et aux conseils exploitables.</li><li>Privilégie les visuels tels que les infographies et les graphiques pour saisir rapidement des informations complexes.</li><li>Valorise la transparence avec une approche honnête et directe.</li>&quot; |
