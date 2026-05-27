@@ -80,7 +80,7 @@ Vous recevez une allocation par défaut de [!DNL Generative Actions] comme indiq
 
 >[!NOTE]
 >
->Les taux d’utilisation peuvent varier. Les plans peuvent faire l&#39;objet de modifications. Voir la description du produit [Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) pour obtenir des informations à jour sur les taux.
+>Les taux d’utilisation peuvent varier. Les plans peuvent faire l&#39;objet de modifications. Voir la description du produit [&#128279;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) pour obtenir des informations à jour sur les taux.
 
 Les fonctions suivantes consomment du [!DNL Generative Actions] à la vitesse spécifiée.
 
@@ -113,7 +113,7 @@ Les fonctions suivantes consomment du [!DNL Generative Actions] à la vitesse sp
 
 Lorsque vous utilisez l’IA pour générer du contenu, il est essentiel de s’assurer que la sortie est sécurisée et inclusive pour tous les utilisateurs et utilisatrices. Cela nécessite une évaluation du contenu à la recherche de préjugés potentiellement nuisibles, de discours de haine, de matériel offensant ou de blasphèmes. Adobe teste minutieusement la technologie de génération de contenu de multiples points de vue, effectue des examens éthiques complets et met en œuvre des plans de réduction efficaces pour empêcher l’émergence de contenu préjudiciable dans les sorties.
 
-Cette approche renforce la responsabilité sociale, réduit le risque de réputation et assure le respect des [politiques de confiance, de sécurité et d’éthique d’Adobe](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf).
+Cette approche renforce la responsabilité sociale, réduit le risque de réputation et assure le respect des [politiques de confiance, de sécurité et d’éthique d’](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf).
 
 GenStudio for Performance Marketing intègre des plans de réduction des risques pour empêcher l’utilisation de contenu préjudiciable ou biaisé identifié, conformément aux normes et politiques de gouvernance des données d’Adobe. Lorsqu’un tel contenu est détecté, vous êtes averti que la génération de ressources est bloquée avec un message « Impossible de générer ».
 

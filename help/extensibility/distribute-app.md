@@ -21,7 +21,7 @@ La distribution de votre module complémentaire le rend disponible pour une util
 
 Cette rubrique traite de la distribution privée. La distribution privée limite le déploiement du module complémentaire à l’organisation, identifiée par l’organisation IMS, pour laquelle il a été développé.
 
-La distribution publique rend le module complémentaire disponible sous la forme d’une application sur Adobe Exchange. [Distribution publique &#x200B;](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) la documentation App Builder __ destinée aux développeurs décrit comment rendre votre application disponible pour toute organisation Adobe.
+La distribution publique rend le module complémentaire disponible sous la forme d’une application sur Adobe Exchange. [Distribution publique](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) dans la documentation du développeur _App Builder_, explique comment rendre votre application disponible pour toute organisation Adobe.
 
 >[!BEGINSHADEBOX]
 
@@ -41,7 +41,7 @@ Votre application App Builder doit être déployée dans un projet App Builder.
 
 La distribution privée met votre application à disposition uniquement des membres de votre organisation.
 
-1. Dans [Adobe Developer Console](https://developer.adobe.com/console/), sélectionnez l&#39;organisation, le projet et l&#39;espace de travail dans lesquels l&#39;application est déployée.
+1. Dans [&#128279;](https://developer.adobe.com/console/), sélectionnez l&#39;organisation, le projet et l&#39;espace de travail dans lesquels l&#39;application est déployée.
 
 1. Sélectionnez **[!UICONTROL Approbation]** dans la zone de présentation de Workspace __. Le volet _Approbation de l’application_ s’ouvre.
 
@@ -49,7 +49,7 @@ La distribution privée met votre application à disposition uniquement des memb
 
 1. Une fois tous les champs renseignés, cliquez sur **[!UICONTROL Envoyer]**.
 
-1. Connectez-vous à [Adobe Exchange](https://exchange.adobe.com/) en utilisant la même Adobe ID que celle utilisée pour vous connecter à Developer Console. Si vous ne disposez pas des autorisations d’administrateur système dans cette organisation, demandez l’approbation d’un administrateur système d’organisation.
+1. Connectez-vous à [&#128279;](https://exchange.adobe.com/) en utilisant la même Adobe ID que celle utilisée pour vous connecter à Developer Console. Si vous ne disposez pas des autorisations d’administrateur système dans cette organisation, demandez l’approbation d’un administrateur système d’organisation.
 
 1. Sélectionnez **[!UICONTROL Gérer]** > **[!UICONTROL Applications App Builder]** pour accéder à une demande de révision de l’application.
 

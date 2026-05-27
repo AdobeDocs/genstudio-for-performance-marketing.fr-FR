@@ -65,7 +65,7 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 | `{{sub_headline}}` | Sous-Titre | e-mail<br>bannière et publicité display |
 | `{{introductory_text}}` | Texte d’introduction | Annonce LinkedIn |
 | `{{body}}` | Copie du corps | e-mail <br>Annonce Meta <br>bannière et publicité display |
-| `{{cta}}` | Call to action<br>Voir [Appels à l’action](#calls-to-action) | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
+| `{{cta}}` | <br>Voir [Appels à l’action](#calls-to-action) | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
 | `{{image}}` | Image : sélection à partir de l&#39;[!DNL Content] | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
 | `{{on_image_text}}` | Dans le texte de l’image<br>voir [Dans le texte de l’image](#on-image-text). | Annonce Meta <br>Annonce LinkedIn |
 | `{{link}}` | Call to action sur l’image<br>voir [Lien sur l’image](#link-on-image). | email |
@@ -75,7 +75,7 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 GenStudio for Performance Marketing génère automatiquement certains champs dans les modèles suivants :
 
 - **Modèle d’e-mail** ne nécessite pas que vous identifiiez le champ `subject`
-- **Le modèle de publicité Meta** ne nécessite pas que vous identifiiez les champs `headline`, `body` et `CTA`
+- **Le modèle de publicité** ne nécessite pas que vous identifiiez les champs `headline`, `body` et `CTA`
 - **Modèle de bannière et d’annonce publicitaire d’affichage** ne nécessite pas que vous identifiiez le champ `CTA`
 - **Modèle d’annonce LinkedIn** ne nécessite pas que vous identifiiez les champs `headline`, `introductory_text` et `CTA`
 
@@ -230,7 +230,7 @@ L’édition de texte enrichi peut être disponible pour certains champs dans de
 
 ## Sections ou groupes
 
-Si votre modèle d’e-mail nécessite plusieurs zones de contenu, telles que plusieurs offres ou histoires, vous pouvez les organiser à l’aide de sections ou de groupes. _Sections_ informez GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
+Si votre modèle d’e-mail nécessite plusieurs zones de contenu, telles que plusieurs offres ou histoires, vous pouvez les organiser à l’aide de sections ou de groupes. _Sections_ indiquez à GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
 
 Utilisez le nom d’un groupe de votre choix comme préfixe pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Utilisez un nom de champ (tel que `headline`, `body`, `image` ou `cta`) après le trait de soulignement (`_`).
 

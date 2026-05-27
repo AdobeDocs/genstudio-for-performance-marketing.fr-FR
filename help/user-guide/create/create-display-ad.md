@@ -1,6 +1,6 @@
 ---
 title: Création d’une expérience d’affichage publicitaire
-description: Découvrez comment créer des expériences d’affichage publicitaire dans Adobe [!DNL GenStudio] for Performance Marketing.
+description: Découvrez comment créer des expériences d’affichage publicitaire dans  [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner

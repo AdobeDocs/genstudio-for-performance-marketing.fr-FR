@@ -30,7 +30,7 @@ ht-degree: 0%
 
 # Expériences Meta
 
-Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences Meta à fort impact](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permet aux créateurs et créatrices de contenu d’utiliser des [directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [invite bien conçue](/help/user-guide/effective-prompts.md) pour [&#x200B; rapidement des expériences publicitaires Meta](/help/user-guide/create/create-meta-ad.md).
+Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences Meta à fort impact](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permet aux créateurs de contenu d’utiliser [des directives](/help/user-guide/guidelines/overview.md), des ressources d’image et une [&#x200B; invite bien conçue](/help/user-guide/effective-prompts.md) pour [&#x200B; rapidement des expériences publicitaires Meta](/help/user-guide/create/create-meta-ad.md).
 
 Lors de la génération d’expériences Meta, quatre variations sont créées et affichées dans la zone de travail. GenStudio for Performance Marketing prend en charge les [annonces Meta aux tailles standard et personnalisées](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 

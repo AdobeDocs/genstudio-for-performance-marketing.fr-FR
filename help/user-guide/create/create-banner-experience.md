@@ -1,6 +1,6 @@
 ---
 title: Création d’une expérience de bannière
-description: Découvrez comment créer des expériences de bannière dans Adobe [!DNL GenStudio] for Performance Marketing.
+description: Découvrez comment créer des expériences de bannière dans  [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
 role: User

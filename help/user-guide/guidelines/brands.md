@@ -1,6 +1,6 @@
 ---
 title: GenStudio for Performance Marketing  [!DNL Brands]
-description: Les GenStudio for Performance Marketing [!DNL Brands] sont une collection complète de ressources de marque (copie marketing, images, expériences, etc.) visant à informer la création de contenu aligné sur la marque.
+description: Les  [!DNL Brands] sont une collection complète de ressources de marque (copie marketing, images, expériences, etc.) visant à informer la création de contenu aligné sur la marque.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
 TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1525
+source-wordcount: 1526
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Le tableau suivant présente chaque catégorie de directives vocales de marque e
 
 | Catégorie d&#39;instructions | Description | Bonnes pratiques |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL Ton de la voix] | Personnalité de la marque exprimée par la communication écrite | Utilisez des mots descriptifs pour exprimer clairement l&#39;émotion et le ton de la marque. <br>_Exemples_ : « authentique », « ludique »<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les attributs vocaux clés de la marque.<br><br>Sélectionnez des mots/expressions cohérents sur tous les canaux de communication pour créer une identité de marque cohérente. |
+| [!UICONTROL Ton de la voix] | Personnalité de la marque exprimée par la communication écrite | Utilisez des mots descriptifs pour exprimer clairement l&#39;émotion et le ton de la marque. <br>_Exemples_ : « authentique », « ludique »<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les principaux attributs vocaux de la marque.<br><br>Sélectionnez des mots/expressions cohérents sur l’ensemble des canaux de communication afin de créer une identité de marque cohérente. |
 | [!UICONTROL Valeurs de marque] | Principes qui sous-tendent la culture de marque, l’expérience client et les stratégies commerciales | Utilisez des mots descriptifs pour décrire la mission, la vision et les besoins du public de la marque. <br>_Exemples_ : « authenticité », « inspirant », « progressif »<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les valeurs/thèmes de base de la marque. |
 | [!UICONTROL Instructions éditoriales] | Directives de communication définissant les bonnes pratiques pour l’élaboration des messages de marque | Utilisez des expressions positives (5 à 10 directives) pour établir une base solide.<br>_Exemples_ : « Utilisez un langage simple et accessible » au lieu de « Évitez d’utiliser du jargon »<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemples_ : « Conserver les phrases de moins de 20 mots » au lieu de « Être concis »<br><br>Reflétez le style de votre marque, par exemple en utilisant des préférences de syntaxe spécifiques. <br>_Exemples_ : « Utilisez un tiret cadratin au lieu du signe deux-points », « Utilisez un cas de phrase »<br><br>Établissez des directives précises qui maintiennent la cohérence entre les sorties. |
 | [!UICONTROL Restrictions éditoriales] | Directives de communication définissant les éléments à éviter dans les messages de marque | Utilisez des expressions négatives directes (directives 5 à 10) pour spécifier ce qui doit être évité. <br>_Exemple_ : « Évitez d’utiliser... »<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemple_ : « Évitez les questions rhétoriques » |

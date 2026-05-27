@@ -60,7 +60,7 @@ Créez un **projet** dans le [Adobe Developer Console](https://developer.adobe.c
 1. Cliquez sur **[!UICONTROL Déployer]**. Une fois le déploiement terminé, le statut indique comme déployé. Le texte du bouton devient **[!UICONTROL Annuler le déploiement]**.
    ![Application déployée avec l’option Annuler le déploiement disponible dans la vue des applications App Builder](/help/extensibility/ajo-config-005.png){width="80%"}
 
-Après le déploiement, Adobe Developer Console inclut un nouveau projet généré automatiquement nommé **Journey Optimizer pour GenStudio &lt;Your_Environment_Name>** avec les API AJO et Adobe Runtime. Ce projet est en lecture seule et ne peut pas être modifié ni supprimé.
+Après le déploiement, Adobe Developer Console inclut un nouveau projet généré automatiquement nommé **Journey Optimizer for GenStudio &lt;Your_Environment_Name>** avec les API AJO et Adobe Runtime. Ce projet est en lecture seule et ne peut pas être modifié ni supprimé.
 ![Projet Developer Console généré automatiquement en lecture seule après le déploiement](/help/extensibility/ajo-auto-project.png){width="100%"}
 
 ### Mettre à jour la configuration

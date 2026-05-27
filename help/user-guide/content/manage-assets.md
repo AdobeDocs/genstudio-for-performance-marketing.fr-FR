@@ -34,7 +34,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content] simplifie et améliore 
 
 ## galerie [!DNL Content]
 
-La galerie affiche un inventaire des ressources, expériences ou modèles approuvés en fonction de la vue sélectionnée. Le bouton (bascule) Filtrer (funnel) situé au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtrer]**, qui vous permet de sélectionner une catégorie pour filtrer le contenu affiché dans la galerie. Dans la vue _[!UICONTROL Assets]_, cliquez sur l’icône de recherche (loupe) pour utiliser un mot-clé afin de rechercher une ressource.
+La galerie affiche un inventaire des ressources, expériences ou modèles approuvés en fonction de la vue sélectionnée. Le bouton (bascule) Filtrer (funnel) situé au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtrer]**, qui vous permet de sélectionner une catégorie pour filtrer le contenu affiché dans la galerie. Dans la vue __, cliquez sur l’icône de recherche (loupe) pour utiliser un mot-clé afin de rechercher une ressource.
 
 Vous trouverez ci-dessous une recherche sur le terme `space` dans la galerie [!UICONTROL Assets] :
 
