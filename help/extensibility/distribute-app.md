@@ -4,8 +4,10 @@ description: Distribuez votre application ou module complémentaire pour GenStud
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
 TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 303
@@ -39,7 +41,7 @@ Votre application App Builder doit être déployée dans un projet App Builder.
 
 La distribution privée met votre application à disposition uniquement des membres de votre organisation.
 
-1. Dans [](https://developer.adobe.com/console/), sélectionnez l&#39;organisation, le projet et l&#39;espace de travail dans lesquels l&#39;application est déployée.
+1. Dans [&#128279;](https://developer.adobe.com/console/), sélectionnez l&#39;organisation, le projet et l&#39;espace de travail dans lesquels l&#39;application est déployée.
 
 1. Sélectionnez **[!UICONTROL Approbation]** dans la zone de présentation de Workspace __. Le volet _Approbation de l’application_ s’ouvre.
 
@@ -47,7 +49,7 @@ La distribution privée met votre application à disposition uniquement des memb
 
 1. Une fois tous les champs renseignés, cliquez sur **[!UICONTROL Envoyer]**.
 
-1. Connectez-vous à [](https://exchange.adobe.com/) en utilisant la même Adobe ID que celle utilisée pour vous connecter à Developer Console. Si vous ne disposez pas des autorisations d’administrateur système dans cette organisation, demandez l’approbation d’un administrateur système d’organisation.
+1. Connectez-vous à [&#128279;](https://exchange.adobe.com/) en utilisant la même Adobe ID que celle utilisée pour vous connecter à Developer Console. Si vous ne disposez pas des autorisations d’administrateur système dans cette organisation, demandez l’approbation d’un administrateur système d’organisation.
 
 1. Sélectionnez **[!UICONTROL Gérer]** > **[!UICONTROL Applications App Builder]** pour accéder à une demande de révision de l’application.
 
