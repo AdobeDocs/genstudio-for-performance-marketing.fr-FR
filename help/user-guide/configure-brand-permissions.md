@@ -5,18 +5,11 @@ level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
 TQID: https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 742
@@ -28,13 +21,13 @@ ht-degree: 4%
 
 Par défaut, les responsables système de GenStudio peuvent créer et modifier des [!DNL Brands]. Les rôles d&#39;éditeur de contenu et de collaborateur disposent d&#39;autorisations de modification et de création, mais peuvent ne pas nécessiter de droits de gestion du système.
 
-Pour accorder aux éditeurs et aux collaborateurs de contenu ces droits liés à [!DNL Brand], un administrateur système Adobe doit effectuer des tâches de configuration supplémentaires dans Adobe Admin Console. Voir [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html#Overview) dans _Guide d’administration pour les entreprises et les équipes_.
+Pour accorder aux éditeurs et aux collaborateurs de contenu ces droits liés à [!DNL Brand], un administrateur système Adobe doit effectuer des tâches de configuration supplémentaires dans Adobe Admin Console. Voir [](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) dans _Guide d’administration pour les entreprises et les équipes_.
 
-L’ajout d’utilisateurs et de groupes d’utilisateurs est une tâche de base commune à tous les produits Adobe avec des droits gérés via Admin Console. Consultez [Utilisateurs Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/users.html) dans le _Guide d’administration d’entreprise et d’équipes_ pour obtenir un aperçu de la gestion des utilisateurs et des procédures d’ajout d’utilisateurs et de groupes d’utilisateurs.
+L’ajout d’utilisateurs et de groupes d’utilisateurs est une tâche de base commune à tous les produits Adobe avec des droits gérés via Admin Console. Consultez [Utilisateurs ](https://helpx.adobe.com/fr/enterprise/using/users.html) dans le _Guide d’administration d’entreprise et d’équipes_ pour obtenir un aperçu de la gestion des utilisateurs et des procédures d’ajout d’utilisateurs et de groupes d’utilisateurs.
 
 Regardez cette présentation vidéo ou suivez les étapes ci-dessous.
 
->[!VIDEO](https://video.tv.adobe.com/v/3474999?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
 
 ## Étape 1 : créer un groupe d’utilisateurs
 
@@ -54,7 +47,7 @@ Voir [Gérer les groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise
 
 ## Étape 2 : affecter un profil de gestionnaire système GenStudio au groupe d’utilisateurs
 
-Une fois que vous avez créé un nouveau groupe d&#39;utilisateurs et ajouté des utilisateurs, vous pouvez affecter le profil **gestionnaire système Adobe GenStudio** à ce groupe. Le droit associé au profil affecté donne à tous les utilisateurs de ce groupe des autorisations de [!DNL Brands] GenStudio (création, mise à jour et suppression de marques).
+Une fois que vous avez créé un nouveau groupe d&#39;utilisateurs et ajouté des utilisateurs, vous pouvez affecter le profil **gestionnaire système** à ce groupe. Le droit associé au profil affecté donne à tous les utilisateurs de ce groupe des autorisations de [!DNL Brands] GenStudio (création, mise à jour et suppression de marques).
 
 **Pour attribuer un profil au groupe d’utilisateurs** :
 
@@ -84,7 +77,7 @@ Pour attribuer aux utilisateurs l’autorisation de créer, modifier et publier 
 
 **Pour ajouter des utilisateurs au groupe d’utilisateurs** :
 
-1. Dans _Admin Console_, accédez à **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]**.
+1. Dans __, accédez à **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]**.
 
 1. Sélectionnez le nom du groupe d’utilisateurs que vous avez créé précédemment. La fenêtre contextuelle _Ajouter des utilisateurs à ce groupe d’utilisateurs_ s’ouvre.
 
@@ -108,7 +101,7 @@ Un _projet_ fournit un emplacement de stockage où certains utilisateurs peuvent
 
 1. Cliquez sur **[!UICONTROL Créer]**. La fenêtre contextuelle _Inviter au projet_ s’ouvre.
 
-Voir [Gérer les projets](https://helpx.adobe.com/fr/enterprise/using/projects-in-business-storage.html) dans le guide d’administration _Entreprise et équipes_.
+Voir [Gérer les projets](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) dans le guide d’administration _Entreprise et équipes_.
 
 ## Étape 5 : inviter un groupe d’utilisateurs à rejoindre le projet
 

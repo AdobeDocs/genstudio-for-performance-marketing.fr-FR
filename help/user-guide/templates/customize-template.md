@@ -6,21 +6,12 @@ role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
 TQID: https://experienceleague.adobe.com/6gHxPvfz-30X3w2MYIc2Aj5SiGZokzOqSvOHYTQ-u7I
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1646
@@ -65,7 +56,7 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 | `{{sub_headline}}` | Sous-Titre | e-mail<br>bannière et publicité display |
 | `{{introductory_text}}` | Texte d’introduction | Annonce LinkedIn |
 | `{{body}}` | Copie du corps | e-mail <br>Annonce Meta <br>bannière et publicité display |
-| `{{cta}}` | Call to action<br>Voir [Appels à l’action](#calls-to-action) | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
+| `{{cta}}` | <br>Voir [Appels à l’action](#calls-to-action) | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
 | `{{image}}` | Image : sélection à partir de l&#39;[!DNL Content] | e-mail <br>Annonce Meta <br>bannière et publicité display <br>annonce LinkedIn |
 | `{{on_image_text}}` | Dans le texte de l’image<br>voir [Dans le texte de l’image](#on-image-text). | Annonce Meta <br>Annonce LinkedIn |
 | `{{link}}` | Call to action sur l’image<br>voir [Lien sur l’image](#link-on-image). | email |
@@ -75,7 +66,7 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio for Perf
 GenStudio for Performance Marketing génère automatiquement certains champs dans les modèles suivants :
 
 - **Modèle d’e-mail** ne nécessite pas que vous identifiiez le champ `subject`
-- **Le modèle de publicité Meta** ne nécessite pas que vous identifiiez les champs `headline`, `body` et `CTA`
+- **Le modèle de publicité** ne nécessite pas que vous identifiiez les champs `headline`, `body` et `CTA`
 - **Modèle de bannière et d’annonce publicitaire d’affichage** ne nécessite pas que vous identifiiez le champ `CTA`
 - **Modèle d’annonce LinkedIn** ne nécessite pas que vous identifiiez les champs `headline`, `introductory_text` et `CTA`
 
@@ -230,7 +221,7 @@ L’édition de texte enrichi peut être disponible pour certains champs dans de
 
 ## Sections ou groupes
 
-Si votre modèle d’e-mail nécessite plusieurs zones de contenu, telles que plusieurs offres ou histoires, vous pouvez les organiser à l’aide de sections ou de groupes. _Sections_ informez GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
+Si votre modèle d’e-mail nécessite plusieurs zones de contenu, telles que plusieurs offres ou histoires, vous pouvez les organiser à l’aide de sections ou de groupes. _Sections_ indiquez à GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
 
 Utilisez le nom d’un groupe de votre choix comme préfixe pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Utilisez un nom de champ (tel que `headline`, `body`, `image` ou `cta`) après le trait de soulignement (`_`).
 

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 Cette rubrique explique comment les clients et les personnes responsables de l’implémentation peuvent déployer et exécuter le micro front-end (MFE) du sélecteur d’expérience [!DNL GenStudio for Performance Marketing] dans une organisation Salesforce. Elle couvre les étapes d’administration (pas de code), les étapes de développement (déploiement et configuration) et les paramètres liés à la sécurité tels que la politique de sécurité du contenu (CSP).
 
-Pour obtenir des options d’intégration MFE génériques, des propriétés de configuration et des exemples de framework, consultez [MFE du sélecteur d’expérience &#x200B;](experience-selector.md).
+Pour obtenir des options d’intégration MFE génériques, des propriétés de configuration et des exemples de framework, consultez [MFE du sélecteur d’expérience ](experience-selector.md).
 
 ## Fonctionnement de cette intégration
 
->[!VIDEO](https://video.tv.adobe.com/v/3491081?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491079?learn=on)
 
 Le composant web Lightning (LWC) charge `sfgsmfe` le bundle UMD du sélecteur d’expérience d’Adobe et le rend dans un `<dialog>` afin que les utilisateurs puissent sélectionner une expérience depuis [!DNL GenStudio for Performance Marketing].
 
@@ -39,7 +39,7 @@ Le script du sélecteur d’expérience pour [!DNL GenStudio for Performance Mar
 
 * **Autorisations :** les utilisateurs qui créent des modèles d’e-mail doivent avoir accès au dossier du modèle d’e-mail cible et disposer des droits pour créer des modèles en fonction des politiques de votre organisation. Apex s&#39;exécute `with sharing`.
 * **Adobe/GenStudio :** votre identifiant d’organisation Adobe IMS et votre `clientId` SUSI doivent correspondre à votre configuration Adobe (voir [Configurer les valeurs d’intégration](#configure-integration-values-developer--implementation)).
-* **Navigateur/CSP :** Salesforce doit autoriser le chargement de scripts depuis `https://experience.adobe.com` (voir [&#x200B; Configurer la politique de sécurité du contenu et l’URL d’Adobe](#configure-content-security-policy-and-adobe-url)).
+* **Navigateur/CSP :** Salesforce doit autoriser le chargement de scripts depuis `https://experience.adobe.com` (voir [ Configurer la politique de sécurité du contenu et l’URL d’Adobe](#configure-content-security-policy-and-adobe-url)).
 
 ## Déployer le package (développeur)
 
@@ -92,7 +92,7 @@ Si le script ne charge pas :
 1. Ouvrez les outils de développement du navigateur.
 1. Vérifiez les onglets **[!UICONTROL Console]** et **[!UICONTROL Network]** pour les requêtes bloquées ou les violations de CSP.
 1. Ajoutez ou ajustez **[!UICONTROL URL approuvées]** (et les paramètres associés à votre version de Salesforce) par `https://experience.adobe.com`, en suivant la documentation Salesforce actuelle pour Lightning.
-   ![Sites de confiance CSP &#x200B;](./sf-trusted-urls.png){width="80%" zoomable="yes"}
+   ![Sites de confiance CSP ](./sf-trusted-urls.png){width="80%" zoomable="yes"}
 
 ## Configurer les valeurs d’intégration (développeur/implémentation)
 
