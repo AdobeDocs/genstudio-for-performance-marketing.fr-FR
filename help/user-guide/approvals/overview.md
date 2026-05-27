@@ -39,7 +39,7 @@ Le workflow de révision et d’approbation garantit que toutes les parties pren
 
 * **Respect des objectifs de la campagne et des exigences légales**. Le processus de validation permet de vérifier que le contenu prend en charge les objectifs de la campagne. Elle garantit que tous les documents de marketing sont conformes aux normes juridiques et réglementaires, ce qui réduit les risques et les problèmes juridiques potentiels.
 
-* **Intégration à Adobe Workfront Proof**. Les utilisateurs et utilisatrices peuvent accéder à des fonctionnalités de révision et d’approbation robustes de Workfront Proof depuis GenStudio for Performance Marketing. Le contenu révisé dans GenStudio for Performance Marketing se synchronise avec Workfront Proof et les commentaires et le statut de révision sont conservés. [L’intégration met en évidence &#x200B;](/help/user-guide/approvals/proof-integration.md) identifie la manière dont Proof étend le workflow d’approbation de GenStudio for Performance Marketing.
+* **Intégration à Adobe Workfront Proof**. Les utilisateurs et utilisatrices peuvent accéder à des fonctionnalités de révision et d’approbation robustes de Workfront Proof depuis GenStudio for Performance Marketing. Le contenu révisé dans GenStudio for Performance Marketing se synchronise avec Workfront Proof et les commentaires et le statut de révision sont conservés. [Les points forts de l’intégration](/help/user-guide/approvals/proof-integration.md) identifie comment Proof étend le workflow d’approbation de GenStudio for Performance Marketing.
 
 ## Cycle de vie de la révision et de l’approbation
 
@@ -69,11 +69,11 @@ Statuts de brouillon disponibles :
 
 >[!NOTE]
 >
->Les brouillons correspondent aux _BAT_ pour les utilisateurs de l’intégration Workfront Proof. [Les brouillons et les BAT](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) diffèrent en termes de persistance et de contrôle de version.
+>Les brouillons correspondent aux _BAT_ pour les utilisateurs de l’intégration Workfront Proof. [Les brouillons et les épreuves](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) diffèrent en termes de persistance et de contrôle de version.
 
 ## Rôles d&#39;approbation
 
-_Les réviseurs et réviseuses_ peuvent ajouter des commentaires, mais ne peuvent pas approuver le contenu. La participation des réviseurs est utile, mais pas essentielle. _Les approbateurs_ doivent approuver le contenu avant qu’il puisse progresser dans le processus d’approbation. L’intégration de Workfront Proof prend en charge un plus large éventail de rôles utilisateur.
+_Les réviseurs et réviseuses_ peuvent ajouter des commentaires, mais ne peuvent pas approuver le contenu. La participation des réviseurs est utile, mais pas essentielle. _Les approbateurs_ doivent approuver le contenu avant qu’il ne puisse progresser dans le processus d’approbation. L’intégration de Workfront Proof prend en charge un plus large éventail de rôles utilisateur.
 
 ## Notifications
 

@@ -15,7 +15,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: 911
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ L’intégration à Workfront Proof améliore le cycle de vie de révision et d�
 
 **Conditions préalables** :
 
-Installez l’extension [Visionneuse web Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+Installez l’extension [Visionneuse web &#x200B;](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 
@@ -48,14 +48,14 @@ Le tableau ci-dessous compare les fonctions de révision et d’approbation stan
 
 | Fonctionnalité        | GenStudio for Performance Marketing                                                                 | Workfront Proof                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **Cycle de vie des brouillons/épreuves**        | Le contenu du brouillon expire lors de la publication. | Chaînes d’approbation basées sur les rôles et à plusieurs étapes avec journaux persistants horodatés.<br> Toutes les versions sont conservées indéfiniment. |
+| **Cycle de vie des brouillons/épreuves**        | Le contenu du brouillon expire lors de la publication. | Chaînes d’approbation à plusieurs étapes basées sur les rôles avec journaux persistants et horodatés.<br> Toutes les versions sont conservées indéfiniment. |
 | **Commentaires**                | Les commentaires sont liés à l’ID de brouillon et ignorés après publication.                                           | Les commentaires et annotations persistants sont conservés à des fins d’audit et de conformité.     |
-| **Versions**           | Les brouillons sont traités comme des instances uniques. <br>Aucune comparaison côte à côte.                                      | Contrôle de version complet avec des outils de comparaison côte à côte et de recouvrement.        |
+| **Versions**           | Les brouillons sont traités comme des instances uniques.<br>Aucune comparaison côte à côte.                                      | Contrôle de version complet avec des outils de comparaison côte à côte et de recouvrement.        |
 | **Gestion de projet** | Gestion de base des campagnes. | Gestion complète du cycle de vie des campagnes, avec personnalisation, modèles, rapports et audits détaillés. |
 
 ### Licences et rôles utilisateur
 
-Les licences identifient l’ensemble des droits d’utilisateur au sein d’un produit. Workfront Proof fournit plus de types de licence ou de rôles utilisateur que GenStudio for Performance Marketing. [Présentation des rôles dans l’épreuve &#x200B;](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) introduit les rôles utilisateur associés au workflow de révision et d’approbation de Workfront Proof.
+Les licences identifient l’ensemble des droits d’utilisateur au sein d’un produit. Workfront Proof fournit plus de types de licence ou de rôles utilisateur que GenStudio for Performance Marketing. [Présentation des rôles dans l’épreuve](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) introduit les rôles utilisateur associés au workflow de révision et d’approbation de Workfront Proof.
 
 | Licence GenStudio for Performance Marketing       | Licence Workfront                 | Description                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -94,4 +94,4 @@ Vous pouvez [comparer deux versions d’une épreuve](https://experienceleague.a
 ## Notifications et rappels
 
 Les réviseurs et les approbateurs reçoivent des notifications par e-mail lorsqu’une nouvelle épreuve est disponible pour révision ou lorsqu’une révision en cours a changé de statut.
-[Les notifications et les rappels relatifs aux épreuves](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) comprennent un lien personnalisé vers l’épreuve, des détails sur l’épreuve et sa progression tout au long du processus d’approbation, ainsi que des informations de contrôle de version.
+Les [notifications et rappels relatifs aux épreuves](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) comprennent un lien personnalisé vers l’épreuve, des détails sur l’épreuve et sa progression tout au long du processus d’approbation, ainsi que des informations de contrôle de version.

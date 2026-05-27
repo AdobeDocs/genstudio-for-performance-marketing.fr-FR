@@ -49,9 +49,9 @@ Dans Admin Console, le profil de produit définit les règles et les profils uti
 
 1. Accédez à l’onglet _Produits_. Cet onglet affiche tous les produits Adobe achetés par votre organisation.
 
-1. Sélectionnez **[!UICONTROL GenStudio]** dans la liste des produits. La console affiche le profil de produit GenStudio, qui contient des informations essentielles sur les licences de produit achetées par votre entreprise. Il propose également des options pour gérer ces licences.
+1. Sélectionnez **&#x200B;**&#x200B;dans la liste des produits. La console affiche le profil de produit GenStudio, qui contient des informations essentielles sur les licences de produit achetées par votre entreprise. Il propose également des options pour gérer ces licences.
 
-Vous êtes maintenant prêt à attribuer des licences aux utilisateurs (configuration) de GenStudio for Performance Marketing. Si vous vous êtes connecté à la mauvaise organisation, basculez vers la bonne organisation avant d’essayer d’attribuer des droits aux utilisateurs. Pour modifier votre organisation, cliquez sur le nom de l’organisation dans le coin supérieur droit et sélectionnez l’organisation **GenStudio**.
+Vous êtes maintenant prêt à attribuer des licences aux utilisateurs (configuration) de GenStudio for Performance Marketing. Si vous vous êtes connecté à la mauvaise organisation, basculez vers la bonne organisation avant d’essayer d’attribuer des droits aux utilisateurs. Pour modifier votre organisation, cliquez sur le nom de l’organisation dans le coin supérieur droit et sélectionnez l’organisation **&#x200B;**.
 
 ## Étape 2 : configurer les utilisateurs
 
