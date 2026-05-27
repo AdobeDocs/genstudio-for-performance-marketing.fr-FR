@@ -1,78 +1,78 @@
 ---
 source-git-commit: c9672d8899b54c7998e9cb8b64fe1834339f8010
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 17%
+source-wordcount: '443'
+ht-degree: 16%
 
 ---
-# Code de conduite d’Adobe
+# Code de conduite Adobe
 
 ## Notre engagement
 
-Dans l&#39;intérêt de la promotion d&#39;un environnement ouvert et accueillant, nous avons
-les contributeurs et les responsables s&#39;engagent à participer à notre projet et
-Notre communauté est une expérience sans harcèlement pour tout le monde, quel que soit son âge, son corps
-taille, handicap, appartenance ethnique, identité et expression de genre, niveau d&#39;expérience,
+Afin de favoriser un environnement ouvert et accueillant, nous avons
+contributeurs et responsables s’engagent à participer à notre projet et
+notre communauté est une expérience sans harcèlement pour tous, peu importe l&#39;âge, le corps
+taille, handicap, origine ethnique, identité et expression de genre, niveau d&#39;expérience,
 nationalité, apparence personnelle, race, religion ou identité sexuelle et
 orientation.
 
-## Nos valeurs
+## Nos standards
 
-Exemples de comportements qui contribuent à la création d’un environnement positif
+Exemples de comportements qui contribuent à créer un environnement positif
 inclure :
 
-* Utiliser un langage accueillant et inclusif
-* Être respectueux des différents points de vue et expériences
-* Accepter facilement les critiques constructives
-* Se concentrer sur ce qui est le plus indiqué pour la communauté
-* Faire preuve d’empathie envers les autres membres de la communauté
+* Utilisation d&#39;un langage accueillant et inclusif
+* Respect des points de vue et expériences divergents
+* Acceptation des critiques constructives
+* Fait de se concentrer sur ce qui est le mieux pour la communauté
+* Preuves d’empathie envers les autres membres de la communauté
 
-Voici quelques exemples de comportement inacceptable de la part des participants :
+Voici quelques exemples de comportements inacceptables de la part des participants :
 
-* Utilisation d&#39;un langage ou d&#39;images sexualisés et attention sexuelle non sollicitée ou
+* L&#39;utilisation d&#39;un langage ou d&#39;une imagerie sexualisés et une attention sexuelle indésirable ou
 avances
-* Générer des polémiques, adresser des insultes/commentaires désobligeants, ainsi que des attaques personnelles ou politiques
-* Harceler tant dans la sphère publique que privée
-* Publier des informations privées d’autres utilisateurs, telles qu’un contenu physique ou électronique
-address, sans autorisation explicite
-* Autre comportement pouvant raisonnablement être considéré comme inapproprié dans un
-environnement professionnel
+* Troll, insultes/commentaires désobligeants et attaques personnelles ou politiques
+* Harcèlement public ou privé
+* Publier des informations privées concernant d’autres utilisateurs, telles qu’un contenu physique ou électronique
+adresse, sans autorisation explicite
+* Autres comportements qui pourraient raisonnablement être considérés comme inappropriés dans un
+cadre professionnel
 
 ## Nos responsabilités
 
-Les responsables du projet sont chargés de clarifier les normes de
-et doivent prendre des mesures correctives appropriées et justes dans la
-réponse à tout cas de comportement inacceptable.
+Les responsables du projet sont chargés de clarifier les normes d’acceptabilité
+comportement et sont censés prendre des mesures correctives appropriées et équitables en
+la réponse à tout cas de comportement inacceptable.
 
-Les responsables de projet ont le droit et la responsabilité de supprimer, modifier ou
-rejeter les commentaires, les validations, le code, les modifications de wiki, les problèmes et autres contributions
-qui ne sont pas conformes à ce code de conduite ou qui doivent être interdits temporairement ou
-tout contributeur permanent pour d&#39;autres comportements qu&#39;il juge inappropriés,
-menaçant, offensant ou dangereux.
+Les responsables du projet ont le droit et la responsabilité de supprimer, modifier ou
+rejeter les commentaires, les validations, le code, les modifications du wiki, les problèmes et les autres contributions
+qui ne sont pas conformes au présent Code de conduite, ou à interdire temporairement ou
+en permanence tout contributeur à d&#39;autres comportements qu&#39;il juge inappropriés,
+menaçant, offensant ou nuisible.
 
-## Champ d’application
+## Portée
 
-Ce code de conduite s’applique à la fois aux espaces du projet et aux espaces publics.
-lorsqu’une personne représente le projet ou sa communauté. Exemples
-représenter un projet ou une communauté en utilisant un e-mail officiel de projet ;
-adresse, publication via un compte de réseau social officiel ou action en tant que personne nommée
-représentant à un événement en ligne ou hors ligne. La représentation d’un projet peut
-défini plus précisément et clarifié par les responsables du projet.
+Ce code de conduite s’applique à la fois aux espaces de projet et aux espaces publics
+lorsqu’une personne représente le projet ou sa communauté. Exemples de
+la représentation d’un projet ou d’une communauté inclut à l’aide d’un e-mail de projet officiel
+adresse, publication sur un compte officiel de réseau social ou rôle d’expert
+représentant à un événement en ligne ou hors ligne. La représentation d’un projet peut être
+défini et clarifié par les responsables du projet.
 
 ## Application
 
-Les cas de comportements abusifs, de harcèlement ou autres comportements inacceptables peuvent être
-signalée en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Tous
-Les plaintes seront examinées et analysées, ce qui donnera lieu à une réponse
-est jugé nécessaire et approprié aux circonstances. L’équipe chargée du projet est
-obligation de confidentialité à l’égard de la personne qui a déclaré un incident.
-Des détails supplémentaires sur des politiques d’application spécifiques peuvent être publiés séparément.
+Les cas de comportement abusif, de harcèlement ou autrement inacceptable peuvent être
+signalement effectué en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Tous
+les plaintes seront examinées et feront l&#39;objet d&#39;une enquête et donneront lieu à une réponse qui :
+est jugée nécessaire et adaptée aux circonstances. L’équipe du projet est
+l&#39;obligation de respecter la confidentialité à l&#39;égard de la personne signalant un incident.
+Des informations supplémentaires sur les politiques d’application spécifiques peuvent être publiées séparément.
 
-Les responsables de projet qui ne respectent pas ou n’appliquent pas correctement le code de conduite
-la foi peut subir des répercussions temporaires ou permanentes, telles qu&#39;elles sont déterminées par d&#39;autres
+Les responsables du projet qui ne respectent pas ou n’appliquent pas correctement le Code de conduite
+la foi peut faire l&#39;objet de répercussions temporaires ou permanentes déterminées par d&#39;autres
 membres de la direction du projet.
 
 ## Attribution
 
-Ce code de conduite est adapté de la [Charte du contributeur](https://contributor-covenant.org), version 1.4,
-disponible à l’adresse [https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct.html)
+Le présent Code de conduite est adapté du [Pacte du contributeur](https://contributor-covenant.org), version 1.4,
+disponible sur [&#128279;](https://contributor-covenant.org/version/1/4/)
