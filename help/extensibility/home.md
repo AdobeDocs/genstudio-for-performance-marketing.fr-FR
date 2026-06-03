@@ -4,16 +4,13 @@ description: Explorez les fonctionnalités de l’interface utilisateur d’Adob
 feature: Extensibility, Compliance
 exl-id: 4eca9e83-a109-431e-bfaa-9a6f7682e56f
 TQID: https://experienceleague.adobe.com/GzRwmsFDOMHJxY-2u4xMSRwGGhqEq-IDK4sQvggZgjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 9889a98f95d9555ed68c7fa4d093096bea93b6fe
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 5%
+source-wordcount: 228
+ht-degree: 4%
 
 ---
 
@@ -26,3 +23,9 @@ GenStudio for Performance Marketing est un produit Adobe Experience Cloud qui ut
 Les organisations qui utilisent Adobe Journey Optimizer peuvent installer l’application [Journey Optimizer for GenStudio](journey-optimizer-for-genstudio.md) à partir d’Adobe Exchange pour utiliser les modèles AJO lors de la création d’expériences de messagerie dans GenStudio.
 
 Les organisations qui utilisent [!DNL Marketo Engage] peuvent installer [Marketo for GenStudio](marketo-for-genstudio.md) à partir d’Adobe Exchange pour utiliser des modèles Marketo lors de la création d’expériences de messagerie dans GenStudio.
+
+>[!NOTE]
+>
+>**Service d’API disponible** L’API GenStudio offre une API RESTful pour gérer les expériences.
+>
+>Si vous souhaitez utiliser l’API GenStudio pour gérer les expériences, consultez la [documentation de l’API GenStudio](https://developer.adobe.com/genstudio-api/).
