@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8867ca0d3cdc7d6e52a4947b4836c02d2ac58f03
+source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
 workflow-type: tm+mt
-source-wordcount: 1797
+source-wordcount: 1775
 ht-degree: 77%
 
 ---
@@ -256,8 +256,8 @@ Pour convertir des images :
    1. Dans **[!UICONTROL Partager ce fichier]**, cliquez sur **[!UICONTROL Copier le lien]**.
    1. Collez le lien copié dans le champ **[!UICONTROL Lien du fichier Figma]** de la boîte de dialogue du plug-in [!DNL GenStudio for Performance Marketing]. Ceci doit être fait POUR CHAQUE FICHIER :
       ![Boîte de dialogue Clé de fichier requise](./file-key-required.png){width="35%"}
-   1. Cliquez sur **[!UICONTROL Envoyer]**. Le module externe lit les images sélectionnées dans Figma et les convertit en document JSON, un format intermédiaire pour les données de fichier.
-1. Un pop-up s’affiche pour demander l’accès à la lecture du contenu et des métadonnées de votre fichier. Cela ne doit être effectué qu’une seule fois pour tous les fichiers. Cliquez sur **[!UICONTROL Autoriser l’accès]**.
+   1. Cliquez sur **[!UICONTROL Envoyer]**.
+1. Un pop-up s’affiche pour demander l’accès à la lecture du contenu et des métadonnées de votre fichier. Cela ne doit être effectué qu’une seule fois pour tous les fichiers. Cliquez sur **[!UICONTROL Autoriser l’accès]**. Le plug-in lit les images sélectionnées dans Figma et les convertit en document JSON, un format intermédiaire pour les données de fichier.
    ![Autoriser l’accès pour lire le contenu et les métadonnées de votre fichier](./figma-access-request.png){width="35%"}
 1. Dans Photoshop, ouvrez [!DNL GenStudio Photoshop] et cliquez sur l’onglet **[!UICONTROL Importer]**.
 1. Pour sélectionner le ou les fichiers convertis, effectuez l’une des étapes suivantes :
