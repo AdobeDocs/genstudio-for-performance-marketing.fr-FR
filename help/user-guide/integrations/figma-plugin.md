@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1dbfb6115c9340f9c14cef75d5144a303314fa71
+source-git-commit: 8867ca0d3cdc7d6e52a4947b4836c02d2ac58f03
 workflow-type: tm+mt
-source-wordcount: 1835
-ht-degree: 85%
+source-wordcount: 1797
+ht-degree: 77%
 
 ---
 
@@ -245,21 +245,22 @@ Pour convertir des images :
 
 1. Ouvrez le plug-in Firefly Enterprise et GenStudio dans Figma, puis cliquez sur l’onglet **[!UICONTROL Exporter]** dans l’interface utilisateur du plug-in.
 1. Sur la zone de travail, sélectionnez le ou les cadres à exporter. Vous pouvez choisir une ou plusieurs images.
-1. Utilisez l’une des méthodes suivantes :
+1. Pour migrer les images sélectionnées, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **[!UICONTROL Exporter]** pour exporter le fichier converti vers un emplacement choisi, ou
-   * Cliquez sur **[!UICONTROL Transférer vers GenStudio Photoshop]** pour mettre en cache le fichier converti en vue d’une utilisation immédiate dans GenStudio Photoshop.
+   * Cliquez sur **[!UICONTROL Transférer vers Photoshop]** pour mettre en cache le fichier converti en vue d’une utilisation immédiate dans GenStudio Photoshop.
      ![Bouton Transférer vers GenStudio Photoshop](./transfer-to-ps-button.png){width="40%"}
-1. Lorsque la boîte de dialogue **[!UICONTROL Clé de fichier requise]** s’affiche, le plug-in a besoin d’une URL de fichier Figma pour effectuer la conversion. Ajoutez l’URL de votre document :
+1. Ensuite, partagez votre lien de fichier Figma. Le plug-in a besoin d’une URL de fichier Figma pour effectuer la conversion. Ajoutez l’URL de votre document.
 
    1. Dans Figma, cliquez sur **[!UICONTROL Partager]** dans le coin supérieur droit de la zone de travail.
    1. Dans **[!UICONTROL Partager ce fichier]**, cliquez sur **[!UICONTROL Copier le lien]**.
-   1. Collez le lien copié dans le champ **[!UICONTROL URL du fichier Figma]** de la boîte de dialogue du plug-in.
-
-1. Cliquez sur **[!UICONTROL Envoyer]**. Le module externe lit les images sélectionnées dans Figma et les convertit en document JSON, un format intermédiaire pour les données de fichier.
-   ![Boîte de dialogue Clé de fichier requise](./file-key-required.png){width="35%"}
-1. Dans Photoshop, ouvrez GenStudio Photoshop et cliquez sur l’onglet **[!UICONTROL Importer]**.
-1. Utilisez l’une des méthodes suivantes :
+   1. Collez le lien copié dans le champ **[!UICONTROL Lien du fichier Figma]** de la boîte de dialogue du plug-in [!DNL GenStudio for Performance Marketing]. Ceci doit être fait POUR CHAQUE FICHIER :
+      ![Boîte de dialogue Clé de fichier requise](./file-key-required.png){width="35%"}
+   1. Cliquez sur **[!UICONTROL Envoyer]**. Le module externe lit les images sélectionnées dans Figma et les convertit en document JSON, un format intermédiaire pour les données de fichier.
+1. Un pop-up s’affiche pour demander l’accès à la lecture du contenu et des métadonnées de votre fichier. Cela ne doit être effectué qu’une seule fois pour tous les fichiers. Cliquez sur **[!UICONTROL Autoriser l’accès]**.
+   ![Autoriser l’accès pour lire le contenu et les métadonnées de votre fichier](./figma-access-request.png){width="35%"}
+1. Dans Photoshop, ouvrez [!DNL GenStudio Photoshop] et cliquez sur l’onglet **[!UICONTROL Importer]**.
+1. Pour sélectionner le ou les fichiers convertis, effectuez l’une des étapes suivantes :
 
    * Cliquez sur **[!UICONTROL À partir du plug-in]** pour choisir un fichier converti avec **[!UICONTROL Transférer vers GenStudio Photoshop]** dans la liste des fichiers mis en cache, ou
    * Cliquez sur **[!UICONTROL Charger JSON]** pour rechercher et sélectionner le fichier JSON à charger.
