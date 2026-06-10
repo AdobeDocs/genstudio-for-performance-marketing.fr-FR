@@ -3,16 +3,10 @@ title: Commencer
 description: Commencez à créer des modules complémentaires ou des applications App Builder qui étendent GenStudio for Performance Marketing.
 exl-id: 755f1a40-add5-43e3-bf54-eaec36ef1e9a
 TQID: https://experienceleague.adobe.com/069NojePrFEaIHs8-jM2w2CfH15X0veKs4XilrmTnlI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 7%
@@ -29,7 +23,7 @@ Le framework de module complémentaire GenStudio for Performance Marketing fourn
 
 Ce guide décrit le processus de création de modules complémentaires pour personnaliser et améliorer les principales fonctionnalités de création de contenu pilotées par l’IA de GenStudio for Performance Marketing.
 
-Les développeurs d’applications extensibles pour GenStudio for Performance Marketing utilisent le framework d’ensemble d’outils de développement d’applications Adobe Experience Cloud standard pour développer et déployer des applications personnalisées, ou modules complémentaires. [Adobe App Builder](https://developer.adobe.com/app-builder/) est au cœur de cet ensemble d’outils de développement.
+Les développeurs d’applications extensibles pour GenStudio for Performance Marketing utilisent le framework d’ensemble d’outils de développement d’applications d’entreprise Adobe CX standard pour développer et déployer des applications personnalisées, ou modules complémentaires. [Adobe App Builder](https://developer.adobe.com/app-builder/) est au cœur de cet ensemble d’outils de développement.
 
 La création du module complémentaire comprend les tâches de haut niveau suivantes :
 
@@ -40,7 +34,7 @@ La création du module complémentaire comprend les tâches de haut niveau suiva
 
 ## Configuration de votre environnement
 
-Les développeurs utilisent Adobe App Builder pour créer des modules complémentaires personnalisés pour GenStudio for Performance Marketing. Si vous développez une application personnalisée pour un produit Adobe Creative Experience pour la première fois, familiarisez-vous avec le framework Adobe App Builder. Voir la [documentation d’App Builder](https://developer.adobe.com/app-builder/docs/overview/) pour obtenir des tutoriels et des discussions.
+Les développeurs utilisent Adobe App Builder pour créer des modules complémentaires personnalisés pour GenStudio for Performance Marketing. Si vous développez une application personnalisée pour un produit Adobe Creative Experience pour la première fois, familiarisez-vous avec le framework Adobe App Builder. Voir la [documentation d’](https://developer.adobe.com/app-builder/docs/overview/) pour obtenir des tutoriels et des discussions.
 
 ### Outils de développement
 

@@ -2,9 +2,9 @@
 title: Journey Optimizer pour GenStudio
 description: Installez et configurez l’application Journey Optimizer for GenStudio Adobe Exchange afin que votre entreprise puisse utiliser les modèles Adobe Journey Optimizer dans GenStudio for Performance Marketing.
 feature: Extensibility
-source-git-commit: fbec4567d960a6e3607c5e5e43057e2f22e9f6ea
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,20 @@ Cette rubrique est destinée aux **administrateurs et développeurs** qui instal
 
 ## Installation de l’application à partir d’Adobe Exchange
 
->[!VIDEO](https://video.tv.adobe.com/v/3483301?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
-1. Ouvrez [&#128279;](https://exchange.adobe.com) puis accédez à **[!UICONTROL Experience Cloud]**.
+1. Ouvrez [](https://exchange.adobe.com) et accédez à **[!UICONTROL CX Enterprise]**.
 1. Ouvrez la liste [Journey Optimizer for GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio).
    ![Liste Journey Optimizer for GenStudio sur Adobe Exchange, y compris les conditions requises et l’installation gratuite](/help/extensibility/ajo-adobe-exchange.png){width="75%"}
 1. Sélectionnez **[!UICONTROL Gratuit]** pour demander l’application pour votre organisation.
-1. Une fois que votre organisation a **révisé et approuvé** la demande, continuez avec [Création des informations d’identification OAuth dans Adobe Developer Console](#create-oauth-credentials-in-adobe-developer-console) et [&#x200B; Déploiement de l’application à partir d’Exchange](#deploy-the-application-from-exchange).
+1. Une fois que votre organisation a **révisé et approuvé** la demande, continuez avec [Création des informations d’identification OAuth dans Adobe Developer Console](#create-oauth-credentials-in-adobe-developer-console) et [ Déploiement de l’application à partir d’Exchange](#deploy-the-application-from-exchange).
 
 ## Création d’informations d’identification OAuth dans Adobe Developer Console
 
 Créez un **projet** dans le [Adobe Developer Console](https://developer.adobe.com/console/) qui fournit des informations d’identification OAuth pour l’API Journey Optimizer. Vous aurez besoin de valeurs telles que **ID client**, **Secret client**, **ID d’organisation** et **Portée** lorsque vous configurez l’application dans Exchange.
 
 1. Connectez-vous à Adobe Developer Console et créez un **projet**.
-1. Ajoutez l’API **Adobe Journey Optimizer (AJO)** au projet en cliquant sur **[!UICONTROL Ajouter une API]** et en sélectionnant **[!UICONTROL Adobe Journey Optimizer]** dans la liste des API de produit **[!DNL Experience Cloud]**.
+1. Ajoutez l’API **Adobe Journey Optimizer (AJO)** au projet en cliquant sur **[!UICONTROL Ajouter une API]** et en sélectionnant **[!UICONTROL Adobe Journey Optimizer]** dans la liste des API de produit **[!DNL CX Enterprise]**.
 1. Générez des informations d’identification dans l’espace de travail du projet et copiez **ID client**, **Secret client**, **ID d’organisation**, **Portée** et toute autre valeur demandée par votre flux de déploiement. Conservez-les en lieu sûr pour la section suivante.
 
 >[!NOTE]
@@ -47,7 +47,7 @@ Créez un **projet** dans le [Adobe Developer Console](https://developer.adobe.c
 
 ### Ouvrez l’application dans Gérer et ajoutez un environnement
 
-1. Revenez à [&#128279;](https://exchange.adobe.com).
+1. Revenez à [](https://exchange.adobe.com).
 1. Sélectionnez **[!UICONTROL Gérer]** et ouvrez **[!UICONTROL les applications App Builder]** (ou le chemin d’accès de votre organisation aux applications gérées).
 1. Sélectionnez **Journey Optimizer pour GenStudio** et vérifiez que l’application est **approuvée**.
 1. Sous **[!UICONTROL Environnements]**, choisissez un environnement existant dans le menu déroulant **Environnements :** ou sélectionnez **[!UICONTROL Ajouter un environnement]** pour en créer un.
@@ -79,9 +79,9 @@ Affichez l’extension sous **[!UICONTROL Administrateur de Parcours]** dans AJO
 
 **Voir aussi** (contrôle d’accès Journey Optimizer) :
 
-* [Contrôle d’accès](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Autorisations dans Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/access-control/permissions)
-* [Prise en main pour les administrateurs système](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [Contrôle d’accès](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Autorisations dans Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [Prise en main pour les administrateurs système](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## Accès aux modèles AJO dans GenStudio
 
