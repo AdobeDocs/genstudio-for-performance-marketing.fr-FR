@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 694
 ht-degree: 0%
@@ -36,7 +36,7 @@ En tant qu’approbateur désigné, vous pouvez accéder au contenu à réviser 
 
 * **Accédez au brouillon pour révision directement à partir du lien du brouillon dans la demande d’approbation**. Cliquez sur le lien du brouillon dans l’e-mail de demande d’approbation ou dans la notification intégrée au produit. La zone de travail s’ouvre, affichant la ressource ou l’expérience. Le panneau _Approbation_ s’affiche à droite.
 
-* **Accédez au brouillon à réviser à partir de la liste des demandes d’approbation**. Si vous êtes invité à examiner plusieurs brouillons de contenu, l’e-mail de notification comprend un bouton **[!UICONTROL Afficher toutes les notifications]**. Cliquez sur ce bouton pour accéder à une page qui affiche toutes les notifications que vous avez reçues, y compris les demandes d’approbation et les notifications que vous avez activées à partir d’autres produits Adobe Experience Cloud.
+* **Accédez au brouillon à réviser à partir de la liste des demandes d’approbation**. Si vous êtes invité à examiner plusieurs brouillons de contenu, l’e-mail de notification comprend un bouton **[!UICONTROL Afficher toutes les notifications]**. Cliquez sur ce bouton pour accéder à une page qui affiche toutes les notifications que vous avez reçues, y compris les demandes d’approbation et les notifications que vous avez activées à partir d’autres produits Adobe CX Enterprise.
 
 ## Accès au contenu pour révision
 

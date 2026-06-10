@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 890
 ht-degree: 0%
@@ -29,7 +29,7 @@ Le workflow de révision et d’approbation garantit que toutes les parties pren
 
 >[!NOTE]
 >
->Cette fonctionnalité est également disponible en tant qu’[intégration à Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Cette intégration fournit des fonctionnalités de BAT dans la zone de travail GenStudio for Performance Marketing. Grâce à l’intégration de Workfront Proof, GenStudio for Performance Marketing bénéficie d’un processus d’examen plus structuré, transparent et collaboratif, ce qui permet aux équipes de passer de la version préliminaire à la version finale avec plus de confiance et de clarté.
+> Cette fonctionnalité est également disponible en tant qu’[intégration à Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Cette intégration fournit des fonctionnalités de BAT dans la zone de travail GenStudio for Performance Marketing. Grâce à l’intégration de Workfront Proof, GenStudio for Performance Marketing bénéficie d’un processus d’examen plus structuré, transparent et collaboratif, ce qui permet aux équipes de passer de la version préliminaire à la version finale avec plus de confiance et de clarté.
 
 ## Avantages des workflows de révision et d’approbation
 
@@ -69,7 +69,7 @@ Statuts de brouillon disponibles :
 
 >[!NOTE]
 >
->Les brouillons correspondent aux _BAT_ pour les utilisateurs de l’intégration Workfront Proof. [Les brouillons et les épreuves](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) diffèrent en termes de persistance et de contrôle de version.
+> Les brouillons correspondent aux _BAT_ pour les utilisateurs de l’intégration Workfront Proof. [Les brouillons et les épreuves](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) diffèrent en termes de persistance et de contrôle de version.
 
 ## Rôles d&#39;approbation
 
@@ -79,7 +79,7 @@ _Les réviseurs et réviseuses_ peuvent ajouter des commentaires, mais ne peuven
 
 Les notifications intégrées au produit GenStudio for Performance Marketing mettent à jour les approbateurs et les éditeurs de contenu en temps réel des changements de statut des ressources et des commentaires `@mention`. Les notifications prennent en charge une itération rapide tout au long des multiples cycles de révision, de modification et d’approbation.
 
-Les éditeurs et approbateurs de contenu peuvent s’inscrire pour recevoir ces notifications dans Slack. Voir [S’abonner à des services dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/customer-attributes/subscription).
+Les éditeurs et approbateurs de contenu peuvent s’inscrire pour recevoir ces notifications dans Slack. Voir [S’abonner à des services dans CX Enterprise](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/customer-attributes/subscription).
 
 Les actions entreprises par les participants à l’approbation déclenchent des notifications automatiques internes au produit et des notifications par e-mail. Lorsque vous lancez un processus d’approbation, les approbateurs désignés reçoivent des notifications par e-mail et internes au produit. Vous êtes tenu au courant grâce aux notifications intégrées au produit et aux notifications par e-mail chaque fois qu’un approbateur ajoute `@mention` commentaires ou prend une décision. Les notifications incluent des liens vers le brouillon de contenu.
 

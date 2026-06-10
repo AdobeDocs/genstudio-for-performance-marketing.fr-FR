@@ -1,6 +1,6 @@
 ---
 title: Présentation de l’option Activer
-description: Découvrez comment activer du contenu avec Adobe Experience Cloud et des applications tierces.
+description: Découvrez comment activer du contenu avec Adobe CX Enterprise et des applications tierces.
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 # Activation d’Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing [!DNL Activate] fournit un emplacement central pour préparer votre expérience publicitaire en vue de son activation pour sélectionner des canaux publicitaires payants. _Activation_ processus de préparation des expériences publicitaires, des ressources et du texte en tant qu’expérience publicitaire créative conçue spécifiquement pour être placée sur un canal payant spécifique. L’activation diffuse l’expérience créative sur les canaux désignés dans un état inactif, prêt pour la révision finale et le déploiement à partir du canal. Les expériences publicitaires peuvent ensuite être distribuées sur les marchés auxquels elles sont destinées.
+GenStudio for Performance Marketing [!DNL Activate] fournit un emplacement central pour préparer votre expérience publicitaire en vue de son activation pour sélectionner des canaux publicitaires payants. Le _Activation_ est le processus de préparation des expériences publicitaires, des ressources et du texte en tant qu’expérience publicitaire créative spécifiquement conçue pour être placée sur un canal payant spécifique. L’activation diffuse l’expérience créative sur les canaux désignés dans un état inactif, prêt pour la révision finale et le déploiement à partir du canal. Les expériences publicitaires peuvent ensuite être distribuées sur les marchés auxquels elles sont destinées.
 
 Les éditeurs de contenu et les gestionnaires de système peuvent publier des expériences dont les ressources sont générées dans ou chargées dans GenStudio for Performance Marketing.
 
@@ -42,7 +42,7 @@ Chaque compte de canal média payant doit être connecté à GenStudio for Perfo
 
 * [Créer une activation](create-activation.md). Vous pouvez créer une expérience publicitaire en sélectionnant des ressources visuelles, en attribuant du texte et en définissant des métadonnées avant de passer à un canal payant.
 
-* [Gérer les activations](manage-activations.md). _[!DNL Activate]_&#x200B;fournit un aperçu de toutes les expériences activées. Vous pouvez également afficher les détails de chaque activation.
+* [&#x200B; Gérer les activations &#x200B;](manage-activations.md). _[!DNL Activate]_&#x200B;fournit un aperçu de toutes les expériences activées. Vous pouvez également afficher les détails de chaque activation.
 
 ## Activer les fonctionnalités
 
