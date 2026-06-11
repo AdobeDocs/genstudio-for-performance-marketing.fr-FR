@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: 729
-ht-degree: 88%
+source-wordcount: 794
+ht-degree: 81%
 
 ---
 
@@ -234,6 +234,18 @@ Dans la section _Récents_ de [!DNL Create], vous pouvez accéder à tous les br
 Les brouillons sont automatiquement enregistrés et affichés dans la section _Récents_ de [!DNL Create] page d’accueil. Chaque brouillon de cette section affiche un statut, tel que _Brouillon_ ou _Approuvé_.
 
 Cliquez sur l’icône en forme de galerie (grille) pour afficher les éléments _récents_ en mode grille ou tableau.
+
+### Édition collaborative
+
+Les créateurs de brouillons peuvent désormais partager leurs brouillons avec leurs collaborateurs, attribuer des rôles et travailler à la création de contenu ensemble en temps réel. Cette fonctionnalité offre quelques avantages significatifs en termes de workflow, au-delà de la simple révision et approbation :
+
+* **Collaboration facile sur un brouillon existant** avec des notifications rapides, sans avoir à recréer ou exporter quoi que ce soit.
+
+* **La coédition en temps réel** entre les membres de l’équipe est active sans actualisation ni fusion de fichiers par la suite.
+
+* **Accès en lecture seule** pour que les parties prenantes curieuses puissent afficher la zone de travail avant le début du flux R&amp;A.
+
+Découvrez comment [utiliser la modification collaborative avec vos brouillons](collaborative-editing.md).
 
 ### Gérer les variantes
 

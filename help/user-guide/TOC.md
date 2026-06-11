@@ -5,10 +5,10 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 87%
+source-wordcount: '277'
+ht-degree: 86%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 87%
    + [Afficher les expériences publicitaires](create/display-ad-experiences.md)
    + [Expériences de bannière](create/banner-experiences.md)
    + [Gérer les variantes](create/manage-variants.md)
+   + [Modification collaborative](create/collaborative-editing.md)
    + [Utiliser la permutation de logo](create/logo-swap.md)
    + [Configurer la permutation de logo dans les modèles](create/logo-swap-setup.md)
    + [Créer une expérience d’e-mail](create/create-email-experience.md)
