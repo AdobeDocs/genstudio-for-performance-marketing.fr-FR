@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
+source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 77%
+source-wordcount: 1793
+ht-degree: 76%
 
 ---
 
@@ -219,6 +219,9 @@ Un fichier ZIP est créé dans le panneau du plug-in ou un lien vers **[!UICONTR
 
 Vous pouvez utiliser le module externe Figma pour convertir un cadre Figma, plusieurs cadres ou un document entier au format Photoshop et l’exporter pour l’utiliser avec [GenStudio Photoshop](photoshop-plugin.md). Actuellement, seules les propriétés majeures telles que la visibilité, la taille de police et les attributs de calque de base sont prises en charge lors de la conversion. Les fonctions telles que les caractères barrés, les exposants, les indices, l’opacité en pourcentages, les dégradés et d’autres propriétés avancées similaires ne sont pas encore prises en charge.
 
+<!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+
 Le plug-in prend en charge les types de calques Figma suivants pour la conversion :
 
 * **Cadre**
@@ -245,6 +248,11 @@ Pour convertir des images :
 
 1. Ouvrez le plug-in Firefly Enterprise et GenStudio dans Figma, puis cliquez sur l’onglet **[!UICONTROL Exporter]** dans l’interface utilisateur du plug-in.
 1. Sur la zone de travail, sélectionnez le ou les cadres à exporter. Vous pouvez choisir une ou plusieurs images.
+
+   >[!NOTE]
+   >
+   > Les images ne peuvent pas se trouver dans une section pendant la conversion. Sélectionnez les cadres qui ne sont pas imbriqués dans un nœud de section.
+
 1. Pour migrer les images sélectionnées, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **[!UICONTROL Exporter]** pour exporter le fichier converti vers un emplacement choisi, ou
