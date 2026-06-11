@@ -5,22 +5,15 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 77%
+source-wordcount: 1793
+ht-degree: 76%
 
 ---
 
@@ -42,7 +35,7 @@ Les fonctionnalités de ce plug-in incluent :
 * Exportez les [!DNL Experiences] générés vers GenStudio for Performance Marketing.
 * Utilisez des options de module externe qui s’adaptent aux éléments sélectionnés dans la zone de travail Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478811?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Créer un modèle
 
@@ -138,7 +131,7 @@ Utilisez l’IA dédiée au GenStudio for Performance Marketing pour générer o
 1. Sélectionnez le nombre de variations à produire (huit au maximum).
 1. Utilisez le bouton sous **[!UICONTROL Sélectionner le contenu]** pour parcourir et choisir des images dans vos ressources. Les 40 ressources ajoutées le plus récemment apparaissent en premier et vous pouvez rechercher d’autres ressources. Les images sélectionnées sont automatiquement redimensionnées pour s’adapter à vos modèles.
 1. Saisissez une invite de texte. L’option **[!UICONTROL Action]** de chaque champ de la liste **[!UICONTROL Champs]** est définie sur **[!UICONTROL Générer]** pour le nouveau contenu.
-1. Mappez tous les rôles de champ. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+1. Mappez tous les rôles de champ. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 1. Cliquez sur le bouton **[!UICONTROL Générer]**.
 
 ## Traduire ou générer et copier des variations d’un contenu existant
@@ -154,7 +147,7 @@ Utilisez l’IA dédiée aux GenStudio for Performance Marketing pour générer 
 1. Sélectionnez le nombre de variations à produire.
 1. Utilisez le bouton sous **[!UICONTROL Sélectionner le contenu]** pour parcourir et choisir des images dans vos ressources. Les 40 ressources ajoutées le plus récemment apparaissent en premier et vous pouvez rechercher d’autres ressources. Les images sélectionnées sont automatiquement redimensionnées pour s’adapter à vos modèles.
 1. Saisissez une invite de texte. L’option **[!UICONTROL Action]** de chaque champ de la liste **[!UICONTROL Champs]** est définie sur **[!UICONTROL Générer]** pour le nouveau contenu.
-1. Mappez tous les rôles de champ. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+1. Mappez tous les rôles de champ. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 1. Sélectionnez chaque type de champ pour générer des variations ou effectuer une traduction dans le panneau sur le côté gauche du plug-in, puis collez le contenu initial dans chaque zone **[!UICONTROL Contenu initial]**.
    ![Exemple de texte dans la zone Contenu initial](./initial-content-box.png){width="60%" zoomable="yes"}
 1. Cliquez sur le bouton **[!UICONTROL Générer]**.
@@ -201,7 +194,7 @@ Les variations peuvent être exportées à partir de Figma en tant que [!DNL Exp
 
 1. Sélectionnez le contenu à exporter dans la zone de travail Graphique en effectuant l’une des opérations suivantes :
    * Sélectionnez la section de génération dans la zone de travail, puis cliquez sur **[!UICONTROL Tout marquer pour l’exportation]** dans le panneau du plug-in.
-     ![&#x200B; Sélection de la section de génération &#x200B;](./select-generation-section.png){width="20%" zoomable="yes"}
+     ![ Sélection de la section de génération ](./select-generation-section.png){width="20%" zoomable="yes"}
    * Sélectionnez une génération individuelle dans la zone de travail, puis cliquez sur **[!UICONTROL Marquer pour l’exportation]** dans le panneau du plug-in.
      ![Sélection de génération individuelle](./select-generation.png){width="20%" zoomable="yes"}
 1. Sélectionnez l’élément Exporter dans le menu de la barre latérale.
@@ -218,6 +211,9 @@ Un fichier ZIP est créé dans le panneau du plug-in ou un lien vers **[!UICONTR
 > Pour effectuer cette tâche, vous avez besoin du plug-in Figma et de [GenStudio Photoshop](photoshop-plugin.md).
 
 Vous pouvez utiliser le module externe Figma pour convertir un cadre Figma, plusieurs cadres ou un document entier au format Photoshop et l’exporter pour l’utiliser avec [GenStudio Photoshop](photoshop-plugin.md). Actuellement, seules les propriétés majeures telles que la visibilité, la taille de police et les attributs de calque de base sont prises en charge lors de la conversion. Les fonctions telles que les caractères barrés, les exposants, les indices, l’opacité en pourcentages, les dégradés et d’autres propriétés avancées similaires ne sont pas encore prises en charge.
+
+<!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
 
 Le plug-in prend en charge les types de calques Figma suivants pour la conversion :
 
@@ -245,6 +241,11 @@ Pour convertir des images :
 
 1. Ouvrez le plug-in Firefly Enterprise et GenStudio dans Figma, puis cliquez sur l’onglet **[!UICONTROL Exporter]** dans l’interface utilisateur du plug-in.
 1. Sur la zone de travail, sélectionnez le ou les cadres à exporter. Vous pouvez choisir une ou plusieurs images.
+
+   >[!NOTE]
+   >
+   > Les images ne peuvent pas se trouver dans une section pendant la conversion. Sélectionnez les cadres qui ne sont pas imbriqués dans un nœud de section.
+
 1. Pour migrer les images sélectionnées, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **[!UICONTROL Exporter]** pour exporter le fichier converti vers un emplacement choisi, ou
@@ -267,7 +268,7 @@ Pour convertir des images :
      ![Bouton Télécharger JSON](./upload-json.png){width="40%"}
 1. GenStudio Photoshop convertit les informations du document JSON en document Photoshop ouvert.
 1. Cliquez sur **[!UICONTROL Terminé]**. Le nouveau fichier s’ouvre dans Photoshop et est prêt à l’emploi. Ou cliquez sur **[!UICONTROL Enregistrer sous...]** pour choisir un emplacement d’enregistrement du fichier.
-   ![&#x200B; Boîte de dialogue du bouton Terminé &#x200B;](./import-done-button.png){width="40%"}
+   ![ Boîte de dialogue du bouton Terminé ](./import-done-button.png){width="40%"}
 
 ## Historique de génération
 
@@ -281,7 +282,7 @@ Tenez compte de ces bonnes pratiques et conseils si le texte ou les images ne so
 
 ### Champs mappés
 
-Si le texte ou les images ne sont pas remplacés, vérifiez que les champs ont été mappés à des rôles de champ GenStudio dans l’interface utilisateur du plug-in. Voir [&#x200B; Mappage du rôle de champ &#x200B;](#field-role-mapping).
+Si le texte ou les images ne sont pas remplacés, vérifiez que les champs ont été mappés à des rôles de champ GenStudio dans l’interface utilisateur du plug-in. Voir [ Mappage du rôle de champ ](#field-role-mapping).
 
 ### Confirmer que les polices sont disponibles
 
