@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
+source-git-commit: c3c6aa86f4f520d020f8928612d1be6be1599652
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Si de nouvelles informations appartiennent au document, placez-les sous l’en-t
 
 Travaillez dans cet ordre. Copiez la liste de contrôle et suivez la progression pour les modifications à plusieurs étapes.
 
+&#x200B;0. [ ] Si **Jira** et **Confluence** MCP sont disponibles, exécutez [consume-release-sources](../consume-release-sources/SKILL.md) d’abord pour ingérer le ticket de travail, le wiki de cérémonie (groupes de fonctionnalités GA et Beta) et les pages KT. Si MCP n’est pas disponible, utilisez le contenu KT/wiki collé et le mappage de champ [reference.md](reference.md#internal-sources-kt-and-release-wikis).
 1. [ ] Ouvrir le `help/user-guide/release-notes.md` et lire le bloc de `## YYYY.MM {#latest}` actif. Traitez les **notes de mise à jour antérieures** comme du contexte **lecture seule** sauf si vous effectuez l’étape d’archivage de l’étape 2.
 2. [ ] Si vous ajoutez une **nouvelle** version mensuelle : archivez la dernière version (voir [Archiver la dernière version précédente](#archive-previous-latest)).
 3. [ ] Ajouter ou modifier **uniquement** la section des `## YYYY.MM {#latest}` principaux (le mois le plus récent en haut de la liste des versions).
@@ -130,7 +131,7 @@ Avant d’effectuer la tâche :
 
 ## Sources de contenu (résumé)
 
-Lors de l’extraction en interne de documents de transfert de connaissances ou de wikis de version, mappez les champs comme décrit dans [reference.md](reference.md#internal-sources-kt-and-release-wikis). La page fournie doit être lue en tant que documentation utilisateur autonome.
+Lorsque **Jira/Confluence MCP** est disponible, commencez par [consume-release-sources](../consume-release-sources/SKILL.md) (wiki de cérémonie → pages KT → remise structurée). Sinon, mappez les champs wiki de transfert de connaissances collés ou de publication comme décrit dans [reference.md](reference.md#internal-sources-kt-and-release-wikis). La page fournie doit être lue en tant que documentation utilisateur autonome.
 
 ## Facultatif : publiez de nouvelles sous-sections
 

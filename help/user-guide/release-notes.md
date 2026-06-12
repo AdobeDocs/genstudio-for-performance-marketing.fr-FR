@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
+source-git-commit: 8e00ddcb542ae0b8965f2ea7135d184c14b51fa3
 workflow-type: tm+mt
-source-wordcount: 5016
+source-wordcount: 5284
 ht-degree: 0%
 
 ---
@@ -50,7 +50,39 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2026.05.15 {#latest}
+## 2026.06.11 {#latest}
+
+**NOUVELLES FONCTIONNALITÉS**
+
+### YouTube Shorts en [!DNL Create] et [!DNL Activate]
+
+La vidéo courte est désormais un canal régi en [!DNL GenStudio for Performance Marketing]. Créez et activez le Shorts YouTube intégré à la marque dans le workflow de [!DNL Create] avec des mécanismes de sécurisation de marque, de produit et d’identité appliqués dès le départ.
+
+L’activation ferme la boucle sans transfert manuel : insérez Shorts dans les campagnes de génération de la demande des publicités Google ou chargez-les sous forme de vidéos non répertoriées sur YouTube lorsque votre équipe traite des publicités YouTube par le biais de DV360.
+
+### Activation de la vidéo CM360
+
+Les publicités à affichage vidéo créées dans [!DNL GenStudio for Performance Marketing] ne s’arrêtent plus à la porte d’activation CM360. Sélectionnez des expériences vidéo régies à partir du canal d’affichage, prévisualisez-les dans le workflow d’activation et [publiez des contenus publicitaires directement dans Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) avec les formats d’image et HTML5.
+
+### Campagnes de promotion de l’application Meta dans [!DNL Activate]
+
+Les marketeurs sur applications mobiles peuvent désormais [activer des expériences dans des campagnes Meta](/help/user-guide/activation/activate-meta-ad.md) avec l&#39;objectif Promotion d&#39;application , y compris les jeux d&#39;annonces qui ciblent les installations d&#39;application et les événements d&#39;application. Auparavant, seuls les objectifs de campagne non-app étaient pris en charge.
+
+### Traduction sur la toile Horizon
+
+La traduction prête à l’emploi s’étend désormais aux expériences multimédia payantes sur la zone de travail Horizon, afin que les équipes régionales puissent localiser les brouillons Meta, LinkedIn et Display approuvés sans exporter de copie vers des outils externes.
+
+Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md) pour le workflow de traduction au sens large.
+
+### Plusieurs images par capsule dans les modèles d’e-mail
+
+Les modèles d’e-mail dans [!DNL Create] peuvent désormais transporter plusieurs images dans un seul pod, ce qui permet aux concepteurs et conceptrices d’accéder à des dispositions plus riches pour les héros, des galeries de produits et des storytelling à plusieurs ressources sans diviser le contenu en sections supplémentaires.
+
+Chargez ou créez des modèles avec les champs d’image supplémentaires, puis générez des variantes sur la marque qui respectent la structure de votre capsule. Voir [Expériences e-mail](/help/user-guide/create/email-experiences.md) pour le workflow d’e-mail de bout en bout.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2026.05.15
 
 ### Édition collaborative sur la zone de travail Horizon
 
@@ -80,7 +112,7 @@ Les entreprises qui nécessitent un **[!UICONTROL Brand Manager]** ou une versio
 
 L’IA conversationnelle est une nouvelle surface de média payante, et [!DNL GenStudio for Performance Marketing] transporte désormais ChatGPT de bout en bout. [Créez des expériences publicitaires ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) avec des variantes de copie sur la marque, exécutez des vérifications de marque et de canal, acheminez le travail par le biais d’approbations et publiez des expériences approuvées dans les [!DNL Content] pour les réutiliser et les activer.
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2026.04.16
 
