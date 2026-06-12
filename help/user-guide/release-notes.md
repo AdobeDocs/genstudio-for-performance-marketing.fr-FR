@@ -5,43 +5,14 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8e00ddcb542ae0b8965f2ea7135d184c14b51fa3
 workflow-type: tm+mt
-source-wordcount: 5016
+source-wordcount: 5284
 ht-degree: 0%
 
 ---
@@ -50,7 +21,39 @@ ht-degree: 0%
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2026.05.15 {#latest}
+## 2026.06.11 {#latest}
+
+**NOUVELLES FONCTIONNALITÉS**
+
+### YouTube Shorts en [!DNL Create] et [!DNL Activate]
+
+La vidéo courte est désormais un canal régi en [!DNL GenStudio for Performance Marketing]. Créez et activez le Shorts YouTube intégré à la marque dans le workflow de [!DNL Create] avec des mécanismes de sécurisation de marque, de produit et d’identité appliqués dès le départ.
+
+L’activation ferme la boucle sans transfert manuel : insérez Shorts dans les campagnes de génération de la demande des publicités Google ou chargez-les sous forme de vidéos non répertoriées sur YouTube lorsque votre équipe traite des publicités YouTube par le biais de DV360.
+
+### Activation de la vidéo CM360
+
+Les publicités à affichage vidéo créées dans [!DNL GenStudio for Performance Marketing] ne s’arrêtent plus à la porte d’activation CM360. Sélectionnez des expériences vidéo régies à partir du canal d’affichage, prévisualisez-les dans le workflow d’activation et [publiez des contenus publicitaires directement dans Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) avec les formats d’image et HTML5.
+
+### Campagnes de promotion de l’application Meta dans [!DNL Activate]
+
+Les marketeurs sur applications mobiles peuvent désormais [activer des expériences dans des campagnes Meta](/help/user-guide/activation/activate-meta-ad.md) avec l&#39;objectif Promotion d&#39;application , y compris les jeux d&#39;annonces qui ciblent les installations d&#39;application et les événements d&#39;application. Auparavant, seuls les objectifs de campagne non-app étaient pris en charge.
+
+### Traduction sur la toile Horizon
+
+La traduction prête à l’emploi s’étend désormais aux expériences multimédia payantes sur la zone de travail Horizon, afin que les équipes régionales puissent localiser les brouillons Meta, LinkedIn et Display approuvés sans exporter de copie vers des outils externes.
+
+Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md) pour le workflow de traduction au sens large.
+
+### Plusieurs images par capsule dans les modèles d’e-mail
+
+Les modèles d’e-mail dans [!DNL Create] peuvent désormais transporter plusieurs images dans un seul pod, ce qui permet aux concepteurs et conceptrices d’accéder à des dispositions plus riches pour les héros, des galeries de produits et des storytelling à plusieurs ressources sans diviser le contenu en sections supplémentaires.
+
+Chargez ou créez des modèles avec les champs d’image supplémentaires, puis générez des variantes sur la marque qui respectent la structure de votre capsule. Voir [Expériences e-mail](/help/user-guide/create/email-experiences.md) pour le workflow d’e-mail de bout en bout.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2026.05.15
 
 ### Édition collaborative sur la zone de travail Horizon
 
@@ -80,7 +83,7 @@ Les entreprises qui nécessitent un **[!UICONTROL Brand Manager]** ou une versio
 
 L’IA conversationnelle est une nouvelle surface de média payante, et [!DNL GenStudio for Performance Marketing] transporte désormais ChatGPT de bout en bout. [Créez des expériences publicitaires ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) avec des variantes de copie sur la marque, exécutez des vérifications de marque et de canal, acheminez le travail par le biais d’approbations et publiez des expériences approuvées dans les [!DNL Content] pour les réutiliser et les activer.
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2026.04.16
 
@@ -115,7 +118,7 @@ La zone de travail prend en charge les fonctionnalités de modèle, notamment :
 * Modification de WYSIWYG pour les éléments de modèle
 * commandes plus riches pour le texte, le remplacement de média, le remplacement de logo, le recadrage vidéo, etc
 
-Pour plus d’informations, consultez la section [&#x200B; Utilisation de modèles Adobe Express dans GenStudio for Performance Marketing &#x200B;](/help/user-guide/templates/express-templates.md).
+Pour plus d’informations, consultez la section [ Utilisation de modèles Adobe Express dans GenStudio for Performance Marketing ](/help/user-guide/templates/express-templates.md).
 
 ### Contenu TikTok dans GenStudio for Performance Marketing
 
@@ -163,7 +166,7 @@ Les marketeurs peuvent désormais permuter dynamiquement les logos dans les mod�
 
 ### Traduction prête à l’emploi pour les médias payants et les e-mails
 
-* Traduisez instantanément les expériences de médias achetés et d’e-mails approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
+* Traduisez instantanément les expériences de médias achetés et d’e-mails approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 * Grâce aux services de traduction Open AI d’Azure, les équipes peuvent traduire du contenu en masse dans plusieurs langues cibles simultanément.
 
 ### Exportation de PDF pour les expériences
@@ -360,7 +363,7 @@ Avec le contenu de l’image, vous pouvez désormais ajouter des vidéos aux pub
 
 * Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/activate-linkedin-ad.md) de GenStudio for Performance Marketing vers LinkedIn Campaign Manager. [!DNL Activate] prend en charge les aperçus d’annonces publicitaires LinkedIn détaillés avant la publication sur LinkedIn Campaign Manager.
 
-* L&#39;intégration de [&#128279;](/help/user-guide/approvals/overview.md) apporte les fonctionnalités robustes de révision et d&#39;approbation de Proof à GenStudio for Performance Marketing. Le contenu révisé dans GenStudio for Performance Marketing se synchronise avec Workfront Proof et les commentaires et le statut de révision sont conservés.
+* L&#39;intégration de [](/help/user-guide/approvals/overview.md) apporte les fonctionnalités robustes de révision et d&#39;approbation de Proof à GenStudio for Performance Marketing. Le contenu révisé dans GenStudio for Performance Marketing se synchronise avec Workfront Proof et les commentaires et le statut de révision sont conservés.
 
 * Possibilité de [fournir des noms accessibles pour les images et les liens call-to-action](/help/user-guide/create/manage-variants.md#add-accessibility-labels) dans vos variantes en ajoutant des libellés d’accessibilité (libellés Aria).
 
@@ -408,7 +411,7 @@ Les marketeurs peuvent désormais [publier des expériences publicitaires](/help
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."}
 
-Ajout de la prise en charge de la [&#x200B; création d’expériences LinkedIn &#x200B;](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+Ajout de la prise en charge de la [ création d’expériences LinkedIn ](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Annonce publicitaire LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Créer des expériences de bannière
 
@@ -431,7 +434,7 @@ Le nouveau GenStudio for Performance Marketing [framework d’extensibilité](/h
   ![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="500" zoomable="yes"}
 
 * **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image. Voir [Personnaliser un modèle : lien sur une image](/help/user-guide/templates/customize-template.md#link-on-image).
-* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [&#x200B; Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
+* **Modèles AJO et Marketo**—Téléchargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Voir [ Utilisation de modèles provenant d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correctifs et améliorations
 
