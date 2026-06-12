@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -108,3 +108,5 @@ Lorsque votre entreprise active la permutation de fragments de contenu, vous pou
 ![Volet UI des fragments de contenu](./cf-pane.png){width="500" zoomable="yes"}
 
 Votre entreprise choisit les sources de fragments de contenu et les référentiels disponibles. Voir [Rechercher l’extension de fragment de contenu](/help/extensibility/deploy-app.md#find-content-fragment-extension) pour savoir comment les administrateurs configurent les sources et comment les auteurs permutent la copie de la zone de travail avec **[!UICONTROL permuter]**.
+
+Vous pouvez également traduire une expérience d’e-mail approuvée dans plusieurs langues sur la zone de travail d’HTML. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 126
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA gén
 Lors de la génération de l’affichage et des expériences, quatre variations sont créées et affichées dans la zone de travail.
 
 Consultez [Instructions relatives à l’affichage des modèles d’annonce publicitaire](/help/user-guide/templates/display-template.md) pour plus d’informations sur les dimensions prises en charge, les noms de champs reconnus, etc.
+
+Vous pouvez traduire une expérience d’annonce publicitaire approuvée dans plusieurs langues sur la zone de travail d’HTML. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 
 Les sections modifiables d’un affichage et d’une expérience sont les suivantes :
 

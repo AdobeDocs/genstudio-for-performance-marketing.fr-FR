@@ -1,5 +1,5 @@
 ---
-title: Présentation d’Adobe GenStudio for Performance Marketing [!DNL Content]
+title: Présentation d’ [!DNL Content]
 description: Découvrez comment rechercher, modifier, réutiliser et partager des ressources approuvées par la marque dans un portail intuitif unique.
 level: Beginner
 feature: Content Management, Media Templates
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -100,3 +100,8 @@ Lorsque vous enregistrez des ressources approuvées, [!DNL Content] conserve la 
 ### Utilisation de modèles
 
 Les modèles accélèrent le processus de création afin que vous puissiez générer du contenu cohérent sur plusieurs canaux. Chargez votre modèle personnalisé pour l’utiliser comme point de départ dans le processus de création avec des dispositions et des éléments de conception préconfigurés. Découvrez les éléments et procédures de base des modèles dans [Utilisation de modèles](../templates/use-templates.md). Explorez en détail la création de modèles avec la rubrique [&#x200B; Personnaliser un modèle &#x200B;](../templates/customize-template.md).
+
+### Traduire les expériences approuvées
+
+Vous pouvez traduire des expériences de médias achetés et par e-mail approuvées dans plusieurs langues directement à partir de la galerie _[!UICONTROL Expériences]_ [!DNL Content] ou de la page de destination [!DNL Create]. Voir [Traduire à partir du contenu](../create/translate-experiences.md#translate-from-content) ou [Traduire à partir de la création](../create/translate-experiences.md#translate-from-create).
+

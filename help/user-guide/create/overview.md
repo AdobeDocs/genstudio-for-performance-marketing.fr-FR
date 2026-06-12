@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
+source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
 workflow-type: tm+mt
-source-wordcount: 794
-ht-degree: 81%
+source-wordcount: 820
+ht-degree: 79%
 
 ---
 
@@ -234,6 +234,10 @@ Dans la section _Récents_ de [!DNL Create], vous pouvez accéder à tous les br
 Les brouillons sont automatiquement enregistrés et affichés dans la section _Récents_ de [!DNL Create] page d’accueil. Chaque brouillon de cette section affiche un statut, tel que _Brouillon_ ou _Approuvé_.
 
 Cliquez sur l’icône en forme de galerie (grille) pour afficher les éléments _récents_ en mode grille ou tableau.
+
+### Traduire et localiser
+
+Vous pouvez traduire des expériences de médias achetés et par e-mail approuvées dans plusieurs langues à partir de la page de destination [!DNL Create] ou de [!DNL Content]. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 
 ### Édition collaborative
 

@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 1518
+source-wordcount: 1546
 ht-degree: 1%
 
 ---
@@ -153,6 +153,10 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont stockées par déf
 1. Dans l’affichage des ressources, cliquez sur **[!UICONTROL Supprimer]** (corbeille) en haut à droite.
 
 1. Dans la fenêtre contextuelle _Supprimer l’élément_, vérifiez l’élément et cliquez sur **[!UICONTROL Supprimer]**.
+
+## Traduire les expériences
+
+Vous pouvez traduire une expérience approuvée dans une ou plusieurs langues à partir de la galerie _[!UICONTROL Expériences]_ ou d’une vue détaillée de l’expérience. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md#translate-from-content).
 
 ## Exporter des expériences
 
