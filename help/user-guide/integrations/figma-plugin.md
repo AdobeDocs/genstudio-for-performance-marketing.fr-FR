@@ -220,7 +220,7 @@ Un fichier ZIP est créé dans le panneau du plug-in ou un lien vers **[!UICONTR
 Vous pouvez utiliser le module externe Figma pour convertir un cadre Figma, plusieurs cadres ou un document entier au format Photoshop et l’exporter pour l’utiliser avec [GenStudio Photoshop](photoshop-plugin.md). Actuellement, seules les propriétés majeures telles que la visibilité, la taille de police et les attributs de calque de base sont prises en charge lors de la conversion. Les fonctions telles que les caractères barrés, les exposants, les indices, l’opacité en pourcentages, les dégradés et d’autres propriétés avancées similaires ne sont pas encore prises en charge.
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492273?captions=fre_fr&learn=on)
 
 Le plug-in prend en charge les types de calques Figma suivants pour la conversion :
 
