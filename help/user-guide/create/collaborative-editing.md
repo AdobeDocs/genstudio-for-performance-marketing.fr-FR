@@ -4,9 +4,9 @@ description: Découvrez comment partager des brouillons de médias achetés avec
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 80f96e0db22ab9215660991f0833da719bdc6393
+source-git-commit: 519c4d0273c996dbebcc28ee90a6b31006581305
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 5%
 
 ---
@@ -30,11 +30,11 @@ L’édition collaborative sur la zone de travail Horizon offre les fonctionnali
 
 Tous les collaborateurs invités peuvent ouvrir et afficher le brouillon. Le tableau suivant répertorie les actions de modification et de workflow par rôle.
 
-| Rôle | Modification des éléments du plan de travail | Modifier les champs Chrome | Partager le brouillon | Lancer la révision et l’approbation | Publier | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[!UICONTROL Personne propriétaire]** | Oui | Oui | Oui | Oui | Oui | Créateur de document uniquement |
-| **[!UICONTROL Éditeur]** | Oui | Oui | Oui | Oui | Oui | Utilisateurs explicitement invités en tant qu’**[!UICONTROL Éditeur]** |
-| **[!UICONTROL Observateur]** | Non | Non | Non | Non | Non | Utilisateurs invités en tant que **[!UICONTROL Visionneuse]** |
+| Rôle | Modification des éléments du plan de travail | Modifier les champs Chrome | Partager le brouillon | Supprimer le brouillon | Lancer la révision et l’approbation | Publier | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **[!UICONTROL Personne propriétaire]** | Oui | Oui | Oui | Oui | Oui | Oui | Créateur de document uniquement |
+| **[!UICONTROL Éditeur]** | Oui | Oui | Oui | Non | Oui | Oui | Utilisateurs explicitement invités en tant qu’**[!UICONTROL Éditeur]** |
+| **[!UICONTROL Observateur]** | Non | Non | Non | Non | Non | Non | Utilisateurs invités en tant que **[!UICONTROL Visionneuse]** |
 
 ## Conditions préalables
 
