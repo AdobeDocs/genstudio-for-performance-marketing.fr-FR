@@ -5,7 +5,7 @@ user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
+source-git-commit: 8795888949a50c1dd4b6a0c5723940ed08546d40
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 84%
@@ -107,7 +107,7 @@ ht-degree: 84%
    + [Média](insights/media.md)
    + [Balises publicitaires](insights/ad-tags.md)
    + Attributs {#attributes}
-      + [Présentation des attributs](insights/attributes.md)
+      + [À propos des attributs](insights/attributes.md)
       + [Fonctionnalités d’image](insights/image-features.md)
       + [Fonctionnalités vidéo](insights/video-features.md)
       + [Fonctionnalités de texte](insights/text-features.md)
