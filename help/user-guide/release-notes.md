@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b739e84a2345c8bceceff150aa0aa51ba960b0e7
+source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
 workflow-type: tm+mt
-source-wordcount: 5284
+source-wordcount: 5467
 ht-degree: 0%
 
 ---
@@ -152,6 +152,26 @@ Pour plus d’informations, consultez la section [&#x200B; Utilisation de modèl
 ### Contenu TikTok dans GenStudio for Performance Marketing
 
 Vous pouvez désormais créer, approuver et activer les publicités vidéo intégrées à TikTok à partir de GenStudio for Performance Marketing. Générez facilement des annonces dans le workflow de [!DNL Create], puis publiez l’expérience sur [!DNL Content]. Utilisez [!DNL Insights] for TikTok pour surveiller les performances et informer la prochaine actualisation créative.
+
+### Fonctionnalisation d’intelligence du contenu V4
+
+La fonctionnalité V4 représente une mise à niveau complète de la version V3, introduisant une conception primée sur la publicité avec de nombreuses nouvelles fonctionnalités spécifiques à la publicité pour les types de contenu image, texte et vidéo.
+
+Les avantages de la version 4 sont les suivants :
+
+* **Advertising-First Design** : conçu spécialement pour l’analyse publicitaire avec une suite d’analyses CTA/Offre/Logo complète (18 fonctionnalités combinées).
+* **Taxonomie granulaire** : augmentation de 249 % du nombre total de fonctionnalités avec une catégorisation claire et des définitions de fonctionnalités cohérentes dans les images/textes/vidéos.
+* **Évaluation de la qualité de la production** : 13 fonctionnalités de qualité vidéo pour l’évaluation de la qualité technique, l’optimisation mobile et la classification de type de production (CLC/Studio/UGC).
+* **Compréhension sémantique améliorée** : nouvelles fonctionnalités comprenant les personnages de marque, les souhaits humains, les déclencheurs cognitifs et la reconnaissance complète des entités.
+* **Cohérence cross-canal** : fonctionnalités unifiées sur plusieurs types de contenu permettant une analyse publicitaire cross-canal.
+* **Optimisation mobile** : fonctionnalités dédiées au format, à l’ajustement de l’emplacement et à la détection native pour appareils mobiles.
+
+**Principaux ajouts de fonctionnalités :**
+
+* Suite Advertising (plus de 20 fonctionnalités) : analyse CTA/Offre/Logo, co-branding, détection d’influenceur
+* Campagne et contexte du produit (7 fonctionnalités) : produit, objectif/thème de la campagne, audience cible, pays, zone géographique
+* Mesures de qualité vidéo (13 fonctionnalités) : qualité technique, classification de production, optimisation mobile
+* Reconnaissance d&#39;Entité (9 fonctionnalités) : Influenceur, Événements, Lieux, Mentions de marque/produit, Médias populaires
 
 +++
 

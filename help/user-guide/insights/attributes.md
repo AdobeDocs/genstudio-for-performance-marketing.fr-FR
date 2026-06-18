@@ -24,16 +24,16 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4cac970f46ab08bcec2f23fd882c552af088c4ea
+source-git-commit: 020002de6749d03d1d41227aaab1bade7da5559d
 workflow-type: tm+mt
-source-wordcount: 812
+source-wordcount: 834
 ht-degree: 0%
 
 ---
 
 # Présentation des attributs
 
-La vue [!DNL Insights] _[!UICONTROL Attributs]_ affiche une liste des attributs utilisés dans les campagnes publicitaires pour le compte de canal sélectionné.
+La vue [!DNL Insights] _[!UICONTROL Attributs]_ affiche une liste des attributs utilisés dans les campagnes publicitaires pour le compte de canal sélectionné. La dernière version des attributs est V4. Pour obtenir des informations sur la version V4, consultez [Content Intelligence Featurization V4](/help/user-guide/release-notes.md#content-intelligence-featurization-v4) dans les notes de mise à jour.
 
 {{connect-insights}}
 
