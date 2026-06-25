@@ -6,26 +6,15 @@ role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
 TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: 1654
 ht-degree: 1%
 
 ---
@@ -77,7 +66,7 @@ Vous [personnalisez votre modèle](customize-template.md) à utiliser dans GenSt
 
 ## Gérer les modèles
 
-La galerie _[!DNL Templates]_&#x200B;affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
+La galerie _[!DNL Templates]_affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
 
 ### Rechercher des modèles
 
@@ -90,44 +79,65 @@ Par exemple, vous pouvez rechercher un modèle d’un type de canal ou d’un fo
 
 Les émissions suivantes filtrent par type de canal, comme les e-mails, les publicités display, les publicités Meta et les publicités LinkedIn.
 
-![Liste des modèles de contenu](/help/assets/content-templates-filter.png "Rechercher les modèles LinkedIn"){width="650"}
+![Liste des modèles de contenu](/help/assets/content-templates-filter.png "Rechercher les modèles LinkedIn"){width="650" zoomable="yes"}
 
 La fonctionnalité de recherche de modèles est disponible lors de la [!UICONTROL Créer] lors de la sélection d’un modèle pour les médias propriétaires ou payants. Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun modèle du référentiel ne correspond aux critères de métadonnées correspondants. Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
 
 ### Ajouter un modèle
 
-Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [&#x200B; Personnaliser les modèles &#x200B;](customize-template.md).
+Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [ Personnaliser les modèles ](customize-template.md).
 
 **Pour ajouter un modèle** :
 
-1. Dans _[!DNL Content]_, sélectionnez la section **[!UICONTROL Modèles]**.
+1. Dans _[!DNL Content]_, sélectionnez la section **[!UICONTROL Modèles HTML]**dans la barre supérieure.
 
-2. Cliquez sur **[!UICONTROL Ajouter un modèle]**.
+1. Cliquez sur **[!UICONTROL + Ajouter un modèle]**.
 
-3. Dans le volet _[!UICONTROL Ajouter votre modèle approuvé]_, recherchez le fichier de modèle HTML ou faites glisser le fichier de modèle HTML vers l’espace de dépôt. Cliquez sur **[!UICONTROL Suivant]**.
+1. Dans le volet _[!UICONTROL Ajouter votre modèle approuvé]_, choisissez le type de modèle. Recherchez ensuite le fichier de modèle HTML ou faites glisser le fichier de modèle HTML vers l’espace de dépôt. Cliquez sur **[!UICONTROL Suivant]**.
 
-4. Dans le volet _[!UICONTROL Vérifier les champs détectés]_ passez en revue les champs. Vérifiez que vous utilisez le modèle correct et que tous les détails sont conformes aux attentes.
+   ![Types de modèle dans le volet](/help/assets/template-choose-type.png){width="500" zoomable="yes"}
 
-   Exemple de prévisualisation pour un modèle d’e-mail :
-
-   ![Champs de prévisualisation détectés](/help/assets/template-detected-fields.png){width="650"}
+1. Dans le volet _[!UICONTROL Vérifier les champs détectés]_ passez en revue les champs. Vérifiez que vous utilisez le modèle correct et que tous les détails sont conformes aux attentes.
 
    >[!TIP]
    >
-   >Si le modèle n’est pas correct, cliquez sur **[!UICONTROL Précédent]** et revenez à l’étape précédente. Chargez le fichier de modèle corrigé. Vous pouvez également utiliser l’[éditeur de code de modèle](/help/user-guide/templates/code-editor.md) pour apporter des corrections simples.
+   >Si les détails du modèle ne sont pas corrects, cliquez sur **[!UICONTROL Précédent]** et revenez à l’étape précédente. Chargez le fichier de modèle corrigé. Vous pouvez également utiliser l’[éditeur de code de modèle](/help/user-guide/templates/code-editor.md) pour apporter des corrections simples.
 
-5. Cliquez sur **[!UICONTROL Suivant]** lorsque vous êtes satisfait(e) de l’aperçu du modèle.
+1. Examinez les champs détectés automatiquement. Dans l’affichage à deux panneaux Aperçu/Code, le panneau de gauche affiche un aperçu en direct du modèle avec des zones détectées en surbrillance colorée.La barre latérale droite affiche la liste des champs de tous les champs détectés avec leur état d’emplacement actuel. Les champs sont balisés avec la notation handlebars (par exemple, `{{headline}}`, `{{body}}`, `{{image}}`) visible dans l’onglet Code .
 
-6. Dans _[!UICONTROL Fournir des détails sur le modèle et télécharger]_, nommez votre modèle et sélectionnez un type **[!UICONTROL Canal]**.
+   Exemple de prévisualisation pour un modèle d’e-mail :
+
+   ![Champs de prévisualisation détectés](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+
+1. Si une zone n’a pas été détectée automatiquement, passez la souris sur celle-ci dans le panneau d’aperçu pour afficher la fonction **pointage vers balise**. Cliquez sur pour attribuer une balise handlebars et définir l&#39;état d&#39;emplacement correct.
+
+   ![Fonction de survol pour baliser affichant les états des emplacements pour un champ de logo](/help/assets/template-slot-state.png){width="500" zoomable="yes"}
+
+   >[!TIP]
+   >
+   > **États d’emplacement**
+   >
+   > Pour chaque champ détecté, attribuez l’état d’emplacement approprié :
+   >
+   > | **État de l’emplacement** | **Description** | **Utiliser pour** |
+   > |---|---|---|
+   > | **Autre (modifiable)** | L’IA génère du contenu pour ce champ au moment de l’exécution ou permet la modification manuelle d’un champ personnalisé. | Headlines, body copy, CTA — partout où une variation d&#39;IA est souhaitée. Ou des champs personnalisés pour la modification manuelle ou les permutations de fragments de contenu. |
+   > | **Fixe** | Le champ ne peut pas être modifié par l’IA ou les utilisateurs. | Avertissements juridiques, notes de bas de page réglementaires, liens de désabonnement. |
+
+1. Vous pouvez également modifier manuellement l’HTML dans l’onglet Code et cliquer sur le bouton **[!UICONTROL Détecter automatiquement les champs]** pour réexécuter la détection et mettre à jour la liste des champs.
+
+1. Cliquez sur **[!UICONTROL Suivant]** lorsque vous êtes satisfait(e) de l’aperçu du modèle.
+
+1. Dans _[!UICONTROL Fournir des détails sur le modèle et télécharger]_, nommez votre modèle et sélectionnez un type **[!UICONTROL Canal]**.
 
    Le nom du modèle et le type de canal sont obligatoires. Les exigences supplémentaires peuvent inclure :
 
-   - **&#x200B;**&#x200B;: nécessite le format
+   - **** : nécessite des proportions
    - **Bannière et publicité display** : nécessite des dimensions.
 
-7. Ajoutez autant de détails que possible pour améliorer l’identification du modèle dans les recherches et le filtrage.
+1. Ajoutez autant de détails que possible pour améliorer l’identification du modèle dans les recherches et le filtrage.
 
-8. Cliquez sur **[!UICONTROL Terminé]**.
+1. Cliquez sur **[!UICONTROL Terminé]**.
 
 ### Actualiser le modèle
 
@@ -165,8 +175,8 @@ Pour utiliser les modèles Marketo de votre bibliothèque Marketo Engage dans Ge
 
 Les modèles d’application reconnus sont les suivants :
 
-- **&#x200B;**&#x200B;: `{{profile.*}}`, `{{context.*}}`
-- **&#x200B;**&#x200B;: `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
+- **** : `{{profile.*}}`, `{{context.*}}`
+- **** : `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
 
 >[!BEGINSHADEBOX]
 
