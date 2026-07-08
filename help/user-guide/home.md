@@ -1,6 +1,6 @@
 ---
-title: Guide de l’utilisateur d’Adobe GenStudio
-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer des ressources sur la marque, générer des variations et optimiser les expériences.
+title: Guide d’utilisation d’Adobe GenStudio
+description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing.Découvrez comment créer des ressources conformes à votre marque, générer des variations et optimiser les expériences.
 role: User
 exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
 TQID: https://experienceleague.adobe.com/apgYIh5ri1UwarpHziyvJDEJPAOnmDu4QCulAP1-uRE
@@ -21,15 +21,15 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
-workflow-type: tm+mt
-source-wordcount: 208
-ht-degree: 8%
+workflow-type: ht
+source-wordcount: 188
+ht-degree: 100%
 
 ---
 
-# Guide d’utilisation d’Adobe GenStudio for Performance Marketing
+# Guide d’utilisation d’Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing est une application reposant sur la plateforme d’IA générative d’Adobe. Il permet aux équipes marketing de créer, gérer et optimiser le contenu de campagne pour les médias achetés, les e-mails et les publicités display. GenStudio for Performance Marketing propose une suite complète d’outils pour la création de contenu et la gestion de campagnes, dans le but d’améliorer le retour sur investissement et d’augmenter la production de contenu sans compromettre l’intégrité de la marque.
+GenStudio for Performance Marketing est une application basée sur la plateforme d’IA générative d’Adobe.Elle permet aux équipes marketing de créer, gérer et optimiser le contenu des campagnes pour les publicités de médias achetés, par e-mail et display.GenStudio for Performance Marketing propose une suite complète d’outils pour la création de contenu et la gestion de campagnes, dans le but d’améliorer le ROI et d’augmenter la production de contenu sans compromettre l’intégrité de la marque.
 
 ## Explorer les fonctionnalités
 
@@ -41,11 +41,11 @@ GenStudio for Performance Marketing est une application reposant sur la platefor
       </a>
       <div>
          <a href="../user-guide/effective-prompts.md">
-         <strong>Écrire des invites efficaces</strong>
+         <strong>Rédiger des prompts efficaces</strong>
          </a>
       </div>
       <p>
-         <em>Créer des invites descriptives qui génèrent des expériences digitales sur la marque.</em>
+         <em>Élaborez des prompts descriptifs qui génèrent des expériences numériques conformes à la marque.</em>
       </p>
    </td>
    <td valign="top">
@@ -54,11 +54,11 @@ GenStudio for Performance Marketing est une application reposant sur la platefor
       </a>
       <div>
          <a href="../user-guide/create/overview.md">
-         <strong>Créer des expériences</strong>
+         <strong>Créer des expériences web</strong>
          </a>
       </div>
       <p>
-         <em>Créez des e-mails performants et sur la marque, ainsi que des annonces Meta.</em>
+         <em>Créez des e-mails et des publicités Meta performants et conformes à votre marque.</em>
       </p>
    </td>
    <td valign="top">
@@ -67,16 +67,16 @@ GenStudio for Performance Marketing est une application reposant sur la platefor
       </a>
       <div>
          <a href="../user-guide/approvals/overview.md">
-         <strong>Vérifier et approuver</strong>
-         </a>
-      </div>
+         <strong>Réviser et approuver</strong>
+       </a>
+    </div>
       <p>
-         <em>Orchestrez la révision et l’approbation simplifiées des ressources marketing.</em>
+         <em>Coordonnez la révision et l’approbation simplifiées des ressources marketing.</em>
       </p>
    </td>
    <td valign="top">
       <a href="../user-guide/content/overview.md">
-      <img alt="Grille" src="../assets/icons/icon-images.svg" width="35">
+      <img alt="Image" src="../assets/icons/icon-images.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/content/overview.md">
@@ -84,7 +84,7 @@ GenStudio for Performance Marketing est une application reposant sur la platefor
          </a>
       </div>
       <p>
-         <em>Rechercher, gérer et réutiliser du contenu tout en respectant les directives de la marque.</em>
+         <em>Recherchez, gérez et réutilisez du contenu tout en respectant les directives de la marque.</em>
       </p>
    </td>
    <td valign="top">
@@ -93,39 +93,39 @@ GenStudio for Performance Marketing est une application reposant sur la platefor
       </a>
       <div>
          <a href="../user-guide/insights/overview.md">
-         <strong>Afficher les informations</strong>
+         <strong>Afficher les insights</strong>
          </a>
       </div>
       <p>
-         <em>Analysez l’efficacité du contenu des canaux médias payants.</em>
+         <em>Analysez l’efficacité du contenu des canaux paid media.</em>
       </p>
    </td>
 </tr>
 </table>
 
-## Découvrez comment
+## Explorer
 
 <table style="table-layout:fixed">
 <td valign="top">
    <div>
       <a href="/help/user-guide/guidelines/add-guidelines.md">
-      <img alt="Ajout d’instructions" src="../assets/card-guidelines.png">
+      <img alt="Ajouter des directives" src="../assets/card-guidelines.png">
       <strong>Ajouter des directives</strong>
       </a>
    </div>
    <p>
-      <em>Découvrez comment ajouter des directives (marques, produits et personnes concernées) à GenStudio for Performance Marketing.</em>
+      <em>Découvrez comment ajouter des directives (marques, produits et personas) à GenStudio for Performance Marketing.</em>
    </p>
 </td>
 <td valign="top">
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
       <img alt="Personnes déplaçant des fichiers dans un dossier" src="../assets/card-manage-content.png">
-      <strong>Création d’une expérience publicitaire Meta</strong>
+      <strong>Créer une expérience publicitaire Meta</strong>
       </a>
    </div>
    <p>
-      <em>Découvrez comment créer une expérience publicitaire Meta alignée sur la marque.</em>
+      <em>Découvrez comment créer une expérience publicitaire Meta cohérente avec votre marque.</em>
    </p>
 </td>
 <td valign="top">

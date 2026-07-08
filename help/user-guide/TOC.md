@@ -1,14 +1,14 @@
 ---
-user-guide-title: Guide d’utilisation d’Adobe GenStudio for Performance Marketing
-breadcrumb-title: Guide d’utilisation
-user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer rapidement des ressources pour votre marque, générer des variations et optimiser les expériences.
+user-guide-title: Guide d’utilisation d’Adobe GenStudio for Performance Marketing
+breadcrumb-title: Guide de l’utilisateur
+user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing.Découvrez comment créer rapidement des ressources pour votre marque, générer des variations et optimiser les expériences.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 source-git-commit: 8795888949a50c1dd4b6a0c5723940ed08546d40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -26,36 +26,36 @@ ht-degree: 84%
    + [Invites actives](effective-prompts.md)
 + Paramètres {#settings}
    + [Connecter des médias achetés](connectors/connect-channel.md)
-   + Comptes médias payants {#connect-account}
+   + Comptes de médias payants {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
-      + [&#x200B; LinkedIn &#x200B;](connectors/linkedin-ads.md)
+      + [LinkedIn](connectors/linkedin-ads.md)
       + [Meta Ads](connectors/meta-ads.md)
 + Directives {#guidelines}
-   + [Présentation des directives](guidelines/overview.md)
+   + [Vue d’ensemble des directives](guidelines/overview.md)
    + [Marques](guidelines/brands.md)
    + [Personas](guidelines/personas.md)
    + [Produits](guidelines/products.md)
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + [Vue d’ensemble d’[!DNL Create] &#x200B;](create/overview.md)
+   + [Vue d’ensemble d’[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Expériences Meta](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
    + [Expériences TikTok](create/tiktok-experiences.md)
-   + [Publicités TV connectées](create/create-ctv.md)
-   + [Afficher les expériences publicitaires](create/display-ad-experiences.md)
-   + [Expériences de bannière](create/banner-experiences.md)
+   + [Publicités pour les télévisions connectées](create/create-ctv.md)
+   + [Créer une expérience publicitaire display](create/display-ad-experiences.md)
+   + [Créer une expérience de bannière](create/banner-experiences.md)
    + [Gérer les variantes](create/manage-variants.md)
-   + [Traduire et localiser des expériences](create/translate-experiences.md)
-   + [Modification collaborative](create/collaborative-editing.md)
-   + [Utiliser la permutation de logo](create/logo-swap.md)
-   + [Configurer la permutation de logo dans les modèles](create/logo-swap-setup.md)
-   + [Créer une expérience d’e-mail](create/create-email-experience.md)
+   + [Traduire et localiser les expériences](create/translate-experiences.md)
+   + [Édition collaborative](create/collaborative-editing.md)
+   + [Utiliser le remplacement du logo](create/logo-swap.md)
+   + [Définir le remplacement du logo dans les modèles](create/logo-swap-setup.md)
+   + [Créer une expérience d’email](create/create-email-experience.md)
    + [Création d’une expérience publicitaire Meta](create/create-meta-ad.md)
    + [Créer une expérience publicitaire ChatGPT](create/create-chatgpt-ad.md)
    + [Créer une expérience LinkedIn](create/create-linkedin.md)
-   + [Créer une expérience d’affichage publicitaire](create/create-display-ad.md)
+   + [Créer une expérience de publicité display](create/create-display-ad.md)
    + [Créer une expérience de bannière](create/create-banner-experience.md)
    + [Générer une image](create/generate-assets.md)
 + Révisions et approbations {#approve}
@@ -66,39 +66,39 @@ ht-degree: 84%
    + [Approuver le contenu](approvals/approve-content.md)
    + [Publier le contenu approuvé](approvals/publish-content.md)
 + Contenu {#content}
-   + [Présentation du contenu](content/overview.md)
-   + [Gestion des ressources et des expériences](content/manage-assets.md)
-   + [Connexion à un référentiel AEM](content/connect-aem-repo.md)
-   + [Détails des ressources](content/asset-details.md)
+   + [Vue d’ensemble du contenu](content/overview.md)
+   + [Gérer les ressources et les expériences](content/manage-assets.md)
+   + [Connectez-vous à un référentiel AEM](content/connect-aem-repo.md)
+   + [Détails de l&#39;actif](content/asset-details.md)
    + [Content Credentials](content/content-credentials.md)
 + Modèles {#templates}
-   + [Utiliser des modèles](templates/use-templates.md)
+   + [Travailler avec des modèles](templates/use-templates.md)
    + [Modèles de démarrage](templates/starter-templates.md)
    + [Personnaliser un modèle](templates/customize-template.md)
-   + [&#x200B; Éditeur de code de modèle &#x200B;](templates/code-editor.md)
+   + [ Éditeur de code de modèle ](templates/code-editor.md)
    + [Créer des modèles accessibles](templates/accessibility-for-templates.md)
    + [Utilisation de modèles Express](/help/user-guide/templates/express-templates.md)
-   + [Bonnes pratiques pour les modèles](templates/best-practices-for-templates.md)
+   + [Bonnes pratiques relatives aux modèles](templates/best-practices-for-templates.md)
    + Bonnes pratiques relatives aux canaux {#channel-best-practice}
       + [Guide d’affichage des publicités](templates/display-template.md)
       + [Guide des e-mails](templates/email-template.md)
       + [Guide des publicités LinkedIn](templates/linkedin-template.md)
       + [Guide des publicités Meta](templates/meta-template.md)
 + Campagnes {#campaigns}
-   + [Présentation des campagnes](campaigns/overview.md)
+   + [Vue d’ensemble des campagnes](campaigns/overview.md)
    + [Créer des campagnes](campaigns/create-campaign.md)
    + [Gérer les campagnes](campaigns/manage-campaign.md)
 + Activer {#activation}
-   + [Présentation de l’activation](activation/overview.md)
-   + [Workflow d’activation](activation/create-activation.md)
+   + [Vue d’ensemble de l’activation](activation/overview.md)
+   + [Processus d’activation](activation/create-activation.md)
    + [Gérer les activations](activation/manage-activations.md)
    + [Optimiser les activations](activation/troubleshooting.md)
-   + Publicités médias payantes {#paid-media-ads}
+   + Publicités média acheté {#paid-media-ads}
       + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-      + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
+      + [ LinkedIn ](activation/activate-linkedin-ad.md)
       + [Meta](activation/activate-meta-ad.md)
       + [Amazon](activation/activate-amazon-ad.md)
-      + [&#x200B; Innovid &#x200B;](activation/activate-innovid-ad.md)
+      + [Innovid](activation/activate-innovid-ad.md)
 + Insights {#insights}
    + [Vue d’ensemble d’Insights](insights/overview.md)
    + [Filtres d’informations](insights/filter-views.md)
@@ -113,7 +113,7 @@ ht-degree: 84%
       + [Fonctionnalités de texte](insights/text-features.md)
    + [Gestion des données](insights/data-management.md)
 + Intégrations {#integrations}
-   + [Présentation des intégrations](integrations/overview.md)
+   + [Vue d’ensemble des intégrations](integrations/overview.md)
    + [Plug-in GenStudio Photoshop](integrations/photoshop-plugin.md)
    + [Plug-in Figma](integrations/figma-plugin.md)
 + {hide-from-toc}[GenStudio Academy - Masqué](genstudioacademy.md)
