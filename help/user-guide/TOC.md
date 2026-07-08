@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
-+ Guide de [GenStudio for Performance Marketing](home.md)
++ [Guide de GenStudio for Performance Marketing](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Commencer](get-started.md)
 + Introduction {#intro}
@@ -38,7 +38,7 @@ ht-degree: 100%
    + [Ajouter des directives](guidelines/add-guidelines.md)
    + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-   + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
+   + [Vue d’ensemble d’[!DNL Create] ](create/overview.md)
    + [Expériences email](create/email-experiences.md)
    + [Expériences Meta](create/meta-experiences.md)
    + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -60,7 +60,7 @@ ht-degree: 100%
    + [Générer une image](create/generate-assets.md)
 + Révisions et approbations {#approve}
    + [Présentation de la révision et des approbations](approvals/overview.md)
-   + Intégration de Workfront Proof[](approvals/proof-integration.md)
+   + [Intégration de Workfront Proof](approvals/proof-integration.md)
    + [Demander une révision et une approbation](approvals/request-review.md)
    + [Vérifier et modifier le contenu](approvals/review-and-edit.md)
    + [Approuver le contenu](approvals/approve-content.md)
