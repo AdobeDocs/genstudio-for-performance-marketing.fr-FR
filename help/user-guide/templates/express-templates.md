@@ -4,9 +4,9 @@ description: Découvrez les fonctionnalités de GenStudio for Performance Market
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
+source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ Ce guide explique les exigences et les fonctionnalités relatives aux modèles d
 
 ## À propos des modèles dans [!DNL Adobe Express]
 
-Dans [!DNL Adobe Express], les [nouveaux documents peuvent être créés à l’aide de modèles de démarrage existants](https://helpx.adobe.com/fr/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) fournis dans l’application, ou avec des modèles [personnalisés pouvant inclure des restrictions utiles de la marque](https://helpx.adobe.com/fr/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) tels que :
+Dans [!DNL Adobe Express], les [nouveaux documents peuvent être créés à l’aide de modèles de démarrage existants](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) fournis dans l’application, ou avec des modèles [personnalisés pouvant inclure des restrictions utiles de la marque](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) tels que :
 
-- [Éléments verrouillés](https://helpx.adobe.com/fr/express/web/invite-collaborate/object-locking.html) non modifiables
+- [Éléments verrouillés](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) non modifiables
 - Restrictions de verrouillage qui contrôlent la manière dont les utilisateurs peuvent déverrouiller des éléments si nécessaire
 
-Les paramètres de verrouillage qui ont été définis sur le modèle dans [!DNL Adobe Express] seront également appliqués dans [!DNL GenStudio for Performance Marketing]. Utilisez [les [!DNL Adobe Express] instructions pour créer un modèle personnalisé avec des restrictions de marque](https://helpx.adobe.com/fr/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
+Les paramètres de verrouillage qui ont été définis sur le modèle dans [!DNL Adobe Express] seront également appliqués dans [!DNL GenStudio for Performance Marketing]. Utilisez [les [!DNL Adobe Express] instructions pour créer un modèle personnalisé avec des restrictions de marque](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
 
 Pour utiliser des polices personnalisées dans un modèle Express, les administrateurs doivent d’abord accepter l’offre de qualification des polices personnalisées dans l’Admin Console, qui est incluse dans les droits de licence Express.
 
@@ -53,15 +53,15 @@ Lorsque vous sélectionnez un modèle de [!DNL Express] et cliquez sur **[!UICON
 
 >[!IMPORTANT]
 >
->Pendant la génération du contenu, les calques de modèle Express seront automatiquement balisés avec des rôles de champ pour [!DNL GenStudio for Performance Marketing]. Les éléments d’un modèle peuvent également être [&#x200B; balisés manuellement &#x200B;](#manual-tagging-of-templates).
+>Pendant la génération du contenu, les calques de modèle Express seront automatiquement balisés avec des rôles de champ pour [!DNL GenStudio for Performance Marketing]. Les éléments d’un modèle peuvent également être [ balisés manuellement ](#manual-tagging-of-templates).
 
 ## À propos des variantes et des [!DNL Experiences] avec des modèles de [!DNL Adobe Express]
 
-[!DNL Express] modèles offrent de nombreuses fonctionnalités que vous connaîtrez bien lorsque vous [gérez d’autres variantes](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Cependant, il existe quelques ajouts puissants pour rationaliser tout workflow de contenu à partir de [!DNL Express]. Cette section décrit les fonctionnalités exclusives à l’implémentation [!DNL Adobe Express].
+[!DNL Express] modèles offrent de nombreuses fonctionnalités que vous connaîtrez bien lorsque vous [gérez d’autres variantes](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Cependant, il existe quelques ajouts puissants pour rationaliser tout workflow de contenu à partir de [!DNL Express]. Cette section décrit les fonctionnalités exclusives à l’implémentation [!DNL Adobe Express].
 
 ### Génération automatique de plusieurs tailles
 
-Lorsque [plusieurs pages ont été créées pour une ressource dans [!DNL Express]](https://helpx.adobe.com/fr/express/web/arrange-layers-and-pages/add-pages.html), ces pages sont transférées vers tout modèle créé à partir de cette ressource. Les pages Express sont générées chacune en tant que tailles différentes du contenu créatif en [!DNL GenStudio for Performance Marketing].
+Lorsque [plusieurs pages ont été créées pour une ressource dans [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html), ces pages sont transférées vers tout modèle créé à partir de cette ressource. Les pages Express sont générées chacune en tant que tailles différentes du contenu créatif en [!DNL GenStudio for Performance Marketing].
 
 Lorsqu’il existe un contenu à plusieurs tailles pour une ressource dans [!DNL Express], des variantes peuvent être générées pour toutes ces tailles en une seule génération.
 
@@ -126,6 +126,14 @@ Le formatage de texte disponible inclut les éléments suivants :
 1. Saisissez le nouveau texte.
 1. Pour mettre en forme le texte, cliquez sur ou saisissez dans l’élément de zone de texte. Les options de formatage s’affichent dans une barre contextuelle. Maintenez la touche Maj enfoncée pour masquer la barre et afficher le texte.
 1. Cliquez en dehors du champ de texte pour enregistrer les modifications.
+
+### Utiliser les zones de flux de texte liées
+
+[!DNL Adobe Express] prend en charge le flux de texte, qui permet à un auteur de modèle de lier deux zones de texte afin qu’une seule phrase circule dans les deux zones. Par exemple, un titre peut commencer dans une zone et finir dans une autre, ou une partie d’une expression peut utiliser un style différent du reste. Lorsqu’un modèle avec flux de texte est importé dans [!DNL GenStudio for Performance Marketing], la zone de travail reconnaît et honore cette liaison. En savoir plus sur la création de zones de texte liées dans [Flux de texte dans Adobe Express](https://helpx.adobe.com/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html).
+
+Vous générez une copie pour les zones de texte liées de la même manière que vous générez tout autre champ, sans configuration supplémentaire requise. Les zones liées se comportent comme une seule expression connectée tout au long de la génération, de la modification et de la révision des variantes. Vous n’avez donc jamais besoin de fractionner, copier ou repositionner du texte entre les zones.
+
+Si la copie générée est trop longue pour tenir dans les zones liées, une ligne rouge apparaît au bas de la dernière zone pour indiquer le dépassement, correspondant au même indicateur utilisé dans [!DNL Adobe Express]. Raccourcissez la copie ou régénérez le champ pour supprimer le débordement.
 
 ### Afficher les calques
 
@@ -192,7 +200,7 @@ Les options de balisage varient en fonction du type d’élément.
 
 ### Restrictions de verrouillage des modèles
 
-Les modèles peuvent inclure des [éléments verrouillés](https://helpx.adobe.com/fr/express/web/invite-collaborate/object-locking.html) qui transfèrent des [!DNL Express] et contrôlent la manière dont certaines fonctionnalités peuvent être modifiées. Ces paramètres sont respectés par le modèle et peuvent également être modifiés sur le modèle :
+Les modèles peuvent inclure des [éléments verrouillés](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) qui transfèrent des [!DNL Express] et contrôlent la manière dont certaines fonctionnalités peuvent être modifiées. Ces paramètres sont respectés par le modèle et peuvent également être modifiés sur le modèle :
 
 1. Sélectionnez un élément verrouillé sur le modèle.
 1. Cliquez sur l’icône de verrouillage en haut à gauche de l’élément sélectionné.
@@ -238,9 +246,9 @@ Les limites des calques d’image peuvent être étendues avec l’IA pour s’a
 
 Utilisez le panneau _Vérification de contenu_ pour conserver une identité de marque cohérente, les normes d’accessibilité ADA, les directives de la plateforme et l’alignement des variantes.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 ## Vérifier et approuver
 
-Après avoir modifié et ajusté vos variantes, approuvez et publiez votre contenu avec [le workflow Révisions et approbation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+Après avoir modifié et ajusté vos variantes, approuvez et publiez votre contenu avec [le workflow Révisions et approbation](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
 
