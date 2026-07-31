@@ -5,44 +5,15 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
-workflow-type: ht
-source-wordcount: 5467
-ht-degree: 100%
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 24297d57c6dc54c7be22321af9e5079da53f0c60
+workflow-type: tm+mt
+source-wordcount: 5535
+ht-degree: 98%
 
 ---
 
@@ -56,17 +27,17 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
 
 ### YouTube Shorts dans [!DNL Create] et [!DNL Activate]
 
-Les vidéos courtes constituent désormais un canal régi dans [!DNL GenStudio for Performance Marketing].Créez et activez des vidéos YouTube Shorts conformes à la marque dans le workflow [!DNL Create], en appliquant dès le départ des mécanismes de sécurisation de la marque, des produits et des personas.
+Les vidéos courtes constituent désormais un canal régi dans [!DNL GenStudio for Performance Marketing]. Créez et activez des vidéos YouTube Shorts conformes à la marque dans le workflow [!DNL Create], en appliquant dès le départ des mécanismes de sécurisation de la marque, des produits et des personas.
 
 L’activation permet de boucler le processus sans transfert manuel : insérez les vidéos Shorts dans les campagnes de Demand Gen de Google Ads ou chargez-les sous forme de vidéos non répertoriées sur YouTube lorsque votre équipe diffuse les publicités YouTube via DV360.
 
 ### Activation vidéo CM360
 
-Les publicités display vidéo créées dans [!DNL GenStudio for Performance Marketing] ne sont plus bloquées à l’étape d’activation CM360.Sélectionnez des expériences vidéo gérées à partir du canal display, prévisualisez-les dans le workflow d’activation et [publiez des créations directement dans Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md), ainsi que les formats d’image et HTML5.
+Les publicités display vidéo créées dans [!DNL GenStudio for Performance Marketing] ne sont plus bloquées à l’étape d’activation CM360. Sélectionnez des expériences vidéo gérées à partir du canal display, prévisualisez-les dans le workflow d’activation et [publiez des créations directement dans Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md), ainsi que les formats d’image et HTML5.
 
 ### Campagnes de promotion d’application Meta dans [!DNL Activate]
 
-Les responsables marketing d’applications mobiles peuvent désormais [activer des expériences dans les campagnes Meta](/help/user-guide/activation/activate-meta-ad.md) avec l’objectif Promotion d’application, y compris les ensembles de publicités ciblant les installations d’applications et les événements d’applications.Auparavant, seuls les objectifs de campagne non liés aux applications étaient pris en charge.
+Les responsables marketing d’applications mobiles peuvent désormais [activer des expériences dans les campagnes Meta](/help/user-guide/activation/activate-meta-ad.md) avec l’objectif Promotion d’application, y compris les ensembles de publicités ciblant les installations d’applications et les événements d’applications. Auparavant, seuls les objectifs de campagne non liés aux applications étaient pris en charge.
 
 ### Traduction sur la zone de travail Horizon
 
@@ -78,7 +49,11 @@ Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate
 
 Les modèles d’e-mail dans [!DNL Create] peuvent désormais contenir plusieurs images dans un seul module, ce qui offre aux concepteurs et conceptrices la possibilité de créer des dispositions plus riches pour les bannières, des galeries de produits et un storytelling à plusieurs éléments, sans avoir à diviser le contenu en plusieurs sections.
 
-Chargez ou créez des modèles avec les champs d’image supplémentaires, puis générez des variantes conformes à la marque qui respectent la structure de votre module.Voir [Expériences e-mail](/help/user-guide/create/email-experiences.md) pour le workflow d’e-mail de bout en bout.
+Chargez ou créez des modèles avec les champs d’image supplémentaires, puis générez des variantes conformes à la marque qui respectent la structure de votre module. Voir [Expériences e-mail](/help/user-guide/create/email-experiences.md) pour le workflow d’e-mail de bout en bout.
+
+### Prise en charge du flux de texte pour les modèles Express
+
+[!DNL Create] honore désormais le flux de texte, la fonction d’Adobe Express qui relie deux zones de texte afin qu’une seule expression traverse les deux, sur la zone de travail d’Horizon. La copie générée remplit les zones liées sous la forme d’une expression connectée, de sorte que les conceptions d’annonces dont le message se divise en deux zones peuvent finalement être modélisées pour la génération sans copie ni repositionnement manuels. En savoir plus sur les [zones de flux de texte liées](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes).
 
 ## Notes de mise à jour antérieures
 
@@ -86,7 +61,7 @@ Chargez ou créez des modèles avec les champs d’image supplémentaires, puis 
 
 ### Édition collaborative sur la zone de travail Horizon
 
-Les brouillons paid media sur la zone de travail Horizon ne sont plus un exercice individuel.Les propriétaires peuvent désormais inviter des collaborateurs et collaboratrices par e-mail en leur attribuant les rôles **[!UICONTROL Éditeur/Éditrice]** ou **[!UICONTROL Observateur/Observatrice]**, afin que tout le monde travaille à partir du même brouillon actif au lieu d’échanger des fichiers exportés entre différents outils.
+Les brouillons paid media sur la zone de travail Horizon ne sont plus un exercice individuel. Les propriétaires peuvent désormais inviter des collaborateurs et collaboratrices par e-mail en leur attribuant les rôles **[!UICONTROL Éditeur/Éditrice]** ou **[!UICONTROL Observateur/Observatrice]**, afin que tout le monde travaille à partir du même brouillon actif au lieu d’échanger des fichiers exportés entre différents outils.
 
 À l’aide du bouton [!UICONTROL Partager] dans la zone de travail, les éditeurs et éditrices voient les mises à jour des plans de travail et des champs (y compris les titres, les appels à l’action et les descriptions) s’afficher en temps réel.
 
@@ -102,15 +77,15 @@ Fiez-vous aux fragments de votre organisation déjà publiés dans AEM sans quit
 
 ### Ajouter des [!DNL Brands], des [!DNL Products] et des [!DNL Personas] à partir d’une URL
 
-[!DNL GenStudio for Performance Marketing] ingère les signaux **[!DNL Brand]**, **[!DNL Product]** et **[!DNL Persona]** publiés directement à partir d’une URL, ce qui évite des heures de saisie manuelle tout en garantissant que les résultats reflètent fidèlement ce que la marque publie réellement en ligne.L’[ajout de directives à partir d’une URL publique](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url) reflète enfin la manière dont les responsables marketing effectuent leurs recherches sur le web avant même d’ouvrir un brief.
+[!DNL GenStudio for Performance Marketing] ingère les signaux **[!DNL Brand]**, **[!DNL Product]** et **[!DNL Persona]** publiés directement à partir d’une URL, ce qui évite des heures de saisie manuelle tout en garantissant que les résultats reflètent fidèlement ce que la marque publie réellement en ligne. L’[ajout de directives à partir d’une URL publique](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url) reflète enfin la manière dont les responsables marketing effectuent leurs recherches sur le web avant même d’ouvrir un brief.
 
-Les directives de marque sont importées en une seule étape, tandis que les produits et les personas apparaissent dans une liste intelligente, ce qui vous permet de choisir les éléments pertinents avant que le système n’enrichisse les données.La découverte assistée par IA reste délibérément conservatrice lorsqu’un site est peu fourni ou restreint, ce qui protège les équipes réglementées sans entraver la progression.
+Les directives de marque sont importées en une seule étape, tandis que les produits et les personas apparaissent dans une liste intelligente, ce qui vous permet de choisir les éléments pertinents avant que le système n’enrichisse les données. La découverte assistée par IA reste délibérément conservatrice lorsqu’un site est peu fourni ou restreint, ce qui protège les équipes réglementées sans entraver la progression.
 
-Les entreprises qui exigent un rôle de **[!UICONTROL Brand Manager]** ou un poste supérieur appliquent toujours automatiquement ces mécanismes de sécurisation.Les domaines de marque accessibles au public continuent de fournir les informations les plus pertinentes lorsque vous déployez des programmes à l’échelle de plusieurs régions ou portefeuilles.
+Les entreprises qui exigent un rôle de **[!UICONTROL Brand Manager]** ou un poste supérieur appliquent toujours automatiquement ces mécanismes de sécurisation. Les domaines de marque accessibles au public continuent de fournir les informations les plus pertinentes lorsque vous déployez des programmes à l’échelle de plusieurs régions ou portefeuilles.
 
 ### Publicités ChatGPT désormais disponibles dans [!DNL Create], [!DNL Content] et [!DNL Activate]
 
-L’IA conversationnelle est une nouvelle surface de média acheté et [!DNL GenStudio for Performance Marketing] prend désormais en charge ChatGPT de bout en bout.[Créez des expériences publicitaires ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) avec des variantes de texte conformes à la marque, effectuez des vérifications pour la marque et les canaux, gérez les tâches via des processus d’approbation et publiez les expériences approuvées dans [!DNL Content] afin de les réutiliser et de les activer.
+L’IA conversationnelle est une nouvelle surface de média acheté et [!DNL GenStudio for Performance Marketing] prend désormais en charge ChatGPT de bout en bout. [Créez des expériences publicitaires ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) avec des variantes de texte conformes à la marque, effectuez des vérifications pour la marque et les canaux, gérez les tâches via des processus d’approbation et publiez les expériences approuvées dans [!DNL Content] afin de les réutiliser et de les activer.
 
 +++
 
@@ -130,7 +105,7 @@ Vous pouvez assembler des scènes, vous aider de l’IA générative lorsque des
 
 ### Modèles d’affichage HTML5, variations et redimensionnement.
 
-Vous pouvez **charger un fichier ZIP HTML5 basé sur DOM afin de développer un modèle d’affichage** dans [!DNL Create], créer des variations de publicités HTML5 et redimensionner le contenu créatif pour d’autres formats.Les expériences terminées peuvent être activées dans [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) et [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
+Vous pouvez **charger un fichier ZIP HTML5 basé sur DOM afin de développer un modèle d’affichage** dans [!DNL Create], créer des variations de publicités HTML5 et redimensionner le contenu créatif pour d’autres formats. Les expériences terminées peuvent être activées dans [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) et [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
 
 +++
 
@@ -138,7 +113,7 @@ Vous pouvez **charger un fichier ZIP HTML5 basé sur DOM afin de développer u
 
 ### Modèles Express pour Meta, LinkedIn et Display
 
-[!DNL Create] prend désormais en charge les [modèles Express sur la zone de travail Horizon](/help/user-guide/templates/express-templates.md) pour Meta, LinkedIn et Display.Vous pouvez utiliser les modèles Adobe Express, y compris les modèles de base et les dispositions personnalisées à l’image de votre marque, directement dans le workflow de création.
+[!DNL Create] prend désormais en charge les [modèles Express sur la zone de travail Horizon](/help/user-guide/templates/express-templates.md) pour Meta, LinkedIn et Display. Vous pouvez utiliser les modèles Adobe Express, y compris les modèles de base et les dispositions personnalisées à l’image de votre marque, directement dans le workflow de création.
 
 La zone de travail prend en charge les fonctionnalités de modèle, notamment :
 
@@ -151,7 +126,7 @@ Explorez les détails dans [Utiliser des modèles Adobe Express dans GenStudio 
 
 ### Contenu TikTok dans GenStudio for Performance Marketing
 
-Vous pouvez désormais créer, approuver et activer les publicités vidéo dans le fil TikTok à partir de GenStudio for Performance Marketing.Générez facilement des annonces dans le workflow [!DNL Create], puis publiez l’expérience sur [!DNL Content].Utilisez [!DNL Insights] pour TikTok afin de surveiller les performances et d’alimenter la prochaine mise à jour créative.
+Vous pouvez désormais créer, approuver et activer les publicités vidéo dans le fil TikTok à partir de GenStudio for Performance Marketing. Générez facilement des annonces dans le workflow [!DNL Create], puis publiez l’expérience sur [!DNL Content]. Utilisez [!DNL Insights] pour TikTok afin de surveiller les performances et d’alimenter la prochaine mise à jour créative.
 
 ### Content Intelligence Featurization V4
 
@@ -179,17 +154,17 @@ Les avantages de V4 sont les suivants :
 
 ### Nouvelle conception du panneau de prompts de la zone de travail HTML
 
-Le tiroir de prompts de la zone de travail HTML [!DNL Create] apparaît désormais sous la forme d’un panneau situé sur le côté gauche, dans les e-mails, les publicités display et les publicités de média acheté, remplaçant le tiroir inférieur précédent.Cette mise à jour conserve les mêmes fonctionnalités de base tout en améliorant la disposition et la cohérence de l’espace de travail lors de la génération du contenu.
+Le tiroir de prompts de la zone de travail HTML [!DNL Create] apparaît désormais sous la forme d’un panneau situé sur le côté gauche, dans les e-mails, les publicités display et les publicités de média acheté, remplaçant le tiroir inférieur précédent. Cette mise à jour conserve les mêmes fonctionnalités de base tout en améliorant la disposition et la cohérence de l’espace de travail lors de la génération du contenu.
 
 ### Génération d’e-mails multi-modules jusqu’à 10 sections
 
-Vous pouvez désormais créer des e-mails comportant jusqu’à 10 modules/sections dans [!DNL Create], ce qui permet d’étendre la génération d’e-mails multi-modules au-delà de la limite précédente de 1 à 3 modules.Cette amélioration permet d’obtenir des dispositions d’e-mail plus riches et plus structurées dans un flux de génération unique, sans avoir à assembler le contenu en plusieurs étapes.
+Vous pouvez désormais créer des e-mails comportant jusqu’à 10 modules/sections dans [!DNL Create], ce qui permet d’étendre la génération d’e-mails multi-modules au-delà de la limite précédente de 1 à 3 modules. Cette amélioration permet d’obtenir des dispositions d’e-mail plus riches et plus structurées dans un flux de génération unique, sans avoir à assembler le contenu en plusieurs étapes.
 
 ### Content Credentials pour l’authenticité des ressources
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-GenStudio for Performance Marketing prend désormais en charge Content Credentials, ce qui permet aux équipes d’appliquer et de conserver des métadonnées d’authenticité sur les ressources tout au long de leur création, révision et export.Les badges et les informations d’identification apparaissent dans les workflows clés afin que les organisations puissent vérifier la provenance et maintenir la confiance lors du partage de contenu.
+GenStudio for Performance Marketing prend désormais en charge Content Credentials, ce qui permet aux équipes d’appliquer et de conserver des métadonnées d’authenticité sur les ressources tout au long de leur création, révision et export. Les badges et les informations d’identification apparaissent dans les workflows clés afin que les organisations puissent vérifier la provenance et maintenir la confiance lors du partage de contenu.
 
 +++
 
@@ -197,7 +172,7 @@ GenStudio for Performance Marketing prend désormais en charge Content Crede
 
 ### Remplacement de logo pour les modèles.
 
-Les responsables marketing peuvent désormais remplacer dynamiquement les logos dans les modèles directement dans le workflow [!DNL Create], ce qui évite de créer plusieurs variations de modèles pour différents logos, sous-marques ou lignes de produits.Cette fonctionnalité permet aux créateurs et créatrices de sélectionner ou de remplacer le logo approprié au moment de la création de contenu, ce qui simplifie la gestion des modèles et réduit les frais généraux de production.
+Les responsables marketing peuvent désormais remplacer dynamiquement les logos dans les modèles directement dans le workflow [!DNL Create], ce qui évite de créer plusieurs variations de modèles pour différents logos, sous-marques ou lignes de produits. Cette fonctionnalité permet aux créateurs et créatrices de sélectionner ou de remplacer le logo approprié au moment de la création de contenu, ce qui simplifie la gestion des modèles et réduit les frais généraux de production.
 
 +++
 
@@ -215,7 +190,7 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 
 ### Traduction prête à l’emploi pour les expériences paid media et e-mail
 
-* Traduisez instantanément les expériences de médias achetés et e-mail approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing.Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
+* Traduisez instantanément les expériences de médias achetés et e-mail approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 * Grâce aux services de traduction Azure Open AI, les équipes peuvent traduire du contenu en masse dans plusieurs langues cibles simultanément.
 
 ### Export PDF pour les expériences
@@ -230,7 +205,7 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 
 ### Activation de publicité vidéo unique Meta
 
-* Les responsables marketing peuvent désormais [activer les publicités Meta avec des ressources vidéo uniques](/help/user-guide/activation/activate-meta-ad.md) directement depuis GenStudio for Performance Marketing dans Meta Ads Manager.Cela permet aux acheteurs et acheteuses médias, aux responsables marketing de la performance et aux équipes créatives de publier facilement des expériences publicitaires vidéo, en conservant le même workflow rationalisé utilisé pour l’activation des publicités statiques.
+* Les responsables marketing peuvent désormais [activer les publicités Meta avec des ressources vidéo uniques](/help/user-guide/activation/activate-meta-ad.md) directement depuis GenStudio for Performance Marketing dans Meta Ads Manager. Cela permet aux acheteurs et acheteuses médias, aux responsables marketing de la performance et aux équipes créatives de publier facilement des expériences publicitaires vidéo, en conservant le même workflow rationalisé utilisé pour l’activation des publicités statiques.
 * Les utilisateurs et utilisatrices peuvent configurer les détails de création publicitaire, prévisualiser l’aspect de la vidéo et activer les publicités vidéo sur les plateformes Meta.
 
 ### CPA par type d’action pour les campagnes Meta
@@ -260,9 +235,9 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 ### Insights étendus pour LinkedIn, Meta et TikTok
 
 * GenStudio Insights comprend désormais les rapports de performance des publicités LinkedIn, ce qui permet aux responsables marketing d’afficher et d’analyser les performances de leurs campagnes et publicités directement dans la plateforme pour :
-   * Publicités LinkedIn
-   * Publicités Meta
-   * Publicités TikTok
+  * Publicités LinkedIn
+  * Publicités Meta
+  * Publicités TikTok
 
 ### Activation d’Amazon Ads
 
@@ -271,7 +246,7 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 ### Activation de Flashtalking
 
 * GenStudio prend désormais en charge l’activation des publicités display directement dans la plateforme de diffusion de publicités Flashtalking (Innovid).
-* Les utilisateurs et utilisatrices doivent configurer manuellement leur jeton API Flashtalking en coordination avec l’équipe d’ingénierie Activate.La configuration de jeton en libre-service sera ajoutée dans une version ultérieure.
+* Les utilisateurs et utilisatrices doivent configurer manuellement leur jeton API Flashtalking en coordination avec l’équipe d’ingénierie Activate. La configuration de jeton en libre-service sera ajoutée dans une version ultérieure.
 
 ### Intégration à Adobe Campaign V8
 
@@ -283,12 +258,12 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 
 ### Import de modèles d’e-mail tiers
 
-* GenStudio for Performance Marketing prend désormais en charge l’intégration transparente à des systèmes de conception d’e-mails tiers grâce à un cadre d’extensibilité.Les principales fonctionnalités sont les suivantes :
+* GenStudio for Performance Marketing prend désormais en charge l’intégration transparente à des systèmes de conception d’e-mails tiers grâce à un cadre d’extensibilité. Les principales fonctionnalités sont les suivantes :
 
-   * Importer automatiquement des modèles provenant de systèmes de conception d’e-mails tiers lors de la création de contenu
-   * Inclure les métadonnées du modèle avec les modèles importés
-   * Maintenir une source unique de vérité en se connectant directement à des systèmes tiers
-   * SDK et application d’exemple fournis pour créer des intégrations personnalisées
+  * Importer automatiquement des modèles provenant de systèmes de conception d’e-mails tiers lors de la création de contenu
+  * Inclure les métadonnées du modèle avec les modèles importés
+  * Maintenir une source unique de vérité en se connectant directement à des systèmes tiers
+  * SDK et application d’exemple fournis pour créer des intégrations personnalisées
 
 +++
 
@@ -298,9 +273,9 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 
 ### Nouvelle fonctionnalité d’IA de développement génératif pour l’expérience paid media.
 
-La nouvelle fonctionnalité Développement génératif permet aux responsables marketing d’adapter dynamiquement leurs ressources de création afin de prendre en charge différents rapports L/H d’image sur les plateformes de médias achetés telles que Meta, LinkedIn, les publicités display et les bannières.Lorsqu’une image ne correspond pas au rapport L/H prévu, par exemple en ajoutant une image étroite à une disposition large, vous pouvez utiliser GenExpand pour modifier l’image afin qu’elle s’adapte.
+La nouvelle fonctionnalité Développement génératif permet aux responsables marketing d’adapter dynamiquement leurs ressources de création afin de prendre en charge différents rapports L/H d’image sur les plateformes de médias achetés telles que Meta, LinkedIn, les publicités display et les bannières. Lorsqu’une image ne correspond pas au rapport L/H prévu, par exemple en ajoutant une image étroite à une disposition large, vous pouvez utiliser GenExpand pour modifier l’image afin qu’elle s’adapte.
 
-Cette fonctionnalité simplifie le processus d’édition et de redimensionnement d’images directement dans GenStudio for Performance Marketing.Voir [Fonctionnalités de développement génératif](/help/user-guide/create/manage-variants.md#use-generative-expand) pour plus d’informations.
+Cette fonctionnalité simplifie le processus d’édition et de redimensionnement d’images directement dans GenStudio for Performance Marketing. Voir [Fonctionnalités de développement génératif](/help/user-guide/create/manage-variants.md#use-generative-expand) pour plus d’informations.
 
 +++
 
@@ -308,9 +283,9 @@ Cette fonctionnalité simplifie le processus d’édition et de redimensionnemen
 
 ### Insights pour les attributs de texte
 
-Dans Adobe GenStudio, les insights sur les attributs de texte analysent le ton émotionnel, les techniques de persuasion et le style narratif utilisés dans le texte publicitaire.Une fois qu’une campagne est active, GenStudio effectue le suivi de la corrélation entre ces attributs de texte et des mesures de performances clés telles que le taux de clics, le CPA, le CPC, les impressions et les dépenses.
+Dans Adobe GenStudio, les insights sur les attributs de texte analysent le ton émotionnel, les techniques de persuasion et le style narratif utilisés dans le texte publicitaire. Une fois qu’une campagne est active, GenStudio effectue le suivi de la corrélation entre ces attributs de texte et des mesures de performances clés telles que le taux de clics, le CPA, le CPC, les impressions et les dépenses.
 
-Actuellement, cette fonctionnalité est disponible uniquement pour les publicités en anglais.Voir [Fonctionnalités de texte](/help/user-guide/insights/text-features.md) pour plus d’informations.
+Actuellement, cette fonctionnalité est disponible uniquement pour les publicités en anglais. Voir [Fonctionnalités de texte](/help/user-guide/insights/text-features.md) pour plus d’informations.
 
 ### Améliorations du modèle Insights
 
@@ -319,7 +294,7 @@ Actuellement, cette fonctionnalité est disponible uniquement pour les publicit�
 
 ### Générer du contenu multilingue avec validation de marque.
 
-Le nouveau sélecteur de langues dans le tiroir de prompts prend en charge la création de contenu multilingue, ce qui permet aux responsables marketing régionaux de développer du contenu conforme à la marque pour leurs audiences locales.Cette fonctionnalité prend actuellement en charge 12 langues.
+Le nouveau sélecteur de langues dans le tiroir de prompts prend en charge la création de contenu multilingue, ce qui permet aux responsables marketing régionaux de développer du contenu conforme à la marque pour leurs audiences locales. Cette fonctionnalité prend actuellement en charge 12 langues.
 
 ### Prise en charge des ressources vidéo sur les modèles
 
@@ -332,7 +307,7 @@ Le nouveau sélecteur de langues dans le tiroir de prompts prend en charge la cr
 
 ### Utiliser le même rôle dans plusieurs champs de texte
 
-Plusieurs champs de texte ayant le même rôle sont désormais pris en charge (par exemple, « corps », « CTA », « texte sur image », etc.)pour les modèles clients complexes.
+Plusieurs champs de texte ayant le même rôle sont désormais pris en charge (par exemple, « corps », « CTA », « texte sur image », etc.) pour les modèles clients complexes.
 
 Explorez les détails dans le [Guide de l’éditeur de code de modèle](/help/user-guide/templates/code-editor.md).
 
@@ -352,7 +327,7 @@ Consultez [Générer des ressources](/help/user-guide/create/generate-assets.md)
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-Adobe GenStudio for Performance Marketing propose désormais des fonctionnalités de traduction d’e-mails intégrées qui permettent aux responsables marketing de déployer efficacement leurs campagnes par e-mail à l’échelle mondiale.Cette fonctionnalité vous permet de prendre une expérience e-mail approuvée et de la traduire dans plusieurs langues cibles à l’aide des services de traduction Azure Open AI.
+Adobe GenStudio for Performance Marketing propose désormais des fonctionnalités de traduction d’e-mails intégrées qui permettent aux responsables marketing de déployer efficacement leurs campagnes par e-mail à l’échelle mondiale. Cette fonctionnalité vous permet de prendre une expérience e-mail approuvée et de la traduire dans plusieurs langues cibles à l’aide des services de traduction Azure Open AI.
 
 +++
 
@@ -360,31 +335,31 @@ Adobe GenStudio for Performance Marketing propose désormais des fonctionnalité
 
 ### Filtre des ressources compatibles
 
-Un nouveau filtre dans le module [!DNL Insights] masque automatiquement les [ressources d’images et de vidéos non prises en charge](/help/user-guide/insights/published-experiences.md#ad-formats) des aperçus des publicités, ce qui permet d’éliminer les visuels superflus et les vignettes non fonctionnelles.Cette amélioration garantit que les utilisateurs et utilisatrices ne voient que les médias réellement disponibles et prêts à l’emploi, ce qui crée une expérience plus épurée et plus fiable.Le filtre fonctionne en parallèle avec le filtre publicitaire de compatibilité existant.
+Un nouveau filtre dans le module [!DNL Insights] masque automatiquement les [ressources d’images et de vidéos non prises en charge](/help/user-guide/insights/published-experiences.md#ad-formats) des aperçus des publicités, ce qui permet d’éliminer les visuels superflus et les vignettes non fonctionnelles. Cette amélioration garantit que les utilisateurs et utilisatrices ne voient que les médias réellement disponibles et prêts à l’emploi, ce qui crée une expérience plus épurée et plus fiable. Le filtre fonctionne en parallèle avec le filtre publicitaire de compatibilité existant.
 
 ### Activation multi-ressources pour Meta
 
-L’activation d’images multi-rapports L/H pour les publicités Meta permet aux annonceurs de charger et d’activer plusieurs ressources d’images dans différents rapports L/H sous une seule création publicitaire.Cette fonctionnalité permet à une publicité de diffuser le contenu créatif approprié pour différents placements Meta, tels que le fil, les stories et les reels.Les annonceurs peuvent prévisualiser l’apparence de chaque image dans les différents placements et publier toutes les versions sur Meta en un seul appel API.
+L’activation d’images multi-rapports L/H pour les publicités Meta permet aux annonceurs de charger et d’activer plusieurs ressources d’images dans différents rapports L/H sous une seule création publicitaire. Cette fonctionnalité permet à une publicité de diffuser le contenu créatif approprié pour différents placements Meta, tels que le fil, les stories et les reels. Les annonceurs peuvent prévisualiser l’apparence de chaque image dans les différents placements et publier toutes les versions sur Meta en un seul appel API.
 
 ### Mise en forme de texte enrichi dans les variantes
 
-[Modifiez les champs de texte dans les variantes générées avec des options de mise en forme de texte enrichi](/help/user-guide/create/manage-variants.md#manually-edit-text) : gras, italique, souligné, alignement du texte, listes, couleur du texte, taille du texte et liens.Cela vous permet d’affiner le texte et les expressions pour votre audience et d’appliquer une mise en forme afin de répondre aux exigences de disposition.
+[Modifiez les champs de texte dans les variantes générées avec des options de mise en forme de texte enrichi](/help/user-guide/create/manage-variants.md#manually-edit-text) : gras, italique, souligné, alignement du texte, listes, couleur du texte, taille du texte et liens. Cela vous permet d’affiner le texte et les expressions pour votre audience et d’appliquer une mise en forme afin de répondre aux exigences de disposition.
 
 ### Libellés d’accessibilité des images et des liens
 
-Ajoutez des libellés d’accessibilité (Aria-labels) aux images et aux liens d’appels à l’action dans vos variantes pour fournir des noms accessibles qui aident les utilisateurs et utilisatrices à comprendre l’objectif des éléments interactifs.Voir [Gérer les variantes](/help/user-guide/create/manage-variants.md) pour obtenir des instructions détaillées.
+Ajoutez des libellés d’accessibilité (Aria-labels) aux images et aux liens d’appels à l’action dans vos variantes pour fournir des noms accessibles qui aident les utilisateurs et utilisatrices à comprendre l’objectif des éléments interactifs. Voir [Gérer les variantes](/help/user-guide/create/manage-variants.md) pour obtenir des instructions détaillées.
 
 ### Génération de contenu non anglais
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-Le nouveau menu déroulant Sélecteur de langues dans le tiroir de prompts prend en charge la création de contenu multilingue, ce qui permet aux responsables marketing régionaux de développer du contenu conforme à la marque pour leurs audiences locales.Cette fonctionnalité prend actuellement en charge 12 langues en disponibilité générale et 5 langues en version bêta. La liste des langues fournit un workflow défini et une directive de langue claire au LLM pour des résultats plus cohérents.
+Le nouveau menu déroulant Sélecteur de langues dans le tiroir de prompts prend en charge la création de contenu multilingue, ce qui permet aux responsables marketing régionaux de développer du contenu conforme à la marque pour leurs audiences locales. Cette fonctionnalité prend actuellement en charge 12 langues en disponibilité générale et 5 langues en version bêta. La liste des langues fournit un workflow défini et une directive de langue claire au LLM pour des résultats plus cohérents.
 
 ### Sélection facultative d’un modèle pour les publicités Meta
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-La sélection d’un modèle est désormais facultative pour les publicités Meta, ce qui permet aux utilisateurs et utilisatrices de créer des publicités sans avoir besoin de texte et de logo en haut du média.Cette amélioration permet d’utiliser d’autres types de médias, tels que les GIF animés et les vidéos, qui ne nécessitent pas de superpositions de texte ni l’ajout d’un logo.
+La sélection d’un modèle est désormais facultative pour les publicités Meta, ce qui permet aux utilisateurs et utilisatrices de créer des publicités sans avoir besoin de texte et de logo en haut du média. Cette amélioration permet d’utiliser d’autres types de médias, tels que les GIF animés et les vidéos, qui ne nécessitent pas de superpositions de texte ni l’ajout d’un logo.
 
 +++
 
@@ -394,7 +369,7 @@ La sélection d’un modèle est désormais facultative pour les publicités Met
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) permettent de lancer rapidement le processus de création.Vous pouvez désormais choisir parmi un modèle de démarrage de publicité Meta ou LinkedIn.
+Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) permettent de lancer rapidement le processus de création. Vous pouvez désormais choisir parmi un modèle de démarrage de publicité Meta ou LinkedIn.
 
 ### Fonctionnalité d’IA de développement génératif
 
@@ -406,13 +381,13 @@ Désormais, dans GenStudio for Performance Marketing [!DNL Create], vous pouv
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-En plus des images, vous pouvez désormais ajouter des vidéos aux publicités [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) et [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos).Consultez les aperçus des vidéos en lecture automatique directement dans GenStudio for Performance Marketing lorsque vous choisissez et ajoutez des vidéos à vos variantes.
+En plus des images, vous pouvez désormais ajouter des vidéos aux publicités [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) et [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos). Consultez les aperçus des vidéos en lecture automatique directement dans GenStudio for Performance Marketing lorsque vous choisissez et ajoutez des vidéos à vos variantes.
 
 ### Correctifs et améliorations
 
-* Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/activate-linkedin-ad.md) depuis GenStudio for Performance Marketing dans LinkedIn Campaign Manager.[!DNL Activate] prend en charge les aperçus détaillés des publicités LinkedIn avant de les publier sur LinkedIn Campaign Manager.
+* Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/activate-linkedin-ad.md) depuis GenStudio for Performance Marketing dans LinkedIn Campaign Manager. [!DNL Activate] prend en charge les aperçus détaillés des publicités LinkedIn avant de les publier sur LinkedIn Campaign Manager.
 
-* L’intégration [Workfront Proof](/help/user-guide/approvals/overview.md) permet d’intégrer les fonctionnalités robustes de révision et d’approbation de Proof à GenStudio for Performance Marketing.Le contenu révisé dans GenStudio for Performance Marketing est synchronisé avec Workfront Proof, et les commentaires et le statut de la révision sont conservés.
+* L’intégration [Workfront Proof](/help/user-guide/approvals/overview.md) permet d’intégrer les fonctionnalités robustes de révision et d’approbation de Proof à GenStudio for Performance Marketing. Le contenu révisé dans GenStudio for Performance Marketing est synchronisé avec Workfront Proof, et les commentaires et le statut de la révision sont conservés.
 
 * Ajout de la possibilité d’[indiquer des noms accessibles aux images et aux liens d’appel à l’action](/help/user-guide/create/manage-variants.md#add-accessibility-labels) dans vos variantes en ajoutant des libellés d’accessibilité (libellés Aria).
 
@@ -420,11 +395,11 @@ En plus des images, vous pouvez désormais ajouter des vidéos aux publicités [
 
 * Après avoir ajouté manuellement une [!DNL Brand] ou créé une [!DNL Brand] à partir d’une extraction manuelle d’un document, vous pouvez [modifier ou ajouter des images miniatures de marque](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail) pour vous assurer que chaque marque est facilement identifiable dans votre liste de [!DNL Brands].
 
-* Vous pouvez désormais [utiliser la mise en forme d’édition de texte enrichi pour le texte](/help/user-guide/create/manage-variants.md#manually-edit-text) dans vos variantes générées.Testez les nombreuses options de mise en forme pour le texte de variante, telles que la couleur, la taille, les listes, etc.
+* Vous pouvez désormais [utiliser la mise en forme d’édition de texte enrichi pour le texte](/help/user-guide/create/manage-variants.md#manually-edit-text) dans vos variantes générées. Testez les nombreuses options de mise en forme pour le texte de variante, telles que la couleur, la taille, les listes, etc.
 
-* Vous pouvez désormais [créer un nouvel ensemble de publicités](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) lors de la configuration de la plateforme en clonant un ensemble de publicités existant.Les ensembles de publicités Meta définissent le calendrier, les détails du canal et l’audience d’une publicité spécifique.Une campagne Meta peut contenir plusieurs ensembles de publicités, mais un ensemble de publicités est exclusivement associé à une campagne.
+* Vous pouvez désormais [créer un nouvel ensemble de publicités](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) lors de la configuration de la plateforme en clonant un ensemble de publicités existant. Les ensembles de publicités Meta définissent le calendrier, les détails du canal et l’audience d’une publicité spécifique. Une campagne Meta peut contenir plusieurs ensembles de publicités, mais un ensemble de publicités est exclusivement associé à une campagne.
 
-* Vous pouvez désormais exporter les détails de la campagne afin de les rendre accessibles en externe sous forme de résumés de campagne dans Word ou PDF.Sélectionnez une campagne, puis cliquez sur **[!UICONTROL Exporter]** (coin supérieur droit).
+* Vous pouvez désormais exporter les détails de la campagne afin de les rendre accessibles en externe sous forme de résumés de campagne dans Word ou PDF. Sélectionnez une campagne, puis cliquez sur **[!UICONTROL Exporter]** (coin supérieur droit).
 
 +++
 
@@ -433,8 +408,8 @@ En plus des images, vous pouvez désormais ajouter des vidéos aux publicités [
 ### Correctifs et améliorations
 
 * Activation de la fonctionnalité permettant d’[ajouter un texte alternatif (alt)](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) à une image pour une variante spécifique.
-* Ajout d’un [nouveau format d’image Meta](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — Paysage 1,19:1 (largeur de 1 080 pixels).
-* Vous pouvez désormais choisir plusieurs expériences à exporter ou à télécharger.Consultez [Exporter des expériences](/help/user-guide/content/manage-assets.md#export-experiences).
+* Ajout d’un [nouveau format Meta](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paysage 1,19:1 (largeur de 1 080 pixels).
+* Vous pouvez désormais choisir plusieurs expériences à exporter ou à télécharger. Consultez [Exporter des expériences](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
 +++
@@ -443,10 +418,10 @@ En plus des images, vous pouvez désormais ajouter des vidéos aux publicités [
 
 ### Correctifs et améliorations
 
-* Nouvelles options de filtrage pour les modèles.Vous pouvez désormais affiner votre liste _[!UICONTROL Sélectionner des modèles]_ dans [!DNL Create] et dans _[!UICONTROL Contenu]_ > _[!UICONTROL Modèles]_.Consultez [Rechercher des modèles](/help/user-guide/templates/use-templates.md#search-templates).Assurez-vous que les modèles sont correctement balisés avec des métadonnées afin de les rendre détectables via ces filtres.
+* Nouvelles options de filtrage pour les modèles. Vous pouvez désormais affiner votre liste _[!UICONTROL Sélectionner des modèles]_ dans [!DNL Create] et dans _[!UICONTROL Contenu]_ > _[!UICONTROL Modèles]_. Consultez [Rechercher des modèles](/help/user-guide/templates/use-templates.md#search-templates). Assurez-vous que les modèles sont correctement balisés avec des métadonnées afin de les rendre détectables via ces filtres.
 * Activation de la fonctionnalité permettant d’[afficher et de sélectionner des calques individuels](/help/user-guide/create/manage-variants.md#view-layers) d’une expérience, tels que des champs de texte modifiables ou des images modifiables, afin de les mettre en surbrillance pour les révisions, telles que la régénération de contenu ou le recadrage d’images.
 * Ajout d’un [nouveau champ de modèle](/help/user-guide/templates/use-templates.md#template-elements), `sub-headline`, pour du texte supplémentaire dans les expériences afin de capter l’attention de l’audience et de mettre en évidence les messages marketing.
-* Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/overview.md) depuis GenStudio for Performance Marketing dans Google Campaign Manager 360.Activate prend en charge les aperçus détaillés des publicités dans Google Campaign Manager 360 avant leur publication auprès d’un annonceur utilisant Campaign Manager 360.Les publicités publiées via Activate sont automatiquement intégrées à Insights une fois en ligne, ce qui permet de suivre et de générer des rapports sur les performances publicitaires.
+* Ajout de la prise en charge de la [publication d’expériences publicitaires](/help/user-guide/activation/overview.md) depuis GenStudio for Performance Marketing dans Google Campaign Manager 360. Activate prend en charge les aperçus détaillés des publicités dans Google Campaign Manager 360 avant leur publication auprès d’un annonceur utilisant Campaign Manager 360. Les publicités publiées via Activate sont automatiquement intégrées à Insights une fois en ligne, ce qui permet de suivre et de générer des rapports sur les performances publicitaires.
 
 +++
 
@@ -454,23 +429,23 @@ En plus des images, vous pouvez désormais ajouter des vidéos aux publicités [
 
 ### Publicités Meta Activate
 
-Les spécialistes du marketing peuvent désormais [publier des expériences publicitaires](/help/user-guide/activation/overview.md) depuis GenStudio for Performance Marketing dans Meta Ads Manager.[!DNL Activate] permet d’afficher des aperçus détaillés des publicités Meta avant leur déploiement.Les publicités Meta publiées via [!DNL Activate] sont automatiquement intégrées à [!DNL Insights] une fois mises en ligne, ce qui permet de suivre et de générer des rapports sur les performances publicitaires.
+Les spécialistes du marketing peuvent désormais [publier des expériences publicitaires](/help/user-guide/activation/overview.md) depuis GenStudio for Performance Marketing dans Meta Ads Manager. [!DNL Activate] permet d’afficher des aperçus détaillés des publicités Meta avant leur déploiement. Les publicités Meta publiées via [!DNL Activate] sont automatiquement intégrées à [!DNL Insights] une fois mises en ligne, ce qui permet de suivre et de générer des rapports sur les performances publicitaires.
 
 ### Créer des expériences LinkedIn
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-Ajout de la prise en charge de la [création d’expériences LinkedIn](/help/user-guide/create/create-linkedin.md).Consultez l’onglet [Publicité LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+Ajout de la prise en charge de la [création d’expériences LinkedIn](/help/user-guide/create/create-linkedin.md). Consultez l’onglet [Publicité LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Créer des expériences de bannière
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-Ajout de la prise en charge de la [création d’expériences de bannière](/help/user-guide/create/create-banner-experience.md).Consultez l’onglet [Bannière](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
+Ajout de la prise en charge de la [création d’expériences de bannière](/help/user-guide/create/create-banner-experience.md). Consultez l’onglet [Bannière](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) dans les instructions spécifiques aux canaux.
 
 ### Conformité
 
-Dans le cadre du processus de validation de la marque, des [normes de conformité](/help/user-guide/guidelines/overview.md) ont été intégrées aux [vérifications de contenu](/help/user-guide/guidelines/brand-validation.md).Ces contrôles examinent chaque variante d’une expérience par rapport aux directives [!DNL Brand], aux directives de la plateforme (par exemple, pour Meta) et aux normes ADA.Ce processus fournit un résumé complet des lignes directrices et des normes qui doivent être révisées afin d’améliorer leur conformité.
+Dans le cadre du processus de validation de la marque, des [normes de conformité](/help/user-guide/guidelines/overview.md) ont été intégrées aux [vérifications de contenu](/help/user-guide/guidelines/brand-validation.md). Ces contrôles examinent chaque variante d’une expérience par rapport aux directives [!DNL Brand], aux directives de la plateforme (par exemple, pour Meta) et aux normes ADA. Ce processus fournit un résumé complet des lignes directrices et des normes qui doivent être révisées afin d’améliorer leur conformité.
 
 ### Extensibilité
 
@@ -482,8 +457,8 @@ Le nouveau cadre d’extensibilité [GenStudio for Performance Marketing](/he
 
   ![Vue de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="500" zoomable="yes"}
 
-* **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image.Consultez [Personnaliser un modèle : lien sur une image](/help/user-guide/templates/customize-template.md#link-on-image).
-* **Modèles AJO et Marketo** : chargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo.Consultez [Utiliser les modèles d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
+* **Liens sur l’image** : personnalisez votre modèle d’e-mail en activant les liens d’image. Consultez [Personnaliser un modèle : lien sur une image](/help/user-guide/templates/customize-template.md#link-on-image).
+* **Modèles AJO et Marketo** : chargez un modèle que vous avez créé dans Adobe Journey Optimizer (AJO) ou Marketo. Consultez [Utiliser les modèles d’AJO et de Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correctifs et améliorations
 
@@ -501,11 +476,11 @@ Le nouveau cadre d’extensibilité [GenStudio for Performance Marketing](/he
 
 ### Améliorations de la page de destination de [!DNL Create]
 
-La page de destination [!DNL Create] de GenStudio for Performance Marketing comprend des améliorations de l’interface d’utilisation pour une meilleure expérience clientèle.La section _Travaux récents_ est affinée et configurée avec la vue Liste comme vue par défaut.Le remplissage et d’autres améliorations visuelles rationalisent l’aspect de la zone de travail [!DNL Create].
+La page de destination [!DNL Create] de GenStudio for Performance Marketing comprend des améliorations de l’interface d’utilisation pour une meilleure expérience clientèle. La section _Travaux récents_ est affinée et configurée avec la vue Liste comme vue par défaut. Le remplissage et d’autres améliorations visuelles rationalisent l’aspect de la zone de travail [!DNL Create].
 
 ### Export des données Insights au format CSV
 
-Vous pouvez désormais télécharger le tableau affichable à partir de n’importe quelle vue [!DNL Insights] dans un fichier CSV.Cette fonctionnalité vous permet d’exporter et d’analyser des données provenant de diverses vues [!DNL Insights], ce qui facilite l’analyse de données et les options de rapports.
+Vous pouvez désormais télécharger le tableau affichable à partir de n’importe quelle vue [!DNL Insights] dans un fichier CSV. Cette fonctionnalité vous permet d’exporter et d’analyser des données provenant de diverses vues [!DNL Insights], ce qui facilite l’analyse de données et les options de rapports.
 
 +++
 
@@ -515,19 +490,19 @@ Vous pouvez désormais télécharger le tableau affichable à partir de n’impo
 
 [!BADGE Beta]{type=Informative tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."}
 
-Le programme bêta d’intégration de GenStudio for Performance Marketing et de Workfront Proof est lancé ce mois-ci.Workfront Proof améliore le cycle de vie de la création et de l’activation de contenu grâce à des modèles d’approbation, des workflows en plusieurs étapes et des annotations.Les personnes utilisant GenStudio for Performance Marketing disposant d’une licence Workfront Proof peuvent utiliser les fonctionnalités avancées de Workfront Proof au sein de GenStudio for Performance Marketing pour examiner et commenter le contenu généré par GenStudio.
+Le programme bêta d’intégration de GenStudio for Performance Marketing et de Workfront Proof est lancé ce mois-ci. Workfront Proof améliore le cycle de vie de la création et de l’activation de contenu grâce à des modèles d’approbation, des workflows en plusieurs étapes et des annotations. Les personnes utilisant GenStudio for Performance Marketing disposant d’une licence Workfront Proof peuvent utiliser les fonctionnalités avancées de Workfront Proof au sein de GenStudio for Performance Marketing pour examiner et commenter le contenu généré par GenStudio.
 
 Les programmes bêta offrent un moyen de contribuer à l’élaboration des produits et de déterminer s’ils sont prêts à être mis à la disposition du grand public.
 
 ### Générer de nouveaux appels à l’action
 
-Vous pouvez désormais générer de nouvelles expressions CTA (appels à l’action) lors de la gestion des variantes.Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour créer de nouvelles phrases et modifier le lien d’appel à l’action.Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent.Suivez les instructions de la section _Personnaliser un modèle_ : [appels à l’action](/help/user-guide/templates/customize-template.md#calls-to-action).Pour obtenir des instructions sur la gestion des CTA dans les variantes, consultez [Modifier l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Vous pouvez désormais générer de nouvelles expressions CTA (appels à l’action) lors de la gestion des variantes. Utilisez les nouvelles options _Reformuler_ et _Ajouter un lien_ pour créer de nouvelles phrases et modifier le lien d’appel à l’action. Votre modèle doit être correctement configuré pour que ces nouvelles fonctions CTA fonctionnent. Suivez les instructions de la section _Personnaliser un modèle_ : [appels à l’action](/help/user-guide/templates/customize-template.md#calls-to-action). Pour obtenir des instructions sur la gestion des CTA dans les variantes, consultez [Modifier l’appel à l’action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correctifs et améliorations
 
-* Le nombre de caractères est désormais affiché dans tous les champs, qu’ils soient générés automatiquement ou renseignés manuellement, des publicités display.Consultez _Nombre de caractères_ dans [Expériences Meta](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
+* Le nombre de caractères est désormais affiché dans tous les champs, qu’ils soient générés automatiquement ou renseignés manuellement, des publicités display. Consultez _Nombre de caractères_ dans [Expériences Meta](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
 
-* _Les collaborateurs et collaboratrices_ peuvent désormais afficher les ressources, mais ne peuvent pas les créer, les modifier ni les supprimer.Auparavant, leurs droits n’étaient pas appliqués comme prévu dans [!DNL Create]. <!-- GS-7614 -->
+* _Les collaborateurs et collaboratrices_ peuvent désormais afficher les ressources, mais ne peuvent pas les créer, les modifier ni les supprimer. Auparavant, leurs droits n’étaient pas appliqués comme prévu dans [!DNL Create]. <!-- GS-7614 -->
 
 * Les éditeurs et éditrices de contenu peuvent désormais modifier les métadonnées des ressources, des expériences et des modèles. <!-- GS-4905 -->
 
@@ -537,13 +512,13 @@ Vous pouvez désormais générer de nouvelles expressions CTA (appels à l’act
 
 * Le lien d’appel à l’action de l’e-mail n’est plus un champ obligatoire. <!-- GS-8103 -->
 
-* Le menu déroulant du sélecteur de [!DNL Brand] fonctionne désormais comme prévu pour les modèles.Auparavant, le sélecteur ne se chargeait pas correctement pour certains modèles. <!-- GS-8908 -->
+* Le menu déroulant du sélecteur de [!DNL Brand] fonctionne désormais comme prévu pour les modèles. Auparavant, le sélecteur ne se chargeait pas correctement pour certains modèles. <!-- GS-8908 -->
 
 * Les rédacteurs et rédactrices peuvent désormais sélectionner un maximum de quatre images pour les e-mails à capsule unique et les publicités Meta. <!-- GS-2631 -->
 
 * La valeur de l’année du champ `Created by` d’une expérience approuvée reste désormais cohérente, comme prévu, après la modification des métadonnées de l’expérience. <!-- GS-8344 -->
 
-* Les éditeurs et éditrices de contenu peuvent désormais sélectionner un modèle dans [!DNL Create].Auparavant, l’application affichait une erreur dans la console lorsqu’un éditeur ou une éditrice sélectionnait un modèle. <!-- GS-8798 -->
+* Les éditeurs et éditrices de contenu peuvent désormais sélectionner un modèle dans [!DNL Create]. Auparavant, l’application affichait une erreur dans la console lorsqu’un éditeur ou une éditrice sélectionnait un modèle. <!-- GS-8798 -->
 
 * Les problèmes liés aux opérations de redimensionnement et de régénération des publicités Meta ont été résolus. <!-- GS-8900 -->
 
@@ -557,13 +532,13 @@ Vous pouvez désormais générer de nouvelles expressions CTA (appels à l’act
 
 Les éditeurs et éditrices peuvent désormais effectuer les tâches liées aux métadonnées suivantes :
 
-* modifier les métadonnées de la ressource, de l’expérience et du modèle ;afficher les [Détails de la ressource](/help/user-guide/content/asset-details.md#user-defined-metadata) ; <!-- GS-4905 6935-->
+* modifier les métadonnées de la ressource, de l’expérience et du modèle ; afficher les [Détails de la ressource](/help/user-guide/content/asset-details.md#user-defined-metadata) ; <!-- GS-4905 6935-->
 
-* afficher les balises générées d’une ressource dans la vue _Détails_ de toute expérience qui utilise cette ressource ;afficher les _Balises générées_ dans les [Détails de la ressource](/help/user-guide/content/asset-details.md#generated-tags). <!-- GS-3705 -->
+* afficher les balises générées d’une ressource dans la vue _Détails_ de toute expérience qui utilise cette ressource ; afficher les _Balises générées_ dans les [Détails de la ressource](/help/user-guide/content/asset-details.md#generated-tags). <!-- GS-3705 -->
 
 Les éditeurs et éditrices peuvent désormais spécifier des valeurs personnalisées pour ces aspects des variantes générées :
 
-* Largeur et hauteur des bannières web dans les modèles de publicité display.Ces valeurs sont désormais enregistrées en tant que métadonnées de modèle. <!-- GS-6735 -->
+* Largeur et hauteur des bannières web dans les modèles de publicité display. Ces valeurs sont désormais enregistrées en tant que métadonnées de modèle. <!-- GS-6735 -->
 
 * Dimensions des images dans les expériences de publicité display lors du chargement des images.<!-- GS-7166 -->
 
@@ -571,15 +546,15 @@ Les éditeurs et éditrices peuvent désormais spécifier des valeurs personnali
 
 Les options d’export incluent désormais ce qui suit :
 
-* Exporter les publicités display et Meta aux formats HTML, JPEG ou PNG.Consultez [Créer une expérience publicitaire display](/help/user-guide/create/create-display-ad.md) et [Créer une expérience publicitaire Meta](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
+* Exporter les publicités display et Meta aux formats HTML, JPEG ou PNG. Consultez [Créer une expérience publicitaire display](/help/user-guide/create/create-display-ad.md) et [Créer une expérience publicitaire Meta](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
 
 De nouvelles fonctionnalités supplémentaires permettent aux éditeurs et éditrices d’effectuer les actions suivantes :
 
 * Utiliser le bouton **[!UICONTROL Actualiser]** dans la vue [!DNL Content]Modèle _Détails de la ressource_ pour actualiser le modèle sélectionné. <!-- GS-7102 -->
 
-* Générer à nouveau des sections des variantes de publicités display et d’e-mails.Consultez [Créer une expérience publicitaire display](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) et [Créer une expérience par e-mail](/help/user-guide/create/create-email-experience.md#revise-generated-emails). <!-- GS-5080 5078-->
+* Générer à nouveau des sections des variantes de publicités display et d’e-mails. Consultez [Créer une expérience publicitaire display](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) et [Créer une expérience par e-mail](/help/user-guide/create/create-email-experience.md#revise-generated-emails). <!-- GS-5080 5078-->
 
-* Dupliquer les marques existantes.Consultez [Gérer les marques](/help/user-guide/guidelines/brands.md#manage-brands). <!-- BRANDS-548 -->
+* Dupliquer les marques existantes. Consultez [Gérer les marques](/help/user-guide/guidelines/brands.md#manage-brands). <!-- BRANDS-548 -->
 
 ### Correctifs et améliorations
 
@@ -595,7 +570,7 @@ De nouvelles fonctionnalités supplémentaires permettent aux éditeurs et édit
 
 * La zone de travail affiche désormais les expériences redimensionnées dans un ordre cohérent. <!-- GS-7123 -->
 
-* Le recadrage manuel utilise désormais les dimensions de l’image, et non celles du modèle, lors de la modification des publicités display.Auparavant, lorsqu’une image était plus petite que les dimensions spécifiées dans le modèle de publicité display, le cadre de sélection utilisait les dimensions du modèle, et non les dimensions de l’image. <!-- GS-7315 -->
+* Le recadrage manuel utilise désormais les dimensions de l’image, et non celles du modèle, lors de la modification des publicités display. Auparavant, lorsqu’une image était plus petite que les dimensions spécifiées dans le modèle de publicité display, le cadre de sélection utilisait les dimensions du modèle, et non les dimensions de l’image. <!-- GS-7315 -->
 
 * Les éditeurs et éditrices peuvent désormais sélectionner jusqu’à quatre images lors de la création d’une publicité display. <!-- GS-7189 -->
 
@@ -613,7 +588,7 @@ De nouvelles fonctionnalités supplémentaires permettent aux éditeurs et édit
 
 * La sélection au clavier a été ajoutée uniquement aux boutons exploitables dans la vue [!DNL Create] _Travail récent_. <!-- GS-4060 -->
 
-* Le message **Enregistrement en cours** affiché pendant les opérations d’enregistrement de fragment d’e-mail s’affiche désormais uniquement pendant l’opération d’enregistrement.Auparavant, la zone de travail affichait ce message indéfiniment. <!-- GS-6964 -->
+* Le message **Enregistrement en cours** affiché pendant les opérations d’enregistrement de fragment d’e-mail s’affiche désormais uniquement pendant l’opération d’enregistrement. Auparavant, la zone de travail affichait ce message indéfiniment. <!-- GS-6964 -->
 
 * Les éditeurs et éditrices voient désormais un message d’erreur comme prévu lorsqu’un brouillon ne parvient pas à se charger dans la zone [!DNL Create] _Travaux récents_. <!-- GS-8081 -->
 
@@ -631,7 +606,7 @@ De nouvelles fonctionnalités supplémentaires permettent aux éditeurs et édit
 
 ### Nouvelles fonctionnalités
 
-Ajout de la prise en charge de l’affichage de contenu statique hébergé sur des domaines externes.GenStudio for Performance Marketing valide la source de contenu définie dans le modèle et incorpore une copie pour produire la prévisualisation du modèle.Consultez [Contenu statique](/help/user-guide/templates/customize-template.md#static-content). <!-- GS-6107 -->
+Ajout de la prise en charge de l’affichage de contenu statique hébergé sur des domaines externes. GenStudio for Performance Marketing valide la source de contenu définie dans le modèle et incorpore une copie pour produire la prévisualisation du modèle. Consultez [Contenu statique](/help/user-guide/templates/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Correctifs et améliorations
 
@@ -641,7 +616,7 @@ Ajout de la prise en charge de l’affichage de contenu statique hébergé sur d
 
 * Les boutons de la fenêtre contextuelle **[!UICONTROL Exporter]** des _expériences de [!DNL Content]_ ne sont plus tronqués dans certaines langues. <!-- GS-6873 -->
 
-* Les publicités display créées avec des modèles de taille 50 x 50 sont désormais exportées dans la taille d’image attendue.Auparavant, les fichiers PNG étaient exportés avec des dimensions deux fois supérieures à celles attendues. <!-- GS-7192 -->
+* Les publicités display créées avec des modèles de taille 50 x 50 sont désormais exportées dans la taille d’image attendue. Auparavant, les fichiers PNG étaient exportés avec des dimensions deux fois supérieures à celles attendues. <!-- GS-7192 -->
 
 * Les erreurs de modèle qui se sont produites lors du redimensionnement des publicités display sont désormais résolues. <!-- GS-7322 -->
 
@@ -693,11 +668,11 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 #### Nouvelle génération d’image
 
-* Le redimensionnement de plusieurs variantes de publicités Meta fonctionne désormais comme prévu.Auparavant, la zone de travail n’affichait pas les variantes générées à nouveau, mais restait vide. <!-- GS-7010 -->
+* Le redimensionnement de plusieurs variantes de publicités Meta fonctionne désormais comme prévu. Auparavant, la zone de travail n’affichait pas les variantes générées à nouveau, mais restait vide. <!-- GS-7010 -->
 
 * La nouvelle génération de fragment fonctionne désormais comme prévu pour les expériences redimensionnées. <!-- GS-6836 -->
 
-* La nouvelle génération des images Meta et des publicités après leur redimensionnement ne provoque plus d’erreur.Auparavant, le redimensionnement des images avant la nouvelle génération modifiait les métadonnées du canal de `meta` en `facebook`. <!-- GS-7042 -->
+* La nouvelle génération des images Meta et des publicités après leur redimensionnement ne provoque plus d’erreur. Auparavant, le redimensionnement des images avant la nouvelle génération modifiait les métadonnées du canal de `meta` en `facebook`. <!-- GS-7042 -->
 
 +++
 
@@ -723,19 +698,19 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 +++Notes de la version 2024.10.14, disponibilité générale.
 
-Cette version présente Adobe GenStudio for Performance Marketing, une application générative basée sur l’IA qui accélère la planification, le développement et l’analyse des campagnes marketing.GenStudio for Performance Marketing permet aux équipes marketing de créer du contenu multicanal conforme à la marque pour les publicités, les e-mails et les campagnes, tout en fournissant des informations en temps réel pour optimiser les performances du contenu.
+Cette version présente Adobe GenStudio for Performance Marketing, une application générative basée sur l’IA qui accélère la planification, le développement et l’analyse des campagnes marketing. GenStudio for Performance Marketing permet aux équipes marketing de créer du contenu multicanal conforme à la marque pour les publicités, les e-mails et les campagnes, tout en fournissant des informations en temps réel pour optimiser les performances du contenu.
 
 ### Fonctionnalités
 
 Les principales caractéristiques du produit sont les suivantes :
 
-**[!DNL Create]** présente la zone de travail, qui offre une expérience de création de prompts structurée permettant aux éditeurs et éditrices de contenu de générer rapidement du contenu et des variantes.Les responsables système entraînent le produit sur les consignes de la marque de l’entreprise.[!DNL Create] garantit que tout le contenu généré par l’IA s’aligne sur les directives de votre marque (image de marque, personas clients et descriptions de produits) et rationalise la production de contenu marketing à fort impact et cohérent avec la marque.
+**[!DNL Create]** présente la zone de travail, qui offre une expérience de création de prompts structurée permettant aux éditeurs et éditrices de contenu de générer rapidement du contenu et des variantes. Les responsables système entraînent le produit sur les consignes de la marque de l’entreprise. [!DNL Create] garantit que tout le contenu généré par l’IA s’aligne sur les directives de votre marque (image de marque, personas clients et descriptions de produits) et rationalise la production de contenu marketing à fort impact et cohérent avec la marque.
 
-**[!DNL Content]** stocke des ressources et des expériences approuvées, organisées et conformes à la marque.Les utilisateurs et utilisatrices de GenStudio for Performance Marketing peuvent facilement rechercher, modifier, réutiliser et partager des ressources approuvées, ce qui réduit la nécessité de recréer du contenu à partir de zéro pour chaque campagne.
+**[!DNL Content]** stocke des ressources et des expériences approuvées, organisées et conformes à la marque. Les utilisateurs et utilisatrices de GenStudio for Performance Marketing peuvent facilement rechercher, modifier, réutiliser et partager des ressources approuvées, ce qui réduit la nécessité de recréer du contenu à partir de zéro pour chaque campagne.
 
 **[!DNL Reviews and Approvals]** établit un cadre permettant aux parties prenantes d’examiner et d’approuver les variantes générées avant de les enregistrer dans **[!DNL Content]** ou de les exporter.
 
-**[!DNL Campaigns]** organise et gère les campagnes marketing, assurant ainsi une exécution et un suivi rationalisés.Les collaborateurs et collaboratrices peuvent visualiser, planifier et suivre les campagnes afin de gérer plusieurs initiatives efficacement et d’assurer une livraison rapide.
+**[!DNL Campaigns]** organise et gère les campagnes marketing, assurant ainsi une exécution et un suivi rationalisés. Les collaborateurs et collaboratrices peuvent visualiser, planifier et suivre les campagnes afin de gérer plusieurs initiatives efficacement et d’assurer une livraison rapide.
 
 **[!DNL Insights]** offre une évaluation en temps réel des performances du contenu, ce qui aide les spécialistes du marketing à optimiser leurs stratégies et à prendre des décisions fondées sur des données.
 
