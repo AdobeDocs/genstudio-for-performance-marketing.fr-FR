@@ -4,9 +4,9 @@ description: Découvrez les fonctionnalités de GenStudio for Performance Market
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
+source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -127,6 +127,14 @@ Le formatage de texte disponible inclut les éléments suivants :
 1. Pour mettre en forme le texte, cliquez sur ou saisissez dans l’élément de zone de texte. Les options de formatage s’affichent dans une barre contextuelle. Maintenez la touche Maj enfoncée pour masquer la barre et afficher le texte.
 1. Cliquez en dehors du champ de texte pour enregistrer les modifications.
 
+### Utiliser les zones de flux de texte liées
+
+[!DNL Adobe Express] prend en charge le flux de texte, qui permet à un auteur de modèle de lier deux zones de texte afin qu’une seule phrase circule dans les deux zones. Par exemple, un titre peut commencer dans une zone et finir dans une autre, ou une partie d’une expression peut utiliser un style différent du reste. Lorsqu’un modèle avec flux de texte est importé dans [!DNL GenStudio for Performance Marketing], la zone de travail reconnaît et honore cette liaison. En savoir plus sur la création de zones de texte liées dans [Flux de texte dans Adobe Express](https://helpx.adobe.com/fr/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html).
+
+Vous générez une copie pour les zones de texte liées de la même manière que vous générez tout autre champ, sans configuration supplémentaire requise. Les zones liées se comportent comme une seule expression connectée tout au long de la génération, de la modification et de la révision des variantes. Vous n’avez donc jamais besoin de fractionner, copier ou repositionner du texte entre les zones.
+
+Si la copie générée est trop longue pour tenir dans les zones liées, une ligne rouge apparaît au bas de la dernière zone pour indiquer le dépassement, correspondant au même indicateur utilisé dans [!DNL Adobe Express]. Raccourcissez la copie ou régénérez le champ pour supprimer le débordement.
+
 ### Afficher les calques
 
 Vous pouvez sélectionner rapidement un calque individuel d’une variante et y apporter des modifications, telles que la régénération de sections ou le recadrage d’images. Lorsque vous sélectionnez un calque individuel, les champs modifiables ou les images du calque sont mis en surbrillance.
@@ -238,7 +246,7 @@ Les limites des calques d’image peuvent être étendues avec l’IA pour s’a
 
 Utilisez le panneau _Vérification de contenu_ pour conserver une identité de marque cohérente, les normes d’accessibilité ADA, les directives de la plateforme et l’alignement des variantes.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 ## Vérifier et approuver
 
