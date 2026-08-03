@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
+source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
 workflow-type: tm+mt
 source-wordcount: 5723
 ht-degree: 95%
@@ -56,7 +56,7 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
 
 ### Modification en bloc sur la zone de travail Horizon
 
-La zone de travail Horizon relie désormais les champs de texte et d’image associés dans les tailles et les pages dans un modèle multi-taille ou multi-page, de sorte qu’une modification du dernier kilomètre ne doit se produire qu’une seule fois. Sélectionnez l’étendue **[!UICONTROL Appliquer à]** dans le panneau de l’éditeur de texte enrichi (cette taille, toutes les tailles ou tous les concepts) et la modification se propage automatiquement, avec la possibilité d’ajuster manuellement le balisage des champs si nécessaire.
+La zone de travail Horizon relie désormais les champs de texte et d’image associés dans les tailles et les pages dans un modèle multi-taille ou multi-page, de sorte qu’une modification du dernier kilomètre ne doit se produire qu’une seule fois. Sélectionnez l’étendue **[!UICONTROL Appliquer à]** dans le menu d’édition (cette taille, toutes les tailles ou tous les concepts) et la modification se propage automatiquement, avec la possibilité d’ajuster manuellement le balisage des champs si nécessaire.
 
 ### Activer les publicités display directement sur The Trade Desk
 
