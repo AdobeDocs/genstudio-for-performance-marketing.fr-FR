@@ -41,7 +41,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
 workflow-type: tm+mt
-source-wordcount: 5723
+source-wordcount: 5751
 ht-degree: 95%
 
 ---
@@ -98,7 +98,7 @@ Chargez ou créez des modèles avec les champs d’image supplémentaires, puis 
 
 ### Prise en charge du flux de texte pour les modèles Express
 
-[!DNL Create] honore désormais le flux de texte, la fonction d’Adobe Express qui relie deux zones de texte afin qu’une seule expression traverse les deux, sur la zone de travail d’Horizon. La copie générée remplit les zones liées sous la forme d’une expression connectée, de sorte que les conceptions d’annonces dont le message se divise en deux zones peuvent finalement être modélisées pour la génération sans copie ni repositionnement manuels. En savoir plus sur les [zones de flux de texte liées](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes).
+[!DNL Create] prend désormais en charge sur la zone de travail d’Horizon le flux de texte, la fonctionnalité d’Adobe Express qui relie deux zones de texte afin que le texte se répartisse automatiquement entre les deux zones. La copie générée remplit les zones liées sous la forme d’une expression connectée, de sorte que les conceptions d’annonces dont le message se divise en deux zones peuvent finalement être modélisées pour la génération sans copie ni repositionnement manuels. En savoir plus sur les [zones de flux de texte liées](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes).
 
 +++
 
@@ -453,7 +453,7 @@ En plus des images, vous pouvez désormais ajouter des vidéos aux publicités [
 ### Correctifs et améliorations
 
 * Activation de la fonctionnalité permettant d’[ajouter un texte alternatif (alt)](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) à une image pour une variante spécifique.
-* Ajout d’un [nouveau format Meta](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paysage 1,19:1 (largeur de 1 080 pixels).
+* Ajout d’un [nouveau format d’image Meta](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — Paysage 1.19:1 (largeur de 1 080 pixels).
 * Vous pouvez désormais choisir plusieurs expériences à exporter ou à télécharger. Consultez [Exporter des expériences](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -693,7 +693,7 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 * Il est désormais possible de contrôler tous les éléments interactifs du modèle publicitaire Meta à l’aide du clavier uniquement. <!-- GS-4066 -->
 
-* Ajout de l’extraction des dimensions d’image des champs d’image de modèle aux modèles de publicité display. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour le modèle entier. <!-- GS-6926 -->
+* Ajout de l’extraction des dimensions d’image des champs d’image de modèle aux modèles d’affichage publicitaire. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour le modèle entier. <!-- GS-6926 -->
 
 * La chaîne `Zoom to fit to screen` a été localisée dans les publicités Meta et par e-mail générées. <!-- GS-5063 -->
 
@@ -737,7 +737,7 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 * Les problèmes de disposition liés aux bordures des e-mails ont été résolus. <!-- GS-6631 -->
 
-* Le focus au clavier fonctionne désormais comme prévu sur le bouton **[!DNL Content]** **[!UICONTROL Supprimer]**. Auparavant, il n’était pas possible d’accéder à ce bouton à l’aide du clavier. <!-- GS-4065 -->
+* Le focus au clavier fonctionne désormais comme prévu sur le bouton **[!DNL Content]** **[!UICONTROL Supprimer]**. Auparavant, les utilisateurs ne pouvaient pas accéder à ce bouton à l’aide du clavier.  <!-- GS-4065 -->
 
 +++
 
