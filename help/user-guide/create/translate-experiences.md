@@ -24,7 +24,7 @@ La traduction commence à partir d’une expérience approuvée enregistrée dan
 La traduction prête à l’emploi sur la zone de travail HTML prend en charge les éléments suivants :
 
 * [Expériences email](/help/user-guide/create/email-experiences.md)
-* Expériences multimédias payantes, y compris les annonces [](/help/user-guide/create/meta-experiences.md), [LinkedIn](/help/user-guide/create/linkedin-experiences.md) et [Display](/help/user-guide/create/display-ad-experiences.md)
+* Expériences multimédias payantes, y compris les annonces [&#128279;](/help/user-guide/create/meta-experiences.md), [LinkedIn](/help/user-guide/create/linkedin-experiences.md) et [Display](/help/user-guide/create/display-ad-experiences.md)
 
 ## Avant de commencer
 

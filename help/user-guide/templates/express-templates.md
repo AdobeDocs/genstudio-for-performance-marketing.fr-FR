@@ -53,7 +53,7 @@ Lorsque vous sélectionnez un modèle de [!DNL Express] et cliquez sur **[!UICON
 
 >[!IMPORTANT]
 >
->Pendant la génération du contenu, les calques de modèle Express seront automatiquement balisés avec des rôles de champ pour [!DNL GenStudio for Performance Marketing]. Les éléments d’un modèle peuvent également être [ balisés manuellement ](#manual-tagging-of-templates).
+>Pendant la génération du contenu, les calques de modèle Express seront automatiquement balisés avec des rôles de champ pour [!DNL GenStudio for Performance Marketing]. Les éléments d’un modèle peuvent également être [&#x200B; balisés manuellement &#x200B;](#manual-tagging-of-templates).
 
 ## À propos des variantes et des [!DNL Experiences] avec des modèles de [!DNL Adobe Express]
 
