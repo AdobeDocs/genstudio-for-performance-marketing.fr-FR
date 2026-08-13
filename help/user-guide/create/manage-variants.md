@@ -4,27 +4,14 @@ description: Personnalisez et améliorez les variantes et les ressources génér
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
 TQID: https://experienceleague.adobe.com/2VdZdQv90JGEpCM7BE4egbz933eotbeePy3ze35mM0o
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -39,7 +26,7 @@ Lors de la [création d’expériences](/help/user-guide/create/overview.md), vo
 
 Les brouillons de variantes générés ont un nom par défaut affiché en haut de la zone de travail. Les noms des brouillons par défaut utilisent la convention suivante qui inclut le type de canal, la date et l’heure de la génération.
 
-*Exemple* : « Meta : brouillon sans titre - 09.5.24, 9 :56 »
+*Exemple* : « Meta : brouillon sans titre - 09.5.24, 9:56 »
 
 **Pour modifier le nom par défaut** :
 
@@ -109,7 +96,7 @@ Après avoir généré un ensemble de variantes, vous pouvez réviser le texte e
 
 >[!NOTE]
 >
->Vous pouvez modifier le texte du libellé CTA à l’aide de l’option _[!UICONTROL Reformuler]_ si le texte du libellé est un champ de modèle généré (non codé en dur dans le modèle). Vous pouvez modifier un lien CTA à l’aide de l’option _[!UICONTROL Modifier le lien]_ si le lien existe et est modifiable (et non codé en dur dans le modèle).
+Vous pouvez modifier le texte du libellé CTA à l’aide de l’option _[!UICONTROL Reformuler]_ si le texte du libellé est un champ de modèle généré (non codé en dur dans le modèle). Vous pouvez modifier un lien CTA à l’aide de l’option _[!UICONTROL Modifier le lien]_ si le lien existe et est modifiable (et non codé en dur dans le modèle).
 
 **Pour modifier le CTA dans une variante** :
 
@@ -181,11 +168,11 @@ Cette fonction d’extension générative est associée à l’outil Recadrage p
 
 ## Modifier les proportions
 
-Vous pouvez rapidement modifier le [format des annonces Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter le dimensionnement de l’annonce publicitaire à vos besoins. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée de 1 :1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
+Vous pouvez rapidement modifier le [format des annonces Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter le dimensionnement de l’annonce publicitaire à vos besoins. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée 1:1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
 
 >[!NOTE]
 >
->Des proportions et des tailles variables peuvent être disponibles en fonction des modèles disponibles.
+Des proportions et des tailles variables peuvent être disponibles en fonction des modèles disponibles.
 
 **Pour modifier les proportions des annonces Meta générées** :
 
@@ -203,7 +190,7 @@ Vous pouvez rapidement modifier le [format des annonces Meta](/help/user-guide/t
 
    [!DNL Create] crée une copie de chaque variante en fonction des nouveaux proportions sélectionnées. Toutes les variantes, y compris celles du rapport d’aspect initial, sont présentes dans la zone de travail.
 
-   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect de 1:1, puis que vous modifiez le rapport d’aspect en 4:5, _huit_ variantes totales sont désormais disponibles sur la zone de travail.
+   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect de 1:1, puis que vous modifiez le rapport d’aspect en 4:5, _huit_ le total des variantes est désormais disponible sur la zone de travail.
 
 ## Permuter l’image
 
@@ -215,7 +202,7 @@ Vous pouvez ajouter ou permuter des images dans des variantes générées direct
 1. Cliquez sur l’icône **[!UICONTROL Permuter à partir du contenu]**.
 1. Utilisez les filtres et la fonction de recherche de la vue [!DNL Content] des ressources GenStudio pour affiner davantage les résultats de la recherche.
 
-   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Vous pouvez également utiliser les images disponibles dans les référentiels Assets Content Hub Adobe Experience Manager (AEM) connectés en sélectionnant ce référentiel dans le menu [**[!UICONTROL Emplacement ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Cliquez pour sélectionner une image, puis cliquez sur **[!UICONTROL Utiliser]**.
 
@@ -294,7 +281,7 @@ Supprimez les variantes inutiles afin que la zone de travail n’affiche que les
 
 Utilisez le panneau _Vérification de contenu_ pour conserver une identité de marque cohérente, [les normes d’accessibilité ADA](/help/user-guide/guidelines/overview.md#content-checks), les directives relatives aux plateformes et l’alignement des variantes.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 ## Retour d’informations de génération
 

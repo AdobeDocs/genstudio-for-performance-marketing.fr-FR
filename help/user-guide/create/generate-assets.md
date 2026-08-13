@@ -2,47 +2,34 @@
 title: Générer des variantes d’image
 description: Créez une image correspondant au style d’une image de référence dans  [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
-badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
+badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
 TQID: https://experienceleague.adobe.com/NXtN00EKTe0lGI8jJMJWJfWx6mHoMQI1of1mJhgrR5U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e4a0febc-5163-4017-82ce-fc7594509fb6
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e4a0febc-5163-4017-82ce-fc7594509fb6id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 6d1053bf94b0a0ba65be90359e4d176e64dfffae
 workflow-type: tm+mt
 source-wordcount: 752
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # Générer des variantes d’image
 
-Avec GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau), vous pouvez générer des ressources générées par _[!DNL Image variants]_&#x200B;qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL Image variants]_ and _[!DNL Similar images]_. -->
+Avec GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau), vous pouvez générer des ressources générées par _[!DNL Image variants]_qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL Image variants]_ and _[!DNL Similar images]_. -->
 
 Pour concevoir une image attrayante et efficace, il est recommandé d’[ajouter des instructions à GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) et de consulter les [principes de base de la création d’invites](/help/user-guide/effective-prompts.md).
 
 ## Types d’images
 
-Les _[!DNL Image variants]_&#x200B;sont des ressources générées qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale. Ces images sont créées à l’aide d’images déjà disponibles dans [!DNL Content] et d’une invite soigneusement conçue qui guide la conception. Ils suivent strictement les directives de la marque et les paramètres choisis au cours du processus de génération.
+Les _[!DNL Image variants]_sont des ressources générées qui s’inspirent d’une image choisie, en capturant son impact visuel et son esthétique globale. Ces images sont créées à l’aide d’images déjà disponibles dans [!DNL Content] et d’une invite soigneusement conçue qui guide la conception. Ils suivent strictement les directives de la marque et les paramètres choisis au cours du processus de génération.
 
 _[!DNL Image variants]_<!-- and _[!DNL Similar images]_ --> intégrer des directives, des paramètres et une [invite soigneusement conçue](/help/user-guide/effective-prompts.md) pour offrir des ressources d’images attrayantes.
 
@@ -54,7 +41,7 @@ Vous pouvez générer des [!DNL Image variants] à l’aide de directives, de pa
 
 ### Choisir une image de référence
 
-Pour créer des _[!DNL Image variants]_, sélectionnez une image existante enregistrée dans [!DNL Content]. Pour plus d’informations sur les dimensions d’image prises en charge[&#128279;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) consultez la section  Bonnes pratiques pour les modèles .
+Pour créer des _[!DNL Image variants]_, sélectionnez une image existante enregistrée dans [!DNL Content]. Pour plus d’informations sur les dimensions d’image prises en charge](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) consultez la section [ Bonnes pratiques pour les modèles .
 
 **Pour choisir une image de référence** :
 
@@ -100,7 +87,7 @@ Voir [Rédiger des invites efficaces](/help/user-guide/effective-prompts.md).
 
 Par défaut, quatre variations, alimentées par l’invite, les paramètres et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
 
-### Modifier dans Adobe Express
+### Modifier dans Adobe Express
 
 Après avoir généré des variantes d’image, vous pouvez les modifier directement dans Adobe GenStudio for Performance Marketing à l’aide d’Adobe Express.
 
@@ -110,9 +97,9 @@ Après avoir généré des variantes d’image, vous pouvez les modifier directe
 
    Une fenêtre _Optimisée par Adobe Express_ s’affiche.
 
-1. Effectuez la modification de l’image, comme [recadrage d’une image](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/crop-images.html), [suppression d’un objet](https://helpx.adobe.com/fr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) et application d’effets.
+1. Effectuez la modification de l’image, comme [recadrage d’une image](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [suppression d’un objet](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) et application d’effets.
 
-   Consultez la [documentation &#x200B;](https://helpx.adobe.com/fr/express/user-guide.html) pour savoir comment réviser des images dans GenStudio for Performance Marketing avec Adobe Express.
+   Consultez la [documentation ](https://helpx.adobe.com/express/user-guide.html) pour savoir comment réviser des images dans GenStudio for Performance Marketing avec Adobe Express.
 
 1. Cliquez sur _[!UICONTROL Appliquer les modifications]_ pour enregistrer vos modifications.
 1. Continuez à modifier individuellement les variantes d’image selon vos besoins et à appliquer les modifications pour enregistrer votre progression.
@@ -129,7 +116,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. Révisez les variantes d’image pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 <!-- 
 ## Generate Similar images

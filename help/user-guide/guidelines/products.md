@@ -4,20 +4,11 @@ description: ' [!DNL Products] intègre tous les aspects de votre produit (image
 feature: Product Personalization, Variant Generation, Generative AI
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
 TQID: https://experienceleague.adobe.com/M8grcr4Wo2he7XtOjDC5W5VVri90R6Z0InJfdS6c9yY
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: afc6e550-6640-4eb4-a143-75ec86d23a66
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: afc6e550-6640-4eb4-a143-75ec86d23a66id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 534
@@ -34,7 +25,7 @@ Les [!DNL Products] de GenStudio for Performance Marketing bénéficient d’une
 **Pour afficher ou modifier un produit** :
 
 1. Dans la zone de navigation de gauche, cliquez sur **[!UICONTROL Produits]**.
-1. Pour [afficher des détails individuels ou modifier un produit](add-guidelines.md#manage-products), cliquez sur le menu d’action _[!DNL Products]_&#x200B;et sélectionnez **[!UICONTROL Ouvrir]**.
+1. Pour [afficher des détails individuels ou modifier un produit](add-guidelines.md#manage-products), cliquez sur le menu d’action _[!DNL Products]_et sélectionnez **[!UICONTROL Ouvrir]**.
 1. Révisez les directives produit en cliquant dans le champ de texte de catégorie Directives.
 
 Voir [Ajouter des instructions](add-guidelines.md) pour savoir comment ajouter ou modifier un produit dans GenStudio for Performance Marketing.

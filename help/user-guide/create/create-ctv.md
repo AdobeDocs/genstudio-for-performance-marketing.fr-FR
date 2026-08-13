@@ -21,7 +21,7 @@ Utilisez [[!DNL Create]](/help/user-guide/create/overview.md) dans [!DNL GenStud
 Avant de créer une publicité CTV, vérifiez les points suivants :
 
 * Accès à [!DNL GenStudio for Performance Marketing].
-* **[!DNL Brands]**, **[!DNL Products]** et **[!DNL Personas]** configurés en tant qu’objets partagés dans [!DNL GenStudio for Performance Marketing]. Consultez [&#x200B; Présentation des directives &#x200B;](/help/user-guide/guidelines/overview.md) pour comprendre comment ces objets informent la génération.
+* **[!DNL Brands]**, **[!DNL Products]** et **[!DNL Personas]** configurés en tant qu’objets partagés dans [!DNL GenStudio for Performance Marketing]. Consultez [ Présentation des directives ](/help/user-guide/guidelines/overview.md) pour comprendre comment ces objets informent la génération.
 * Les ressources de Campaign (clips vidéo, images, logos, musique) sont recommandées, mais ne sont pas requises. L’IA générative peut combler les vides lorsque les ressources sont manquantes ou incomplètes.
 
 ## Créer une nouvelle publicité CTV

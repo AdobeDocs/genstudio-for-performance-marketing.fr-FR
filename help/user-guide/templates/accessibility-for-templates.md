@@ -4,25 +4,20 @@ description: Créez des modèles dans Adobe GenStudio for Performance Marketing 
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
 TQID: https://experienceleague.adobe.com/b56YHJsOAunGenV-F3u7Y2mo56f6CnnX4qPXyzczPJY
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 369
+source-wordcount: 371
 ht-degree: 0%
 
 ---
 
 # Créer des modèles accessibles
 
-Adobe s’engage à fournir une expérience optimale à toutes les audiences. Consultez [&#x200B; Initiatives en matière d’accessibilité dans Adobe &#x200B;](https://www.adobe.com/trust/accessibility/initiatives.html) pour plus de détails.
+Adobe s’engage à fournir une expérience optimale à toutes les audiences. Consultez [ Initiatives en matière d’accessibilité dans Adobe ](https://www.adobe.com/trust/accessibility/initiatives.html) pour plus de détails.
 
 Dans GenStudio for Performance Marketing, vous pouvez charger des ressources et des modèles qui permettent de créer du contenu pour diverses expériences. Le respect des normes d’accessibilité permet à votre contenu d’atteindre votre audience maximale prévue.
 
@@ -50,7 +45,7 @@ Utilisez des polices faciles à lire. Par exemple, les polices Sans Serif ont pr
 Fournissez un contraste approprié entre le texte et l’arrière-plan. Évitez d’utiliser des couleurs de police qui produisent du texte sombre sur un arrière-plan sombre et du texte clair sur un arrière-plan clair. Appliquez les règles de contraste pour obtenir un rapport optimal :
 
 - Texte et images du texte : rapport de contraste d’au moins 4,5:1
-- Texte grand format et images de texte à grande échelle : rapport de contraste d’au moins 3:1
+- Texte volumineux et images de texte à grande échelle : rapport de contraste d’au moins 3:1
 
 ## Fonction du lien (lien uniquement)
 

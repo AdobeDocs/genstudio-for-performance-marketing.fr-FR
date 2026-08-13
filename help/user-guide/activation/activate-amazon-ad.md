@@ -4,18 +4,13 @@ description: Découvrez comment activer les expériences Amazon Ads.
 feature: Ad Activation
 exl-id: 539cb43c-a9d8-4473-8a7d-e81967111741
 TQID: https://experienceleague.adobe.com/4L4JHcYLSsoQ50QbCW7Mof52h5jpz3z8n0UL8CaqLA8
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: 508
 ht-degree: 0%
 
 ---
@@ -46,7 +41,7 @@ Pour sélectionner des expériences :
 
 1. Utilisez les outils de recherche et de filtrage de la galerie de contenu pour identifier l’expérience à activer, puis cliquez sur **[!UICONTROL Utiliser]**. (Vous pouvez également sélectionner une expérience dans Activer en cliquant sur **[!UICONTROL Nouveau]** sur la carte de produit Amazon Ads.)
 
-1. Il vous sera demandé de sélectionner une plateforme avant de poursuivre l’activation. Sélectionnez _Amazon_.
+1. Il vous sera demandé de sélectionner une plateforme avant de poursuivre l’activation. Sélectionnez __.
 
    La page de configuration de l’expérience Amazon Ads s’ouvre pour cette expérience. Elle est préremplie avec les détails de l’expérience, qui ne peuvent pas être révisés.
 
@@ -58,7 +53,7 @@ Pour sélectionner des expériences :
 
 ## Étape 4 : confirmer la configuration de la plateforme Amazon Ads
 
-1. Sélectionnez un compte dans le menu déroulant Compte . Les paramètres de votre compte Amazon Ads déterminent les comptes disponibles. Votre expérience créative est diffusée à la bibliothèque créative de ce compte dans Amazon Ads une fois l’activation terminée.
+1. Sélectionnez un compte dans le menu déroulant Compte . Les paramètres de votre compte Amazon Ads déterminent les comptes disponibles.Votre expérience créative est diffusée à la bibliothèque créative de ce compte dans Amazon Ads une fois l’activation terminée.
 
 1. Ajoutez un nom au champ Nom du Creative . Amazon Ads identifie l’expérience par ce nom.
 

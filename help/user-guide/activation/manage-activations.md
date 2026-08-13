@@ -4,15 +4,10 @@ description: Découvrez comment gérer les expériences activées avec Adobe Gen
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
 TQID: https://experienceleague.adobe.com/ird0IiW8L5Axjj2FmEjlUcD1sPaNCNfxj9XNqGfQWiI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 361
@@ -34,7 +29,7 @@ Le tableau suivant répertorie les attributs qui définissent chaque expérience
 
 | Attribut | Valeur |
 |------------------|---------------------------------------------------------------------------------------------|
-| Nom de l’expérience | Nom de l’expérience dans GenStudio for Performance Marketing<br>Ce nom identifie l’expérience dans _[!DNL Content]_ |
+| Nom de l’expérience | Nom de l’expérience dans <br>Ce nom identifie l’expérience dans _[!DNL Content]_ |
 | Nom de la publicité | Nom de l’annonce publicitaire dans le canal publicitaire |
 | Date de publication | Date de publication de l’expérience publicitaire. Utilise <br> format mois-jour-année. |
 | Publié par | Nom de l’utilisateur GenStudio for Performance Marketing qui a activé l’expérience |

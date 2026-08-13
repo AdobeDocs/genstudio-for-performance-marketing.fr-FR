@@ -1,35 +1,24 @@
 ---
 title: Guide d’utilisation d’Adobe GenStudio
-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing.Découvrez comment créer des ressources conformes à votre marque, générer des variations et optimiser les expériences.
+description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer des ressources conformes à votre marque, générer des variations et optimiser les expériences.
 role: User
 exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
 TQID: https://experienceleague.adobe.com/apgYIh5ri1UwarpHziyvJDEJPAOnmDu4QCulAP1-uRE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: e4a0febc-5163-4017-82ce-fc7594509fb6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e4a0febc-5163-4017-82ce-fc7594509fb6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
-workflow-type: ht
-source-wordcount: 188
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 257
+ht-degree: 73%
 
 ---
 
 # Guide d’utilisation d’Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing est une application basée sur la plateforme d’IA générative d’Adobe.Elle permet aux équipes marketing de créer, gérer et optimiser le contenu des campagnes pour les publicités de médias achetés, par e-mail et display.GenStudio for Performance Marketing propose une suite complète d’outils pour la création de contenu et la gestion de campagnes, dans le but d’améliorer le ROI et d’augmenter la production de contenu sans compromettre l’intégrité de la marque.
+GenStudio for Performance Marketing est une application basée sur la plateforme d’IA générative d’Adobe. Elle permet aux équipes marketing de créer, gérer et optimiser le contenu des campagnes pour les publicités de médias achetés, par e-mail et display. GenStudio for Performance Marketing propose une suite complète d’outils pour la création de contenu et la gestion de campagnes, dans le but d’améliorer le ROI et d’augmenter la production de contenu sans compromettre l’intégrité de la marque.
 
 ## Explorer les fonctionnalités
 
@@ -41,7 +30,7 @@ GenStudio for Performance Marketing est une application basée sur la plateforme
       </a>
       <div>
          <a href="../user-guide/effective-prompts.md">
-         <strong>Rédiger des prompts efficaces</strong>
+         <strong>Écrire des invites efficaces</strong>
          </a>
       </div>
       <p>
@@ -54,7 +43,7 @@ GenStudio for Performance Marketing est une application basée sur la plateforme
       </a>
       <div>
          <a href="../user-guide/create/overview.md">
-         <strong>Créer des expériences web</strong>
+         <strong>Créer des expériences</strong>
          </a>
       </div>
       <p>
@@ -67,9 +56,9 @@ GenStudio for Performance Marketing est une application basée sur la plateforme
       </a>
       <div>
          <a href="../user-guide/approvals/overview.md">
-         <strong>Réviser et approuver</strong>
-       </a>
-    </div>
+         <strong>Vérifier et approuver</strong>
+         </a>
+      </div>
       <p>
          <em>Coordonnez la révision et l’approbation simplifiées des ressources marketing.</em>
       </p>
@@ -93,7 +82,7 @@ GenStudio for Performance Marketing est une application basée sur la plateforme
       </a>
       <div>
          <a href="../user-guide/insights/overview.md">
-         <strong>Afficher les insights</strong>
+         <strong>Afficher les informations</strong>
          </a>
       </div>
       <p>
@@ -121,7 +110,7 @@ GenStudio for Performance Marketing est une application basée sur la plateforme
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
       <img alt="Personnes déplaçant des fichiers dans un dossier" src="../assets/card-manage-content.png">
-      <strong>Créer une expérience publicitaire Meta</strong>
+      <strong>Création d’une expérience publicitaire Meta</strong>
       </a>
    </div>
    <p>

@@ -6,21 +6,12 @@ level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
 TQID: https://experienceleague.adobe.com/ESQljlBQv9vk7Zz-SU-hMNkY2zFy6qawEfkonjXaCkQ
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 758
@@ -59,11 +50,11 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 Dans GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), vous pouvez utiliser **[!UICONTROL Critères d’invite]** ([_Paramètres_](/help/user-guide/create/overview.md#parameters) et une invite) dans le tiroir d’invite pour ajouter des détails par sélection afin d’améliorer l’interprétation de l’IA.
 
-Pour les [e-mails](/help/user-guide/create/email-experiences.md), les critères d’invite peuvent inclure l’ajout de [directives](/help/user-guide/guidelines/overview.md) dans _Paramètres_, le chargement d’une ressource à utiliser dans les variantes d’e-mail et une invite descriptive. Pour une publicité [&#128279;](/help/user-guide/create/create-meta-ad.md), les critères d’invite peuvent inclure une ligne directrice de marque dans _Paramètres_, la sélection ou le chargement d’une ressource existante, des paramètres liés aux images ou aux ressources telles que les proportions, ainsi qu’une invite. Le vrai pouvoir commence avec [la configuration des directives](/help/user-guide/guidelines/add-guidelines.md).
+Pour les [e-mails](/help/user-guide/create/email-experiences.md), les critères d’invite peuvent inclure l’ajout de [directives](/help/user-guide/guidelines/overview.md) dans _Paramètres_, le chargement d’une ressource à utiliser dans les variantes d’e-mail et une invite descriptive. Pour une publicité [](/help/user-guide/create/create-meta-ad.md), les critères d’invite peuvent inclure une ligne directrice de marque dans _Paramètres_, la sélection ou le chargement d’une ressource existante, des paramètres liés aux images ou aux ressources telles que les proportions, ainsi qu’une invite. Le vrai pouvoir commence avec [la configuration des directives](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Si des directives sont ajoutées dans _Paramètres_ dans le tiroir de l&#39;invite, il n&#39;est pas nécessaire d&#39;y faire référence dans l&#39;invite. GenStudio for Performance Marketing exploite automatiquement ceux de la génération de contenu.
+Si des directives sont ajoutées dans _Paramètres_ dans le tiroir de l&#39;invite, il n&#39;est pas nécessaire d&#39;y faire référence dans l&#39;invite. GenStudio for Performance Marketing exploite automatiquement ceux de la génération de contenu.
 
 ### Directives
 
@@ -71,7 +62,7 @@ Les instructions de GenStudio for Performance Marketing aident l’IA générati
 
 >[!TIP]
 >
->Vous contrôlez quand et comment GenStudio for Performance Marketing utilise vos directives de [!DNL Brand]. Consultez [Recommandations](/help/user-guide/guidelines/overview.md) pour savoir comment configurer et gérer vos recommandations de marque.
+Vous contrôlez quand et comment GenStudio for Performance Marketing utilise vos directives de [!DNL Brand]. Consultez [Recommandations](/help/user-guide/guidelines/overview.md) pour savoir comment configurer et gérer vos recommandations de marque.
 
 ### Invites structurées
 
@@ -82,10 +73,10 @@ Par exemple, vous pouvez demander à GenStudio for Performance Marketing de gén
 L’invite structurée doit :
 
 - Utilisez l’une des références suivantes pour le nom de la section dans le modèle d’e-mail :
-   - Pod
-   - Groupe
-   - Section
-   - Module
+  - Pod
+  - Groupe
+  - Section
+  - Module
 
   Par exemple, si votre modèle utilise `moduleA` ou `Group-3` comme nom de section, vous pouvez référencer ces noms de section dans l&#39;invite.
 

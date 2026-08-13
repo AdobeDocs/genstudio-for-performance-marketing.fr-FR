@@ -5,35 +5,16 @@ level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
 TQID: https://experienceleague.adobe.com/Qgnbf7BVqsRFk5SmkQHkvwK-GAaUtLFfAVXb1HYLSw4
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
-workflow-type: ht
-source-wordcount: 820
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 909
+ht-degree: 90%
 
 ---
 
@@ -43,7 +24,7 @@ GenStudio for Performance Marketing [!DNL Create] tire parti de la puissance d�
 
 ![Créer un accueil](/help/assets/create-home.png){width="600" zoomable="yes"}
 
-La page d’accueil [!DNL Create] est organisée en sections de canal (_Médias propriétaires_, _Médias payants_ et _Contenu_, ainsi qu’en une section _Récents_ qui affiche tous vos brouillons récents et le contenu publié.Chaque section de canal permet la création de contenu pour cet ensemble spécifique de canaux.Par exemple, accédez à la section _points d’exposition possédés par la marque_ pour commencer à créer un e-mail ou une bannière.
+La page d’accueil [!DNL Create] est organisée en sections de canal (_Médias propriétaires_, _Médias payants_ et _Contenu_, ainsi qu’en une section _Récents_ qui affiche tous vos brouillons récents et le contenu publié. Chaque section de canal permet la création de contenu pour cet ensemble spécifique de canaux. Par exemple, accédez à la section _points d’exposition possédés par la marque_ pour commencer à créer un e-mail ou une bannière.
 
 Avec [!DNL Create], vous pouvez générer du contenu pour les canaux suivants :
 
@@ -59,7 +40,7 @@ Avec [!DNL Create], vous pouvez générer du contenu pour les canaux suivants :
 
 Grâce à la puissance des [directives](/help/user-guide/guidelines/overview.md),[Contenu](/help/user-guide/content/overview.md), [Campagnes](/help/user-guide/campaigns/overview.md), [Révisions et approbations](/help/user-guide/approvals/overview.md), [Activation](/help/user-guide/activation/overview.md) et [Insights](/help/user-guide/insights/overview.md), [!DNL Create] facilite la création de contenu marketing percutant aligné sur la marque.
 
-Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Create].Voir [Rôles et autorisations des utilisateurs](/help/user-guide/user-roles.md) pour obtenir des informations détaillées sur l’accès aux rôles.
+Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Create]. Voir [Rôles et autorisations des utilisateurs](/help/user-guide/user-roles.md) pour obtenir des informations détaillées sur l’accès aux rôles.
 
 ## Scénarios d’utilisation de [!DNL Create]
 
@@ -75,11 +56,15 @@ Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Cr
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-email-experience.md">
+      <div>
 
-         <strong>Créer une expérience d’email</strong>
+         <a href="/help/user-guide/create/create-email-experience.md">
 
-         </a></div>
+         <strong>Créer une expérience d’e-mail</strong>
+
+         </a>
+
+      </div>
 
    </td>
 
@@ -91,11 +76,15 @@ Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Cr
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-meta-ad.md">
+      <div>
+
+         <a href="/help/user-guide/create/create-meta-ad.md">
 
          <strong>Création d’une expérience publicitaire Meta</strong>
 
-         </a></div>
+         </a>
+
+      </div>
 
    </td>
 
@@ -107,11 +96,15 @@ Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Cr
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-linkedin.md">
+      <div>
+
+         <a href="/help/user-guide/create/create-linkedin.md">
 
          <strong>Créer une expérience publicitaire LinkedIn</strong>
 
-         </a></div>
+         </a>
+
+      </div>
 
    </td>
 
@@ -123,11 +116,15 @@ Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Cr
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-display-ad.md">
+      <div>
 
-         <strong>Créer une expérience de publicité display</strong>
+         <a href="/help/user-guide/create/create-display-ad.md">
 
-         </a></div>
+         <strong>Créer une expérience d’affichage publicitaire</strong>
+
+         </a>
+
+      </div>
 
    </td>
 
@@ -139,11 +136,15 @@ Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Cr
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-banner-experience.md">
+      <div>
+
+         <a href="/help/user-guide/create/create-banner-experience.md">
 
          <strong>Créer une expérience de bannière</strong>
 
-         </a></div>
+         </a>
+
+      </div>
 
    </td>
 
@@ -155,11 +156,15 @@ Les éditeurs et les gestionnaires de système ont un accès complet à [!DNL Cr
 
       </a>
 
-      <div><a href="/help/user-guide/create/generate-assets.md">
+      <div>
+
+         <a href="/help/user-guide/create/generate-assets.md">
 
          <strong>Générer des images</strong>
 
-         </a></div>
+         </a>
+
+      </div>
 
    </td>
 
@@ -175,7 +180,7 @@ GenStudio for Performance Marketing permet aux marketeurs de **créer du contenu
 
 ### Modèles
 
-Après avoir sélectionné le canal à produire dans le _Que voulez-vous créer aujourd’hui ?_ Dans cette section, vous pouvez accéder aux modèles approuvés par la marque, à utiliser pour la création de contenu.Utilisez des modèles pour lancer le processus de création de contenu et rester alignés sur une identité de marque définie.
+Après avoir sélectionné le canal à produire dans le _Que voulez-vous créer aujourd’hui ?_ Dans cette section, vous pouvez accéder aux modèles approuvés par la marque, à utiliser pour la création de contenu. Utilisez des modèles pour lancer le processus de création de contenu et rester alignés sur une identité de marque définie.
 
 Les modèles sont [chargés et stockés dans [!DNL Content]](/help/user-guide/content/overview.md) et sont accessibles dans [!DNL Create].
 
@@ -183,7 +188,7 @@ Les modèles sont [chargés et stockés dans [!DNL Content]](/help/user-guide/co
 
 Dans le tiroir d’invite, vous pouvez ajouter des _Paramètres_ tels que [!DNL Brands], [!DNL Products] et [!DNL Personas] (instructions) et [!DNL Content] (ressources) pour donner forme à l’expérience générée.
 
-Ces paramètres ajoutés permettent d’injecter des [directives](/help/user-guide/guidelines/overview.md) et des ressources dans le processus de génération, en veillant à ce que le contenu soit personnalisé pour s’aligner sur l’identité complète d’une marque.Il est recommandé d’ajouter des directives à votre GenStudio for Performance Marketing et de les utiliser pendant le processus de génération de contenu, car elles améliorent considérablement la création de contenu conforme à la marque.
+Ces paramètres ajoutés permettent d’injecter des [directives](/help/user-guide/guidelines/overview.md) et des ressources dans le processus de génération, en veillant à ce que le contenu soit personnalisé pour s’aligner sur l’identité complète d’une marque. Il est recommandé d’ajouter des directives à votre GenStudio for Performance Marketing et de les utiliser pendant le processus de génération de contenu, car elles améliorent considérablement la création de contenu conforme à la marque.
 
 Les ressources de contenu (images chargées ou ajoutées) dans _Paramètres_ sont utilisées dans les variantes générées et informent le contenu (texte) de copie généré pour les variantes. Vous pouvez télécharger des ressources ou sélectionner des ressources déjà présentes dans [!DNL Content] ou dans n’importe quel référentiel AEM Content Hub connecté.
 
@@ -195,7 +200,7 @@ Pour créer du contenu généré par l’IA, saisissez une [invite descriptive](
 
 ### Vérifications de contenu
 
-GenStudio for Performance Marketing effectue des [vérifications de contenu](/help/user-guide/guidelines/brand-validation.md#content-check-panel) par rapport aux [directives de la marque](/help/user-guide/guidelines/brands.md), aux directives de la plateforme et aux [normes d’accessibilité](/help/user-guide/guidelines/overview.md#compliance) sur chaque variante afin de s’assurer qu’elle répond aux normes les plus strictes en matière de [!DNL Brand], de plateforme et d’accessibilité.Les informations de [vérification du contenu ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) sont disponibles pour tout contenu généré, indiquant sa conformité aux vérifications de contenu complètes et la cohérence entre le texte et les images.Vous pouvez utiliser ces informations pour réviser ou améliorer votre expérience afin de mieux l’aligner sur votre marque.
+GenStudio for Performance Marketing effectue des [vérifications de contenu](/help/user-guide/guidelines/brand-validation.md#content-check-panel) par rapport aux [directives de la marque](/help/user-guide/guidelines/brands.md), aux directives de la plateforme et aux [normes d’accessibilité](/help/user-guide/guidelines/overview.md#compliance) sur chaque variante afin de s’assurer qu’elle répond aux normes les plus strictes en matière de [!DNL Brand], de plateforme et d’accessibilité. Les informations de [vérification du contenu ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) sont disponibles pour tout contenu généré, indiquant sa conformité aux vérifications de contenu complètes et la cohérence entre le texte et les images. Vous pouvez utiliser ces informations pour réviser ou améliorer votre expérience afin de mieux l’aligner sur votre marque.
 
 ### Révisions et approbations
 
@@ -205,7 +210,7 @@ Une fois la génération des variations de contenu terminée, envoyez vos brouil
 
 ### Brouillons
 
-Dans la section _Récents_ de [!DNL Create], vous pouvez accéder à tous les brouillons récents et les gérer.Affichez et terminez votre travail précédent pour le préparer en vue de sa publication sur [[!DNL Content]](/help/user-guide/content/overview.md) ou de son exportation en vue de son utilisation.Cliquez sur l’icône d’options (trois points) pour supprimer un brouillon.
+Dans la section _Récents_ de [!DNL Create], vous pouvez accéder à tous les brouillons récents et les gérer. Affichez et terminez votre travail précédent pour le préparer en vue de sa publication sur [[!DNL Content]](/help/user-guide/content/overview.md) ou de son exportation en vue de son utilisation. Cliquez sur l’icône d’options (trois points) pour supprimer un brouillon.
 
 Les brouillons sont automatiquement enregistrés et affichés dans la section _Récents_ de [!DNL Create] page d’accueil. Chaque brouillon de cette section affiche un statut, tel que _Brouillon_ ou _Approuvé_.
 
@@ -213,11 +218,11 @@ Cliquez sur l’icône en forme de galerie (grille) pour afficher les éléments
 
 ### Traduire et localiser
 
-Vous pouvez traduire des expériences de média acheté et d’e-mail approuvées dans plusieurs langues à partir de la page de destination [!DNL Create] ou de [!DNL Content].Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
+Vous pouvez traduire des expériences de média acheté et d’e-mail approuvées dans plusieurs langues à partir de la page de destination [!DNL Create] ou de [!DNL Content]. Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 
 ### Édition collaborative
 
-Les créateurs et créatrices de brouillons peuvent désormais partager leurs brouillons avec leurs collaborateurs et collaboratrices, attribuer des rôles et travailler ensemble à la création de contenu en temps réel.Cette fonctionnalité offre plusieurs avantages significatifs en termes de workflow, au-delà de la simple révision et approbation :
+Les créateurs et créatrices de brouillons peuvent désormais partager leurs brouillons avec leurs collaborateurs et collaboratrices, attribuer des rôles et travailler ensemble à la création de contenu en temps réel. Cette fonctionnalité offre plusieurs avantages significatifs en termes de workflow, au-delà de la simple révision et approbation :
 
 * **Collaboration facile** sur un brouillon existant avec des notifications rapides, sans recréer ou exporter quoi que ce soit
 
