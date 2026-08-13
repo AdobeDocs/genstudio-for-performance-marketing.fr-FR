@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # API GENSTUDIO {#genstudio-api}
 
-+ [API ](home.md)
++ [API &#x200B;](home.md)
