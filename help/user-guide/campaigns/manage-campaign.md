@@ -1,8 +1,8 @@
 ---
-title: Campagnes Adobe GenStudio for Performance Marketing
+title: Adobe GenStudio for Performance Marketing Campaigns
 description: En savoir plus sur la gestion des campagnes et du contenu des campagnes
 feature: Campaign Planning, Campaign Brief
-badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
+badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."
 exl-id: 7f730f83-1bad-4727-98ba-6ab692a4be2d
 TQID: https://experienceleague.adobe.com/IdIZdyo1g6DCfOWTEz6hbVboY-TvXI0W1g8Fn1q46wg
 product_v2:
@@ -23,8 +23,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 550
-ht-degree: 0%
+source-wordcount: 549
+ht-degree: 4%
 
 ---
 

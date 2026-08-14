@@ -2,7 +2,7 @@
 title: Création d’une expérience de bannière
 description: Découvrez comment créer des expériences de bannière dans  [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
-badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
+badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."
 role: User
 level: Beginner
 recommendations: noDisplay
@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1089
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -129,7 +129,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 2. [Révisez manuellement les variantes](#revise-generated-banners) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 

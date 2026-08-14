@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
 source-wordcount: 1546
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,7 @@ Il existe des filtres basés sur [directives](/help/user-guide/guidelines/overvi
 - **[!UICONTROL Créé par]** : limite la liste _[!UICONTROL Expériences]_ pour n’afficher que les expériences créées par vous ou par une personne spécifique.
 - **[!UICONTROL Modèle]** : limite la liste _[!UICONTROL Expériences]_ pour n’afficher que les expériences créées avec le modèle sélectionné.
 
-Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun modèle du référentiel ne correspond aux critères de métadonnées correspondants. Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
+Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun modèle du référentiel ne correspond aux critères de métadonnées correspondants. Assurez-vous que les modèles sont correctement balisés avec des métadonnées afin de les rendre détectables via ces filtres.
 
 **Pour rechercher du contenu à réutiliser** :
 

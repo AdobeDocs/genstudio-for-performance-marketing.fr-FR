@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 275
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -61,4 +61,4 @@ GenStudio for Performance Marketing conserve les données de canal pendant 13 mo
 
    - [Google Campaign Manager 360](google-cm360.md)
    - [LinkedIn](linkedin-ads.md)
-   - [Meta Ads](meta-ads.md)
+   - [Publicités Meta](meta-ads.md)

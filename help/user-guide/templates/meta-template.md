@@ -21,8 +21,8 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 376
-ht-degree: 1%
+source-wordcount: 380
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Suivez ces bonnes pratiques de conception lors de la personnalisation des modèl
 - Un seul champ d’image est requis
 - N’utilisez **&#x200B;**&#x200B;de taille de police relative
 - Ne **pas définir** fenêtre d’affichage
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- Ne pas utiliser **JavaScript**
 - Ne remplacez **&#x200B;**&#x200B;un élément HTML dans le CSS
 - Utiliser la balise `<img>` au lieu de `background-image`
 - Utilisez le masquage pour améliorer la lisibilité du texte sur les images d’arrière-plan

@@ -20,7 +20,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 195
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 # Intégrations à Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing propose des intégrations à d’autres produits de conception performants afin d’offrir une expérience fluide aux spécialistes du marketing qui utilisent ces produits.Vous trouverez ici des informations sur les intégrations disponibles et sur la manière de les utiliser.
+GenStudio for Performance Marketing propose des intégrations à d’autres produits de conception performants afin d’offrir une expérience fluide aux spécialistes du marketing qui utilisent ces produits. Vous trouverez ici des informations sur les intégrations disponibles et sur la manière de les utiliser.
 
 Explorez les plug-ins proposés par GenStudio for Performance Marketing, avec d’autres produits Adobe et au-delà, pour rationaliser vos workflows de conception.
 

@@ -34,7 +34,7 @@ Le tableau suivant répertorie les attributs qui définissent chaque expérience
 
 | Attribut | Valeur |
 |------------------|---------------------------------------------------------------------------------------------|
-| Nom de l’expérience | Nom de l’expérience dans GenStudio for Performance Marketing<br>Ce nom identifie l’expérience dans _[!DNL Content]_ |
+| Nom de l’expérience | Nom de l’expérience dans <br>Ce nom identifie l’expérience dans _[!DNL Content]_ |
 | Nom de la publicité | Nom de l’annonce publicitaire dans le canal publicitaire |
 | Date de publication | Date de publication de l’expérience publicitaire. Utilise <br> format mois-jour-année. |
 | Publié par | Nom de l’utilisateur GenStudio for Performance Marketing qui a activé l’expérience |

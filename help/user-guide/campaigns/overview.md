@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 386
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 # Adobe GenStudio for Performance Marketing Campaigns
 
-GenStudio for Performance Marketing [!DNL Campaigns] accélère le développement et le déploiement d’initiatives marketing ou de _campagnes_.Les composants [!DNL Campaigns] comprennent les ressources et les expériences qui se prêtent à la création, à l’approbation et à la gestion par les workflows générés par l’IA de GenStudio for Performance Marketing, y compris les images et le texte conformes à la marque.
+GenStudio for Performance Marketing [!DNL Campaigns] accélère le développement et le déploiement d’initiatives marketing ou de _campagnes_. Les composants [!DNL Campaigns] comprennent les ressources et les expériences qui se prêtent à la création, à l’approbation et à la gestion par les workflows générés par l’IA de GenStudio for Performance Marketing, y compris les images et le texte conformes à la marque.
 
 Le workflow [!DNL Campaigns] offre les avantages suivants :
 
@@ -45,20 +45,20 @@ Le workflow [!DNL Campaigns] offre les avantages suivants :
 
 ## Cas d’utilisation de Campaigns
 
-* [Créer une campagne](create-campaign.md).La vue _Ajouter une campagne_ fournit un cadre permettant de créer une campagne dans GenStudio for Performance Marketing.Les informations saisies dans la vue _Ajouter une campagne_ sont enregistrées en tant qu’objet de campagne dans [!DNL Campaigns].
+* [Créer une campagne](create-campaign.md). La vue _Ajouter une campagne_ fournit un cadre permettant de créer une campagne dans GenStudio for Performance Marketing. Les informations saisies dans la vue _Ajouter une campagne_ sont enregistrées en tant qu’objet de campagne dans [!DNL Campaigns].
 
-* [Gérer les campagnes](manage-campaign.md) et leur contenu.Les éléments de la campagne, tels que les plannings, les formats publicitaires et les parties prenantes, peuvent évoluer au cours d’une campagne.Vous pouvez modifier les campagnes existantes en mettant à jour le contenu.
+* [Gérer les campagnes](manage-campaign.md) et leur contenu. Les éléments de la campagne, tels que les plannings, les formats publicitaires et les parties prenantes, peuvent évoluer au cours d’une campagne. Vous pouvez modifier les campagnes existantes en mettant à jour le contenu.
 
 ## Fonctionnalités de Campaigns
 
 [!DNL Campaigns] orchestre les fonctionnalités d’IA générative de GenStudio for Performance Marketing pour aider les utilisateurs et utilisatrices à planifier, créer, coordonner et mesurer les performances des campagnes.
 
-* [[!DNL Create]](/help/user-guide/create/overview.md) fournit des outils d’IA générative pour créer des ressources de campagne alignées sur la marque.Le processus de création de nouvelles expériences, de ressources et de variantes de ressources est centralisé dans la zone de travail [!DNL Create].Vos directives de [!DNL Brand] guident la création de contenu et permettent de s’assurer que le LLM sous-jacent est conforme aux attentes de votre organisation pour cette campagne.
+* [[!DNL Create]](/help/user-guide/create/overview.md) fournit des outils d’IA générative pour créer des ressources de campagne alignées sur la marque. Le processus de création de nouvelles expériences, de ressources et de variantes de ressources est centralisé dans la zone de travail [!DNL Create]. Vos directives de [!DNL Brand] guident la création de contenu et permettent de s’assurer que le LLM sous-jacent est conforme aux attentes de votre organisation pour cette campagne.
 
-* [[!DNL Content]](/help/user-guide/content/overview.md) fournit une bibliothèque de ressources et d’expériences approuvées qui peuvent être incluses dans les campagnes.Le contenu est généralement généré dans GenStudio for Performance Marketing, passe par le processus de révision et d’approbation, puis est enregistré dans [!DNL Content].
+* [[!DNL Content]](/help/user-guide/content/overview.md) fournit une bibliothèque de ressources et d’expériences approuvées qui peuvent être incluses dans les campagnes. Le contenu est généralement généré dans GenStudio for Performance Marketing, passe par le processus de révision et d’approbation, puis est enregistré dans [!DNL Content].
 
-* [[!DNL Review and approvals]](/help/user-guide/approvals/overview.md) fournit la structure permettant la révision et l’approbation collaboratives des ressources et expériences individuelles.Les parties prenantes ayant des intérêts et un niveau d’implication différents dans la création des ressources de campagne (des équipes créatives aux équipes de révision juridique) peuvent participer au processus d’amélioration des ressources de campagne.
+* [[!DNL Review and approvals]](/help/user-guide/approvals/overview.md) fournit la structure permettant la révision et l’approbation collaboratives des ressources et expériences individuelles. Les parties prenantes ayant des intérêts et un niveau d’implication différents dans la création des ressources de campagne (des équipes créatives aux équipes de révision juridique) peuvent participer au processus d’amélioration des ressources de campagne.
 
-* [[!DNL Insights]](/help/user-guide/insights/overview.md) permet de suivre les indicateurs de performance des différents éléments d’une campagne et de l’ensemble de la campagne.Les responsables marketing peuvent définir des mesures pour évaluer le succès de la campagne, telles que les taux de clics, les taux de conversion et les niveaux d’engagement.Les parties prenantes peuvent utiliser ces mesures pour évaluer les performances de ces éléments de campagne.Ces informations peuvent servir à retravailler la dimension créative des ressources dans [!DNL Create].
+* [[!DNL Insights]](/help/user-guide/insights/overview.md) permet de suivre les indicateurs de performance des différents éléments d’une campagne et de l’ensemble de la campagne. Les responsables marketing peuvent définir des mesures pour évaluer le succès de la campagne, telles que les taux de clics, les taux de conversion et les niveaux d’engagement. Les parties prenantes peuvent utiliser ces mesures pour évaluer les performances de ces éléments de campagne. Ces informations peuvent servir à retravailler la dimension créative des ressources dans [!DNL Create].
 
 * [[!DNL Activate]](/help/user-guide/activation/overview.md) prend en charge la publication des ressources de campagne sous forme d’expériences publicitaires sur les canaux désignés.

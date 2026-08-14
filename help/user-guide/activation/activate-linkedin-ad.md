@@ -76,7 +76,7 @@ Les détails de l’expérience modifiables sont les suivants :
 
    La page LinkedIn ads _configuration de l’expérience_ s’ouvre pour cette expérience. Il est prérempli avec des détails de l’expérience sélectionnée. Il peut vous être demandé de sélectionner une plateforme avant de poursuivre l’activation.
 
-1. (Facultatif) Modifiez les valeurs dans les champs modifiables (**[!UICONTROL Call to action]**, **[!UICONTROL URL du site Web]**, *[!UICONTROL Afficher le lien]**).
+1. (Facultatif) Modifiez les valeurs dans les champs modifiables (**&#x200B;**, **[!UICONTROL URL du site Web]**, *[!UICONTROL Afficher le lien]**).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une expérience]** pour ajouter des expériences à ce groupe d’activation.
 

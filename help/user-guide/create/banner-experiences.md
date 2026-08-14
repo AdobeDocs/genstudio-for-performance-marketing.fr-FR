@@ -2,7 +2,7 @@
 title: Banner Experiences
 description: Découvrez les expériences liées aux bannières dans Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Media Templates
-badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
+badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
@@ -23,7 +23,7 @@ level_v2:
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 117
-ht-degree: 1%
+ht-degree: 18%
 
 ---
 

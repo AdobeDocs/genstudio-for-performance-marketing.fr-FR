@@ -79,7 +79,7 @@ Pour exécuter des vérifications de contenu :
 1. Consultez les résultats de la validation dans le panneau [_Vérification de contenu_](/help/user-guide/guidelines/brand-validation.md#content-check-panel).
 1. Résolvez les problèmes signalés, par exemple la longueur de la copie ou le texte dense à l’écran, en modifiant les variantes ou en effectuant une régénération si nécessaire.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 ## Enregistrer une annonce publicitaire ChatGPT dans [!DNL GenStudio for Performance Marketing]
 

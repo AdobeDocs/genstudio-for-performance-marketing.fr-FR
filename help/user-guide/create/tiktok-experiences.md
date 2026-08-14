@@ -23,8 +23,8 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 931
-ht-degree: 89%
+source-wordcount: 933
+ht-degree: 84%
 
 ---
 
@@ -70,7 +70,7 @@ Un gestionnaire système a connecté votre compte TikTok Ads dans [!DNL Activate
 ### Créer une configuration
 
 * Votre [&#x200B; marque, vos produits et vos rôles](/help/user-guide/guidelines/overview.md) sont configurés de sorte que l’application puisse générer une copie et des mises en page sur la marque.
-* Au moins un modèle TikTok est chargé. Adobe recommande un modèle vidéo vertical TikTok, optimisé pour un emplacement dans le flux, avec un rapport d’aspect **9:16** et des zones sécurisées pour l’interface utilisateur supérieure et inférieure.
+* Au moins un modèle TikTok est chargé. Adobe recommande un modèle vidéo vertical TikTok, optimisé pour un emplacement dans le flux, avec un format d’image **9:16** et des zones sécurisées pour l’interface utilisateur supérieure et inférieure.
 * Les vidéos sont chargées vers [!DNL Content].
 
 ## Générer une publicité TikTok dans le flux
@@ -95,7 +95,7 @@ Vous pouvez :
 * Utilisez **[!UICONTROL Régénérer]** ou **[!UICONTROL Affiner]** pour ajuster la tonalité, la longueur ou l’accentuation.
 * Modifiez le texte directement dans la zone de travail.
 * Utilisez **[!UICONTROL Swap]** pour sélectionner une vidéo alternative à partir de [!DNL Content].
-* Utilisez **[!UICONTROL Recadrer]** ou **[!UICONTROL Redimensionner]** pour ajuster la disposition vidéo dans l’image **9:16**.
+* Utilisez **[!UICONTROL Recadrer]** ou **[!UICONTROL Redimensionner]** pour ajuster la disposition de la vidéo dans l’image **9:16**.
 
 ### Exécuter des vérifications de marque et de canal
 

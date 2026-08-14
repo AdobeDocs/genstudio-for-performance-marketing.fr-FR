@@ -133,9 +133,9 @@ Ce référentiel comprend des exemples de travail pour différents frameworks :
 
 - [Deux **implémentations de Vanilla JavaScript**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js) :
 
-   - [Cette version **Vanilla ESM** utilise des modules ES6 et des JavaScript modernes](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
+  - [Cette version **Vanilla ESM** utilise des modules ES6 et des JavaScript modernes](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
 
-   - [Cette version **Vanilla UMD** utilise un lot UMD chargé via une balise de script](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
+  - [Cette version **Vanilla UMD** utilise un lot UMD chargé via une balise de script](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
 
 ## Flux d’authentification
 

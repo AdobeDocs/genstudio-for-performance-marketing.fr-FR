@@ -15,7 +15,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 369
+source-wordcount: 371
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Utilisez des polices faciles à lire. Par exemple, les polices Sans Serif ont pr
 Fournissez un contraste approprié entre le texte et l’arrière-plan. Évitez d’utiliser des couleurs de police qui produisent du texte sombre sur un arrière-plan sombre et du texte clair sur un arrière-plan clair. Appliquez les règles de contraste pour obtenir un rapport optimal :
 
 - Texte et images du texte : rapport de contraste d’au moins 4,5:1
-- Texte grand format et images de texte à grande échelle : rapport de contraste d’au moins 3:1
+- Texte volumineux et images de texte à grande échelle : rapport de contraste d’au moins 3:1
 
 ## Fonction du lien (lien uniquement)
 

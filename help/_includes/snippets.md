@@ -1,8 +1,8 @@
 ---
 source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 0%
+source-wordcount: '158'
+ht-degree: 5%
 
 ---
 # Fragments de code GenStudio for Performance Marketing
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->GenStudio for Performance Marketing exige que vous vous connectiez à un compte de canal pour commencer à recevoir des données. Voir [Connecter un compte de média payant](/help/user-guide/connectors/connect-channel.md).
+>GenStudio for Performance Marketing exige que vous vous connectiez à un compte de canal pour commencer à recevoir des données. Consultez [Connecter un compte de média acheté](/help/user-guide/connectors/connect-channel.md).
 
 ## Remarque sur les effets CSS {#note-css-effects}
 

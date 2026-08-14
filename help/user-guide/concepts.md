@@ -31,7 +31,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 # Concepts
 
-GenStudio for Performance Marketing est un produit d’entreprise autonome qui incarne la chaîne d’approvisionnement de contenu d’Adobe afin de rationaliser les campagnes marketing.Il est difficile de créer du contenu personnalisé et approuvé par la marque à grande échelle, de surveiller l’efficacité et de s’adapter rapidement à un marché en constante évolution.GenStudio for Performance Marketing rassemble Creative Cloud et CX Enterprise dans une seule application qui utilise l’IA générative comme multiplicateur de performances pour les équipes marketing d’entreprise.
+GenStudio for Performance Marketing est un produit d’entreprise autonome qui incarne la chaîne d’approvisionnement de contenu d’Adobe afin de rationaliser les campagnes marketing. Il est difficile de créer du contenu personnalisé et approuvé par la marque à grande échelle, de surveiller l’efficacité et de s’adapter rapidement à un marché en constante évolution. GenStudio for Performance Marketing rassemble Creative Cloud et CX Enterprise dans une seule application qui utilise l’IA générative comme multiplicateur de performances pour les équipes marketing d’entreprise.
 
 Avec GenStudio for Performance Marketing, vous pouvez :
 
@@ -51,15 +51,15 @@ Avec GenStudio for Performance Marketing, vous pouvez :
 
 ## Technologie d’IA générative
 
-GenStudio for Performance Marketing exploite la puissance de l’IA générative pour accélérer le processus de création de contenu et assurer une génération de contenu de haute qualité.Le cycle de vie itératif de vos ressources de création permet d’obtenir un contenu de plus en plus précis et aligné sur la marque, qui trouve un écho auprès de votre audience cible.
+GenStudio for Performance Marketing exploite la puissance de l’IA générative pour accélérer le processus de création de contenu et assurer une génération de contenu de haute qualité. Le cycle de vie itératif de vos ressources de création permet d’obtenir un contenu de plus en plus précis et aligné sur la marque, qui trouve un écho auprès de votre audience cible.
 
-Commencez par intégrer l’image de marque de votre entreprise, les profils de vos clientes et clients et les descriptions de vos produits grâce à la puissante fonctionnalité de gestion des directives de marque.Consultez la [vue d’ensemble des directives](../user-guide/guidelines/overview.md) pour savoir comment les préparer et les charger.
+Commencez par intégrer l’image de marque de votre entreprise, les profils de vos clientes et clients et les descriptions de vos produits grâce à la puissante fonctionnalité de gestion des directives de marque. Consultez la [vue d’ensemble des directives](../user-guide/guidelines/overview.md) pour savoir comment les préparer et les charger.
 
 {{in-academy}}
 
 ### Grands modèles de langage
 
-GenStudio for Performance Marketing exploite la plateforme d’IA générative d’Adobe, qui offre des services d’IA et de machine learning (ML) fondamentaux.Cette plateforme simplifie l’utilisation de grands modèles de langage (LLM), en optimisant les fonctionnalités GenAI d’Adobe pour créer des expériences attrayantes.
+GenStudio for Performance Marketing exploite la plateforme d’IA générative d’Adobe, qui offre des services d’IA et de machine learning (ML) fondamentaux. Cette plateforme simplifie l’utilisation de grands modèles de langage (LLM), en optimisant les fonctionnalités GenAI d’Adobe pour créer des expériences attrayantes.
 
 GenStudio for Performance Marketing utilise la série GPT de LLM tiers via Azure OpenAI.<!-- Claude, and Gemini models. -->
 
@@ -80,7 +80,7 @@ Vous recevez une allocation par défaut d’[!DNL Generative Actions], comme ind
 
 >[!NOTE]
 >
->Les quotas d’utilisation peuvent varier.Les plans sont susceptibles d’être modifiés.Voir la [description de produit Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) pour obtenir des informations sur les quotas à jour.
+>Les quotas d’utilisation peuvent varier. Les plans sont susceptibles d’être modifiés. Voir la [description de produit Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) pour obtenir des informations sur les quotas à jour.
 
 Les fonctions suivantes consomment des [!DNL Generative Actions] selon le quota spécifié.
 
@@ -111,17 +111,17 @@ Les [!DNL Generative Actions] _ne sont pas_ consommées dans les cas suivants :
 
 ## Gouvernance des données
 
-Lorsque vous utilisez l’IA pour générer du contenu, il est essentiel de s’assurer que le résultat est sûr et inclusif pour l’ensemble des utilisateurs et utilisatrices.Cela nécessite une évaluation du contenu afin de détecter d’éventuels préjugés nuisibles, des discours haineux, des éléments offensants ou des propos injurieux.Adobe teste minutieusement la technologie de génération de contenu sous de multiples angles, effectue des évaluations éthiques approfondies et met en œuvre des plans d’atténuation efficaces afin d’empêcher la création de contenu préjudiciable dans les réponses.
+Lorsque vous utilisez l’IA pour générer du contenu, il est essentiel de s’assurer que le résultat est sûr et inclusif pour l’ensemble des utilisateurs et utilisatrices. Cela nécessite une évaluation du contenu afin de détecter d’éventuels préjugés nuisibles, des discours haineux, des éléments offensants ou des propos injurieux. Adobe teste minutieusement la technologie de génération de contenu sous de multiples angles, effectue des évaluations éthiques approfondies et met en œuvre des plans d’atténuation efficaces afin d’empêcher la création de contenu préjudiciable dans les réponses.
 
 Cette approche renforce la responsabilité sociale, réduit le risque relatif à la réputation et assure le respect des [politiques de confiance, de sécurité et d’éthique d’Adobe](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf).
 
-GenStudio for Performance Marketing intègre des plans d’atténuation des risques afin d’empêcher l’utilisation de contenu préjudiciable ou biaisé identifié, conformément aux normes et politiques de gouvernance des données d’Adobe.Lorsqu’un tel contenu est détecté, le système vous en informe via un message « Génération impossible », indiquant que la génération de ressources est bloquée.
+GenStudio for Performance Marketing intègre des plans d’atténuation des risques afin d’empêcher l’utilisation de contenu préjudiciable ou biaisé identifié, conformément aux normes et politiques de gouvernance des données d’Adobe. Lorsqu’un tel contenu est détecté, le système vous en informe via un message « Génération impossible », indiquant que la génération de ressources est bloquée.
 
-Lorsque ce message s’affiche, vous pouvez modifier le texte descriptif et réessayer _ou_ indiquer le contenu du prompt pour qu’il soit examiné par GenStudio for Performance Marketing.Les données du prompt relatives au contenu signalé pour révision sont collectées à des fins d’évaluation interne.
+Lorsque ce message s’affiche, vous pouvez modifier le texte descriptif et réessayer _ou_ indiquer le contenu du prompt pour qu’il soit examiné par GenStudio for Performance Marketing. Les données du prompt relatives au contenu signalé pour révision sont collectées à des fins d’évaluation interne.
 
 ## Cycle de vie du contenu
 
-La demande d’expériences de qualité sur plusieurs canaux est forte et nécessite une plus grande rapidité.GenStudio for Performance Marketing simplifie la chaîne d’approvisionnement de contenu en un processus bien organisé pour les spécialistes du marketing.GenStudio for Performance Marketing tire parti de toute la puissance de la technologie Adobe à chaque étape du cycle de vie.
+La demande d’expériences de qualité sur plusieurs canaux est forte et nécessite une plus grande rapidité. GenStudio for Performance Marketing simplifie la chaîne d’approvisionnement de contenu en un processus bien organisé pour les spécialistes du marketing. GenStudio for Performance Marketing tire parti de toute la puissance de la technologie Adobe à chaque étape du cycle de vie.
 
 <table style="table-layout:auto">
 
@@ -151,7 +151,7 @@ La demande d’expériences de qualité sur plusieurs canaux est forte et néces
 
     <td>
 
-        <p>Créez le contenu conformément au plan.Collaborez en temps réel, recevez des commentaires, apportez des modifications et approuvez du contenu.</p>
+        <p>Créez le contenu conformément au plan. Collaborez en temps réel, recevez des commentaires, apportez des modifications et approuvez du contenu.</p>
 
     </td>
 
@@ -167,7 +167,7 @@ La demande d’expériences de qualité sur plusieurs canaux est forte et néces
 
     <td>
 
-        <p>Stockez, partagez et recherchez des ressources de création dans le référentiel centralisé.Réutilisez et dynamisez le contenu en fonction des performances.</p>
+        <p>Stockez, partagez et recherchez des ressources de création dans le référentiel centralisé. Réutilisez et dynamisez le contenu en fonction des performances.</p>
 
     </td>
 

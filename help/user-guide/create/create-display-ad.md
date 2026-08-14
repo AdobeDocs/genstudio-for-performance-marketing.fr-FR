@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1143
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -133,7 +133,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 2. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 

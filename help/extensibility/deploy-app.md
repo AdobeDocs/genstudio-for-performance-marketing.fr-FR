@@ -86,8 +86,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 Les nouvelles extensions se trouvent à différents emplacements dans l’interface utilisateur, selon le type d’extension que vous avez déployé. Les points d’extension actuellement disponibles sont les suivants :
 
 * Extension de conformité, qui inclut :
-   * [*points d’extension d’invite*](#find-prompt-extensions), qui permettent aux clients d’ajouter un contexte supplémentaire à la génération LLM ; et
-   * [*points d’extension de validation*](#find-validation-extensions), qui permettent aux clients de valider le contenu généré à partir du LLM. La validation est souvent associée à l’extension d’invite pour s’assurer que le contenu généré avec une invite étendue est conforme aux exigences du client (par exemple, réclamations relatives à des médicaments ou demandes juridiques)
+  * [*points d’extension d’invite*](#find-prompt-extensions), qui permettent aux clients d’ajouter un contexte supplémentaire à la génération LLM ; et
+  * [*points d’extension de validation*](#find-validation-extensions), qui permettent aux clients de valider le contenu généré à partir du LLM. La validation est souvent associée à l’extension d’invite pour s’assurer que le contenu généré avec une invite étendue est conforme aux exigences du client (par exemple, réclamations relatives à des médicaments ou demandes juridiques)
 * [Extension de la gestion des ressources numériques (DAM)](#find-dam-extensions)
 * [Extension de modèle](#find-template-extensions)
 * [Extension de traduction](#find-translation-extensions)

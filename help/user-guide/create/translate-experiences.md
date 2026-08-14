@@ -148,6 +148,6 @@ Gardez à l’esprit les contraintes suivantes lorsque vous traduisez des expér
 
 * [Expériences email](/help/user-guide/create/email-experiences.md)
 * [Expériences Meta](/help/user-guide/create/meta-experiences.md)
-* [Afficher les expériences publicitaires](/help/user-guide/create/display-ad-experiences.md)
-* [Gestion des ressources et des expériences](/help/user-guide/content/manage-assets.md)
+* [Créer une expérience publicitaire display](/help/user-guide/create/display-ad-experiences.md)
+* [Gérer les ressources et les expériences](/help/user-guide/content/manage-assets.md)
 * [Rechercher des extensions de traduction](/help/extensibility/deploy-app.md#find-translation-extensions)

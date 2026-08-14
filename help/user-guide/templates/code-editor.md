@@ -37,7 +37,7 @@ L’éditeur de code de modèle est conçu pour vous aider à vérifier et à af
 
 Le volet _[!UICONTROL Vérifier les champs détectés]_ affiche une liste des champs que GenStudio for Performance Marketing reconnaît dans votre modèle. Passez en revue la liste et vous pouvez faire défiler le code HTML pour consulter la formation de votre modèle.
 
-![Affichage de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="600"}
+![Vue de l’éditeur de code](/help/assets/template-detected-fields.png "Vérification des champs détectés"){width="600"}
 
 Si vous remarquez qu’un champ est manquant dans la liste, recherchez votre code de modèle et recherchez l’emplacement du champ manquant. Insérez l’espace réservé approprié en utilisant la syntaxe Handlebars et un [&#x200B; nom de champ reconnu &#x200B;](/help/user-guide/templates/customize-template.md#recognized-field-names). Utilisez le formulaire Rechercher et remplacer , qui s’affiche au bas de l’éditeur de code, pour rechercher des chaînes spécifiques dans le code. (Windows `CTRL`+`F` ou macOS `CMD`+`F`)
 

@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 249
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ GenStudio for Performance Marketing utilise Customer Journey Analytics (CJA) pou
 
 **Informations importantes sur les connexions de données**
 
-Si vous êtes un [administrateur système Adobe](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), vous pouvez disposer de droits qui vous donnent accès à la gestion des sandbox AEP et aux composants du lac de données qui prennent en charge GenStudio for Performance Marketing.
+Si vous êtes un [administrateur système &#x200B;](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), vous pouvez disposer de droits qui vous donnent accès à la gestion des sandbox AEP et aux composants du lac de données qui prennent en charge GenStudio for Performance Marketing.
 
 >[!WARNING]
 >
@@ -65,4 +65,4 @@ Voir [Implications de suppression](https://experienceleague.adobe.com/fr/docs/an
 
 GenStudio for Performance Marketing conserve les données de canal pendant 13 mois. Cette politique de conservation comprend les 6 mois de données ingérées lors de la connexion initiale, ce qui garantit une analyse complète des données historiques et la création de rapports.
 
-Voir [Connecter un compte de média payant](/help/user-guide/connectors/connect-channel.md).
+Consultez [Connecter un compte de média acheté](/help/user-guide/connectors/connect-channel.md).

@@ -29,11 +29,11 @@ topic_v2:
 source-git-commit: 8ec5d89113f24b91b4d963124050eaf4bf1bf368
 workflow-type: tm+mt
 source-wordcount: 3023
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Ajout d’instructions
+# Ajouter des directives
 
 GenStudio for Performance Marketing vous permet de définir des directives définies par l’utilisateur pour vous assurer que tout contenu généré par l’IA est personnalisé pour s’aligner sur l’identité d’une marque. Cette page fournit des instructions pour définir et utiliser chaque consigne disponible spécifique. Pour une explication générale, voir la [présentation des instructions](/help/user-guide/guidelines/overview.md).
 
@@ -51,7 +51,7 @@ Pour ajouter une [!DNL Brand], [téléchargez un guide de marque](#upload-a-bran
 
 Dans la zone de navigation de gauche, cliquez sur **[!DNL Brands]** dans la liste _Partagé_.
 
-![Recommandations dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
+![Consignes dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
 Si vous téléchargez des directives de marque écrites dans une langue autre que l’anglais (ou si vous créez manuellement une marque à l’aide d’une langue autre que l’anglais), GenStudio for Performance Marketing les affiche dans la même langue.
 
@@ -201,7 +201,7 @@ Pour ajouter une personne, [téléchargez-la](#upload-a-persona), [créez-la man
 
 Dans la zone de navigation de gauche, cliquez sur **[!DNL More]** puis **[!DNL Personas]** dans la liste _Partagé_.
 
-![Recommandations dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
+![Consignes dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
 Vous pouvez ajouter un [!DNL Persona] dans GenStudio for Performance Marketing pour cibler le contenu que vous créez sur l’audience idéale.
 
@@ -283,7 +283,7 @@ Dans _[!DNL Personas]_&#x200B;page d’accueil, vous pouvez **ouvrir un[!DNL Per
 Pour ajouter un produit :
 
 1. Dans la zone de navigation de gauche, cliquez sur **[!DNL More]** puis **[!DNL Products]** dans la liste _Partagé_.
-   ![Recommandations dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
+   ![Consignes dans GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
 1. Dans le panneau _[!DNL Products]_, sélectionnez **[!UICONTROL Ajouter un produit]**.
 1. Choisissez de [charger un produit](#upload-a-product), [créer manuellement un produit](#manually-add-a-product) ou [ajouter des produits à partir d’une URL](#adding-products-from-url). Lorsque vous téléchargez des fichiers ou ajoutez un produit manuellement, sélectionnez Recommandations et saisissez les détails du produit.
 

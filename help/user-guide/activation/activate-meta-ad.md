@@ -19,8 +19,8 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1980
-ht-degree: 1%
+source-wordcount: 1981
+ht-degree: 3%
 
 ---
 
@@ -188,7 +188,7 @@ Après avoir préparé vos expériences publicitaires, vous devez confirmer les 
 
 ### Création d’une visionneuse d’annonces
 
-Vous pouvez créer un nouveau jeu d’annonces lors de la configuration de la plateforme en clonant un jeu d’annonces existant. Les ensembles d’annonces Meta définissent le timing, les détails du canal et l’audience d’une annonce publicitaire spécifique. Une campagne Meta peut contenir plusieurs visionneuses d’annonces, mais une visionneuse d’annonces est exclusivement associée à une campagne.
+Vous pouvez créer un nouveau jeu d’annonces lors de la configuration de la plateforme en clonant un jeu d’annonces existant. Les ensembles de publicités Meta définissent le calendrier, les détails du canal et l’audience d’une publicité spécifique. Une campagne Meta peut contenir plusieurs ensembles de publicités, mais un ensemble de publicités est exclusivement associé à une campagne.
 
 **Pour créer une visionneuse d’annonces** :
 

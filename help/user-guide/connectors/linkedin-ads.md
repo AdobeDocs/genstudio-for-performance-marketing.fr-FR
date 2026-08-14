@@ -43,9 +43,9 @@ Connectez votre compte de profil LinkedIn Ads à GenStudio for Performance Marke
 
 - _Contrôle total_ sur les comptes publicitaires LinkedIn, notamment :
 
-   - Comptes de responsable
-   - Gestion des campagnes
-   - Affichage des performances
+  - Comptes de responsable
+  - Gestion des campagnes
+  - Affichage des performances
 
 - Supprimez tous les bloqueurs de pop-up dans votre navigateur
 

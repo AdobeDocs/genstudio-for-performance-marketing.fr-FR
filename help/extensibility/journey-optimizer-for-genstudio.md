@@ -4,7 +4,7 @@ description: Installez et configurez l’application Journey Optimizer for GenSt
 feature: Extensibility
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---

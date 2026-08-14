@@ -66,4 +66,4 @@ Voir [Configuration de l’interface utilisateur de Content Hub](https://experie
 
 Dans Contenu GenStudio for Performance Marketing, la liste _[!UICONTROL Emplacement]_ est disponible au-dessus de la galerie sur le côté droit. La liste n’est pas disponible si vous n’y avez pas accès ou si votre organisation n’a pas déployé et connecté un référentiel [!DNL AEM Assets Content Hub].
 
-Voir [Emplacement Assets](manage-assets.md#assets-location) pour en savoir plus sur la liste Emplacement et la modification des référentiels.
+Voir [Emplacement &#x200B;](manage-assets.md#assets-location) pour en savoir plus sur la liste Emplacement et la modification des référentiels.

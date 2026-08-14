@@ -19,7 +19,7 @@ level_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 300
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -29,12 +29,12 @@ Les modèles d’affichage sont des mises en page préconçues utilisées pour c
 
 Suivez ces bonnes pratiques de conception lors de la personnalisation de modèles de bannières et d’affichages publicitaires pour les utiliser avec GenStudio for Performance Marketing :
 
-- Utilisation des polices Adobe ou Google
+- Utiliser les polices Adobe ou Google.
 - Préparation des ressources qui s’affichent correctement dans les dimensions compactes
 - Un seul champ d’image est requis
 - N’utilisez **&#x200B;**&#x200B;d’images d’arrière-plan incorporées ou codées
 - Utilisez des images d’arrière-plan (champ `image`) chargées dans le référentiel de contenu GenStudio for Performance Marketing. Respectez les instructions de la section [Chargement d’images pour les publicités display](#uploading-images-for-display-ads) pour obtenir les meilleurs résultats
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- Ne pas utiliser **JavaScript**
 - Une seule section peut être utilisée, générant un seul ensemble d’éléments de modèle
 
 ## Noms de champs reconnus

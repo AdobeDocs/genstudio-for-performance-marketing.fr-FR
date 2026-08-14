@@ -46,7 +46,7 @@ Avant de commencer à générer une expérience publicitaire Meta, il est import
 
 ## Choisir un modèle
 
-Pour commencer à générer une nouvelle expérience publicitaire Meta, utilisez un modèle disponible pour fournir le framework de votre contenu. Consultez les [directives relatives aux modèles de publicité Meta](/help/user-guide/templates/meta-template.md) pour plus d’informations sur les proportions de publicité Meta prises en charge.
+Pour commencer à générer une nouvelle expérience publicitaire Meta, utilisez un modèle disponible pour fournir le framework de votre contenu. Consultez les [directives relatives aux modèles de publicité &#x200B;](/help/user-guide/templates/meta-template.md) pour plus d’informations sur les proportions de publicité Meta prises en charge.
 
 Lors de la sélection d’un modèle, vous avez la possibilité d’utiliser l’un des modèles chargés ou un modèle de démarrage.
 
@@ -106,7 +106,7 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 
 Par défaut, quatre variations, toutes alimentées par l’invite, les instructions et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
 
-Le contenu généré se charge progressivement ; au fur et à mesure que chaque section des expériences Meta est générée, elle apparaît dans la zone de travail. Voir [Expériences Meta](/help/user-guide/create/meta-experiences.md#progressive-loading) pour savoir comment ces modifications sont chargées dans la zone de travail.
+Le contenu généré se charge progressivement ; au fur et à mesure que chaque section des expériences Meta est générée, elle apparaît dans la zone de travail. Voir [Expériences &#x200B;](/help/user-guide/create/meta-experiences.md#progressive-loading) pour savoir comment ces modifications sont chargées dans la zone de travail.
 
 ## Choisir le canal des publicités Meta
 
@@ -162,7 +162,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 2. [Révisez manuellement les variantes](#revise-generated-variants) pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtention des révisions et des approbations
 

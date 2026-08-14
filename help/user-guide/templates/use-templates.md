@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
 workflow-type: tm+mt
 source-wordcount: 1654
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -92,7 +92,7 @@ Les émissions suivantes filtrent par type de canal, comme les e-mails, les publ
 
 ![Liste des modèles de contenu](/help/assets/content-templates-filter.png "Rechercher les modèles LinkedIn"){width="650" zoomable="yes"}
 
-La fonctionnalité de recherche de modèles est disponible lors de la [!UICONTROL Créer] lors de la sélection d’un modèle pour les médias propriétaires ou payants. Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun modèle du référentiel ne correspond aux critères de métadonnées correspondants. Assurez-vous que les modèles sont correctement balisés avec des métadonnées pour les rendre détectables via ces filtres.
+La fonctionnalité de recherche de modèles est disponible lors de la [!UICONTROL Créer] lors de la sélection d’un modèle pour les médias propriétaires ou payants. Si certaines options de filtre ne sont pas visibles, cela indique qu’aucun modèle du référentiel ne correspond aux critères de métadonnées correspondants. Assurez-vous que les modèles sont correctement balisés avec des métadonnées afin de les rendre détectables via ces filtres.
 
 ### Ajouter un modèle
 

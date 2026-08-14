@@ -20,7 +20,7 @@ level_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 445
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -30,9 +30,9 @@ Un modèle d’e-mail marketing sert de base pour des campagnes par e-mail attra
 
 Suivez ces bonnes pratiques de conception lors de la personnalisation de modèles d’e-mail pour travailler avec GenStudio for Performance Marketing :
 
-- Utilisation des polices Adobe ou Google
-- Utilisation d’HTML et de CSS intégré propres et réactifs
-- N’utilisez **&#x200B;**&#x200B;JavaScript
+- Utiliser les polices Adobe ou Google.
+- Utiliser un code HTML propre et en responsive design, ainsi que du CSS intégré
+- Ne pas utiliser **JavaScript**
 - N **utilisez pas** largeur fixe dans le corps ou le conteneur
 - N’utilisez **pas** codage base64 pour les images, car il peut augmenter considérablement la taille du modèle
 - La taille maximale du fichier HTML est de 102 Ko

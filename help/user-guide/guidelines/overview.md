@@ -26,7 +26,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 505
 ht-degree: 100%
 
@@ -84,5 +84,5 @@ Adobe GenStudio for Performance Marketing intègre des consignes de platefor
 
 Ces contrôles de conformité cumulatifs comprennent les éléments suivants :
 
-* **Accessibilité ADA** : essentiel pour garantir le développement de contenu inclusif et d’expériences numériques qui répondent aux besoins des personnes présentant un handicap.Ils garantissent l’alignement avec les fonctionnalités d’accessibilité web et assurent un accès équitable à toutes et tous.GenStudio for Performance Marketing fait actuellement référence aux consignes d’accessibilité des textes de niveau AA de la loi ADA.
-* **Conformité de la plateforme** : il est essentiel de respecter les consignes spécifiques à chaque plateforme, par exemple Meta ou LinkedIn, et de suivre les bonnes pratiques du secteur.Il s’agit des instructions par défaut présentes dans le système et pré-remplies dans les [[!DNL Brand] consignes](/help/user-guide/guidelines/brands.md#brands-guidelines).
+* **Accessibilité ADA** : essentiel pour garantir le développement de contenu inclusif et d’expériences numériques qui répondent aux besoins des personnes présentant un handicap. Ils garantissent l’alignement avec les fonctionnalités d’accessibilité web et assurent un accès équitable à toutes et tous. GenStudio for Performance Marketing fait actuellement référence aux consignes d’accessibilité des textes de niveau AA de la loi ADA.
+* **Conformité de la plateforme** : il est essentiel de respecter les consignes spécifiques à chaque plateforme, par exemple Meta ou LinkedIn, et de suivre les bonnes pratiques du secteur. Il s’agit des instructions par défaut présentes dans le système et pré-remplies dans les [[!DNL Brand] consignes](/help/user-guide/guidelines/brands.md#brands-guidelines).

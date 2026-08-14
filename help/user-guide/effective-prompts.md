@@ -82,10 +82,10 @@ Par exemple, vous pouvez demander à GenStudio for Performance Marketing de gén
 L’invite structurée doit :
 
 - Utilisez l’une des références suivantes pour le nom de la section dans le modèle d’e-mail :
-   - Pod
-   - Groupe
-   - Section
-   - Module
+  - Pod
+  - Groupe
+  - Section
+  - Module
 
   Par exemple, si votre modèle utilise `moduleA` ou `Group-3` comme nom de section, vous pouvez référencer ces noms de section dans l&#39;invite.
 

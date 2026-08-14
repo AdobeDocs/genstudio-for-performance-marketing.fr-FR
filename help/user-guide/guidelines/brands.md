@@ -188,4 +188,4 @@ Dans le menu d’actions (points de suspension) d’une couleur, vous pouvez **[
 
 Dans GenStudio for Performance Marketing, la validation de la marque joue un rôle essentiel, en conjonction avec les fonctionnalités d’IA génératives de [!DNL Brands], [!DNL Products] et [!DNL Personas]. Cela permet de s’assurer que tout votre contenu reste cohérent avec l’identité de votre marque et les préoccupations d’accessibilité.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).

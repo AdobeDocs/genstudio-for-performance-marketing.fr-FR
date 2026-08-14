@@ -2,7 +2,7 @@
 title: Générer des variantes d’image
 description: Créez une image correspondant au style d’une image de référence dans  [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
-badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement disponible dans Beta, de sorte que certaines d’entre elles peuvent être limitées ou susceptibles d’être modifiées."
+badgeBeta: label="Beta" tooltip="Cette fonctionnalité est actuellement en version bêta, ce qui signifie que certaines fonctionnalités peuvent être limitées ou susceptibles de modifications."
 role: User
 level: Beginner
 recommendations: noDisplay
@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 6d1053bf94b0a0ba65be90359e4d176e64dfffae
 workflow-type: tm+mt
 source-wordcount: 752
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -100,7 +100,7 @@ Voir [Rédiger des invites efficaces](/help/user-guide/effective-prompts.md).
 
 Par défaut, quatre variations, alimentées par l’invite, les paramètres et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
 
-### Modifier dans Adobe Express
+### Modifier dans Adobe Express
 
 Après avoir généré des variantes d’image, vous pouvez les modifier directement dans Adobe GenStudio for Performance Marketing à l’aide d’Adobe Express.
 
@@ -129,7 +129,7 @@ Pour optimiser les variantes générées et garantir une stricte conformité à 
 
 1. Révisez les variantes d’image pour vous assurer que vos variantes sont étroitement alignées avec les contrôles de contenu effectués.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 <!-- 
 ## Generate Similar images

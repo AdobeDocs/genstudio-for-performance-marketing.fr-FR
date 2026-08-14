@@ -24,7 +24,7 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Lors de la [création d’expériences](/help/user-guide/create/overview.md), vo
 
 Les brouillons de variantes générés ont un nom par défaut affiché en haut de la zone de travail. Les noms des brouillons par défaut utilisent la convention suivante qui inclut le type de canal, la date et l’heure de la génération.
 
-*Exemple* : « Meta : brouillon sans titre - 09.5.24, 9 :56 »
+*Exemple* : « Meta : brouillon sans titre - 09.5.24, 9:56 »
 
 **Pour modifier le nom par défaut** :
 
@@ -181,7 +181,7 @@ Cette fonction d’extension générative est associée à l’outil Recadrage p
 
 ## Modifier les proportions
 
-Vous pouvez rapidement modifier le [format des annonces Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter le dimensionnement de l’annonce publicitaire à vos besoins. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée de 1 :1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
+Vous pouvez rapidement modifier le [format des annonces Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) pour adapter le dimensionnement de l’annonce publicitaire à vos besoins. Choisissez un format d’image qui correspond étroitement aux dimensions de votre modèle afin d’éviter tout recadrage ou étirement indésirable. Par exemple, si votre modèle fait 1 200 × 628 pixels (un rectangle large), l’utilisation d’une image carrée 1:1 peut recadrer les côtés, ce qui peut couper un contenu important. La taille optimale de l’image serait de 628 x 628 pixels, ce qui correspond à la hauteur du modèle.
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Vous pouvez rapidement modifier le [format des annonces Meta](/help/user-guide/t
 
    [!DNL Create] crée une copie de chaque variante en fonction des nouveaux proportions sélectionnées. Toutes les variantes, y compris celles du rapport d’aspect initial, sont présentes dans la zone de travail.
 
-   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect de 1:1, puis que vous modifiez le rapport d’aspect en 4:5, _huit_ variantes totales sont désormais disponibles sur la zone de travail.
+   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect de 1:1, puis que vous modifiez le rapport d’aspect en 4:5, _huit_ le total des variantes est désormais disponible sur la zone de travail.
 
 ## Permuter l’image
 
@@ -294,7 +294,7 @@ Supprimez les variantes inutiles afin que la zone de travail n’affiche que les
 
 Utilisez le panneau _Vérification de contenu_ pour conserver une identité de marque cohérente, [les normes d’accessibilité ADA](/help/user-guide/guidelines/overview.md#content-checks), les directives relatives aux plateformes et l’alignement des variantes.
 
-Voir [&#x200B; Validation de la marque &#x200B;](/help/user-guide/guidelines/brand-validation.md).
+Consultez [Validation de la marque](/help/user-guide/guidelines/brand-validation.md).
 
 ## Retour d’informations de génération
 
