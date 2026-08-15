@@ -61,7 +61,7 @@ Lorsque vous sélectionnez un modèle de [!DNL Express] et cliquez sur **[!UICON
 
 ### Génération automatique de plusieurs tailles
 
-Lorsque [plusieurs pages ont été créées pour une ressource dans [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html), ces pages sont transférées vers tout modèle créé à partir de cette ressource. Les pages Express sont générées chacune en tant que tailles différentes du contenu créatif en [!DNL GenStudio for Performance Marketing].
+Lorsque [plusieurs pages ont été créées pour une ressource dans [!DNL Express]](https://helpx.adobe.com/fr/express/web/arrange-layers-and-pages/add-pages.html), ces pages sont transférées vers tout modèle créé à partir de cette ressource. Les pages Express sont générées chacune en tant que tailles différentes du contenu créatif en [!DNL GenStudio for Performance Marketing].
 
 Lorsqu’il existe un contenu à plusieurs tailles pour une ressource dans [!DNL Express], des variantes peuvent être générées pour toutes ces tailles en une seule génération.
 
