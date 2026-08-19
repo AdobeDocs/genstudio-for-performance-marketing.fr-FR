@@ -17,20 +17,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
+source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 4%
+source-wordcount: 670
+ht-degree: 5%
 
 ---
 
 # Content Credentials pour les organisations
 
 Découvrez comment les informations d’identification inviolables pour le contenu qui prouvent l’authenticité de la marque et la conformité du lecteur sont directement intégrées à votre workflow marketing.
-
->[!WARNING]
->
-> Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les organisations qui ont reçu l’accès. Si vous êtes intéressé, veuillez contacter le représentant de l’équipe en charge de votre compte Adobe ou [utilisez ce lien pour demander une inscription](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
 ## Commencer avec Content Credentials {#content-credentials}
 
@@ -39,15 +35,11 @@ Découvrez comment les informations d’identification inviolables pour le conte
 >title="Content Credentials dans [!DNL GenStudio for Performance Marketing]"
 >abstract="Les informations d’identification inviolables pour le contenu qui garantissent l’authenticité de la marque et favorisent la conformité peuvent être directement intégrées à votre workflow marketing."
 
-Une fois Content Credentials activé dans Admin Console, les utilisateurs de GenStudio for Performance Marketing peuvent activer Content Credentials pour toutes les ressources globalement dans l’application. Si l’option globale d’application des informations d’identification est désactivée, les utilisateurs peuvent appliquer Content Credentials pour chaque ressource individuelle.
+GenStudio for Performance Marketing applique automatiquement Content Credentials globalement à toutes les ressources. Il n’existe aucune étape de configuration ni aucun paramètre par ressource à activer : les informations d’identification sont incorporées, conservées et actualisées tout au long du workflow marketing.
 
 Une fois le contenu publié, Content Credentials est visible sur les plateformes externes, comme LinkedIn.
 
-Les administrateurs et administratrices sont chargés de charger un certificat X.509 valide dans Admin Console. Cette étape permet de s’assurer que la signature numérique de l’entreprise est correctement configurée et prête à être utilisée dans les applications Adobe DX prises en charge.
-
->[!NOTE]
->
->Le contrôle de ce paramètre pourrait passer à Admin Console à l’avenir, ce qui rationaliserait la gestion de Content Credentials entre les applications et améliorerait la supervision administrative.
+Content Credentials compatible C2PA ne nécessite aucune configuration de certificat. La signature de marque est l’exception : pour signer du contenu avec la signature de votre entreprise, un administrateur doit charger un certificat X.509 valide dans Admin Console. Cette étape permet de s’assurer que la signature numérique de l’entreprise est correctement configurée et prête à être utilisée dans les applications Adobe DX prises en charge.
 
 ## Que sont les Content Credentials ? 
 
@@ -71,7 +63,7 @@ L’application de Content Credentials peut être réalisée tout au long du wor
 
 Dans la galerie de contenu, les informations d’identification s’affichent sur les ressources importées.
 
-Le badge Content Credential dans le coin supérieur droit de la miniature indique le contenu « Signé par la marque ».
+Le badge Content Credential dans le coin supérieur droit de la miniature indique [!UICONTROL &#x200B; contenu signé par la marque &#x200B;].
 
 ![Ressource importée avec informations d’identification](./images/import-discovery1.png)
 
@@ -93,7 +85,7 @@ Les métadonnées d’identification sont conservées lorsque des ressources son
 
 Lors des exportations à partir d’un brouillon, les ressources modifiées sont automatiquement resignées et les nouvelles informations d’identification sont liées à l’original.
 
-![Données d’identification sur une ressource exportée](./images/edit-and-transformation1.png){width="60%"}
+![Boîte de dialogue Télécharger avec les options de format d’exportation](./images/edit-and-transformation2.png){width="60%"}
 
 ### Révision et approbation
 
@@ -103,7 +95,7 @@ Dans l’aperçu Réviser et approuver , le statut des informations d’identifi
 
 Les informations d’identification par variante s’affichent lorsque les réviseurs inspectent les ressources. Les expériences approuvées sont resignées lorsque les utilisateurs cliquent sur **[!UICONTROL Enregistrer dans le contenu]**.
 
-![Données d’identification sur une ressource approuvée](./images/review-and-approve2.png)
+![Boîte de dialogue Confirmer les détails du contenu approuvé, avec le bouton Enregistrer dans le contenu &#x200B;](./images/review-and-approve3.png)
 
 ### Activation et export
 
