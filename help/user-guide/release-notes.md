@@ -40,9 +40,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 5751
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,17 +54,17 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
 
 **NOUVELLES FONCTIONNALITÉS :**
 
-### Modification en bloc sur la zone de travail Horizon
+### Modification en masse sur la zone de travail Horizon
 
-La zone de travail Horizon relie désormais les champs de texte et d’image associés dans les tailles et les pages dans un modèle multi-taille ou multi-page, de sorte qu’une modification du dernier kilomètre ne doit se produire qu’une seule fois. Sélectionnez l’étendue **[!UICONTROL Appliquer à]** dans le menu d’édition (cette taille, toutes les tailles ou tous les concepts) et la modification se propage automatiquement, avec la possibilité d’ajuster manuellement le balisage des champs si nécessaire.
+La zone de travail Horizon relie désormais les champs de texte et d’image associés entre les différents formats et pages d’un modèle multi-format ou multipage, de sorte qu’une modification de dernière minute ne doit être effectuée qu’une seule fois. Sélectionnez la portée **[!UICONTROL Appliquer à]** dans le menu d’édition (ce format, tous les formats ou tous les concepts) et la modification se propage automatiquement, avec la possibilité d’ajuster manuellement le balisage des champs si nécessaire.
 
-### Activer les publicités display directement sur The Trade Desk
+### Activer les publicités display directement dans The Trade Desk
 
-Les marketeurs peuvent désormais publier des créations d&#39;affichage approuvées directement depuis [!DNL GenStudio for Performance Marketing] dans les campagnes existantes de The Trade Desk. Connectez un compte à l’aide d’un jeton API, lancez l’activation à partir d’[!DNL Activate] ou d’[!DNL Content] et suivez le statut d’activation à l’aide de liens profonds vers The Trade Desk.
+Les spécialistes du marketing peuvent désormais publier des créations d’affichage approuvées directement depuis [!DNL GenStudio for Performance Marketing] dans les campagnes existantes de The Trade Desk. Connectez un compte à l’aide d’un jeton API, lancez l’activation à partir d’[!DNL Activate] ou de [!DNL Content] et suivez le statut d’activation à l’aide de liens profonds vers The Trade Desk.
 
 ### Permutation du fragment de contenu sur la zone de travail Horizon
 
-Vous pouvez désormais remplacer un bloc de texte sur la zone de travail Horizon par un fragment de contenu préapprouvé et réutilisable extrait directement de la bibliothèque de fragments de contenu AEM. Les permutations de fragments de contenu fonctionnent avec la modification en masse, de sorte qu’une permutation peut s’appliquer à une seule taille ou se propager sur toutes les tailles et tous les concepts à la fois, en conservant la copie réglementée telle qu’approuvée sans saisie manuelle.
+Vous pouvez désormais remplacer un bloc de texte sur la zone de travail Horizon par un fragment de contenu préapprouvé et réutilisable extrait directement de la bibliothèque de fragments de contenu AEM. Les permutations de fragments de contenu fonctionnent avec la modification en masse, de sorte qu’une permutation peut s’appliquer à un seul format ou se propager sur tous les formats et tous les concepts à la fois, en conservant la copie réglementée telle qu’approuvée sans saisie manuelle.
 
 ## Notes de mise à jour antérieures
 
@@ -88,7 +88,7 @@ Les responsables marketing d’applications mobiles peuvent désormais [activer 
 
 La traduction prête à l’emploi s’étend désormais aux expériences paid media sur la zone de travail Horizon, afin que les équipes régionales puissent localiser les brouillons Meta, LinkedIn et Display approuvés sans exporter de contenu vers des outils externes.
 
-Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md) pour en savoir plus sur le workflow de traduction.
+Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md) pour en savoir plus sur le workflow de traduction.
 
 ### Plusieurs images par module dans les modèles d’e-mail.
 
@@ -235,7 +235,7 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 
 ### Traduction prête à l’emploi pour les expériences paid media et e-mail
 
-* Traduisez instantanément les expériences de médias achetés et e-mail approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
+* Traduisez instantanément les expériences de médias achetés et e-mail approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 * Grâce aux services de traduction Azure Open AI, les équipes peuvent traduire du contenu en masse dans plusieurs langues cibles simultanément.
 
 ### Export PDF pour les expériences
@@ -693,7 +693,7 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 * Il est désormais possible de contrôler tous les éléments interactifs du modèle publicitaire Meta à l’aide du clavier uniquement. <!-- GS-4066 -->
 
-* Ajout de l’extraction des dimensions d’image des champs d’image de modèle aux modèles d’affichage publicitaire. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour le modèle entier. <!-- GS-6926 -->
+* Ajout de l’extraction des dimensions des images à partir des champs d’image des modèles dans les modèles de publicités display. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour le modèle entier. <!-- GS-6926 -->
 
 * La chaîne `Zoom to fit to screen` a été localisée dans les publicités Meta et par e-mail générées. <!-- GS-5063 -->
 
@@ -737,7 +737,7 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 * Les problèmes de disposition liés aux bordures des e-mails ont été résolus. <!-- GS-6631 -->
 
-* Le focus au clavier fonctionne désormais comme prévu sur le bouton **[!DNL Content]** **[!UICONTROL Supprimer]**. Auparavant, les utilisateurs ne pouvaient pas accéder à ce bouton à l’aide du clavier.  <!-- GS-4065 -->
+* Le focus au clavier fonctionne désormais comme prévu sur le bouton **[!DNL Content]** **[!UICONTROL Supprimer]**. Auparavant, il n’était pas possible d’accéder à ce bouton à l’aide du clavier.  <!-- GS-4065 -->
 
 +++
 
