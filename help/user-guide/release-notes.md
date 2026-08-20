@@ -5,44 +5,15 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 5751
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,17 +25,17 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
 
 **NOUVELLES FONCTIONNALITÉS :**
 
-### Modification en bloc sur la zone de travail Horizon
+### Modification en masse sur la zone de travail Horizon
 
-La zone de travail Horizon relie désormais les champs de texte et d’image associés dans les tailles et les pages dans un modèle multi-taille ou multi-page, de sorte qu’une modification du dernier kilomètre ne doit se produire qu’une seule fois. Sélectionnez l’étendue **[!UICONTROL Appliquer à]** dans le menu d’édition (cette taille, toutes les tailles ou tous les concepts) et la modification se propage automatiquement, avec la possibilité d’ajuster manuellement le balisage des champs si nécessaire.
+La zone de travail Horizon relie désormais les champs de texte et d’image associés entre les différents formats et pages d’un modèle multi-format ou multipage, de sorte qu’une modification de dernière minute ne doit être effectuée qu’une seule fois. Sélectionnez la portée **[!UICONTROL Appliquer à]** dans le menu d’édition (ce format, tous les formats ou tous les concepts) et la modification se propage automatiquement, avec la possibilité d’ajuster manuellement le balisage des champs si nécessaire.
 
-### Activer les publicités display directement sur The Trade Desk
+### Activer les publicités display directement dans The Trade Desk
 
-Les marketeurs peuvent désormais publier des créations d&#39;affichage approuvées directement depuis [!DNL GenStudio for Performance Marketing] dans les campagnes existantes de The Trade Desk. Connectez un compte à l’aide d’un jeton API, lancez l’activation à partir d’[!DNL Activate] ou d’[!DNL Content] et suivez le statut d’activation à l’aide de liens profonds vers The Trade Desk.
+Les spécialistes du marketing peuvent désormais publier des créations d’affichage approuvées directement depuis [!DNL GenStudio for Performance Marketing] dans les campagnes existantes de The Trade Desk. Connectez un compte à l’aide d’un jeton API, lancez l’activation à partir d’[!DNL Activate] ou de [!DNL Content] et suivez le statut d’activation à l’aide de liens profonds vers The Trade Desk.
 
 ### Permutation du fragment de contenu sur la zone de travail Horizon
 
-Vous pouvez désormais remplacer un bloc de texte sur la zone de travail Horizon par un fragment de contenu préapprouvé et réutilisable extrait directement de la bibliothèque de fragments de contenu AEM. Les permutations de fragments de contenu fonctionnent avec la modification en masse, de sorte qu’une permutation peut s’appliquer à une seule taille ou se propager sur toutes les tailles et tous les concepts à la fois, en conservant la copie réglementée telle qu’approuvée sans saisie manuelle.
+Vous pouvez désormais remplacer un bloc de texte sur la zone de travail Horizon par un fragment de contenu préapprouvé et réutilisable extrait directement de la bibliothèque de fragments de contenu AEM. Les permutations de fragments de contenu fonctionnent avec la modification en masse, de sorte qu’une permutation peut s’appliquer à un seul format ou se propager sur tous les formats et tous les concepts à la fois, en conservant la copie réglementée telle qu’approuvée sans saisie manuelle.
 
 ## Notes de mise à jour antérieures
 
@@ -88,7 +59,7 @@ Les responsables marketing d’applications mobiles peuvent désormais [activer 
 
 La traduction prête à l’emploi s’étend désormais aux expériences paid media sur la zone de travail Horizon, afin que les équipes régionales puissent localiser les brouillons Meta, LinkedIn et Display approuvés sans exporter de contenu vers des outils externes.
 
-Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md) pour en savoir plus sur le workflow de traduction.
+Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md) pour en savoir plus sur le workflow de traduction.
 
 ### Plusieurs images par module dans les modèles d’e-mail.
 
@@ -235,7 +206,7 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 
 ### Traduction prête à l’emploi pour les expériences paid media et e-mail
 
-* Traduisez instantanément les expériences de médias achetés et e-mail approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
+* Traduisez instantanément les expériences de médias achetés et e-mail approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 * Grâce aux services de traduction Azure Open AI, les équipes peuvent traduire du contenu en masse dans plusieurs langues cibles simultanément.
 
 ### Export PDF pour les expériences
@@ -693,7 +664,7 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 * Il est désormais possible de contrôler tous les éléments interactifs du modèle publicitaire Meta à l’aide du clavier uniquement. <!-- GS-4066 -->
 
-* Ajout de l’extraction des dimensions d’image des champs d’image de modèle aux modèles d’affichage publicitaire. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour le modèle entier. <!-- GS-6926 -->
+* Ajout de l’extraction des dimensions des images à partir des champs d’image des modèles dans les modèles de publicités display. Les demandes de recadrage intelligent sont désormais envoyées pour la dimension réelle de l’image et non pour le modèle entier. <!-- GS-6926 -->
 
 * La chaîne `Zoom to fit to screen` a été localisée dans les publicités Meta et par e-mail générées. <!-- GS-5063 -->
 
@@ -737,7 +708,7 @@ Cette version comprend des améliorations de la localisation dans toute l’inte
 
 * Les problèmes de disposition liés aux bordures des e-mails ont été résolus. <!-- GS-6631 -->
 
-* Le focus au clavier fonctionne désormais comme prévu sur le bouton **[!DNL Content]** **[!UICONTROL Supprimer]**. Auparavant, les utilisateurs ne pouvaient pas accéder à ce bouton à l’aide du clavier.  <!-- GS-4065 -->
+* Le focus au clavier fonctionne désormais comme prévu sur le bouton **[!DNL Content]** **[!UICONTROL Supprimer]**. Auparavant, il n’était pas possible d’accéder à ce bouton à l’aide du clavier.  <!-- GS-4065 -->
 
 +++
 
