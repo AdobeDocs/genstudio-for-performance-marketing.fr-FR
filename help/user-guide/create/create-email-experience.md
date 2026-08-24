@@ -7,29 +7,15 @@ level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
 TQID: https://experienceleague.adobe.com/RPeJQ02q9HXBSpn-uFqjzLCYbbzv5eNnFBXkFn9j5JI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: e47c6644de51ead57f1c2e780aa287eb1de7ac87
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1547
 ht-degree: 0%
 
 ---
@@ -111,10 +97,57 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour [appliquer une mise en forme de texte](/help/user-guide/create/manage-variants.md#manually-edit-text)** dans une variante, cliquez sur le texte sur l’image d’une variante et cliquez sur **[!UICONTROL Mettre en forme le texte]**.
 * **Pour [régénérer une section d’une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications suggérées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
 * **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône **[!UICONTROL Permuter depuis le contenu]**.
+* **Pour [modifier une image dans une variante](#edit-images-in-the-canvas)**, cliquez sur un champ d’image et cliquez sur **[!UICONTROL Modifier]** (icône représentant un crayon) pour recadrer, repositionner ou développer l’image directement dans la zone de travail.
 * **Pour [ajouter un lien à une image dans une variante](/help/user-guide/create/manage-variants.md#add-image-link)**, cliquez sur une ressource image (ou dans la zone de ressource image si une image n’existe pas actuellement) et cliquez sur l’icône de lien.
 * **Pour [ajouter du texte de remplacement pour les images d’une variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, cliquez sur une ressource d’image et utilisez l’option _Texte de remplacement_ pour ajouter ou générer manuellement un texte de remplacement par image.
 * **Pour [ajouter des libellés d’accessibilité](/help/user-guide/create/manage-variants.md#add-accessibility-labels) à vos variantes** cliquez sur une image ou un lien call-to-action, puis fournissez une brève description expliquant la fonction du lien ou du bouton.
 * **Pour [supprimer un e-mail](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de l’e-mail (par exemple, « E-mail 1/4 ») et cliquez sur **[!UICONTROL Supprimer la variante]**.
+
+## Modification des images dans la zone de travail
+
+Ajustez les images sans quitter la zone de travail ni recourir à des outils de conception externes. Vous pouvez recadrer et repositionner une image pour qu’elle porte sur un sujet, ou utiliser l’option Développement génératif pour étendre une image au-delà de ses limites d’origine. Les modifications s’appliquent uniquement à votre brouillon d’e-mail. Les ressources Source des référentiels [!DNL Content] et des ressources connectées ne sont jamais modifiées.
+
+Accédez à la modification d’images à partir de n’importe quel champ d’image dans la zone de travail de l’e-mail. Les images modifiées sont indiquées visuellement afin que vous puissiez suivre les images que vous avez modifiées à partir de la ressource d’origine.
+
+### Recadrer et repositionner une image
+
+Recadrez une image pour n’utiliser que la zone souhaitée. Le recadrage dans les e-mails est à structure libre, sans restriction de format. Vous avez donc un contrôle total sur la partie de l’image qui s’affiche et dans quelle proportion.
+
+**Pour recadrer et repositionner une image** :
+
+1. Dans un brouillon d’e-mail, pointez et cliquez sur un champ d’image.
+1. Cliquez sur **[!UICONTROL Modifier]** (icône représentant un crayon).
+1. Cliquez sur **[!UICONTROL Recadrer]**.
+1. Ajustez la zone de recadrage et faites glisser l’image à la position souhaitée.
+1. Cliquez sur **[!UICONTROL Appliquer]** pour recadrer l’image sélectionnée, ou **[!UICONTROL Appliquer à toutes les images]** pour appliquer le recadrage à tous les champs d’image du brouillon.
+
+Pour quitter sans enregistrer vos modifications, cliquez sur **[!UICONTROL Annuler]**.
+
+![La vue Modifier l’image avec l’outil Recadrage actif sur une image dans la zone de travail de l’e-mail](/help/assets/edit-image-crop-email.png){width="650" zoomable="yes"}
+
+### Développement d’une image avec l’option Développement génératif
+
+Utilisez l’option Développement génératif pour étendre une image au-delà de ses limites d’origine avec l’IA générative. L’extension d’un e-mail n’est pas limitée à une taille ou à une proportion fixe, vous pouvez donc adapter une image à l’espace dont vous avez besoin.
+
+**Pour développer une image** :
+
+1. Dans un brouillon d’e-mail, pointez et cliquez sur un champ d’image.
+1. Cliquez sur **[!UICONTROL Modifier]** (icône représentant un crayon).
+1. Cliquez sur **[!UICONTROL Développer]**.
+
+   L’image s’ouvre dans la vue _[!UICONTROL Modifier l’image]_ sur une zone de travail développée et génère [!DNL GenStudio for Performance Marketing] des options de développement.
+
+1. Déplacez l’image pour la positionner dans la zone développée.
+1. Sélectionnez une option générée ou cliquez sur **[!UICONTROL Plus]** (icône plus) pour afficher d’autres options.
+1. Cliquez sur **[!UICONTROL Appliquer]** pour appliquer le résultat à l’image sélectionnée, ou **[!UICONTROL Appliquer à toutes les images]** pour l’appliquer à tous les champs d’image du brouillon.
+
+Pour quitter sans enregistrer vos modifications, cliquez sur **[!UICONTROL Annuler]**.
+
+>[!NOTE]
+>
+>La taille de sortie de l’extension générative n’est pas limitée, de sorte que la qualité peut varier pour les très grandes extensions. Cliquez sur **[!UICONTROL Plus]** pour générer des options supplémentaires si le résultat ne répond pas à vos besoins.
+
+![Un résultat de développement généré sélectionné et prêt à être appliqué dans la vue Modifier l’image](/help/assets/generative-expand-email.png){width="650" zoomable="yes"}
 
 ## Envoyer le retour d’informations de génération
 
