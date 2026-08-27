@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
+source-git-commit: 5fe8dccdcf24d26706b7d3621acc1715fd9eb164
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 750
 ht-degree: 5%
 
 ---
@@ -105,6 +105,13 @@ Pendant l’activation, le statut des informations d’identification s’affich
 
 Les fichiers exportés auront des informations d’identification conformes au C2PA incorporées.
 
+Les ressources exportées conservent également leur parenté. Les informations d’identification incorporées enregistrent les ressources à partir desquelles l’exportation a été dérivée, de sorte qu’une expérience exportée peut être retracée jusqu’à la ressource importée d’origine en passant par ses modifications. Comme la parenté se déplace à l’intérieur du fichier, elle reste inspectable une fois que la ressource a quitté GenStudio for Performance Marketing.
+
 L’intégrité des informations d’identification est préservée dans tous les formats pris en charge (JPEG, PNG, MP4).
 
 ![Données d’identification sur une ressource exportée](./images/activate-export2.png)
+
+## Informations connexes
+
+* [Transparence du contenu](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [&#128279;](https://helpx.adobe.com/fr/creative-cloud/help/content-credentials.html) chez Adobe
