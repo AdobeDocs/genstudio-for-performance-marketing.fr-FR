@@ -7,7 +7,7 @@ feature: Generative AI
 role: User
 nudge: true
 source-git-commit: ea05f9614304388b2e8a5d0c87d5bac47b4164b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
   + [Ajouter des directives](guidelines/add-guidelines.md)
   + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-  + [Vue d’ensemble d’[!DNL Create] ](create/overview.md)
+  + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
   + [Expériences email](create/email-experiences.md)
   + [Expériences Meta](create/meta-experiences.md)
   + [Expériences LinkedIn](create/linkedin-experiences.md)
