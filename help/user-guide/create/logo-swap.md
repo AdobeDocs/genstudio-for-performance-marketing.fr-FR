@@ -27,7 +27,7 @@ Utilisez la permutation de logo pour remplacer les logos de marque dans les mod�
    ![Zone d’affichage du logo](./logo-area.png){width="300"}
 1. Créez du contenu comme d’habitude. Quatre variantes apparaissent.
 1. Pointez sur la zone du logo pour afficher l’espace réservé.
-   ![&#x200B; Espace réservé du logo &#x200B;](./hover-placeholder.png){width="200"}
+   ![ Espace réservé du logo ](./hover-placeholder.png){width="200"}
 1. Cliquez sur la zone Logo de la marque, puis sur **[!UICONTROL Permuter à partir du contenu]**.
    ![Permuter à partir du contenu](./hover-icon-for-swap.png){width="200"}
 1. Dans le panneau Logo de la marque , sélectionnez un logo, puis cliquez sur **[!UICONTROL Utiliser]** pour l’appliquer à la variante actuelle ou **[!UICONTROL Appliquer à toutes les variantes]** pour l’appliquer aux quatre variantes.

@@ -7,13 +7,9 @@ feature: Content Management
 recommendations: noDisplay
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
 TQID: https://experienceleague.adobe.com/FJ6G7qlBlkrsGk1H7SHhlkqHUHYYGKkTqklTeGDxJho
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 387
@@ -41,29 +37,29 @@ Après avoir activé [!DNL AEM Assets Content Hub], vous disposez d’une nouvel
 
 >[!IMPORTANT]
 >
->Les administrateurs doivent vérifier que le référentiel [!DNL AEM Assets Content Hub] se trouve dans la même organisation que GenStudio for Performance Marketing.
+Les administrateurs doivent vérifier que le référentiel [!DNL AEM Assets Content Hub] se trouve dans la même organisation que GenStudio for Performance Marketing.
 
 ## Étape 2 : intégration des utilisateurs GenStudio
 
 Dans le [!DNL Admin Console], ajoutez un utilisateur ou un groupe d’utilisateurs GenStudio for Performance Marketing au profil de produit [!DNL AEM Assets Content Hub]. Si un réviseur ou une réviseuse de contenu n’a pas accès à la même organisation que le référentiel [!DNL AEM Assets Content Hub], il ou elle peut rencontrer des difficultés pour réviser et approuver le contenu.
 
-- [Intégration [!DNL Content Hub] administrateur](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [Intégration [!DNL Content Hub] utilisateurs](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [Intégration [!DNL Content Hub] administrateur](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [Intégration [!DNL Content Hub] utilisateurs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## Étape 3 : Approuver les ressources
 
 Approuver les ressources à utiliser dans [!DNL AEM Assets Content Hub], ce qui les rend disponibles dans GenStudio for Performance Marketing.
 
-Voir [Approbation de ressources dans Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) dans la documentation d’_AEM as a Cloud Service_.
+Voir [Approbation de ressources dans Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) dans la documentation d’_AEM as a Cloud Service_.
 
 ## Étape 4 : configurer la visibilité des ressources
 
-Dans _[!DNL AEM Assets Content Hub]_&#x200B;options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
+Dans _[!DNL AEM Assets Content Hub]_options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
 
-Voir [Configuration de l’interface utilisateur de Content Hub](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) dans la documentation d’_AEM as a Cloud Service_.
+Voir [Configuration de l’interface utilisateur de Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) dans la documentation d’_AEM as a Cloud Service_.
 
 ## Étape 5 : vérifier la connexion
 
 Dans Contenu GenStudio for Performance Marketing, la liste _[!UICONTROL Emplacement]_ est disponible au-dessus de la galerie sur le côté droit. La liste n’est pas disponible si vous n’y avez pas accès ou si votre organisation n’a pas déployé et connecté un référentiel [!DNL AEM Assets Content Hub].
 
-Voir [Emplacement &#x200B;](manage-assets.md#assets-location) pour en savoir plus sur la liste Emplacement et la modification des référentiels.
+Voir [Emplacement ](manage-assets.md#assets-location) pour en savoir plus sur la liste Emplacement et la modification des référentiels.
