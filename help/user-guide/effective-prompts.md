@@ -21,7 +21,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: b92dff810b9f780d2f7c2f737787bcb07fec6a61
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 0%
@@ -35,6 +35,8 @@ La communication avec l’IA générative est essentielle pour travailler effica
 GenStudio for Performance Marketing fournit une invite d’IA générative chaque fois qu’il est possible de modifier une ressource. Les composants d’une invite efficace doivent inclure un langage descriptif, des exemples et des informations qui ne sont pas fournis dans vos directives configurées.
 
 Il est recommandé de fournir à GenStudio for Performance Marketing vos informations de marque à l’aide de [directives](/help/user-guide/guidelines/overview.md), puis d’exploiter pleinement l’IA générative pour produire des expériences de contenu alignées sur la marque.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
 
 ## Langage descriptif
 
