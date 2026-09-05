@@ -34,7 +34,7 @@ ht-degree: 100%
 
 # Consignes destinées à GenStudio for Performance Marketing
 
->[!VIDEO](https://video.tv.adobe.com/v/3502922?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502933?captions=fre_fr&learn=on)
 
 Les consignes de GenStudio for Performance Marketing peuvent être chargées ou ajoutées manuellement dans GenStudio for Performance Marketing afin de capturer l’essence de l’identité d’une marque.
 
