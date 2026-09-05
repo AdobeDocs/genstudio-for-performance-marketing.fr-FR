@@ -36,7 +36,7 @@ GenStudio for Performance Marketing fournit une invite d’IA générative chaqu
 
 Il est recommandé de fournir à GenStudio for Performance Marketing vos informations de marque à l’aide de [directives](/help/user-guide/guidelines/overview.md), puis d’exploiter pleinement l’IA générative pour produire des expériences de contenu alignées sur la marque.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502675?captions=fre_fr&learn=on)
 
 ## Langage descriptif
 
