@@ -16,13 +16,13 @@ Cette page décrit les étapes spécifiques aux annonces publicitaires de carrou
 
 ## Conditions préalables
 
-Avant de créer une annonce publicitaire de carrousel, assurez-vous d’avoir un modèle dont les pages partagent toutes un rapport d’aspect, soit 1:1 soit 4:5. Chaque page de modèle devient une carte. Pour plus d&#39;informations, consultez les [directives relatives aux modèles de publicité ](/help/user-guide/templates/meta-template.md).
+Avant de créer une annonce publicitaire de carrousel, assurez-vous d’avoir un modèle dont les pages partagent toutes un rapport d’aspect, soit 1:1 soit 4:5. Chaque page de modèle devient une carte. Pour plus d&#39;informations, consultez les [directives relatives aux modèles de publicité &#x200B;](/help/user-guide/templates/meta-template.md).
 
 ## Choisir le format du carrousel
 
 Après avoir sélectionné un modèle et ouvert la zone de travail, choisissez le format du carrousel dans le tiroir d’invite.
 
-1. Dans le panneau _[!DNL Create your ads]_, développez_[!UICONTROL  Paramètres ]_.
+1. Dans le panneau _[!DNL Create your ads]_, développez&#x200B;_[!UICONTROL &#x200B; Paramètres &#x200B;]_.
 1. Dans le menu déroulant **[!UICONTROL Format]**, sélectionnez **[!UICONTROL Annonce carrousel]**.
 
    ![Le panneau Créer vos publicités avec la liste déroulante Format définie sur Publicité du carrousel et une liste de cartes](./carousel-format-cards.png){width="70%" zoomable="yes"}
@@ -93,4 +93,4 @@ Certains champs de carrousel s’appliquent à chaque carte individuellement et 
 
 ## Publier, exporter et activer
 
-Lorsque votre carrousel est prêt, publiez-le et exportez-le de la même manière que pour les autres annonces Meta. Un carrousel est stocké en tant qu’expérience unique correspondant à un concept. L’exportation diffuse un fichier CSV ainsi que le média de la carte. Consultez [[!DNL Content]](/help/user-guide/content/overview.md) pour savoir comment les expériences publiées sont stockées. Pour activer votre carrousel vers Meta, voir [ Activer une annonce Meta ](/help/user-guide/activation/activate-meta-ad.md).
+Lorsque votre carrousel est prêt, publiez-le et exportez-le de la même manière que pour les autres annonces Meta. Un carrousel est stocké en tant qu’expérience unique correspondant à un concept. L’exportation diffuse un fichier CSV ainsi que le média de la carte. Consultez [[!DNL Content]](/help/user-guide/content/overview.md) pour savoir comment les expériences publiées sont stockées. Pour activer votre carrousel vers Meta, voir [&#x200B; Activer une annonce Meta &#x200B;](/help/user-guide/activation/activate-meta-ad.md).
