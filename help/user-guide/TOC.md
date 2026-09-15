@@ -6,13 +6,11 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: ea05f9614304388b2e8a5d0c87d5bac47b4164b4
+source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
-
+source-wordcount: '287'
+ht-degree: 97%
 ---
-
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
 
@@ -39,7 +37,7 @@ ht-degree: 100%
   + [Ajouter des directives](guidelines/add-guidelines.md)
   + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-  + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
+  + [Vue d’ensemble d’[!DNL Create] &#x200B;](create/overview.md)
   + [Expériences email](create/email-experiences.md)
   + [Expériences Meta](create/meta-experiences.md)
   + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -54,6 +52,7 @@ ht-degree: 100%
   + [Définir le remplacement du logo dans les modèles](create/logo-swap-setup.md)
   + [Créer une expérience d’email](create/create-email-experience.md)
   + [Création d’une expérience publicitaire Meta](create/create-meta-ad.md)
+  + [Créer une expérience d’annonce Meta - Annonces de carrousel](create/create-meta-carousel-ad.md)
   + [Créer une expérience publicitaire ChatGPT](create/create-chatgpt-ad.md)
   + [Créer une expérience LinkedIn](create/create-linkedin.md)
   + [Créer une expérience de publicité display](create/create-display-ad.md)
@@ -76,7 +75,7 @@ ht-degree: 100%
   + [Travailler avec des modèles](templates/use-templates.md)
   + [Modèles de démarrage](templates/starter-templates.md)
   + [Personnaliser un modèle](templates/customize-template.md)
-  + [ Éditeur de code de modèle ](templates/code-editor.md)
+  + [&#x200B; Éditeur de code de modèle &#x200B;](templates/code-editor.md)
   + [Créer des modèles accessibles](templates/accessibility-for-templates.md)
   + [Utilisation de modèles Express](/help/user-guide/templates/express-templates.md)
   + [Bonnes pratiques relatives aux modèles](templates/best-practices-for-templates.md)
@@ -96,7 +95,7 @@ ht-degree: 100%
   + [Optimiser les activations](activation/troubleshooting.md)
   + Publicités média acheté {#paid-media-ads}
     + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-    + [ LinkedIn ](activation/activate-linkedin-ad.md)
+    + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [Innovid](activation/activate-innovid-ad.md)
