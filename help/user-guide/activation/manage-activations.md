@@ -6,52 +6,46 @@ exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
 TQID: https://experienceleague.adobe.com/ird0IiW8L5Axjj2FmEjlUcD1sPaNCNfxj9XNqGfQWiI
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Troubleshooting
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '294'
 ht-degree: 1%
-
 ---
-
 # Gérer les activations
 
-[!DNL Activate] offre une vue centralisée du statut d’activation de chaque canal publicitaire, y compris les activations Publiée (réussie), Échec (non réussie) et Publication (en attente). La vue _Expériences activées_ affiche toutes les activations pour un compte publicitaire de canal connecté.
+Vos tableaux d’activation s’affichent sur la page de destination [!DNL Activate]. Chaque tableau répertorie ses publicités, ainsi que leur statut :
 
-[!DNL Activate] organise les expériences activées par canal publicitaire. Cliquez sur **[!UICONTROL Afficher]** sur la mosaïque du canal. La vue _Expériences activées_ du canal sélectionné s’ouvre. Cette vue répertorie les expériences par nom et les classe par date d’activation. Si votre organisation n’a pas activé d’expérience pour ce canal, la mosaïque du produit n’inclut pas le bouton **[!UICONTROL Afficher]**.
+| Statut | Signification |
+|---|---|
+| [!UICONTROL Attention requise] | Au moins une annonce publicitaire de la table d’activation comporte un champ manquant ou non valide, tel qu’un call to action incompatible, ou un identifiant de suivi en double. |
+| [!UICONTROL Prêt pour activation] | Toutes les publicités du tableau d’activation sont validées et prêtes à être publiées. |
+| [!UICONTROL En attente] | La table d&#39;activation entière a été envoyée et est en cours de traitement par la plateforme de destination. |
+| [!UICONTROL Publié] | L’intégralité du tableau d’activation a été publiée. |
+| [!UICONTROL Échec] | La plateforme de destination a rejeté au moins une des publicités du tableau. Pointez sur l’info-bulle d’état pour afficher le message d’erreur de la plateforme. |
 
-## Vue Expérience activée
+Vous pouvez automatiquement réessayer les activations ayant échoué en cliquant sur **[!UICONTROL Réessayer]** dans le coin supérieur droit.
 
-Cette vue répertorie les activations par nom d’expérience dans l’ordre chronologique décroissant (la plus récente répertoriée en premier).
-
-Le tableau suivant répertorie les attributs qui définissent chaque expérience.
-
-| Attribut | Valeur |
-|------------------|---------------------------------------------------------------------------------------------|
-| Nom de l’expérience | Nom de l’expérience dans <br>Ce nom identifie l’expérience dans _[!DNL Content]_ |
-| Nom de la publicité | Nom de l’annonce publicitaire dans le canal publicitaire |
-| Date de publication | Date de publication de l’expérience publicitaire. Utilise <br> format mois-jour-année. |
-| Publié par | Nom de l’utilisateur GenStudio for Performance Marketing qui a activé l’expérience |
-| Régions | Région géographique dans laquelle l’expérience est lancée |
-| Statut | Le statut de l’expérience publicitaire sélectionnée <br> les valeurs incluent Échec, Publié et Publication |
-
-Utilisez **[!UICONTROL Rechercher]** (loupe) ou faites défiler la liste des expériences pour trouver une activation par nom d’expérience.
-
-Cliquez sur l’activation pour ouvrir une vue ciblée des détails de l’activation.
+Les lignes publiées sont verrouillées contre toute nouvelle soumission et incluent un lien profond vers la publicité dans le gestionnaire de publicités natif de la plateforme de destination, de sorte que vous puissiez y accéder directement pour la réviser ou la lancer.
 
 ## Vue Détails
 
-Dans la vue _Expériences activées_, cliquez sur une activation. La vue en lecture seule _Détails de l’activation_ capture les détails de définition d’une expérience activée, y compris les activations ayant échoué. Cette vue inclut des informations provenant de GenStudio for Performance Marketing et du canal publicitaire.
+Cliquez sur une ligne d’annonce pour ouvrir une vue ciblée de ses détails d’activation. La vue Détails en lecture seule capture les détails déterminants d’une publicité activée, y compris les activations ayant échoué, avec des informations provenant à la fois de GenStudio for Performance Marketing et de la plateforme de destination :
 
-* **Heure et date de publication** : heure et date de publication à partir du gestionnaire de canal publicitaire.
-* **Ad ID** : identifiant attribué par le canal payant et utilisé pour le tracking. Cliquez sur le bouton **[!UICONTROL Ouvrir]** adjacent à ce champ pour afficher l’annonce publiée dans Meta Ads Manager
-* **Détails de l’expérience** : ressources d’image, textes et métadonnées sélectionnés affectés pendant le workflow d’activation de GenStudio for Performance Marketing
-* **Configuration du canal** : comptes de canal payant utilisés pour activer l’expérience publicitaire
+* **Date et heure de publication** : date et heure de publication sur la plateforme de destination
+* **ID de publicité** : ID attribué par la plateforme de destination et utilisé pour le suivi, avec un lien profond vers l’annonce publiée dans le gestionnaire de publicités natif de la plateforme
+* **Détails de l’annonce publicitaire** : les ressources, copies et métadonnées approuvées utilisées pour l’annonce publicitaire
+* **Configuration de la plateforme** : le compte, la campagne et les autres champs de configuration de la plateforme utilisés pour activer la publicité
 
-La vue _Détails_ d’une activation ayant échoué inclut le motif de l’échec.
+La vue des détails d’une activation ayant échoué indique la raison de l’échec.

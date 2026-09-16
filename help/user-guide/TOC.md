@@ -6,10 +6,10 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
+source-git-commit: 378b5c689ce9dab9ffdde6d17a06df68cca2d305
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 97%
+source-wordcount: '293'
+ht-degree: 95%
 ---
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
@@ -37,7 +37,7 @@ ht-degree: 97%
   + [Ajouter des directives](guidelines/add-guidelines.md)
   + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-  + [Vue d’ensemble d’[!DNL Create] &#x200B;](create/overview.md)
+  + Vue d’ensemble d’[[!DNL Create] ](create/overview.md)
   + [Expériences email](create/email-experiences.md)
   + [Expériences Meta](create/meta-experiences.md)
   + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -75,7 +75,7 @@ ht-degree: 97%
   + [Travailler avec des modèles](templates/use-templates.md)
   + [Modèles de démarrage](templates/starter-templates.md)
   + [Personnaliser un modèle](templates/customize-template.md)
-  + [&#x200B; Éditeur de code de modèle &#x200B;](templates/code-editor.md)
+  + [ Éditeur de code de modèle ](templates/code-editor.md)
   + [Créer des modèles accessibles](templates/accessibility-for-templates.md)
   + [Utilisation de modèles Express](/help/user-guide/templates/express-templates.md)
   + [Bonnes pratiques relatives aux modèles](templates/best-practices-for-templates.md)
@@ -95,10 +95,14 @@ ht-degree: 97%
   + [Optimiser les activations](activation/troubleshooting.md)
   + Publicités média acheté {#paid-media-ads}
     + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-    + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
+    + [ LinkedIn ](activation/activate-linkedin-ad.md)
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [Innovid](activation/activate-innovid-ad.md)
+    + [](activation/activate-tiktok-ad.md)
+    + [](activation/activate-youtube-ad.md)
+    + [ChatGPT](activation/activate-chatgpt-ad.md)
+    + [The Trade Desk](activation/activate-trade-desk-ad.md)
 + Insights {#insights}
   + [Vue d’ensemble d’Insights](insights/overview.md)
   + [Filtres d’informations](insights/filter-views.md)
