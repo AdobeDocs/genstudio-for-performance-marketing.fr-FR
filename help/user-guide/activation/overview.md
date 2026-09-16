@@ -44,7 +44,7 @@ Un gestionnaire ou un éditeur de système GenStudio doit connecter le compte pu
 
 Utilisez [!DNL Activate] pour préparer des expériences publicitaires pour leurs canaux de publicités payantes cibles. [Activez des expériences en bloc](create-activation.md) sur plusieurs canaux d’annonces payantes dans un seul tableau d’activation. Ensuite, [gérez vos activations](manage-activations.md) pour afficher le statut et les détails de chaque expérience activée.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503540?captions=fre_fr&learn=on)
 
 ### Activer les expériences approuvées à partir du contenu
 
