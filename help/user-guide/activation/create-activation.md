@@ -46,7 +46,7 @@ Vous préparez et approuvez ces composants dans [!DNL Content] avant l’activat
 
 Un seul tableau d’activation peut inclure des expériences pour plusieurs canaux et formats d’annonce publicitaire payants à la fois.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503540?captions=fre_fr&learn=on)
 
 ## Connecter les comptes de vos canaux
 
