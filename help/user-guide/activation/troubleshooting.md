@@ -7,35 +7,43 @@ exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
 TQID: https://experienceleague.adobe.com/-D3DGxTpZ-0J-grE5-jKPrptf4C1Z-OE1t0DCoqhRLQ
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Security
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '530'
 ht-degree: 1%
-
 ---
-
 # Optimiser les activations
 
 L’activation d’une expérience publicitaire pour les canaux de publicités payantes comprend deux phases principales :
 
-* Préparation de votre expérience pour l’activation
+* Configuration des détails de configuration de la publicité et de la plateforme pour chaque ligne de votre tableau d’activation
 
-* Publier votre expérience sur ses responsables publicitaires de canaux payants désignés
+* Publier votre activation vers les responsables publicitaires de ses canaux de publicités payantes désignés
 
-Le respect des bonnes pratiques lors de la création et de l’activation de votre expérience publicitaire peut contribuer à réduire les complications ou erreurs potentielles lors de la diffusion aux canaux cibles.
+Le respect des bonnes pratiques lors de la configuration et de l’activation de vos expériences publicitaires peut contribuer à réduire les complications ou erreurs potentielles lors de la diffusion aux canaux cibles.
 
 ## Bonnes pratiques
 
 Voici quelques bonnes pratiques courantes et les erreurs qu’elles peuvent éviter.
+
+* **Utiliser un identifiant de tracking unique pour chaque ligne**
+
+  [!DNL Activate] signale les ID de suivi en double comme [!UICONTROL Attention requise] et ne vous permet pas de publier tant que chaque ligne au format et dans la table de plateforme concernés n’a pas un ID de suivi unique. Si vous modifiez en bloc un identifiant de suivi sur plusieurs lignes, confirmez que vous souhaitiez appliquer la même valeur à chaque ligne sélectionnée.
 
 * **Utiliser des URL de destination valides et complètes**
 
@@ -43,7 +51,7 @@ Voici quelques bonnes pratiques courantes et les erreurs qu’elles peuvent évi
 
 * **Vérifiez que votre application gère correctement l’expiration des jetons**
 
-  Les applications doivent demander de nouveaux jetons si nécessaire. Si nécessaire, réauthentifiez-vous et obtenez un nouveau jeton d’accès en vous connectant à nouveau ou en actualisant la session. Exemple d’erreur : _Erreur de validation du jeton d’accès : la session a été invalidée car l’utilisateur a modifié son mot de passe ou Facebook a modifié la session pour des raisons de sécurité. (190)_
+  Les applications doivent demander de nouveaux jetons si nécessaire. Réauthentifiez-vous et obtenez un nouveau jeton d’accès en vous connectant à nouveau ou en actualisant la session. Exemple d’erreur : _Erreur de validation du jeton d’accès : la session a été invalidée car l’utilisateur a modifié son mot de passe ou Facebook a modifié la session pour des raisons de sécurité. (190)_
 
 * **Vérifiez votre jeu d’annonces et assurez-vous qu’une seule annonce est active à la fois**
 
