@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6cb428b368f75e0b646cfa4e6536a4728fdf40e2
+source-git-commit: 0844f7407c4b3a3f8eafe248f498ef7fcd51555d
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1238'
 ht-degree: 1%
 ---
 # Workflow d’activation
@@ -46,7 +46,7 @@ Vous préparez et approuvez ces composants dans [!DNL Content] avant l’activat
 
 Un seul tableau d’activation peut inclure des expériences pour plusieurs canaux et formats d’annonce publicitaire payants à la fois.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503540?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## Connecter les comptes de vos canaux
 
@@ -58,6 +58,8 @@ Démarrez une activation à partir de l’un des deux points d’entrée suivant
 
 * **Dans[!DNL Content]** : filtrer les expériences, sélectionnez une ou plusieurs expériences publiées, puis cliquez sur **[!UICONTROL Activer]** dans la barre d’actions supérieure.
 * **De[!DNL Activate]** : sur la page de destination [!DNL Activate], cliquez sur **[!UICONTROL + Nouvelle activation]**. Cela ouvre la galerie d’expériences, où vous sélectionnez des expériences à activer.
+
+![Sélection des expériences publiées dans le contenu et clic sur Activer pour démarrer une activation](./images/content-select-activate.png)
 
 Dans les deux cas, recherchez les expériences par nom d’expérience ou filtrez selon plusieurs canaux pour trouver les expériences souhaitées.
 
@@ -99,17 +101,27 @@ Un **ID de suivi** est un libellé unique que vous affectez à une ligne publici
 
 Modifiez les champs intégrés par ligne ou sélectionnez plusieurs lignes dans le même tableau de format et cliquez sur **[!UICONTROL Modifier les détails]** dans la barre d’outils qui s’affiche pour modifier ces champs en bloc en même temps. Pour configurer les champs de configuration de la plateforme pour un groupe de formats d’annonce publicitaire, cliquez sur **[!UICONTROL Gérer les paramètres de la plateforme]** et modifiez les champs dans la boîte de dialogue qui s’affiche.
 
+![Sélection de plusieurs publicités dans un tableau d’activation pour modifier en masse les détails ou les paramètres de la plateforme](./images/bulk-edit-action-bar.png)
+
+![Boîte de dialogue Gérer les paramètres de plateforme permettant de choisir un compte publicitaire, une campagne et une visionneuse d’annonces Meta](./images/manage-platform-settings.png)
+
 Pour passer plus rapidement d’un champ **[!UICONTROL ID de tracking]** à l’autre, utilisez les raccourcis clavier suivants :
 
 * Appuyez sur **Entrée** pour ouvrir le champ de modification de l’**[!UICONTROL ID de suivi]** sélectionné.
 * Appuyez sur la touche fléchée **Haut** ou **Bas** pour accéder au champ **[!UICONTROL ID de suivi]** précédent ou suivant de cette colonne.
 * Appuyez à nouveau sur **Entrée** pour enregistrer vos modifications.
 
+![Modification d’un champ Identifiant de tracking sur la ligne dans la table d’activation](./images/tracking-id-edit.png)
+
 ## Examinez et publiez vos expériences sur leurs canaux publicitaires
 
 Vérifiez que chaque ligne indique [!UICONTROL Prêt pour l’activation]. [!DNL Activate] signale les champs manquants ou non valides, les appels à l’action incompatibles et duplique les identifiants de suivi selon les [!UICONTROL Attention requise]. Lorsque chaque ligne est prête, cliquez sur **[!UICONTROL Envoyer à Platform]** et confirmez dans la boîte de dialogue de publication.
 
+![Tableau d’activation dans lequel chaque ligne indique Prêt pour l’activation, ce qui active Envoyer aux plateformes](./images/ready-to-activate.png)
+
 [!DNL Activate] signale le statut de chaque publicité en temps quasi réel : En attente, puis Publiée ou En échec. Si une publicité échoue, passez la souris sur son statut pour afficher l’erreur de la plateforme. Vous pouvez réessayer toutes les annonces ayant échoué dans le tableau en même temps en cliquant sur **[!UICONTROL Réessayer]**, plutôt que de réessayer individuellement. Les lignes publiées sont verrouillées contre tout nouvel envoi et incluent un lien profond vers l’annonce dans le gestionnaire d’annonces natif de la plateforme de destination. Votre dernière révision avant publication et le lancement des annonces publicitaires ont lieu dans le propre gestionnaire d’annonces publicitaires du canal de destination : [!DNL Activate] diffuse toujours les annonces publicitaires dans un état inactif.
+
+![Tableau d’activation présentant un mélange des statuts En attente et Envoyé aux plateformes après publication](./images/activation-status-pending.png)
 
 Vos tableaux d’activation s’affichent sur la page de destination [!DNL Activate].
 
@@ -122,7 +134,7 @@ Chaque canal publicitaire payant comporte des champs de configuration et des con
 * [Google Campaign Manager 360](activate-cm360-ad.md)
 * [Amazon Ads](activate-amazon-ad.md)
 * [Innovid](activate-innovid-ad.md)
-* [&#128279;](activate-tiktok-ad.md)
-* [&#128279;](activate-youtube-ad.md)
+* [](activate-tiktok-ad.md)
+* [](activate-youtube-ad.md)
 * [ChatGPT](activate-chatgpt-ad.md)
 * [The Trade Desk](activate-trade-desk-ad.md)
