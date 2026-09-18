@@ -9,7 +9,7 @@ nudge: true
 source-git-commit: 378b5c689ce9dab9ffdde6d17a06df68cca2d305
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 95%
+ht-degree: 97%
 ---
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
@@ -52,7 +52,7 @@ ht-degree: 95%
   + [Définir le remplacement du logo dans les modèles](create/logo-swap-setup.md)
   + [Créer une expérience d’email](create/create-email-experience.md)
   + [Création d’une expérience publicitaire Meta](create/create-meta-ad.md)
-  + [Créer une expérience d’annonce Meta - Annonces de carrousel](create/create-meta-carousel-ad.md)
+  + [Créer une expérience de publicité Meta - Publicités de carrousel](create/create-meta-carousel-ad.md)
   + [Créer une expérience publicitaire ChatGPT](create/create-chatgpt-ad.md)
   + [Créer une expérience LinkedIn](create/create-linkedin.md)
   + [Créer une expérience de publicité display](create/create-display-ad.md)
