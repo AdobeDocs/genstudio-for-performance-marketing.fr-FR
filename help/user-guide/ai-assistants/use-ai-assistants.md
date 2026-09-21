@@ -89,7 +89,7 @@ Transformer une recommandation ou un modèle en brouillon modifiable :
 - « Que puis-je modifier dans ce modèle ? »
 - « Créez une publicité Meta à partir de ce modèle. Utilisez le gros titre Summer Sale et le call to action Shop Now. Voici le brief créatif : [décrivez la campagne, le ton et l’offre]. »
 
-> [!TIP]
+&#x200B;> [!TIP]
 > La création d’un brouillon transforme un véritable document en Creative Cloud. Il ne s’agit pas d’un aperçu. Préparez le briefing de création et copiez-le avant de poser la question.
 
 ## Vérifier et partager un brouillon
@@ -109,7 +109,7 @@ Une fois qu’un brouillon a été approuvé et publié en tant qu’expérience
 - « Configurer cette expérience pour mon compte publicitaire et ma campagne Meta. »
 - « Publier cette expérience sur LinkedIn. »
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 > La publication crée un emplacement d’annonce publicitaire en direct et peut entraîner des dépenses publicitaires. Elle n&#39;est pas réversible par l&#39;intermédiaire de l&#39;assistant. Confirmez le compte, la campagne et l’expérience cibles avant de les publier. La répétition de la requête crée une autre publicité.
 
 ## Interpréter les résultats vides ou indisponibles
