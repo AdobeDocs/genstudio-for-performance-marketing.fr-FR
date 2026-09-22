@@ -69,9 +69,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5824'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # Notes de mise à jour de GenStudio for Performance Marketing
 
@@ -81,15 +81,15 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
 
 **NOUVELLES FONCTIONNALITÉS :**
 
-### Activation en bloc
+### Activation en masse
 
-[!DNL Activate] prend désormais en charge l’activation en bloc : sélectionnez plusieurs expériences approuvées à partir de [!DNL Content] et publiez-les sur plusieurs canaux d’annonces payantes dans un seul tableau d’activation, y compris Meta, LinkedIn, Google Campaign Manager 360, Amazon Ads, Innovid, TikTok, YouTube, ChatGPT et The Trade Desk. Modifiez les champs partagés en ligne ou en bloc, puis publiez chaque publicité avec le suivi de l’état par publicité et une nouvelle tentative automatique pour toutes celles qui échouent.
+[!DNL Activate] prend désormais en charge l’activation en masse : sélectionnez plusieurs expériences approuvées à partir du [!DNL Content] et publiez-les sur plusieurs canaux publicitaires payants dans un seul et même tableau d’activation, notamment Meta, LinkedIn, Google Campaign Manager 360, Amazon Ads, Innovid, TikTok, YouTube, ChatGPT et The Trade Desk.Modifiez les champs partagés intégrés ou en masse, puis publiez chaque publicité avec le tracking du statut par publicité et une nouvelle tentative automatique pour toutes celles qui échouent.
 
 En savoir plus dans [Workflow d’activation](/help/user-guide/activation/create-activation.md).
 
 ## Notes de mise à jour antérieures
 
-+++Notes de la version 2026.07.16
++++Notes de la version 2026.07.16
 
 ### Modification en masse sur la zone de travail Horizon
 
@@ -125,7 +125,7 @@ Les responsables marketing d’applications mobiles peuvent désormais [activer 
 
 La traduction prête à l’emploi s’étend désormais aux expériences paid media sur la zone de travail Horizon, afin que les équipes régionales puissent localiser les brouillons Meta, LinkedIn et Display approuvés sans exporter de contenu vers des outils externes.
 
-Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md) pour en savoir plus sur le workflow de traduction.
+Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md) pour en savoir plus sur le workflow de traduction.
 
 ### Plusieurs images par module dans les modèles d’e-mail.
 
@@ -272,7 +272,7 @@ Les responsables marketing peuvent désormais remplacer dynamiquement les logos 
 
 ### Traduction prête à l’emploi pour les expériences paid media et e-mail
 
-* Traduisez instantanément les expériences de médias achetés et e-mail approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
+* Traduisez instantanément les expériences de médias achetés et e-mail approuvées dans plus de 40 langues directement dans GenStudio for Performance Marketing. Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 * Grâce aux services de traduction Azure Open AI, les équipes peuvent traduire du contenu en masse dans plusieurs langues cibles simultanément.
 
 ### Export PDF pour les expériences
