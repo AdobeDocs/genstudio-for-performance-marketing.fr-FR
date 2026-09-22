@@ -78,7 +78,7 @@ Le Codex requiert l’interface de ligne de commande du Codex et un compte Codex
 
 Writer requiert l’accès à AI Studio.
 
-1. Dans Writer, ouvrez ****.
+1. Dans Writer, ouvrez **&#x200B;**.
 1. Sélectionnez **[!UICONTROL Connecteurs et outils]**.
 1. Sélectionnez **[!UICONTROL Créer un connecteur personnalisé]**.
 1. Sélectionnez **[!UICONTROL Serveur MCP]** comme type de connecteur.
