@@ -2,7 +2,7 @@
 title: Utilisation des assistants d’IA
 description: Découvrez comment interroger les données de performances, créer des brouillons et publier des annonces approuvées à l’aide d’un assistant d’IA connecté à [!DNL GenStudio for Performance Marketing].
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -89,8 +89,9 @@ Transformer une recommandation ou un modèle en brouillon modifiable :
 - « Que puis-je modifier dans ce modèle ? »
 - « Créez une publicité Meta à partir de ce modèle. Utilisez le gros titre Summer Sale et le call to action Shop Now. Voici le brief créatif : [décrivez la campagne, le ton et l’offre]. »
 
-&#x200B;> [!TIP]
-> La création d’un brouillon transforme un véritable document en Creative Cloud. Il ne s’agit pas d’un aperçu. Préparez le briefing de création et copiez-le avant de poser la question.
+>[!TIP]
+>
+>La création d’un brouillon transforme un véritable document en Creative Cloud. Il ne s’agit pas d’un aperçu. Préparez le briefing de création et copiez-le avant de poser la question.
 
 ## Vérifier et partager un brouillon
 
@@ -109,8 +110,9 @@ Une fois qu’un brouillon a été approuvé et publié en tant qu’expérience
 - « Configurer cette expérience pour mon compte publicitaire et ma campagne Meta. »
 - « Publier cette expérience sur LinkedIn. »
 
-&#x200B;> [!IMPORTANT]
-> La publication crée un emplacement d’annonce publicitaire en direct et peut entraîner des dépenses publicitaires. Elle n&#39;est pas réversible par l&#39;intermédiaire de l&#39;assistant. Confirmez le compte, la campagne et l’expérience cibles avant de les publier. La répétition de la requête crée une autre publicité.
+>[!IMPORTANT]
+>
+>La publication crée un emplacement d’annonce publicitaire en direct et peut entraîner des dépenses publicitaires. Elle n&#39;est pas réversible par l&#39;intermédiaire de l&#39;assistant. Confirmez le compte, la campagne et l’expérience cibles avant de les publier. La répétition de la requête crée une autre publicité.
 
 ## Interpréter les résultats vides ou indisponibles
 

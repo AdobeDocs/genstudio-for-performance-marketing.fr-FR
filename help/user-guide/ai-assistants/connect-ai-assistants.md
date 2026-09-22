@@ -2,7 +2,7 @@
 title: Connecter un assistant d’IA
 description: Découvrez comment connecter un assistant d’IA pris en charge à [!DNL GenStudio for Performance Marketing] et vérifier l’accès aux outils disponibles.
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -36,8 +36,9 @@ Claude a besoin d&#39;un plan Pro, Max, Équipe ou Entreprise. Le même connecte
 1. Connectez-vous avec votre Adobe ID.
 1. Sélectionnez l’organisation IMS ayant accès à [!DNL GenStudio for Performance Marketing].
 
-&#x200B;> [!NOTE]
-&#x200B;> Dans une formule Équipe ou Entreprise, un propriétaire d’organisation peut avoir besoin d’ajouter d’abord le connecteur. Si le connecteur est déjà disponible, sélectionnez **[!UICONTROL Se connecter]** à la place.
+>[!NOTE]
+>
+>Dans une formule Équipe ou Entreprise, un propriétaire d’organisation peut avoir besoin d’ajouter d’abord le connecteur. Si le connecteur est déjà disponible, sélectionnez **[!UICONTROL Se connecter]** à la place.
 
 ## Connexion à ChatGPT
 
@@ -52,8 +53,9 @@ ChatGPT nécessite un compte Plus, Pro, Business, Enterprise ou Education. Les c
 1. Connectez-vous avec votre Adobe ID.
 1. Sélectionnez l’organisation IMS ayant accès à [!DNL GenStudio for Performance Marketing].
 
-&#x200B;> [!NOTE]
-> ChatGPT peut modifier l&#39;emplacement des paramètres du développeur et du connecteur. Si ces libellés diffèrent dans votre compte, suivez les instructions OpenAI actuelles pour ajouter un connecteur MCP distant.
+>[!NOTE]
+>
+>ChatGPT peut modifier l&#39;emplacement des paramètres du développeur et du connecteur. Si ces libellés diffèrent dans votre compte, suivez les instructions OpenAI actuelles pour ajouter un connecteur MCP distant.
 
 ## Connect Codex
 
@@ -76,7 +78,7 @@ Le Codex requiert l’interface de ligne de commande du Codex et un compte Codex
 
 Writer requiert l’accès à AI Studio.
 
-1. Dans Writer, ouvrez **&#x200B;**.
+1. Dans Writer, ouvrez ****.
 1. Sélectionnez **[!UICONTROL Connecteurs et outils]**.
 1. Sélectionnez **[!UICONTROL Créer un connecteur personnalisé]**.
 1. Sélectionnez **[!UICONTROL Serveur MCP]** comme type de connecteur.
@@ -106,8 +108,9 @@ Après la configuration, vérifiez que les outils sont disponibles.
 
 L’assistant renvoie les données de performances disponibles ou explique pourquoi aucune donnée ne correspond à la requête.
 
-&#x200B;> [!TIP]
-&#x200B;> Si l’authentification échoue, reconnectez-vous et confirmez que vous avez sélectionné l’organisation IMS appropriée. Si aucun outil n’apparaît, vérifiez que votre compte a accès à [!DNL GenStudio for Performance Marketing].
+>[!TIP]
+>
+>Si l’authentification échoue, reconnectez-vous et confirmez que vous avez sélectionné l’organisation IMS appropriée. Si aucun outil n’apparaît, vérifiez que votre compte a accès à [!DNL GenStudio for Performance Marketing].
 
 ## Fonctionnalités connexes
 
