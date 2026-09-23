@@ -135,7 +135,7 @@ Vos tableaux d’activation s’affichent sur la page de destination [!DNL Activ
 Chaque plateforme de publicités payantes comporte des champs de configuration et des conditions préalables spécifiques. Sélectionnez la plateforme de publicités payantes pour obtenir des instructions d’activation :
 
 * [Meta](activate-meta-ad.md)
-* [ LinkedIn ](activate-linkedin-ad.md)
+* [&#x200B; LinkedIn &#x200B;](activate-linkedin-ad.md)
 * [Google Campaign Manager 360](activate-cm360-ad.md)
 * [Amazon Ads](activate-amazon-ad.md)
 * [Innovid](activate-innovid-ad.md)
