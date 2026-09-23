@@ -9,7 +9,7 @@ nudge: true
 source-git-commit: e577c7b1e55c629fb3ab7155eb012963884731cd
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 92%
+ht-degree: 94%
 ---
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
@@ -42,7 +42,7 @@ ht-degree: 92%
   + [Ajouter des directives](guidelines/add-guidelines.md)
   + [Validation de la marque](guidelines/brand-validation.md)
 + Créer {#create}
-  + [Vue d’ensemble d’[!DNL Create] &#x200B;](create/overview.md)
+  + [[!DNL Create] Vue d’ensemble d’](create/overview.md)
   + [Expériences email](create/email-experiences.md)
   + [Expériences Meta](create/meta-experiences.md)
   + [Expériences LinkedIn](create/linkedin-experiences.md)
@@ -104,8 +104,8 @@ ht-degree: 92%
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [Innovid](activation/activate-innovid-ad.md)
-    + [&#128279;](activation/activate-tiktok-ad.md)
-    + [&#128279;](activation/activate-youtube-ad.md)
+    + [TikTok](activation/activate-tiktok-ad.md)
+    + [YouTube](activation/activate-youtube-ad.md)
     + [ChatGPT](activation/activate-chatgpt-ad.md)
     + [The Trade Desk](activation/activate-trade-desk-ad.md)
 + Insights {#insights}
