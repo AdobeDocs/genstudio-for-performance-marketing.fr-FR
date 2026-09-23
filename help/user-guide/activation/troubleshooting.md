@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 1%
 ---
 # Optimiser les activations
@@ -43,7 +43,7 @@ Voici quelques bonnes pratiques courantes et les erreurs qu’elles peuvent évi
 
 * **Utiliser un identifiant de tracking unique pour chaque ligne**
 
-  [!DNL Activate] signale les ID de suivi en double comme [!UICONTROL Attention requise] et ne vous permet pas de publier tant que chaque ligne au format et dans la table de plateforme concernés n’a pas un ID de suivi unique. Si vous modifiez en bloc un identifiant de suivi sur plusieurs lignes, confirmez que vous souhaitiez appliquer la même valeur à chaque ligne sélectionnée.
+  [!DNL Activate] signale les ID de suivi en double comme [!UICONTROL Attention requise] et ne vous permet pas de publier tant que chaque ligne au format et dans la table de plateforme concernés n’a pas un ID de suivi unique. Chaque champ **[!UICONTROL ID de suivi]** est prérempli avec le nom de l’expérience. De ce fait, les lignes qui partagent une expérience sur plusieurs formats ou plateformes publicitaires commencent par la même valeur. Recherchez et résolvez ces doublons, et pas seulement ceux introduits par les modifications en bloc. Si vous modifiez en bloc un identifiant de suivi sur plusieurs lignes, confirmez que vous souhaitiez appliquer la même valeur à chaque ligne sélectionnée.
 
 * **Utiliser des URL de destination valides et complètes**
 
