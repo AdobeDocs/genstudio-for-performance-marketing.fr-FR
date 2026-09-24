@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c8d964aa325aee782c175abf3fce880fb17ae6ca
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 1%
+source-wordcount: '1233'
+ht-degree: 4%
 ---
 # Workflow d’activation
 
@@ -82,7 +82,7 @@ Pour ajouter d’autres expériences à un tableau d’activation que vous avez 
 
 Une fois que votre tableau propose les expériences appropriées, configurez ensuite les champs de chaque annonce publicitaire.
 
-## Configuration des détails de configuration de la publicité et de la plateforme
+## Configurer des détails de configuration de la publicité et de la plateforme
 
 Modifiez les champs intégrés par ligne ou sélectionnez plusieurs lignes dans le même tableau de format et cliquez sur **[!UICONTROL Modifier les détails]** dans la barre d’outils qui s’affiche pour modifier ces champs en bloc en même temps.
 
@@ -108,7 +108,7 @@ Pour configurer les champs de configuration de la plateforme pour un groupe de f
 
 ![Boîte de dialogue Gérer les paramètres de plateforme permettant de choisir un compte publicitaire, une campagne et une visionneuse d’annonces Meta](./images/manage-platform-settings.png)
 
-Les champs **[!UICONTROL ID de tracking]** sont initialement vides. Un identifiant de suivi est identique au nom de l’annonce publicitaire ou du créateur de la plateforme publicitaire et la plateforme publicitaire l’utilise comme nom d’identification de l’annonce publicitaire. Utilisez ce champ pour identifier cette annonce publicitaire à des fins de reporting et de dépannage. Saisissez les valeurs à utiliser dans les champs **[!UICONTROL Identifiant de tracking]**.
+Chaque champ **[!UICONTROL ID de suivi]** est prérempli avec le nom de l’expérience : la plateforme publicitaire utilise cette valeur comme nom de l’annonce publicitaire ou nom du contenu créatif pour le compte rendu des performances et la résolution des problèmes. Modifiez la valeur sur place si vous souhaitez utiliser autre chose.
 
 ![Modification d’un champ Identifiant de tracking sur la ligne dans la table d’activation](./images/tracking-id-edit.png)
 
@@ -120,7 +120,7 @@ Pour passer plus rapidement d’un champ **[!UICONTROL ID de tracking]** à l’
 
 ## Examinez et publiez vos expériences sur leurs plateformes publicitaires
 
-Vérifiez que chaque ligne indique [!UICONTROL Prêt pour l’activation]. [!DNL Activate] signale les champs manquants ou non valides, les appels à l’action incompatibles et duplique les identifiants de suivi selon les [!UICONTROL Attention requise]. Lorsque chaque ligne est prête, cliquez sur **[!UICONTROL Envoyer aux plateformes]** et confirmez dans la boîte de dialogue de publication.
+Vérifiez que chaque ligne indique [!UICONTROL Prêt pour activation]. [!DNL Activate] signale les champs manquants ou non valides, les appels à l’action incompatibles et duplique les identifiants de tracking comme [!UICONTROL Attention requise]. Lorsque chaque ligne est prête, cliquez sur **[!UICONTROL Envoyer aux plateformes]** et confirmez dans la boîte de dialogue de publication.
 
 ![Tableau d’activation dans lequel chaque ligne indique Prêt pour l’activation, ce qui active Envoyer aux plateformes](./images/ready-to-activate.png)
 
@@ -135,11 +135,11 @@ Vos tableaux d’activation s’affichent sur la page de destination [!DNL Activ
 Chaque plateforme de publicités payantes comporte des champs de configuration et des conditions préalables spécifiques. Sélectionnez la plateforme de publicités payantes pour obtenir des instructions d’activation :
 
 * [Meta](activate-meta-ad.md)
-* [LinkedIn](activate-linkedin-ad.md)
+* [&#x200B; LinkedIn &#x200B;](activate-linkedin-ad.md)
 * [Google Campaign Manager 360](activate-cm360-ad.md)
 * [Amazon Ads](activate-amazon-ad.md)
 * [Innovid](activate-innovid-ad.md)
-* [&#128279;](activate-tiktok-ad.md)
-* [&#128279;](activate-youtube-ad.md)
+* [TikTok](activate-tiktok-ad.md)
+* [YouTube](activate-youtube-ad.md)
 * [ChatGPT](activate-chatgpt-ad.md)
 * [The Trade Desk](activate-trade-desk-ad.md)
