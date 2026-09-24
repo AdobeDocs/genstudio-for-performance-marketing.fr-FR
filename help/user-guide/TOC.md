@@ -6,10 +6,10 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: e577c7b1e55c629fb3ab7155eb012963884731cd
+source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '316'
+ht-degree: 92%
 ---
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
@@ -51,6 +51,7 @@ ht-degree: 94%
   + [Créer une expérience publicitaire display](create/display-ad-experiences.md)
   + [Créer une expérience de bannière](create/banner-experiences.md)
   + [Gérer les variantes](create/manage-variants.md)
+  + [Générer et affiner le contenu avec la génération avec état](create/stateful-generation.md)
   + [Traduire et localiser les expériences](create/translate-experiences.md)
   + [Édition collaborative](create/collaborative-editing.md)
   + [Utiliser le remplacement du logo](create/logo-swap.md)
@@ -80,7 +81,7 @@ ht-degree: 94%
   + [Travailler avec des modèles](templates/use-templates.md)
   + [Modèles de démarrage](templates/starter-templates.md)
   + [Personnaliser un modèle](templates/customize-template.md)
-  + [&#x200B; Éditeur de code de modèle &#x200B;](templates/code-editor.md)
+  + [ Éditeur de code de modèle ](templates/code-editor.md)
   + [Créer des modèles accessibles](templates/accessibility-for-templates.md)
   + [Utilisation de modèles Express](/help/user-guide/templates/express-templates.md)
   + [Bonnes pratiques relatives aux modèles](templates/best-practices-for-templates.md)
@@ -100,7 +101,7 @@ ht-degree: 94%
   + [Optimiser les activations](activation/troubleshooting.md)
   + Publicités média acheté {#paid-media-ads}
     + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-    + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
+    + [ LinkedIn ](activation/activate-linkedin-ad.md)
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [Innovid](activation/activate-innovid-ad.md)
