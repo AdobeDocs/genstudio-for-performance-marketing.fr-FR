@@ -35,7 +35,7 @@ Pour utiliser un indice visuel, sélectionnez **[!UICONTROL Sélectionner à par
 
 ## Conserver une copie dans la voix de votre marque
 
-La technique d’impression vocale applique la voix apprise de votre marque à la copie générée, de sorte qu’elle sonne sur la marque sans invite supplémentaire. Elle est activée par défaut pour les canaux qui ont des [ Insights](/help/user-guide/insights/overview.md) tels que LinkedIn et Meta.
+La technique d’impression vocale applique la voix apprise de votre marque à la copie générée, de sorte qu’elle sonne sur la marque sans invite supplémentaire. Elle est activée par défaut pour les canaux qui ont des [&#x200B; Insights](/help/user-guide/insights/overview.md) tels que LinkedIn et Meta.
 
 ## Utiliser une page web comme contexte
 
