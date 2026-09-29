@@ -9,7 +9,7 @@ nudge: true
 source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 92%
+ht-degree: 97%
 ---
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
@@ -23,11 +23,11 @@ ht-degree: 92%
   + [Configurer [!DNL Brand] autorisations](configure-brand-permissions.md)
   + [Rôles utilisateur](user-roles.md)
   + [Invites actives](effective-prompts.md)
-+ Assistants d’IA {#ai-assistants}
-  + [Présentation des assistants AI](ai-assistants/overview.md)
-  + [Connecter un assistant d’IA](ai-assistants/connect-ai-assistants.md)
-  + [Utilisation des assistants d’IA](ai-assistants/use-ai-assistants.md)
-  + [Référence des outils de l’assistant AI](ai-assistants/tools-reference.md)
++ Assistants IA {#ai-assistants}
+  + [Vue d’ensemble des assistants IA](ai-assistants/overview.md)
+  + [Connecter un assistant IA](ai-assistants/connect-ai-assistants.md)
+  + [Utiliser des assistants IA](ai-assistants/use-ai-assistants.md)
+  + [Référence des outils de l’assistant IA](ai-assistants/tools-reference.md)
 + Paramètres {#settings}
   + [Connecter des médias achetés](connectors/connect-channel.md)
   + Comptes de médias payants {#connect-account}
@@ -81,7 +81,7 @@ ht-degree: 92%
   + [Travailler avec des modèles](templates/use-templates.md)
   + [Modèles de démarrage](templates/starter-templates.md)
   + [Personnaliser un modèle](templates/customize-template.md)
-  + [&#x200B; Éditeur de code de modèle &#x200B;](templates/code-editor.md)
+  + [ Éditeur de code de modèle ](templates/code-editor.md)
   + [Créer des modèles accessibles](templates/accessibility-for-templates.md)
   + [Utilisation de modèles Express](/help/user-guide/templates/express-templates.md)
   + [Bonnes pratiques relatives aux modèles](templates/best-practices-for-templates.md)
@@ -101,7 +101,7 @@ ht-degree: 92%
   + [Optimiser les activations](activation/troubleshooting.md)
   + Publicités média acheté {#paid-media-ads}
     + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-    + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
+    + [ LinkedIn ](activation/activate-linkedin-ad.md)
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [Innovid](activation/activate-innovid-ad.md)
