@@ -69,7 +69,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5824'
 ht-degree: 100%
 ---
@@ -83,7 +83,7 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
 
 ### Activation en masse
 
-[!DNL Activate] prend désormais en charge l’activation en masse : sélectionnez plusieurs expériences approuvées à partir du [!DNL Content] et publiez-les sur plusieurs canaux publicitaires payants dans un seul et même tableau d’activation, notamment Meta, LinkedIn, Google Campaign Manager 360, Amazon Ads, Innovid, TikTok, YouTube, ChatGPT et The Trade Desk.Modifiez les champs partagés intégrés ou en masse, puis publiez chaque publicité avec le tracking du statut par publicité et une nouvelle tentative automatique pour toutes celles qui échouent.
+[!DNL Activate] prend désormais en charge l’activation en masse : sélectionnez plusieurs expériences approuvées à partir du [!DNL Content] et publiez-les sur plusieurs canaux publicitaires payants dans un seul et même tableau d’activation, notamment Meta, LinkedIn, Google Campaign Manager 360, Amazon Ads, Innovid, TikTok, YouTube, ChatGPT et The Trade Desk. Modifiez les champs partagés intégrés ou en masse, puis publiez chaque publicité avec le tracking du statut par publicité et une nouvelle tentative automatique pour toutes celles qui échouent.
 
 En savoir plus dans [Workflow d’activation](/help/user-guide/activation/create-activation.md).
 
