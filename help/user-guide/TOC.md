@@ -7,9 +7,9 @@ feature: Generative AI
 role: User
 nudge: true
 source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 97%
+ht-degree: 100%
 ---
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
@@ -81,7 +81,7 @@ ht-degree: 97%
   + [Travailler avec des modèles](templates/use-templates.md)
   + [Modèles de démarrage](templates/starter-templates.md)
   + [Personnaliser un modèle](templates/customize-template.md)
-  + [&#x200B; Éditeur de code de modèle &#x200B;](templates/code-editor.md)
+  + [ Éditeur de code de modèle ](templates/code-editor.md)
   + [Créer des modèles accessibles](templates/accessibility-for-templates.md)
   + [Utilisation de modèles Express](/help/user-guide/templates/express-templates.md)
   + [Bonnes pratiques relatives aux modèles](templates/best-practices-for-templates.md)
@@ -101,7 +101,7 @@ ht-degree: 97%
   + [Optimiser les activations](activation/troubleshooting.md)
   + Publicités média acheté {#paid-media-ads}
     + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-    + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
+    + [ LinkedIn ](activation/activate-linkedin-ad.md)
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [Innovid](activation/activate-innovid-ad.md)
