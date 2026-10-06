@@ -3,20 +3,26 @@ title: Création d’une application App Builder
 description: Commencez à créer une application, ou un module complémentaire, pour étendre GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-TQID: https://experienceleague.adobe.com/-GBttZv63YVWezBz1o9yrxvd-Uu5mbP-Aqh7Tm-kco4
+TQID: 'https://experienceleague.adobe.com/-GBttZv63YVWezBz1o9yrxvd-Uu5mbP-Aqh7Tm-kco4'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 1%
-
 ---
-
 # Développement d’une application App Builder
 
 Les développeurs qui étendent les fonctionnalités natives de GenStudio for Performance Marketing utilisent [Adobe App Builder](https://developer.adobe.com/app-builder/) pour créer, envoyer et déployer leurs applications extensibles, ou modules complémentaires.
@@ -93,7 +99,7 @@ Vous pouvez utiliser un exemple d’application pour démarrer rapidement la cr�
 
 **Pour créer une application App Builder à partir d’une application existante** :
 
-1. Téléchargez un exemple d’application à partir du référentiel [Exemples UIX de &#x200B;](https://github.com/adobe/genstudio-uix-examples).
+1. Téléchargez un exemple d’application à partir du référentiel [Exemples UIX de ](https://github.com/adobe/genstudio-uix-examples).
 
 1. Dans l’espace de travail Projet App Builder sur [Adobe Developer Console](https://developer.adobe.com/console/), sélectionnez [!UICONTROL Tout télécharger] pour télécharger les détails du projet.
 
@@ -129,6 +135,6 @@ La maintenance de votre environnement de développement peut vous aider à évit
   rm -rf node_modules package-lock.json && npm i
   ```
 
-* Mettez à niveau le SDK UIX de GenStudio. Vérifiez que vous utilisez la version la plus récente de [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk). Reportez-vous au [Référentiel d’exemples de l’UIX de &#x200B;](https://github.com/adobe/genstudio-uix-examples) pour savoir comment utiliser les modifications SDK les plus récentes.
+* Mettez à niveau le SDK UIX de GenStudio. Vérifiez que vous utilisez la version la plus récente de [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk). Reportez-vous au [Référentiel d’exemples de l’UIX de ](https://github.com/adobe/genstudio-uix-examples) pour savoir comment utiliser les modifications SDK les plus récentes.
 
 Vous êtes maintenant prêt à [déployer votre application](deploy-app.md)

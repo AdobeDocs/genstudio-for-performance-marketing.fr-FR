@@ -5,31 +5,44 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
+TQID: 'https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: '1654'
 ht-degree: 2%
-
 ---
-
 # Utilisation de modèles
 
 GenStudio for Performance Marketing permet aux créateurs de contenu de produire rapidement du contenu marketing cohérent sur la marque à l’aide de _modèles_. Un modèle réduit considérablement le temps et les efforts requis pour générer un nouveau contenu en fournissant un point de départ qui inclut des dispositions et des éléments de conception préconfigurés. Pour commencer, chargez un modèle personnalisé dans [!DNL Content] ou utilisez un modèle de démarrage dans [!DNL Create]. Les [modèles de démarrage](/help/user-guide/templates/starter-templates.md) offrent un moyen rapide de commencer par une conception standard, tandis qu’un modèle personnalisé vous permet d’utiliser vos conceptions et mises en page uniques.
@@ -77,7 +90,7 @@ Vous [personnalisez votre modèle](customize-template.md) à utiliser dans GenSt
 
 ## Gérer les modèles
 
-La galerie _[!DNL Templates]_&#x200B;affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
+La galerie _[!DNL Templates]_affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
 
 ### Rechercher des modèles
 
@@ -96,11 +109,11 @@ La fonctionnalité de recherche de modèles est disponible lors de la [!UICONTRO
 
 ### Ajouter un modèle
 
-Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [&#x200B; Personnaliser les modèles &#x200B;](customize-template.md).
+Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [ Personnaliser les modèles ](customize-template.md).
 
 **Pour ajouter un modèle** :
 
-1. Dans _[!DNL Content]_, sélectionnez la section **[!UICONTROL Modèles HTML]**&#x200B;dans la barre supérieure.
+1. Dans _[!DNL Content]_, sélectionnez la section **[!UICONTROL Modèles HTML]**dans la barre supérieure.
 
 1. Cliquez sur **[!UICONTROL + Ajouter un modèle]**.
 
@@ -143,7 +156,7 @@ Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et 
 
    Le nom du modèle et le type de canal sont obligatoires. Les exigences supplémentaires peuvent inclure :
 
-   - **&#x200B;**&#x200B;: nécessite des proportions
+   - **** : nécessite des proportions
    - **Bannière et publicité display** : nécessite des dimensions.
 
 1. Ajoutez autant de détails que possible pour améliorer l’identification du modèle dans les recherches et le filtrage.
@@ -186,8 +199,8 @@ Pour utiliser les modèles Marketo de votre bibliothèque Marketo Engage dans Ge
 
 Les modèles d’application reconnus sont les suivants :
 
-- **&#x200B;**&#x200B;: `{{profile.*}}`, `{{context.*}}`
-- **&#x200B;**&#x200B;: `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
+- **** : `{{profile.*}}`, `{{context.*}}`
+- **** : `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
 
 >[!BEGINSHADEBOX]
 

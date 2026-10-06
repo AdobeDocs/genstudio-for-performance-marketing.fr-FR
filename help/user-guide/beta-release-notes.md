@@ -1,16 +1,17 @@
 ---
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
-hidefromtoc: true
+hidefromtoc: 'yes'
 hide: true
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 51b4eea1a1de48edc52b7f740638c2a2989d9c19
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 2%
-
 ---
-
 # Notes de mise à jour d’Adobe GenStudio for Performance Marketing Beta
 
 Ces notes mettent en évidence les correctifs et améliorations importants apportés à Adobe GenStudio for Performance Marketing pour la semaine se terminant le 4 octobre.

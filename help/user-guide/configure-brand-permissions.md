@@ -1,40 +1,50 @@
 ---
 title: Configuration des autorisations de marque
-description: Découvrez comment attribuer des droits aux créateurs et  [!DNL Brand]  éditeurs GenStudio for Performance Marketing.
+description: Découvrez comment attribuer des droits aux créateurs et aux éditeurs de [!DNL Brand] GenStudio for Performance Marketing.
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-TQID: https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE
+TQID: 'https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+subfeature_v2:
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+    internal-label: Brand personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Administration
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: '743'
 ht-degree: 4%
-
 ---
-
 # Attribuer des autorisations [!DNL Brand]
 
 Par défaut, les responsables système de GenStudio peuvent créer et modifier des [!DNL Brands]. Les rôles d&#39;éditeur de contenu et de collaborateur disposent d&#39;autorisations de modification et de création, mais peuvent ne pas nécessiter de droits de gestion du système.
 
-Pour accorder aux éditeurs et aux collaborateurs de contenu ces droits liés à [!DNL Brand], un administrateur système Adobe doit effectuer des tâches de configuration supplémentaires dans Adobe Admin Console. Voir [&#128279;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html#Overview) dans _Guide d’administration pour les entreprises et les équipes_.
+Pour accorder aux éditeurs et aux collaborateurs de contenu ces droits liés à [!DNL Brand], un administrateur système Adobe doit effectuer des tâches de configuration supplémentaires dans Adobe Admin Console. Voir [](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) dans _Guide d’administration pour les entreprises et les équipes_.
 
-L’ajout d’utilisateurs et de groupes d’utilisateurs est une tâche de base commune à tous les produits Adobe avec des droits gérés via Admin Console. Consultez [Utilisateurs &#x200B;](https://helpx.adobe.com/fr/enterprise/using/users.html) dans le _Guide d’administration d’entreprise et d’équipes_ pour obtenir un aperçu de la gestion des utilisateurs et des procédures d’ajout d’utilisateurs et de groupes d’utilisateurs.
+L’ajout d’utilisateurs et de groupes d’utilisateurs est une tâche de base commune à tous les produits Adobe avec des droits gérés via Admin Console. Consultez [Utilisateurs ](https://helpx.adobe.com/fr/enterprise/using/users.html) dans le _Guide d’administration d’entreprise et d’équipes_ pour obtenir un aperçu de la gestion des utilisateurs et des procédures d’ajout d’utilisateurs et de groupes d’utilisateurs.
 
 Regardez cette présentation vidéo ou suivez les étapes ci-dessous.
 
->[!VIDEO](https://video.tv.adobe.com/v/3474999?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
 
 ## Étape 1 : créer un groupe d’utilisateurs
 
@@ -108,7 +118,7 @@ Un _projet_ fournit un emplacement de stockage où certains utilisateurs peuvent
 
 1. Cliquez sur **[!UICONTROL Créer]**. La fenêtre contextuelle _Inviter au projet_ s’ouvre.
 
-Voir [Gérer les projets](https://helpx.adobe.com/fr/enterprise/using/projects-in-business-storage.html) dans le guide d’administration _Entreprise et équipes_.
+Voir [Gérer les projets](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) dans le guide d’administration _Entreprise et équipes_.
 
 ## Étape 5 : inviter un groupe d’utilisateurs à rejoindre le projet
 

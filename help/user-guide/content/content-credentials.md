@@ -4,26 +4,36 @@ description: Découvrez comment appliquer et réviser Content Credentials dans G
 level: Intermediate
 feature: Content Management, Content Attributes
 exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
-TQID: https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw
+TQID: 'https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+    internal-label: Compliance
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+    internal-label: Content attributes
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 5fe8dccdcf24d26706b7d3621acc1715fd9eb164
+    internal-label: Metadata
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: '750'
 ht-degree: 5%
-
 ---
-
 # Content Credentials pour les organisations
 
 Découvrez comment les informations d’identification inviolables pour le contenu qui prouvent l’authenticité de la marque et la conformité du lecteur sont directement intégrées à votre workflow marketing.
@@ -43,7 +53,7 @@ Content Credentials compatible C2PA ne nécessite aucune configuration de certif
 
 ## Que sont les Content Credentials ? 
 
-Les Content Credentials sont un type de métadonnées durable et standard, avec des détails sur la création du contenu et des informations d’identité sur les créateurs et les créatrices. Vous pouvez afficher Content Credentials lorsque le contenu est publié en ligne sur des plateformes de prise en charge ou à l’aide d’outils tels que [l’outil Adobe Inspect](https://contentauthenticity.adobe.com/inspect) ou l’extension de navigateur Adobe Content Authenticity Chrome [&#128279;](https://helpx.adobe.com/fr/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Les Content Credentials sont un type de métadonnées durable et standard, avec des détails sur la création du contenu et des informations d’identité sur les créateurs et les créatrices. Vous pouvez afficher Content Credentials lorsque le contenu est publié en ligne sur des plateformes de prise en charge ou à l’aide d’outils tels que [l’outil Adobe Inspect](https://contentauthenticity.adobe.com/inspect) ou l’extension de navigateur Adobe Content Authenticity Chrome [](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 L’application de Content Credentials peut aider à accroître la transparence sur la création du contenu et peut aider vos utilisateurs à se connecter à leur contenu.
 
@@ -63,7 +73,7 @@ L’application de Content Credentials peut être réalisée tout au long du wor
 
 Dans la galerie de contenu, les informations d’identification s’affichent sur les ressources importées.
 
-Le badge Content Credential dans le coin supérieur droit de la miniature indique [!UICONTROL &#x200B; contenu signé par la marque &#x200B;].
+Le badge Content Credential dans le coin supérieur droit de la miniature indique [!UICONTROL  contenu signé par la marque ].
 
 ![Ressource importée avec informations d’identification](./images/import-discovery1.png)
 
@@ -95,7 +105,7 @@ Dans l’aperçu Réviser et approuver , le statut des informations d’identifi
 
 Les informations d’identification par variante s’affichent lorsque les réviseurs inspectent les ressources. Les expériences approuvées sont resignées lorsque les utilisateurs cliquent sur **[!UICONTROL Enregistrer dans le contenu]**.
 
-![Boîte de dialogue Confirmer les détails du contenu approuvé, avec le bouton Enregistrer dans le contenu &#x200B;](./images/review-and-approve3.png)
+![Boîte de dialogue Confirmer les détails du contenu approuvé, avec le bouton Enregistrer dans le contenu ](./images/review-and-approve3.png)
 
 ### Activation et export
 
@@ -113,5 +123,5 @@ L’intégrité des informations d’identification est préservée dans tous le
 
 ## Informations connexes
 
-* [Transparence du contenu](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
-* [&#128279;](https://helpx.adobe.com/fr/creative-cloud/help/content-credentials.html) chez Adobe
+* [Transparence du contenu](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [](https://helpx.adobe.com/fr/creative-cloud/help/content-credentials.html) chez Adobe

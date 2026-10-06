@@ -3,7 +3,7 @@ title: Workflow d’activation
 description: Découvrez le workflow d’activation des expériences publicitaires.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-TQID: https://experienceleague.adobe.com/HSwFeL1qCzgFao2Ii64Hx-kaADRnd3dxaswFMzJ7nfA
+TQID: 'https://experienceleague.adobe.com/HSwFeL1qCzgFao2Ii64Hx-kaADRnd3dxaswFMzJ7nfA'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
     internal-label: GenStudio for Performance Marketing
@@ -14,11 +14,15 @@ feature_v2:
     internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
     internal-label: Guidelines
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
     internal-label: Assets
   - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
     internal-label: Channels
+  - id: d87258a7-722c-4afd-b632-adddc447c7aa
+    internal-label: Ad activation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +31,7 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: db0cebfe795569d9913757d190db853097a00405
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 4%
@@ -46,7 +50,7 @@ Vous préparez et approuvez ces composants dans [!DNL Content] avant l’activat
 
 Un seul tableau d’activation peut inclure des expériences pour plusieurs plateformes et formats d’annonces publicitaires payantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503540?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## Connecter les comptes de votre plateforme
 
@@ -135,7 +139,7 @@ Vos tableaux d’activation s’affichent sur la page de destination [!DNL Activ
 Chaque plateforme de publicités payantes comporte des champs de configuration et des conditions préalables spécifiques. Sélectionnez la plateforme de publicités payantes pour obtenir des instructions d’activation :
 
 * [Meta](activate-meta-ad.md)
-* [&#x200B; LinkedIn &#x200B;](activate-linkedin-ad.md)
+* [LinkedIn](activate-linkedin-ad.md)
 * [Google Campaign Manager 360](activate-cm360-ad.md)
 * [Amazon Ads](activate-amazon-ad.md)
 * [Innovid](activate-innovid-ad.md)

@@ -3,23 +3,33 @@ title: Vérifier et modifier le contenu
 description: Découvrez comment réviser et modifier le contenu de manière itérative avec Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-TQID: https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA
+TQID: 'https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Content production
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Vérifier et modifier le contenu
 
 L’étape de révision et d’approbation implique souvent plusieurs parties prenantes et des commentaires itératifs, ce qui peut ralentir la production de contenu. GenStudio for Performance Marketing simplifie ce processus grâce à une IA générative qui accélère les révisions de contenu, ce qui permet aux créateurs et aux créatrices de répondre rapidement aux commentaires à l’aide de modifications rapides. Plus le cycle de révision est complexe, plus GenStudio permet de gagner du temps.
@@ -74,7 +84,7 @@ Le créateur de contenu peut continuer ses modifications tout en recevant les co
 
 ## Vérifier le contenu avec Workfront Proof
 
-[!DNL Proofing Viewer] fournit des [outils de balisage fiables](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) pour l’annotation des épreuves et le suivi des modifications. Vous pouvez également comparer deux versions de BAT.
+[!DNL Proofing Viewer] fournit des [outils de balisage fiables](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) pour l’annotation des épreuves et le suivi des modifications. Vous pouvez également comparer deux versions de BAT.
 
 **Pour vérifier le contenu** :
 
@@ -94,7 +104,7 @@ Le créateur de contenu peut continuer ses modifications tout en recevant les co
 
 ### Comparer les épreuves
 
-À partir de [!DNL Proofing Viewer], vous pouvez [comparer les versions de BAT](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+À partir de [!DNL Proofing Viewer], vous pouvez [comparer les versions de BAT](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
 
 **Pour comparer des épreuves** :
 
@@ -104,4 +114,4 @@ Le créateur de contenu peut continuer ses modifications tout en recevant les co
 
    Les épreuves s’affichent côte à côte, avec la version la plus récente sur la gauche.
 
-Workfront Proof fournit plusieurs outils de comparaison de BAT, notamment un outil de comparaison automatique. Voir [Utiliser les outils de comparaison](https://experienceleague.adobe.com/fr/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
+Workfront Proof fournit plusieurs outils de comparaison de BAT, notamment un outil de comparaison automatique. Voir [Utiliser les outils de comparaison](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).

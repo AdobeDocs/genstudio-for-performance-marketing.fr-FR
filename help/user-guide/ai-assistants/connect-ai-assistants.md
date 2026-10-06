@@ -2,7 +2,13 @@
 title: Connecter un assistant d’IA
 description: Découvrez comment connecter un assistant d’IA pris en charge à [!DNL GenStudio for Performance Marketing] et vérifier l’accès aux outils disponibles.
 role: User
-source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -78,7 +84,7 @@ Le Codex requiert l’interface de ligne de commande du Codex et un compte Codex
 
 Writer requiert l’accès à AI Studio.
 
-1. Dans Writer, ouvrez **&#x200B;**.
+1. Dans Writer, ouvrez ****.
 1. Sélectionnez **[!UICONTROL Connecteurs et outils]**.
 1. Sélectionnez **[!UICONTROL Créer un connecteur personnalisé]**.
 1. Sélectionnez **[!UICONTROL Serveur MCP]** comme type de connecteur.
