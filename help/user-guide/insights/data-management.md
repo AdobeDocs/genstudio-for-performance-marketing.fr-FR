@@ -60,7 +60,7 @@ GenStudio for Performance Marketing utilise Customer Journey Analytics (CJA) pou
 
 **Informations importantes sur les connexions de données**
 
-Si vous êtes un [administrateur système ](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), vous pouvez disposer de droits qui vous donnent accès à la gestion des sandbox AEP et aux composants du lac de données qui prennent en charge GenStudio for Performance Marketing.
+Si vous êtes un [administrateur système &#x200B;](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), vous pouvez disposer de droits qui vous donnent accès à la gestion des sandbox AEP et aux composants du lac de données qui prennent en charge GenStudio for Performance Marketing.
 
 >[!WARNING]
 >

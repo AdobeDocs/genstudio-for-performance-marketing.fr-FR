@@ -90,7 +90,7 @@ Vous [personnalisez votre modèle](customize-template.md) à utiliser dans GenSt
 
 ## Gérer les modèles
 
-La galerie _[!DNL Templates]_affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
+La galerie _[!DNL Templates]_&#x200B;affiche votre inventaire de modèles personnalisés pour la génération d’expériences dans GenStudio for Performance Marketing.
 
 ### Rechercher des modèles
 
@@ -109,11 +109,11 @@ La fonctionnalité de recherche de modèles est disponible lors de la [!UICONTRO
 
 ### Ajouter un modèle
 
-Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [ Personnaliser les modèles ](customize-template.md).
+Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et prêt à être utilisé dans GenStudio for Performance Marketing en suivant les instructions de la section [&#x200B; Personnaliser les modèles &#x200B;](customize-template.md).
 
 **Pour ajouter un modèle** :
 
-1. Dans _[!DNL Content]_, sélectionnez la section **[!UICONTROL Modèles HTML]**dans la barre supérieure.
+1. Dans _[!DNL Content]_, sélectionnez la section **[!UICONTROL Modèles HTML]**&#x200B;dans la barre supérieure.
 
 1. Cliquez sur **[!UICONTROL + Ajouter un modèle]**.
 
@@ -156,7 +156,7 @@ Avant de charger un modèle, assurez-vous qu’il est entièrement préparé et 
 
    Le nom du modèle et le type de canal sont obligatoires. Les exigences supplémentaires peuvent inclure :
 
-   - **** : nécessite des proportions
+   - **&#x200B;**&#x200B;: nécessite des proportions
    - **Bannière et publicité display** : nécessite des dimensions.
 
 1. Ajoutez autant de détails que possible pour améliorer l’identification du modèle dans les recherches et le filtrage.
@@ -199,8 +199,8 @@ Pour utiliser les modèles Marketo de votre bibliothèque Marketo Engage dans Ge
 
 Les modèles d’application reconnus sont les suivants :
 
-- **** : `{{profile.*}}`, `{{context.*}}`
-- **** : `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
+- **&#x200B;**&#x200B;: `{{profile.*}}`, `{{context.*}}`
+- **&#x200B;**&#x200B;: `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
 
 >[!BEGINSHADEBOX]
 

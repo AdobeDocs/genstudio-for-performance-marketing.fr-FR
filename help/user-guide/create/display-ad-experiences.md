@@ -40,13 +40,13 @@ ht-degree: 7%
 
 Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences d’affichage réussies](/help/user-guide/create/create-display-ad.md).
 
-[!DNL Create] permet aux professionnels du marketing modernes de [produire des expériences d’affichage et de publicité cohérentes avec la marque](/help/user-guide/create/create-display-ad.md) à l’aide de [directives](/help/user-guide/guidelines/overview.md), de ressources d’image et d’une [ invite bien conçue](/help/user-guide/effective-prompts.md).
+[!DNL Create] permet aux professionnels du marketing modernes de [produire des expériences d’affichage et de publicité cohérentes avec la marque](/help/user-guide/create/create-display-ad.md) à l’aide de [directives](/help/user-guide/guidelines/overview.md), de ressources d’image et d’une [&#x200B; invite bien conçue](/help/user-guide/effective-prompts.md).
 
 Lors de la génération de l’affichage et des expériences, quatre variations sont créées et affichées dans la zone de travail.
 
 Consultez [Instructions relatives à l’affichage des modèles d’annonce publicitaire](/help/user-guide/templates/display-template.md) pour plus d’informations sur les dimensions prises en charge, les noms de champs reconnus, etc.
 
-Vous pouvez traduire une expérience d’annonce publicitaire approuvée dans plusieurs langues sur la zone de travail d’HTML. Voir [ Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
+Vous pouvez traduire une expérience d’annonce publicitaire approuvée dans plusieurs langues sur la zone de travail d’HTML. Voir [&#x200B; Traduire et localiser des expériences](/help/user-guide/create/translate-experiences.md).
 
 Les sections modifiables d’un affichage et d’une expérience sont les suivantes :
 

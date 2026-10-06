@@ -80,7 +80,7 @@ Un gestionnaire système a connecté votre compte TikTok Ads dans [!DNL Activate
 
 ### Créer une configuration
 
-* Votre [ marque, vos produits et vos rôles](/help/user-guide/guidelines/overview.md) sont configurés de sorte que l’application puisse générer une copie et des mises en page sur la marque.
+* Votre [&#x200B; marque, vos produits et vos rôles](/help/user-guide/guidelines/overview.md) sont configurés de sorte que l’application puisse générer une copie et des mises en page sur la marque.
 * Au moins un modèle TikTok est chargé. Adobe recommande un modèle vidéo vertical TikTok, optimisé pour un emplacement dans le flux, avec un format d’image **9:16** et des zones sécurisées pour l’interface utilisateur supérieure et inférieure.
 * Les vidéos sont chargées vers [!DNL Content].
 

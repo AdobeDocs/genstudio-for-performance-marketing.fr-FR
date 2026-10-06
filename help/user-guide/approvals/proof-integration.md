@@ -38,7 +38,7 @@ L’intégration à Workfront Proof améliore le cycle de vie de révision et d�
 
 **Conditions préalables** :
 
-Installez l’extension [Visionneuse web ](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+Installez l’extension [Visionneuse web &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 

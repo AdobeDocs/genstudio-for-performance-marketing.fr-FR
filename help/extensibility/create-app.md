@@ -99,7 +99,7 @@ Vous pouvez utiliser un exemple d’application pour démarrer rapidement la cr�
 
 **Pour créer une application App Builder à partir d’une application existante** :
 
-1. Téléchargez un exemple d’application à partir du référentiel [Exemples UIX de ](https://github.com/adobe/genstudio-uix-examples).
+1. Téléchargez un exemple d’application à partir du référentiel [Exemples UIX de &#x200B;](https://github.com/adobe/genstudio-uix-examples).
 
 1. Dans l’espace de travail Projet App Builder sur [Adobe Developer Console](https://developer.adobe.com/console/), sélectionnez [!UICONTROL Tout télécharger] pour télécharger les détails du projet.
 
@@ -135,6 +135,6 @@ La maintenance de votre environnement de développement peut vous aider à évit
   rm -rf node_modules package-lock.json && npm i
   ```
 
-* Mettez à niveau le SDK UIX de GenStudio. Vérifiez que vous utilisez la version la plus récente de [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk). Reportez-vous au [Référentiel d’exemples de l’UIX de ](https://github.com/adobe/genstudio-uix-examples) pour savoir comment utiliser les modifications SDK les plus récentes.
+* Mettez à niveau le SDK UIX de GenStudio. Vérifiez que vous utilisez la version la plus récente de [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk). Reportez-vous au [Référentiel d’exemples de l’UIX de &#x200B;](https://github.com/adobe/genstudio-uix-examples) pour savoir comment utiliser les modifications SDK les plus récentes.
 
 Vous êtes maintenant prêt à [déployer votre application](deploy-app.md)

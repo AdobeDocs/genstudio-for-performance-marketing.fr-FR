@@ -68,7 +68,7 @@ Voir [Approbation de ressources dans Experience Manager](https://experienceleagu
 
 ## Étape 4 : configurer la visibilité des ressources
 
-Dans _[!DNL AEM Assets Content Hub]_options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
+Dans _[!DNL AEM Assets Content Hub]_&#x200B;options de configuration, passez en revue chaque jeu d’options de configuration pour les filtres, les détails de la ressource, la recherche et le branding.
 
 Voir [Configuration de l’interface utilisateur de Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) dans la documentation d’_AEM as a Cloud Service_.
 
@@ -76,4 +76,4 @@ Voir [Configuration de l’interface utilisateur de Content Hub](https://experie
 
 Dans Contenu GenStudio for Performance Marketing, la liste _[!UICONTROL Emplacement]_ est disponible au-dessus de la galerie sur le côté droit. La liste n’est pas disponible si vous n’y avez pas accès ou si votre organisation n’a pas déployé et connecté un référentiel [!DNL AEM Assets Content Hub].
 
-Voir [Emplacement ](manage-assets.md#assets-location) pour en savoir plus sur la liste Emplacement et la modification des référentiels.
+Voir [Emplacement &#x200B;](manage-assets.md#assets-location) pour en savoir plus sur la liste Emplacement et la modification des référentiels.
