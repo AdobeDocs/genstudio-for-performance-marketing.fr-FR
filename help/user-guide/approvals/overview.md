@@ -30,9 +30,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Révisions et approbations Adobe GenStudio for Performance Marketing
 
@@ -74,9 +74,9 @@ Le statut du brouillon capture l’état du brouillon de contenu au fur et à me
 
 Statuts de brouillon disponibles :
 
-**Notifié** : l’éditeur de contenu a lancé le processus de révision et d’approbation en informant les approbateurs qu’un brouillon est prêt pour la révision.
-**Travail nécessaire** : indique qu&#39;un ou plusieurs approbateurs ont demandé des modifications pour le brouillon de contenu. Le contenu avec ce statut ne peut pas être enregistré dans [!DNL Content].
-**Approuvé** : tous les approbateurs désignés ont approuvé la ressource ou l’expérience. L’éditeur ou l’éditrice de contenu peut désormais ajouter des métadonnées à la ressource ou à l’expérience et les enregistrer dans [!DNL Content].
+**Notifié** : l’éditeur ou l’éditrice de contenu a lancé le processus de révision et d’approbation en informant les approbateurs et approbatrices qu’un brouillon est prêt à être révisé.
+**Travail nécessaire** : indique qu’un ou plusieurs personnes chargées de l’approbation ont demandé des modifications au brouillon.Le contenu avec ce statut ne peut pas être enregistré dans [!DNL Content].
+**Approuvé** : tous les approbateurs et approbatrices désignés ont approuvé la ressource ou l’expérience.L’éditeur ou l’éditrice de contenu peut désormais ajouter des métadonnées à la ressource ou à l’expérience et les enregistrer dans [!DNL Content].
 
 >[!NOTE]
 >

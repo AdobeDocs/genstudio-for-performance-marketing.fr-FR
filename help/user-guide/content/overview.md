@@ -1,5 +1,5 @@
 ---
-title: Présentation d’Adobe GenStudio for Performance Marketing [!DNL Content]
+title: Vue d’ensemble d’Adobe GenStudio for Performance Marketing [!DNL Content]
 description: Découvrez comment trouver, modifier, réutiliser et partager les ressources approuvées par la marque dans un portail intuitif unique.
 level: Beginner
 feature: Content Management, Media Templates
@@ -30,9 +30,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 84%
+ht-degree: 100%
 ---
 # Adobe GenStudio for Performance Marketing [!DNL Content]
 
@@ -40,112 +40,59 @@ GenStudio for Performance Marketing [!DNL Content] fournit un emplacement cen
 
 ## Scénarios d’utilisation d’[!DNL Content]
 
-<table style="table-layout:fixed">
-
-<tr style="border: 0;">
-
-   <td align="center" valign="top" width="100">
-
-      <a href="../content/manage-assets.md#search">
-
-         <img alt="loupe" src="../../assets/icons/icon-search.png">
-
-      </a>
-
-      <p>
-
-         <a href="../content/manage-assets.md#search-content">
-
-         <strong>Rechercher du contenu</strong>
-
-         </a>
-
-      </p>
-
-   </td>
-
-   <td align="center" valign="top" width="100">
-
-      <a href="../content/manage-assets.md">
-
-         <img alt="images avec un signe plus" src="../../assets/icons/icon-addContent.png">
-
-      </a>
-
-      <p>
-
-         <a href="../content/manage-assets.md">
-
-         <strong>Ajouter des ressources</strong>
-
-         </a>
-
-      </p>
-
-   </td>
-
-   <td align="center" valign="top" width="100">
-
-      <a href="../content/asset-details.md#edit-in-express">
-
-         <img alt="Modifier dans Adobe Express" src="../../assets/icons/icon-editExpress.png">
-
-      </a>
-
-      <p>
-
-         <a href="../content/asset-details.md#edit-in-express">
-
-         <strong>Modification de ressources dans Adobe Express</strong>
-
-         </a>
-
-      </p>
-
-   </td>
-
-   <td align="center" valign="top" width="100">
-
-      <a href="../templates/customize-template.md">
-
-         <img alt="éclair affiché sur la ressource" src="../../assets/icons/icon-template.png">
-
-      </a>
-
-      <p>
-
-         <a href="../templates/customize-template.md">
-
-         <strong>Personnaliser un modèle</strong>
-
-         </a>
-
-      </p>
-
-   </td>
-
-   <td align="center" valign="top" width="100">
-
-      <a href="../templates/use-templates.md">
-
-         <img alt="éclair sur la ressource avec un signe plus" src="../../assets/icons/icon-addTemplate.png">
-
-      </a>
-
-      <p>
-
-         <a href="../templates/use-templates.md#upload-a-template">
-
-         <strong>Télécharger le modèle</strong>
-
-         </a>
-
-      </p>
-
-   </td>
-
-</tr>
-
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+   <td align="center" valign="top" width="100">
+      <a href="../content/manage-assets.md#search">
+         <img alt="loupe" src="../../assets/icons/icon-search.png">
+      </a>
+      <p>
+         <a href="../content/manage-assets.md#search-content">
+         <strong>Rechercher du contenu</strong>
+         </a>
+      </p>
+   </td>
+   <td align="center" valign="top" width="100">
+      <a href="../content/manage-assets.md">
+         <img alt="images avec un signe plus" src="../../assets/icons/icon-addContent.png">
+      </a>
+      <p>
+         <a href="../content/manage-assets.md">
+         <strong>Ajouter des ressources</strong>
+         </a>
+      </p>
+   </td>
+   <td align="center" valign="top" width="100">
+      <a href="../content/asset-details.md#edit-in-express">
+         <img alt="Modifier dans Adobe Express" src="../../assets/icons/icon-editExpress.png">
+      </a>
+      <p>
+         <a href="../content/asset-details.md#edit-in-express">
+         <strong>Modifier des ressources dans Adobe Express</strong>
+         </a>
+      </p>
+   </td>
+   <td align="center" valign="top" width="100">
+      <a href="../templates/customize-template.md">
+         <img alt="éclair affiché sur la ressource" src="../../assets/icons/icon-template.png">
+      </a>
+      <p>
+         <a href="../templates/customize-template.md">
+         <strong>Personnaliser un modèle</strong>
+         </a>
+      </p>
+   </td>
+   <td align="center" valign="top" width="100">
+      <a href="../templates/use-templates.md">
+         <img alt="éclair sur la ressource avec un signe plus" src="../../assets/icons/icon-addTemplate.png">
+      </a>
+      <p>
+         <a href="../templates/use-templates.md#upload-a-template">
+         <strong>Charger un modèle</strong>
+         </a>
+      </p>
+   </td>
+</tr>
 </table>
 
 ## Fonctionnalités [!DNL Content]
