@@ -205,7 +205,7 @@ Vous trouverez ci-dessous un exemple de bloc JSON affichant les schémas.
         },
         "destination_url": {
             "fieldName": "destination_url",
-            "fieldValue": "https://www.adobe.com"
+            "fieldValue": "https://www.adobe.com/fr"
         },
         "description": {
             "fieldName": "description",
