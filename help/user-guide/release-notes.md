@@ -68,18 +68,34 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
+source-git-commit: 87749b66644ae6b322ccf872a9b21696d87b4b99
 workflow-type: tm+mt
-source-wordcount: '5824'
-ht-degree: 100%
+source-wordcount: '5942'
+ht-degree: 98%
 ---
 # Notes de mise à jour de GenStudio for Performance Marketing
 
 Ces informations de mise à jour fournissent les dernières mises à jour de l’application GenStudio for Performance Marketing.
 
-## 2026.09.15 {#latest}
+## 2026.10.15 {#latest}
 
 **NOUVELLES FONCTIONNALITÉS :**
+
+### Génération dynamique avec empreinte vocale et repères visuels
+
+La génération avec état vous permet d’affiner le contenu tour à tour dans une conversation au lieu de recommencer à chaque fois avec une nouvelle invite. La génération se souvient de vos instructions précédentes et des variantes que vous conservez, puis applique uniquement la modification que vous demandez.
+
+La fonctionnalité d’impression vocale conserve une copie de la voix de votre marque sur les canaux avec [!DNL Insights], tels que LinkedIn et Meta. Des repères visuels permettent d’obtenir une copie au sol d’une image ou d’une vidéo que vous sélectionnez. Vous pouvez également ajouter une URL de page web comme contexte de référence dans votre invite.
+
+En savoir plus dans [Générer et affiner le contenu avec la génération avec état](/help/user-guide/create/stateful-generation.md).
+
+### Correctifs et améliorations
+
+* L’identifiant de suivi dans une activation en bloc est désormais automatiquement renseigné avec le nom de l’expérience.
+
+## Notes de mise à jour antérieures
+
++++Notes de la version 2026.09.15
 
 ### Activation en masse
 
@@ -87,7 +103,7 @@ Ces informations de mise à jour fournissent les dernières mises à jour de l�
 
 En savoir plus dans [Workflow d’activation](/help/user-guide/activation/create-activation.md).
 
-## Notes de mise à jour antérieures
++++
 
 +++Notes de la version 2026.07.16
 
