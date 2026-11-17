@@ -6,10 +6,10 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
-workflow-type: ht
-source-wordcount: '316'
-ht-degree: 100%
+source-git-commit: 7863995df08681a8a427277121a5fbeca131c6a9
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 99%
 ---
 
 # Guide d’Adobe GenStudio for Performance Marketing {#user-guide}
@@ -81,7 +81,7 @@ ht-degree: 100%
   + [Travailler avec des modèles](templates/use-templates.md)
   + [Modèles de démarrage](templates/starter-templates.md)
   + [Personnaliser un modèle](templates/customize-template.md)
-  + [ Éditeur de code de modèle ](templates/code-editor.md)
+  + [&#x200B; Éditeur de code de modèle &#x200B;](templates/code-editor.md)
   + [Créer des modèles accessibles](templates/accessibility-for-templates.md)
   + [Utilisation de modèles Express](/help/user-guide/templates/express-templates.md)
   + [Bonnes pratiques relatives aux modèles](templates/best-practices-for-templates.md)
@@ -98,10 +98,11 @@ ht-degree: 100%
   + [Vue d’ensemble de l’activation](activation/overview.md)
   + [Processus d’activation](activation/create-activation.md)
   + [Gérer les activations](activation/manage-activations.md)
+  + [Générer des noms d’annonces publicitaires](activation/generate-ad-names.md)
   + [Optimiser les activations](activation/troubleshooting.md)
   + Publicités média acheté {#paid-media-ads}
     + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
-    + [ LinkedIn ](activation/activate-linkedin-ad.md)
+    + [&#x200B; LinkedIn &#x200B;](activation/activate-linkedin-ad.md)
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [Innovid](activation/activate-innovid-ad.md)
