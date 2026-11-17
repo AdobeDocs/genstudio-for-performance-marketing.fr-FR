@@ -59,7 +59,7 @@ Modifiez un modèle enregistré pour ajuster son nom, ses champs, son séparateu
 1. Ouvrez le menu à trois points en regard de votre modèle.
 1. Sélectionnez **[!UICONTROL Modifier]**.
 1. Sélectionnez l’icône en forme de crayon à côté du titre pour renommer le modèle.
-1. Définissez le séparateur de champs **** en fonction de votre convention.
+1. Définissez le séparateur de champs **&#x200B;**&#x200B;en fonction de votre convention.
 1. Faites glisser les champs dans l’ordre requis.
 
    Utilisez **[!UICONTROL Ajouter un champ]** ou l’icône de corbeille d’un champ si vous devez modifier les champs inclus.
