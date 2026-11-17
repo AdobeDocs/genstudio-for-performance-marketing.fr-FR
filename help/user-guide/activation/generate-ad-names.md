@@ -2,9 +2,9 @@
 title: Générer des noms d’annonces publicitaires
 description: Découvrez comment configurer des modèles de dénomination, générer des noms d’annonce cohérents et réviser ou personnaliser les noms avant d’envoyer des annonces à vos plateformes d’activation prises en charge.
 role: User
-source-git-commit: 6db986fefd199181e568e5fbc7a3b23554e5e70d
+source-git-commit: 888a9509ed1c3705f67fbf541b38a49b7890ac7d
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1746'
 ht-degree: 1%
 ---
 
@@ -122,6 +122,13 @@ L’exemple ci-dessous montre l’aperçu du modèle, l’ordre des champs, les 
 
 Préparez votre activation avant de générer des noms. Les métadonnées de chaque expérience contiennent des informations telles que la campagne, le produit ou la personne qui la compose. Vérifiez que les métadonnées fournissent les valeurs dont votre modèle a besoin. Voir [Workflow d’activation](create-activation.md) pour obtenir de l’aide sur la préparation d’une activation.
 
+Lorsque vous créez une activation pour la première fois, le nom initial de chaque publicité dépend de l’affectation du modèle de sa plateforme :
+
+| Configuration de Platform | Nom de l’annonce publicitaire initiale |
+| --- | --- |
+| Un modèle de dénomination est affecté dans le projet actuel. | Les champs de modèle vides apparaissent comme des espaces réservés, par exemple `[market]_[year]`. Les noms ne sont générés qu&#39;après avoir sélectionné **[!UICONTROL Générer un nom d&#39;annonce]**. |
+| Aucun modèle de dénomination n&#39;est affecté dans le projet actuel. | L’annonce publicitaire utilise le nom de son expérience. La génération du nom ne modifie pas ce nom. |
+
 1. Ouvrez **[!UICONTROL Activer]** dans le projet prévu.
 1. Ajoutez vos expériences à une activation.
 1. Terminez la configuration de la plateforme et toutes les informations requises, y compris la copie, call-to-action (CTA) et l’URL du site web.
@@ -134,13 +141,13 @@ Préparez votre activation avant de générer des noms. Les métadonnées de cha
 
 La génération s’applique à toutes les publicités sur les plateformes auxquelles un modèle est affecté, à l’exception des publicités avec [remplacements de nom personnalisés](#use-a-custom-ad-name). Les noms ne sont pas générés automatiquement lorsque vous ouvrez le tableau.
 
-Au départ, chaque publicité utilise le nom de son expérience. Si aucun modèle n’est affecté à une plateforme, la génération laisse ses noms inchangés. Modifiez ces noms manuellement selon vos besoins.
+Pour les plateformes auxquelles aucun modèle n’est affecté, modifiez manuellement les noms des annonces basées sur l’expérience, si nécessaire.
 
 Si aucun modèle n’est affecté à aucune plateforme, aucun nom n’est généré.
 
 ## Corriger un nom d’annonce publicitaire individuel
 
-Consultez les noms générés avant d’envoyer vos publicités. Les valeurs manquantes apparaissent comme des espaces réservés de champ mis en surbrillance, tels que `[market]`, et les publicités affectées affichent **[!UICONTROL Besoin d’attention]**.
+Consultez les noms générés avant d’envoyer vos publicités. Tous les champs qui restent vides après la génération apparaissent comme des espaces réservés mis en surbrillance, tels que `[market]`. Les publicités concernées affichent **[!UICONTROL Nécessite une attention]**.
 
 Pour rechercher les noms qui doivent être corrigés, recherchez les espaces réservés mis en surbrillance et les statuts **[!UICONTROL Attention requise]** dans le tableau d’activation :
 
